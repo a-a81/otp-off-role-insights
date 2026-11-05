@@ -371,7 +371,7 @@ index.html（選択） --検索--> result.html?region=JP&lane=MID&type=main&cham
 
 | 項目 | 方針 |
 |---|---|
-| 画面の公開先 | GitHub Pages |
+| 画面の公開先 | GitHub Pages。https://a-a81.github.io/otp-off-role-insights/ （リポジトリ https://github.com/a-a81/otp-off-role-insights 、2026-11-06 公開） |
 | Python① の実行場所 | 当面は自宅の Windows PC |
 | 公開先へのアップロード | 夜間処理の最後に、集計ファイルを GitHub に commit して push する。Pages が自動で公開する |
 | 失敗に気づく方法 | ログファイル + Healthchecks.io。失敗したとき・決まった時刻までに終わらなかったときにメールで通知する |
@@ -490,7 +490,7 @@ data/<region>/otp/champions/*.json
 |---|---|---|---|
 | 開発用キー | 24 時間 | 2 分 100 回 | 試作と試運転に使った |
 | 個人用キー | なし | 開発用と同じ | 2026-11-05 承認。夜間処理はこれを使う |
-| 本番キー | なし | 大幅に上がる | 動く試作品の公開後に申請。取れたら `collect_otp.py` の `--min-interval` を上限に合わせて短くし、KR・NA をマスターまで広げる |
+| 本番キー | なし | 大幅に上がる | 試作品を公開したので申請できる。取れたら `collect_otp.py` の `--min-interval` を上限に合わせて短くし、KR・NA をマスターまで広げる |
 
 ## 8. 未決定事項
 
@@ -523,7 +523,8 @@ data/<region>/otp/champions/*.json
   | 1.25〜1.5 倍 | 554 | 42%（12 人で測定） | 0%（12 人で測定） |
   | 1.25 倍未満 | 932 | 37%（38 人で測定） | 8%（38 人で測定） |
 - 初回の収集（ふるい 1.5、2026-11-05 00:46〜19:52）: JP 1,828 人・KR 526 人・NA 583 人。メインの条件を満たしたのは JP 1,311 人・KR 347 人・NA 429 人。
-- 公開は GitHub Pages。夜間処理の最後に集計ファイルを commit して push する。PC には Git のインストールと GitHub の認証が要る。
+- 公開は GitHub Pages（https://a-a81.github.io/otp-off-role-insights/ ）。夜間処理の最後に集計ファイルを commit して push する（`nightly.local.json` の `gitPush: true`）。GitHub の認証は Git Credential Manager に保存してある。Jekyll の処理を飛ばすため `.nojekyll` を置いている。
+- 夜間タスクは 2026-11-06 に登録済み（毎日 4:00）。Healthchecks.io のチェックは Cron `0 4 * * *`・Asia/Tokyo・猶予 8 時間（数日様子を見て 6 時間に戻すか決める）。
 - 両ページの下に Riot の定型注記を入れる。公式の英文は常に出し、日本語・韓国語の画面では訳も出す。
 - サイト名は「OTP Off-Role Insights」（全言語共通）。OTP がオフレーンに飛ばされたとき・BAN されたときにどう対応しているかを見るサイト。
 - BAN されたときの参考は、メインレーンで 2 番目以降に使っているチャンピオン（`mainLaneNext`）をそのまま使う。BAN・取られた・自分で変えたを分けて出すことはしない（分けたくなったら、試合キャッシュに BAN の情報を足して取り直す）。
