@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTP Off-Role Insights</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="i18n.js"></script>
+  <script src="champions.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1 data-i18n="siteName"></h1>
+    <p class="lang"><label for="lang-select" data-i18n="language"></label><select id="lang-select"></select></p>
+  </header>
+
+  <section class="panel" id="search-panel">
+    <h2 data-i18n="chooseHeading"></h2>
+    <form id="search-form" action="result.html" method="get" autocomplete="off">
+      <div class="field">
+        <label for="region" data-i18n="region"></label>
+        <select id="region" name="region">
+          <option value="JP" selected>JP</option>
+          <option value="KR">KR</option>
+          <option value="NA">NA</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="lane" data-i18n="mainLane"></label>
+        <select id="lane" name="lane">
+          <option value="TOP"></option>
+          <option value="JUNGLE"></option>
+          <option value="MID" selected></option>
+          <option value="BOTTOM"></option>
+          <option value="UTILITY"></option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="profile" data-i18n="profile"></label>
+        <select id="profile" name="type">
+          <option value="main" data-i18n="profileMain" selected></option>
+          <option value="otp" data-i18n="profileOtp"></option>
+        </select>
+      </div>
+      <div class="field field-grow">
+        <label for="champion-input" data-i18n="champion"></label>
+        <span class="suggest">
+          <input id="champion-input" type="text" data-i18n-placeholder="championPlaceholder" required>
+          <ul id="champion-suggestions" class="suggestions" hidden></ul>
+        </span>
+        <input id="champion" name="champion" type="hidden">
+      </div>
+      <button id="search-button" type="submit" data-i18n="search"></button>
+    </form>
+    <p id="search-error" class="note" hidden></p>
+  </section>
+
+  <footer class="footer">
+    <p lang="en">OTP Off-Role Insights isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+    <p data-i18n="legal" data-i18n-optional></p>
+  </footer>
+
+  <script>
+    const MAX_SUGGESTIONS = 8;
+    const form = document.getElementById("search-form");
+    const input = document.getElementById("champion-input");
+    const hiddenId = document.getElementById("champion");
+    const list = document.getElementById("champion-suggestions");
+    const error = document.getElementById("search-error");
+    let champions = [];
+    let version = "";
+    let errorKey = "";
+
+    // ひらがな→カタカナ、全角→半角、記号と空白を無視して比べる（カイ＝サ / リー・シン / Kai'Sa）
+    function normalize(text) {
+      return text
+        .normalize("NFKC")
+        .toLowerCase()
+        .replace(/[\u3041-\u3096]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) + 0x60))
+        .replace(/[\s'’.&・=]/g, "");
+    }
+
+    function suggestionLabel(champion) {
+      const name = championName(champion.names, champion.id);
+      const en = champion.names.en;
+      return en && en !== name ? name + " (" + en + ")" : name;
+    }
+
+    function search(query) {
+      const q = normalize(query);
+      if (!q) return [];
+      const starts = [];
+      const contains = [];
+      for (const champion of champions) {
+        if (champion.keys.some((key) => key.startsWith(q))) starts.push(champion);
+        else if (champion.keys.some((key) => key.includes(q))) contains.push(champion);
+      }
+      return starts.concat(contains).slice(0, MAX_SUGGESTIONS);
+    }
+
+    function showError(key) {
+      errorKey = key;
+      error.textContent = key ? t(key) : "";
+      error.hidden = !key;
+    }
+
+    function selectedChampion() {
+      return champions.find((champion) => champion.id === hiddenId.value);
+    }
+
+    function choose(champion) {
+      input.value = championName(champion.names, champion.id);
+      hiddenId.value = champion.id;
+      list.hidden = true;
+      showError("");
+    }
+
+    function renderSuggestions(items) {
+      list.replaceChildren();
+      for (const champion of items) {
+        const item = document.createElement("li");
+        const button = document.createElement("button");
+        button.type = "button";
+        const label = document.createElement("span");
+        label.textContent = suggestionLabel(champion);
+        button.append(championIcon(version, champion), label);
+        button.addEventListener("click", () => {
+          choose(champion);
+          input.focus();
+        });
+        item.append(button);
+        list.append(item);
+      }
+      list.hidden = items.length === 0;
+    }
+
+    function renderLanguage() {
+      document.title = t("siteName");
+      for (const option of document.getElementById("lane").options) {
+        option.textContent = laneLabel(option.value);
+      }
+      const chosen = selectedChampion();
+      if (chosen) input.value = championName(chosen.names, chosen.id);
+      if (!list.hidden) renderSuggestions(search(input.value));
+      showError(errorKey);
+    }
+
+    input.addEventListener("input", () => {
+      hiddenId.value = "";
+      showError("");
+      renderSuggestions(search(input.value));
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!event.target.closest(".suggest")) list.hidden = true;
+    });
+
+    form.addEventListener("submit", (event) => {
+      if (hiddenId.value) return;
+      const q = normalize(input.value);
+      const exact = champions.find((champion) => champion.keys.includes(q));
+      const picked = exact || search(input.value)[0];
+      if (picked) {
+        choose(picked);
+        return;
+      }
+      event.preventDefault();
+      showError("championNotFound");
+    });
+
+    mountLanguageSelect(renderLanguage);
+    renderLanguage();
+
+    fetch("data/champion_names.json")
+      .then((response) => response.json())
+      .then((payload) => {
+        version = payload.version;
+        champions = payload.champions.map((champion) => ({
+          ...champion,
+          keys: [champion.id, ...Object.values(champion.names)].map(normalize),
+        }));
+      })
+      .catch(() => showError("namesLoadFailed"));
+  </script>
+</body>
+</html>

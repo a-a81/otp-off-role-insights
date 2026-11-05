@@ -1,0 +1,11 @@
+{
+  "riotApiKey": "RGAPI-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "healthcheckUrl": "https://hc-ping.com/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "gitPush": false,
+  "regions": [
+    { "region": "JP", "enabled": true, "tiers": ["CHALLENGER", "GRANDMASTER", "MASTER"] },
+    { "region": "KR", "enabled": true, "tiers": ["CHALLENGER", "GRANDMASTER"] },
+    { "region": "NA", "enabled": true, "tiers": ["CHALLENGER", "GRANDMASTER"] }
+  ],
+  "collectArgs": ["--refresh", "--max-age-hours", "20", "--mastery-ratio", "0"]
+}

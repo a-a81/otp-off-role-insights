@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OTP Off-Role Insights</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="i18n.js"></script>
+  <script src="champions.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1 data-i18n="siteName"></h1>
+    <p class="lang"><label for="lang-select" data-i18n="language"></label><select id="lang-select"></select></p>
+  </header>
+  <p><a href="index.html" data-i18n="back"></a></p>
+
+  <section class="panel" id="query-panel">
+    <div class="hero">
+      <span id="hero-icon"></span>
+      <h2 id="result-heading"></h2>
+    </div>
+    <p class="profile-switch"><span data-i18n="profile"></span>: <span id="profile-switch"></span></p>
+    <p id="profile-note" hidden></p>
+    <p id="summary" hidden></p>
+    <p id="status" data-i18n="loading"></p>
+  </section>
+
+  <div id="result" hidden>
+    <section class="panel" id="main-lane-panel">
+      <h2 id="main-lane-heading"></h2>
+      <p class="note" data-i18n="mainLaneNext"></p>
+      <ol class="picks" id="main-lane-list"></ol>
+    </section>
+
+    <section id="other-lanes">
+      <h2 class="section-title" data-i18n="otherLanes"></h2>
+      <div class="lanes" id="off-lanes"></div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p lang="en">OTP Off-Role Insights isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+    <p data-i18n="legal" data-i18n-optional></p>
+  </footer>
+
+  <script>
+    const LANES = ["TOP", "JUNGLE", "MID", "BOTTOM", "UTILITY"];
+    const PROFILES = { main: "profileMain", otp: "profileOtp" };
+    const SHOW_PICKS = 3;
+
+    const params = new URLSearchParams(location.search);
+    const champion = (params.get("champion") || "").trim();
+    const region = (params.get("region") || "JP").toUpperCase();
+    const lane = LANES.includes(params.get("lane")) ? params.get("lane") : "MID";
+    const profile = PROFILES[params.get("type")] ? params.get("type") : "main";
+    const state = { loaded: false, version: "", rows: {}, payload: null };
+
+    // collect_otp.py の champion_filename と同じ規則
+    function championFile(id) {
+      return id.toLowerCase().replace(/[^a-z0-9._-]/g, "");
+    }
+
+    function nameOf(id) {
+      const row = state.rows[id];
+      return championName(row && row.names, id);
+    }
+
+    function text(id, value) {
+      document.getElementById(id).textContent = value;
+    }
+
+    function formatDate(iso) {
+      const date = new Date(iso);
+      if (Number.isNaN(date.getTime())) return iso || "";
+      const pad = (n) => String(n).padStart(2, "0");
+      return date.getFullYear() + "-" + pad(date.getMonth() + 1) + "-" + pad(date.getDate())
+        + " " + pad(date.getHours()) + ":" + pad(date.getMinutes());
+    }
+
+    function fetchJson(url) {
+      return fetch(url, { cache: "no-cache" }).then((response) => {
+        if (!response.ok) throw new Error(response.status);
+        return response.json();
+      });
+    }
+
+    function emptyItem() {
+      const item = document.createElement("li");
+      item.className = "empty";
+      item.textContent = t("empty");
+      return item;
+    }
+
+    function renderPicks(ol, picks) {
+      ol.replaceChildren();
+      for (const pick of picks.slice(0, SHOW_PICKS)) {
+        const item = document.createElement("li");
+        item.className = "pick";
+        item.style.setProperty("--rate", Math.min(pick.rate, 100) + "%");
+        const name = document.createElement("span");
+        name.className = "name";
+        name.textContent = nameOf(pick.champion);
+        const rate = document.createElement("span");
+        rate.className = "rate";
+        rate.textContent = pick.rate.toFixed(1) + "%";
+        item.append(championIcon(state.version, state.rows[pick.champion]), name, rate);
+        ol.append(item);
+      }
+    }
+
+    function renderLanes(block) {
+      const container = document.getElementById("off-lanes");
+      container.replaceChildren();
+      for (const offLane of LANES.filter((l) => l !== lane)) {
+        const laneBlock = block.offLanes[offLane] || { games: 0, picks: [] };
+        const article = document.createElement("article");
+        article.className = "lane";
+        article.dataset.lane = offLane;
+
+        const heading = document.createElement("h2");
+        heading.textContent = laneLabel(offLane);
+        const games = document.createElement("span");
+        games.className = "games";
+        games.textContent = t("games", { games: laneBlock.games });
+        heading.append(games);
+        article.append(heading);
+
+        if (laneBlock.picks.length) {
+          const ol = document.createElement("ol");
+          ol.className = "picks";
+          renderPicks(ol, laneBlock.picks);
+          article.append(ol);
+        } else {
+          const empty = document.createElement("p");
+          empty.className = "empty";
+          empty.textContent = t("empty");
+          article.append(empty);
+        }
+        container.append(article);
+      }
+    }
+
+    function renderProfileSwitch() {
+      const container = document.getElementById("profile-switch");
+      container.replaceChildren();
+      for (const [key, label] of Object.entries(PROFILES)) {
+        if (container.childNodes.length) container.append(" / ");
+        if (key === profile) {
+          const current = document.createElement("strong");
+          current.textContent = t(label);
+          container.append(current);
+        } else {
+          const next = new URLSearchParams(location.search);
+          next.set("type", key);
+          const link = document.createElement("a");
+          link.href = "result.html?" + next.toString();
+          link.textContent = t(label);
+          container.append(link);
+        }
+      }
+    }
+
+    function render() {
+      text("result-heading", t("resultHeading", {
+        lane: laneLabel(lane),
+        champion: nameOf(champion),
+        profile: t(PROFILES[profile]),
+        region: region,
+      }));
+      document.title = laneLabel(lane) + " " + nameOf(champion) + " - " + t("siteName");
+      renderProfileSwitch();
+      if (!state.loaded) return;
+
+      document.getElementById("hero-icon").replaceChildren(
+        championIcon(state.version, state.rows[champion])
+      );
+
+      const status = document.getElementById("status");
+      const block = state.payload && state.payload.byMainLane && state.payload.byMainLane[lane];
+      if (!block) {
+        status.textContent = t("noData");
+        return;
+      }
+      status.hidden = true;
+
+      const note = document.getElementById("profile-note");
+      note.textContent = t("profileNote", { rate: Math.round(state.payload.minRate * 100) });
+      note.hidden = false;
+
+      const summary = document.getElementById("summary");
+      summary.textContent = t("summary", {
+        players: block.players,
+        updated: formatDate(state.payload.updatedAt),
+      });
+      summary.hidden = false;
+      text("main-lane-heading", t("mainLaneHeading", { lane: laneLabel(lane) }));
+
+      const mainList = document.getElementById("main-lane-list");
+      if (block.mainLaneNext.length) {
+        renderPicks(mainList, block.mainLaneNext);
+      } else {
+        mainList.replaceChildren(emptyItem());
+      }
+      renderLanes(block);
+      document.getElementById("result").hidden = false;
+    }
+
+    if (!champion) {
+      location.replace("index.html");
+    } else {
+      mountLanguageSelect(render);
+      render();
+
+      const namesRequest = fetchJson("data/champion_names.json").catch(() => null);
+      const dataRequest = fetchJson(
+        "data/" + region.toLowerCase() + "/" + profile + "/champions/" + championFile(champion) + ".json"
+      ).catch(() => null);
+
+      Promise.all([namesRequest, dataRequest]).then(([names, payload]) => {
+        if (names) {
+          state.version = names.version;
+          for (const row of names.champions) state.rows[row.id] = row;
+        }
+        state.payload = payload;
+        state.loaded = true;
+        render();
+      });
+    }
+  </script>
+</body>
+</html>

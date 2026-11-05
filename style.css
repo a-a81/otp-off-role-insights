@@ -1,0 +1,199 @@
+/* スマホを基準に組み、幅が広い画面で横に並べる。色は LoL のクライアントに寄せる。 */
+:root {
+  --bg: #010a13;
+  --panel: #0a1428;
+  --panel-raised: #1e2328;
+  --border: #463714;
+  --border-strong: #785a28;
+  --gold: #c8aa6e;
+  --text: #f0e6d2;
+  --muted: #a09b8c;
+  --accent: #0ac8b9;
+  --bar: rgba(10, 200, 185, 0.16);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", "Malgun Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+h1, h2, p { margin: 0 0 8px; }
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+}
+h2 { font-size: 16px; font-weight: 600; color: var(--gold); }
+a { color: var(--accent); }
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.header h1 { margin: 0; }
+.lang { margin: 0; display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; white-space: nowrap; }
+.lang select { min-height: 36px; padding: 4px 8px; font-size: 14px; }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.note, #status, #profile-note, #summary { color: var(--muted); font-size: 13px; }
+
+/* フォーム: スマホでは 1 列、広い画面では横並び */
+.field { margin-bottom: 12px; }
+.field label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 13px;
+}
+select, input, button {
+  font: inherit;
+  /* 16px 未満だと iPhone で入力時に拡大される */
+  font-size: 16px;
+  color: var(--text);
+}
+select, input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+}
+select:focus, input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+button[type="submit"] {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 20px;
+  background: var(--panel-raised);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+}
+button[type="submit"]:hover { background: #2a2f35; }
+
+@media (min-width: 720px) {
+  #search-form { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; }
+  #search-form .field { margin-bottom: 0; }
+  #search-form .field-grow { flex: 1 1 240px; }
+  button[type="submit"] { width: auto; }
+}
+
+/* チャンピオン候補 */
+.suggest { position: relative; display: block; }
+.suggestions {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--panel-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+}
+.suggestions li { margin: 0; }
+.suggestions button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.suggestions li:last-child button { border-bottom: 0; }
+.suggestions button:hover,
+.suggestions button:focus { background: #0a323c; outline: none; }
+
+/* アイコン */
+.icon {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  background: var(--bg);
+}
+.hero { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.hero .icon { width: 56px; height: 56px; border-color: var(--gold); }
+.hero h2 { margin: 0; font-size: 18px; }
+
+/* メイン / OTP の切り替え */
+.profile-switch { font-size: 14px; }
+.profile-switch strong { color: var(--gold); }
+
+/* ピックの一覧: アイコン・名前・%。背景の帯が % の長さ */
+.picks { margin: 0; padding: 0; list-style: none; }
+.pick {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+  padding: 4px 6px;
+  border-radius: 3px;
+  background: linear-gradient(to right, var(--bar) var(--rate, 0%), transparent var(--rate, 0%));
+}
+.pick .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rate { color: var(--gold); font-variant-numeric: tabular-nums; font-weight: 600; }
+.empty { color: var(--muted); font-size: 13px; }
+
+/* レーンの枠: スマホは 2 列、広い画面は 4 列 */
+.lanes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+@media (max-width: 359px) {
+  .lanes { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 800px) {
+  .lanes { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+}
+.lane {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px;
+}
+.lane h2 { margin-bottom: 6px; font-size: 15px; }
+.lane .pick { grid-template-columns: 28px 1fr auto; gap: 6px; padding: 3px 4px; font-size: 14px; }
+.lane .icon { width: 28px; height: 28px; }
+.games { margin-left: 4px; color: var(--muted); font-size: 12px; font-weight: 400; }
+.section-title { margin: 16px 0 8px; }
+
+.footer {
+  margin-top: 24px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 11px;
+}

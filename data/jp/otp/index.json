@@ -1,0 +1,925 @@
+{
+  "region": "JP",
+  "platform": "JP1",
+  "profile": "otp",
+  "queue": "RANKED_SOLO_5x5",
+  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
+  "matchesPerPlayer": 40,
+  "minMainGames": 15,
+  "minRate": 0.8,
+  "qualifiedPlayers": 719,
+  "champions": [
+    {
+      "champion": "Ahri",
+      "mainLane": "MID",
+      "players": 14,
+      "file": "champions/ahri.json"
+    },
+    {
+      "champion": "Gangplank",
+      "mainLane": "TOP",
+      "players": 12,
+      "file": "champions/gangplank.json"
+    },
+    {
+      "champion": "Briar",
+      "mainLane": "JUNGLE",
+      "players": 11,
+      "file": "champions/briar.json"
+    },
+    {
+      "champion": "Jhin",
+      "mainLane": "BOTTOM",
+      "players": 11,
+      "file": "champions/jhin.json"
+    },
+    {
+      "champion": "Aphelios",
+      "mainLane": "BOTTOM",
+      "players": 10,
+      "file": "champions/aphelios.json"
+    },
+    {
+      "champion": "Darius",
+      "mainLane": "TOP",
+      "players": 10,
+      "file": "champions/darius.json"
+    },
+    {
+      "champion": "Akshan",
+      "mainLane": "MID",
+      "players": 9,
+      "file": "champions/akshan.json"
+    },
+    {
+      "champion": "MasterYi",
+      "mainLane": "JUNGLE",
+      "players": 9,
+      "file": "champions/masteryi.json"
+    },
+    {
+      "champion": "Yasuo",
+      "mainLane": "MID",
+      "players": 9,
+      "file": "champions/yasuo.json"
+    },
+    {
+      "champion": "Zyra",
+      "mainLane": "JUNGLE",
+      "players": 9,
+      "file": "champions/zyra.json"
+    },
+    {
+      "champion": "Diana",
+      "mainLane": "MID",
+      "players": 8,
+      "file": "champions/diana.json"
+    },
+    {
+      "champion": "Draven",
+      "mainLane": "BOTTOM",
+      "players": 8,
+      "file": "champions/draven.json"
+    },
+    {
+      "champion": "Katarina",
+      "mainLane": "MID",
+      "players": 8,
+      "file": "champions/katarina.json"
+    },
+    {
+      "champion": "Swain",
+      "mainLane": "BOTTOM",
+      "players": 8,
+      "file": "champions/swain.json"
+    },
+    {
+      "champion": "Teemo",
+      "mainLane": "TOP",
+      "players": 8,
+      "file": "champions/teemo.json"
+    },
+    {
+      "champion": "Zac",
+      "mainLane": "JUNGLE",
+      "players": 8,
+      "file": "champions/zac.json"
+    },
+    {
+      "champion": "Ambessa",
+      "mainLane": "TOP",
+      "players": 7,
+      "file": "champions/ambessa.json"
+    },
+    {
+      "champion": "Anivia",
+      "mainLane": "MID",
+      "players": 7,
+      "file": "champions/anivia.json"
+    },
+    {
+      "champion": "Bard",
+      "mainLane": "UTILITY",
+      "players": 7,
+      "file": "champions/bard.json"
+    },
+    {
+      "champion": "Fizz",
+      "mainLane": "MID",
+      "players": 7,
+      "file": "champions/fizz.json"
+    },
+    {
+      "champion": "Illaoi",
+      "mainLane": "TOP",
+      "players": 7,
+      "file": "champions/illaoi.json"
+    },
+    {
+      "champion": "Kayn",
+      "mainLane": "JUNGLE",
+      "players": 7,
+      "file": "champions/kayn.json"
+    },
+    {
+      "champion": "Rell",
+      "mainLane": "UTILITY",
+      "players": 7,
+      "file": "champions/rell.json"
+    },
+    {
+      "champion": "Senna",
+      "mainLane": "UTILITY",
+      "players": 7,
+      "file": "champions/senna.json"
+    },
+    {
+      "champion": "Shaco",
+      "mainLane": "JUNGLE",
+      "players": 7,
+      "file": "champions/shaco.json"
+    },
+    {
+      "champion": "Skarner",
+      "mainLane": "JUNGLE",
+      "players": 7,
+      "file": "champions/skarner.json"
+    },
+    {
+      "champion": "Talon",
+      "mainLane": "JUNGLE",
+      "players": 7,
+      "file": "champions/talon.json"
+    },
+    {
+      "champion": "Thresh",
+      "mainLane": "UTILITY",
+      "players": 7,
+      "file": "champions/thresh.json"
+    },
+    {
+      "champion": "Urgot",
+      "mainLane": "TOP",
+      "players": 7,
+      "file": "champions/urgot.json"
+    },
+    {
+      "champion": "Vladimir",
+      "mainLane": "MID",
+      "players": 7,
+      "file": "champions/vladimir.json"
+    },
+    {
+      "champion": "Yone",
+      "mainLane": "MID",
+      "players": 7,
+      "file": "champions/yone.json"
+    },
+    {
+      "champion": "FiddleSticks",
+      "mainLane": "JUNGLE",
+      "players": 6,
+      "file": "champions/fiddlesticks.json"
+    },
+    {
+      "champion": "Garen",
+      "mainLane": "TOP",
+      "players": 6,
+      "file": "champions/garen.json"
+    },
+    {
+      "champion": "KSante",
+      "mainLane": "TOP",
+      "players": 6,
+      "file": "champions/ksante.json"
+    },
+    {
+      "champion": "Singed",
+      "mainLane": "TOP",
+      "players": 6,
+      "file": "champions/singed.json"
+    },
+    {
+      "champion": "Sion",
+      "mainLane": "MID",
+      "players": 6,
+      "file": "champions/sion.json"
+    },
+    {
+      "champion": "Twitch",
+      "mainLane": "BOTTOM",
+      "players": 6,
+      "file": "champions/twitch.json"
+    },
+    {
+      "champion": "Udyr",
+      "mainLane": "TOP",
+      "players": 6,
+      "file": "champions/udyr.json"
+    },
+    {
+      "champion": "AurelionSol",
+      "mainLane": "BOTTOM",
+      "players": 5,
+      "file": "champions/aurelionsol.json"
+    },
+    {
+      "champion": "Caitlyn",
+      "mainLane": "BOTTOM",
+      "players": 5,
+      "file": "champions/caitlyn.json"
+    },
+    {
+      "champion": "Ekko",
+      "mainLane": "MID",
+      "players": 5,
+      "file": "champions/ekko.json"
+    },
+    {
+      "champion": "Elise",
+      "mainLane": "JUNGLE",
+      "players": 5,
+      "file": "champions/elise.json"
+    },
+    {
+      "champion": "Irelia",
+      "mainLane": "TOP",
+      "players": 5,
+      "file": "champions/irelia.json"
+    },
+    {
+      "champion": "Kaisa",
+      "mainLane": "BOTTOM",
+      "players": 5,
+      "file": "champions/kaisa.json"
+    },
+    {
+      "champion": "MissFortune",
+      "mainLane": "BOTTOM",
+      "players": 5,
+      "file": "champions/missfortune.json"
+    },
+    {
+      "champion": "Nunu",
+      "mainLane": "JUNGLE",
+      "players": 5,
+      "file": "champions/nunu.json"
+    },
+    {
+      "champion": "Pantheon",
+      "mainLane": "TOP",
+      "players": 5,
+      "file": "champions/pantheon.json"
+    },
+    {
+      "champion": "Shen",
+      "mainLane": "TOP",
+      "players": 5,
+      "file": "champions/shen.json"
+    },
+    {
+      "champion": "Soraka",
+      "mainLane": "UTILITY",
+      "players": 5,
+      "file": "champions/soraka.json"
+    },
+    {
+      "champion": "Velkoz",
+      "mainLane": "BOTTOM",
+      "players": 5,
+      "file": "champions/velkoz.json"
+    },
+    {
+      "champion": "Volibear",
+      "mainLane": "TOP",
+      "players": 5,
+      "file": "champions/volibear.json"
+    },
+    {
+      "champion": "Zed",
+      "mainLane": "MID",
+      "players": 5,
+      "file": "champions/zed.json"
+    },
+    {
+      "champion": "Azir",
+      "mainLane": "TOP",
+      "players": 4,
+      "file": "champions/azir.json"
+    },
+    {
+      "champion": "Chogath",
+      "mainLane": "MID",
+      "players": 4,
+      "file": "champions/chogath.json"
+    },
+    {
+      "champion": "Hecarim",
+      "mainLane": "JUNGLE",
+      "players": 4,
+      "file": "champions/hecarim.json"
+    },
+    {
+      "champion": "Jinx",
+      "mainLane": "BOTTOM",
+      "players": 4,
+      "file": "champions/jinx.json"
+    },
+    {
+      "champion": "Kled",
+      "mainLane": "TOP",
+      "players": 4,
+      "file": "champions/kled.json"
+    },
+    {
+      "champion": "Leona",
+      "mainLane": "UTILITY",
+      "players": 4,
+      "file": "champions/leona.json"
+    },
+    {
+      "champion": "Lillia",
+      "mainLane": "JUNGLE",
+      "players": 4,
+      "file": "champions/lillia.json"
+    },
+    {
+      "champion": "Malzahar",
+      "mainLane": "MID",
+      "players": 4,
+      "file": "champions/malzahar.json"
+    },
+    {
+      "champion": "Syndra",
+      "mainLane": "MID",
+      "players": 4,
+      "file": "champions/syndra.json"
+    },
+    {
+      "champion": "TwistedFate",
+      "mainLane": "MID",
+      "players": 4,
+      "file": "champions/twistedfate.json"
+    },
+    {
+      "champion": "Viego",
+      "mainLane": "JUNGLE",
+      "players": 4,
+      "file": "champions/viego.json"
+    },
+    {
+      "champion": "Warwick",
+      "mainLane": "JUNGLE",
+      "players": 4,
+      "file": "champions/warwick.json"
+    },
+    {
+      "champion": "Zilean",
+      "mainLane": "UTILITY",
+      "players": 4,
+      "file": "champions/zilean.json"
+    },
+    {
+      "champion": "Aatrox",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/aatrox.json"
+    },
+    {
+      "champion": "Camille",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/camille.json"
+    },
+    {
+      "champion": "Fiora",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/fiora.json"
+    },
+    {
+      "champion": "Graves",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/graves.json"
+    },
+    {
+      "champion": "Heimerdinger",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/heimerdinger.json"
+    },
+    {
+      "champion": "Hwei",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/hwei.json"
+    },
+    {
+      "champion": "Ivern",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/ivern.json"
+    },
+    {
+      "champion": "Khazix",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/khazix.json"
+    },
+    {
+      "champion": "Kindred",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/kindred.json"
+    },
+    {
+      "champion": "LeeSin",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/leesin.json"
+    },
+    {
+      "champion": "Lucian",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/lucian.json"
+    },
+    {
+      "champion": "Nidalee",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/nidalee.json"
+    },
+    {
+      "champion": "Ornn",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/ornn.json"
+    },
+    {
+      "champion": "Qiyana",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/qiyana.json"
+    },
+    {
+      "champion": "RekSai",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/reksai.json"
+    },
+    {
+      "champion": "Renekton",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/renekton.json"
+    },
+    {
+      "champion": "Ryze",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/ryze.json"
+    },
+    {
+      "champion": "Samira",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/samira.json"
+    },
+    {
+      "champion": "Seraphine",
+      "mainLane": "UTILITY",
+      "players": 3,
+      "file": "champions/seraphine.json"
+    },
+    {
+      "champion": "Sett",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/sett.json"
+    },
+    {
+      "champion": "Shyvana",
+      "mainLane": "JUNGLE",
+      "players": 3,
+      "file": "champions/shyvana.json"
+    },
+    {
+      "champion": "TahmKench",
+      "mainLane": "UTILITY",
+      "players": 3,
+      "file": "champions/tahmkench.json"
+    },
+    {
+      "champion": "Taric",
+      "mainLane": "UTILITY",
+      "players": 3,
+      "file": "champions/taric.json"
+    },
+    {
+      "champion": "Tristana",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/tristana.json"
+    },
+    {
+      "champion": "Tryndamere",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/tryndamere.json"
+    },
+    {
+      "champion": "Veigar",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/veigar.json"
+    },
+    {
+      "champion": "Xayah",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/xayah.json"
+    },
+    {
+      "champion": "Yunara",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/yunara.json"
+    },
+    {
+      "champion": "Zoe",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/zoe.json"
+    },
+    {
+      "champion": "Akali",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/akali.json"
+    },
+    {
+      "champion": "Annie",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/annie.json"
+    },
+    {
+      "champion": "Blitzcrank",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/blitzcrank.json"
+    },
+    {
+      "champion": "Cassiopeia",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/cassiopeia.json"
+    },
+    {
+      "champion": "DrMundo",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/drmundo.json"
+    },
+    {
+      "champion": "Evelynn",
+      "mainLane": "JUNGLE",
+      "players": 2,
+      "file": "champions/evelynn.json"
+    },
+    {
+      "champion": "Kalista",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/kalista.json"
+    },
+    {
+      "champion": "Karthus",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/karthus.json"
+    },
+    {
+      "champion": "Lissandra",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/lissandra.json"
+    },
+    {
+      "champion": "Lulu",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/lulu.json"
+    },
+    {
+      "champion": "Lux",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/lux.json"
+    },
+    {
+      "champion": "Maokai",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/maokai.json"
+    },
+    {
+      "champion": "Mordekaiser",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/mordekaiser.json"
+    },
+    {
+      "champion": "Neeko",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/neeko.json"
+    },
+    {
+      "champion": "Poppy",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/poppy.json"
+    },
+    {
+      "champion": "Rengar",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/rengar.json"
+    },
+    {
+      "champion": "Riven",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/riven.json"
+    },
+    {
+      "champion": "Sivir",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/sivir.json"
+    },
+    {
+      "champion": "Smolder",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/smolder.json"
+    },
+    {
+      "champion": "Xerath",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/xerath.json"
+    },
+    {
+      "champion": "Yuumi",
+      "mainLane": "UTILITY",
+      "players": 2,
+      "file": "champions/yuumi.json"
+    },
+    {
+      "champion": "Zeri",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/zeri.json"
+    },
+    {
+      "champion": "Alistar",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/alistar.json"
+    },
+    {
+      "champion": "Amumu",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/amumu.json"
+    },
+    {
+      "champion": "Aurora",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/aurora.json"
+    },
+    {
+      "champion": "Belveth",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/belveth.json"
+    },
+    {
+      "champion": "Brand",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/brand.json"
+    },
+    {
+      "champion": "Ezreal",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/ezreal.json"
+    },
+    {
+      "champion": "Gnar",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/gnar.json"
+    },
+    {
+      "champion": "Gragas",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/gragas.json"
+    },
+    {
+      "champion": "Gwen",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/gwen.json"
+    },
+    {
+      "champion": "Jax",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/jax.json"
+    },
+    {
+      "champion": "Jayce",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/jayce.json"
+    },
+    {
+      "champion": "Karma",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/karma.json"
+    },
+    {
+      "champion": "Kassadin",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/kassadin.json"
+    },
+    {
+      "champion": "Kayle",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/kayle.json"
+    },
+    {
+      "champion": "Kennen",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/kennen.json"
+    },
+    {
+      "champion": "KogMaw",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/kogmaw.json"
+    },
+    {
+      "champion": "Leblanc",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/leblanc.json"
+    },
+    {
+      "champion": "Locke",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/locke.json"
+    },
+    {
+      "champion": "Malphite",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/malphite.json"
+    },
+    {
+      "champion": "Mel",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/mel.json"
+    },
+    {
+      "champion": "MonkeyKing",
+      "mainLane": "TOP",
+      "players": 1,
+      "file": "champions/monkeyking.json"
+    },
+    {
+      "champion": "Morgana",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/morgana.json"
+    },
+    {
+      "champion": "Nasus",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/nasus.json"
+    },
+    {
+      "champion": "Nilah",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/nilah.json"
+    },
+    {
+      "champion": "Nocturne",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/nocturne.json"
+    },
+    {
+      "champion": "Olaf",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/olaf.json"
+    },
+    {
+      "champion": "Orianna",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/orianna.json"
+    },
+    {
+      "champion": "Quinn",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/quinn.json"
+    },
+    {
+      "champion": "Rakan",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/rakan.json"
+    },
+    {
+      "champion": "Sejuani",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/sejuani.json"
+    },
+    {
+      "champion": "Sona",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/sona.json"
+    },
+    {
+      "champion": "Taliyah",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/taliyah.json"
+    },
+    {
+      "champion": "Vex",
+      "mainLane": "MID",
+      "players": 1,
+      "file": "champions/vex.json"
+    },
+    {
+      "champion": "Viktor",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/viktor.json"
+    },
+    {
+      "champion": "Zaahen",
+      "mainLane": "JUNGLE",
+      "players": 1,
+      "file": "champions/zaahen.json"
+    },
+    {
+      "champion": "Ziggs",
+      "mainLane": "BOTTOM",
+      "players": 1,
+      "file": "champions/ziggs.json"
+    }
+  ]
+}

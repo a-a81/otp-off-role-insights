@@ -1,0 +1,12 @@
+# PUUID を含むので公開しない
+data/*/players/
+data/*/mastery.json
+data/cache/
+data_devkey_backup/
+
+# API キーと Healthchecks の URL を含む
+nightly.local.json
+logs/
+
+*.tmp
+__pycache__/
