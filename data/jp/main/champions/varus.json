@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Varus",
-  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 51,
@@ -75,6 +75,11 @@
     },
     {
       "champion": "Smolder",
+      "games": 1,
+      "rate": 2.0
+    },
+    {
+      "champion": "Xerath",
       "games": 1,
       "rate": 2.0
     },
@@ -291,6 +296,11 @@
           "rate": 2.0
         },
         {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
           "champion": "Yunara",
           "games": 1,
           "rate": 2.0
@@ -423,6 +433,119 @@
               "champion": "Soraka",
               "games": 1,
               "rate": 10.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 44,
+      "mainLaneNext": [
+        {
+          "champion": "Lucian",
+          "games": 3,
+          "rate": 6.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 2.3
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 23,
+          "picks": [
+            {
+              "champion": "Darius",
+              "games": 5,
+              "rate": 21.7
+            },
+            {
+              "champion": "Jayce",
+              "games": 5,
+              "rate": 21.7
+            },
+            {
+              "champion": "Varus",
+              "games": 5,
+              "rate": 21.7
+            },
+            {
+              "champion": "Lucian",
+              "games": 2,
+              "rate": 8.7
+            },
+            {
+              "champion": "Quinn",
+              "games": 2,
+              "rate": 8.7
+            },
+            {
+              "champion": "Yone",
+              "games": 2,
+              "rate": 8.7
+            },
+            {
+              "champion": "Yorick",
+              "games": 2,
+              "rate": 8.7
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Varus",
+              "games": 5,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Varus",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 16.7
             }
           ]
         }

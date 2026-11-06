@@ -3,30 +3,40 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viktor",
-  "updatedAt": "2026-11-06T03:23:35.537388+00:00",
-  "mainLane": "BOTTOM",
+  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 27,
+  "mainLaneGames": 25,
   "mainLaneNext": [
     {
-      "champion": "Jinx",
+      "champion": "Kassadin",
       "games": 4,
-      "rate": 14.8
-    },
-    {
-      "champion": "Yunara",
-      "games": 1,
-      "rate": 3.7
+      "rate": 16.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 14,
       "picks": [
         {
-          "champion": "Garen",
+          "champion": "Jayce",
+          "games": 8,
+          "rate": 57.1
+        },
+        {
+          "champion": "Cassiopeia",
+          "games": 3,
+          "rate": 21.4
+        },
+        {
+          "champion": "Viktor",
           "games": 2,
-          "rate": 100.0
+          "rate": 14.3
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 7.1
         }
       ]
     },
@@ -34,26 +44,15 @@
       "games": 0,
       "picks": []
     },
-    "MID": {
-      "games": 10,
-      "picks": [
-        {
-          "champion": "Viktor",
-          "games": 9,
-          "rate": 90.0
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 10.0
-        }
-      ]
+    "BOTTOM": {
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
       "games": 1,
       "picks": [
         {
-          "champion": "Nautilus",
+          "champion": "Elise",
           "games": 1,
           "rate": 100.0
         }
@@ -61,63 +60,6 @@
     }
   },
   "byMainLane": {
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 27,
-      "mainLaneNext": [
-        {
-          "champion": "Jinx",
-          "games": 4,
-          "rate": 14.8
-        },
-        {
-          "champion": "Yunara",
-          "games": 1,
-          "rate": 3.7
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Garen",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Viktor",
-              "games": 9,
-              "rate": 90.0
-            },
-            {
-              "champion": "Syndra",
-              "games": 1,
-              "rate": 10.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "MID": {
       "players": 1,
       "mainLaneGames": 25,
@@ -169,6 +111,109 @@
               "champion": "Elise",
               "games": 1,
               "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 21,
+      "mainLaneNext": [
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Zeri",
+          "games": 1,
+          "rate": 4.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Fiora",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "MasterYi",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Nidalee",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Talon",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 2,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 4,
+              "rate": 57.1
+            },
+            {
+              "champion": "Karma",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         }

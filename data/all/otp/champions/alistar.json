@@ -3,11 +3,16 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-06T03:23:35.537388+00:00",
+  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
   "mainLane": "UTILITY",
   "players": 3,
-  "mainLaneGames": 111,
+  "mainLaneGames": 109,
   "mainLaneNext": [
+    {
+      "champion": "Braum",
+      "games": 1,
+      "rate": 0.9
+    },
     {
       "champion": "Nautilus",
       "games": 1,
@@ -26,17 +31,27 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 4,
       "picks": [
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 25.0
+        },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
@@ -74,8 +89,13 @@
   "byMainLane": {
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 111,
+      "mainLaneGames": 109,
       "mainLaneNext": [
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 0.9
+        },
         {
           "champion": "Nautilus",
           "games": 1,
@@ -94,17 +114,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },

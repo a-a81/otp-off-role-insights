@@ -3,20 +3,25 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karthus",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
   "mainLaneGames": 72,
   "mainLaneNext": [
     {
       "champion": "Zyra",
-      "games": 12,
-      "rate": 16.7
+      "games": 16,
+      "rate": 22.2
     },
     {
       "champion": "Hecarim",
       "games": 3,
       "rate": 4.2
+    },
+    {
+      "champion": "XinZhao",
+      "games": 2,
+      "rate": 2.8
     }
   ],
   "offLanes": {
@@ -49,14 +54,8 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Pyke",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
@@ -66,13 +65,18 @@
       "mainLaneNext": [
         {
           "champion": "Zyra",
-          "games": 12,
-          "rate": 16.7
+          "games": 16,
+          "rate": 22.2
         },
         {
           "champion": "Hecarim",
           "games": 3,
           "rate": 4.2
+        },
+        {
+          "champion": "XinZhao",
+          "games": 2,
+          "rate": 2.8
         }
       ],
       "offLanes": {
@@ -105,45 +109,34 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Pyke",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         }
       }
     },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 49,
+      "mainLaneGames": 50,
       "mainLaneNext": [
         {
           "champion": "Velkoz",
           "games": 2,
-          "rate": 4.1
+          "rate": 4.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 10,
           "picks": [
             {
               "champion": "Kled",
               "games": 6,
-              "rate": 54.5
+              "rate": 60.0
             },
             {
               "champion": "Karthus",
               "games": 4,
-              "rate": 36.4
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 9.1
+              "rate": 40.0
             }
           ]
         },

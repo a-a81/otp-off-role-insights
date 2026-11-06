@@ -3,29 +3,45 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kassadin",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 36,
-  "mainLaneNext": [],
+  "mainLaneGames": 34,
+  "mainLaneNext": [
+    {
+      "champion": "Ryze",
+      "games": 1,
+      "rate": 2.9
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Kassadin",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Viego",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
@@ -37,7 +53,7 @@
       "games": 1,
       "picks": [
         {
-          "champion": "Camille",
+          "champion": "Leona",
           "games": 1,
           "rate": 100.0
         }
@@ -47,26 +63,42 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 36,
-      "mainLaneNext": [],
+      "mainLaneGames": 34,
+      "mainLaneNext": [
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 2.9
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Kassadin",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Viego",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
@@ -78,7 +110,7 @@
           "games": 1,
           "picks": [
             {
-              "champion": "Camille",
+              "champion": "Leona",
               "games": 1,
               "rate": 100.0
             }

@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
   "mainLane": "TOP",
   "players": 5,
   "mainLaneGames": 150,
@@ -24,6 +24,11 @@
       "rate": 4.0
     },
     {
+      "champion": "Nasus",
+      "games": 5,
+      "rate": 3.3
+    },
+    {
       "champion": "Kayle",
       "games": 4,
       "rate": 2.7
@@ -34,19 +39,14 @@
       "rate": 2.7
     },
     {
-      "champion": "Nasus",
-      "games": 4,
-      "rate": 2.7
+      "champion": "Ambessa",
+      "games": 3,
+      "rate": 2.0
     },
     {
       "champion": "Rumble",
-      "games": 4,
-      "rate": 2.7
-    },
-    {
-      "champion": "Ambessa",
-      "games": 2,
-      "rate": 1.3
+      "games": 3,
+      "rate": 2.0
     },
     {
       "champion": "Singed",
@@ -257,6 +257,11 @@
           "rate": 4.0
         },
         {
+          "champion": "Nasus",
+          "games": 5,
+          "rate": 3.3
+        },
+        {
           "champion": "Kayle",
           "games": 4,
           "rate": 2.7
@@ -267,19 +272,14 @@
           "rate": 2.7
         },
         {
-          "champion": "Nasus",
-          "games": 4,
-          "rate": 2.7
+          "champion": "Ambessa",
+          "games": 3,
+          "rate": 2.0
         },
         {
           "champion": "Rumble",
-          "games": 4,
-          "rate": 2.7
-        },
-        {
-          "champion": "Ambessa",
-          "games": 2,
-          "rate": 1.3
+          "games": 3,
+          "rate": 2.0
         },
         {
           "champion": "Singed",
@@ -472,44 +472,43 @@
     },
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 68,
+      "mainLaneGames": 69,
       "mainLaneNext": [
         {
+          "champion": "Briar",
+          "games": 9,
+          "rate": 13.0
+        },
+        {
           "champion": "Rengar",
-          "games": 12,
-          "rate": 17.6
+          "games": 8,
+          "rate": 11.6
         },
         {
           "champion": "Twitch",
-          "games": 8,
-          "rate": 11.8
+          "games": 7,
+          "rate": 10.1
         },
         {
-          "champion": "Briar",
-          "games": 7,
-          "rate": 10.3
+          "champion": "JarvanIV",
+          "games": 3,
+          "rate": 4.3
         },
         {
           "champion": "Rammus",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.4
         },
         {
           "champion": "Skarner",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
           "games": 4,
@@ -550,7 +549,7 @@
           "games": 5,
           "picks": [
             {
-              "champion": "Seraphine",
+              "champion": "Twitch",
               "games": 2,
               "rate": 40.0
             },
@@ -560,7 +559,7 @@
               "rate": 20.0
             },
             {
-              "champion": "Twitch",
+              "champion": "Seraphine",
               "games": 1,
               "rate": 20.0
             },

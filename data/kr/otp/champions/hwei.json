@@ -3,50 +3,70 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hwei",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "BOTTOM",
-  "players": 2,
-  "mainLaneGames": 57,
+  "players": 3,
+  "mainLaneGames": 83,
   "mainLaneNext": [
+    {
+      "champion": "Akali",
+      "games": 2,
+      "rate": 2.4
+    },
     {
       "champion": "Aphelios",
       "games": 2,
-      "rate": 3.5
+      "rate": 2.4
+    },
+    {
+      "champion": "Vex",
+      "games": 2,
+      "rate": 2.4
     },
     {
       "champion": "AurelionSol",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     },
     {
       "champion": "Jhin",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     },
     {
       "champion": "KogMaw",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     },
     {
       "champion": "Xerath",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     },
     {
       "champion": "Ziggs",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Akali",
+          "games": 2,
+          "rate": 50.0
+        },
+        {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 25.0
+        },
         {
           "champion": "Kled",
           "games": 1,
-          "rate": 100.0
+          "rate": 25.0
         }
       ]
     },
@@ -76,80 +96,110 @@
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Hwei",
+          "games": 8,
+          "rate": 57.1
+        },
         {
           "champion": "TwistedFate",
           "games": 5,
-          "rate": 83.3
+          "rate": 35.7
         },
         {
-          "champion": "Hwei",
+          "champion": "Vex",
           "games": 1,
-          "rate": 16.7
+          "rate": 7.1
         }
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 7,
       "picks": [
+        {
+          "champion": "Vex",
+          "games": 3,
+          "rate": 42.9
+        },
         {
           "champion": "Yuumi",
           "games": 3,
-          "rate": 75.0
+          "rate": 42.9
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 25.0
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 2,
-      "mainLaneGames": 57,
+      "players": 3,
+      "mainLaneGames": 83,
       "mainLaneNext": [
+        {
+          "champion": "Akali",
+          "games": 2,
+          "rate": 2.4
+        },
         {
           "champion": "Aphelios",
           "games": 2,
-          "rate": 3.5
+          "rate": 2.4
+        },
+        {
+          "champion": "Vex",
+          "games": 2,
+          "rate": 2.4
         },
         {
           "champion": "AurelionSol",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         },
         {
           "champion": "KogMaw",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Akali",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Hwei",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Kled",
               "games": 1,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         },
@@ -179,32 +229,42 @@
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 14,
           "picks": [
+            {
+              "champion": "Hwei",
+              "games": 8,
+              "rate": 57.1
+            },
             {
               "champion": "TwistedFate",
               "games": 5,
-              "rate": 83.3
+              "rate": 35.7
             },
             {
-              "champion": "Hwei",
+              "champion": "Vex",
               "games": 1,
-              "rate": 16.7
+              "rate": 7.1
             }
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Vex",
+              "games": 3,
+              "rate": 42.9
+            },
             {
               "champion": "Yuumi",
               "games": 3,
-              "rate": 75.0
+              "rate": 42.9
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             }
           ]
         }

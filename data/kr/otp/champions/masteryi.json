@@ -3,29 +3,55 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MasterYi",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 38,
+  "players": 2,
+  "mainLaneGames": 74,
   "mainLaneNext": [
     {
       "champion": "Belveth",
       "games": 2,
-      "rate": 5.3
+      "rate": 2.7
+    },
+    {
+      "champion": "Khazix",
+      "games": 2,
+      "rate": 2.7
+    },
+    {
+      "champion": "Taliyah",
+      "games": 1,
+      "rate": 1.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Diana",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 2,
+      "games": 5,
       "picks": [
         {
           "champion": "MasterYi",
           "games": 2,
-          "rate": 100.0
+          "rate": 40.0
+        },
+        {
+          "champion": "Taliyah",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -40,27 +66,53 @@
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 38,
+      "players": 2,
+      "mainLaneGames": 74,
       "mainLaneNext": [
         {
           "champion": "Belveth",
           "games": 2,
-          "rate": 5.3
+          "rate": 2.7
+        },
+        {
+          "champion": "Khazix",
+          "games": 2,
+          "rate": 2.7
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 1.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Diana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 2,
+          "games": 5,
           "picks": [
             {
               "champion": "MasterYi",
               "games": 2,
-              "rate": 100.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },

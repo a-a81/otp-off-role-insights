@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
   "mainLane": "UTILITY",
   "players": 1,
   "mainLaneGames": 33,
@@ -74,24 +74,24 @@
         }
       }
     },
-    "MID": {
+    "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 32,
+      "mainLaneGames": 27,
       "mainLaneNext": [
         {
-          "champion": "Ahri",
-          "games": 3,
-          "rate": 9.4
+          "champion": "Shaco",
+          "games": 2,
+          "rate": 7.4
         },
         {
-          "champion": "Akshan",
+          "champion": "Nocturne",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.7
         },
         {
-          "champion": "Lux",
+          "champion": "Zyra",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.7
         }
       ],
       "offLanes": {
@@ -99,27 +99,48 @@
           "games": 0,
           "picks": []
         },
-        "JUNGLE": {
-          "games": 5,
+        "MID": {
+          "games": 2,
           "picks": [
             {
-              "champion": "Taliyah",
-              "games": 5,
-              "rate": 100.0
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
           "games": 3,
           "picks": [
             {
-              "champion": "Taliyah",
+              "champion": "Jhin",
               "games": 3,
               "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 5,
+              "rate": 62.5
+            },
+            {
+              "champion": "Rakan",
+              "games": 2,
+              "rate": 25.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

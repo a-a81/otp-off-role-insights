@@ -3,15 +3,25 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Xayah",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
+  "players": 2,
+  "mainLaneGames": 61,
   "mainLaneNext": [
+    {
+      "champion": "Yunara",
+      "games": 3,
+      "rate": 4.9
+    },
+    {
+      "champion": "Jhin",
+      "games": 1,
+      "rate": 1.6
+    },
     {
       "champion": "Kaisa",
       "games": 1,
-      "rate": 3.2
+      "rate": 1.6
     }
   ],
   "offLanes": {
@@ -20,54 +30,75 @@
       "picks": []
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Skarner",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Viktor",
-          "games": 3,
+          "games": 4,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 6,
+      "games": 13,
       "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 6,
+          "rate": 46.2
+        },
         {
           "champion": "Alistar",
           "games": 3,
-          "rate": 50.0
+          "rate": 23.1
         },
         {
           "champion": "Lulu",
-          "games": 1,
-          "rate": 16.7
+          "games": 2,
+          "rate": 15.4
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 16.7
+          "rate": 7.7
         },
         {
           "champion": "Taric",
           "games": 1,
-          "rate": 16.7
+          "rate": 7.7
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
+      "players": 2,
+      "mainLaneGames": 61,
       "mainLaneNext": [
+        {
+          "champion": "Yunara",
+          "games": 3,
+          "rate": 4.9
+        },
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 1.6
+        },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 3.2
+          "rate": 1.6
         }
       ],
       "offLanes": {
@@ -76,41 +107,52 @@
           "picks": []
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Skarner",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Viktor",
-              "games": 3,
+              "games": 4,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 13,
           "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 6,
+              "rate": 46.2
+            },
             {
               "champion": "Alistar",
               "games": 3,
-              "rate": 50.0
+              "rate": 23.1
             },
             {
               "champion": "Lulu",
-              "games": 1,
-              "rate": 16.7
+              "games": 2,
+              "rate": 15.4
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 16.7
+              "rate": 7.7
             },
             {
               "champion": "Taric",
               "games": 1,
-              "rate": 16.7
+              "rate": 7.7
             }
           ]
         }

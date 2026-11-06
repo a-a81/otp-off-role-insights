@@ -3,15 +3,25 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
-  "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 39,
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "mainLane": "JUNGLE",
+  "players": 2,
+  "mainLaneGames": 68,
   "mainLaneNext": [
     {
-      "champion": "Karma",
+      "champion": "Ivern",
+      "games": 3,
+      "rate": 4.4
+    },
+    {
+      "champion": "Sejuani",
+      "games": 3,
+      "rate": 4.4
+    },
+    {
+      "champion": "Shyvana",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.5
     }
   ],
   "offLanes": {
@@ -19,26 +29,93 @@
       "games": 0,
       "picks": []
     },
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
     "MID": {
-      "games": 1,
+      "games": 9,
       "picks": [
         {
-          "champion": "Karma",
-          "games": 1,
-          "rate": 100.0
+          "champion": "Malzahar",
+          "games": 5,
+          "rate": 55.6
+        },
+        {
+          "champion": "FiddleSticks",
+          "games": 4,
+          "rate": 44.4
         }
       ]
     },
     "BOTTOM": {
       "games": 0,
       "picks": []
+    },
+    "UTILITY": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 2,
+      "mainLaneGames": 68,
+      "mainLaneNext": [
+        {
+          "champion": "Ivern",
+          "games": 3,
+          "rate": 4.4
+        },
+        {
+          "champion": "Sejuani",
+          "games": 3,
+          "rate": 4.4
+        },
+        {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 1.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Malzahar",
+              "games": 5,
+              "rate": 55.6
+            },
+            {
+              "champion": "FiddleSticks",
+              "games": 4,
+              "rate": 44.4
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "UTILITY": {
       "players": 1,
       "mainLaneGames": 39,
@@ -69,47 +146,6 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
-        }
-      }
-    },
-    "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 34,
-      "mainLaneNext": [
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 2.9
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Malzahar",
-              "games": 4,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
           "games": 0,
           "picks": []
         }

@@ -3,188 +3,155 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "AurelionSol",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 46,
-  "mainLaneNext": [
-    {
-      "champion": "Ryze",
-      "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Syndra",
-      "games": 1,
-      "rate": 2.2
-    }
-  ],
+  "players": 1,
+  "mainLaneGames": 30,
+  "mainLaneNext": [],
   "offLanes": {
     "TOP": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Malphite",
-          "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Gnar",
-          "games": 1,
-          "rate": 25.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "JUNGLE": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
-      "games": 19,
+      "games": 5,
       "picks": [
         {
           "champion": "AurelionSol",
-          "games": 18,
-          "rate": 94.7
-        },
-        {
-          "champion": "Ziggs",
-          "games": 1,
-          "rate": 5.3
+          "games": 5,
+          "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 5,
       "picks": [
-        {
-          "champion": "Nautilus",
-          "games": 4,
-          "rate": 44.4
-        },
         {
           "champion": "Lulu",
           "games": 3,
-          "rate": 33.3
+          "rate": 60.0
         },
         {
-          "champion": "Camille",
-          "games": 1,
-          "rate": 11.1
-        },
-        {
-          "champion": "Rakan",
-          "games": 1,
-          "rate": 11.1
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 40.0
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 46,
-      "mainLaneNext": [
-        {
-          "champion": "Ryze",
-          "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 2.2
-        }
-      ],
+      "players": 1,
+      "mainLaneGames": 30,
+      "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Malphite",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "DrMundo",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Gnar",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
-          "games": 19,
+          "games": 5,
           "picks": [
             {
               "champion": "AurelionSol",
-              "games": 18,
-              "rate": 94.7
-            },
-            {
-              "champion": "Ziggs",
-              "games": 1,
-              "rate": 5.3
+              "games": 5,
+              "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 5,
           "picks": [
-            {
-              "champion": "Nautilus",
-              "games": 4,
-              "rate": 44.4
-            },
             {
               "champion": "Lulu",
               "games": 3,
+              "rate": 60.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 40.0
+            }
+          ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 19,
+      "mainLaneNext": [
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 5.3
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "AurelionSol",
+              "games": 13,
+              "rate": 92.9
+            },
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Alistar",
+              "games": 1,
               "rate": 33.3
             },
             {
-              "champion": "Camille",
+              "champion": "Nautilus",
               "games": 1,
-              "rate": 11.1
+              "rate": 33.3
             },
             {
               "champion": "Rakan",
               "games": 1,
-              "rate": 11.1
+              "rate": 33.3
             }
           ]
         }

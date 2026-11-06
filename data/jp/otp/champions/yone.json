@@ -3,30 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yone",
-  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
   "mainLane": "MID",
-  "players": 7,
-  "mainLaneGames": 190,
+  "players": 8,
+  "mainLaneGames": 222,
   "mainLaneNext": [
     {
       "champion": "Yasuo",
       "games": 5,
-      "rate": 2.6
+      "rate": 2.3
+    },
+    {
+      "champion": "AurelionSol",
+      "games": 2,
+      "rate": 0.9
     },
     {
       "champion": "Kled",
       "games": 2,
-      "rate": 1.1
+      "rate": 0.9
+    },
+    {
+      "champion": "Malzahar",
+      "games": 2,
+      "rate": 0.9
     },
     {
       "champion": "Mel",
       "games": 2,
-      "rate": 1.1
+      "rate": 0.9
+    },
+    {
+      "champion": "Veigar",
+      "games": 2,
+      "rate": 0.9
     },
     {
       "champion": "Vladimir",
       "games": 2,
-      "rate": 1.1
+      "rate": 0.9
     },
     {
       "champion": "Aatrox",
@@ -45,11 +60,6 @@
     },
     {
       "champion": "Irelia",
-      "games": 1,
-      "rate": 0.5
-    },
-    {
-      "champion": "Malzahar",
       "games": 1,
       "rate": 0.5
     },
@@ -76,92 +86,112 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 40,
+      "games": 41,
       "picks": [
         {
           "champion": "Yone",
           "games": 27,
-          "rate": 67.5
+          "rate": 65.9
         },
         {
           "champion": "KSante",
           "games": 7,
-          "rate": 17.5
+          "rate": 17.1
         },
         {
           "champion": "Kled",
           "games": 2,
-          "rate": 5.0
+          "rate": 4.9
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 2.4
         },
         {
           "champion": "Gnar",
           "games": 1,
-          "rate": 2.5
+          "rate": 2.4
         },
         {
           "champion": "Locke",
           "games": 1,
-          "rate": 2.5
+          "rate": 2.4
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 2.5
+          "rate": 2.4
         },
         {
           "champion": "Sett",
           "games": 1,
-          "rate": 2.5
+          "rate": 2.4
         }
       ]
     },
     "JUNGLE": {
-      "games": 12,
+      "games": 16,
       "picks": [
         {
           "champion": "Nunu",
           "games": 5,
-          "rate": 41.7
+          "rate": 31.2
+        },
+        {
+          "champion": "Viego",
+          "games": 3,
+          "rate": 18.8
         },
         {
           "champion": "Lillia",
           "games": 2,
-          "rate": 16.7
+          "rate": 12.5
         },
         {
           "champion": "Yone",
           "games": 2,
-          "rate": 16.7
+          "rate": 12.5
+        },
+        {
+          "champion": "Belveth",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 6.2
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 8.3
+          "rate": 6.2
         },
         {
           "champion": "Talon",
           "games": 1,
-          "rate": 8.3
-        },
-        {
-          "champion": "Viego",
-          "games": 1,
-          "rate": 8.3
+          "rate": 6.2
         }
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Yunara",
           "games": 3,
-          "rate": 75.0
+          "rate": 60.0
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -218,28 +248,43 @@
   },
   "byMainLane": {
     "MID": {
-      "players": 7,
-      "mainLaneGames": 190,
+      "players": 8,
+      "mainLaneGames": 222,
       "mainLaneNext": [
         {
           "champion": "Yasuo",
           "games": 5,
-          "rate": 2.6
+          "rate": 2.3
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 2,
+          "rate": 0.9
         },
         {
           "champion": "Kled",
           "games": 2,
-          "rate": 1.1
+          "rate": 0.9
+        },
+        {
+          "champion": "Malzahar",
+          "games": 2,
+          "rate": 0.9
         },
         {
           "champion": "Mel",
           "games": 2,
-          "rate": 1.1
+          "rate": 0.9
+        },
+        {
+          "champion": "Veigar",
+          "games": 2,
+          "rate": 0.9
         },
         {
           "champion": "Vladimir",
           "games": 2,
-          "rate": 1.1
+          "rate": 0.9
         },
         {
           "champion": "Aatrox",
@@ -258,11 +303,6 @@
         },
         {
           "champion": "Irelia",
-          "games": 1,
-          "rate": 0.5
-        },
-        {
-          "champion": "Malzahar",
           "games": 1,
           "rate": 0.5
         },
@@ -289,92 +329,112 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 40,
+          "games": 41,
           "picks": [
             {
               "champion": "Yone",
               "games": 27,
-              "rate": 67.5
+              "rate": 65.9
             },
             {
               "champion": "KSante",
               "games": 7,
-              "rate": 17.5
+              "rate": 17.1
             },
             {
               "champion": "Kled",
               "games": 2,
-              "rate": 5.0
+              "rate": 4.9
+            },
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 2.4
             },
             {
               "champion": "Gnar",
               "games": 1,
-              "rate": 2.5
+              "rate": 2.4
             },
             {
               "champion": "Locke",
               "games": 1,
-              "rate": 2.5
+              "rate": 2.4
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 2.5
+              "rate": 2.4
             },
             {
               "champion": "Sett",
               "games": 1,
-              "rate": 2.5
+              "rate": 2.4
             }
           ]
         },
         "JUNGLE": {
-          "games": 12,
+          "games": 16,
           "picks": [
             {
               "champion": "Nunu",
               "games": 5,
-              "rate": 41.7
+              "rate": 31.2
+            },
+            {
+              "champion": "Viego",
+              "games": 3,
+              "rate": 18.8
             },
             {
               "champion": "Lillia",
               "games": 2,
-              "rate": 16.7
+              "rate": 12.5
             },
             {
               "champion": "Yone",
               "games": 2,
-              "rate": 16.7
+              "rate": 12.5
+            },
+            {
+              "champion": "Belveth",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "MonkeyKing",
+              "games": 1,
+              "rate": 6.2
             },
             {
               "champion": "Sylas",
               "games": 1,
-              "rate": 8.3
+              "rate": 6.2
             },
             {
               "champion": "Talon",
               "games": 1,
-              "rate": 8.3
-            },
-            {
-              "champion": "Viego",
-              "games": 1,
-              "rate": 8.3
+              "rate": 6.2
             }
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Yunara",
               "games": 3,
-              "rate": 75.0
+              "rate": 60.0
+            },
+            {
+              "champion": "Vayne",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Yone",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -435,17 +495,17 @@
       "mainLaneGames": 125,
       "mainLaneNext": [
         {
-          "champion": "Pantheon",
-          "games": 3,
-          "rate": 2.4
-        },
-        {
           "champion": "Yasuo",
           "games": 3,
           "rate": 2.4
         },
         {
           "champion": "Darius",
+          "games": 2,
+          "rate": 1.6
+        },
+        {
+          "champion": "Pantheon",
           "games": 2,
           "rate": 1.6
         },
@@ -472,27 +532,27 @@
           ]
         },
         "MID": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "Yone",
-              "games": 12,
-              "rate": 75.0
+              "games": 13,
+              "rate": 76.5
             },
             {
               "champion": "Yasuo",
               "games": 2,
-              "rate": 12.5
+              "rate": 11.8
             },
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             }
           ]
         },
@@ -517,27 +577,22 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Swain",
-              "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         }

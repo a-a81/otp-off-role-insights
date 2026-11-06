@@ -3,15 +3,15 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "JarvanIV",
-  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
   "mainLane": "JUNGLE",
   "players": 8,
   "mainLaneGames": 223,
   "mainLaneNext": [
     {
       "champion": "Graves",
-      "games": 20,
-      "rate": 9.0
+      "games": 19,
+      "rate": 8.5
     },
     {
       "champion": "MonkeyKing",
@@ -20,8 +20,8 @@
     },
     {
       "champion": "Vi",
-      "games": 12,
-      "rate": 5.4
+      "games": 13,
+      "rate": 5.8
     },
     {
       "champion": "Chogath",
@@ -64,17 +64,7 @@
       "rate": 0.9
     },
     {
-      "champion": "Khazix",
-      "games": 2,
-      "rate": 0.9
-    },
-    {
       "champion": "Kindred",
-      "games": 2,
-      "rate": 0.9
-    },
-    {
-      "champion": "Talon",
       "games": 2,
       "rate": 0.9
     },
@@ -95,6 +85,11 @@
     },
     {
       "champion": "Jax",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Khazix",
       "games": 1,
       "rate": 0.4
     },
@@ -120,6 +115,11 @@
     },
     {
       "champion": "Shyvana",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Talon",
       "games": 1,
       "rate": 0.4
     }
@@ -408,8 +408,8 @@
       "mainLaneNext": [
         {
           "champion": "Graves",
-          "games": 20,
-          "rate": 9.0
+          "games": 19,
+          "rate": 8.5
         },
         {
           "champion": "MonkeyKing",
@@ -418,8 +418,8 @@
         },
         {
           "champion": "Vi",
-          "games": 12,
-          "rate": 5.4
+          "games": 13,
+          "rate": 5.8
         },
         {
           "champion": "Chogath",
@@ -462,17 +462,7 @@
           "rate": 0.9
         },
         {
-          "champion": "Khazix",
-          "games": 2,
-          "rate": 0.9
-        },
-        {
           "champion": "Kindred",
-          "games": 2,
-          "rate": 0.9
-        },
-        {
-          "champion": "Talon",
           "games": 2,
           "rate": 0.9
         },
@@ -493,6 +483,11 @@
         },
         {
           "champion": "Jax",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Khazix",
           "games": 1,
           "rate": 0.4
         },
@@ -518,6 +513,11 @@
         },
         {
           "champion": "Shyvana",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Talon",
           "games": 1,
           "rate": 0.4
         }
@@ -795,6 +795,108 @@
               "champion": "Zilean",
               "games": 1,
               "rate": 5.0
+            }
+          ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 16,
+      "mainLaneNext": [
+        {
+          "champion": "Rakan",
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 6.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Diana",
+              "games": 6,
+              "rate": 85.7
+            },
+            {
+              "champion": "Nocturne",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "TwistedFate",
+              "games": 9,
+              "rate": 64.3
+            },
+            {
+              "champion": "Akali",
+              "games": 3,
+              "rate": 21.4
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 100.0
             }
           ]
         }

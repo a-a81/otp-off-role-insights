@@ -3,25 +3,40 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-05T23:09:26.958059+00:00",
-  "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 78,
+  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "mainLane": "JUNGLE",
+  "players": 3,
+  "mainLaneGames": 103,
   "mainLaneNext": [
     {
-      "champion": "Bard",
-      "games": 7,
-      "rate": 9.0
+      "champion": "Nocturne",
+      "games": 5,
+      "rate": 4.9
     },
     {
-      "champion": "Karma",
-      "games": 1,
-      "rate": 1.3
+      "champion": "Ivern",
+      "games": 3,
+      "rate": 2.9
     },
     {
-      "champion": "Rakan",
+      "champion": "Sejuani",
+      "games": 3,
+      "rate": 2.9
+    },
+    {
+      "champion": "JarvanIV",
+      "games": 2,
+      "rate": 1.9
+    },
+    {
+      "champion": "Chogath",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.0
+    },
+    {
+      "champion": "Shyvana",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
@@ -29,32 +44,128 @@
       "games": 0,
       "picks": []
     },
-    "JUNGLE": {
-      "games": 1,
+    "MID": {
+      "games": 12,
       "picks": [
+        {
+          "champion": "Malzahar",
+          "games": 5,
+          "rate": 41.7
+        },
         {
           "champion": "FiddleSticks",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
-    "MID": {
-      "games": 1,
-      "picks": [
+          "games": 4,
+          "rate": 33.3
+        },
         {
-          "champion": "Karma",
-          "games": 1,
-          "rate": 100.0
+          "champion": "Diana",
+          "games": 3,
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
       "games": 0,
       "picks": []
+    },
+    "UTILITY": {
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "FiddleSticks",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 3,
+      "mainLaneGames": 103,
+      "mainLaneNext": [
+        {
+          "champion": "Nocturne",
+          "games": 5,
+          "rate": 4.9
+        },
+        {
+          "champion": "Ivern",
+          "games": 3,
+          "rate": 2.9
+        },
+        {
+          "champion": "Sejuani",
+          "games": 3,
+          "rate": 2.9
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 1.9
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 1.0
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "Malzahar",
+              "games": 5,
+              "rate": 41.7
+            },
+            {
+              "champion": "FiddleSticks",
+              "games": 4,
+              "rate": 33.3
+            },
+            {
+              "champion": "Diana",
+              "games": 3,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "FiddleSticks",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
     "UTILITY": {
       "players": 2,
       "mainLaneGames": 78,
@@ -103,73 +214,6 @@
         "BOTTOM": {
           "games": 0,
           "picks": []
-        }
-      }
-    },
-    "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 70,
-      "mainLaneNext": [
-        {
-          "champion": "Nocturne",
-          "games": 5,
-          "rate": 7.1
-        },
-        {
-          "champion": "JarvanIV",
-          "games": 2,
-          "rate": 2.9
-        },
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 1.4
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Malzahar",
-              "games": 4,
-              "rate": 66.7
-            },
-            {
-              "champion": "Diana",
-              "games": 2,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "FiddleSticks",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
         }
       }
     }
