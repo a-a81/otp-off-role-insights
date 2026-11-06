@@ -3,30 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lissandra",
-  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
+  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 47,
+  "players": 3,
+  "mainLaneGames": 76,
   "mainLaneNext": [
+    {
+      "champion": "Orianna",
+      "games": 3,
+      "rate": 3.9
+    },
     {
       "champion": "Diana",
       "games": 2,
-      "rate": 4.3
+      "rate": 2.6
+    },
+    {
+      "champion": "Ahri",
+      "games": 1,
+      "rate": 1.3
     },
     {
       "champion": "Akali",
       "games": 1,
-      "rate": 2.1
+      "rate": 1.3
+    },
+    {
+      "champion": "Fizz",
+      "games": 1,
+      "rate": 1.3
     },
     {
       "champion": "Vladimir",
       "games": 1,
-      "rate": 2.1
+      "rate": 1.3
     },
     {
       "champion": "Yone",
       "games": 1,
-      "rate": 2.1
+      "rate": 1.3
     }
   ],
   "offLanes": {
@@ -56,17 +71,22 @@
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 8,
       "picks": [
+        {
+          "champion": "Taliyah",
+          "games": 6,
+          "rate": 75.0
+        },
         {
           "champion": "Khazix",
           "games": 1,
-          "rate": 50.0
+          "rate": 12.5
         },
         {
           "champion": "LeeSin",
           "games": 1,
-          "rate": 50.0
+          "rate": 12.5
         }
       ]
     },
@@ -91,50 +111,80 @@
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 8,
       "picks": [
         {
           "champion": "Lissandra",
           "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "Lulu",
-          "games": 1,
           "rate": 25.0
         },
         {
           "champion": "Thresh",
-          "games": 1,
+          "games": 2,
           "rate": 25.0
+        },
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Rell",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 47,
+      "players": 3,
+      "mainLaneGames": 76,
       "mainLaneNext": [
+        {
+          "champion": "Orianna",
+          "games": 3,
+          "rate": 3.9
+        },
         {
           "champion": "Diana",
           "games": 2,
-          "rate": 4.3
+          "rate": 2.6
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 1.3
         },
         {
           "champion": "Akali",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.3
+        },
+        {
+          "champion": "Fizz",
+          "games": 1,
+          "rate": 1.3
         },
         {
           "champion": "Vladimir",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.3
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.3
         }
       ],
       "offLanes": {
@@ -164,17 +214,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 8,
           "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 6,
+              "rate": 75.0
+            },
             {
               "champion": "Khazix",
               "games": 1,
-              "rate": 50.0
+              "rate": 12.5
             },
             {
               "champion": "LeeSin",
               "games": 1,
-              "rate": 50.0
+              "rate": 12.5
             }
           ]
         },
@@ -199,22 +254,37 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Lissandra",
               "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Lulu",
-              "games": 1,
               "rate": 25.0
             },
             {
               "champion": "Thresh",
-              "games": 1,
+              "games": 2,
               "rate": 25.0
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

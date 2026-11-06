@@ -50,6 +50,8 @@
 
 EUW などを足すときは `collect_otp.py` の `REGIONS` と、画面のリージョン選択に 1 行ずつ足す。
 
+全リージョンの合計（ALL）: `collect_otp.py --combine` が、各リージョンの `players/` をまとめて判定し直し、`data/all/main|otp/` に同じ形の集計を書く。API は叩かない。夜間処理は、全リージョンの収集の後にこれを実行する。合計は単純な人数の合計なので、マスターまで集めている JP の割合が大きい（JP 約 3,350 人、KR・NA 各約 1,000 人）。
+
 2026-11-04 時点の日本の人数は、チャレンジャー 50、グランドマスター 100、マスター 3,203 の計 3,353 人。KR・NA はグランドマスター以上だけでも日本より多いので、`--tiers` と熟練度の絞り込みを使う。
 
 ### 3.2 処理の流れ
@@ -132,6 +134,7 @@ API キーは環境変数 `RIOT_API_KEY` から読む。
 data/
   champion_names.json       公開する（チャンピオン名の多言語表）
   jp/ kr/ na/               リージョンごとに同じ構成
+  all/                      全リージョンの合計（main/ と otp/ だけ。players/ などはない）
     main/                   メイン（40% 以上）の集計
       index.json            公開する
       champions/<name>.json 公開する
@@ -321,7 +324,7 @@ index.html（選択） --検索--> result.html?region=JP&lane=MID&type=main&cham
 |---|---|
 | 言語選択 | `lang-select` |
 | フォーム（送信先 `result.html`、GET） | `search-form` |
-| リージョン選択（JP / KR / NA） | `region` |
+| リージョン選択（JP / KR / NA / 全リージョン。URL では `region=ALL`） | `region` |
 | メインレーン選択（TOP / JUNGLE / MID / ADC / SUPPORT、既定 MID） | `lane` |
 | 集計対象選択（メイン / OTP、既定メイン。URL では `type=main|otp`） | `profile` |
 | チャンピオン入力 | `champion-input` |

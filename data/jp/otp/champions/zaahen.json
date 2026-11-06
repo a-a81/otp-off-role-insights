@@ -3,52 +3,151 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zaahen",
-  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
-  "mainLane": "JUNGLE",
+  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
+  "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 35,
-  "mainLaneNext": [],
+  "mainLaneGames": 36,
+  "mainLaneNext": [
+    {
+      "champion": "KSante",
+      "games": 2,
+      "rate": 5.6
+    },
+    {
+      "champion": "Yone",
+      "games": 2,
+      "rate": 5.6
+    },
+    {
+      "champion": "Ryze",
+      "games": 1,
+      "rate": 2.8
+    },
+    {
+      "champion": "Swain",
+      "games": 1,
+      "rate": 2.8
+    },
+    {
+      "champion": "Yasuo",
+      "games": 1,
+      "rate": 2.8
+    }
+  ],
   "offLanes": {
-    "TOP": {
+    "JUNGLE": {
       "games": 0,
       "picks": []
     },
     "MID": {
-      "games": 4,
+      "games": 1,
       "picks": [
         {
-          "champion": "Malzahar",
-          "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "Teemo",
+          "champion": "Zed",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Ziggs",
-          "games": 1,
-          "rate": 25.0
+          "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
-    "UTILITY": {
       "games": 1,
       "picks": [
         {
-          "champion": "Teemo",
+          "champion": "Ezreal",
           "games": 1,
           "rate": 100.0
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "KSante",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 36,
+      "mainLaneNext": [
+        {
+          "champion": "KSante",
+          "games": 2,
+          "rate": 5.6
+        },
+        {
+          "champion": "Yone",
+          "games": 2,
+          "rate": 5.6
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1,
+          "rate": 2.8
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Zed",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "KSante",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Thresh",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        }
+      }
+    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 35,

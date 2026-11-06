@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
+  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
   "mainLane": "JUNGLE",
   "players": 8,
   "mainLaneGames": 254,
@@ -301,41 +301,57 @@
       }
     },
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 58,
+      "players": 3,
+      "mainLaneGames": 88,
       "mainLaneNext": [
+        {
+          "champion": "Olaf",
+          "games": 2,
+          "rate": 2.3
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 1.1
+        },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.1
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
               "champion": "Zac",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Nunu",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
         "MID": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Zac",
-              "games": 8,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
           "games": 13,
           "picks": [
             {
@@ -344,9 +360,39 @@
               "rate": 92.3
             },
             {
-              "champion": "Blitzcrank",
+              "champion": "Galio",
               "games": 1,
               "rate": 7.7
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Varus",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 12,
+              "rate": 85.7
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 7.1
             }
           ]
         }

@@ -3,8 +3,9 @@
 1. update_champion_names.py
 2. collect_otp.py をリージョンごとに実行する。試合 API の上限はルーティング単位なので、
    同じルーティング（JP と KR は asia）は順番に、違うルーティング（NA は americas）は並行して動かす
-3. 集計ファイルを GitHub に commit / push する（gitPush が true のとき）
-4. Healthchecks.io に開始・成功・失敗を送る。失敗と、時間内に終わらなかった場合はメールが届く
+3. collect_otp.py --combine で全リージョンの合計（data/all/）を作る
+4. 集計ファイルを GitHub に commit / push する（gitPush が true のとき）
+5. Healthchecks.io に開始・成功・失敗を送る。失敗と、時間内に終わらなかった場合はメールが届く
 
 設定は nightly.local.json（Git に入れない）。nightly.example.json をコピーして作る。
 ログは logs/ に残し、古いものは 30 回分を超えたら消す。
@@ -320,6 +321,11 @@ def main():
             env["RIOT_API_KEY"] = api_key
             run_step(run, "champion-names", [sys.executable, str(ROOT / "update_champion_names.py")], env)
             collect_all(run, config, env)
+            combine_command = [sys.executable, str(ROOT / "collect_otp.py"), "--combine", *config.get("collectArgs", [])]
+            if run_step(run, "combine", combine_command, env) == 0:
+                summary = last_line_with(run.step_log("combine"), "チャンピオン JSON")
+                if summary:
+                    run.note("ALL: " + summary)
             if config.get("gitPush") and not args.no_push:
                 publish(run, env)
         remove_old_logs()

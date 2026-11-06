@@ -3,11 +3,11 @@
   "platform": "JP1",
   "profile": "otp",
   "queue": "RANKED_SOLO_5x5",
-  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
+  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
   "matchesPerPlayer": 40,
   "minMainGames": 15,
   "minRate": 0.8,
-  "qualifiedPlayers": 719,
+  "qualifiedPlayers": 725,
   "champions": [
     {
       "champion": "Ahri",
@@ -22,6 +22,12 @@
       "file": "champions/gangplank.json"
     },
     {
+      "champion": "Aphelios",
+      "mainLane": "BOTTOM",
+      "players": 11,
+      "file": "champions/aphelios.json"
+    },
+    {
       "champion": "Briar",
       "mainLane": "JUNGLE",
       "players": 11,
@@ -32,12 +38,6 @@
       "mainLane": "BOTTOM",
       "players": 11,
       "file": "champions/jhin.json"
-    },
-    {
-      "champion": "Aphelios",
-      "mainLane": "BOTTOM",
-      "players": 10,
-      "file": "champions/aphelios.json"
     },
     {
       "champion": "Darius",
@@ -298,12 +298,6 @@
       "file": "champions/shen.json"
     },
     {
-      "champion": "Soraka",
-      "mainLane": "UTILITY",
-      "players": 5,
-      "file": "champions/soraka.json"
-    },
-    {
       "champion": "Velkoz",
       "mainLane": "BOTTOM",
       "players": 5,
@@ -368,6 +362,12 @@
       "mainLane": "MID",
       "players": 4,
       "file": "champions/malzahar.json"
+    },
+    {
+      "champion": "Soraka",
+      "mainLane": "UTILITY",
+      "players": 4,
+      "file": "champions/soraka.json"
     },
     {
       "champion": "Syndra",
@@ -442,6 +442,12 @@
       "file": "champions/ivern.json"
     },
     {
+      "champion": "Karthus",
+      "mainLane": "BOTTOM",
+      "players": 3,
+      "file": "champions/karthus.json"
+    },
+    {
       "champion": "Khazix",
       "mainLane": "JUNGLE",
       "players": 3,
@@ -458,6 +464,12 @@
       "mainLane": "JUNGLE",
       "players": 3,
       "file": "champions/leesin.json"
+    },
+    {
+      "champion": "Lissandra",
+      "mainLane": "MID",
+      "players": 3,
+      "file": "champions/lissandra.json"
     },
     {
       "champion": "Lucian",
@@ -610,22 +622,22 @@
       "file": "champions/evelynn.json"
     },
     {
+      "champion": "Gwen",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/gwen.json"
+    },
+    {
       "champion": "Kalista",
       "mainLane": "BOTTOM",
       "players": 2,
       "file": "champions/kalista.json"
     },
     {
-      "champion": "Karthus",
-      "mainLane": "BOTTOM",
-      "players": 2,
-      "file": "champions/karthus.json"
-    },
-    {
-      "champion": "Lissandra",
+      "champion": "Kassadin",
       "mainLane": "MID",
       "players": 2,
-      "file": "champions/lissandra.json"
+      "file": "champions/kassadin.json"
     },
     {
       "champion": "Lulu",
@@ -754,12 +766,6 @@
       "file": "champions/gragas.json"
     },
     {
-      "champion": "Gwen",
-      "mainLane": "MID",
-      "players": 1,
-      "file": "champions/gwen.json"
-    },
-    {
       "champion": "Jax",
       "mainLane": "TOP",
       "players": 1,
@@ -776,12 +782,6 @@
       "mainLane": "UTILITY",
       "players": 1,
       "file": "champions/karma.json"
-    },
-    {
-      "champion": "Kassadin",
-      "mainLane": "MID",
-      "players": 1,
-      "file": "champions/kassadin.json"
     },
     {
       "champion": "Kayle",
@@ -911,7 +911,7 @@
     },
     {
       "champion": "Zaahen",
-      "mainLane": "JUNGLE",
+      "mainLane": "TOP",
       "players": 1,
       "file": "champions/zaahen.json"
     },

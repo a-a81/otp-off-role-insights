@@ -31,6 +31,7 @@ JSON を作るたびにやり直す。しきい値を変えたら --rebuild-only
   python collect_otp.py --region KR --tiers CHALLENGER GRANDMASTER
   python collect_otp.py --screen-only
   python collect_otp.py --rebuild-only --otp-rate 0.7
+  python collect_otp.py --combine
   python collect_otp.py
   python collect_otp.py --refresh
 """
@@ -54,6 +55,8 @@ REGIONS = {
     "KR": Region("KR", "KR", "https://kr.api.riotgames.com", "https://asia.api.riotgames.com"),
     "NA": Region("NA", "NA1", "https://na1.api.riotgames.com", "https://americas.api.riotgames.com"),
 }
+# 全リージョンの合計（--combine）。API は叩かないので問い合わせ先はない
+COMBINED = Region("ALL", "ALL", "", "")
 QUEUE = "RANKED_SOLO_5x5"
 QUEUE_ID = 420
 TIERS = ("CHALLENGER", "GRANDMASTER", "MASTER")
@@ -395,7 +398,22 @@ def load_player_records(player_dir):
 
 def rebuild_champion_files(region, player_dir, output_dir, matches, min_main_games, rates):
     """rates の profile（main / otp）ごとに集計を作り、profile → チャンピオン数を返す。"""
-    records = load_player_records(player_dir)
+    return rebuild_from_records(
+        region, load_player_records(player_dir), output_dir, matches, min_main_games, rates
+    )
+
+
+def rebuild_combined(data_dir, matches, min_main_games, rates):
+    """全リージョンのプレイヤーをまとめた集計を data/all/ に作る。API は叩かない。"""
+    records = []
+    for code in sorted(REGIONS):
+        records.extend(load_player_records(data_dir / code.lower() / "players"))
+    return rebuild_from_records(
+        COMBINED, records, data_dir / COMBINED.code.lower(), matches, min_main_games, rates
+    )
+
+
+def rebuild_from_records(region, records, output_dir, matches, min_main_games, rates):
     updated_at = datetime.now(timezone.utc).isoformat()
     return {
         profile: rebuild_profile(
@@ -858,6 +876,14 @@ def run_self_test():
         assert (main_yasuo["profile"], main_yasuo["players"]) == ("main", 2)
         assert (otp_yasuo["profile"], otp_yasuo["players"], otp_yasuo["minRate"]) == ("otp", 1, 0.8)
         assert read_json(out / "otp" / "index.json")["profile"] == "otp"
+
+        data_dir = tmp_dir / "data"
+        write_json(data_dir / "jp" / "players" / "a.json", {"puuid": "a", "tier": "MASTER", "games": mid("Yasuo", 20)})
+        write_json(data_dir / "na" / "players" / "b.json", {"puuid": "b", "tier": "MASTER", "games": mid("Yasuo", 18) + mid("Yone", 2)})
+        counts = rebuild_combined(data_dir, 40, 15, {"main": 0.4, "otp": 0.8})
+        assert counts == {"main": 1, "otp": 1}
+        combined = read_json(data_dir / "all" / "main" / "champions" / "yasuo.json")
+        assert (combined["region"], combined["players"]) == ("ALL", 2)
     print("self-test ok")
 
 
@@ -897,6 +923,11 @@ def main():
     parser.add_argument("--min-interval", type=float, default=1.26, help="API リクエストの最短間隔（秒）")
     parser.add_argument("--refresh", action="store_true", help="既存のプレイヤーも期限が切れていれば取り直す")
     parser.add_argument("--rebuild-only", action="store_true", help="API を叩かず JSON を作り直す")
+    parser.add_argument(
+        "--combine",
+        action="store_true",
+        help="API を叩かず、全リージョンの合計を data/all/ に作る（--region は無視）",
+    )
     parser.add_argument("--self-test", action="store_true", help="API を叩かず集計ロジックを確認する")
     parser.add_argument("--data-dir", default="", help="出力先。未指定ならスクリプト横の data/")
     args = parser.parse_args()
@@ -925,6 +956,10 @@ def main():
     player_dir.mkdir(parents=True, exist_ok=True)
     cache_dir.mkdir(parents=True, exist_ok=True)
 
+    if args.combine:
+        counts = rebuild_combined(data_dir, args.matches, args.min_main_games, rates)
+        print_counts(counts, data_dir / COMBINED.code.lower())
+        return
     if args.rebuild_only:
         counts = rebuild_champion_files(
             region, player_dir, output_dir, args.matches, args.min_main_games, rates

@@ -3,28 +3,44 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-05T22:54:21.504387+00:00",
+  "updatedAt": "2026-11-05T23:09:23.821541+00:00",
   "mainLane": "MID",
-  "players": 1,
-  "mainLaneGames": 29,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 50,
+  "mainLaneNext": [
+    {
+      "champion": "Galio",
+      "games": 2,
+      "rate": 4.0
+    },
+    {
+      "champion": "Syndra",
+      "games": 2,
+      "rate": 4.0
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 15,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 2,
-          "rate": 100.0
+          "games": 14,
+          "rate": 93.3
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 6.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 2,
+          "games": 4,
           "rate": 100.0
         }
       ]
@@ -40,43 +56,64 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 7,
       "picks": [
+        {
+          "champion": "Leona",
+          "games": 4,
+          "rate": 57.1
+        },
         {
           "champion": "Xerath",
           "games": 2,
-          "rate": 66.7
+          "rate": 28.6
         },
         {
-          "champion": "Leona",
+          "champion": "Nautilus",
           "games": 1,
-          "rate": 33.3
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 1,
-      "mainLaneGames": 29,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 50,
+      "mainLaneNext": [
+        {
+          "champion": "Galio",
+          "games": 2,
+          "rate": 4.0
+        },
+        {
+          "champion": "Syndra",
+          "games": 2,
+          "rate": 4.0
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 15,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 2,
-              "rate": 100.0
+              "games": 14,
+              "rate": 93.3
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 4,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 2,
+              "games": 4,
               "rate": 100.0
             }
           ]
@@ -92,17 +129,22 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Leona",
+              "games": 4,
+              "rate": 57.1
+            },
             {
               "champion": "Xerath",
               "games": 2,
-              "rate": 66.7
+              "rate": 28.6
             },
             {
-              "champion": "Leona",
+              "champion": "Nautilus",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
             }
           ]
         }
