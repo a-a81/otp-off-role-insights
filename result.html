@@ -166,7 +166,7 @@
         lane: laneLabel(lane),
         champion: nameOf(champion),
         profile: t(PROFILES[profile]),
-        region: region === "ALL" ? t("regionAllShort") : region,
+        region: region === "ALL" ? t("regionAll") : region,
       }));
       document.title = laneLabel(lane) + " " + nameOf(champion) + " - " + t("siteName");
       renderProfileSwitch();
