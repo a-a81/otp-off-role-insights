@@ -3,10 +3,10 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Anivia",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "MID",
   "players": 12,
-  "mainLaneGames": 303,
+  "mainLaneGames": 302,
   "mainLaneNext": [
     {
       "champion": "Orianna",
@@ -20,8 +20,8 @@
     },
     {
       "champion": "Irelia",
-      "games": 6,
-      "rate": 2.0
+      "games": 7,
+      "rate": 2.3
     },
     {
       "champion": "Lissandra",
@@ -60,6 +60,11 @@
     },
     {
       "champion": "Vex",
+      "games": 2,
+      "rate": 0.7
+    },
+    {
+      "champion": "Viktor",
       "games": 2,
       "rate": 0.7
     },
@@ -117,31 +122,26 @@
       "champion": "Veigar",
       "games": 1,
       "rate": 0.3
-    },
-    {
-      "champion": "Viktor",
-      "games": 1,
-      "rate": 0.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 60,
+      "games": 61,
       "picks": [
         {
           "champion": "Anivia",
-          "games": 38,
-          "rate": 63.3
+          "games": 39,
+          "rate": 63.9
         },
         {
           "champion": "KSante",
           "games": 10,
-          "rate": 16.7
+          "rate": 16.4
         },
         {
           "champion": "Sion",
           "games": 3,
-          "rate": 5.0
+          "rate": 4.9
         },
         {
           "champion": "Gragas",
@@ -156,27 +156,27 @@
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         },
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         },
         {
           "champion": "Shyvana",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         }
       ]
     },
@@ -349,7 +349,7 @@
   "byMainLane": {
     "MID": {
       "players": 12,
-      "mainLaneGames": 303,
+      "mainLaneGames": 302,
       "mainLaneNext": [
         {
           "champion": "Orianna",
@@ -363,8 +363,8 @@
         },
         {
           "champion": "Irelia",
-          "games": 6,
-          "rate": 2.0
+          "games": 7,
+          "rate": 2.3
         },
         {
           "champion": "Lissandra",
@@ -403,6 +403,11 @@
         },
         {
           "champion": "Vex",
+          "games": 2,
+          "rate": 0.7
+        },
+        {
+          "champion": "Viktor",
           "games": 2,
           "rate": 0.7
         },
@@ -460,31 +465,26 @@
           "champion": "Veigar",
           "games": 1,
           "rate": 0.3
-        },
-        {
-          "champion": "Viktor",
-          "games": 1,
-          "rate": 0.3
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 60,
+          "games": 61,
           "picks": [
             {
               "champion": "Anivia",
-              "games": 38,
-              "rate": 63.3
+              "games": 39,
+              "rate": 63.9
             },
             {
               "champion": "KSante",
               "games": 10,
-              "rate": 16.7
+              "rate": 16.4
             },
             {
               "champion": "Sion",
               "games": 3,
-              "rate": 5.0
+              "rate": 4.9
             },
             {
               "champion": "Gragas",
@@ -499,27 +499,27 @@
             {
               "champion": "Mordekaiser",
               "games": 1,
-              "rate": 1.7
+              "rate": 1.6
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 1.7
+              "rate": 1.6
             },
             {
               "champion": "Ornn",
               "games": 1,
-              "rate": 1.7
+              "rate": 1.6
             },
             {
               "champion": "Shyvana",
               "games": 1,
-              "rate": 1.7
+              "rate": 1.6
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 1.7
+              "rate": 1.6
             }
           ]
         },
@@ -691,46 +691,67 @@
       }
     },
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 32,
+      "players": 2,
+      "mainLaneGames": 48,
       "mainLaneNext": [
         {
           "champion": "Veigar",
           "games": 3,
-          "rate": 9.4
+          "rate": 6.2
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
             {
-              "champion": "Anivia",
-              "games": 4,
+              "champion": "Belveth",
+              "games": 1,
               "rate": 100.0
             }
           ]
         },
-        "BOTTOM": {
-          "games": 2,
+        "MID": {
+          "games": 19,
           "picks": [
             {
               "champion": "Anivia",
-              "games": 2,
+              "games": 16,
+              "rate": 84.2
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 5.3
+            },
+            {
+              "champion": "Akshan",
+              "games": 1,
+              "rate": 5.3
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 5.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Anivia",
+              "games": 6,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 4,
           "picks": [
             {
               "champion": "Anivia",
-              "games": 1,
+              "games": 4,
               "rate": 100.0
             }
           ]

@@ -3,39 +3,74 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kennen",
-  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
+  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 33,
+  "players": 2,
+  "mainLaneGames": 63,
   "mainLaneNext": [
+    {
+      "champion": "Ambessa",
+      "games": 4,
+      "rate": 6.3
+    },
+    {
+      "champion": "Sejuani",
+      "games": 2,
+      "rate": 3.2
+    },
     {
       "champion": "Aatrox",
       "games": 1,
-      "rate": 3.0
+      "rate": 1.6
     },
     {
       "champion": "Malphite",
       "games": 1,
-      "rate": 3.0
+      "rate": 1.6
+    },
+    {
+      "champion": "Sion",
+      "games": 1,
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Kindred",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     },
     "MID": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Kennen",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
+    },
+    "BOTTOM": {
       "games": 2,
       "picks": [
         {
@@ -45,16 +80,12 @@
         }
       ]
     },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
     "UTILITY": {
-      "games": 3,
+      "games": 7,
       "picks": [
         {
           "champion": "Kennen",
-          "games": 3,
+          "games": 7,
           "rate": 100.0
         }
       ]
@@ -62,37 +93,72 @@
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 33,
+      "players": 2,
+      "mainLaneGames": 63,
       "mainLaneNext": [
+        {
+          "champion": "Ambessa",
+          "games": 4,
+          "rate": 6.3
+        },
+        {
+          "champion": "Sejuani",
+          "games": 2,
+          "rate": 3.2
+        },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 3.0
+          "rate": 1.6
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 3.0
+          "rate": 1.6
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Kindred",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Nocturne",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         },
         "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Kennen",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Ambessa",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
           "games": 2,
           "picks": [
             {
@@ -102,16 +168,12 @@
             }
           ]
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
         "UTILITY": {
-          "games": 3,
+          "games": 7,
           "picks": [
             {
               "champion": "Kennen",
-              "games": 3,
+              "games": 7,
               "rate": 100.0
             }
           ]

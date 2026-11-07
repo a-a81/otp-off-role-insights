@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayle",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "MID",
   "players": 1,
   "mainLaneGames": 36,
@@ -76,14 +76,8 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [
-        {
-          "champion": "Quinn",
-          "games": 2,
-          "rate": 6.2
-        }
-      ],
+      "mainLaneGames": 31,
+      "mainLaneNext": [],
       "offLanes": {
         "JUNGLE": {
           "games": 2,
@@ -110,8 +104,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

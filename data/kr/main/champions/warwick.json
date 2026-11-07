@@ -3,20 +3,15 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Warwick",
-  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
+  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
   "mainLane": "TOP",
   "players": 4,
-  "mainLaneGames": 132,
+  "mainLaneGames": 131,
   "mainLaneNext": [
     {
       "champion": "Poppy",
-      "games": 18,
-      "rate": 13.6
-    },
-    {
-      "champion": "Teemo",
-      "games": 10,
-      "rate": 7.6
+      "games": 21,
+      "rate": 16.0
     },
     {
       "champion": "Sion",
@@ -25,8 +20,8 @@
     },
     {
       "champion": "Akali",
-      "games": 4,
-      "rate": 3.0
+      "games": 2,
+      "rate": 1.5
     },
     {
       "champion": "Gragas",
@@ -34,9 +29,9 @@
       "rate": 1.5
     },
     {
-      "champion": "Malphite",
-      "games": 1,
-      "rate": 0.8
+      "champion": "Teemo",
+      "games": 2,
+      "rate": 1.5
     },
     {
       "champion": "Shen",
@@ -46,17 +41,22 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Warwick",
           "games": 3,
-          "rate": 75.0
+          "rate": 60.0
         },
         {
           "champion": "Nunu",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
+        },
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -86,47 +86,51 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Xerath",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
-      "games": 16,
+      "games": 17,
       "picks": [
         {
           "champion": "Poppy",
-          "games": 5,
-          "rate": 31.2
+          "games": 6,
+          "rate": 35.3
         },
         {
           "champion": "Karma",
-          "games": 4,
-          "rate": 25.0
+          "games": 3,
+          "rate": 17.6
         },
         {
           "champion": "Warwick",
           "games": 3,
-          "rate": 18.8
+          "rate": 17.6
         },
         {
           "champion": "Alistar",
-          "games": 2,
-          "rate": 12.5
+          "games": 1,
+          "rate": 5.9
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 5.9
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
+        },
+        {
+          "champion": "Neeko",
+          "games": 1,
+          "rate": 5.9
         },
         {
           "champion": "Rakan",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         }
       ]
     }
@@ -134,17 +138,12 @@
   "byMainLane": {
     "TOP": {
       "players": 4,
-      "mainLaneGames": 132,
+      "mainLaneGames": 131,
       "mainLaneNext": [
         {
           "champion": "Poppy",
-          "games": 18,
-          "rate": 13.6
-        },
-        {
-          "champion": "Teemo",
-          "games": 10,
-          "rate": 7.6
+          "games": 21,
+          "rate": 16.0
         },
         {
           "champion": "Sion",
@@ -153,8 +152,8 @@
         },
         {
           "champion": "Akali",
-          "games": 4,
-          "rate": 3.0
+          "games": 2,
+          "rate": 1.5
         },
         {
           "champion": "Gragas",
@@ -162,9 +161,9 @@
           "rate": 1.5
         },
         {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 0.8
+          "champion": "Teemo",
+          "games": 2,
+          "rate": 1.5
         },
         {
           "champion": "Shen",
@@ -174,17 +173,22 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Warwick",
               "games": 3,
-              "rate": 75.0
+              "rate": 60.0
             },
             {
               "champion": "Nunu",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
@@ -214,47 +218,51 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "Poppy",
-              "games": 5,
-              "rate": 31.2
+              "games": 6,
+              "rate": 35.3
             },
             {
               "champion": "Karma",
-              "games": 4,
-              "rate": 25.0
+              "games": 3,
+              "rate": 17.6
             },
             {
               "champion": "Warwick",
               "games": 3,
-              "rate": 18.8
+              "rate": 17.6
             },
             {
               "champion": "Alistar",
-              "games": 2,
-              "rate": 12.5
+              "games": 1,
+              "rate": 5.9
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
+            },
+            {
+              "champion": "Neeko",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Rakan",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             }
           ]
         }

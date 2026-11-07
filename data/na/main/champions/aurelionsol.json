@@ -3,128 +3,360 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "AurelionSol",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 30,
+  "players": 2,
+  "mainLaneGames": 45,
   "mainLaneNext": [
     {
-      "champion": "Smolder",
+      "champion": "Jinx",
+      "games": 5,
+      "rate": 11.1
+    },
+    {
+      "champion": "Sivir",
       "games": 2,
-      "rate": 6.7
+      "rate": 4.4
+    },
+    {
+      "champion": "Ashe",
+      "games": 1,
+      "rate": 2.2
+    },
+    {
+      "champion": "Draven",
+      "games": 1,
+      "rate": 2.2
+    },
+    {
+      "champion": "Smolder",
+      "games": 1,
+      "rate": 2.2
+    },
+    {
+      "champion": "Yunara",
+      "games": 1,
+      "rate": 2.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 9,
       "picks": [
         {
           "champion": "Zaahen",
           "games": 4,
-          "rate": 80.0
+          "rate": 44.4
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 11.1
         },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 20.0
+          "rate": 11.1
+        },
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Warwick",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 6,
       "picks": [
+        {
+          "champion": "Hecarim",
+          "games": 2,
+          "rate": 33.3
+        },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 100.0
+          "rate": 16.7
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Qiyana",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 7,
       "picks": [
         {
           "champion": "AurelionSol",
-          "games": 1,
-          "rate": 33.3
+          "games": 3,
+          "rate": 42.9
         },
         {
           "champion": "Kassadin",
           "games": 1,
-          "rate": 33.3
+          "rate": 14.3
         },
         {
           "champion": "Locke",
           "games": 1,
-          "rate": 33.3
+          "rate": 14.3
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 14.3
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 14.3
         }
       ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 11,
+      "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 27.3
+        },
+        {
+          "champion": "Alistar",
+          "games": 2,
+          "rate": 18.2
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Milio",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Pyke",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Renata",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 9.1
+        }
+      ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 30,
+      "players": 2,
+      "mainLaneGames": 45,
       "mainLaneNext": [
         {
-          "champion": "Smolder",
+          "champion": "Jinx",
+          "games": 5,
+          "rate": 11.1
+        },
+        {
+          "champion": "Sivir",
           "games": 2,
-          "rate": 6.7
+          "rate": 4.4
+        },
+        {
+          "champion": "Ashe",
+          "games": 1,
+          "rate": 2.2
+        },
+        {
+          "champion": "Draven",
+          "games": 1,
+          "rate": 2.2
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 2.2
+        },
+        {
+          "champion": "Yunara",
+          "games": 1,
+          "rate": 2.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 9,
           "picks": [
             {
               "champion": "Zaahen",
               "games": 4,
-              "rate": 80.0
+              "rate": 44.4
+            },
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Gwen",
               "games": 1,
-              "rate": 20.0
+              "rate": 11.1
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Warwick",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Hecarim",
+              "games": 2,
+              "rate": 33.3
+            },
             {
               "champion": "Aatrox",
               "games": 1,
-              "rate": 100.0
+              "rate": 16.7
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Qiyana",
+              "games": 1,
+              "rate": 16.7
             }
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 7,
           "picks": [
             {
               "champion": "AurelionSol",
-              "games": 1,
-              "rate": 33.3
+              "games": 3,
+              "rate": 42.9
             },
             {
               "champion": "Kassadin",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
             },
             {
               "champion": "Locke",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
+            },
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 11,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 27.3
+            },
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 18.2
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Milio",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Pyke",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Renata",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Senna",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Zilean",
+              "games": 1,
+              "rate": 9.1
+            }
+          ]
         }
       }
     },

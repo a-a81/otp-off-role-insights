@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hwei",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 59,
@@ -237,6 +237,82 @@
               "rate": 100.0
             }
           ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 20,
+      "mainLaneNext": [
+        {
+          "champion": "Galio",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "Tristana",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "Vex",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 5.0
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 18,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 14,
+              "rate": 77.8
+            },
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Vex",
+              "games": 1,
+              "rate": 5.6
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Hwei",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }

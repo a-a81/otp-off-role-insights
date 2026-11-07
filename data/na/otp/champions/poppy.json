@@ -3,18 +3,22 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
-  "mainLane": "TOP",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "mainLane": "UTILITY",
   "players": 1,
   "mainLaneGames": 34,
-  "mainLaneNext": [
-    {
-      "champion": "Gragas",
-      "games": 2,
-      "rate": 5.9
-    }
-  ],
+  "mainLaneNext": [],
   "offLanes": {
+    "TOP": {
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Poppy",
+          "games": 3,
+          "rate": 100.0
+        }
+      ]
+    },
     "JUNGLE": {
       "games": 0,
       "picks": []
@@ -23,7 +27,7 @@
       "games": 3,
       "picks": [
         {
-          "champion": "Gragas",
+          "champion": "Akali",
           "games": 1,
           "rate": 33.3
         },
@@ -33,79 +37,18 @@
           "rate": 33.3
         },
         {
-          "champion": "Yorick",
+          "champion": "Riven",
           "games": 1,
           "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Viktor",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
-    "UTILITY": {
       "games": 0,
       "picks": []
     }
   },
   "byMainLane": {
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 34,
-      "mainLaneNext": [
-        {
-          "champion": "Gragas",
-          "games": 2,
-          "rate": 5.9
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Gragas",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Yorick",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 0,
-          "picks": []
-        }
-      }
-    },
     "UTILITY": {
       "players": 1,
       "mainLaneGames": 34,
@@ -146,6 +89,63 @@
           ]
         },
         "BOTTOM": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 33,
+      "mainLaneNext": [
+        {
+          "champion": "Gragas",
+          "games": 2,
+          "rate": 6.1
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Yorick",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
           "games": 0,
           "picks": []
         }

@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MonkeyKing",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 99,
+  "mainLaneGames": 100,
   "mainLaneNext": [
     {
       "champion": "Renekton",
@@ -21,14 +21,8 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "MonkeyKing",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "MID": {
       "games": 3,
@@ -79,7 +73,7 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 99,
+      "mainLaneGames": 100,
       "mainLaneNext": [
         {
           "champion": "Renekton",
@@ -94,14 +88,8 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "MonkeyKing",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
           "games": 3,
@@ -152,28 +140,29 @@
     },
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 62,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "Zaahen",
           "games": 5,
-          "rate": 8.1
+          "rate": 8.3
         },
         {
           "champion": "Diana",
-          "games": 3,
-          "rate": 4.8
-        },
-        {
-          "champion": "Amumu",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 0,
@@ -184,22 +173,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 17,
+          "games": 16,
           "picks": [
             {
               "champion": "Leona",
               "games": 9,
-              "rate": 52.9
+              "rate": 56.2
             },
             {
               "champion": "Nautilus",
               "games": 5,
-              "rate": 29.4
+              "rate": 31.2
             },
             {
               "champion": "MonkeyKing",
-              "games": 3,
-              "rate": 17.6
+              "games": 2,
+              "rate": 12.5
             }
           ]
         }

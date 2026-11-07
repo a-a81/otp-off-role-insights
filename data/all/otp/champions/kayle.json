@@ -3,35 +3,35 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayle",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 91,
+  "mainLaneGames": 85,
   "mainLaneNext": [
     {
       "champion": "Nasus",
       "games": 3,
-      "rate": 3.3
+      "rate": 3.5
     },
     {
       "champion": "Akshan",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 20,
+      "games": 22,
       "picks": [
         {
           "champion": "Kayle",
-          "games": 19,
-          "rate": 95.0
+          "games": 21,
+          "rate": 95.5
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.5
         }
       ]
     },
@@ -46,27 +46,27 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 6,
       "picks": [
         {
           "champion": "Kayle",
-          "games": 4,
+          "games": 6,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Yuumi",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Senna",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Yuumi",
-          "games": 1,
-          "rate": 50.0
+          "rate": 33.3
         }
       ]
     }
@@ -74,32 +74,32 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 91,
+      "mainLaneGames": 85,
       "mainLaneNext": [
         {
           "champion": "Nasus",
           "games": 3,
-          "rate": 3.3
+          "rate": 3.5
         },
         {
           "champion": "Akshan",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 20,
+          "games": 22,
           "picks": [
             {
               "champion": "Kayle",
-              "games": 19,
-              "rate": 95.0
+              "games": 21,
+              "rate": 95.5
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.5
             }
           ]
         },
@@ -114,27 +114,27 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 6,
           "picks": [
             {
               "champion": "Kayle",
-              "games": 4,
+              "games": 6,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Yuumi",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Senna",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Yuumi",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         }
@@ -142,14 +142,8 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [
-        {
-          "champion": "Quinn",
-          "games": 2,
-          "rate": 6.2
-        }
-      ],
+      "mainLaneGames": 31,
+      "mainLaneNext": [],
       "offLanes": {
         "JUNGLE": {
           "games": 2,
@@ -176,8 +170,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

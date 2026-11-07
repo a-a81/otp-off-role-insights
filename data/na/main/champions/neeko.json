@@ -3,11 +3,16 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Neeko",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "UTILITY",
   "players": 2,
   "mainLaneGames": 74,
   "mainLaneNext": [
+    {
+      "champion": "Bard",
+      "games": 4,
+      "rate": 5.4
+    },
     {
       "champion": "Blitzcrank",
       "games": 4,
@@ -19,7 +24,7 @@
       "rate": 5.4
     },
     {
-      "champion": "Bard",
+      "champion": "Nautilus",
       "games": 3,
       "rate": 4.1
     },
@@ -54,22 +59,12 @@
       "rate": 2.7
     },
     {
-      "champion": "Nautilus",
+      "champion": "Leona",
       "games": 2,
       "rate": 2.7
     },
     {
-      "champion": "Camille",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
       "champion": "JarvanIV",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Leona",
       "games": 1,
       "rate": 1.4
     },
@@ -89,11 +84,6 @@
       "rate": 1.4
     },
     {
-      "champion": "Renata",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
       "champion": "Rumble",
       "games": 1,
       "rate": 1.4
@@ -105,11 +95,6 @@
     },
     {
       "champion": "Singed",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Thresh",
       "games": 1,
       "rate": 1.4
     },
@@ -172,6 +157,11 @@
       "mainLaneGames": 74,
       "mainLaneNext": [
         {
+          "champion": "Bard",
+          "games": 4,
+          "rate": 5.4
+        },
+        {
           "champion": "Blitzcrank",
           "games": 4,
           "rate": 5.4
@@ -182,7 +172,7 @@
           "rate": 5.4
         },
         {
-          "champion": "Bard",
+          "champion": "Nautilus",
           "games": 3,
           "rate": 4.1
         },
@@ -217,22 +207,12 @@
           "rate": 2.7
         },
         {
-          "champion": "Nautilus",
+          "champion": "Leona",
           "games": 2,
           "rate": 2.7
         },
         {
-          "champion": "Camille",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
           "champion": "JarvanIV",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Leona",
           "games": 1,
           "rate": 1.4
         },
@@ -252,11 +232,6 @@
           "rate": 1.4
         },
         {
-          "champion": "Renata",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
           "champion": "Rumble",
           "games": 1,
           "rate": 1.4
@@ -268,11 +243,6 @@
         },
         {
           "champion": "Singed",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Thresh",
           "games": 1,
           "rate": 1.4
         },
@@ -330,63 +300,6 @@
         }
       }
     },
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [
-        {
-          "champion": "Malphite",
-          "games": 2,
-          "rate": 6.2
-        },
-        {
-          "champion": "Ornn",
-          "games": 2,
-          "rate": 6.2
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 3.1
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Neeko",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Neeko",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Neeko",
-              "games": 4,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "MID": {
       "players": 1,
       "mainLaneGames": 31,
@@ -407,11 +320,6 @@
           "rate": 3.2
         },
         {
-          "champion": "LeeSin",
-          "games": 1,
-          "rate": 3.2
-        },
-        {
           "champion": "Lucian",
           "games": 1,
           "rate": 3.2
@@ -424,32 +332,32 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Vi",
-              "games": 3,
-              "rate": 75.0
+              "games": 2,
+              "rate": 66.7
             },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Vi",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Vi",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
@@ -466,6 +374,63 @@
         "UTILITY": {
           "games": 0,
           "picks": []
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 25,
+      "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 4.0
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 6,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 8,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

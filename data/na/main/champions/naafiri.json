@@ -3,76 +3,73 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Naafiri",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
-  "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 34,
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "mainLane": "MID",
+  "players": 2,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
-      "champion": "Khazix",
-      "games": 6,
-      "rate": 17.6
-    },
-    {
-      "champion": "Kindred",
-      "games": 5,
-      "rate": 14.7
-    },
-    {
-      "champion": "Graves",
-      "games": 3,
-      "rate": 8.8
-    },
-    {
-      "champion": "Udyr",
-      "games": 3,
-      "rate": 8.8
-    },
-    {
-      "champion": "Lillia",
-      "games": 2,
-      "rate": 5.9
-    },
-    {
-      "champion": "Gragas",
+      "champion": "Anivia",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.8
     },
     {
-      "champion": "LeeSin",
+      "champion": "Sylas",
       "games": 1,
-      "rate": 2.9
-    },
-    {
-      "champion": "Zyra",
-      "games": 1,
-      "rate": 2.9
+      "rate": 1.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Aurora",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Kled",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Naafiri",
+          "games": 2,
+          "rate": 33.3
+        }
+      ]
     },
-    "MID": {
-      "games": 4,
+    "JUNGLE": {
+      "games": 2,
       "picks": [
         {
           "champion": "Naafiri",
-          "games": 4,
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 11,
+      "picks": [
+        {
+          "champion": "Naafiri",
+          "games": 8,
+          "rate": 72.7
+        },
+        {
+          "champion": "Lux",
+          "games": 3,
+          "rate": 27.3
+        }
+      ]
     },
     "UTILITY": {
       "games": 1,
       "picks": [
         {
-          "champion": "Shen",
+          "champion": "Morgana",
           "games": 1,
           "rate": 100.0
         }
@@ -80,6 +77,79 @@
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 57,
+      "mainLaneNext": [
+        {
+          "champion": "Anivia",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 1.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Aurora",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Kled",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Naafiri",
+              "games": 2,
+              "rate": 33.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Naafiri",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 11,
+          "picks": [
+            {
+              "champion": "Naafiri",
+              "games": 8,
+              "rate": 72.7
+            },
+            {
+              "champion": "Lux",
+              "games": 3,
+              "rate": 27.3
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 34,
@@ -151,69 +221,6 @@
               "champion": "Shen",
               "games": 1,
               "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 27,
-      "mainLaneNext": [
-        {
-          "champion": "Sylas",
-          "games": 1,
-          "rate": 3.7
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Kled",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Naafiri",
-              "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Naafiri",
-              "games": 6,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Leona",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 50.0
             }
           ]
         }

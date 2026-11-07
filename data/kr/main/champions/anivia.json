@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Anivia",
-  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
+  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
   "mainLane": "TOP",
   "players": 5,
   "mainLaneGames": 121,
@@ -291,24 +291,60 @@
       }
     },
     "MID": {
-      "players": 1,
-      "mainLaneGames": 26,
+      "players": 2,
+      "mainLaneGames": 43,
       "mainLaneNext": [
+        {
+          "champion": "Annie",
+          "games": 2,
+          "rate": 4.7
+        },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 3.8
+          "rate": 2.3
         },
         {
           "champion": "Corki",
           "games": 1,
-          "rate": 3.8
+          "rate": 2.3
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
+          "champion": "Vex",
+          "games": 1,
+          "rate": 2.3
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Anivia",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 4,
@@ -331,32 +367,52 @@
           ]
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 16,
           "picks": [
+            {
+              "champion": "Anivia",
+              "games": 7,
+              "rate": 43.8
+            },
             {
               "champion": "Draven",
               "games": 5,
-              "rate": 83.3
+              "rate": 31.2
+            },
+            {
+              "champion": "AurelionSol",
+              "games": 3,
+              "rate": 18.8
             },
             {
               "champion": "Aphelios",
               "games": 1,
-              "rate": 16.7
+              "rate": 6.2
             }
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 15,
           "picks": [
+            {
+              "champion": "Anivia",
+              "games": 10,
+              "rate": 66.7
+            },
             {
               "champion": "Rell",
               "games": 3,
-              "rate": 75.0
+              "rate": 20.0
             },
             {
-              "champion": "Anivia",
+              "champion": "Amumu",
               "games": 1,
-              "rate": 25.0
+              "rate": 6.7
+            },
+            {
+              "champion": "Locke",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         }

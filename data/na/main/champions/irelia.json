@@ -3,43 +3,74 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Irelia",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
-  "mainLaneGames": 19,
-  "mainLaneNext": [],
+  "mainLaneGames": 22,
+  "mainLaneNext": [
+    {
+      "champion": "Jax",
+      "games": 5,
+      "rate": 22.7
+    },
+    {
+      "champion": "Vladimir",
+      "games": 2,
+      "rate": 9.1
+    },
+    {
+      "champion": "Renekton",
+      "games": 1,
+      "rate": 4.5
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 15,
       "picks": [
         {
-          "champion": "Irelia",
-          "games": 5,
-          "rate": 83.3
+          "champion": "Jax",
+          "games": 9,
+          "rate": 60.0
         },
         {
-          "champion": "Garen",
+          "champion": "Irelia",
+          "games": 3,
+          "rate": 20.0
+        },
+        {
+          "champion": "DrMundo",
           "games": 1,
-          "rate": 16.7
+          "rate": 6.7
+        },
+        {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 6.7
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 6.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
-          "champion": "MasterYi",
-          "games": 1,
+          "champion": "Jayce",
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 14,
+      "games": 1,
       "picks": [
         {
           "champion": "Irelia",
-          "games": 14,
+          "games": 1,
           "rate": 100.0
         }
       ]
@@ -52,40 +83,127 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 19,
-      "mainLaneNext": [],
+      "mainLaneGames": 22,
+      "mainLaneNext": [
+        {
+          "champion": "Jax",
+          "games": 5,
+          "rate": 22.7
+        },
+        {
+          "champion": "Vladimir",
+          "games": 2,
+          "rate": 9.1
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 4.5
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 15,
           "picks": [
             {
-              "champion": "Irelia",
-              "games": 5,
-              "rate": 83.3
+              "champion": "Jax",
+              "games": 9,
+              "rate": 60.0
             },
             {
-              "champion": "Garen",
+              "champion": "Irelia",
+              "games": 3,
+              "rate": 20.0
+            },
+            {
+              "champion": "DrMundo",
               "games": 1,
-              "rate": 16.7
+              "rate": 6.7
+            },
+            {
+              "champion": "Kennen",
+              "games": 1,
+              "rate": 6.7
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
-              "champion": "MasterYi",
-              "games": 1,
+              "champion": "Jayce",
+              "games": 2,
               "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 14,
+          "games": 1,
           "picks": [
             {
               "champion": "Irelia",
-              "games": 14,
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 16,
+      "mainLaneNext": [],
+      "offLanes": {
+        "TOP": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Irelia",
+              "games": 5,
+              "rate": 55.6
+            },
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "MasterYi",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Irelia",
+              "games": 13,
               "rate": 100.0
             }
           ]

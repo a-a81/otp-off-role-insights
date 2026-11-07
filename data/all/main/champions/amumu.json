@@ -3,25 +3,20 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Amumu",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 184,
+  "mainLaneGames": 185,
   "mainLaneNext": [
     {
       "champion": "Blitzcrank",
       "games": 11,
-      "rate": 6.0
+      "rate": 5.9
     },
     {
       "champion": "Sona",
       "games": 10,
       "rate": 5.4
-    },
-    {
-      "champion": "Leona",
-      "games": 9,
-      "rate": 4.9
     },
     {
       "champion": "Soraka",
@@ -32,6 +27,11 @@
       "champion": "Taric",
       "games": 8,
       "rate": 4.3
+    },
+    {
+      "champion": "Leona",
+      "games": 7,
+      "rate": 3.8
     },
     {
       "champion": "Thresh",
@@ -121,14 +121,8 @@
       ]
     },
     "MID": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
       "games": 5,
@@ -149,22 +143,17 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 184,
+      "mainLaneGames": 185,
       "mainLaneNext": [
         {
           "champion": "Blitzcrank",
           "games": 11,
-          "rate": 6.0
+          "rate": 5.9
         },
         {
           "champion": "Sona",
           "games": 10,
           "rate": 5.4
-        },
-        {
-          "champion": "Leona",
-          "games": 9,
-          "rate": 4.9
         },
         {
           "champion": "Soraka",
@@ -175,6 +164,11 @@
           "champion": "Taric",
           "games": 8,
           "rate": 4.3
+        },
+        {
+          "champion": "Leona",
+          "games": 7,
+          "rate": 3.8
         },
         {
           "champion": "Thresh",
@@ -264,14 +258,8 @@
           ]
         },
         "MID": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Syndra",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 5,
@@ -291,18 +279,18 @@
       }
     },
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 38,
+      "players": 2,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
           "champion": "Skarner",
           "games": 11,
-          "rate": 28.9
+          "rate": 18.0
         },
         {
           "champion": "Ivern",
           "games": 9,
-          "rate": 23.7
+          "rate": 14.8
         }
       ],
       "offLanes": {
@@ -321,16 +309,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 15,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 11,
+              "rate": 73.3
+            },
+            {
+              "champion": "Jinx",
+              "games": 4,
+              "rate": 26.7
+            }
+          ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         }

@@ -3,20 +3,20 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Caitlyn",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 60,
+  "mainLaneGames": 61,
   "mainLaneNext": [
-    {
-      "champion": "Ashe",
-      "games": 3,
-      "rate": 5.0
-    },
     {
       "champion": "KogMaw",
       "games": 3,
-      "rate": 5.0
+      "rate": 4.9
+    },
+    {
+      "champion": "Ashe",
+      "games": 2,
+      "rate": 3.3
     },
     {
       "champion": "MissFortune",
@@ -26,16 +26,16 @@
     {
       "champion": "Kaisa",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Vayne",
-          "games": 4,
+          "games": 3,
           "rate": 100.0
         }
       ]
@@ -77,17 +77,17 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 60,
+      "mainLaneGames": 61,
       "mainLaneNext": [
-        {
-          "champion": "Ashe",
-          "games": 3,
-          "rate": 5.0
-        },
         {
           "champion": "KogMaw",
           "games": 3,
-          "rate": 5.0
+          "rate": 4.9
+        },
+        {
+          "champion": "Ashe",
+          "games": 2,
+          "rate": 3.3
         },
         {
           "champion": "MissFortune",
@@ -97,16 +97,16 @@
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Vayne",
-              "games": 4,
+              "games": 3,
               "rate": 100.0
             }
           ]
@@ -148,58 +148,57 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 30,
-      "mainLaneNext": [
-        {
-          "champion": "Jhin",
-          "games": 2,
-          "rate": 6.7
-        }
-      ],
+      "mainLaneGames": 23,
+      "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 6,
           "picks": [
             {
               "champion": "Caitlyn",
-              "games": 3,
-              "rate": 75.0
-            },
-            {
-              "champion": "Jhin",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Jhin",
-              "games": 3,
+              "games": 6,
               "rate": 100.0
             }
           ]
         },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
         "BOTTOM": {
-          "games": 3,
+          "games": 7,
           "picks": [
             {
               "champion": "Caitlyn",
-              "games": 2,
-              "rate": 66.7
+              "games": 4,
+              "rate": 57.1
             },
             {
               "champion": "Jhin",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Ziggs",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Sona",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
         }
       }
     }

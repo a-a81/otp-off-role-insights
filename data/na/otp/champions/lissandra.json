@@ -3,40 +3,75 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lissandra",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "MID",
-  "players": 4,
-  "mainLaneGames": 88,
+  "players": 5,
+  "mainLaneGames": 106,
   "mainLaneNext": [
     {
       "champion": "Leblanc",
       "games": 4,
-      "rate": 4.5
+      "rate": 3.8
+    },
+    {
+      "champion": "Brand",
+      "games": 2,
+      "rate": 1.9
+    },
+    {
+      "champion": "Naafiri",
+      "games": 2,
+      "rate": 1.9
     },
     {
       "champion": "Ahri",
       "games": 1,
-      "rate": 1.1
+      "rate": 0.9
+    },
+    {
+      "champion": "Sylas",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 55,
+      "games": 71,
       "picks": [
         {
           "champion": "Lissandra",
-          "games": 52,
-          "rate": 94.5
+          "games": 59,
+          "rate": 83.1
+        },
+        {
+          "champion": "Illaoi",
+          "games": 3,
+          "rate": 4.2
+        },
+        {
+          "champion": "Naafiri",
+          "games": 3,
+          "rate": 4.2
+        },
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 2.8
         },
         {
           "champion": "Swain",
           "games": 2,
-          "rate": 3.6
+          "rate": 2.8
         },
         {
           "champion": "Leblanc",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.4
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 1.4
         }
       ]
     },
@@ -66,65 +101,115 @@
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 6,
       "picks": [
         {
           "champion": "Lissandra",
-          "games": 2,
-          "rate": 100.0
+          "games": 5,
+          "rate": 83.3
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     },
     "UTILITY": {
-      "games": 7,
+      "games": 9,
       "picks": [
         {
           "champion": "Lissandra",
           "games": 6,
-          "rate": 85.7
+          "rate": 66.7
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 14.3
+          "rate": 11.1
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Rell",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 4,
-      "mainLaneGames": 88,
+      "players": 5,
+      "mainLaneGames": 106,
       "mainLaneNext": [
         {
           "champion": "Leblanc",
           "games": 4,
-          "rate": 4.5
+          "rate": 3.8
+        },
+        {
+          "champion": "Brand",
+          "games": 2,
+          "rate": 1.9
+        },
+        {
+          "champion": "Naafiri",
+          "games": 2,
+          "rate": 1.9
         },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 1.1
+          "rate": 0.9
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 55,
+          "games": 71,
           "picks": [
             {
               "champion": "Lissandra",
-              "games": 52,
-              "rate": 94.5
+              "games": 59,
+              "rate": 83.1
+            },
+            {
+              "champion": "Illaoi",
+              "games": 3,
+              "rate": 4.2
+            },
+            {
+              "champion": "Naafiri",
+              "games": 3,
+              "rate": 4.2
+            },
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 2.8
             },
             {
               "champion": "Swain",
               "games": 2,
-              "rate": 3.6
+              "rate": 2.8
             },
             {
               "champion": "Leblanc",
               "games": 1,
-              "rate": 1.8
+              "rate": 1.4
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 1.4
             }
           ]
         },
@@ -154,27 +239,42 @@
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 6,
           "picks": [
             {
               "champion": "Lissandra",
-              "games": 2,
-              "rate": 100.0
+              "games": 5,
+              "rate": 83.3
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 16.7
             }
           ]
         },
         "UTILITY": {
-          "games": 7,
+          "games": 9,
           "picks": [
             {
               "champion": "Lissandra",
               "games": 6,
-              "rate": 85.7
+              "rate": 66.7
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 14.3
+              "rate": 11.1
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         }

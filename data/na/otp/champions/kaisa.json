@@ -3,35 +3,40 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kaisa",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
-  "mainLaneGames": 30,
+  "mainLaneGames": 29,
   "mainLaneNext": [
+    {
+      "champion": "Yunara",
+      "games": 2,
+      "rate": 6.9
+    },
     {
       "champion": "Tristana",
       "games": 1,
-      "rate": 3.3
+      "rate": 3.4
     },
     {
       "champion": "Xayah",
       "games": 1,
-      "rate": 3.3
-    },
-    {
-      "champion": "Yunara",
-      "games": 1,
-      "rate": 3.3
+      "rate": 3.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Malphite",
           "games": 3,
-          "rate": 100.0
+          "rate": 75.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
@@ -79,32 +84,37 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 30,
+      "mainLaneGames": 29,
       "mainLaneNext": [
+        {
+          "champion": "Yunara",
+          "games": 2,
+          "rate": 6.9
+        },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 3.3
+          "rate": 3.4
         },
         {
           "champion": "Xayah",
           "games": 1,
-          "rate": 3.3
-        },
-        {
-          "champion": "Yunara",
-          "games": 1,
-          "rate": 3.3
+          "rate": 3.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Malphite",
               "games": 3,
-              "rate": 100.0
+              "rate": 75.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },

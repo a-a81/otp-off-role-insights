@@ -3,20 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "JUNGLE",
   "players": 4,
-  "mainLaneGames": 123,
+  "mainLaneGames": 127,
   "mainLaneNext": [
     {
       "champion": "Khazix",
       "games": 3,
       "rate": 2.4
-    },
-    {
-      "champion": "Ivern",
-      "games": 1,
-      "rate": 0.8
     },
     {
       "champion": "MonkeyKing",
@@ -31,21 +26,6 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "FiddleSticks",
-          "games": 3,
-          "rate": 75.0
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 25.0
-        }
-      ]
-    },
-    "MID": {
       "games": 3,
       "picks": [
         {
@@ -54,9 +34,24 @@
           "rate": 66.7
         },
         {
-          "champion": "Lissandra",
+          "champion": "Malphite",
           "games": 1,
           "rate": 33.3
+        }
+      ]
+    },
+    "MID": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "FiddleSticks",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
@@ -65,32 +60,22 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 28,
+      "games": 23,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 23,
-          "rate": 82.1
+          "games": 20,
+          "rate": 87.0
         },
         {
           "champion": "Blitzcrank",
           "games": 2,
-          "rate": 7.1
+          "rate": 8.7
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 3.6
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 3.6
-        },
-        {
-          "champion": "TahmKench",
-          "games": 1,
-          "rate": 3.6
+          "rate": 4.3
         }
       ]
     }
@@ -98,17 +83,12 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 4,
-      "mainLaneGames": 123,
+      "mainLaneGames": 127,
       "mainLaneNext": [
         {
           "champion": "Khazix",
           "games": 3,
           "rate": 2.4
-        },
-        {
-          "champion": "Ivern",
-          "games": 1,
-          "rate": 0.8
         },
         {
           "champion": "MonkeyKing",
@@ -123,21 +103,6 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "FiddleSticks",
-              "games": 3,
-              "rate": 75.0
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
-        },
-        "MID": {
           "games": 3,
           "picks": [
             {
@@ -146,9 +111,24 @@
               "rate": 66.7
             },
             {
-              "champion": "Lissandra",
+              "champion": "Malphite",
               "games": 1,
               "rate": 33.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "FiddleSticks",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
@@ -157,32 +137,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 28,
+          "games": 23,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 23,
-              "rate": 82.1
+              "games": 20,
+              "rate": 87.0
             },
             {
               "champion": "Blitzcrank",
               "games": 2,
-              "rate": 7.1
+              "rate": 8.7
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 3.6
-            },
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 3.6
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 3.6
+              "rate": 4.3
             }
           ]
         }

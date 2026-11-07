@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Amumu",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "UTILITY",
   "players": 3,
   "mainLaneGames": 107,
@@ -187,18 +187,18 @@
       }
     },
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 38,
+      "players": 2,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
           "champion": "Skarner",
           "games": 11,
-          "rate": 28.9
+          "rate": 18.0
         },
         {
           "champion": "Ivern",
           "games": 9,
-          "rate": 23.7
+          "rate": 14.8
         }
       ],
       "offLanes": {
@@ -217,16 +217,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 15,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 11,
+              "rate": 73.3
+            },
+            {
+              "champion": "Jinx",
+              "games": 4,
+              "rate": 26.7
+            }
+          ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         }

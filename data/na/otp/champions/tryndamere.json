@@ -3,54 +3,54 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tryndamere",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 110,
+  "mainLaneGames": 102,
   "mainLaneNext": [
     {
       "champion": "Chogath",
       "games": 3,
-      "rate": 2.7
+      "rate": 2.9
     },
     {
       "champion": "Shen",
       "games": 2,
-      "rate": 1.8
-    },
-    {
-      "champion": "Ambessa",
-      "games": 1,
-      "rate": 0.9
+      "rate": 2.0
     },
     {
       "champion": "Garen",
       "games": 1,
-      "rate": 0.9
+      "rate": 1.0
+    },
+    {
+      "champion": "Malphite",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Renekton",
       "games": 1,
-      "rate": 0.9
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Tryndamere",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
-    "MID": {
       "games": 3,
       "picks": [
         {
           "champion": "Tryndamere",
           "games": 3,
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 8,
+      "picks": [
+        {
+          "champion": "Tryndamere",
+          "games": 8,
           "rate": 100.0
         }
       ]
@@ -66,17 +66,22 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Rakan",
           "games": 2,
-          "rate": 66.7
+          "rate": 50.0
         },
         {
           "champion": "Bard",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     }
@@ -84,51 +89,51 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 110,
+      "mainLaneGames": 102,
       "mainLaneNext": [
         {
           "champion": "Chogath",
           "games": 3,
-          "rate": 2.7
+          "rate": 2.9
         },
         {
           "champion": "Shen",
           "games": 2,
-          "rate": 1.8
-        },
-        {
-          "champion": "Ambessa",
-          "games": 1,
-          "rate": 0.9
+          "rate": 2.0
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 0.9
+          "rate": 1.0
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 0.9
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Tryndamere",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
           "games": 3,
           "picks": [
             {
               "champion": "Tryndamere",
               "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Tryndamere",
+              "games": 8,
               "rate": 100.0
             }
           ]
@@ -144,17 +149,22 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Rakan",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
             },
             {
               "champion": "Bard",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

@@ -3,20 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 62,
+  "mainLaneGames": 61,
   "mainLaneNext": [
     {
       "champion": "Gangplank",
       "games": 2,
-      "rate": 3.2
+      "rate": 3.3
     },
     {
       "champion": "Gragas",
       "games": 2,
-      "rate": 3.2
+      "rate": 3.3
     },
     {
       "champion": "Aatrox",
@@ -91,17 +91,17 @@
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "Nautilus",
-          "games": 7,
-          "rate": 87.5
+          "games": 8,
+          "rate": 88.9
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         }
       ]
     }
@@ -109,17 +109,17 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 62,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
           "champion": "Gangplank",
           "games": 2,
-          "rate": 3.2
+          "rate": 3.3
         },
         {
           "champion": "Gragas",
           "games": 2,
-          "rate": 3.2
+          "rate": 3.3
         },
         {
           "champion": "Aatrox",
@@ -194,17 +194,80 @@
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Nautilus",
-              "games": 7,
-              "rate": 87.5
+              "games": 8,
+              "rate": 88.9
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 33,
+      "mainLaneNext": [
+        {
+          "champion": "Trundle",
+          "games": 3,
+          "rate": 9.1
+        },
+        {
+          "champion": "Shyvana",
+          "games": 2,
+          "rate": 6.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Trundle",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

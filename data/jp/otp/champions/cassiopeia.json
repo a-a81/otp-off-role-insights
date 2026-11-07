@@ -3,15 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Cassiopeia",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 50,
+  "mainLaneGames": 53,
   "mainLaneNext": [
     {
       "champion": "Gnar",
       "games": 2,
-      "rate": 4.0
+      "rate": 3.8
+    },
+    {
+      "champion": "Mordekaiser",
+      "games": 1,
+      "rate": 1.9
     }
   ],
   "offLanes": {
@@ -31,42 +36,42 @@
       ]
     },
     "MID": {
-      "games": 7,
+      "games": 9,
       "picks": [
         {
           "champion": "Cassiopeia",
-          "games": 7,
+          "games": 9,
           "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 16,
+      "games": 10,
       "picks": [
         {
           "champion": "Cassiopeia",
-          "games": 16,
+          "games": 10,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Alistar",
+          "games": 2,
+          "rate": 40.0
+        },
         {
           "champion": "Cassiopeia",
           "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "Alistar",
-          "games": 1,
-          "rate": 25.0
+          "rate": 40.0
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     }
@@ -74,12 +79,17 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 50,
+      "mainLaneGames": 53,
       "mainLaneNext": [
         {
           "champion": "Gnar",
           "games": 2,
-          "rate": 4.0
+          "rate": 3.8
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 1.9
         }
       ],
       "offLanes": {
@@ -99,42 +109,42 @@
           ]
         },
         "MID": {
-          "games": 7,
+          "games": 9,
           "picks": [
             {
               "champion": "Cassiopeia",
-              "games": 7,
+              "games": 9,
               "rate": 100.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 16,
+          "games": 10,
           "picks": [
             {
               "champion": "Cassiopeia",
-              "games": 16,
+              "games": 10,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 40.0
+            },
             {
               "champion": "Cassiopeia",
               "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Alistar",
-              "games": 1,
-              "rate": 25.0
+              "rate": 40.0
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         }
@@ -142,12 +152,12 @@
     },
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 29,
+      "mainLaneGames": 30,
       "mainLaneNext": [
         {
           "champion": "Ezreal",
           "games": 1,
-          "rate": 3.4
+          "rate": 3.3
         }
       ],
       "offLanes": {
@@ -166,17 +176,17 @@
           "picks": []
         },
         "MID": {
-          "games": 5,
+          "games": 4,
           "picks": [
-            {
-              "champion": "Sylas",
-              "games": 3,
-              "rate": 60.0
-            },
             {
               "champion": "Cassiopeia",
               "games": 2,
-              "rate": 40.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Sylas",
+              "games": 2,
+              "rate": 50.0
             }
           ]
         },

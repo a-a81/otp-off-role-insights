@@ -3,20 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 72,
+  "players": 3,
+  "mainLaneGames": 102,
   "mainLaneNext": [
+    {
+      "champion": "Fizz",
+      "games": 2,
+      "rate": 2.0
+    },
+    {
+      "champion": "Thresh",
+      "games": 2,
+      "rate": 2.0
+    },
+    {
+      "champion": "Karma",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Leona",
+      "games": 1,
+      "rate": 1.0
+    },
     {
       "champion": "Nautilus",
       "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Rammus",
-      "games": 1,
-      "rate": 1.4
+      "rate": 1.0
     }
   ],
   "offLanes": {
@@ -31,12 +46,22 @@
       ]
     },
     "JUNGLE": {
-      "games": 5,
+      "games": 14,
       "picks": [
         {
+          "champion": "Nunu",
+          "games": 9,
+          "rate": 64.3
+        },
+        {
           "champion": "Viego",
-          "games": 5,
-          "rate": 100.0
+          "games": 4,
+          "rate": 28.6
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 7.1
         }
       ]
     },
@@ -63,18 +88,33 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 72,
+      "players": 3,
+      "mainLaneGames": 102,
       "mainLaneNext": [
+        {
+          "champion": "Fizz",
+          "games": 2,
+          "rate": 2.0
+        },
+        {
+          "champion": "Thresh",
+          "games": 2,
+          "rate": 2.0
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 1.0
+        },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Rammus",
-          "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -89,12 +129,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 5,
+          "games": 14,
           "picks": [
             {
+              "champion": "Nunu",
+              "games": 9,
+              "rate": 64.3
+            },
+            {
               "champion": "Viego",
-              "games": 5,
-              "rate": 100.0
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 7.1
             }
           ]
         },

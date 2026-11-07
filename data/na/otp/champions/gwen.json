@@ -3,69 +3,54 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
-  "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 71,
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "mainLane": "MID",
+  "players": 1,
+  "mainLaneGames": 29,
   "mainLaneNext": [
     {
-      "champion": "Kindred",
-      "games": 3,
-      "rate": 4.2
-    },
-    {
-      "champion": "Naafiri",
-      "games": 3,
-      "rate": 4.2
-    },
-    {
-      "champion": "Ambessa",
-      "games": 2,
-      "rate": 2.8
-    },
-    {
-      "champion": "JarvanIV",
-      "games": 2,
-      "rate": 2.8
-    },
-    {
-      "champion": "Graves",
+      "champion": "DrMundo",
       "games": 1,
-      "rate": 1.4
+      "rate": 3.4
     },
     {
-      "champion": "Kayle",
+      "champion": "Yone",
       "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Qiyana",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Talon",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Zyra",
-      "games": 1,
-      "rate": 1.4
+      "rate": 3.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
-          "champion": "Renekton",
-          "games": 1,
+          "champion": "Gwen",
+          "games": 3,
           "rate": 100.0
         }
       ]
     },
-    "MID": {
+    "JUNGLE": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 4,
+          "rate": 100.0
+        }
+      ]
+    },
+    "UTILITY": {
       "games": 1,
       "picks": [
         {
@@ -74,147 +59,62 @@
           "rate": 100.0
         }
       ]
-    },
-    "BOTTOM": {
-      "games": 5,
-      "picks": [
-        {
-          "champion": "Zeri",
-          "games": 3,
-          "rate": 60.0
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Yunara",
-          "games": 1,
-          "rate": 20.0
-        }
-      ]
-    },
-    "UTILITY": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Morgana",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
     }
   },
   "byMainLane": {
-    "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 71,
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 29,
       "mainLaneNext": [
         {
-          "champion": "Kindred",
-          "games": 3,
-          "rate": 4.2
-        },
-        {
-          "champion": "Naafiri",
-          "games": 3,
-          "rate": 4.2
-        },
-        {
-          "champion": "Ambessa",
-          "games": 2,
-          "rate": 2.8
-        },
-        {
-          "champion": "JarvanIV",
-          "games": 2,
-          "rate": 2.8
-        },
-        {
-          "champion": "Graves",
+          "champion": "DrMundo",
           "games": 1,
-          "rate": 1.4
+          "rate": 3.4
         },
         {
-          "champion": "Kayle",
+          "champion": "Yone",
           "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Qiyana",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Talon",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 1.4
+          "rate": 3.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
-              "champion": "Renekton",
-              "games": 1,
+              "champion": "Gwen",
+              "games": 3,
               "rate": 100.0
             }
           ]
         },
-        "MID": {
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
           "games": 1,
           "picks": [
             {
               "champion": "Gwen",
               "games": 1,
               "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Zeri",
-              "games": 3,
-              "rate": 60.0
-            },
-            {
-              "champion": "Kaisa",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Yunara",
-              "games": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 50.0
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karthus",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "BOTTOM",
   "players": 3,
   "mainLaneGames": 96,
@@ -200,39 +200,33 @@
     },
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 64,
+      "mainLaneGames": 65,
       "mainLaneNext": [
         {
           "champion": "Shaco",
-          "games": 5,
-          "rate": 7.8
+          "games": 6,
+          "rate": 9.2
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.5
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.5
         },
         {
-          "champion": "Evelynn",
+          "champion": "Ekko",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Singed",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
           "games": 4,
@@ -255,32 +249,37 @@
           ]
         },
         "BOTTOM": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Karthus",
-              "games": 7,
-              "rate": 87.5
+              "games": 6,
+              "rate": 85.7
             },
             {
               "champion": "Sivir",
               "games": 1,
-              "rate": 12.5
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Leona",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
+            },
+            {
+              "champion": "Kennen",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Singed",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         }

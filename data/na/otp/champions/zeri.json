@@ -3,35 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zeri",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "BOTTOM",
   "players": 3,
-  "mainLaneGames": 92,
+  "mainLaneGames": 98,
   "mainLaneNext": [
-    {
-      "champion": "Yasuo",
-      "games": 3,
-      "rate": 3.3
-    },
     {
       "champion": "Kaisa",
       "games": 2,
-      "rate": 2.2
+      "rate": 2.0
+    },
+    {
+      "champion": "Yasuo",
+      "games": 2,
+      "rate": 2.0
     },
     {
       "champion": "Yunara",
       "games": 2,
-      "rate": 2.2
+      "rate": 2.0
     },
     {
       "champion": "Draven",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.0
+    },
+    {
+      "champion": "Nilah",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Quinn",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Twitch",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.0
     }
   ],
   "offLanes": {
@@ -39,17 +49,17 @@
       "games": 10,
       "picks": [
         {
-          "champion": "Zeri",
-          "games": 3,
-          "rate": 30.0
-        },
-        {
           "champion": "Malphite",
           "games": 2,
           "rate": 20.0
         },
         {
           "champion": "Quinn",
+          "games": 2,
+          "rate": 20.0
+        },
+        {
+          "champion": "Zeri",
           "games": 2,
           "rate": 20.0
         },
@@ -64,6 +74,11 @@
           "rate": 10.0
         },
         {
+          "champion": "Riven",
+          "games": 1,
+          "rate": 10.0
+        },
+        {
           "champion": "Yone",
           "games": 1,
           "rate": 10.0
@@ -71,57 +86,47 @@
       ]
     },
     "JUNGLE": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Zeri",
-          "games": 4,
+          "games": 5,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 5,
+      "games": 3,
       "picks": [
         {
           "champion": "Zeri",
-          "games": 4,
-          "rate": 80.0
+          "games": 2,
+          "rate": 66.7
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 20.0
+          "rate": 33.3
         }
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 4,
       "picks": [
         {
           "champion": "Sona",
-          "games": 4,
+          "games": 2,
           "rate": 50.0
-        },
-        {
-          "champion": "Nidalee",
-          "games": 1,
-          "rate": 12.5
         },
         {
           "champion": "Rell",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Varus",
-          "games": 1,
-          "rate": 12.5
+          "rate": 25.0
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 12.5
+          "rate": 25.0
         }
       ]
     }
@@ -129,32 +134,42 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 3,
-      "mainLaneGames": 92,
+      "mainLaneGames": 98,
       "mainLaneNext": [
-        {
-          "champion": "Yasuo",
-          "games": 3,
-          "rate": 3.3
-        },
         {
           "champion": "Kaisa",
           "games": 2,
-          "rate": 2.2
+          "rate": 2.0
+        },
+        {
+          "champion": "Yasuo",
+          "games": 2,
+          "rate": 2.0
         },
         {
           "champion": "Yunara",
           "games": 2,
-          "rate": 2.2
+          "rate": 2.0
         },
         {
           "champion": "Draven",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.0
+        },
+        {
+          "champion": "Nilah",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Twitch",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -162,17 +177,17 @@
           "games": 10,
           "picks": [
             {
-              "champion": "Zeri",
-              "games": 3,
-              "rate": 30.0
-            },
-            {
               "champion": "Malphite",
               "games": 2,
               "rate": 20.0
             },
             {
               "champion": "Quinn",
+              "games": 2,
+              "rate": 20.0
+            },
+            {
+              "champion": "Zeri",
               "games": 2,
               "rate": 20.0
             },
@@ -187,6 +202,11 @@
               "rate": 10.0
             },
             {
+              "champion": "Riven",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
               "champion": "Yone",
               "games": 1,
               "rate": 10.0
@@ -194,57 +214,140 @@
           ]
         },
         "JUNGLE": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Zeri",
-              "games": 4,
+              "games": 5,
               "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 5,
+          "games": 3,
           "picks": [
             {
               "champion": "Zeri",
-              "games": 4,
-              "rate": 80.0
+              "games": 2,
+              "rate": 66.7
             },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 20.0
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 4,
           "picks": [
             {
               "champion": "Sona",
-              "games": 4,
+              "games": 2,
               "rate": 50.0
-            },
-            {
-              "champion": "Nidalee",
-              "games": 1,
-              "rate": 12.5
             },
             {
               "champion": "Rell",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Varus",
-              "games": 1,
-              "rate": 12.5
+              "rate": 25.0
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 12.5
+              "rate": 25.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 16,
+      "mainLaneNext": [
+        {
+          "champion": "Rengar",
+          "games": 3,
+          "rate": 18.8
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 6.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Camille",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Olaf",
+              "games": 2,
+              "rate": 50.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Locke",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Zeri",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Yunara",
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "Zeri",
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "MissFortune",
+              "games": 3,
+              "rate": 21.4
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Sivir",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 100.0
             }
           ]
         }

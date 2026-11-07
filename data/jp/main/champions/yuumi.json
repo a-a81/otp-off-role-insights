@@ -3,65 +3,85 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yuumi",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "UTILITY",
-  "players": 12,
-  "mainLaneGames": 464,
+  "players": 13,
+  "mainLaneGames": 501,
   "mainLaneNext": [
     {
       "champion": "Lulu",
-      "games": 41,
-      "rate": 8.8
+      "games": 45,
+      "rate": 9.0
     },
     {
       "champion": "Nami",
       "games": 30,
-      "rate": 6.5
+      "rate": 6.0
     },
     {
       "champion": "Soraka",
       "games": 29,
-      "rate": 6.2
+      "rate": 5.8
     },
     {
       "champion": "Karma",
-      "games": 24,
+      "games": 26,
       "rate": 5.2
     },
     {
       "champion": "Milio",
       "games": 19,
-      "rate": 4.1
+      "rate": 3.8
     },
     {
       "champion": "Seraphine",
-      "games": 11,
+      "games": 12,
       "rate": 2.4
     },
     {
       "champion": "Morgana",
       "games": 7,
-      "rate": 1.5
+      "rate": 1.4
     },
     {
       "champion": "Alistar",
-      "games": 6,
-      "rate": 1.3
+      "games": 5,
+      "rate": 1.0
+    },
+    {
+      "champion": "Leona",
+      "games": 5,
+      "rate": 1.0
+    },
+    {
+      "champion": "Nautilus",
+      "games": 5,
+      "rate": 1.0
     },
     {
       "champion": "Sona",
-      "games": 6,
-      "rate": 1.3
+      "games": 5,
+      "rate": 1.0
     },
     {
       "champion": "Zac",
       "games": 4,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
-      "champion": "Leona",
+      "champion": "Rell",
       "games": 3,
       "rate": 0.6
+    },
+    {
+      "champion": "Braum",
+      "games": 2,
+      "rate": 0.4
+    },
+    {
+      "champion": "Pantheon",
+      "games": 2,
+      "rate": 0.4
     },
     {
       "champion": "Blitzcrank",
@@ -69,27 +89,7 @@
       "rate": 0.2
     },
     {
-      "champion": "Braum",
-      "games": 1,
-      "rate": 0.2
-    },
-    {
       "champion": "Janna",
-      "games": 1,
-      "rate": 0.2
-    },
-    {
-      "champion": "Nautilus",
-      "games": 1,
-      "rate": 0.2
-    },
-    {
-      "champion": "Pantheon",
-      "games": 1,
-      "rate": 0.2
-    },
-    {
-      "champion": "Thresh",
       "games": 1,
       "rate": 0.2
     },
@@ -133,7 +133,7 @@
           "rate": 60.0
         },
         {
-          "champion": "Seraphine",
+          "champion": "Karma",
           "games": 1,
           "rate": 20.0
         },
@@ -145,80 +145,100 @@
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Seraphine",
+          "games": 3,
+          "rate": 75.0
+        },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Seraphine",
-          "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 12,
-      "mainLaneGames": 464,
+      "players": 13,
+      "mainLaneGames": 501,
       "mainLaneNext": [
         {
           "champion": "Lulu",
-          "games": 41,
-          "rate": 8.8
+          "games": 45,
+          "rate": 9.0
         },
         {
           "champion": "Nami",
           "games": 30,
-          "rate": 6.5
+          "rate": 6.0
         },
         {
           "champion": "Soraka",
           "games": 29,
-          "rate": 6.2
+          "rate": 5.8
         },
         {
           "champion": "Karma",
-          "games": 24,
+          "games": 26,
           "rate": 5.2
         },
         {
           "champion": "Milio",
           "games": 19,
-          "rate": 4.1
+          "rate": 3.8
         },
         {
           "champion": "Seraphine",
-          "games": 11,
+          "games": 12,
           "rate": 2.4
         },
         {
           "champion": "Morgana",
           "games": 7,
-          "rate": 1.5
+          "rate": 1.4
         },
         {
           "champion": "Alistar",
-          "games": 6,
-          "rate": 1.3
+          "games": 5,
+          "rate": 1.0
+        },
+        {
+          "champion": "Leona",
+          "games": 5,
+          "rate": 1.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 5,
+          "rate": 1.0
         },
         {
           "champion": "Sona",
-          "games": 6,
-          "rate": 1.3
+          "games": 5,
+          "rate": 1.0
         },
         {
           "champion": "Zac",
           "games": 4,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
-          "champion": "Leona",
+          "champion": "Rell",
           "games": 3,
           "rate": 0.6
+        },
+        {
+          "champion": "Braum",
+          "games": 2,
+          "rate": 0.4
+        },
+        {
+          "champion": "Pantheon",
+          "games": 2,
+          "rate": 0.4
         },
         {
           "champion": "Blitzcrank",
@@ -226,27 +246,7 @@
           "rate": 0.2
         },
         {
-          "champion": "Braum",
-          "games": 1,
-          "rate": 0.2
-        },
-        {
           "champion": "Janna",
-          "games": 1,
-          "rate": 0.2
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 0.2
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 0.2
-        },
-        {
-          "champion": "Thresh",
           "games": 1,
           "rate": 0.2
         },
@@ -290,7 +290,7 @@
               "rate": 60.0
             },
             {
-              "champion": "Seraphine",
+              "champion": "Karma",
               "games": 1,
               "rate": 20.0
             },
@@ -302,17 +302,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 3,
+              "rate": 75.0
+            },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         }

@@ -3,38 +3,28 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kennen",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 22,
-  "mainLaneNext": [],
+  "mainLaneGames": 36,
+  "mainLaneNext": [
+    {
+      "champion": "Corki",
+      "games": 9,
+      "rate": 25.0
+    }
+  ],
   "offLanes": {
-    "TOP": {
-      "games": 15,
+    "JUNGLE": {
+      "games": 0,
+      "picks": []
+    },
+    "MID": {
+      "games": 2,
       "picks": [
         {
           "champion": "Kennen",
-          "games": 12,
-          "rate": 80.0
-        },
-        {
-          "champion": "Kled",
           "games": 2,
-          "rate": 13.3
-        },
-        {
-          "champion": "Gnar",
-          "games": 1,
-          "rate": 6.7
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Taliyah",
-          "games": 1,
           "rate": 100.0
         }
       ]
@@ -47,7 +37,7 @@
       "games": 1,
       "picks": [
         {
-          "champion": "Kennen",
+          "champion": "Poppy",
           "games": 1,
           "rate": 100.0
         }
@@ -55,6 +45,47 @@
     }
   },
   "byMainLane": {
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 36,
+      "mainLaneNext": [
+        {
+          "champion": "Corki",
+          "games": 9,
+          "rate": 25.0
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Kennen",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 22,

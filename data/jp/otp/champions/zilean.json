@@ -3,20 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zilean",
-  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
   "mainLane": "UTILITY",
-  "players": 5,
-  "mainLaneGames": 185,
+  "players": 6,
+  "mainLaneGames": 220,
   "mainLaneNext": [
     {
       "champion": "Braum",
       "games": 6,
-      "rate": 3.2
+      "rate": 2.7
     },
     {
       "champion": "Leona",
       "games": 4,
-      "rate": 2.2
+      "rate": 1.8
     },
     {
       "champion": "Blitzcrank",
@@ -56,22 +56,22 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Zilean",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Zilean",
-          "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
@@ -80,17 +80,27 @@
       "picks": []
     },
     "MID": {
-      "games": 5,
+      "games": 7,
       "picks": [
         {
           "champion": "Zilean",
           "games": 4,
-          "rate": 80.0
+          "rate": 57.1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 14.3
+        },
+        {
+          "champion": "Annie",
+          "games": 1,
+          "rate": 14.3
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
         }
       ]
     },
@@ -107,18 +117,18 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 5,
-      "mainLaneGames": 185,
+      "players": 6,
+      "mainLaneGames": 220,
       "mainLaneNext": [
         {
           "champion": "Braum",
           "games": 6,
-          "rate": 3.2
+          "rate": 2.7
         },
         {
           "champion": "Leona",
           "games": 4,
-          "rate": 2.2
+          "rate": 1.8
         },
         {
           "champion": "Blitzcrank",
@@ -158,22 +168,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Zilean",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Mordekaiser",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Zilean",
-              "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
@@ -182,17 +192,27 @@
           "picks": []
         },
         "MID": {
-          "games": 5,
+          "games": 7,
           "picks": [
             {
               "champion": "Zilean",
               "games": 4,
-              "rate": 80.0
+              "rate": 57.1
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Annie",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 20.0
+              "rate": 14.3
             }
           ]
         },

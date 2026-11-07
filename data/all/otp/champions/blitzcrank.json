@@ -3,30 +3,35 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Blitzcrank",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 48,
+  "players": 3,
+  "mainLaneGames": 85,
   "mainLaneNext": [
     {
-      "champion": "Galio",
-      "games": 1,
-      "rate": 2.1
+      "champion": "Alistar",
+      "games": 5,
+      "rate": 5.9
     },
     {
       "champion": "Nautilus",
+      "games": 2,
+      "rate": 2.4
+    },
+    {
+      "champion": "Thresh",
+      "games": 2,
+      "rate": 2.4
+    },
+    {
+      "champion": "Galio",
       "games": 1,
-      "rate": 2.1
+      "rate": 1.2
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 2.1
-    },
-    {
-      "champion": "Thresh",
-      "games": 1,
-      "rate": 2.1
+      "rate": 1.2
     }
   ],
   "offLanes": {
@@ -76,69 +81,85 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 16,
+      "games": 17,
       "picks": [
         {
           "champion": "Jhin",
           "games": 8,
-          "rate": 50.0
+          "rate": 47.1
         },
         {
           "champion": "Sivir",
           "games": 3,
-          "rate": 18.8
+          "rate": 17.6
         },
         {
           "champion": "Lucian",
           "games": 2,
-          "rate": 12.5
+          "rate": 11.8
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 5.9
         },
         {
           "champion": "Zeri",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 48,
+      "players": 3,
+      "mainLaneGames": 85,
       "mainLaneNext": [
         {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 2.1
+          "champion": "Alistar",
+          "games": 5,
+          "rate": 5.9
         },
         {
           "champion": "Nautilus",
+          "games": 2,
+          "rate": 2.4
+        },
+        {
+          "champion": "Thresh",
+          "games": 2,
+          "rate": 2.4
+        },
+        {
+          "champion": "Galio",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.2
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 2.1
-        },
-        {
-          "champion": "Thresh",
-          "games": 1,
-          "rate": 2.1
+          "rate": 1.2
         }
       ],
       "offLanes": {
@@ -188,41 +209,52 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "Jhin",
               "games": 8,
-              "rate": 50.0
+              "rate": 47.1
             },
             {
               "champion": "Sivir",
               "games": 3,
-              "rate": 18.8
+              "rate": 17.6
             },
             {
               "champion": "Lucian",
               "games": 2,
-              "rate": 12.5
+              "rate": 11.8
             },
             {
               "champion": "Kaisa",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
+            },
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Zeri",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             }
           ]
         }

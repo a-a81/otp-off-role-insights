@@ -3,70 +3,145 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Renekton",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "TOP",
-  "players": 3,
-  "mainLaneGames": 110,
+  "players": 4,
+  "mainLaneGames": 129,
   "mainLaneNext": [
     {
       "champion": "Akali",
-      "games": 3,
-      "rate": 2.7
+      "games": 5,
+      "rate": 3.9
     },
     {
       "champion": "Camille",
+      "games": 5,
+      "rate": 3.9
+    },
+    {
+      "champion": "Jayce",
+      "games": 4,
+      "rate": 3.1
+    },
+    {
+      "champion": "Ahri",
       "games": 3,
-      "rate": 2.7
+      "rate": 2.3
     },
     {
       "champion": "Annie",
       "games": 2,
-      "rate": 1.8
+      "rate": 1.6
     },
     {
       "champion": "Gnar",
       "games": 2,
-      "rate": 1.8
+      "rate": 1.6
     },
     {
       "champion": "Kennen",
       "games": 2,
-      "rate": 1.8
+      "rate": 1.6
     },
     {
-      "champion": "Pantheon",
+      "champion": "Zaahen",
       "games": 2,
-      "rate": 1.8
+      "rate": 1.6
+    },
+    {
+      "champion": "Aatrox",
+      "games": 1,
+      "rate": 0.8
+    },
+    {
+      "champion": "Ezreal",
+      "games": 1,
+      "rate": 0.8
     },
     {
       "champion": "Lucian",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.8
+    },
+    {
+      "champion": "Pantheon",
+      "games": 1,
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 21,
       "picks": [
+        {
+          "champion": "MonkeyKing",
+          "games": 4,
+          "rate": 19.0
+        },
+        {
+          "champion": "Leblanc",
+          "games": 3,
+          "rate": 14.3
+        },
+        {
+          "champion": "Vex",
+          "games": 3,
+          "rate": 14.3
+        },
         {
           "champion": "Annie",
           "games": 2,
-          "rate": 66.7
+          "rate": 9.5
+        },
+        {
+          "champion": "Fizz",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 4.8
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 33.3
+          "rate": 4.8
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Zaahen",
+          "games": 1,
+          "rate": 4.8
         }
       ]
     },
@@ -78,17 +153,22 @@
       "games": 6,
       "picks": [
         {
-          "champion": "Rakan",
-          "games": 3,
-          "rate": 50.0
-        },
-        {
           "champion": "Nautilus",
           "games": 2,
           "rate": 33.3
         },
         {
           "champion": "Pantheon",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Rakan",
           "games": 1,
           "rate": 16.7
         }
@@ -97,68 +177,143 @@
   },
   "byMainLane": {
     "TOP": {
-      "players": 3,
-      "mainLaneGames": 110,
+      "players": 4,
+      "mainLaneGames": 129,
       "mainLaneNext": [
         {
           "champion": "Akali",
-          "games": 3,
-          "rate": 2.7
+          "games": 5,
+          "rate": 3.9
         },
         {
           "champion": "Camille",
+          "games": 5,
+          "rate": 3.9
+        },
+        {
+          "champion": "Jayce",
+          "games": 4,
+          "rate": 3.1
+        },
+        {
+          "champion": "Ahri",
           "games": 3,
-          "rate": 2.7
+          "rate": 2.3
         },
         {
           "champion": "Annie",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.6
         },
         {
           "champion": "Gnar",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.6
         },
         {
           "champion": "Kennen",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.6
         },
         {
-          "champion": "Pantheon",
+          "champion": "Zaahen",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.6
+        },
+        {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 0.8
+        },
+        {
+          "champion": "Ezreal",
+          "games": 1,
+          "rate": 0.8
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 21,
           "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 4,
+              "rate": 19.0
+            },
+            {
+              "champion": "Leblanc",
+              "games": 3,
+              "rate": 14.3
+            },
+            {
+              "champion": "Vex",
+              "games": 3,
+              "rate": 14.3
+            },
             {
               "champion": "Annie",
               "games": 2,
-              "rate": 66.7
+              "rate": 9.5
+            },
+            {
+              "champion": "Fizz",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Lux",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 33.3
+              "rate": 4.8
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "Zaahen",
+              "games": 1,
+              "rate": 4.8
             }
           ]
         },
@@ -170,17 +325,22 @@
           "games": 6,
           "picks": [
             {
-              "champion": "Rakan",
-              "games": 3,
-              "rate": 50.0
-            },
-            {
               "champion": "Nautilus",
               "games": 2,
               "rate": 33.3
             },
             {
               "champion": "Pantheon",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Mordekaiser",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Rakan",
               "games": 1,
               "rate": 16.7
             }

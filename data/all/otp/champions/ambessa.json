@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ambessa",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "TOP",
   "players": 10,
-  "mainLaneGames": 313,
+  "mainLaneGames": 312,
   "mainLaneNext": [
     {
       "champion": "KSante",
@@ -64,6 +64,11 @@
       "rate": 0.6
     },
     {
+      "champion": "Zaahen",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
       "champion": "Aatrox",
       "games": 1,
       "rate": 0.3
@@ -94,6 +99,11 @@
       "rate": 0.3
     },
     {
+      "champion": "Malphite",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
       "champion": "Renekton",
       "games": 1,
       "rate": 0.3
@@ -110,11 +120,6 @@
     },
     {
       "champion": "Vladimir",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
-      "champion": "Zaahen",
       "games": 1,
       "rate": 0.3
     }
@@ -266,47 +271,47 @@
       ]
     },
     "UTILITY": {
-      "games": 23,
+      "games": 24,
       "picks": [
         {
           "champion": "Rell",
-          "games": 6,
-          "rate": 26.1
+          "games": 7,
+          "rate": 29.2
         },
         {
           "champion": "Braum",
           "games": 4,
-          "rate": 17.4
+          "rate": 16.7
         },
         {
           "champion": "Thresh",
           "games": 4,
-          "rate": 17.4
+          "rate": 16.7
         },
         {
           "champion": "Nautilus",
           "games": 3,
-          "rate": 13.0
+          "rate": 12.5
         },
         {
           "champion": "Pyke",
           "games": 2,
-          "rate": 8.7
+          "rate": 8.3
         },
         {
           "champion": "TahmKench",
           "games": 2,
-          "rate": 8.7
+          "rate": 8.3
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 4.3
+          "rate": 4.2
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 4.3
+          "rate": 4.2
         }
       ]
     }
@@ -314,7 +319,7 @@
   "byMainLane": {
     "TOP": {
       "players": 10,
-      "mainLaneGames": 313,
+      "mainLaneGames": 312,
       "mainLaneNext": [
         {
           "champion": "KSante",
@@ -372,6 +377,11 @@
           "rate": 0.6
         },
         {
+          "champion": "Zaahen",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
           "champion": "Aatrox",
           "games": 1,
           "rate": 0.3
@@ -402,6 +412,11 @@
           "rate": 0.3
         },
         {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
           "champion": "Renekton",
           "games": 1,
           "rate": 0.3
@@ -418,11 +433,6 @@
         },
         {
           "champion": "Vladimir",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
-          "champion": "Zaahen",
           "games": 1,
           "rate": 0.3
         }
@@ -574,47 +584,47 @@
           ]
         },
         "UTILITY": {
-          "games": 23,
+          "games": 24,
           "picks": [
             {
               "champion": "Rell",
-              "games": 6,
-              "rate": 26.1
+              "games": 7,
+              "rate": 29.2
             },
             {
               "champion": "Braum",
               "games": 4,
-              "rate": 17.4
+              "rate": 16.7
             },
             {
               "champion": "Thresh",
               "games": 4,
-              "rate": 17.4
+              "rate": 16.7
             },
             {
               "champion": "Nautilus",
               "games": 3,
-              "rate": 13.0
+              "rate": 12.5
             },
             {
               "champion": "Pyke",
               "games": 2,
-              "rate": 8.7
+              "rate": 8.3
             },
             {
               "champion": "TahmKench",
               "games": 2,
-              "rate": 8.7
+              "rate": 8.3
             },
             {
               "champion": "Morgana",
               "games": 1,
-              "rate": 4.3
+              "rate": 4.2
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 4.3
+              "rate": 4.2
             }
           ]
         }
@@ -630,23 +640,28 @@
           "rate": 7.7
         },
         {
-          "champion": "Galio",
+          "champion": "Yone",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Chogath",
           "games": 1,
           "rate": 3.8
         },
         {
-          "champion": "Yone",
+          "champion": "Galio",
           "games": 1,
           "rate": 3.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 7,
+          "games": 6,
           "picks": [
             {
               "champion": "Ambessa",
-              "games": 7,
+              "games": 6,
               "rate": 100.0
             }
           ]
@@ -656,8 +671,14 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Yunara",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 7,
@@ -673,12 +694,12 @@
               "rate": 28.6
             },
             {
-              "champion": "Pantheon",
+              "champion": "Seraphine",
               "games": 1,
               "rate": 14.3
             },
             {
-              "champion": "Seraphine",
+              "champion": "Zilean",
               "games": 1,
               "rate": 14.3
             }

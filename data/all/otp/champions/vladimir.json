@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Vladimir",
-  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
+  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
   "mainLane": "MID",
   "players": 15,
-  "mainLaneGames": 398,
+  "mainLaneGames": 396,
   "mainLaneNext": [
     {
       "champion": "Zed",
@@ -49,17 +49,17 @@
       "rate": 0.8
     },
     {
-      "champion": "Syndra",
-      "games": 3,
-      "rate": 0.8
-    },
-    {
       "champion": "Orianna",
       "games": 2,
       "rate": 0.5
     },
     {
       "champion": "Pantheon",
+      "games": 2,
+      "rate": 0.5
+    },
+    {
+      "champion": "Syndra",
       "games": 2,
       "rate": 0.5
     },
@@ -106,27 +106,27 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 76,
+      "games": 77,
       "picks": [
         {
           "champion": "Vladimir",
-          "games": 43,
-          "rate": 56.6
+          "games": 44,
+          "rate": 57.1
         },
         {
           "champion": "Sett",
           "games": 10,
-          "rate": 13.2
+          "rate": 13.0
         },
         {
           "champion": "DrMundo",
           "games": 8,
-          "rate": 10.5
+          "rate": 10.4
         },
         {
           "champion": "Gragas",
           "games": 4,
-          "rate": 5.3
+          "rate": 5.2
         },
         {
           "champion": "Irelia",
@@ -211,17 +211,17 @@
       ]
     },
     "BOTTOM": {
-      "games": 62,
+      "games": 63,
       "picks": [
         {
           "champion": "Vladimir",
-          "games": 38,
-          "rate": 61.3
+          "games": 39,
+          "rate": 61.9
         },
         {
           "champion": "Jhin",
           "games": 12,
-          "rate": 19.4
+          "rate": 19.0
         },
         {
           "champion": "Kaisa",
@@ -269,11 +269,6 @@
       "games": 47,
       "picks": [
         {
-          "champion": "Nautilus",
-          "games": 6,
-          "rate": 12.8
-        },
-        {
           "champion": "Velkoz",
           "games": 6,
           "rate": 12.8
@@ -284,17 +279,22 @@
           "rate": 10.6
         },
         {
+          "champion": "Nautilus",
+          "games": 5,
+          "rate": 10.6
+        },
+        {
           "champion": "Soraka",
           "games": 5,
           "rate": 10.6
         },
         {
-          "champion": "Thresh",
-          "games": 4,
-          "rate": 8.5
+          "champion": "Zilean",
+          "games": 5,
+          "rate": 10.6
         },
         {
-          "champion": "Zilean",
+          "champion": "Thresh",
           "games": 4,
           "rate": 8.5
         },
@@ -364,7 +364,7 @@
   "byMainLane": {
     "MID": {
       "players": 15,
-      "mainLaneGames": 398,
+      "mainLaneGames": 396,
       "mainLaneNext": [
         {
           "champion": "Zed",
@@ -407,17 +407,17 @@
           "rate": 0.8
         },
         {
-          "champion": "Syndra",
-          "games": 3,
-          "rate": 0.8
-        },
-        {
           "champion": "Orianna",
           "games": 2,
           "rate": 0.5
         },
         {
           "champion": "Pantheon",
+          "games": 2,
+          "rate": 0.5
+        },
+        {
+          "champion": "Syndra",
           "games": 2,
           "rate": 0.5
         },
@@ -464,27 +464,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 76,
+          "games": 77,
           "picks": [
             {
               "champion": "Vladimir",
-              "games": 43,
-              "rate": 56.6
+              "games": 44,
+              "rate": 57.1
             },
             {
               "champion": "Sett",
               "games": 10,
-              "rate": 13.2
+              "rate": 13.0
             },
             {
               "champion": "DrMundo",
               "games": 8,
-              "rate": 10.5
+              "rate": 10.4
             },
             {
               "champion": "Gragas",
               "games": 4,
-              "rate": 5.3
+              "rate": 5.2
             },
             {
               "champion": "Irelia",
@@ -569,17 +569,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 62,
+          "games": 63,
           "picks": [
             {
               "champion": "Vladimir",
-              "games": 38,
-              "rate": 61.3
+              "games": 39,
+              "rate": 61.9
             },
             {
               "champion": "Jhin",
               "games": 12,
-              "rate": 19.4
+              "rate": 19.0
             },
             {
               "champion": "Kaisa",
@@ -627,11 +627,6 @@
           "games": 47,
           "picks": [
             {
-              "champion": "Nautilus",
-              "games": 6,
-              "rate": 12.8
-            },
-            {
               "champion": "Velkoz",
               "games": 6,
               "rate": 12.8
@@ -642,17 +637,22 @@
               "rate": 10.6
             },
             {
+              "champion": "Nautilus",
+              "games": 5,
+              "rate": 10.6
+            },
+            {
               "champion": "Soraka",
               "games": 5,
               "rate": 10.6
             },
             {
-              "champion": "Thresh",
-              "games": 4,
-              "rate": 8.5
+              "champion": "Zilean",
+              "games": 5,
+              "rate": 10.6
             },
             {
-              "champion": "Zilean",
+              "champion": "Thresh",
               "games": 4,
               "rate": 8.5
             },
@@ -722,37 +722,32 @@
     },
     "TOP": {
       "players": 4,
-      "mainLaneGames": 113,
+      "mainLaneGames": 105,
       "mainLaneNext": [
         {
           "champion": "Fiora",
-          "games": 3,
-          "rate": 2.7
+          "games": 2,
+          "rate": 1.9
         },
         {
           "champion": "Jax",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.9
         },
         {
           "champion": "Ezreal",
           "games": 1,
-          "rate": 0.9
+          "rate": 1.0
         },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Irelia",
-          "games": 1,
-          "rate": 0.9
+          "rate": 1.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 0.9
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -772,77 +767,82 @@
           ]
         },
         "MID": {
-          "games": 14,
+          "games": 22,
           "picks": [
             {
               "champion": "Vladimir",
-              "games": 14,
+              "games": 22,
               "rate": 100.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 19,
+          "games": 20,
           "picks": [
             {
               "champion": "Tristana",
               "games": 9,
-              "rate": 47.4
+              "rate": 45.0
             },
             {
               "champion": "Vladimir",
-              "games": 4,
-              "rate": 21.1
+              "games": 5,
+              "rate": 25.0
             },
             {
               "champion": "Ezreal",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "KogMaw",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Lucian",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "MissFortune",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Yunara",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Zeri",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             }
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Yuumi",
-              "games": 6,
-              "rate": 75.0
+              "games": 4,
+              "rate": 57.1
             },
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 12.5
+              "rate": 14.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 12.5
+              "rate": 14.3
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         }

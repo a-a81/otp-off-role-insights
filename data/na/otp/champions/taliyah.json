@@ -3,15 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
   "mainLane": "JUNGLE",
   "players": 1,
   "mainLaneGames": 36,
   "mainLaneNext": [
     {
       "champion": "Kayn",
-      "games": 2,
-      "rate": 5.6
+      "games": 3,
+      "rate": 8.3
     },
     {
       "champion": "XinZhao",
@@ -77,8 +77,8 @@
       "mainLaneNext": [
         {
           "champion": "Kayn",
-          "games": 2,
-          "rate": 5.6
+          "games": 3,
+          "rate": 8.3
         },
         {
           "champion": "XinZhao",
@@ -135,6 +135,69 @@
         "UTILITY": {
           "games": 0,
           "picks": []
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 24,
+      "mainLaneNext": [
+        {
+          "champion": "Akali",
+          "games": 3,
+          "rate": 12.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Akali",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Taliyah",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 8,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }
