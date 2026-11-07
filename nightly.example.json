@@ -7,5 +7,5 @@
     { "region": "KR", "enabled": true, "tiers": ["CHALLENGER", "GRANDMASTER"] },
     { "region": "NA", "enabled": true, "tiers": ["CHALLENGER", "GRANDMASTER"] }
   ],
-  "collectArgs": ["--refresh", "--max-age-hours", "20", "--mastery-ratio", "0"]
+  "collectArgs": ["--refresh", "--max-age-hours", "20", "--mastery-ratio", "0", "--main-rate", "0.3", "--otp-rate", "0.75"]
 }

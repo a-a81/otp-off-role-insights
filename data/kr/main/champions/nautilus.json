@@ -3,142 +3,306 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nautilus",
-  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
   "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 24,
+  "players": 4,
+  "mainLaneGames": 136,
   "mainLaneNext": [
     {
       "champion": "Alistar",
-      "games": 8,
-      "rate": 33.3
+      "games": 21,
+      "rate": 15.4
     },
     {
       "champion": "Rell",
-      "games": 3,
-      "rate": 12.5
+      "games": 11,
+      "rate": 8.1
+    },
+    {
+      "champion": "Shen",
+      "games": 8,
+      "rate": 5.9
+    },
+    {
+      "champion": "Leona",
+      "games": 7,
+      "rate": 5.1
     },
     {
       "champion": "Lulu",
-      "games": 2,
-      "rate": 8.3
+      "games": 7,
+      "rate": 5.1
+    },
+    {
+      "champion": "Rakan",
+      "games": 7,
+      "rate": 5.1
+    },
+    {
+      "champion": "Thresh",
+      "games": 6,
+      "rate": 4.4
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 5,
+      "rate": 3.7
+    },
+    {
+      "champion": "Bard",
+      "games": 3,
+      "rate": 2.2
+    },
+    {
+      "champion": "Renata",
+      "games": 3,
+      "rate": 2.2
+    },
+    {
+      "champion": "Seraphine",
+      "games": 3,
+      "rate": 2.2
+    },
+    {
+      "champion": "Lux",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Neeko",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Poppy",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Skarner",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Yuumi",
+      "games": 1,
+      "rate": 0.7
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Shen",
+          "games": 4,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Nocturne",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
     },
     "MID": {
       "games": 0,
       "picks": []
     },
     "BOTTOM": {
-      "games": 16,
+      "games": 18,
       "picks": [
         {
           "champion": "Kaisa",
           "games": 10,
-          "rate": 62.5
+          "rate": 55.6
+        },
+        {
+          "champion": "Jhin",
+          "games": 3,
+          "rate": 16.7
         },
         {
           "champion": "Xayah",
           "games": 2,
-          "rate": 12.5
+          "rate": 11.1
         },
         {
           "champion": "Aphelios",
           "games": 1,
-          "rate": 6.2
-        },
-        {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 6.2
+          "rate": 5.6
         },
         {
           "champion": "Sivir",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.6
         },
         {
           "champion": "Yunara",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 24,
+      "players": 4,
+      "mainLaneGames": 136,
       "mainLaneNext": [
         {
           "champion": "Alistar",
-          "games": 8,
-          "rate": 33.3
+          "games": 21,
+          "rate": 15.4
         },
         {
           "champion": "Rell",
-          "games": 3,
-          "rate": 12.5
+          "games": 11,
+          "rate": 8.1
+        },
+        {
+          "champion": "Shen",
+          "games": 8,
+          "rate": 5.9
+        },
+        {
+          "champion": "Leona",
+          "games": 7,
+          "rate": 5.1
         },
         {
           "champion": "Lulu",
-          "games": 2,
-          "rate": 8.3
+          "games": 7,
+          "rate": 5.1
+        },
+        {
+          "champion": "Rakan",
+          "games": 7,
+          "rate": 5.1
+        },
+        {
+          "champion": "Thresh",
+          "games": 6,
+          "rate": 4.4
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 5,
+          "rate": 3.7
+        },
+        {
+          "champion": "Bard",
+          "games": 3,
+          "rate": 2.2
+        },
+        {
+          "champion": "Renata",
+          "games": 3,
+          "rate": 2.2
+        },
+        {
+          "champion": "Seraphine",
+          "games": 3,
+          "rate": 2.2
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Neeko",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Skarner",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Yuumi",
+          "games": 1,
+          "rate": 0.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Nocturne",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "XinZhao",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         },
         "MID": {
           "games": 0,
           "picks": []
         },
         "BOTTOM": {
-          "games": 16,
+          "games": 18,
           "picks": [
             {
               "champion": "Kaisa",
               "games": 10,
-              "rate": 62.5
+              "rate": 55.6
+            },
+            {
+              "champion": "Jhin",
+              "games": 3,
+              "rate": 16.7
             },
             {
               "champion": "Xayah",
               "games": 2,
-              "rate": 12.5
+              "rate": 11.1
             },
             {
               "champion": "Aphelios",
               "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Jhin",
-              "games": 1,
-              "rate": 6.2
+              "rate": 5.6
             },
             {
               "champion": "Sivir",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.6
             },
             {
               "champion": "Yunara",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.6
             }
           ]
         }
@@ -146,5 +310,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

@@ -3,20 +3,25 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Twitch",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "BOTTOM",
-  "players": 6,
-  "mainLaneGames": 182,
+  "players": 7,
+  "mainLaneGames": 216,
   "mainLaneNext": [
+    {
+      "champion": "Samira",
+      "games": 7,
+      "rate": 3.2
+    },
     {
       "champion": "Ashe",
       "games": 6,
-      "rate": 3.3
+      "rate": 2.8
     },
     {
       "champion": "Kalista",
       "games": 2,
-      "rate": 1.1
+      "rate": 0.9
     },
     {
       "champion": "Caitlyn",
@@ -46,62 +51,67 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
+        },
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 16.7
         },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 18,
+      "games": 19,
       "picks": [
         {
           "champion": "Shaco",
           "games": 9,
-          "rate": 50.0
+          "rate": 47.4
         },
         {
           "champion": "Twitch",
-          "games": 4,
-          "rate": 22.2
+          "games": 5,
+          "rate": 26.3
         },
         {
           "champion": "Vi",
           "games": 3,
-          "rate": 16.7
+          "rate": 15.8
         },
         {
           "champion": "Briar",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         },
         {
           "champion": "Rammus",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         }
       ]
     },
@@ -193,18 +203,23 @@
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 6,
-      "mainLaneGames": 182,
+      "players": 7,
+      "mainLaneGames": 216,
       "mainLaneNext": [
+        {
+          "champion": "Samira",
+          "games": 7,
+          "rate": 3.2
+        },
         {
           "champion": "Ashe",
           "games": 6,
-          "rate": 3.3
+          "rate": 2.8
         },
         {
           "champion": "Kalista",
           "games": 2,
-          "rate": 1.1
+          "rate": 0.9
         },
         {
           "champion": "Caitlyn",
@@ -234,62 +249,67 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Amumu",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
+            },
+            {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 16.7
             },
             {
               "champion": "Yorick",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Shaco",
               "games": 9,
-              "rate": 50.0
+              "rate": 47.4
             },
             {
               "champion": "Twitch",
-              "games": 4,
-              "rate": 22.2
+              "games": 5,
+              "rate": 26.3
             },
             {
               "champion": "Vi",
               "games": 3,
-              "rate": 16.7
+              "rate": 15.8
             },
             {
               "champion": "Briar",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             },
             {
               "champion": "Rammus",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             }
           ]
         },
@@ -382,5 +402,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

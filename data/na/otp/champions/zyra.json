@@ -3,20 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zyra",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 26,
+  "players": 2,
+  "mainLaneGames": 44,
   "mainLaneNext": [
     {
-      "champion": "Senna",
-      "games": 2,
-      "rate": 7.7
+      "champion": "Caitlyn",
+      "games": 3,
+      "rate": 6.8
     },
     {
-      "champion": "Caitlyn",
+      "champion": "Senna",
+      "games": 3,
+      "rate": 6.8
+    },
+    {
+      "champion": "Jhin",
       "games": 1,
-      "rate": 3.8
+      "rate": 2.3
     }
   ],
   "offLanes": {
@@ -61,45 +66,70 @@
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 9,
       "picks": [
         {
           "champion": "Zyra",
-          "games": 3,
-          "rate": 75.0
+          "games": 8,
+          "rate": 88.9
         },
         {
           "champion": "TwistedFate",
           "games": 1,
-          "rate": 25.0
+          "rate": 11.1
         }
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 20,
       "picks": [
         {
+          "champion": "Sona",
+          "games": 8,
+          "rate": 40.0
+        },
+        {
           "champion": "Nautilus",
-          "games": 3,
-          "rate": 100.0
+          "games": 6,
+          "rate": 30.0
+        },
+        {
+          "champion": "Alistar",
+          "games": 4,
+          "rate": 20.0
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 5.0
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 26,
+      "players": 2,
+      "mainLaneGames": 44,
       "mainLaneNext": [
         {
-          "champion": "Senna",
-          "games": 2,
-          "rate": 7.7
+          "champion": "Caitlyn",
+          "games": 3,
+          "rate": 6.8
         },
         {
-          "champion": "Caitlyn",
+          "champion": "Senna",
+          "games": 3,
+          "rate": 6.8
+        },
+        {
+          "champion": "Jhin",
           "games": 1,
-          "rate": 3.8
+          "rate": 2.3
         }
       ],
       "offLanes": {
@@ -144,27 +174,47 @@
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 9,
           "picks": [
             {
               "champion": "Zyra",
-              "games": 3,
-              "rate": 75.0
+              "games": 8,
+              "rate": 88.9
             },
             {
               "champion": "TwistedFate",
               "games": 1,
-              "rate": 25.0
+              "rate": 11.1
             }
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 20,
           "picks": [
             {
+              "champion": "Sona",
+              "games": 8,
+              "rate": 40.0
+            },
+            {
               "champion": "Nautilus",
-              "games": 3,
-              "rate": 100.0
+              "games": 6,
+              "rate": 30.0
+            },
+            {
+              "champion": "Alistar",
+              "games": 4,
+              "rate": 20.0
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 5.0
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         }
@@ -172,5 +222,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

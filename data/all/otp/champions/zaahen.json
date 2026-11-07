@@ -3,35 +3,60 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zaahen",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 36,
+  "players": 2,
+  "mainLaneGames": 64,
   "mainLaneNext": [
+    {
+      "champion": "Darius",
+      "games": 2,
+      "rate": 3.1
+    },
     {
       "champion": "KSante",
       "games": 2,
-      "rate": 5.6
+      "rate": 3.1
     },
     {
       "champion": "Yone",
       "games": 2,
-      "rate": 5.6
+      "rate": 3.1
+    },
+    {
+      "champion": "DrMundo",
+      "games": 1,
+      "rate": 1.6
+    },
+    {
+      "champion": "Malphite",
+      "games": 1,
+      "rate": 1.6
+    },
+    {
+      "champion": "Olaf",
+      "games": 1,
+      "rate": 1.6
     },
     {
       "champion": "Ryze",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.6
+    },
+    {
+      "champion": "Sion",
+      "games": 1,
+      "rate": 1.6
     },
     {
       "champion": "Swain",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.6
     },
     {
       "champion": "Yasuo",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.6
     }
   ],
   "offLanes": {
@@ -60,50 +85,95 @@
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 11,
       "picks": [
+        {
+          "champion": "Taric",
+          "games": 4,
+          "rate": 36.4
+        },
+        {
+          "champion": "Senna",
+          "games": 2,
+          "rate": 18.2
+        },
+        {
+          "champion": "TahmKench",
+          "games": 2,
+          "rate": 18.2
+        },
         {
           "champion": "KSante",
           "games": 1,
-          "rate": 50.0
+          "rate": 9.1
         },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 50.0
+          "rate": 9.1
+        },
+        {
+          "champion": "Yuumi",
+          "games": 1,
+          "rate": 9.1
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 36,
+      "players": 2,
+      "mainLaneGames": 64,
       "mainLaneNext": [
+        {
+          "champion": "Darius",
+          "games": 2,
+          "rate": 3.1
+        },
         {
           "champion": "KSante",
           "games": 2,
-          "rate": 5.6
+          "rate": 3.1
         },
         {
           "champion": "Yone",
           "games": 2,
-          "rate": 5.6
+          "rate": 3.1
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Olaf",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Ryze",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.6
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.6
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.6
         }
       ],
       "offLanes": {
@@ -132,17 +202,37 @@
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 11,
           "picks": [
+            {
+              "champion": "Taric",
+              "games": 4,
+              "rate": 36.4
+            },
+            {
+              "champion": "Senna",
+              "games": 2,
+              "rate": 18.2
+            },
+            {
+              "champion": "TahmKench",
+              "games": 2,
+              "rate": 18.2
+            },
             {
               "champion": "KSante",
               "games": 1,
-              "rate": 50.0
+              "rate": 9.1
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 50.0
+              "rate": 9.1
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 9.1
             }
           ]
         }
@@ -195,5 +285,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

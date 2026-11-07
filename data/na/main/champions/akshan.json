@@ -3,110 +3,193 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akshan",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
+  "mainLane": "BOTTOM",
   "players": 1,
   "mainLaneGames": 23,
   "mainLaneNext": [
     {
-      "champion": "KogMaw",
+      "champion": "Lux",
       "games": 5,
       "rate": 21.7
     },
     {
-      "champion": "Kayle",
+      "champion": "Syndra",
+      "games": 4,
+      "rate": 17.4
+    },
+    {
+      "champion": "Yasuo",
       "games": 3,
       "rate": 13.0
     },
     {
-      "champion": "Locke",
+      "champion": "Hwei",
       "games": 2,
       "rate": 8.7
-    },
-    {
-      "champion": "Naafiri",
-      "games": 1,
-      "rate": 4.3
-    },
-    {
-      "champion": "Shyvana",
-      "games": 1,
-      "rate": 4.3
-    },
-    {
-      "champion": "Vayne",
-      "games": 1,
-      "rate": 4.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 13,
+      "games": 1,
       "picks": [
         {
-          "champion": "Naafiri",
-          "games": 4,
-          "rate": 30.8
-        },
-        {
-          "champion": "Shyvana",
-          "games": 4,
-          "rate": 30.8
-        },
-        {
-          "champion": "Zaahen",
-          "games": 2,
-          "rate": 15.4
-        },
-        {
-          "champion": "Camille",
+          "champion": "Akshan",
           "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "Kayle",
-          "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "KogMaw",
-          "games": 1,
-          "rate": 7.7
+          "rate": 100.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
-          "champion": "Shyvana",
-          "games": 2,
+          "champion": "Zac",
+          "games": 1,
           "rate": 100.0
         }
       ]
     },
-    "BOTTOM": {
-      "games": 1,
+    "MID": {
+      "games": 6,
       "picks": [
         {
-          "champion": "Zeri",
+          "champion": "Syndra",
+          "games": 3,
+          "rate": 50.0
+        },
+        {
+          "champion": "Akshan",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Yasuo",
           "games": 1,
-          "rate": 100.0
+          "rate": 16.7
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 8,
       "picks": [
         {
-          "champion": "Rell",
+          "champion": "Soraka",
+          "games": 5,
+          "rate": 62.5
+        },
+        {
+          "champion": "Camille",
           "games": 1,
-          "rate": 100.0
+          "rate": 12.5
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Pyke",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 23,
+      "mainLaneNext": [
+        {
+          "champion": "Lux",
+          "games": 5,
+          "rate": 21.7
+        },
+        {
+          "champion": "Syndra",
+          "games": 4,
+          "rate": 17.4
+        },
+        {
+          "champion": "Yasuo",
+          "games": 3,
+          "rate": 13.0
+        },
+        {
+          "champion": "Hwei",
+          "games": 2,
+          "rate": 8.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Akshan",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Syndra",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Akshan",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Yasuo",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Soraka",
+              "games": 5,
+              "rate": 62.5
+            },
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Pyke",
+              "games": 1,
+              "rate": 12.5
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 23,
@@ -212,5 +295,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

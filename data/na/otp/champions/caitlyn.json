@@ -3,15 +3,30 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Caitlyn",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 34,
+  "players": 2,
+  "mainLaneGames": 60,
   "mainLaneNext": [
     {
       "champion": "Ashe",
       "games": 3,
-      "rate": 8.8
+      "rate": 5.0
+    },
+    {
+      "champion": "KogMaw",
+      "games": 3,
+      "rate": 5.0
+    },
+    {
+      "champion": "MissFortune",
+      "games": 2,
+      "rate": 3.3
+    },
+    {
+      "champion": "Kaisa",
+      "games": 1,
+      "rate": 1.7
     }
   ],
   "offLanes": {
@@ -34,25 +49,55 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 2,
+      "games": 15,
       "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 8,
+          "rate": 53.3
+        },
+        {
+          "champion": "Karma",
+          "games": 4,
+          "rate": 26.7
+        },
         {
           "champion": "Senna",
           "games": 2,
-          "rate": 100.0
+          "rate": 13.3
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 6.7
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 34,
+      "players": 2,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "Ashe",
           "games": 3,
-          "rate": 8.8
+          "rate": 5.0
+        },
+        {
+          "champion": "KogMaw",
+          "games": 3,
+          "rate": 5.0
+        },
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 3.3
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 1.7
         }
       ],
       "offLanes": {
@@ -75,12 +120,27 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 15,
           "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 8,
+              "rate": 53.3
+            },
+            {
+              "champion": "Karma",
+              "games": 4,
+              "rate": 26.7
+            },
             {
               "champion": "Senna",
               "games": 2,
-              "rate": 100.0
+              "rate": 13.3
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         }
@@ -145,5 +205,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

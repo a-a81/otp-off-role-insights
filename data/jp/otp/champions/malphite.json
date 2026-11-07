@@ -3,31 +3,57 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Malphite",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 30,
+  "players": 2,
+  "mainLaneGames": 46,
   "mainLaneNext": [
     {
       "champion": "Zaahen",
       "games": 3,
-      "rate": 10.0
+      "rate": 6.5
+    },
+    {
+      "champion": "Renekton",
+      "games": 2,
+      "rate": 4.3
+    },
+    {
+      "champion": "Ambessa",
+      "games": 1,
+      "rate": 2.2
+    },
+    {
+      "champion": "Mordekaiser",
+      "games": 1,
+      "rate": 2.2
     },
     {
       "champion": "Sejuani",
       "games": 1,
-      "rate": 3.3
+      "rate": 2.2
     },
     {
       "champion": "Yorick",
       "games": 1,
-      "rate": 3.3
+      "rate": 2.2
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Naafiri",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "LeeSin",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     },
     "MID": {
       "games": 3,
@@ -50,61 +76,107 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 7,
       "picks": [
+        {
+          "champion": "Twitch",
+          "games": 6,
+          "rate": 85.7
+        },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 100.0
+          "rate": 14.3
         }
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 20,
       "picks": [
+        {
+          "champion": "Yuumi",
+          "games": 12,
+          "rate": 60.0
+        },
         {
           "champion": "Alistar",
           "games": 3,
-          "rate": 60.0
+          "rate": 15.0
+        },
+        {
+          "champion": "Taric",
+          "games": 2,
+          "rate": 10.0
         },
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 20.0
+          "rate": 5.0
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 5.0
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 20.0
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 30,
+      "players": 2,
+      "mainLaneGames": 46,
       "mainLaneNext": [
         {
           "champion": "Zaahen",
           "games": 3,
-          "rate": 10.0
+          "rate": 6.5
+        },
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 4.3
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 2.2
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 2.2
         },
         {
           "champion": "Sejuani",
           "games": 1,
-          "rate": 3.3
+          "rate": 2.2
         },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 3.3
+          "rate": 2.2
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Naafiri",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "LeeSin",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         },
         "MID": {
           "games": 3,
@@ -127,32 +199,52 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Twitch",
+              "games": 6,
+              "rate": 85.7
+            },
             {
               "champion": "Ziggs",
               "games": 1,
-              "rate": 100.0
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 20,
           "picks": [
+            {
+              "champion": "Yuumi",
+              "games": 12,
+              "rate": 60.0
+            },
             {
               "champion": "Alistar",
               "games": 3,
-              "rate": 60.0
+              "rate": 15.0
+            },
+            {
+              "champion": "Taric",
+              "games": 2,
+              "rate": 10.0
             },
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 20.0
+              "rate": 5.0
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 5.0
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 20.0
+              "rate": 5.0
             }
           ]
         }
@@ -160,5 +252,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

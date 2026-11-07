@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Talon",
-  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
   "mainLane": "MID",
   "players": 8,
   "mainLaneGames": 234,
@@ -401,53 +401,73 @@
       }
     },
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 63,
+      "players": 3,
+      "mainLaneGames": 98,
       "mainLaneNext": [
         {
           "champion": "Taliyah",
           "games": 12,
-          "rate": 19.0
+          "rate": 12.2
+        },
+        {
+          "champion": "Nidalee",
+          "games": 8,
+          "rate": 8.2
+        },
+        {
+          "champion": "LeeSin",
+          "games": 6,
+          "rate": 6.1
         },
         {
           "champion": "Chogath",
           "games": 5,
-          "rate": 7.9
+          "rate": 5.1
         },
         {
           "champion": "Khazix",
+          "games": 4,
+          "rate": 4.1
+        },
+        {
+          "champion": "Qiyana",
           "games": 3,
-          "rate": 4.8
+          "rate": 3.1
+        },
+        {
+          "champion": "Sylas",
+          "games": 3,
+          "rate": 3.1
+        },
+        {
+          "champion": "Viego",
+          "games": 3,
+          "rate": 3.1
+        },
+        {
+          "champion": "XinZhao",
+          "games": 3,
+          "rate": 3.1
         },
         {
           "champion": "Vi",
           "games": 2,
-          "rate": 3.2
-        },
-        {
-          "champion": "Viego",
-          "games": 2,
-          "rate": 3.2
+          "rate": 2.0
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.0
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.0
         },
         {
           "champion": "Locke",
           "games": 1,
-          "rate": 1.6
-        },
-        {
-          "champion": "XinZhao",
-          "games": 1,
-          "rate": 1.6
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -456,32 +476,47 @@
           "picks": []
         },
         "MID": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Taliyah",
               "games": 3,
-              "rate": 75.0
+              "rate": 37.5
+            },
+            {
+              "champion": "Akshan",
+              "games": 2,
+              "rate": 25.0
             },
             {
               "champion": "Talon",
-              "games": 1,
+              "games": 2,
               "rate": 25.0
+            },
+            {
+              "champion": "Leblanc",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
         "BOTTOM": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Jhin",
               "games": 4,
-              "rate": 50.0
+              "rate": 44.4
             },
             {
               "champion": "Kaisa",
               "games": 4,
-              "rate": 50.0
+              "rate": 44.4
+            },
+            {
+              "champion": "Yasuo",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
@@ -499,5 +534,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

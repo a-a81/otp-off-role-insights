@@ -3,65 +3,145 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Chogath",
-  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 16,
+  "mainLaneGames": 40,
   "mainLaneNext": [
     {
-      "champion": "Sion",
+      "champion": "LeeSin",
+      "games": 10,
+      "rate": 25.0
+    },
+    {
+      "champion": "Jayce",
+      "games": 3,
+      "rate": 7.5
+    },
+    {
+      "champion": "Naafiri",
+      "games": 3,
+      "rate": 7.5
+    },
+    {
+      "champion": "Qiyana",
+      "games": 3,
+      "rate": 7.5
+    },
+    {
+      "champion": "JarvanIV",
+      "games": 2,
+      "rate": 5.0
+    },
+    {
+      "champion": "Vi",
+      "games": 2,
+      "rate": 5.0
+    },
+    {
+      "champion": "XinZhao",
+      "games": 2,
+      "rate": 5.0
+    },
+    {
+      "champion": "Pantheon",
       "games": 1,
-      "rate": 6.2
+      "rate": 2.5
+    },
+    {
+      "champion": "Skarner",
+      "games": 1,
+      "rate": 2.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 3,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
-    "JUNGLE": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 2,
-          "rate": 100.0
-        }
-      ]
+    "MID": {
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
-      "games": 14,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 12,
-          "rate": 85.7
-        },
-        {
-          "champion": "Jhin",
-          "games": 2,
-          "rate": 14.3
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
-      "games": 5,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 5,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 40,
+      "mainLaneNext": [
+        {
+          "champion": "LeeSin",
+          "games": 10,
+          "rate": 25.0
+        },
+        {
+          "champion": "Jayce",
+          "games": 3,
+          "rate": 7.5
+        },
+        {
+          "champion": "Naafiri",
+          "games": 3,
+          "rate": 7.5
+        },
+        {
+          "champion": "Qiyana",
+          "games": 3,
+          "rate": 7.5
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 5.0
+        },
+        {
+          "champion": "Vi",
+          "games": 2,
+          "rate": 5.0
+        },
+        {
+          "champion": "XinZhao",
+          "games": 2,
+          "rate": 5.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 2.5
+        },
+        {
+          "champion": "Skarner",
+          "games": 1,
+          "rate": 2.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 16,
@@ -122,5 +202,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

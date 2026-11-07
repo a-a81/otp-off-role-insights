@@ -3,50 +3,70 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lulu",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 154,
+  "players": 5,
+  "mainLaneGames": 192,
   "mainLaneNext": [
     {
       "champion": "Karma",
-      "games": 8,
+      "games": 10,
       "rate": 5.2
     },
     {
       "champion": "Senna",
       "games": 4,
-      "rate": 2.6
+      "rate": 2.1
+    },
+    {
+      "champion": "Nami",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "Seraphine",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "Bard",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 1,
+      "rate": 0.5
     },
     {
       "champion": "Braum",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     },
     {
       "champion": "Milio",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     },
     {
-      "champion": "Nami",
+      "champion": "Poppy",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     },
     {
-      "champion": "Seraphine",
+      "champion": "Soraka",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     },
     {
       "champion": "Velkoz",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     },
     {
       "champion": "Yuumi",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.5
     }
   ],
   "offLanes": {
@@ -65,21 +85,26 @@
       "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Karma",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Tristana",
-          "games": 1,
+          "games": 2,
           "rate": 100.0
         }
       ]
@@ -87,48 +112,68 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 154,
+      "players": 5,
+      "mainLaneGames": 192,
       "mainLaneNext": [
         {
           "champion": "Karma",
-          "games": 8,
+          "games": 10,
           "rate": 5.2
         },
         {
           "champion": "Senna",
           "games": 4,
-          "rate": 2.6
+          "rate": 2.1
+        },
+        {
+          "champion": "Nami",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "Seraphine",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         },
         {
           "champion": "Milio",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         },
         {
-          "champion": "Nami",
+          "champion": "Poppy",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         },
         {
-          "champion": "Seraphine",
+          "champion": "Soraka",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         },
         {
           "champion": "Velkoz",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -147,21 +192,26 @@
           "picks": []
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Karma",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Tristana",
-              "games": 1,
+              "games": 2,
               "rate": 100.0
             }
           ]
@@ -170,5 +220,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

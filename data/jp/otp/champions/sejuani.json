@@ -3,11 +3,22 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sejuani",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 32,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 60,
+  "mainLaneNext": [
+    {
+      "champion": "Zac",
+      "games": 6,
+      "rate": 10.0
+    },
+    {
+      "champion": "Trundle",
+      "games": 1,
+      "rate": 1.7
+    }
+  ],
   "offLanes": {
     "TOP": {
       "games": 2,
@@ -20,35 +31,67 @@
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Taliyah",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Zac",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 12,
       "picks": [
+        {
+          "champion": "Zac",
+          "games": 6,
+          "rate": 50.0
+        },
         {
           "champion": "Braum",
           "games": 4,
-          "rate": 100.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Sejuani",
+          "games": 2,
+          "rate": 16.7
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 60,
+      "mainLaneNext": [
+        {
+          "champion": "Zac",
+          "games": 6,
+          "rate": 10.0
+        },
+        {
+          "champion": "Trundle",
+          "games": 1,
+          "rate": 1.7
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 2,
@@ -61,26 +104,47 @@
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Taliyah",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Zac",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Maokai",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 12,
           "picks": [
+            {
+              "champion": "Zac",
+              "games": 6,
+              "rate": 50.0
+            },
             {
               "champion": "Braum",
               "games": 4,
-              "rate": 100.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Sejuani",
+              "games": 2,
+              "rate": 16.7
             }
           ]
         }
@@ -169,5 +233,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

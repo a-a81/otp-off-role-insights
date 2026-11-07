@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Volibear",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "TOP",
   "players": 2,
   "mainLaneGames": 73,
@@ -127,8 +127,105 @@
           ]
         }
       }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 37,
+      "mainLaneNext": [
+        {
+          "champion": "Sylas",
+          "games": 7,
+          "rate": 18.9
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 4,
+          "rate": 10.8
+        },
+        {
+          "champion": "Shyvana",
+          "games": 4,
+          "rate": 10.8
+        },
+        {
+          "champion": "Aatrox",
+          "games": 2,
+          "rate": 5.4
+        },
+        {
+          "champion": "Vi",
+          "games": 2,
+          "rate": 5.4
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Khazix",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Zaahen",
+          "games": 1,
+          "rate": 2.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

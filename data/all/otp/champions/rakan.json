@@ -3,50 +3,80 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Rakan",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "UTILITY",
-  "players": 7,
-  "mainLaneGames": 258,
+  "players": 9,
+  "mainLaneGames": 333,
   "mainLaneNext": [
     {
-      "champion": "Braum",
-      "games": 2,
-      "rate": 0.8
+      "champion": "Milio",
+      "games": 6,
+      "rate": 1.8
+    },
+    {
+      "champion": "Zilean",
+      "games": 4,
+      "rate": 1.2
     },
     {
       "champion": "Alistar",
-      "games": 1,
-      "rate": 0.4
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Braum",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Karma",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Nautilus",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Yuumi",
+      "games": 2,
+      "rate": 0.6
     },
     {
       "champion": "Amumu",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "Leona",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
+    },
+    {
+      "champion": "Lulu",
+      "games": 1,
+      "rate": 0.3
     },
     {
       "champion": "Maokai",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
-      "champion": "Nautilus",
+      "champion": "Pantheon",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "Poppy",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
-      "champion": "Yuumi",
+      "champion": "Rell",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     }
   ],
   "offLanes": {
@@ -81,90 +111,130 @@
       ]
     },
     "MID": {
-      "games": 7,
+      "games": 10,
       "picks": [
+        {
+          "champion": "Zilean",
+          "games": 3,
+          "rate": 30.0
+        },
         {
           "champion": "Ekko",
           "games": 2,
-          "rate": 28.6
+          "rate": 20.0
         },
         {
           "champion": "Galio",
           "games": 2,
-          "rate": 28.6
+          "rate": 20.0
         },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 14.3
+          "rate": 10.0
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 14.3
+          "rate": 10.0
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 14.3
+          "rate": 10.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 7,
-      "mainLaneGames": 258,
+      "players": 9,
+      "mainLaneGames": 333,
       "mainLaneNext": [
         {
-          "champion": "Braum",
-          "games": 2,
-          "rate": 0.8
+          "champion": "Milio",
+          "games": 6,
+          "rate": 1.8
+        },
+        {
+          "champion": "Zilean",
+          "games": 4,
+          "rate": 1.2
         },
         {
           "champion": "Alistar",
-          "games": 1,
-          "rate": 0.4
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Braum",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Karma",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Yuumi",
+          "games": 2,
+          "rate": 0.6
         },
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 0.3
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
-          "champion": "Nautilus",
+          "champion": "Pantheon",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
-          "champion": "Yuumi",
+          "champion": "Rell",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         }
       ],
       "offLanes": {
@@ -199,42 +269,52 @@
           ]
         },
         "MID": {
-          "games": 7,
+          "games": 10,
           "picks": [
+            {
+              "champion": "Zilean",
+              "games": 3,
+              "rate": 30.0
+            },
             {
               "champion": "Ekko",
               "games": 2,
-              "rate": 28.6
+              "rate": 20.0
             },
             {
               "champion": "Galio",
               "games": 2,
-              "rate": 28.6
+              "rate": 20.0
             },
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 14.3
+              "rate": 10.0
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 14.3
+              "rate": 10.0
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 14.3
+              "rate": 10.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }
@@ -242,5 +322,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

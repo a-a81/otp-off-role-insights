@@ -3,40 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viktor",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
+  "mainLane": "BOTTOM",
   "players": 1,
-  "mainLaneGames": 25,
+  "mainLaneGames": 31,
   "mainLaneNext": [
     {
-      "champion": "Kassadin",
-      "games": 4,
-      "rate": 16.0
+      "champion": "Jinx",
+      "games": 5,
+      "rate": 16.1
+    },
+    {
+      "champion": "Yunara",
+      "games": 2,
+      "rate": 6.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 14,
+      "games": 1,
       "picks": [
         {
-          "champion": "Jayce",
-          "games": 8,
-          "rate": 57.1
-        },
-        {
-          "champion": "Cassiopeia",
-          "games": 3,
-          "rate": 21.4
-        },
-        {
-          "champion": "Viktor",
-          "games": 2,
-          "rate": 14.3
-        },
-        {
-          "champion": "Yone",
+          "champion": "Garen",
           "games": 1,
-          "rate": 7.1
+          "rate": 100.0
         }
       ]
     },
@@ -44,15 +34,21 @@
       "games": 0,
       "picks": []
     },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
+    "MID": {
+      "games": 7,
+      "picks": [
+        {
+          "champion": "Viktor",
+          "games": 7,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 1,
       "picks": [
         {
-          "champion": "Elise",
+          "champion": "Nautilus",
           "games": 1,
           "rate": 100.0
         }
@@ -60,6 +56,58 @@
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 31,
+      "mainLaneNext": [
+        {
+          "champion": "Jinx",
+          "games": 5,
+          "rate": 16.1
+        },
+        {
+          "champion": "Yunara",
+          "games": 2,
+          "rate": 6.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Viktor",
+              "games": 7,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 25,
@@ -118,5 +166,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

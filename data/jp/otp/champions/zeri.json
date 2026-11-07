@@ -3,30 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zeri",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 34,
+  "players": 2,
+  "mainLaneGames": 60,
   "mainLaneNext": [
+    {
+      "champion": "Yunara",
+      "games": 4,
+      "rate": 6.7
+    },
     {
       "champion": "Vayne",
       "games": 2,
-      "rate": 5.9
+      "rate": 3.3
     },
     {
       "champion": "Jhin",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.7
     },
     {
       "champion": "Jinx",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.7
+    },
+    {
+      "champion": "MissFortune",
+      "games": 1,
+      "rate": 1.7
+    },
+    {
+      "champion": "Senna",
+      "games": 1,
+      "rate": 1.7
     },
     {
       "champion": "Ziggs",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.7
     }
   ],
   "offLanes": {
@@ -49,45 +64,80 @@
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 17,
       "picks": [
         {
+          "champion": "Senna",
+          "games": 5,
+          "rate": 29.4
+        },
+        {
           "champion": "Rell",
-          "games": 3,
-          "rate": 75.0
+          "games": 4,
+          "rate": 23.5
         },
         {
           "champion": "Karma",
+          "games": 3,
+          "rate": 17.6
+        },
+        {
+          "champion": "Lulu",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Seraphine",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Thresh",
           "games": 1,
-          "rate": 25.0
+          "rate": 5.9
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 34,
+      "players": 2,
+      "mainLaneGames": 60,
       "mainLaneNext": [
+        {
+          "champion": "Yunara",
+          "games": 4,
+          "rate": 6.7
+        },
         {
           "champion": "Vayne",
           "games": 2,
-          "rate": 5.9
+          "rate": 3.3
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.7
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.7
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 1.7
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.7
         }
       ],
       "offLanes": {
@@ -110,17 +160,37 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 17,
           "picks": [
             {
+              "champion": "Senna",
+              "games": 5,
+              "rate": 29.4
+            },
+            {
               "champion": "Rell",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 23.5
             },
             {
               "champion": "Karma",
+              "games": 3,
+              "rate": 17.6
+            },
+            {
+              "champion": "Lulu",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Thresh",
               "games": 1,
-              "rate": 25.0
+              "rate": 5.9
             }
           ]
         }
@@ -128,5 +198,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

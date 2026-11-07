@@ -3,25 +3,65 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yuumi",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 77,
+  "players": 4,
+  "mainLaneGames": 155,
   "mainLaneNext": [
     {
       "champion": "Lulu",
+      "games": 7,
+      "rate": 4.5
+    },
+    {
+      "champion": "Alistar",
       "games": 6,
-      "rate": 7.8
+      "rate": 3.9
+    },
+    {
+      "champion": "Seraphine",
+      "games": 5,
+      "rate": 3.2
     },
     {
       "champion": "Zac",
       "games": 4,
-      "rate": 5.2
+      "rate": 2.6
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Leona",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Nautilus",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Pantheon",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Sona",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 1.3
+      "rate": 0.6
+    },
+    {
+      "champion": "Thresh",
+      "games": 1,
+      "rate": 0.6
     }
   ],
   "offLanes": {
@@ -30,22 +70,32 @@
       "picks": []
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Zac",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "MID": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
@@ -56,23 +106,63 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 77,
+      "players": 4,
+      "mainLaneGames": 155,
       "mainLaneNext": [
         {
           "champion": "Lulu",
+          "games": 7,
+          "rate": 4.5
+        },
+        {
+          "champion": "Alistar",
           "games": 6,
-          "rate": 7.8
+          "rate": 3.9
+        },
+        {
+          "champion": "Seraphine",
+          "games": 5,
+          "rate": 3.2
         },
         {
           "champion": "Zac",
           "games": 4,
-          "rate": 5.2
+          "rate": 2.6
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Sona",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 1.3
+          "rate": 0.6
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 0.6
         }
       ],
       "offLanes": {
@@ -81,22 +171,32 @@
           "picks": []
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Zac",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
@@ -108,5 +208,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

@@ -3,30 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Senna",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 7,
-  "mainLaneGames": 224,
+  "players": 8,
+  "mainLaneGames": 260,
   "mainLaneNext": [
     {
-      "champion": "Sona",
-      "games": 4,
-      "rate": 1.8
-    },
-    {
       "champion": "Alistar",
-      "games": 2,
-      "rate": 0.9
+      "games": 9,
+      "rate": 3.5
     },
     {
       "champion": "Leona",
-      "games": 2,
-      "rate": 0.9
+      "games": 4,
+      "rate": 1.5
+    },
+    {
+      "champion": "Sona",
+      "games": 4,
+      "rate": 1.5
     },
     {
       "champion": "Swain",
       "games": 2,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Lulu",
@@ -51,17 +51,27 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 6,
       "picks": [
+        {
+          "champion": "Aatrox",
+          "games": 3,
+          "rate": 50.0
+        },
+        {
+          "champion": "Gnar",
+          "games": 1,
+          "rate": 16.7
+        },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 50.0
+          "rate": 16.7
         },
         {
           "champion": "TahmKench",
           "games": 1,
-          "rate": 50.0
+          "rate": 16.7
         }
       ]
     },
@@ -163,28 +173,28 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 7,
-      "mainLaneGames": 224,
+      "players": 8,
+      "mainLaneGames": 260,
       "mainLaneNext": [
         {
-          "champion": "Sona",
-          "games": 4,
-          "rate": 1.8
-        },
-        {
           "champion": "Alistar",
-          "games": 2,
-          "rate": 0.9
+          "games": 9,
+          "rate": 3.5
         },
         {
           "champion": "Leona",
-          "games": 2,
-          "rate": 0.9
+          "games": 4,
+          "rate": 1.5
+        },
+        {
+          "champion": "Sona",
+          "games": 4,
+          "rate": 1.5
         },
         {
           "champion": "Swain",
           "games": 2,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Lulu",
@@ -209,17 +219,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Aatrox",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 16.7
+            },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 50.0
+              "rate": 16.7
             },
             {
               "champion": "TahmKench",
               "games": 1,
-              "rate": 50.0
+              "rate": 16.7
             }
           ]
         },
@@ -414,5 +434,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

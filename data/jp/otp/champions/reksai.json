@@ -3,25 +3,40 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "RekSai",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "JUNGLE",
-  "players": 3,
-  "mainLaneGames": 96,
+  "players": 4,
+  "mainLaneGames": 116,
   "mainLaneNext": [
+    {
+      "champion": "JarvanIV",
+      "games": 2,
+      "rate": 1.7
+    },
+    {
+      "champion": "Lillia",
+      "games": 2,
+      "rate": 1.7
+    },
     {
       "champion": "Elise",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.9
+    },
+    {
+      "champion": "Hecarim",
+      "games": 1,
+      "rate": 0.9
     },
     {
       "champion": "Nocturne",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.9
     },
     {
       "champion": "Viego",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -51,60 +66,95 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 17,
       "picks": [
+        {
+          "champion": "Samira",
+          "games": 8,
+          "rate": 47.1
+        },
+        {
+          "champion": "Jhin",
+          "games": 5,
+          "rate": 29.4
+        },
+        {
+          "champion": "Smolder",
+          "games": 3,
+          "rate": 17.6
+        },
         {
           "champion": "Ezreal",
           "games": 1,
-          "rate": 100.0
+          "rate": 5.9
         }
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 10,
       "picks": [
         {
           "champion": "Elise",
           "games": 6,
-          "rate": 66.7
+          "rate": 60.0
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 10.0
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         },
         {
           "champion": "Milio",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         },
         {
           "champion": "RekSai",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 3,
-      "mainLaneGames": 96,
+      "players": 4,
+      "mainLaneGames": 116,
       "mainLaneNext": [
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 1.7
+        },
+        {
+          "champion": "Lillia",
+          "games": 2,
+          "rate": 1.7
+        },
         {
           "champion": "Elise",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.9
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 0.9
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.9
         },
         {
           "champion": "Viego",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -134,37 +184,57 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 17,
           "picks": [
+            {
+              "champion": "Samira",
+              "games": 8,
+              "rate": 47.1
+            },
+            {
+              "champion": "Jhin",
+              "games": 5,
+              "rate": 29.4
+            },
+            {
+              "champion": "Smolder",
+              "games": 3,
+              "rate": 17.6
+            },
             {
               "champion": "Ezreal",
               "games": 1,
-              "rate": 100.0
+              "rate": 5.9
             }
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "Elise",
               "games": 6,
-              "rate": 66.7
+              "rate": 60.0
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 10.0
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             },
             {
               "champion": "Milio",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             },
             {
               "champion": "RekSai",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             }
           ]
         }
@@ -172,5 +242,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

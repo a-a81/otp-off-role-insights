@@ -3,30 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nidalee",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 29,
+  "players": 2,
+  "mainLaneGames": 65,
   "mainLaneNext": [
     {
       "champion": "Aatrox",
       "games": 10,
-      "rate": 34.5
+      "rate": 15.4
     },
     {
       "champion": "LeeSin",
-      "games": 3,
-      "rate": 10.3
+      "games": 8,
+      "rate": 12.3
+    },
+    {
+      "champion": "Jayce",
+      "games": 5,
+      "rate": 7.7
     },
     {
       "champion": "JarvanIV",
-      "games": 1,
-      "rate": 3.4
+      "games": 4,
+      "rate": 6.2
+    },
+    {
+      "champion": "Taliyah",
+      "games": 4,
+      "rate": 6.2
+    },
+    {
+      "champion": "Graves",
+      "games": 3,
+      "rate": 4.6
+    },
+    {
+      "champion": "Qiyana",
+      "games": 2,
+      "rate": 3.1
     },
     {
       "champion": "MonkeyKing",
       "games": 1,
-      "rate": 3.4
+      "rate": 1.5
     }
   ],
   "offLanes": {
@@ -41,12 +61,24 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Galio",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Yunara",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 10,
@@ -81,28 +113,48 @@
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 29,
+      "players": 2,
+      "mainLaneGames": 65,
       "mainLaneNext": [
         {
           "champion": "Aatrox",
           "games": 10,
-          "rate": 34.5
+          "rate": 15.4
         },
         {
           "champion": "LeeSin",
-          "games": 3,
-          "rate": 10.3
+          "games": 8,
+          "rate": 12.3
+        },
+        {
+          "champion": "Jayce",
+          "games": 5,
+          "rate": 7.7
         },
         {
           "champion": "JarvanIV",
-          "games": 1,
-          "rate": 3.4
+          "games": 4,
+          "rate": 6.2
+        },
+        {
+          "champion": "Taliyah",
+          "games": 4,
+          "rate": 6.2
+        },
+        {
+          "champion": "Graves",
+          "games": 3,
+          "rate": 4.6
+        },
+        {
+          "champion": "Qiyana",
+          "games": 2,
+          "rate": 3.1
         },
         {
           "champion": "MonkeyKing",
           "games": 1,
-          "rate": 3.4
+          "rate": 1.5
         }
       ],
       "offLanes": {
@@ -117,12 +169,24 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Galio",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Yunara",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 10,
@@ -261,5 +325,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

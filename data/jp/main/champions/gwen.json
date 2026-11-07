@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "TOP",
   "players": 5,
   "mainLaneGames": 150,
@@ -471,44 +471,90 @@
       }
     },
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 69,
+      "players": 3,
+      "mainLaneGames": 101,
       "mainLaneNext": [
         {
           "champion": "Briar",
           "games": 9,
-          "rate": 13.0
+          "rate": 8.9
         },
         {
           "champion": "Rengar",
           "games": 8,
-          "rate": 11.6
+          "rate": 7.9
         },
         {
           "champion": "Twitch",
           "games": 7,
-          "rate": 10.1
+          "rate": 6.9
+        },
+        {
+          "champion": "Sylas",
+          "games": 5,
+          "rate": 5.0
+        },
+        {
+          "champion": "Graves",
+          "games": 3,
+          "rate": 3.0
         },
         {
           "champion": "JarvanIV",
           "games": 3,
-          "rate": 4.3
+          "rate": 3.0
+        },
+        {
+          "champion": "Kindred",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Taliyah",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Viego",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Nidalee",
+          "games": 2,
+          "rate": 2.0
+        },
+        {
+          "champion": "Diana",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Rammus",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         },
         {
           "champion": "Skarner",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 4,
@@ -536,37 +582,57 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Gwen",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
           "games": 5,
           "picks": [
             {
-              "champion": "Twitch",
+              "champion": "Yunara",
               "games": 2,
               "rate": 40.0
             },
             {
-              "champion": "Leona",
+              "champion": "Ezreal",
               "games": 1,
               "rate": 20.0
+            },
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Twitch",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 20.0
+              "rate": 14.3
             },
             {
               "champion": "Velkoz",
               "games": 1,
-              "rate": 20.0
+              "rate": 14.3
             }
           ]
         }
@@ -647,5 +713,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

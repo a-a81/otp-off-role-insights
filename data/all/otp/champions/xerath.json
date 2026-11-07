@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Xerath",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "BOTTOM",
   "players": 6,
   "mainLaneGames": 155,
@@ -401,43 +401,63 @@
       }
     },
     "MID": {
-      "players": 3,
-      "mainLaneGames": 80,
+      "players": 4,
+      "mainLaneGames": 105,
       "mainLaneNext": [
+        {
+          "champion": "Ekko",
+          "games": 3,
+          "rate": 2.9
+        },
         {
           "champion": "Jhin",
           "games": 3,
-          "rate": 3.8
+          "rate": 2.9
         },
         {
           "champion": "Malzahar",
           "games": 2,
-          "rate": 2.5
+          "rate": 1.9
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 2,
+          "rate": 1.9
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 8,
           "picks": [
             {
               "champion": "KSante",
               "games": 3,
-              "rate": 50.0
+              "rate": 37.5
+            },
+            {
+              "champion": "Tryndamere",
+              "games": 2,
+              "rate": 25.0
             },
             {
               "champion": "Darius",
               "games": 1,
-              "rate": 16.7
+              "rate": 12.5
             },
             {
               "champion": "DrMundo",
               "games": 1,
-              "rate": 16.7
+              "rate": 12.5
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 16.7
+              "rate": 12.5
             }
           ]
         },
@@ -446,42 +466,47 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 27,
+          "games": 37,
           "picks": [
             {
               "champion": "Xerath",
-              "games": 17,
-              "rate": 63.0
+              "games": 26,
+              "rate": 70.3
             },
             {
               "champion": "Jhin",
               "games": 7,
-              "rate": 25.9
+              "rate": 18.9
             },
             {
               "champion": "Jinx",
               "games": 3,
-              "rate": 11.1
+              "rate": 8.1
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 2.7
             }
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 8,
           "picks": [
             {
               "champion": "Xerath",
               "games": 4,
-              "rate": 66.7
+              "rate": 50.0
+            },
+            {
+              "champion": "Seraphine",
+              "games": 3,
+              "rate": 37.5
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 16.7
+              "rate": 12.5
             }
           ]
         }
@@ -489,5 +514,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

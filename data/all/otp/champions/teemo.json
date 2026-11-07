@@ -3,30 +3,40 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Teemo",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "TOP",
-  "players": 10,
-  "mainLaneGames": 333,
+  "players": 11,
+  "mainLaneGames": 368,
   "mainLaneNext": [
     {
       "champion": "Malphite",
-      "games": 7,
-      "rate": 2.1
+      "games": 8,
+      "rate": 2.2
     },
     {
       "champion": "Gnar",
-      "games": 4,
-      "rate": 1.2
+      "games": 5,
+      "rate": 1.4
     },
     {
       "champion": "Nasus",
       "games": 3,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Vayne",
       "games": 3,
-      "rate": 0.9
+      "rate": 0.8
+    },
+    {
+      "champion": "Heimerdinger",
+      "games": 2,
+      "rate": 0.5
+    },
+    {
+      "champion": "Zed",
+      "games": 2,
+      "rate": 0.5
     },
     {
       "champion": "Akali",
@@ -44,6 +54,11 @@
       "rate": 0.3
     },
     {
+      "champion": "Kayle",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
       "champion": "Kled",
       "games": 1,
       "rate": 0.3
@@ -55,6 +70,11 @@
     },
     {
       "champion": "Renekton",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
+      "champion": "Singed",
       "games": 1,
       "rate": 0.3
     },
@@ -111,47 +131,52 @@
       ]
     },
     "MID": {
-      "games": 22,
+      "games": 23,
       "picks": [
         {
           "champion": "Teemo",
           "games": 10,
-          "rate": 45.5
+          "rate": 43.5
         },
         {
           "champion": "Nasus",
           "games": 4,
-          "rate": 18.2
+          "rate": 17.4
         },
         {
           "champion": "Jayce",
           "games": 2,
-          "rate": 9.1
+          "rate": 8.7
         },
         {
           "champion": "Xerath",
           "games": 2,
-          "rate": 9.1
+          "rate": 8.7
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
+        },
+        {
+          "champion": "Kassadin",
+          "games": 1,
+          "rate": 4.3
         },
         {
           "champion": "KogMaw",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
         }
       ]
     },
@@ -171,75 +196,90 @@
       ]
     },
     "UTILITY": {
-      "games": 14,
+      "games": 18,
       "picks": [
         {
           "champion": "Maokai",
           "games": 5,
-          "rate": 35.7
+          "rate": 27.8
+        },
+        {
+          "champion": "Teemo",
+          "games": 4,
+          "rate": 22.2
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 14.3
+          "rate": 11.1
         },
         {
           "champion": "Soraka",
           "games": 2,
-          "rate": 14.3
+          "rate": 11.1
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
+        },
+        {
+          "champion": "Amumu",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 7.1
-        },
-        {
-          "champion": "Teemo",
-          "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 10,
-      "mainLaneGames": 333,
+      "players": 11,
+      "mainLaneGames": 368,
       "mainLaneNext": [
         {
           "champion": "Malphite",
-          "games": 7,
-          "rate": 2.1
+          "games": 8,
+          "rate": 2.2
         },
         {
           "champion": "Gnar",
-          "games": 4,
-          "rate": 1.2
+          "games": 5,
+          "rate": 1.4
         },
         {
           "champion": "Nasus",
           "games": 3,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Vayne",
           "games": 3,
-          "rate": 0.9
+          "rate": 0.8
+        },
+        {
+          "champion": "Heimerdinger",
+          "games": 2,
+          "rate": 0.5
+        },
+        {
+          "champion": "Zed",
+          "games": 2,
+          "rate": 0.5
         },
         {
           "champion": "Akali",
@@ -257,6 +297,11 @@
           "rate": 0.3
         },
         {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
           "champion": "Kled",
           "games": 1,
           "rate": 0.3
@@ -268,6 +313,11 @@
         },
         {
           "champion": "Renekton",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
+          "champion": "Singed",
           "games": 1,
           "rate": 0.3
         },
@@ -324,47 +374,52 @@
           ]
         },
         "MID": {
-          "games": 22,
+          "games": 23,
           "picks": [
             {
               "champion": "Teemo",
               "games": 10,
-              "rate": 45.5
+              "rate": 43.5
             },
             {
               "champion": "Nasus",
               "games": 4,
-              "rate": 18.2
+              "rate": 17.4
             },
             {
               "champion": "Jayce",
               "games": 2,
-              "rate": 9.1
+              "rate": 8.7
             },
             {
               "champion": "Xerath",
               "games": 2,
-              "rate": 9.1
+              "rate": 8.7
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 4.5
+              "rate": 4.3
+            },
+            {
+              "champion": "Kassadin",
+              "games": 1,
+              "rate": 4.3
             },
             {
               "champion": "KogMaw",
               "games": 1,
-              "rate": 4.5
+              "rate": 4.3
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 4.5
+              "rate": 4.3
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 4.5
+              "rate": 4.3
             }
           ]
         },
@@ -384,47 +439,52 @@
           ]
         },
         "UTILITY": {
-          "games": 14,
+          "games": 18,
           "picks": [
             {
               "champion": "Maokai",
               "games": 5,
-              "rate": 35.7
+              "rate": 27.8
+            },
+            {
+              "champion": "Teemo",
+              "games": 4,
+              "rate": 22.2
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 14.3
+              "rate": 11.1
             },
             {
               "champion": "Soraka",
               "games": 2,
-              "rate": 14.3
+              "rate": 11.1
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
+            },
+            {
+              "champion": "Amumu",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             },
             {
               "champion": "Sona",
               "games": 1,
-              "rate": 7.1
-            },
-            {
-              "champion": "Teemo",
-              "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             }
           ]
         }
@@ -432,5 +492,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

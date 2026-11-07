@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Brand",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
   "players": 1,
   "mainLaneGames": 35,
@@ -61,8 +61,101 @@
           "picks": []
         }
       }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 28,
+      "mainLaneNext": [
+        {
+          "champion": "Velkoz",
+          "games": 2,
+          "rate": 7.1
+        },
+        {
+          "champion": "Aurora",
+          "games": 1,
+          "rate": 3.6
+        },
+        {
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 3.6
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 3.6
+        },
+        {
+          "champion": "Zed",
+          "games": 1,
+          "rate": 3.6
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Talon",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 3,
+              "rate": 42.9
+            },
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Yunara",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Pyke",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

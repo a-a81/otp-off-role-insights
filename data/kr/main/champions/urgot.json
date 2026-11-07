@@ -3,45 +3,80 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Urgot",
-  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
   "mainLane": "TOP",
-  "players": 4,
-  "mainLaneGames": 132,
+  "players": 5,
+  "mainLaneGames": 159,
   "mainLaneNext": [
     {
+      "champion": "Malphite",
+      "games": 6,
+      "rate": 3.8
+    },
+    {
       "champion": "Ornn",
+      "games": 6,
+      "rate": 3.8
+    },
+    {
+      "champion": "Ambessa",
       "games": 3,
-      "rate": 2.3
+      "rate": 1.9
     },
     {
       "champion": "Rumble",
       "games": 3,
-      "rate": 2.3
+      "rate": 1.9
+    },
+    {
+      "champion": "Gangplank",
+      "games": 2,
+      "rate": 1.3
     },
     {
       "champion": "DrMundo",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
     },
     {
       "champion": "Jax",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
+    },
+    {
+      "champion": "Nasus",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "Olaf",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
+    },
+    {
+      "champion": "Renekton",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Swain",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
+      "champion": "Trundle",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "Tryndamere",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
     },
     {
       "champion": "Vayne",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
     }
   ],
   "offLanes": {
@@ -50,12 +85,27 @@
       "picks": []
     },
     "MID": {
-      "games": 9,
+      "games": 13,
       "picks": [
         {
           "champion": "Urgot",
-          "games": 9,
-          "rate": 100.0
+          "games": 10,
+          "rate": 76.9
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 7.7
         }
       ]
     },
@@ -75,80 +125,120 @@
       ]
     },
     "UTILITY": {
-      "games": 14,
+      "games": 22,
       "picks": [
+        {
+          "champion": "Swain",
+          "games": 8,
+          "rate": 36.4
+        },
         {
           "champion": "Blitzcrank",
           "games": 4,
-          "rate": 28.6
+          "rate": 18.2
         },
         {
           "champion": "Leona",
           "games": 3,
-          "rate": 21.4
+          "rate": 13.6
         },
         {
           "champion": "Lulu",
           "games": 3,
-          "rate": 21.4
+          "rate": 13.6
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 14.3
+          "rate": 9.1
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 7.1
+          "rate": 4.5
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 7.1
+          "rate": 4.5
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 4,
-      "mainLaneGames": 132,
+      "players": 5,
+      "mainLaneGames": 159,
       "mainLaneNext": [
         {
+          "champion": "Malphite",
+          "games": 6,
+          "rate": 3.8
+        },
+        {
           "champion": "Ornn",
+          "games": 6,
+          "rate": 3.8
+        },
+        {
+          "champion": "Ambessa",
           "games": 3,
-          "rate": 2.3
+          "rate": 1.9
         },
         {
           "champion": "Rumble",
           "games": 3,
-          "rate": 2.3
+          "rate": 1.9
+        },
+        {
+          "champion": "Gangplank",
+          "games": 2,
+          "rate": 1.3
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
         },
         {
           "champion": "Jax",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "Olaf",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Trundle",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "Tryndamere",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
         },
         {
           "champion": "Vayne",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
         }
       ],
       "offLanes": {
@@ -157,12 +247,27 @@
           "picks": []
         },
         "MID": {
-          "games": 9,
+          "games": 13,
           "picks": [
             {
               "champion": "Urgot",
-              "games": 9,
-              "rate": 100.0
+              "games": 10,
+              "rate": 76.9
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Mordekaiser",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 7.7
             }
           ]
         },
@@ -182,37 +287,42 @@
           ]
         },
         "UTILITY": {
-          "games": 14,
+          "games": 22,
           "picks": [
+            {
+              "champion": "Swain",
+              "games": 8,
+              "rate": 36.4
+            },
             {
               "champion": "Blitzcrank",
               "games": 4,
-              "rate": 28.6
+              "rate": 18.2
             },
             {
               "champion": "Leona",
               "games": 3,
-              "rate": 21.4
+              "rate": 13.6
             },
             {
               "champion": "Lulu",
               "games": 3,
-              "rate": 21.4
+              "rate": 13.6
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 14.3
+              "rate": 9.1
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 7.1
+              "rate": 4.5
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 7.1
+              "rate": 4.5
             }
           ]
         }
@@ -220,5 +330,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

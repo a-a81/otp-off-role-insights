@@ -13,8 +13,8 @@
   （マッチ API にオートフィルフラグはない）
 
 しきい値は 2 種類あり、それぞれ別の集計を作る。
-- main: メイン（--main-rate、既定 40%）→ data/<region>/main/
-- otp:  OTP（--otp-rate、既定 80%）→ data/<region>/otp/
+- main: メイン（--main-rate、既定 30%）→ data/<region>/main/
+- otp:  OTP（--otp-rate、既定 75%）→ data/<region>/otp/
 
 全員の試合を取ると時間がかかるので、先にチャンピオン熟練度（1 リクエスト / 人）で
 候補を絞る。熟練度 1 位が 2 位の --mastery-ratio 倍以上の人だけ試合を取る。0 で無効。
@@ -919,8 +919,8 @@ def main():
         help="対象のランク。例: --tiers CHALLENGER GRANDMASTER",
     )
     parser.add_argument("--min-main-games", type=int, default=15, help="メインレーンの最低試合数")
-    parser.add_argument("--main-rate", type=float, default=0.4, help="メイン集計のしきい値（メインレーンでの使用率）")
-    parser.add_argument("--otp-rate", type=float, default=0.8, help="OTP 集計のしきい値（メインレーンでの使用率）")
+    parser.add_argument("--main-rate", type=float, default=0.3, help="メイン集計のしきい値（メインレーンでの使用率）")
+    parser.add_argument("--otp-rate", type=float, default=0.75, help="OTP 集計のしきい値（メインレーンでの使用率）")
     parser.add_argument("--max-age-hours", type=float, default=24, help="--refresh 時に試合を取り直すまでの時間")
     parser.add_argument(
         "--mastery-max-age-hours",

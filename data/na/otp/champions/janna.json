@@ -3,30 +3,40 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Janna",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 74,
+  "players": 3,
+  "mainLaneGames": 107,
   "mainLaneNext": [
     {
       "champion": "Bard",
       "games": 7,
-      "rate": 9.5
+      "rate": 6.5
+    },
+    {
+      "champion": "Sona",
+      "games": 6,
+      "rate": 5.6
     },
     {
       "champion": "Nautilus",
       "games": 2,
-      "rate": 2.7
+      "rate": 1.9
     },
     {
       "champion": "Braum",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
     },
     {
       "champion": "Lulu",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
+    },
+    {
+      "champion": "Mel",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -54,40 +64,65 @@
       "picks": []
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 9,
       "picks": [
+        {
+          "champion": "Mel",
+          "games": 5,
+          "rate": 55.6
+        },
         {
           "champion": "Ekko",
           "games": 2,
-          "rate": 100.0
+          "rate": 22.2
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 74,
+      "players": 3,
+      "mainLaneGames": 107,
       "mainLaneNext": [
         {
           "champion": "Bard",
           "games": 7,
-          "rate": 9.5
+          "rate": 6.5
+        },
+        {
+          "champion": "Sona",
+          "games": 6,
+          "rate": 5.6
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 2.7
+          "rate": 1.9
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
+        },
+        {
+          "champion": "Mel",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -115,12 +150,27 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Mel",
+              "games": 5,
+              "rate": 55.6
+            },
             {
               "champion": "Ekko",
               "games": 2,
-              "rate": 100.0
+              "rate": 22.2
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         }
@@ -128,5 +178,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

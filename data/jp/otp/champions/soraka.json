@@ -3,45 +3,70 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Soraka",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 151,
+  "players": 6,
+  "mainLaneGames": 223,
   "mainLaneNext": [
+    {
+      "champion": "Leona",
+      "games": 8,
+      "rate": 3.6
+    },
+    {
+      "champion": "Lulu",
+      "games": 6,
+      "rate": 2.7
+    },
+    {
+      "champion": "Milio",
+      "games": 2,
+      "rate": 0.9
+    },
     {
       "champion": "Morgana",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.4
     },
     {
       "champion": "Nautilus",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.4
     },
     {
       "champion": "Neeko",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.4
     },
     {
       "champion": "Sona",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.4
     },
     {
       "champion": "Yuumi",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 11,
       "picks": [
+        {
+          "champion": "Chogath",
+          "games": 6,
+          "rate": 54.5
+        },
         {
           "champion": "Soraka",
           "games": 3,
-          "rate": 100.0
+          "rate": 27.3
+        },
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 18.2
         }
       ]
     },
@@ -71,43 +96,68 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 151,
+      "players": 6,
+      "mainLaneGames": 223,
       "mainLaneNext": [
+        {
+          "champion": "Leona",
+          "games": 8,
+          "rate": 3.6
+        },
+        {
+          "champion": "Lulu",
+          "games": 6,
+          "rate": 2.7
+        },
+        {
+          "champion": "Milio",
+          "games": 2,
+          "rate": 0.9
+        },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.4
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.4
         },
         {
           "champion": "Neeko",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.4
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.4
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 11,
           "picks": [
+            {
+              "champion": "Chogath",
+              "games": 6,
+              "rate": 54.5
+            },
             {
               "champion": "Soraka",
               "games": 3,
-              "rate": 100.0
+              "rate": 27.3
+            },
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 18.2
             }
           ]
         },
@@ -138,5 +188,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

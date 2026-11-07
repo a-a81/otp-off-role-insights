@@ -3,35 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Leona",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 132,
+  "players": 6,
+  "mainLaneGames": 194,
   "mainLaneNext": [
+    {
+      "champion": "Nautilus",
+      "games": 11,
+      "rate": 5.7
+    },
     {
       "champion": "Alistar",
       "games": 7,
-      "rate": 5.3
+      "rate": 3.6
     },
     {
       "champion": "Blitzcrank",
       "games": 3,
-      "rate": 2.3
+      "rate": 1.5
     },
     {
-      "champion": "Nautilus",
+      "champion": "Braum",
       "games": 3,
-      "rate": 2.3
+      "rate": 1.5
     },
     {
       "champion": "Seraphine",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "TahmKench",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.5
     },
     {
       "champion": "Yuumi",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.5
     }
   ],
   "offLanes": {
@@ -51,22 +61,52 @@
       ]
     },
     "JUNGLE": {
-      "games": 15,
+      "games": 32,
       "picks": [
         {
           "champion": "Chogath",
-          "games": 11,
-          "rate": 73.3
+          "games": 17,
+          "rate": 53.1
+        },
+        {
+          "champion": "Zyra",
+          "games": 3,
+          "rate": 9.4
         },
         {
           "champion": "Belveth",
           "games": 2,
-          "rate": 13.3
+          "rate": 6.2
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "MonkeyKing",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "Sylas",
+          "games": 2,
+          "rate": 6.2
         },
         {
           "champion": "Volibear",
           "games": 2,
-          "rate": 13.3
+          "rate": 6.2
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Olaf",
+          "games": 1,
+          "rate": 3.1
         }
       ]
     },
@@ -98,33 +138,43 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 132,
+      "players": 6,
+      "mainLaneGames": 194,
       "mainLaneNext": [
+        {
+          "champion": "Nautilus",
+          "games": 11,
+          "rate": 5.7
+        },
         {
           "champion": "Alistar",
           "games": 7,
-          "rate": 5.3
+          "rate": 3.6
         },
         {
           "champion": "Blitzcrank",
           "games": 3,
-          "rate": 2.3
+          "rate": 1.5
         },
         {
-          "champion": "Nautilus",
+          "champion": "Braum",
           "games": 3,
-          "rate": 2.3
+          "rate": 1.5
         },
         {
           "champion": "Seraphine",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "TahmKench",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.5
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -144,22 +194,52 @@
           ]
         },
         "JUNGLE": {
-          "games": 15,
+          "games": 32,
           "picks": [
             {
               "champion": "Chogath",
-              "games": 11,
-              "rate": 73.3
+              "games": 17,
+              "rate": 53.1
+            },
+            {
+              "champion": "Zyra",
+              "games": 3,
+              "rate": 9.4
             },
             {
               "champion": "Belveth",
               "games": 2,
-              "rate": 13.3
+              "rate": 6.2
+            },
+            {
+              "champion": "JarvanIV",
+              "games": 2,
+              "rate": 6.2
+            },
+            {
+              "champion": "MonkeyKing",
+              "games": 2,
+              "rate": 6.2
+            },
+            {
+              "champion": "Sylas",
+              "games": 2,
+              "rate": 6.2
             },
             {
               "champion": "Volibear",
               "games": 2,
-              "rate": 13.3
+              "rate": 6.2
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 3.1
+            },
+            {
+              "champion": "Olaf",
+              "games": 1,
+              "rate": 3.1
             }
           ]
         },
@@ -192,5 +272,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

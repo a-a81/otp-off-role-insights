@@ -3,60 +3,110 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lulu",
-  "updatedAt": "2026-11-06T21:30:52.725281+00:00",
+  "updatedAt": "2026-11-07T02:10:25.508703+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 144,
+  "players": 6,
+  "mainLaneGames": 207,
   "mainLaneNext": [
+    {
+      "champion": "Karma",
+      "games": 14,
+      "rate": 6.8
+    },
+    {
+      "champion": "Nautilus",
+      "games": 13,
+      "rate": 6.3
+    },
     {
       "champion": "Rakan",
       "games": 10,
-      "rate": 6.9
+      "rate": 4.8
     },
     {
-      "champion": "Karma",
+      "champion": "Alistar",
       "games": 7,
-      "rate": 4.9
+      "rate": 3.4
     },
     {
       "champion": "Seraphine",
       "games": 7,
-      "rate": 4.9
+      "rate": 3.4
     },
     {
-      "champion": "Alistar",
-      "games": 3,
-      "rate": 2.1
+      "champion": "Thresh",
+      "games": 5,
+      "rate": 2.4
     },
     {
       "champion": "Milio",
       "games": 3,
-      "rate": 2.1
+      "rate": 1.4
+    },
+    {
+      "champion": "Poppy",
+      "games": 3,
+      "rate": 1.4
+    },
+    {
+      "champion": "Pyke",
+      "games": 3,
+      "rate": 1.4
     },
     {
       "champion": "Janna",
       "games": 2,
-      "rate": 1.4
+      "rate": 1.0
     },
     {
       "champion": "Nami",
       "games": 2,
-      "rate": 1.4
+      "rate": 1.0
+    },
+    {
+      "champion": "Rell",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "Bard",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Braum",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Leona",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Renata",
+      "games": 1,
+      "rate": 0.5
     },
     {
       "champion": "Sona",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     },
     {
       "champion": "Yuumi",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     }
   ],
   "offLanes": {
@@ -69,99 +119,165 @@
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
-      "games": 15,
+      "games": 1,
       "picks": [
         {
-          "champion": "Xayah",
-          "games": 5,
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 30,
+      "picks": [
+        {
+          "champion": "Corki",
+          "games": 10,
           "rate": 33.3
+        },
+        {
+          "champion": "Xayah",
+          "games": 6,
+          "rate": 20.0
         },
         {
           "champion": "Kaisa",
           "games": 4,
-          "rate": 26.7
+          "rate": 13.3
+        },
+        {
+          "champion": "Tristana",
+          "games": 4,
+          "rate": 13.3
         },
         {
           "champion": "Ziggs",
           "games": 3,
-          "rate": 20.0
+          "rate": 10.0
         },
         {
           "champion": "Caitlyn",
           "games": 1,
-          "rate": 6.7
+          "rate": 3.3
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 6.7
+          "rate": 3.3
         },
         {
           "champion": "Yunara",
           "games": 1,
-          "rate": 6.7
+          "rate": 3.3
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 144,
+      "players": 6,
+      "mainLaneGames": 207,
       "mainLaneNext": [
+        {
+          "champion": "Karma",
+          "games": 14,
+          "rate": 6.8
+        },
+        {
+          "champion": "Nautilus",
+          "games": 13,
+          "rate": 6.3
+        },
         {
           "champion": "Rakan",
           "games": 10,
-          "rate": 6.9
+          "rate": 4.8
         },
         {
-          "champion": "Karma",
+          "champion": "Alistar",
           "games": 7,
-          "rate": 4.9
+          "rate": 3.4
         },
         {
           "champion": "Seraphine",
           "games": 7,
-          "rate": 4.9
+          "rate": 3.4
         },
         {
-          "champion": "Alistar",
-          "games": 3,
-          "rate": 2.1
+          "champion": "Thresh",
+          "games": 5,
+          "rate": 2.4
         },
         {
           "champion": "Milio",
           "games": 3,
-          "rate": 2.1
+          "rate": 1.4
+        },
+        {
+          "champion": "Poppy",
+          "games": 3,
+          "rate": 1.4
+        },
+        {
+          "champion": "Pyke",
+          "games": 3,
+          "rate": 1.4
         },
         {
           "champion": "Janna",
           "games": 2,
-          "rate": 1.4
+          "rate": 1.0
         },
         {
           "champion": "Nami",
           "games": 2,
-          "rate": 1.4
+          "rate": 1.0
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Renata",
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -174,41 +290,57 @@
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 15,
+          "games": 1,
           "picks": [
             {
-              "champion": "Xayah",
-              "games": 5,
+              "champion": "Leblanc",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 30,
+          "picks": [
+            {
+              "champion": "Corki",
+              "games": 10,
               "rate": 33.3
+            },
+            {
+              "champion": "Xayah",
+              "games": 6,
+              "rate": 20.0
             },
             {
               "champion": "Kaisa",
               "games": 4,
-              "rate": 26.7
+              "rate": 13.3
+            },
+            {
+              "champion": "Tristana",
+              "games": 4,
+              "rate": 13.3
             },
             {
               "champion": "Ziggs",
               "games": 3,
-              "rate": 20.0
+              "rate": 10.0
             },
             {
               "champion": "Caitlyn",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.3
             },
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.3
             },
             {
               "champion": "Yunara",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.3
             }
           ]
         }
@@ -283,5 +415,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

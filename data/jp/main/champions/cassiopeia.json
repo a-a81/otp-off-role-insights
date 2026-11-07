@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Cassiopeia",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "TOP",
   "players": 2,
   "mainLaneGames": 50,
@@ -196,8 +196,126 @@
           ]
         }
       }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 26,
+      "mainLaneNext": [
+        {
+          "champion": "Locke",
+          "games": 5,
+          "rate": 19.2
+        },
+        {
+          "champion": "Anivia",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Orianna",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Ryze",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Tristana",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Akali",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 3.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "LeeSin",
+              "games": 4,
+              "rate": 66.7
+            },
+            {
+              "champion": "Qiyana",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Shyvana",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Poppy",
+              "games": 2,
+              "rate": 50.0
+            }
+          ]
+        }
+      }
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

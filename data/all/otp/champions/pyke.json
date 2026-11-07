@@ -3,20 +3,30 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Pyke",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 36,
+  "players": 2,
+  "mainLaneGames": 74,
   "mainLaneNext": [
     {
       "champion": "Pantheon",
       "games": 5,
-      "rate": 13.9
+      "rate": 6.8
+    },
+    {
+      "champion": "Bard",
+      "games": 4,
+      "rate": 5.4
     },
     {
       "champion": "Thresh",
-      "games": 2,
-      "rate": 5.6
+      "games": 4,
+      "rate": 5.4
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 3,
+      "rate": 4.1
     }
   ],
   "offLanes": {
@@ -45,24 +55,45 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Sivir",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 36,
+      "players": 2,
+      "mainLaneGames": 74,
       "mainLaneNext": [
         {
           "champion": "Pantheon",
           "games": 5,
-          "rate": 13.9
+          "rate": 6.8
+        },
+        {
+          "champion": "Bard",
+          "games": 4,
+          "rate": 5.4
         },
         {
           "champion": "Thresh",
-          "games": 2,
-          "rate": 5.6
+          "games": 4,
+          "rate": 5.4
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 3,
+          "rate": 4.1
         }
       ],
       "offLanes": {
@@ -91,12 +122,80 @@
           ]
         },
         "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Sivir",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 21,
+      "mainLaneNext": [
+        {
+          "champion": "DrMundo",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Locke",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 4.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "DrMundo",
+              "games": 16,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
           "games": 0,
           "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Pyke",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

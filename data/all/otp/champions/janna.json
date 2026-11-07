@@ -3,30 +3,65 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Janna",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "UTILITY",
-  "players": 3,
-  "mainLaneGames": 109,
+  "players": 5,
+  "mainLaneGames": 182,
   "mainLaneNext": [
     {
       "champion": "Bard",
       "games": 7,
-      "rate": 6.4
+      "rate": 3.8
+    },
+    {
+      "champion": "Sona",
+      "games": 6,
+      "rate": 3.3
+    },
+    {
+      "champion": "Soraka",
+      "games": 4,
+      "rate": 2.2
+    },
+    {
+      "champion": "Lulu",
+      "games": 2,
+      "rate": 1.1
+    },
+    {
+      "champion": "Lux",
+      "games": 2,
+      "rate": 1.1
     },
     {
       "champion": "Nautilus",
       "games": 2,
-      "rate": 1.8
+      "rate": 1.1
     },
     {
       "champion": "Braum",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.5
     },
     {
-      "champion": "Lulu",
+      "champion": "Mel",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.5
+    },
+    {
+      "champion": "Milio",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Seraphine",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Ziggs",
+      "games": 1,
+      "rate": 0.5
     }
   ],
   "offLanes": {
@@ -59,40 +94,90 @@
       "picks": []
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 9,
       "picks": [
+        {
+          "champion": "Mel",
+          "games": 5,
+          "rate": 55.6
+        },
         {
           "champion": "Ekko",
           "games": 2,
-          "rate": 100.0
+          "rate": 22.2
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 3,
-      "mainLaneGames": 109,
+      "players": 5,
+      "mainLaneGames": 182,
       "mainLaneNext": [
         {
           "champion": "Bard",
           "games": 7,
-          "rate": 6.4
+          "rate": 3.8
+        },
+        {
+          "champion": "Sona",
+          "games": 6,
+          "rate": 3.3
+        },
+        {
+          "champion": "Soraka",
+          "games": 4,
+          "rate": 2.2
+        },
+        {
+          "champion": "Lulu",
+          "games": 2,
+          "rate": 1.1
+        },
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 1.1
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 1.8
+          "rate": 1.1
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.5
         },
         {
-          "champion": "Lulu",
+          "champion": "Mel",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.5
+        },
+        {
+          "champion": "Milio",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -125,12 +210,27 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Mel",
+              "games": 5,
+              "rate": 55.6
+            },
             {
               "champion": "Ekko",
               "games": 2,
-              "rate": 100.0
+              "rate": 22.2
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         }
@@ -138,5 +238,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

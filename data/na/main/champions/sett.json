@@ -3,33 +3,94 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sett",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 39,
+  "players": 2,
+  "mainLaneGames": 73,
   "mainLaneNext": [
+    {
+      "champion": "Aatrox",
+      "games": 7,
+      "rate": 9.6
+    },
+    {
+      "champion": "Darius",
+      "games": 6,
+      "rate": 8.2
+    },
     {
       "champion": "Mordekaiser",
       "games": 3,
-      "rate": 7.7
+      "rate": 4.1
+    },
+    {
+      "champion": "Vladimir",
+      "games": 3,
+      "rate": 4.1
+    },
+    {
+      "champion": "Gwen",
+      "games": 2,
+      "rate": 2.7
     },
     {
       "champion": "Illaoi",
       "games": 2,
-      "rate": 5.1
+      "rate": 2.7
+    },
+    {
+      "champion": "Zaahen",
+      "games": 2,
+      "rate": 2.7
+    },
+    {
+      "champion": "Irelia",
+      "games": 1,
+      "rate": 1.4
+    },
+    {
+      "champion": "Jax",
+      "games": 1,
+      "rate": 1.4
     },
     {
       "champion": "Yorick",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.4
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Sett",
+          "games": 2,
+          "rate": 50.0
+        },
+        {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Katarina",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
+    },
+    "BOTTOM": {
       "games": 1,
       "picks": [
         {
@@ -39,42 +100,105 @@
         }
       ]
     },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 39,
+      "players": 2,
+      "mainLaneGames": 73,
       "mainLaneNext": [
+        {
+          "champion": "Aatrox",
+          "games": 7,
+          "rate": 9.6
+        },
+        {
+          "champion": "Darius",
+          "games": 6,
+          "rate": 8.2
+        },
         {
           "champion": "Mordekaiser",
           "games": 3,
-          "rate": 7.7
+          "rate": 4.1
+        },
+        {
+          "champion": "Vladimir",
+          "games": 3,
+          "rate": 4.1
+        },
+        {
+          "champion": "Gwen",
+          "games": 2,
+          "rate": 2.7
         },
         {
           "champion": "Illaoi",
           "games": 2,
-          "rate": 5.1
+          "rate": 2.7
+        },
+        {
+          "champion": "Zaahen",
+          "games": 2,
+          "rate": 2.7
+        },
+        {
+          "champion": "Irelia",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 1.4
         },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 2.6
+          "rate": 1.4
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Sett",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Katarina",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
           "games": 1,
           "picks": [
             {
@@ -84,17 +208,19 @@
             }
           ]
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

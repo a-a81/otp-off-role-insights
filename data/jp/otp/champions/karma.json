@@ -3,44 +3,71 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karma",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 40,
+  "players": 2,
+  "mainLaneGames": 67,
   "mainLaneNext": [
+    {
+      "champion": "Morgana",
+      "games": 4,
+      "rate": 6.0
+    },
     {
       "champion": "Thresh",
       "games": 3,
-      "rate": 7.5
+      "rate": 4.5
+    },
+    {
+      "champion": "Maokai",
+      "games": 2,
+      "rate": 3.0
     },
     {
       "champion": "Pyke",
       "games": 2,
-      "rate": 5.0
+      "rate": 3.0
     },
     {
       "champion": "Rakan",
       "games": 1,
-      "rate": 2.5
+      "rate": 1.5
     },
     {
       "champion": "Zyra",
       "games": 1,
-      "rate": 2.5
+      "rate": 1.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 9,
+      "picks": [
+        {
+          "champion": "Karma",
+          "games": 7,
+          "rate": 77.8
+        },
+        {
+          "champion": "Maokai",
+          "games": 2,
+          "rate": 22.2
+        }
+      ]
     },
     "JUNGLE": {
       "games": 0,
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Karma",
+          "games": 4,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
@@ -49,42 +76,69 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 40,
+      "players": 2,
+      "mainLaneGames": 67,
       "mainLaneNext": [
+        {
+          "champion": "Morgana",
+          "games": 4,
+          "rate": 6.0
+        },
         {
           "champion": "Thresh",
           "games": 3,
-          "rate": 7.5
+          "rate": 4.5
+        },
+        {
+          "champion": "Maokai",
+          "games": 2,
+          "rate": 3.0
         },
         {
           "champion": "Pyke",
           "games": 2,
-          "rate": 5.0
+          "rate": 3.0
         },
         {
           "champion": "Rakan",
           "games": 1,
-          "rate": 2.5
+          "rate": 1.5
         },
         {
           "champion": "Zyra",
           "games": 1,
-          "rate": 2.5
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Karma",
+              "games": 7,
+              "rate": 77.8
+            },
+            {
+              "champion": "Maokai",
+              "games": 2,
+              "rate": 22.2
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Karma",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 0,
@@ -94,5 +148,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

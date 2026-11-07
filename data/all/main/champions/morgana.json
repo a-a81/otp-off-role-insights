@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "MID",
   "players": 1,
   "mainLaneGames": 34,
@@ -57,6 +57,104 @@
               "champion": "Morgana",
               "games": 4,
               "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 31,
+      "mainLaneNext": [
+        {
+          "champion": "Kayn",
+          "games": 4,
+          "rate": 12.9
+        },
+        {
+          "champion": "Nocturne",
+          "games": 4,
+          "rate": 12.9
+        },
+        {
+          "champion": "Hecarim",
+          "games": 3,
+          "rate": 9.7
+        },
+        {
+          "champion": "Karthus",
+          "games": 3,
+          "rate": 9.7
+        },
+        {
+          "champion": "MasterYi",
+          "games": 2,
+          "rate": 6.5
+        },
+        {
+          "champion": "Shyvana",
+          "games": 2,
+          "rate": 6.5
+        },
+        {
+          "champion": "Zyra",
+          "games": 2,
+          "rate": 6.5
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 3.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Kassadin",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Karthus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Zyra",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }
@@ -162,5 +260,5 @@
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

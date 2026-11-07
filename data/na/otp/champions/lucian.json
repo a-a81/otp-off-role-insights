@@ -3,25 +3,60 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lucian",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "BOTTOM",
-  "players": 2,
-  "mainLaneGames": 68,
+  "players": 3,
+  "mainLaneGames": 96,
   "mainLaneNext": [
+    {
+      "champion": "Ezreal",
+      "games": 3,
+      "rate": 3.1
+    },
+    {
+      "champion": "Draven",
+      "games": 2,
+      "rate": 2.1
+    },
     {
       "champion": "Jhin",
       "games": 2,
-      "rate": 2.9
+      "rate": 2.1
+    },
+    {
+      "champion": "Kaisa",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Taliyah",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 7,
+      "games": 12,
       "picks": [
         {
           "champion": "Lucian",
           "games": 7,
-          "rate": 100.0
+          "rate": 58.3
+        },
+        {
+          "champion": "Darius",
+          "games": 3,
+          "rate": 25.0
+        },
+        {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 8.3
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 8.3
         }
       ]
     },
@@ -30,45 +65,95 @@
       "picks": []
     },
     "MID": {
-      "games": 3,
+      "games": 9,
       "picks": [
+        {
+          "champion": "Vladimir",
+          "games": 5,
+          "rate": 55.6
+        },
         {
           "champion": "Lucian",
           "games": 3,
-          "rate": 100.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 2,
-      "mainLaneGames": 68,
+      "players": 3,
+      "mainLaneGames": 96,
       "mainLaneNext": [
+        {
+          "champion": "Ezreal",
+          "games": 3,
+          "rate": 3.1
+        },
+        {
+          "champion": "Draven",
+          "games": 2,
+          "rate": 2.1
+        },
         {
           "champion": "Jhin",
           "games": 2,
-          "rate": 2.9
+          "rate": 2.1
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 7,
+          "games": 12,
           "picks": [
             {
               "champion": "Lucian",
               "games": 7,
-              "rate": 100.0
+              "rate": 58.3
+            },
+            {
+              "champion": "Darius",
+              "games": 3,
+              "rate": 25.0
+            },
+            {
+              "champion": "Kennen",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 8.3
             }
           ]
         },
@@ -77,22 +162,37 @@
           "picks": []
         },
         "MID": {
-          "games": 3,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Vladimir",
+              "games": 5,
+              "rate": 55.6
+            },
             {
               "champion": "Lucian",
               "games": 3,
-              "rate": 100.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         }
@@ -100,5 +200,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

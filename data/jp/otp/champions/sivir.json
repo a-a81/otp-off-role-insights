@@ -3,30 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sivir",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "BOTTOM",
-  "players": 3,
-  "mainLaneGames": 85,
+  "players": 4,
+  "mainLaneGames": 118,
   "mainLaneNext": [
     {
       "champion": "Xayah",
       "games": 5,
-      "rate": 5.9
+      "rate": 4.2
     },
     {
       "champion": "Ashe",
+      "games": 4,
+      "rate": 3.4
+    },
+    {
+      "champion": "Caitlyn",
       "games": 2,
-      "rate": 2.4
+      "rate": 1.7
+    },
+    {
+      "champion": "Jhin",
+      "games": 2,
+      "rate": 1.7
     },
     {
       "champion": "Jinx",
-      "games": 1,
-      "rate": 1.2
+      "games": 2,
+      "rate": 1.7
     },
     {
       "champion": "Lucian",
       "games": 1,
-      "rate": 1.2
+      "rate": 0.8
+    },
+    {
+      "champion": "Varus",
+      "games": 1,
+      "rate": 0.8
     }
   ],
   "offLanes": {
@@ -51,47 +66,57 @@
       ]
     },
     "JUNGLE": {
-      "games": 10,
+      "games": 15,
       "picks": [
+        {
+          "champion": "Karthus",
+          "games": 4,
+          "rate": 26.7
+        },
         {
           "champion": "Darius",
           "games": 3,
-          "rate": 30.0
+          "rate": 20.0
         },
         {
           "champion": "Belveth",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         },
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 6.7
         },
         {
           "champion": "Taliyah",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         },
         {
           "champion": "Viego",
           "games": 1,
-          "rate": 10.0
+          "rate": 6.7
         }
       ]
     },
@@ -100,75 +125,95 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 18,
+      "games": 20,
       "picks": [
         {
           "champion": "Swain",
           "games": 6,
-          "rate": 33.3
+          "rate": 30.0
         },
         {
           "champion": "Shen",
           "games": 4,
-          "rate": 22.2
+          "rate": 20.0
         },
         {
           "champion": "Renata",
           "games": 3,
-          "rate": 16.7
+          "rate": 15.0
+        },
+        {
+          "champion": "Thresh",
+          "games": 2,
+          "rate": 10.0
         },
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 3,
-      "mainLaneGames": 85,
+      "players": 4,
+      "mainLaneGames": 118,
       "mainLaneNext": [
         {
           "champion": "Xayah",
           "games": 5,
-          "rate": 5.9
+          "rate": 4.2
         },
         {
           "champion": "Ashe",
+          "games": 4,
+          "rate": 3.4
+        },
+        {
+          "champion": "Caitlyn",
           "games": 2,
-          "rate": 2.4
+          "rate": 1.7
+        },
+        {
+          "champion": "Jhin",
+          "games": 2,
+          "rate": 1.7
         },
         {
           "champion": "Jinx",
-          "games": 1,
-          "rate": 1.2
+          "games": 2,
+          "rate": 1.7
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 1.2
+          "rate": 0.8
+        },
+        {
+          "champion": "Varus",
+          "games": 1,
+          "rate": 0.8
         }
       ],
       "offLanes": {
@@ -193,47 +238,57 @@
           ]
         },
         "JUNGLE": {
-          "games": 10,
+          "games": 15,
           "picks": [
+            {
+              "champion": "Karthus",
+              "games": 4,
+              "rate": 26.7
+            },
             {
               "champion": "Darius",
               "games": 3,
-              "rate": 30.0
+              "rate": 20.0
             },
             {
               "champion": "Belveth",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             },
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             },
             {
               "champion": "Chogath",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 6.7
             },
             {
               "champion": "Taliyah",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             },
             {
               "champion": "Trundle",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             },
             {
               "champion": "Viego",
               "games": 1,
-              "rate": 10.0
+              "rate": 6.7
             }
           ]
         },
@@ -242,47 +297,52 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 18,
+          "games": 20,
           "picks": [
             {
               "champion": "Swain",
               "games": 6,
-              "rate": 33.3
+              "rate": 30.0
             },
             {
               "champion": "Shen",
               "games": 4,
-              "rate": 22.2
+              "rate": 20.0
             },
             {
               "champion": "Renata",
               "games": 3,
-              "rate": 16.7
+              "rate": 15.0
+            },
+            {
+              "champion": "Thresh",
+              "games": 2,
+              "rate": 10.0
             },
             {
               "champion": "Amumu",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             },
             {
               "champion": "Soraka",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             }
           ]
         }
@@ -290,5 +350,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

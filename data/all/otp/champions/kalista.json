@@ -3,60 +3,138 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kalista",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 62,
+  "mainLaneNext": [
+    {
+      "champion": "Kaisa",
+      "games": 6,
+      "rate": 9.7
+    },
+    {
+      "champion": "Lucian",
+      "games": 1,
+      "rate": 1.6
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Sion",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Kalista",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 11,
       "picks": [
         {
           "champion": "Taric",
           "games": 9,
-          "rate": 100.0
+          "rate": 81.8
+        },
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 18.2
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 62,
+      "mainLaneNext": [
+        {
+          "champion": "Kaisa",
+          "games": 6,
+          "rate": 9.7
+        },
+        {
+          "champion": "Lucian",
+          "games": 1,
+          "rate": 1.6
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Kalista",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 11,
           "picks": [
             {
               "champion": "Taric",
               "games": 9,
-              "rate": 100.0
+              "rate": 81.8
+            },
+            {
+              "champion": "Sion",
+              "games": 2,
+              "rate": 18.2
             }
           ]
         }
@@ -64,5 +142,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

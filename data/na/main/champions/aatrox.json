@@ -3,110 +3,364 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Aatrox",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 38,
+  "players": 3,
+  "mainLaneGames": 97,
   "mainLaneNext": [
     {
+      "champion": "Gwen",
+      "games": 9,
+      "rate": 9.3
+    },
+    {
+      "champion": "Ambessa",
+      "games": 7,
+      "rate": 7.2
+    },
+    {
+      "champion": "Zaahen",
+      "games": 5,
+      "rate": 5.2
+    },
+    {
+      "champion": "KSante",
+      "games": 4,
+      "rate": 4.1
+    },
+    {
       "champion": "Camille",
+      "games": 2,
+      "rate": 2.1
+    },
+    {
+      "champion": "Sion",
+      "games": 2,
+      "rate": 2.1
+    },
+    {
+      "champion": "Garen",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.0
+    },
+    {
+      "champion": "Gragas",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Graves",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Jax",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Olaf",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Ornn",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.0
     },
     {
       "champion": "Renekton",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.0
+    },
+    {
+      "champion": "Sett",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Urgot",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Vladimir",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Yone",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Zed",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Belveth",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
     },
     "MID": {
-      "games": 1,
+      "games": 4,
       "picks": [
         {
           "champion": "Aatrox",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Garen",
           "games": 1,
-          "rate": 100.0
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Jhin",
+          "games": 5,
+          "rate": 35.7
+        },
+        {
+          "champion": "Syndra",
+          "games": 5,
+          "rate": 35.7
+        },
+        {
+          "champion": "Caitlyn",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 7.1
+        },
         {
           "champion": "Varus",
           "games": 1,
-          "rate": 100.0
+          "rate": 7.1
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 7.1
         }
       ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 38,
+      "players": 3,
+      "mainLaneGames": 97,
       "mainLaneNext": [
         {
+          "champion": "Gwen",
+          "games": 9,
+          "rate": 9.3
+        },
+        {
+          "champion": "Ambessa",
+          "games": 7,
+          "rate": 7.2
+        },
+        {
+          "champion": "Zaahen",
+          "games": 5,
+          "rate": 5.2
+        },
+        {
+          "champion": "KSante",
+          "games": 4,
+          "rate": 4.1
+        },
+        {
           "champion": "Camille",
+          "games": 2,
+          "rate": 2.1
+        },
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 2.1
+        },
+        {
+          "champion": "Garen",
           "games": 1,
-          "rate": 2.6
+          "rate": 1.0
+        },
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Olaf",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 2.6
+          "rate": 1.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 2.6
+          "rate": 1.0
+        },
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Urgot",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Zed",
+          "games": 1,
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Belveth",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Graves",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         },
         "MID": {
-          "games": 1,
+          "games": 4,
           "picks": [
             {
               "champion": "Aatrox",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Garen",
               "games": 1,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 14,
           "picks": [
+            {
+              "champion": "Jhin",
+              "games": 5,
+              "rate": 35.7
+            },
+            {
+              "champion": "Syndra",
+              "games": 5,
+              "rate": 35.7
+            },
+            {
+              "champion": "Caitlyn",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 7.1
+            },
             {
               "champion": "Varus",
               "games": 1,
-              "rate": 100.0
+              "rate": 7.1
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 7.1
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Zilean",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         }
       }
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

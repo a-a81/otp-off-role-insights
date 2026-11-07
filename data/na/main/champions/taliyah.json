@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "JUNGLE",
   "players": 1,
   "mainLaneGames": 36,
@@ -137,8 +137,76 @@
           "picks": []
         }
       }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "Ekko",
+          "games": 9,
+          "rate": 33.3
+        },
+        {
+          "champion": "Hwei",
+          "games": 8,
+          "rate": 29.6
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "DrMundo",
+              "games": 2,
+              "rate": 50.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Hwei",
+              "games": 4,
+              "rate": 57.1
+            },
+            {
+              "champion": "Ziggs",
+              "games": 3,
+              "rate": 42.9
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
     }
   },
   "profile": "main",
-  "minRate": 0.4
+  "minRate": 0.3
 }

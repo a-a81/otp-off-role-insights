@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ekko",
-  "updatedAt": "2026-11-06T19:05:35.152492+00:00",
+  "updatedAt": "2026-11-07T02:10:26.288372+00:00",
   "mainLane": "MID",
   "players": 3,
   "mainLaneGames": 80,
@@ -289,8 +289,60 @@
           ]
         }
       }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 21,
+      "mainLaneNext": [
+        {
+          "champion": "Rengar",
+          "games": 5,
+          "rate": 23.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Yasuo",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Yasuo",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 17,
+          "picks": [
+            {
+              "champion": "Pyke",
+              "games": 13,
+              "rate": 76.5
+            },
+            {
+              "champion": "Thresh",
+              "games": 4,
+              "rate": 23.5
+            }
+          ]
+        }
+      }
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

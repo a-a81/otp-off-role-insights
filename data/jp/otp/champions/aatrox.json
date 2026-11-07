@@ -3,208 +3,428 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Aatrox",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "TOP",
-  "players": 3,
-  "mainLaneGames": 96,
+  "players": 6,
+  "mainLaneGames": 195,
   "mainLaneNext": [
+    {
+      "champion": "Renekton",
+      "games": 5,
+      "rate": 2.6
+    },
     {
       "champion": "Yorick",
       "games": 5,
-      "rate": 5.2
+      "rate": 2.6
     },
     {
       "champion": "KSante",
       "games": 4,
-      "rate": 4.2
+      "rate": 2.1
+    },
+    {
+      "champion": "Ambessa",
+      "games": 3,
+      "rate": 1.5
     },
     {
       "champion": "Malphite",
-      "games": 1,
+      "games": 3,
+      "rate": 1.5
+    },
+    {
+      "champion": "Elise",
+      "games": 2,
       "rate": 1.0
     },
     {
       "champion": "Mordekaiser",
-      "games": 1,
+      "games": 2,
       "rate": 1.0
+    },
+    {
+      "champion": "Volibear",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "DrMundo",
+      "games": 1,
+      "rate": 0.5
     },
     {
       "champion": "Nasus",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.5
+    },
+    {
+      "champion": "Olaf",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Ornn",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Sett",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Sylas",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Teemo",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Urgot",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Zac",
+      "games": 1,
+      "rate": 0.5
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 12,
       "picks": [
         {
           "champion": "Aatrox",
-          "games": 2,
-          "rate": 100.0
+          "games": 10,
+          "rate": 83.3
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 8.3
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 8.3
         }
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 9,
       "picks": [
         {
           "champion": "Aatrox",
-          "games": 2,
+          "games": 3,
           "rate": 33.3
         },
         {
           "champion": "Mordekaiser",
           "games": 2,
-          "rate": 33.3
+          "rate": 22.2
+        },
+        {
+          "champion": "Kled",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 11.1
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 16.7
+          "rate": 11.1
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 16.7
+          "rate": 11.1
         }
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 25.0
+        },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         },
         {
           "champion": "Zeri",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 10,
       "picks": [
         {
           "champion": "TahmKench",
           "games": 3,
-          "rate": 60.0
+          "rate": 30.0
+        },
+        {
+          "champion": "Xerath",
+          "games": 2,
+          "rate": 20.0
+        },
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 10.0
+        },
+        {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 10.0
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 10.0
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 20.0
+          "rate": 10.0
         },
         {
           "champion": "Pyke",
           "games": 1,
-          "rate": 20.0
+          "rate": 10.0
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 3,
-      "mainLaneGames": 96,
+      "players": 6,
+      "mainLaneGames": 195,
       "mainLaneNext": [
+        {
+          "champion": "Renekton",
+          "games": 5,
+          "rate": 2.6
+        },
         {
           "champion": "Yorick",
           "games": 5,
-          "rate": 5.2
+          "rate": 2.6
         },
         {
           "champion": "KSante",
           "games": 4,
-          "rate": 4.2
+          "rate": 2.1
+        },
+        {
+          "champion": "Ambessa",
+          "games": 3,
+          "rate": 1.5
         },
         {
           "champion": "Malphite",
-          "games": 1,
+          "games": 3,
+          "rate": 1.5
+        },
+        {
+          "champion": "Elise",
+          "games": 2,
           "rate": 1.0
         },
         {
           "champion": "Mordekaiser",
-          "games": 1,
+          "games": 2,
           "rate": 1.0
+        },
+        {
+          "champion": "Volibear",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.5
+        },
+        {
+          "champion": "Olaf",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Teemo",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Urgot",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Zac",
+          "games": 1,
+          "rate": 0.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 12,
           "picks": [
             {
               "champion": "Aatrox",
-              "games": 2,
-              "rate": 100.0
+              "games": 10,
+              "rate": 83.3
+            },
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 8.3
             }
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 9,
           "picks": [
             {
               "champion": "Aatrox",
-              "games": 2,
+              "games": 3,
               "rate": 33.3
             },
             {
               "champion": "Mordekaiser",
               "games": 2,
-              "rate": 33.3
+              "rate": 22.2
+            },
+            {
+              "champion": "Kled",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 16.7
+              "rate": 11.1
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 16.7
+              "rate": 11.1
             }
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             },
             {
               "champion": "Zeri",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 10,
           "picks": [
             {
               "champion": "TahmKench",
               "games": 3,
-              "rate": 60.0
+              "rate": 30.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 2,
+              "rate": 20.0
+            },
+            {
+              "champion": "Bard",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Hwei",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 10.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 20.0
+              "rate": 10.0
             },
             {
               "champion": "Pyke",
               "games": 1,
-              "rate": 20.0
+              "rate": 10.0
             }
           ]
         }
@@ -259,5 +479,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

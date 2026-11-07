@@ -3,40 +3,55 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zilean",
-  "updatedAt": "2026-11-06T20:46:32.058543+00:00",
+  "updatedAt": "2026-11-07T02:10:24.403025+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 147,
+  "players": 5,
+  "mainLaneGames": 185,
   "mainLaneNext": [
+    {
+      "champion": "Braum",
+      "games": 6,
+      "rate": 3.2
+    },
     {
       "champion": "Leona",
       "games": 4,
-      "rate": 2.7
+      "rate": 2.2
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 1,
+      "rate": 0.5
     },
     {
       "champion": "Karma",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     },
     {
       "champion": "Milio",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     },
     {
       "champion": "Nautilus",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
+    },
+    {
+      "champion": "Rell",
+      "games": 1,
+      "rate": 0.5
     },
     {
       "champion": "Seraphine",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     },
     {
       "champion": "Sona",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.5
     }
   ],
   "offLanes": {
@@ -65,17 +80,17 @@
       "picks": []
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Zilean",
-          "games": 3,
-          "rate": 75.0
+          "games": 4,
+          "rate": 80.0
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -92,38 +107,53 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 147,
+      "players": 5,
+      "mainLaneGames": 185,
       "mainLaneNext": [
+        {
+          "champion": "Braum",
+          "games": 6,
+          "rate": 3.2
+        },
         {
           "champion": "Leona",
           "games": 4,
-          "rate": 2.7
+          "rate": 2.2
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         },
         {
           "champion": "Milio",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
+        },
+        {
+          "champion": "Rell",
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -152,17 +182,17 @@
           "picks": []
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 80.0
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -180,5 +210,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

@@ -3,15 +3,30 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Smolder",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 29,
+  "players": 2,
+  "mainLaneGames": 53,
   "mainLaneNext": [
+    {
+      "champion": "Jhin",
+      "games": 3,
+      "rate": 5.7
+    },
+    {
+      "champion": "AurelionSol",
+      "games": 1,
+      "rate": 1.9
+    },
+    {
+      "champion": "Varus",
+      "games": 1,
+      "rate": 1.9
+    },
     {
       "champion": "Viktor",
       "games": 1,
-      "rate": 3.4
+      "rate": 1.9
     }
   ],
   "offLanes": {
@@ -50,35 +65,80 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 18,
       "picks": [
+        {
+          "champion": "Leona",
+          "games": 5,
+          "rate": 27.8
+        },
+        {
+          "champion": "Sona",
+          "games": 4,
+          "rate": 22.2
+        },
+        {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 16.7
+        },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 33.3
+          "rate": 5.6
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 33.3
+          "rate": 5.6
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 33.3
+          "rate": 5.6
+        },
+        {
+          "champion": "TahmKench",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 29,
+      "players": 2,
+      "mainLaneGames": 53,
       "mainLaneNext": [
+        {
+          "champion": "Jhin",
+          "games": 3,
+          "rate": 5.7
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 1.9
+        },
+        {
+          "champion": "Varus",
+          "games": 1,
+          "rate": 1.9
+        },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 3.4
+          "rate": 1.9
         }
       ],
       "offLanes": {
@@ -117,22 +177,52 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 18,
           "picks": [
+            {
+              "champion": "Leona",
+              "games": 5,
+              "rate": 27.8
+            },
+            {
+              "champion": "Sona",
+              "games": 4,
+              "rate": 22.2
+            },
+            {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 16.7
+            },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 33.3
+              "rate": 5.6
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Smolder",
               "games": 1,
-              "rate": 33.3
+              "rate": 5.6
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 33.3
+              "rate": 5.6
+            },
+            {
+              "champion": "TahmKench",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 5.6
             }
           ]
         }
@@ -140,5 +230,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }

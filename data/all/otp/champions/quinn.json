@@ -3,15 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Quinn",
-  "updatedAt": "2026-11-06T21:30:55.195483+00:00",
+  "updatedAt": "2026-11-07T02:10:27.928776+00:00",
   "mainLane": "TOP",
-  "players": 4,
-  "mainLaneGames": 115,
+  "players": 5,
+  "mainLaneGames": 148,
   "mainLaneNext": [
+    {
+      "champion": "Fiora",
+      "games": 6,
+      "rate": 4.1
+    },
     {
       "champion": "Teemo",
       "games": 4,
-      "rate": 3.5
+      "rate": 2.7
+    },
+    {
+      "champion": "Vi",
+      "games": 1,
+      "rate": 0.7
     }
   ],
   "offLanes": {
@@ -26,17 +36,27 @@
       ]
     },
     "MID": {
-      "games": 32,
+      "games": 34,
       "picks": [
         {
           "champion": "Quinn",
           "games": 31,
-          "rate": 96.9
+          "rate": 91.2
+        },
+        {
+          "champion": "Azir",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Fiora",
+          "games": 1,
+          "rate": 2.9
         },
         {
           "champion": "Zilean",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.9
         }
       ]
     },
@@ -45,45 +65,60 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 9,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Rell",
+          "games": 5,
+          "rate": 35.7
+        },
         {
           "champion": "Karma",
           "games": 4,
-          "rate": 44.4
+          "rate": 28.6
         },
         {
           "champion": "Soraka",
           "games": 2,
-          "rate": 22.2
+          "rate": 14.3
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 11.1
+          "rate": 7.1
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 11.1
+          "rate": 7.1
         },
         {
           "champion": "Quinn",
           "games": 1,
-          "rate": 11.1
+          "rate": 7.1
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 4,
-      "mainLaneGames": 115,
+      "players": 5,
+      "mainLaneGames": 148,
       "mainLaneNext": [
+        {
+          "champion": "Fiora",
+          "games": 6,
+          "rate": 4.1
+        },
         {
           "champion": "Teemo",
           "games": 4,
-          "rate": 3.5
+          "rate": 2.7
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 0.7
         }
       ],
       "offLanes": {
@@ -98,17 +133,27 @@
           ]
         },
         "MID": {
-          "games": 32,
+          "games": 34,
           "picks": [
             {
               "champion": "Quinn",
               "games": 31,
-              "rate": 96.9
+              "rate": 91.2
+            },
+            {
+              "champion": "Azir",
+              "games": 1,
+              "rate": 2.9
+            },
+            {
+              "champion": "Fiora",
+              "games": 1,
+              "rate": 2.9
             },
             {
               "champion": "Zilean",
               "games": 1,
-              "rate": 3.1
+              "rate": 2.9
             }
           ]
         },
@@ -117,32 +162,37 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 9,
+          "games": 14,
           "picks": [
+            {
+              "champion": "Rell",
+              "games": 5,
+              "rate": 35.7
+            },
             {
               "champion": "Karma",
               "games": 4,
-              "rate": 44.4
+              "rate": 28.6
             },
             {
               "champion": "Soraka",
               "games": 2,
-              "rate": 22.2
+              "rate": 14.3
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 11.1
+              "rate": 7.1
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 11.1
+              "rate": 7.1
             },
             {
               "champion": "Quinn",
               "games": 1,
-              "rate": 11.1
+              "rate": 7.1
             }
           ]
         }
@@ -237,5 +287,5 @@
     }
   },
   "profile": "otp",
-  "minRate": 0.8
+  "minRate": 0.75
 }
