@@ -139,7 +139,15 @@ def write_json(path, payload):
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    temporary.replace(path)
+    # Windows ではウイルス検査や検索インデックスが置き換え先を一瞬開いていて拒否されることがある
+    for attempt in range(8):
+        try:
+            temporary.replace(path)
+            return
+        except PermissionError:
+            if attempt == 7:
+                raise
+            time.sleep(0.25 * (attempt + 1))
 
 
 def read_json(path):
@@ -1051,14 +1059,18 @@ def main():
                 flush=True,
             )
             if collected % 25 == 0:
-                rebuild_champion_files(
-                    region,
-                    player_dir,
-                    output_dir,
-                    args.matches,
-                    args.min_main_games,
-                    rates,
-                )
+                # 途中経過の書き出しが失敗しても収集は続ける（最後にもう一度書き出す）
+                try:
+                    rebuild_champion_files(
+                        region,
+                        player_dir,
+                        output_dir,
+                        args.matches,
+                        args.min_main_games,
+                        rates,
+                    )
+                except OSError as error:
+                    print("途中経過の書き出しに失敗しました（続けます）: {}".format(error), flush=True)
         print(
             "試合を取った人 {} 人 / 熟練度で除外 {} 人".format(collected, screened_out),
             flush=True,
