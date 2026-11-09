@@ -3,20 +3,20 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gangplank",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "TOP",
   "players": 4,
-  "mainLaneGames": 127,
+  "mainLaneGames": 125,
   "mainLaneNext": [
     {
       "champion": "Gragas",
-      "games": 8,
-      "rate": 6.3
+      "games": 7,
+      "rate": 5.6
     },
     {
       "champion": "Camille",
       "games": 5,
-      "rate": 3.9
+      "rate": 4.0
     },
     {
       "champion": "Ambessa",
@@ -30,11 +30,6 @@
     },
     {
       "champion": "Jayce",
-      "games": 2,
-      "rate": 1.6
-    },
-    {
-      "champion": "Shen",
       "games": 2,
       "rate": 1.6
     },
@@ -99,6 +94,11 @@
       "rate": 0.8
     },
     {
+      "champion": "Shen",
+      "games": 1,
+      "rate": 0.8
+    },
+    {
       "champion": "Singed",
       "games": 1,
       "rate": 0.8
@@ -126,62 +126,67 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 3,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Udyr",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "FiddleSticks",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Khazix",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Udyr",
-          "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 20,
+      "games": 21,
       "picks": [
         {
           "champion": "Gangplank",
           "games": 14,
-          "rate": 70.0
+          "rate": 66.7
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         },
         {
           "champion": "Gragas",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         },
         {
           "champion": "Irelia",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
+        },
+        {
+          "champion": "Orianna",
+          "games": 1,
+          "rate": 4.8
         },
         {
           "champion": "Vladimir",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         },
         {
           "champion": "Zilean",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         }
       ]
     },
@@ -239,17 +244,17 @@
   "byMainLane": {
     "TOP": {
       "players": 4,
-      "mainLaneGames": 127,
+      "mainLaneGames": 125,
       "mainLaneNext": [
         {
           "champion": "Gragas",
-          "games": 8,
-          "rate": 6.3
+          "games": 7,
+          "rate": 5.6
         },
         {
           "champion": "Camille",
           "games": 5,
-          "rate": 3.9
+          "rate": 4.0
         },
         {
           "champion": "Ambessa",
@@ -263,11 +268,6 @@
         },
         {
           "champion": "Jayce",
-          "games": 2,
-          "rate": 1.6
-        },
-        {
-          "champion": "Shen",
           "games": 2,
           "rate": 1.6
         },
@@ -332,6 +332,11 @@
           "rate": 0.8
         },
         {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 0.8
+        },
+        {
           "champion": "Singed",
           "games": 1,
           "rate": 0.8
@@ -359,62 +364,67 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Udyr",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "FiddleSticks",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Khazix",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Udyr",
-              "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 20,
+          "games": 21,
           "picks": [
             {
               "champion": "Gangplank",
               "games": 14,
-              "rate": 70.0
+              "rate": 66.7
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             },
             {
               "champion": "Gragas",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             },
             {
               "champion": "Irelia",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
+            },
+            {
+              "champion": "Orianna",
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Vladimir",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             },
             {
               "champion": "Zilean",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             }
           ]
         },

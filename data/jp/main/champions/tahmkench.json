@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
   "mainLane": "UTILITY",
   "players": 4,
   "mainLaneGames": 152,
@@ -230,6 +230,84 @@
         }
       }
     },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 25,
+      "mainLaneNext": [
+        {
+          "champion": "Urgot",
+          "games": 2,
+          "rate": 8.0
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 4.0
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "TahmKench",
+              "games": 8,
+              "rate": 88.9
+            },
+            {
+              "champion": "Jinx",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "TahmKench",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "BOTTOM": {
       "players": 1,
       "mainLaneGames": 23,
@@ -313,79 +391,6 @@
               "champion": "TahmKench",
               "games": 1,
               "rate": 50.0
-            }
-          ]
-        }
-      }
-    },
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 22,
-      "mainLaneNext": [
-        {
-          "champion": "Garen",
-          "games": 2,
-          "rate": 9.1
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Urgot",
-          "games": 1,
-          "rate": 4.5
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 12,
-          "picks": [
-            {
-              "champion": "TahmKench",
-              "games": 11,
-              "rate": 91.7
-            },
-            {
-              "champion": "Jinx",
-              "games": 1,
-              "rate": 8.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "TahmKench",
-              "games": 2,
-              "rate": 100.0
             }
           ]
         }

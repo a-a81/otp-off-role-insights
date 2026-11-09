@@ -3,138 +3,198 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Draven",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 30,
+  "players": 2,
+  "mainLaneGames": 65,
   "mainLaneNext": [
     {
+      "champion": "Corki",
+      "games": 6,
+      "rate": 9.2
+    },
+    {
       "champion": "Twitch",
-      "games": 5,
-      "rate": 16.7
+      "games": 4,
+      "rate": 6.2
+    },
+    {
+      "champion": "Caitlyn",
+      "games": 1,
+      "rate": 1.5
+    },
+    {
+      "champion": "Jhin",
+      "games": 1,
+      "rate": 1.5
     },
     {
       "champion": "Jinx",
       "games": 1,
-      "rate": 3.3
+      "rate": 1.5
     },
     {
       "champion": "Yunara",
       "games": 1,
-      "rate": 3.3
+      "rate": 1.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 8,
       "picks": [
         {
           "champion": "Sion",
-          "games": 3,
-          "rate": 75.0
+          "games": 4,
+          "rate": 50.0
+        },
+        {
+          "champion": "Riven",
+          "games": 2,
+          "rate": 25.0
         },
         {
           "champion": "Singed",
           "games": 1,
-          "rate": 25.0
+          "rate": 12.5
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
-          "champion": "Karthus",
-          "games": 1,
+          "champion": "Graves",
+          "games": 3,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 1,
       "picks": [
         {
           "champion": "Twitch",
-          "games": 3,
+          "games": 1,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 30,
+      "players": 2,
+      "mainLaneGames": 65,
       "mainLaneNext": [
         {
+          "champion": "Corki",
+          "games": 6,
+          "rate": 9.2
+        },
+        {
           "champion": "Twitch",
-          "games": 5,
-          "rate": 16.7
+          "games": 4,
+          "rate": 6.2
+        },
+        {
+          "champion": "Caitlyn",
+          "games": 1,
+          "rate": 1.5
+        },
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 1.5
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 3.3
+          "rate": 1.5
         },
         {
           "champion": "Yunara",
           "games": 1,
-          "rate": 3.3
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Sion",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 50.0
+            },
+            {
+              "champion": "Riven",
+              "games": 2,
+              "rate": 25.0
             },
             {
               "champion": "Singed",
               "games": 1,
-              "rate": 25.0
+              "rate": 12.5
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
-              "champion": "Karthus",
-              "games": 1,
+              "champion": "Graves",
+              "games": 3,
               "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
               "champion": "Twitch",
-              "games": 3,
+              "games": 1,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

@@ -3,23 +3,23 @@
   "platform": "KR",
   "profile": "otp",
   "queue": "RANKED_SOLO_5x5",
-  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
+  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
   "matchesPerPlayer": 40,
   "minMainGames": 15,
   "minRate": 0.75,
-  "qualifiedPlayers": 270,
+  "qualifiedPlayers": 273,
   "champions": [
+    {
+      "champion": "Cassiopeia",
+      "mainLane": "BOTTOM",
+      "players": 8,
+      "file": "champions/cassiopeia.json"
+    },
     {
       "champion": "Zoe",
       "mainLane": "MID",
       "players": 8,
       "file": "champions/zoe.json"
-    },
-    {
-      "champion": "Cassiopeia",
-      "mainLane": "BOTTOM",
-      "players": 7,
-      "file": "champions/cassiopeia.json"
     },
     {
       "champion": "Ekko",
@@ -136,6 +136,12 @@
       "file": "champions/zeri.json"
     },
     {
+      "champion": "Camille",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/camille.json"
+    },
+    {
       "champion": "DrMundo",
       "mainLane": "TOP",
       "players": 3,
@@ -236,12 +242,6 @@
       "mainLane": "MID",
       "players": 2,
       "file": "champions/annie.json"
-    },
-    {
-      "champion": "Camille",
-      "mainLane": "TOP",
-      "players": 2,
-      "file": "champions/camille.json"
     },
     {
       "champion": "Darius",
@@ -506,6 +506,12 @@
       "mainLane": "TOP",
       "players": 1,
       "file": "champions/monkeyking.json"
+    },
+    {
+      "champion": "Neeko",
+      "mainLane": "UTILITY",
+      "players": 1,
+      "file": "champions/neeko.json"
     },
     {
       "champion": "Nunu",

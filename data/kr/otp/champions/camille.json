@@ -3,40 +3,45 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Camille",
-  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
+  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 58,
+  "players": 3,
+  "mainLaneGames": 93,
   "mainLaneNext": [
     {
       "champion": "Kennen",
       "games": 4,
-      "rate": 6.9
+      "rate": 4.3
     },
     {
       "champion": "Gwen",
       "games": 2,
-      "rate": 3.4
+      "rate": 2.2
     },
     {
       "champion": "Gnar",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.1
     },
     {
       "champion": "Tryndamere",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Camille",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
@@ -61,65 +66,75 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Camille",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     },
     "UTILITY": {
-      "games": 12,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Camille",
+          "games": 8,
+          "rate": 57.1
+        },
         {
           "champion": "Alistar",
           "games": 6,
-          "rate": 50.0
-        },
-        {
-          "champion": "Camille",
-          "games": 6,
-          "rate": 50.0
+          "rate": 42.9
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 58,
+      "players": 3,
+      "mainLaneGames": 93,
       "mainLaneNext": [
         {
           "champion": "Kennen",
           "games": 4,
-          "rate": 6.9
+          "rate": 4.3
         },
         {
           "champion": "Gwen",
           "games": 2,
-          "rate": 3.4
+          "rate": 2.2
         },
         {
           "champion": "Gnar",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.1
         },
         {
           "champion": "Tryndamere",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
@@ -144,27 +159,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Camille",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 12,
+          "games": 14,
           "picks": [
+            {
+              "champion": "Camille",
+              "games": 8,
+              "rate": 57.1
+            },
             {
               "champion": "Alistar",
               "games": 6,
-              "rate": 50.0
-            },
-            {
-              "champion": "Camille",
-              "games": 6,
-              "rate": 50.0
+              "rate": 42.9
             }
           ]
         }

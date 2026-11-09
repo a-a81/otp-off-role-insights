@@ -3,67 +3,46 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Chogath",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 45,
+  "players": 1,
+  "mainLaneGames": 23,
   "mainLaneNext": [
     {
       "champion": "Quinn",
       "games": 2,
-      "rate": 4.4
+      "rate": 8.7
     },
     {
       "champion": "Brand",
       "games": 1,
-      "rate": 2.2
+      "rate": 4.3
     },
     {
       "champion": "Illaoi",
       "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Naafiri",
-      "games": 1,
-      "rate": 2.2
+      "rate": 4.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 2,
       "picks": [
-        {
-          "champion": "Chogath",
-          "games": 6,
-          "rate": 75.0
-        },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 12.5
+          "rate": 50.0
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 12.5
+          "rate": 50.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 11,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 10,
-          "rate": 90.9
-        },
-        {
-          "champion": "Shyvana",
-          "games": 1,
-          "rate": 9.1
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
       "games": 12,
@@ -103,65 +82,44 @@
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 45,
+      "players": 1,
+      "mainLaneGames": 23,
       "mainLaneNext": [
         {
           "champion": "Quinn",
           "games": 2,
-          "rate": 4.4
+          "rate": 8.7
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 2.2
+          "rate": 4.3
         },
         {
           "champion": "Illaoi",
           "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Naafiri",
-          "games": 1,
-          "rate": 2.2
+          "rate": 4.3
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 2,
           "picks": [
-            {
-              "champion": "Chogath",
-              "games": 6,
-              "rate": 75.0
-            },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 12.5
+              "rate": 50.0
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 12.5
+              "rate": 50.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Chogath",
-              "games": 10,
-              "rate": 90.9
-            },
-            {
-              "champion": "Shyvana",
-              "games": 1,
-              "rate": 9.1
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 12,
@@ -197,6 +155,52 @@
               "rate": 33.3
             }
           ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 17,
+      "mainLaneNext": [
+        {
+          "champion": "Shyvana",
+          "games": 2,
+          "rate": 11.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 7,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 15,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 14,
+              "rate": 93.3
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 6.7
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }

@@ -3,35 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Fiora",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 54,
+  "players": 1,
+  "mainLaneGames": 38,
   "mainLaneNext": [
     {
       "champion": "Kayle",
       "games": 3,
-      "rate": 5.6
+      "rate": 7.9
     },
     {
       "champion": "Camille",
       "games": 2,
-      "rate": 3.7
+      "rate": 5.3
     },
     {
       "champion": "Jax",
       "games": 1,
-      "rate": 1.9
+      "rate": 2.6
     },
     {
       "champion": "Naafiri",
       "games": 1,
-      "rate": 1.9
+      "rate": 2.6
     },
     {
       "champion": "Zaahen",
       "games": 1,
-      "rate": 1.9
+      "rate": 2.6
     }
   ],
   "offLanes": {
@@ -46,85 +46,53 @@
       ]
     },
     "MID": {
-      "games": 8,
-      "picks": [
-        {
-          "champion": "Yone",
-          "games": 5,
-          "rate": 62.5
-        },
-        {
-          "champion": "Fiora",
-          "games": 2,
-          "rate": 25.0
-        },
-        {
-          "champion": "Kayle",
-          "games": 1,
-          "rate": 12.5
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 15,
-      "picks": [
-        {
-          "champion": "Fiora",
-          "games": 12,
-          "rate": 80.0
-        },
-        {
-          "champion": "Yone",
-          "games": 2,
-          "rate": 13.3
-        },
-        {
-          "champion": "Xerath",
-          "games": 1,
-          "rate": 6.7
-        }
-      ]
-    },
-    "UTILITY": {
       "games": 1,
       "picks": [
         {
-          "champion": "Fiora",
+          "champion": "Kayle",
           "games": 1,
           "rate": 100.0
         }
       ]
+    },
+    "BOTTOM": {
+      "games": 0,
+      "picks": []
+    },
+    "UTILITY": {
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 54,
+      "players": 1,
+      "mainLaneGames": 38,
       "mainLaneNext": [
         {
           "champion": "Kayle",
           "games": 3,
-          "rate": 5.6
+          "rate": 7.9
         },
         {
           "champion": "Camille",
           "games": 2,
-          "rate": 3.7
+          "rate": 5.3
         },
         {
           "champion": "Jax",
           "games": 1,
-          "rate": 1.9
+          "rate": 2.6
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 1.9
+          "rate": 2.6
         },
         {
           "champion": "Zaahen",
           "games": 1,
-          "rate": 1.9
+          "rate": 2.6
         }
       ],
       "offLanes": {
@@ -139,42 +107,67 @@
           ]
         },
         "MID": {
-          "games": 8,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Yone",
-              "games": 5,
-              "rate": 62.5
-            },
-            {
-              "champion": "Fiora",
-              "games": 2,
-              "rate": 25.0
-            },
             {
               "champion": "Kayle",
               "games": 1,
-              "rate": 12.5
+              "rate": 100.0
             }
           ]
         },
         "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 17,
+      "mainLaneNext": [
+        {
+          "champion": "Yone",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 5.9
+        }
+      ],
+      "offLanes": {
+        "TOP": {
           "games": 15,
           "picks": [
             {
               "champion": "Fiora",
-              "games": 12,
-              "rate": 80.0
-            },
+              "games": 15,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 7,
+          "picks": [
             {
               "champion": "Yone",
-              "games": 2,
-              "rate": 13.3
+              "games": 5,
+              "rate": 71.4
             },
             {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 6.7
+              "champion": "Fiora",
+              "games": 2,
+              "rate": 28.6
             }
           ]
         },

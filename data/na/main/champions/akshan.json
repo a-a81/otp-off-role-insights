@@ -3,95 +3,243 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akshan",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
-  "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 23,
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "mainLane": "MID",
+  "players": 2,
+  "mainLaneGames": 49,
   "mainLaneNext": [
     {
-      "champion": "Lux",
-      "games": 5,
-      "rate": 21.7
+      "champion": "KogMaw",
+      "games": 7,
+      "rate": 14.3
     },
     {
-      "champion": "Yasuo",
-      "games": 5,
-      "rate": 21.7
+      "champion": "Locke",
+      "games": 6,
+      "rate": 12.2
     },
     {
-      "champion": "Hwei",
+      "champion": "Viktor",
       "games": 4,
-      "rate": 17.4
+      "rate": 8.2
     },
     {
-      "champion": "Syndra",
+      "champion": "Ekko",
       "games": 2,
-      "rate": 8.7
+      "rate": 4.1
+    },
+    {
+      "champion": "Galio",
+      "games": 1,
+      "rate": 2.0
+    },
+    {
+      "champion": "Kayle",
+      "games": 1,
+      "rate": 2.0
+    },
+    {
+      "champion": "Naafiri",
+      "games": 1,
+      "rate": 2.0
+    },
+    {
+      "champion": "Zeri",
+      "games": 1,
+      "rate": 2.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 21,
       "picks": [
         {
+          "champion": "Shyvana",
+          "games": 10,
+          "rate": 47.6
+        },
+        {
           "champion": "Akshan",
+          "games": 6,
+          "rate": 28.6
+        },
+        {
+          "champion": "Sejuani",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Zaahen",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Kled",
           "games": 1,
-          "rate": 100.0
+          "rate": 4.8
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
-          "champion": "Zac",
+          "champion": "Naafiri",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
-    "MID": {
+    "BOTTOM": {
       "games": 5,
       "picks": [
         {
-          "champion": "Syndra",
+          "champion": "Akshan",
           "games": 4,
           "rate": 80.0
         },
         {
-          "champion": "Yasuo",
+          "champion": "Viktor",
           "games": 1,
           "rate": 20.0
         }
       ]
     },
     "UTILITY": {
-      "games": 10,
+      "games": 1,
       "picks": [
         {
-          "champion": "Soraka",
-          "games": 7,
-          "rate": 70.0
-        },
-        {
-          "champion": "Camille",
+          "champion": "Rell",
           "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Lux",
-          "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 10.0
+          "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 49,
+      "mainLaneNext": [
+        {
+          "champion": "KogMaw",
+          "games": 7,
+          "rate": 14.3
+        },
+        {
+          "champion": "Locke",
+          "games": 6,
+          "rate": 12.2
+        },
+        {
+          "champion": "Viktor",
+          "games": 4,
+          "rate": 8.2
+        },
+        {
+          "champion": "Ekko",
+          "games": 2,
+          "rate": 4.1
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Zeri",
+          "games": 1,
+          "rate": 2.0
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 21,
+          "picks": [
+            {
+              "champion": "Shyvana",
+              "games": 10,
+              "rate": 47.6
+            },
+            {
+              "champion": "Akshan",
+              "games": 6,
+              "rate": 28.6
+            },
+            {
+              "champion": "Sejuani",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Zaahen",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Kled",
+              "games": 1,
+              "rate": 4.8
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Shyvana",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Akshan",
+              "games": 4,
+              "rate": 80.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "BOTTOM": {
       "players": 1,
       "mainLaneGames": 23,

@@ -3,15 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Caitlyn",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 61,
+  "mainLaneGames": 60,
   "mainLaneNext": [
     {
       "champion": "KogMaw",
       "games": 3,
-      "rate": 4.9
+      "rate": 5.0
     },
     {
       "champion": "Ashe",
@@ -26,7 +26,7 @@
     {
       "champion": "Kaisa",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.7
     }
   ],
   "offLanes": {
@@ -41,8 +41,14 @@
       ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
       "games": 0,
@@ -77,12 +83,12 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 61,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "KogMaw",
           "games": 3,
-          "rate": 4.9
+          "rate": 5.0
         },
         {
           "champion": "Ashe",
@@ -97,7 +103,7 @@
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         }
       ],
       "offLanes": {
@@ -112,8 +118,14 @@
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 0,
@@ -152,11 +164,11 @@
       "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Caitlyn",
-              "games": 5,
+              "games": 4,
               "rate": 100.0
             }
           ]
@@ -176,13 +188,8 @@
           "picks": [
             {
               "champion": "Caitlyn",
-              "games": 4,
-              "rate": 57.1
-            },
-            {
-              "champion": "Jhin",
-              "games": 2,
-              "rate": 28.6
+              "games": 6,
+              "rate": 85.7
             },
             {
               "champion": "Ziggs",
@@ -192,17 +199,17 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Sona",
-              "games": 2,
-              "rate": 66.7
+              "games": 3,
+              "rate": 75.0
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         }

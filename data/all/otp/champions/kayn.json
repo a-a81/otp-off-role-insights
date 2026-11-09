@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayn",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
   "mainLane": "JUNGLE",
   "players": 10,
-  "mainLaneGames": 313,
+  "mainLaneGames": 314,
   "mainLaneNext": [
     {
       "champion": "Khazix",
@@ -24,11 +24,6 @@
       "rate": 1.0
     },
     {
-      "champion": "Brand",
-      "games": 2,
-      "rate": 0.6
-    },
-    {
       "champion": "Nasus",
       "games": 2,
       "rate": 0.6
@@ -42,6 +37,16 @@
       "champion": "Shyvana",
       "games": 2,
       "rate": 0.6
+    },
+    {
+      "champion": "Taliyah",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Brand",
+      "games": 1,
+      "rate": 0.3
     },
     {
       "champion": "Chogath",
@@ -89,7 +94,7 @@
       "rate": 0.3
     },
     {
-      "champion": "Taliyah",
+      "champion": "Sylas",
       "games": 1,
       "rate": 0.3
     },
@@ -115,16 +120,11 @@
         },
         {
           "champion": "Sion",
-          "games": 3,
-          "rate": 10.3
+          "games": 4,
+          "rate": 13.8
         },
         {
           "champion": "FiddleSticks",
-          "games": 2,
-          "rate": 6.9
-        },
-        {
-          "champion": "Sett",
           "games": 2,
           "rate": 6.9
         },
@@ -154,6 +154,11 @@
           "rate": 3.4
         },
         {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 3.4
+        },
+        {
           "champion": "Yone",
           "games": 1,
           "rate": 3.4
@@ -161,22 +166,17 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 2,
       "picks": [
-        {
-          "champion": "Brand",
-          "games": 1,
-          "rate": 33.3
-        },
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     },
@@ -299,7 +299,7 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 10,
-      "mainLaneGames": 313,
+      "mainLaneGames": 314,
       "mainLaneNext": [
         {
           "champion": "Khazix",
@@ -317,11 +317,6 @@
           "rate": 1.0
         },
         {
-          "champion": "Brand",
-          "games": 2,
-          "rate": 0.6
-        },
-        {
           "champion": "Nasus",
           "games": 2,
           "rate": 0.6
@@ -335,6 +330,16 @@
           "champion": "Shyvana",
           "games": 2,
           "rate": 0.6
+        },
+        {
+          "champion": "Taliyah",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Brand",
+          "games": 1,
+          "rate": 0.3
         },
         {
           "champion": "Chogath",
@@ -382,7 +387,7 @@
           "rate": 0.3
         },
         {
-          "champion": "Taliyah",
+          "champion": "Sylas",
           "games": 1,
           "rate": 0.3
         },
@@ -408,16 +413,11 @@
             },
             {
               "champion": "Sion",
-              "games": 3,
-              "rate": 10.3
+              "games": 4,
+              "rate": 13.8
             },
             {
               "champion": "FiddleSticks",
-              "games": 2,
-              "rate": 6.9
-            },
-            {
-              "champion": "Sett",
               "games": 2,
               "rate": 6.9
             },
@@ -447,6 +447,11 @@
               "rate": 3.4
             },
             {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 3.4
+            },
+            {
               "champion": "Yone",
               "games": 1,
               "rate": 3.4
@@ -454,22 +459,17 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 2,
           "picks": [
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 33.3
-            },
             {
               "champion": "Galio",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         },

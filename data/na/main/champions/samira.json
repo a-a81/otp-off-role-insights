@@ -3,35 +3,40 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Samira",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 58,
+  "mainLaneGames": 60,
   "mainLaneNext": [
+    {
+      "champion": "Yunara",
+      "games": 6,
+      "rate": 10.0
+    },
     {
       "champion": "Varus",
       "games": 5,
-      "rate": 8.6
+      "rate": 8.3
     },
     {
-      "champion": "Yunara",
-      "games": 4,
-      "rate": 6.9
-    },
-    {
-      "champion": "Syndra",
+      "champion": "Jhin",
       "games": 2,
-      "rate": 3.4
+      "rate": 3.3
+    },
+    {
+      "champion": "Kaisa",
+      "games": 2,
+      "rate": 3.3
     },
     {
       "champion": "Tristana",
       "games": 2,
-      "rate": 3.4
+      "rate": 3.3
     },
     {
       "champion": "Zeri",
       "games": 2,
-      "rate": 3.4
+      "rate": 3.3
     },
     {
       "champion": "Caitlyn",
@@ -44,44 +49,39 @@
       "rate": 1.7
     },
     {
-      "champion": "Jhin",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Kaisa",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
       "champion": "KogMaw",
+      "games": 1,
+      "rate": 1.7
+    },
+    {
+      "champion": "Syndra",
       "games": 1,
       "rate": 1.7
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 11,
+      "games": 10,
       "picks": [
         {
           "champion": "Ornn",
           "games": 4,
-          "rate": 36.4
-        },
-        {
-          "champion": "Renekton",
-          "games": 3,
-          "rate": 27.3
+          "rate": 40.0
         },
         {
           "champion": "Shen",
           "games": 3,
-          "rate": 27.3
+          "rate": 30.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 20.0
         },
         {
           "champion": "Varus",
           "games": 1,
-          "rate": 9.1
+          "rate": 10.0
         }
       ]
     },
@@ -126,17 +126,12 @@
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     }
@@ -144,32 +139,37 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 60,
       "mainLaneNext": [
+        {
+          "champion": "Yunara",
+          "games": 6,
+          "rate": 10.0
+        },
         {
           "champion": "Varus",
           "games": 5,
-          "rate": 8.6
+          "rate": 8.3
         },
         {
-          "champion": "Yunara",
-          "games": 4,
-          "rate": 6.9
-        },
-        {
-          "champion": "Syndra",
+          "champion": "Jhin",
           "games": 2,
-          "rate": 3.4
+          "rate": 3.3
+        },
+        {
+          "champion": "Kaisa",
+          "games": 2,
+          "rate": 3.3
         },
         {
           "champion": "Tristana",
           "games": 2,
-          "rate": 3.4
+          "rate": 3.3
         },
         {
           "champion": "Zeri",
           "games": 2,
-          "rate": 3.4
+          "rate": 3.3
         },
         {
           "champion": "Caitlyn",
@@ -182,44 +182,39 @@
           "rate": 1.7
         },
         {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
           "champion": "KogMaw",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Syndra",
           "games": 1,
           "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 10,
           "picks": [
             {
               "champion": "Ornn",
               "games": 4,
-              "rate": 36.4
-            },
-            {
-              "champion": "Renekton",
-              "games": 3,
-              "rate": 27.3
+              "rate": 40.0
             },
             {
               "champion": "Shen",
               "games": 3,
-              "rate": 27.3
+              "rate": 30.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 2,
+              "rate": 20.0
             },
             {
               "champion": "Varus",
               "games": 1,
-              "rate": 9.1
+              "rate": 10.0
             }
           ]
         },
@@ -264,17 +259,12 @@
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Leona",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

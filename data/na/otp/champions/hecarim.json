@@ -3,54 +3,70 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hecarim",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 36,
+  "players": 2,
+  "mainLaneGames": 63,
   "mainLaneNext": [
+    {
+      "champion": "Udyr",
+      "games": 6,
+      "rate": 9.5
+    },
     {
       "champion": "Aatrox",
       "games": 2,
-      "rate": 5.6
+      "rate": 3.2
     },
     {
       "champion": "JarvanIV",
       "games": 2,
-      "rate": 5.6
+      "rate": 3.2
     },
     {
       "champion": "Diana",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.6
     },
     {
       "champion": "Sylas",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Shen",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 4,
+      "games": 6,
       "picks": [
+        {
+          "champion": "Katarina",
+          "games": 2,
+          "rate": 33.3
+        },
         {
           "champion": "Locke",
           "games": 2,
-          "rate": 50.0
+          "rate": 33.3
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 25.0
+          "rate": 16.7
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 25.0
+          "rate": 16.7
         }
       ]
     },
@@ -59,58 +75,80 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 9,
+      "picks": [
+        {
+          "champion": "Rell",
+          "games": 9,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 36,
+      "players": 2,
+      "mainLaneGames": 63,
       "mainLaneNext": [
+        {
+          "champion": "Udyr",
+          "games": 6,
+          "rate": 9.5
+        },
         {
           "champion": "Aatrox",
           "games": 2,
-          "rate": 5.6
+          "rate": 3.2
         },
         {
           "champion": "JarvanIV",
           "games": 2,
-          "rate": 5.6
+          "rate": 3.2
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.6
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 4,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Katarina",
+              "games": 2,
+              "rate": 33.3
+            },
             {
               "champion": "Locke",
               "games": 2,
-              "rate": 50.0
+              "rate": 33.3
             },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 25.0
+              "rate": 16.7
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 25.0
+              "rate": 16.7
             }
           ]
         },
@@ -119,8 +157,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Rell",
+              "games": 9,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

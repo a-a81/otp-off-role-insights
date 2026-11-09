@@ -3,63 +3,68 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Amumu",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
   "mainLane": "UTILITY",
-  "players": 5,
-  "mainLaneGames": 184,
+  "players": 6,
+  "mainLaneGames": 201,
   "mainLaneNext": [
     {
       "champion": "Blitzcrank",
       "games": 12,
-      "rate": 6.5
+      "rate": 6.0
     },
     {
       "champion": "Sona",
       "games": 10,
-      "rate": 5.4
+      "rate": 5.0
     },
     {
       "champion": "Soraka",
       "games": 8,
-      "rate": 4.3
+      "rate": 4.0
     },
     {
       "champion": "Taric",
       "games": 8,
-      "rate": 4.3
+      "rate": 4.0
     },
     {
       "champion": "Thresh",
       "games": 6,
-      "rate": 3.3
+      "rate": 3.0
     },
     {
       "champion": "Brand",
       "games": 4,
-      "rate": 2.2
+      "rate": 2.0
     },
     {
       "champion": "Braum",
       "games": 4,
-      "rate": 2.2
+      "rate": 2.0
     },
     {
       "champion": "Leona",
+      "games": 3,
+      "rate": 1.5
+    },
+    {
+      "champion": "Veigar",
       "games": 2,
-      "rate": 1.1
+      "rate": 1.0
+    },
+    {
+      "champion": "Xerath",
+      "games": 2,
+      "rate": 1.0
     },
     {
       "champion": "Yuumi",
       "games": 2,
-      "rate": 1.1
+      "rate": 1.0
     },
     {
       "champion": "Fizz",
-      "games": 1,
-      "rate": 0.5
-    },
-    {
-      "champion": "Janna",
       "games": 1,
       "rate": 0.5
     },
@@ -91,113 +96,163 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 9,
       "picks": [
+        {
+          "champion": "Illaoi",
+          "games": 6,
+          "rate": 66.7
+        },
         {
           "champion": "Malphite",
           "games": 2,
-          "rate": 100.0
+          "rate": 22.2
+        },
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "JUNGLE": {
-      "games": 6,
+      "games": 12,
       "picks": [
         {
           "champion": "Amumu",
           "games": 5,
-          "rate": 83.3
+          "rate": 41.7
+        },
+        {
+          "champion": "Shyvana",
+          "games": 4,
+          "rate": 33.3
+        },
+        {
+          "champion": "Rumble",
+          "games": 2,
+          "rate": 16.7
         },
         {
           "champion": "Fizz",
           "games": 1,
-          "rate": 16.7
+          "rate": 8.3
         }
       ]
     },
     "MID": {
-      "games": 1,
+      "games": 7,
       "picks": [
+        {
+          "champion": "Illaoi",
+          "games": 4,
+          "rate": 57.1
+        },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 100.0
+          "rate": 14.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 14.3
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 14.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 8,
       "picks": [
         {
           "champion": "Tristana",
           "games": 3,
-          "rate": 60.0
+          "rate": 37.5
         },
         {
           "champion": "Ashe",
           "games": 2,
-          "rate": 40.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Ziggs",
+          "games": 2,
+          "rate": 25.0
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 5,
-      "mainLaneGames": 184,
+      "players": 6,
+      "mainLaneGames": 201,
       "mainLaneNext": [
         {
           "champion": "Blitzcrank",
           "games": 12,
-          "rate": 6.5
+          "rate": 6.0
         },
         {
           "champion": "Sona",
           "games": 10,
-          "rate": 5.4
+          "rate": 5.0
         },
         {
           "champion": "Soraka",
           "games": 8,
-          "rate": 4.3
+          "rate": 4.0
         },
         {
           "champion": "Taric",
           "games": 8,
-          "rate": 4.3
+          "rate": 4.0
         },
         {
           "champion": "Thresh",
           "games": 6,
-          "rate": 3.3
+          "rate": 3.0
         },
         {
           "champion": "Brand",
           "games": 4,
-          "rate": 2.2
+          "rate": 2.0
         },
         {
           "champion": "Braum",
           "games": 4,
-          "rate": 2.2
+          "rate": 2.0
         },
         {
           "champion": "Leona",
+          "games": 3,
+          "rate": 1.5
+        },
+        {
+          "champion": "Veigar",
           "games": 2,
-          "rate": 1.1
+          "rate": 1.0
+        },
+        {
+          "champion": "Xerath",
+          "games": 2,
+          "rate": 1.0
         },
         {
           "champion": "Yuumi",
           "games": 2,
-          "rate": 1.1
+          "rate": 1.0
         },
         {
           "champion": "Fizz",
-          "games": 1,
-          "rate": 0.5
-        },
-        {
-          "champion": "Janna",
           "games": 1,
           "rate": 0.5
         },
@@ -229,52 +284,97 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 6,
+              "rate": 66.7
+            },
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 100.0
+              "rate": 22.2
+            },
+            {
+              "champion": "Maokai",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
         "JUNGLE": {
-          "games": 6,
+          "games": 12,
           "picks": [
             {
               "champion": "Amumu",
               "games": 5,
-              "rate": 83.3
+              "rate": 41.7
+            },
+            {
+              "champion": "Shyvana",
+              "games": 4,
+              "rate": 33.3
+            },
+            {
+              "champion": "Rumble",
+              "games": 2,
+              "rate": 16.7
             },
             {
               "champion": "Fizz",
               "games": 1,
-              "rate": 16.7
+              "rate": 8.3
             }
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 4,
+              "rate": 57.1
+            },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 100.0
+              "rate": 14.3
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 8,
           "picks": [
             {
               "champion": "Tristana",
               "games": 3,
-              "rate": 60.0
+              "rate": 37.5
             },
             {
               "champion": "Ashe",
               "games": 2,
-              "rate": 40.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Ziggs",
+              "games": 2,
+              "rate": 25.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

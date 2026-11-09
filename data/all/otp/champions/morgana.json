@@ -3,11 +3,27 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
+  "mainLane": "UTILITY",
   "players": 1,
-  "mainLaneGames": 21,
-  "mainLaneNext": [],
+  "mainLaneGames": 29,
+  "mainLaneNext": [
+    {
+      "champion": "Zyra",
+      "games": 3,
+      "rate": 10.3
+    },
+    {
+      "champion": "Velkoz",
+      "games": 1,
+      "rate": 3.4
+    },
+    {
+      "champion": "Zilean",
+      "games": 1,
+      "rate": 3.4
+    }
+  ],
   "offLanes": {
     "TOP": {
       "games": 0,
@@ -17,31 +33,42 @@
       "games": 0,
       "picks": []
     },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
-    "UTILITY": {
-      "games": 18,
+    "MID": {
+      "games": 11,
       "picks": [
         {
           "champion": "Morgana",
-          "games": 17,
-          "rate": 94.4
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 5.6
+          "games": 11,
+          "rate": 100.0
         }
       ]
+    },
+    "BOTTOM": {
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
-    "MID": {
+    "UTILITY": {
       "players": 1,
-      "mainLaneGames": 21,
-      "mainLaneNext": [],
+      "mainLaneGames": 29,
+      "mainLaneNext": [
+        {
+          "champion": "Zyra",
+          "games": 3,
+          "rate": 10.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 3.4
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 3.4
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
@@ -51,24 +78,19 @@
           "games": 0,
           "picks": []
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 18,
+        "MID": {
+          "games": 11,
           "picks": [
             {
               "champion": "Morgana",
-              "games": 17,
-              "rate": 94.4
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 5.6
+              "games": 11,
+              "rate": 100.0
             }
           ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
         }
       }
     }

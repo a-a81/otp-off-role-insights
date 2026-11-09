@@ -3,80 +3,95 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zoe",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "MID",
-  "players": 4,
-  "mainLaneGames": 107,
+  "players": 5,
+  "mainLaneGames": 128,
   "mainLaneNext": [
     {
       "champion": "Karthus",
       "games": 3,
-      "rate": 2.8
+      "rate": 2.3
     },
     {
       "champion": "Azir",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.6
     },
     {
       "champion": "Viktor",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.6
+    },
+    {
+      "champion": "Ahri",
+      "games": 1,
+      "rate": 0.8
     },
     {
       "champion": "Corki",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Leblanc",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Syndra",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Tristana",
       "games": 1,
-      "rate": 0.9
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 19,
+      "games": 33,
       "picks": [
+        {
+          "champion": "Zoe",
+          "games": 17,
+          "rate": 51.5
+        },
         {
           "champion": "Sett",
           "games": 7,
-          "rate": 36.8
+          "rate": 21.2
         },
         {
           "champion": "Fiora",
           "games": 5,
-          "rate": 26.3
+          "rate": 15.2
         },
         {
-          "champion": "Zoe",
-          "games": 5,
-          "rate": 26.3
+          "champion": "Ahri",
+          "games": 2,
+          "rate": 6.1
         },
         {
           "champion": "Sion",
           "games": 2,
-          "rate": 10.5
+          "rate": 6.1
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Evelynn",
+          "games": 3,
+          "rate": 75.0
+        },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 100.0
+          "rate": 25.0
         }
       ]
     },
@@ -111,105 +126,120 @@
       ]
     },
     "UTILITY": {
-      "games": 18,
+      "games": 20,
       "picks": [
         {
           "champion": "Anivia",
           "games": 11,
-          "rate": 61.1
+          "rate": 55.0
         },
         {
           "champion": "Zoe",
-          "games": 5,
-          "rate": 27.8
+          "games": 7,
+          "rate": 35.0
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 4,
-      "mainLaneGames": 107,
+      "players": 5,
+      "mainLaneGames": 128,
       "mainLaneNext": [
         {
           "champion": "Karthus",
           "games": 3,
-          "rate": 2.8
+          "rate": 2.3
         },
         {
           "champion": "Azir",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.6
         },
         {
           "champion": "Viktor",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.6
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 0.8
         },
         {
           "champion": "Corki",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Leblanc",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 0.9
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 19,
+          "games": 33,
           "picks": [
+            {
+              "champion": "Zoe",
+              "games": 17,
+              "rate": 51.5
+            },
             {
               "champion": "Sett",
               "games": 7,
-              "rate": 36.8
+              "rate": 21.2
             },
             {
               "champion": "Fiora",
               "games": 5,
-              "rate": 26.3
+              "rate": 15.2
             },
             {
-              "champion": "Zoe",
-              "games": 5,
-              "rate": 26.3
+              "champion": "Ahri",
+              "games": 2,
+              "rate": 6.1
             },
             {
               "champion": "Sion",
               "games": 2,
-              "rate": 10.5
+              "rate": 6.1
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Evelynn",
+              "games": 3,
+              "rate": 75.0
+            },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         },
@@ -244,27 +274,27 @@
           ]
         },
         "UTILITY": {
-          "games": 18,
+          "games": 20,
           "picks": [
             {
               "champion": "Anivia",
               "games": 11,
-              "rate": 61.1
+              "rate": 55.0
             },
             {
               "champion": "Zoe",
-              "games": 5,
-              "rate": 27.8
+              "games": 7,
+              "rate": 35.0
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.0
             }
           ]
         }

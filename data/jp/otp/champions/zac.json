@@ -3,11 +3,16 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
   "mainLane": "JUNGLE",
-  "players": 9,
-  "mainLaneGames": 287,
+  "players": 10,
+  "mainLaneGames": 319,
   "mainLaneNext": [
+    {
+      "champion": "Taliyah",
+      "games": 7,
+      "rate": 2.2
+    },
     {
       "champion": "Belveth",
       "games": 1,
@@ -39,6 +44,11 @@
       "rate": 0.3
     },
     {
+      "champion": "Kindred",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
       "champion": "Maokai",
       "games": 1,
       "rate": 0.3
@@ -56,106 +66,136 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 32,
+      "games": 34,
       "picks": [
         {
           "champion": "Zac",
-          "games": 29,
-          "rate": 90.6
+          "games": 30,
+          "rate": 88.2
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.9
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 2.9
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.9
         },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.9
         }
       ]
     },
     "MID": {
-      "games": 17,
-      "picks": [
-        {
-          "champion": "Zac",
-          "games": 13,
-          "rate": 76.5
-        },
-        {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Velkoz",
-          "games": 1,
-          "rate": 5.9
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Sivir",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
-    "UTILITY": {
       "games": 18,
       "picks": [
         {
           "champion": "Zac",
+          "games": 13,
+          "rate": 72.2
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 5.6
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Sivir",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 21,
+      "picks": [
+        {
+          "champion": "Zac",
           "games": 10,
-          "rate": 55.6
+          "rate": 47.6
         },
         {
           "champion": "Blitzcrank",
-          "games": 3,
-          "rate": 16.7
+          "games": 4,
+          "rate": 19.0
         },
         {
           "champion": "Lux",
           "games": 2,
-          "rate": 11.1
+          "rate": 9.5
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 11.1
+          "rate": 9.5
+        },
+        {
+          "champion": "Camille",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Elise",
+          "games": 1,
+          "rate": 4.8
         },
         {
           "champion": "Rell",
           "games": 1,
-          "rate": 5.6
+          "rate": 4.8
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 9,
-      "mainLaneGames": 287,
+      "players": 10,
+      "mainLaneGames": 319,
       "mainLaneNext": [
+        {
+          "champion": "Taliyah",
+          "games": 7,
+          "rate": 2.2
+        },
         {
           "champion": "Belveth",
           "games": 1,
@@ -187,6 +227,11 @@
           "rate": 0.3
         },
         {
+          "champion": "Kindred",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
           "champion": "Maokai",
           "games": 1,
           "rate": 0.3
@@ -204,97 +249,122 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 32,
+          "games": 34,
           "picks": [
             {
               "champion": "Zac",
-              "games": 29,
-              "rate": 90.6
+              "games": 30,
+              "rate": 88.2
             },
             {
               "champion": "Mordekaiser",
               "games": 1,
-              "rate": 3.1
+              "rate": 2.9
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 2.9
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 3.1
+              "rate": 2.9
             },
             {
               "champion": "Yorick",
               "games": 1,
-              "rate": 3.1
+              "rate": 2.9
             }
           ]
         },
         "MID": {
-          "games": 17,
-          "picks": [
-            {
-              "champion": "Zac",
-              "games": 13,
-              "rate": 76.5
-            },
-            {
-              "champion": "Galio",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Velkoz",
-              "games": 1,
-              "rate": 5.9
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Sivir",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
           "games": 18,
           "picks": [
             {
               "champion": "Zac",
+              "games": 13,
+              "rate": 72.2
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Taliyah",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 5.6
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Sivir",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 21,
+          "picks": [
+            {
+              "champion": "Zac",
               "games": 10,
-              "rate": 55.6
+              "rate": 47.6
             },
             {
               "champion": "Blitzcrank",
-              "games": 3,
-              "rate": 16.7
+              "games": 4,
+              "rate": 19.0
             },
             {
               "champion": "Lux",
               "games": 2,
-              "rate": 11.1
+              "rate": 9.5
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 11.1
+              "rate": 9.5
+            },
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "Elise",
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Rell",
               "games": 1,
-              "rate": 5.6
+              "rate": 4.8
             }
           ]
         }
@@ -420,11 +490,11 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Zac",
-              "games": 8,
+              "games": 7,
               "rate": 100.0
             }
           ]
@@ -438,12 +508,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 3,
-              "rate": 100.0
+              "rate": 75.0
+            },
+            {
+              "champion": "Zac",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

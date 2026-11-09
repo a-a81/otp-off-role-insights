@@ -3,75 +3,60 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
-  "mainLane": "UTILITY",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 32,
+  "mainLaneGames": 31,
   "mainLaneNext": [
     {
-      "champion": "Braum",
-      "games": 10,
-      "rate": 31.2
+      "champion": "Kayn",
+      "games": 4,
+      "rate": 12.9
     },
     {
-      "champion": "Lulu",
-      "games": 6,
-      "rate": 18.8
+      "champion": "Nocturne",
+      "games": 4,
+      "rate": 12.9
     },
     {
-      "champion": "Nami",
+      "champion": "Hecarim",
+      "games": 3,
+      "rate": 9.7
+    },
+    {
+      "champion": "Karthus",
+      "games": 3,
+      "rate": 9.7
+    },
+    {
+      "champion": "MasterYi",
       "games": 2,
-      "rate": 6.2
+      "rate": 6.5
     },
     {
-      "champion": "Leona",
-      "games": 1,
-      "rate": 3.1
+      "champion": "Shyvana",
+      "games": 2,
+      "rate": 6.5
     },
     {
-      "champion": "Rakan",
-      "games": 1,
-      "rate": 3.1
+      "champion": "Zyra",
+      "games": 2,
+      "rate": 6.5
     },
     {
-      "champion": "Soraka",
+      "champion": "Sylas",
       "games": 1,
-      "rate": 3.1
+      "rate": 3.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
-          "champion": "Malphite",
+          "champion": "Kayle",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Urgot",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 3,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Karthus",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Vi",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
@@ -79,14 +64,9 @@
       "games": 2,
       "picks": [
         {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Xerath",
-          "games": 1,
-          "rate": 50.0
+          "champion": "Kassadin",
+          "games": 2,
+          "rate": 100.0
         }
       ]
     },
@@ -94,112 +74,34 @@
       "games": 1,
       "picks": [
         {
-          "champion": "Ziggs",
+          "champion": "Karthus",
           "games": 1,
           "rate": 100.0
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 5,
+      "picks": [
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Zyra",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
-    "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [
-        {
-          "champion": "Braum",
-          "games": 10,
-          "rate": 31.2
-        },
-        {
-          "champion": "Lulu",
-          "games": 6,
-          "rate": 18.8
-        },
-        {
-          "champion": "Nami",
-          "games": 2,
-          "rate": 6.2
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 3.1
-        },
-        {
-          "champion": "Rakan",
-          "games": 1,
-          "rate": 3.1
-        },
-        {
-          "champion": "Soraka",
-          "games": 1,
-          "rate": 3.1
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Urgot",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Karthus",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Vi",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "MID": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Galio",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Ziggs",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 31,
@@ -298,10 +200,26 @@
         }
       }
     },
-    "MID": {
+    "UTILITY": {
       "players": 1,
-      "mainLaneGames": 21,
-      "mainLaneNext": [],
+      "mainLaneGames": 29,
+      "mainLaneNext": [
+        {
+          "champion": "Zyra",
+          "games": 3,
+          "rate": 10.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 3.4
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 3.4
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
@@ -311,24 +229,19 @@
           "games": 0,
           "picks": []
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 18,
+        "MID": {
+          "games": 11,
           "picks": [
             {
               "champion": "Morgana",
-              "games": 17,
-              "rate": 94.4
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 5.6
+              "games": 11,
+              "rate": 100.0
             }
           ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
         }
       }
     }

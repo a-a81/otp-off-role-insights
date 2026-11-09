@@ -3,30 +3,47 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gnar",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 26,
+  "players": 2,
+  "mainLaneGames": 62,
   "mainLaneNext": [
+    {
+      "champion": "Gragas",
+      "games": 1,
+      "rate": 1.6
+    },
     {
       "champion": "Kennen",
       "games": 1,
-      "rate": 3.8
+      "rate": 1.6
     },
     {
       "champion": "Teemo",
       "games": 1,
-      "rate": 3.8
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Leblanc",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
@@ -60,28 +77,45 @@
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 26,
+      "players": 2,
+      "mainLaneGames": 62,
       "mainLaneNext": [
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 1.6
+        },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 3.8
+          "rate": 1.6
         },
         {
           "champion": "Teemo",
           "games": 1,
-          "rate": 3.8
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Leblanc",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 0,

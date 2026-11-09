@@ -3,25 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Neeko",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 74,
+  "players": 3,
+  "mainLaneGames": 107,
   "mainLaneNext": [
     {
       "champion": "Anivia",
       "games": 2,
-      "rate": 2.7
+      "rate": 1.9
     },
     {
       "champion": "Karma",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
     },
     {
       "champion": "Sylas",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -34,12 +34,22 @@
       "picks": []
     },
     "MID": {
-      "games": 1,
+      "games": 8,
       "picks": [
+        {
+          "champion": "Neeko",
+          "games": 6,
+          "rate": 75.0
+        },
         {
           "champion": "Anivia",
           "games": 1,
-          "rate": 100.0
+          "rate": 12.5
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
@@ -71,23 +81,23 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 74,
+      "players": 3,
+      "mainLaneGames": 107,
       "mainLaneNext": [
         {
           "champion": "Anivia",
           "games": 2,
-          "rate": 2.7
+          "rate": 1.9
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -100,12 +110,22 @@
           "picks": []
         },
         "MID": {
-          "games": 1,
+          "games": 8,
           "picks": [
+            {
+              "champion": "Neeko",
+              "games": 6,
+              "rate": 75.0
+            },
             {
               "champion": "Anivia",
               "games": 1,
-              "rate": 100.0
+              "rate": 12.5
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -138,67 +158,67 @@
     },
     "MID": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 57,
       "mainLaneNext": [
         {
           "champion": "Naafiri",
           "games": 4,
-          "rate": 6.9
+          "rate": 7.0
         },
         {
           "champion": "Ahri",
-          "games": 2,
-          "rate": 3.4
+          "games": 3,
+          "rate": 5.3
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 13,
+          "games": 14,
           "picks": [
             {
               "champion": "Neeko",
-              "games": 8,
-              "rate": 61.5
+              "games": 9,
+              "rate": 64.3
             },
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 15.4
+              "rate": 14.3
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "KSante",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             }
           ]
         },
@@ -240,17 +260,22 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 25,
+      "mainLaneGames": 26,
       "mainLaneNext": [
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 4.0
+          "rate": 3.8
+        },
+        {
+          "champion": "Trundle",
+          "games": 1,
+          "rate": 3.8
         },
         {
           "champion": "Vayne",
           "games": 1,
-          "rate": 4.0
+          "rate": 3.8
         }
       ],
       "offLanes": {
@@ -259,14 +284,8 @@
           "picks": []
         },
         "MID": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Neeko",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 7,

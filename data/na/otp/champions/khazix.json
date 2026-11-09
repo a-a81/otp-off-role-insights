@@ -3,16 +3,11 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Khazix",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "JUNGLE",
   "players": 9,
-  "mainLaneGames": 282,
+  "mainLaneGames": 281,
   "mainLaneNext": [
-    {
-      "champion": "Elise",
-      "games": 4,
-      "rate": 1.4
-    },
     {
       "champion": "Ivern",
       "games": 4,
@@ -22,6 +17,11 @@
       "champion": "MasterYi",
       "games": 4,
       "rate": 1.4
+    },
+    {
+      "champion": "Elise",
+      "games": 3,
+      "rate": 1.1
     },
     {
       "champion": "Graves",
@@ -85,11 +85,6 @@
     },
     {
       "champion": "Udyr",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Viego",
       "games": 1,
       "rate": 0.4
     },
@@ -175,8 +170,8 @@
       "picks": [
         {
           "champion": "Sion",
-          "games": 4,
-          "rate": 20.0
+          "games": 5,
+          "rate": 25.0
         },
         {
           "champion": "Fizz",
@@ -185,8 +180,8 @@
         },
         {
           "champion": "Viktor",
-          "games": 3,
-          "rate": 15.0
+          "games": 2,
+          "rate": 10.0
         },
         {
           "champion": "Vladimir",
@@ -286,37 +281,42 @@
       ]
     },
     "UTILITY": {
-      "games": 19,
+      "games": 20,
       "picks": [
         {
           "champion": "Blitzcrank",
           "games": 7,
-          "rate": 36.8
+          "rate": 35.0
         },
         {
           "champion": "Bard",
           "games": 6,
-          "rate": 31.6
+          "rate": 30.0
         },
         {
           "champion": "Karma",
           "games": 2,
-          "rate": 10.5
+          "rate": 10.0
         },
         {
           "champion": "Teemo",
           "games": 2,
-          "rate": 10.5
+          "rate": 10.0
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Neeko",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
+        },
+        {
+          "champion": "Sona",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     }
@@ -324,13 +324,8 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 9,
-      "mainLaneGames": 282,
+      "mainLaneGames": 281,
       "mainLaneNext": [
-        {
-          "champion": "Elise",
-          "games": 4,
-          "rate": 1.4
-        },
         {
           "champion": "Ivern",
           "games": 4,
@@ -340,6 +335,11 @@
           "champion": "MasterYi",
           "games": 4,
           "rate": 1.4
+        },
+        {
+          "champion": "Elise",
+          "games": 3,
+          "rate": 1.1
         },
         {
           "champion": "Graves",
@@ -403,11 +403,6 @@
         },
         {
           "champion": "Udyr",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Viego",
           "games": 1,
           "rate": 0.4
         },
@@ -493,8 +488,8 @@
           "picks": [
             {
               "champion": "Sion",
-              "games": 4,
-              "rate": 20.0
+              "games": 5,
+              "rate": 25.0
             },
             {
               "champion": "Fizz",
@@ -503,8 +498,8 @@
             },
             {
               "champion": "Viktor",
-              "games": 3,
-              "rate": 15.0
+              "games": 2,
+              "rate": 10.0
             },
             {
               "champion": "Vladimir",
@@ -604,37 +599,42 @@
           ]
         },
         "UTILITY": {
-          "games": 19,
+          "games": 20,
           "picks": [
             {
               "champion": "Blitzcrank",
               "games": 7,
-              "rate": 36.8
+              "rate": 35.0
             },
             {
               "champion": "Bard",
               "games": 6,
-              "rate": 31.6
+              "rate": 30.0
             },
             {
               "champion": "Karma",
               "games": 2,
-              "rate": 10.5
+              "rate": 10.0
             },
             {
               "champion": "Teemo",
               "games": 2,
-              "rate": 10.5
+              "rate": 10.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
+            },
+            {
+              "champion": "Sona",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         }

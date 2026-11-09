@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tristana",
-  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
+  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
   "mainLane": "BOTTOM",
   "players": 8,
-  "mainLaneGames": 234,
+  "mainLaneGames": 235,
   "mainLaneNext": [
     {
       "champion": "MissFortune",
@@ -30,6 +30,11 @@
     },
     {
       "champion": "Jhin",
+      "games": 2,
+      "rate": 0.9
+    },
+    {
+      "champion": "Lucian",
       "games": 2,
       "rate": 0.9
     },
@@ -59,11 +64,6 @@
       "rate": 0.4
     },
     {
-      "champion": "Lucian",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
       "champion": "Smolder",
       "games": 1,
       "rate": 0.4
@@ -76,142 +76,137 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 10,
-      "picks": [
-        {
-          "champion": "Chogath",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
-          "champion": "Kalista",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
-          "champion": "Tristana",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
-          "champion": "Ambessa",
-          "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Tryndamere",
-          "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Yone",
-          "games": 1,
-          "rate": 10.0
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 22,
-      "picks": [
-        {
-          "champion": "Talon",
-          "games": 5,
-          "rate": 22.7
-        },
-        {
-          "champion": "Ekko",
-          "games": 4,
-          "rate": 18.2
-        },
-        {
-          "champion": "LeeSin",
-          "games": 3,
-          "rate": 13.6
-        },
-        {
-          "champion": "Rengar",
-          "games": 3,
-          "rate": 13.6
-        },
-        {
-          "champion": "Kayn",
-          "games": 2,
-          "rate": 9.1
-        },
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Elise",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Hecarim",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Khazix",
-          "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "MonkeyKing",
-          "games": 1,
-          "rate": 4.5
-        }
-      ]
-    },
-    "MID": {
       "games": 12,
       "picks": [
         {
           "champion": "Tristana",
-          "games": 5,
-          "rate": 41.7
+          "games": 3,
+          "rate": 25.0
+        },
+        {
+          "champion": "Chogath",
+          "games": 2,
+          "rate": 16.7
+        },
+        {
+          "champion": "Kalista",
+          "games": 2,
+          "rate": 16.7
+        },
+        {
+          "champion": "Yone",
+          "games": 2,
+          "rate": 16.7
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 8.3
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 1,
+          "rate": 8.3
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 8.3
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 16,
+      "picks": [
+        {
+          "champion": "Ekko",
+          "games": 3,
+          "rate": 18.8
+        },
+        {
+          "champion": "LeeSin",
+          "games": 3,
+          "rate": 18.8
+        },
+        {
+          "champion": "Rengar",
+          "games": 3,
+          "rate": 18.8
+        },
+        {
+          "champion": "Talon",
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Kayn",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Khazix",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 6.2
+        }
+      ]
+    },
+    "MID": {
+      "games": 14,
+      "picks": [
+        {
+          "champion": "Tristana",
+          "games": 6,
+          "rate": 42.9
+        },
+        {
+          "champion": "Lissandra",
+          "games": 2,
+          "rate": 14.3
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         },
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 8.3
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         },
         {
           "champion": "Zoe",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         }
       ]
     },
@@ -259,7 +254,7 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 8,
-      "mainLaneGames": 234,
+      "mainLaneGames": 235,
       "mainLaneNext": [
         {
           "champion": "MissFortune",
@@ -283,6 +278,11 @@
         },
         {
           "champion": "Jhin",
+          "games": 2,
+          "rate": 0.9
+        },
+        {
+          "champion": "Lucian",
           "games": 2,
           "rate": 0.9
         },
@@ -312,11 +312,6 @@
           "rate": 0.4
         },
         {
-          "champion": "Lucian",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
           "champion": "Smolder",
           "games": 1,
           "rate": 0.4
@@ -329,142 +324,137 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Chogath",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Kalista",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Tristana",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Ambessa",
-              "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Tryndamere",
-              "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Vayne",
-              "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Yone",
-              "games": 1,
-              "rate": 10.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 22,
-          "picks": [
-            {
-              "champion": "Talon",
-              "games": 5,
-              "rate": 22.7
-            },
-            {
-              "champion": "Ekko",
-              "games": 4,
-              "rate": 18.2
-            },
-            {
-              "champion": "LeeSin",
-              "games": 3,
-              "rate": 13.6
-            },
-            {
-              "champion": "Rengar",
-              "games": 3,
-              "rate": 13.6
-            },
-            {
-              "champion": "Kayn",
-              "games": 2,
-              "rate": 9.1
-            },
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 4.5
-            },
-            {
-              "champion": "Elise",
-              "games": 1,
-              "rate": 4.5
-            },
-            {
-              "champion": "Hecarim",
-              "games": 1,
-              "rate": 4.5
-            },
-            {
-              "champion": "Khazix",
-              "games": 1,
-              "rate": 4.5
-            },
-            {
-              "champion": "MonkeyKing",
-              "games": 1,
-              "rate": 4.5
-            }
-          ]
-        },
-        "MID": {
           "games": 12,
           "picks": [
             {
               "champion": "Tristana",
-              "games": 5,
-              "rate": 41.7
+              "games": 3,
+              "rate": 25.0
+            },
+            {
+              "champion": "Chogath",
+              "games": 2,
+              "rate": 16.7
+            },
+            {
+              "champion": "Kalista",
+              "games": 2,
+              "rate": 16.7
+            },
+            {
+              "champion": "Yone",
+              "games": 2,
+              "rate": 16.7
+            },
+            {
+              "champion": "Ambessa",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Tryndamere",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Vayne",
+              "games": 1,
+              "rate": 8.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 3,
+              "rate": 18.8
+            },
+            {
+              "champion": "LeeSin",
+              "games": 3,
+              "rate": 18.8
+            },
+            {
+              "champion": "Rengar",
+              "games": 3,
+              "rate": 18.8
+            },
+            {
+              "champion": "Talon",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Hecarim",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Kayn",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Khazix",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "MonkeyKing",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
+        },
+        "MID": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Tristana",
+              "games": 6,
+              "rate": 42.9
+            },
+            {
+              "champion": "Lissandra",
+              "games": 2,
+              "rate": 14.3
             },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             },
             {
               "champion": "Galio",
               "games": 1,
-              "rate": 8.3
-            },
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             },
             {
               "champion": "Zoe",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             }
           ]
         },

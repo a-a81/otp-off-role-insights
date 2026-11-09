@@ -3,82 +3,188 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Amumu",
-  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
   "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 35,
+  "players": 2,
+  "mainLaneGames": 53,
   "mainLaneNext": [
     {
       "champion": "Braum",
       "games": 2,
-      "rate": 5.7
+      "rate": 3.8
+    },
+    {
+      "champion": "Veigar",
+      "games": 2,
+      "rate": 3.8
+    },
+    {
+      "champion": "Xerath",
+      "games": 2,
+      "rate": 3.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 7,
+      "picks": [
+        {
+          "champion": "Illaoi",
+          "games": 6,
+          "rate": 85.7
+        },
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 14.3
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Shyvana",
+          "games": 4,
+          "rate": 66.7
+        },
+        {
+          "champion": "Rumble",
+          "games": 2,
+          "rate": 33.3
+        }
+      ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Illaoi",
+          "games": 4,
+          "rate": 66.7
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 16.7
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 7,
       "picks": [
         {
           "champion": "Tristana",
           "games": 3,
-          "rate": 60.0
+          "rate": 42.9
         },
         {
           "champion": "Ashe",
           "games": 2,
-          "rate": 40.0
+          "rate": 28.6
+        },
+        {
+          "champion": "Ziggs",
+          "games": 2,
+          "rate": 28.6
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 35,
+      "players": 2,
+      "mainLaneGames": 53,
       "mainLaneNext": [
         {
           "champion": "Braum",
           "games": 2,
-          "rate": 5.7
+          "rate": 3.8
+        },
+        {
+          "champion": "Veigar",
+          "games": 2,
+          "rate": 3.8
+        },
+        {
+          "champion": "Xerath",
+          "games": 2,
+          "rate": 3.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 6,
+              "rate": 85.7
+            },
+            {
+              "champion": "Maokai",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Shyvana",
+              "games": 4,
+              "rate": 66.7
+            },
+            {
+              "champion": "Rumble",
+              "games": 2,
+              "rate": 33.3
+            }
+          ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 4,
+              "rate": 66.7
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 7,
           "picks": [
             {
               "champion": "Tristana",
               "games": 3,
-              "rate": 60.0
+              "rate": 42.9
             },
             {
               "champion": "Ashe",
               "games": 2,
-              "rate": 40.0
+              "rate": 28.6
+            },
+            {
+              "champion": "Ziggs",
+              "games": 2,
+              "rate": 28.6
             }
           ]
         }

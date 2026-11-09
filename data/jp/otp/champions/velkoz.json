@@ -3,88 +3,301 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Velkoz",
-  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
-  "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 124,
+  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "mainLane": "BOTTOM",
+  "players": 5,
+  "mainLaneGames": 116,
   "mainLaneNext": [
     {
-      "champion": "Seraphine",
-      "games": 5,
-      "rate": 4.0
+      "champion": "Smolder",
+      "games": 1,
+      "rate": 0.9
     },
     {
-      "champion": "Lux",
+      "champion": "Swain",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.9
+    },
+    {
+      "champion": "Veigar",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Viktor",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Xerath",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 16,
       "picks": [
         {
+          "champion": "Shen",
+          "games": 7,
+          "rate": 43.8
+        },
+        {
+          "champion": "Malphite",
+          "games": 5,
+          "rate": 31.2
+        },
+        {
           "champion": "Velkoz",
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Cassiopeia",
           "games": 1,
-          "rate": 100.0
+          "rate": 6.2
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 6.2
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Amumu",
-          "games": 1,
+          "games": 2,
           "rate": 50.0
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 23,
       "picks": [
         {
           "champion": "Velkoz",
+          "games": 12,
+          "rate": 52.2
+        },
+        {
+          "champion": "Galio",
+          "games": 7,
+          "rate": 30.4
+        },
+        {
+          "champion": "Leblanc",
           "games": 2,
-          "rate": 100.0
+          "rate": 8.7
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 4.3
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 4.3
         }
       ]
     },
-    "BOTTOM": {
-      "games": 29,
+    "UTILITY": {
+      "games": 39,
       "picks": [
         {
           "champion": "Velkoz",
-          "games": 27,
-          "rate": 93.1
+          "games": 30,
+          "rate": 76.9
         },
         {
-          "champion": "Swain",
+          "champion": "Shen",
+          "games": 5,
+          "rate": 12.8
+        },
+        {
+          "champion": "Leona",
           "games": 2,
-          "rate": 6.9
+          "rate": 5.1
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 2.6
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 2.6
         }
       ]
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 5,
+      "mainLaneGames": 116,
+      "mainLaneNext": [
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 0.9
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 7,
+              "rate": 43.8
+            },
+            {
+              "champion": "Malphite",
+              "games": 5,
+              "rate": 31.2
+            },
+            {
+              "champion": "Velkoz",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Cassiopeia",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Amumu",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 23,
+          "picks": [
+            {
+              "champion": "Velkoz",
+              "games": 12,
+              "rate": 52.2
+            },
+            {
+              "champion": "Galio",
+              "games": 7,
+              "rate": 30.4
+            },
+            {
+              "champion": "Leblanc",
+              "games": 2,
+              "rate": 8.7
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 4.3
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 4.3
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 39,
+          "picks": [
+            {
+              "champion": "Velkoz",
+              "games": 30,
+              "rate": 76.9
+            },
+            {
+              "champion": "Shen",
+              "games": 5,
+              "rate": 12.8
+            },
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 5.1
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 2.6
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 2.6
+            }
+          ]
+        }
+      }
+    },
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 124,
+      "players": 3,
+      "mainLaneGames": 103,
       "mainLaneNext": [
         {
           "champion": "Seraphine",
           "games": 5,
-          "rate": 4.0
-        },
-        {
-          "champion": "Lux",
-          "games": 1,
-          "rate": 0.8
+          "rate": 4.9
         }
       ],
       "offLanes": {
@@ -99,19 +312,8 @@
           ]
         },
         "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Amumu",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
           "games": 2,
@@ -124,130 +326,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 29,
+          "games": 12,
           "picks": [
             {
               "champion": "Velkoz",
-              "games": 27,
-              "rate": 93.1
+              "games": 11,
+              "rate": 91.7
             },
             {
               "champion": "Swain",
-              "games": 2,
-              "rate": 6.9
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 4,
-      "mainLaneGames": 97,
-      "mainLaneNext": [
-        {
-          "champion": "Smolder",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Veigar",
-          "games": 1,
-          "rate": 1.0
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 15,
-          "picks": [
-            {
-              "champion": "Shen",
-              "games": 7,
-              "rate": 46.7
-            },
-            {
-              "champion": "Malphite",
-              "games": 5,
-              "rate": 33.3
-            },
-            {
-              "champion": "Velkoz",
-              "games": 2,
-              "rate": 13.3
-            },
-            {
-              "champion": "Sion",
               "games": 1,
-              "rate": 6.7
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 19,
-          "picks": [
-            {
-              "champion": "Velkoz",
-              "games": 8,
-              "rate": 42.1
-            },
-            {
-              "champion": "Galio",
-              "games": 7,
-              "rate": 36.8
-            },
-            {
-              "champion": "Leblanc",
-              "games": 2,
-              "rate": 10.5
-            },
-            {
-              "champion": "Ahri",
-              "games": 1,
-              "rate": 5.3
-            },
-            {
-              "champion": "Sion",
-              "games": 1,
-              "rate": 5.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 26,
-          "picks": [
-            {
-              "champion": "Velkoz",
-              "games": 17,
-              "rate": 65.4
-            },
-            {
-              "champion": "Shen",
-              "games": 5,
-              "rate": 19.2
-            },
-            {
-              "champion": "Leona",
-              "games": 2,
-              "rate": 7.7
-            },
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 3.8
-            },
-            {
-              "champion": "Karma",
-              "games": 1,
-              "rate": 3.8
+              "rate": 8.3
             }
           ]
         }

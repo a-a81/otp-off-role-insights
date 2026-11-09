@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
   "mainLaneGames": 27,
@@ -98,34 +98,27 @@
         }
       }
     },
-    "MID": {
+    "TOP": {
       "players": 1,
-      "mainLaneGames": 20,
-      "mainLaneNext": [
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 5.0
-        }
-      ],
+      "mainLaneGames": 25,
+      "mainLaneNext": [],
       "offLanes": {
-        "TOP": {
-          "games": 18,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 18,
-              "rate": 100.0
-            }
-          ]
-        },
         "JUNGLE": {
-          "games": 1,
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 13,
           "picks": [
             {
               "champion": "Heimerdinger",
+              "games": 12,
+              "rate": 92.3
+            },
+            {
+              "champion": "Malzahar",
               "games": 1,
-              "rate": 100.0
+              "rate": 7.7
             }
           ]
         },
@@ -134,8 +127,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }
