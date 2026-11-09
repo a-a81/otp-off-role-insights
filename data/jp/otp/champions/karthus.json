@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karthus",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
   "mainLane": "BOTTOM",
   "players": 3,
   "mainLaneGames": 96,
@@ -199,28 +199,18 @@
       }
     },
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 65,
+      "players": 1,
+      "mainLaneGames": 32,
       "mainLaneNext": [
-        {
-          "champion": "Shaco",
-          "games": 6,
-          "rate": 9.2
-        },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 1.5
+          "rate": 3.1
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 1.5
-        },
-        {
-          "champion": "Ekko",
-          "games": 1,
-          "rate": 1.5
+          "rate": 3.1
         }
       ],
       "offLanes": {
@@ -229,22 +219,12 @@
           "picks": []
         },
         "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Ekko",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Singed",
-              "games": 1,
-              "rate": 25.0
-            },
             {
               "champion": "Vex",
               "games": 1,
-              "rate": 25.0
+              "rate": 100.0
             }
           ]
         },
@@ -264,24 +244,8 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Leona",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Kennen",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Singed",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         }
       }
     }

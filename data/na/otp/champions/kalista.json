@@ -3,60 +3,55 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kalista",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
-  "mainLaneGames": 31,
+  "mainLaneGames": 32,
   "mainLaneNext": [
     {
       "champion": "Zeri",
-      "games": 3,
-      "rate": 9.7
-    },
-    {
-      "champion": "Viktor",
       "games": 2,
-      "rate": 6.5
+      "rate": 6.2
     },
     {
       "champion": "Caitlyn",
       "games": 1,
-      "rate": 3.2
+      "rate": 3.1
     },
     {
       "champion": "Lucian",
       "games": 1,
-      "rate": 3.2
+      "rate": 3.1
+    },
+    {
+      "champion": "Viktor",
+      "games": 1,
+      "rate": 3.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 25.0
+        },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Singed",
-          "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Tristana",
-          "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         }
       ]
     },
@@ -76,21 +71,15 @@
       ]
     },
     "MID": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Yone",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Blitzcrank",
-          "games": 1,
+          "games": 2,
           "rate": 100.0
         }
       ]
@@ -99,57 +88,52 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 31,
+      "mainLaneGames": 32,
       "mainLaneNext": [
         {
           "champion": "Zeri",
-          "games": 3,
-          "rate": 9.7
-        },
-        {
-          "champion": "Viktor",
           "games": 2,
-          "rate": 6.5
+          "rate": 6.2
         },
         {
           "champion": "Caitlyn",
           "games": 1,
-          "rate": 3.2
+          "rate": 3.1
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 3.2
+          "rate": 3.1
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 3.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Singed",
-              "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Tristana",
-              "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         },
@@ -169,21 +153,15 @@
           ]
         },
         "MID": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Yone",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Blitzcrank",
-              "games": 1,
+              "games": 2,
               "rate": 100.0
             }
           ]

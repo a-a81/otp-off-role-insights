@@ -3,59 +3,65 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayn",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
+  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
   "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 36,
+  "mainLaneGames": 33,
   "mainLaneNext": [
     {
-      "champion": "Nidalee",
+      "champion": "XinZhao",
       "games": 6,
-      "rate": 16.7
+      "rate": 18.2
     },
     {
-      "champion": "XinZhao",
+      "champion": "Nidalee",
       "games": 5,
-      "rate": 13.9
+      "rate": 15.2
     },
     {
       "champion": "LeeSin",
       "games": 2,
-      "rate": 5.6
-    },
-    {
-      "champion": "Viego",
-      "games": 2,
-      "rate": 5.6
+      "rate": 6.1
     },
     {
       "champion": "Jayce",
       "games": 1,
-      "rate": 2.8
+      "rate": 3.0
+    },
+    {
+      "champion": "Viego",
+      "games": 1,
+      "rate": 3.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Irelia",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Orianna",
+          "games": 2,
+          "rate": 40.0
+        },
         {
           "champion": "TwistedFate",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
         },
         {
           "champion": "Irelia",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Orianna",
-          "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -64,63 +70,75 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 36,
+      "mainLaneGames": 33,
       "mainLaneNext": [
         {
-          "champion": "Nidalee",
+          "champion": "XinZhao",
           "games": 6,
-          "rate": 16.7
+          "rate": 18.2
         },
         {
-          "champion": "XinZhao",
+          "champion": "Nidalee",
           "games": 5,
-          "rate": 13.9
+          "rate": 15.2
         },
         {
           "champion": "LeeSin",
           "games": 2,
-          "rate": 5.6
-        },
-        {
-          "champion": "Viego",
-          "games": 2,
-          "rate": 5.6
+          "rate": 6.1
         },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 2.8
+          "rate": 3.0
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 3.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Irelia",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Orianna",
+              "games": 2,
+              "rate": 40.0
+            },
             {
               "champion": "TwistedFate",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Irelia",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Orianna",
-              "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -129,8 +147,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Bard",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

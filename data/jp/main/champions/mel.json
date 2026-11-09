@@ -3,313 +3,80 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
-  "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 46,
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "mainLane": "BOTTOM",
+  "players": 1,
+  "mainLaneGames": 31,
   "mainLaneNext": [
     {
-      "champion": "Lux",
-      "games": 5,
-      "rate": 10.9
-    },
-    {
-      "champion": "Aurora",
+      "champion": "Annie",
       "games": 4,
-      "rate": 8.7
-    },
-    {
-      "champion": "Hwei",
-      "games": 3,
-      "rate": 6.5
-    },
-    {
-      "champion": "Lissandra",
-      "games": 2,
-      "rate": 4.3
-    },
-    {
-      "champion": "Akali",
-      "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Smolder",
-      "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Veigar",
-      "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Vex",
-      "games": 1,
-      "rate": 2.2
-    },
-    {
-      "champion": "Zoe",
-      "games": 1,
-      "rate": 2.2
+      "rate": 12.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 2,
       "picks": [
         {
-          "champion": "Aurora",
-          "games": 6,
-          "rate": 75.0
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 50.0
         },
         {
-          "champion": "Ahri",
+          "champion": "Vayne",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Akali",
-          "games": 1,
-          "rate": 12.5
+          "rate": 50.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
-          "champion": "Brand",
+          "champion": "LeeSin",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
-    "BOTTOM": {
-      "games": 6,
+    "MID": {
+      "games": 3,
       "picks": [
         {
           "champion": "Mel",
-          "games": 5,
-          "rate": 83.3
+          "games": 2,
+          "rate": 66.7
         },
         {
-          "champion": "Lux",
+          "champion": "Annie",
           "games": 1,
-          "rate": 16.7
+          "rate": 33.3
         }
       ]
     },
     "UTILITY": {
-      "games": 17,
+      "games": 2,
       "picks": [
         {
-          "champion": "Senna",
-          "games": 5,
-          "rate": 29.4
-        },
-        {
-          "champion": "Milio",
-          "games": 2,
-          "rate": 11.8
-        },
-        {
-          "champion": "Rakan",
-          "games": 2,
-          "rate": 11.8
-        },
-        {
-          "champion": "Yuumi",
-          "games": 2,
-          "rate": 11.8
-        },
-        {
-          "champion": "Alistar",
+          "champion": "Blitzcrank",
           "games": 1,
-          "rate": 5.9
+          "rate": 50.0
         },
         {
-          "champion": "Janna",
+          "champion": "Thresh",
           "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Karma",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Morgana",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Soraka",
-          "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Zoe",
-          "games": 1,
-          "rate": 5.9
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 46,
-      "mainLaneNext": [
-        {
-          "champion": "Lux",
-          "games": 5,
-          "rate": 10.9
-        },
-        {
-          "champion": "Aurora",
-          "games": 4,
-          "rate": 8.7
-        },
-        {
-          "champion": "Hwei",
-          "games": 3,
-          "rate": 6.5
-        },
-        {
-          "champion": "Lissandra",
-          "games": 2,
-          "rate": 4.3
-        },
-        {
-          "champion": "Akali",
-          "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Smolder",
-          "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Veigar",
-          "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Vex",
-          "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Zoe",
-          "games": 1,
-          "rate": 2.2
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Aurora",
-              "games": 6,
-              "rate": 75.0
-            },
-            {
-              "champion": "Ahri",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Akali",
-              "games": 1,
-              "rate": 12.5
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Mel",
-              "games": 5,
-              "rate": 83.3
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 17,
-          "picks": [
-            {
-              "champion": "Senna",
-              "games": 5,
-              "rate": 29.4
-            },
-            {
-              "champion": "Milio",
-              "games": 2,
-              "rate": 11.8
-            },
-            {
-              "champion": "Rakan",
-              "games": 2,
-              "rate": 11.8
-            },
-            {
-              "champion": "Yuumi",
-              "games": 2,
-              "rate": 11.8
-            },
-            {
-              "champion": "Alistar",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Janna",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Karma",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Soraka",
-              "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Zoe",
-              "games": 1,
-              "rate": 5.9
-            }
-          ]
-        }
-      }
-    },
     "BOTTOM": {
       "players": 1,
       "mainLaneGames": 31,
@@ -378,6 +145,84 @@
               "champion": "Thresh",
               "games": 1,
               "rate": 50.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 29,
+      "mainLaneNext": [
+        {
+          "champion": "Lux",
+          "games": 5,
+          "rate": 17.2
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 3.4
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 3.4
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Mel",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

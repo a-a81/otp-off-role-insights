@@ -3,121 +3,36 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
-  "mainLane": "TOP",
+  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 30,
-  "mainLaneNext": [
-    {
-      "champion": "Gnar",
-      "games": 5,
-      "rate": 16.7
-    },
-    {
-      "champion": "DrMundo",
-      "games": 1,
-      "rate": 3.3
-    },
-    {
-      "champion": "Yone",
-      "games": 1,
-      "rate": 3.3
-    }
-  ],
+  "mainLaneGames": 29,
+  "mainLaneNext": [],
   "offLanes": {
-    "JUNGLE": {
-      "games": 1,
+    "TOP": {
+      "games": 11,
       "picks": [
         {
           "champion": "Zac",
-          "games": 1,
+          "games": 11,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Zac",
-          "games": 4,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
       "games": 0,
       "picks": []
     },
     "UTILITY": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Zac",
-          "games": 4,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 30,
-      "mainLaneNext": [
-        {
-          "champion": "Gnar",
-          "games": 5,
-          "rate": 16.7
-        },
-        {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 3.3
-        },
-        {
-          "champion": "Yone",
-          "games": 1,
-          "rate": 3.3
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Zac",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Zac",
-              "games": 4,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Zac",
-              "games": 4,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 29,
@@ -144,6 +59,63 @@
         "UTILITY": {
           "games": 0,
           "picks": []
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 29,
+      "mainLaneNext": [
+        {
+          "champion": "Gnar",
+          "games": 5,
+          "rate": 17.2
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 3.4
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 3.4
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

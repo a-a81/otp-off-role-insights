@@ -3,65 +3,49 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Varus",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
-  "mainLane": "BOTTOM",
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 31,
+  "mainLaneGames": 25,
   "mainLaneNext": [
     {
-      "champion": "Ezreal",
-      "games": 3,
-      "rate": 9.7
-    },
-    {
-      "champion": "Jhin",
-      "games": 2,
-      "rate": 6.5
-    },
-    {
-      "champion": "Lucian",
+      "champion": "Pantheon",
       "games": 1,
-      "rate": 3.2
-    },
-    {
-      "champion": "Yunara",
-      "games": 1,
-      "rate": 3.2
+      "rate": 4.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 7,
       "picks": [
         {
           "champion": "Varus",
+          "games": 4,
+          "rate": 57.1
+        },
+        {
+          "champion": "Quinn",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Yorick",
           "games": 1,
-          "rate": 100.0
+          "rate": 14.3
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "LeeSin",
-          "games": 2,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
-    "MID": {
-      "games": 3,
+    "BOTTOM": {
+      "games": 4,
       "picks": [
-        {
-          "champion": "Xerath",
-          "games": 2,
-          "rate": 66.7
-        },
         {
           "champion": "Varus",
-          "games": 1,
-          "rate": 33.3
+          "games": 4,
+          "rate": 100.0
         }
       ]
     },
@@ -69,12 +53,12 @@
       "games": 3,
       "picks": [
         {
-          "champion": "Blitzcrank",
+          "champion": "Varus",
           "games": 2,
           "rate": 66.7
         },
         {
-          "champion": "Xerath",
+          "champion": "Pantheon",
           "games": 1,
           "rate": 33.3
         }
@@ -82,84 +66,6 @@
     }
   },
   "byMainLane": {
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
-      "mainLaneNext": [
-        {
-          "champion": "Ezreal",
-          "games": 3,
-          "rate": 9.7
-        },
-        {
-          "champion": "Jhin",
-          "games": 2,
-          "rate": 6.5
-        },
-        {
-          "champion": "Lucian",
-          "games": 1,
-          "rate": 3.2
-        },
-        {
-          "champion": "Yunara",
-          "games": 1,
-          "rate": 3.2
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Varus",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "LeeSin",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Xerath",
-              "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Varus",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Blitzcrank",
-              "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        }
-      }
-    },
     "MID": {
       "players": 1,
       "mainLaneGames": 25,
@@ -172,22 +78,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 7,
           "picks": [
             {
               "champion": "Varus",
-              "games": 3,
-              "rate": 50.0
+              "games": 4,
+              "rate": 57.1
             },
             {
               "champion": "Quinn",
               "games": 2,
-              "rate": 33.3
+              "rate": 28.6
             },
             {
               "champion": "Yorick",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             }
           ]
         },
@@ -196,11 +102,11 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Varus",
-              "games": 5,
+              "games": 4,
               "rate": 100.0
             }
           ]

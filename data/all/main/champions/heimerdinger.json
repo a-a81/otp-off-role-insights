@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "MID",
   "players": 4,
-  "mainLaneGames": 96,
+  "mainLaneGames": 95,
   "mainLaneNext": [
     {
       "champion": "Malzahar",
@@ -16,12 +16,12 @@
     {
       "champion": "Mordekaiser",
       "games": 1,
-      "rate": 1.0
+      "rate": 1.1
     },
     {
       "champion": "Yone",
       "games": 1,
-      "rate": 1.0
+      "rate": 1.1
     }
   ],
   "offLanes": {
@@ -114,7 +114,7 @@
   "byMainLane": {
     "MID": {
       "players": 4,
-      "mainLaneGames": 96,
+      "mainLaneGames": 95,
       "mainLaneNext": [
         {
           "champion": "Malzahar",
@@ -124,12 +124,12 @@
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 1.0
+          "rate": 1.1
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 1.0
+          "rate": 1.1
         }
       ],
       "offLanes": {
@@ -222,17 +222,12 @@
     },
     "TOP": {
       "players": 3,
-      "mainLaneGames": 100,
+      "mainLaneGames": 99,
       "mainLaneNext": [
         {
           "champion": "Gangplank",
           "games": 16,
-          "rate": 16.0
-        },
-        {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 1.0
+          "rate": 16.2
         },
         {
           "champion": "Kennen",
@@ -262,22 +257,27 @@
           ]
         },
         "MID": {
-          "games": 8,
+          "games": 10,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 6,
-              "rate": 75.0
+              "games": 7,
+              "rate": 70.0
             },
             {
               "champion": "Lissandra",
               "games": 1,
-              "rate": 12.5
+              "rate": 10.0
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 12.5
+              "rate": 10.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         },
@@ -292,17 +292,17 @@
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 6,
-              "rate": 75.0
+              "games": 5,
+              "rate": 71.4
             },
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 25.0
+              "rate": 28.6
             }
           ]
         }
@@ -310,7 +310,7 @@
     },
     "BOTTOM": {
       "players": 3,
-      "mainLaneGames": 93,
+      "mainLaneGames": 90,
       "mainLaneNext": [],
       "offLanes": {
         "TOP": {
@@ -344,11 +344,11 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 8,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 5,
+              "games": 8,
               "rate": 100.0
             }
           ]

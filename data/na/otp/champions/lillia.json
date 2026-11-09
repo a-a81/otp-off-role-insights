@@ -1,17 +1,22 @@
 {
-  "region": "KR",
-  "platform": "KR",
+  "region": "NA",
+  "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lillia",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 35,
+  "mainLaneGames": 38,
   "mainLaneNext": [
     {
-      "champion": "Zed",
-      "games": 16,
-      "rate": 45.7
+      "champion": "Elise",
+      "games": 7,
+      "rate": 18.4
+    },
+    {
+      "champion": "Hecarim",
+      "games": 1,
+      "rate": 2.6
     }
   ],
   "offLanes": {
@@ -20,22 +25,12 @@
       "picks": []
     },
     "MID": {
-      "games": 3,
+      "games": 1,
       "picks": [
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Zed",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
@@ -51,12 +46,17 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 35,
+      "mainLaneGames": 38,
       "mainLaneNext": [
         {
-          "champion": "Zed",
-          "games": 16,
-          "rate": 45.7
+          "champion": "Elise",
+          "games": 7,
+          "rate": 18.4
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 2.6
         }
       ],
       "offLanes": {
@@ -65,22 +65,12 @@
           "picks": []
         },
         "MID": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Sion",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Zed",
-              "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
@@ -95,6 +85,6 @@
       }
     }
   },
-  "profile": "main",
-  "minRate": 0.3
+  "profile": "otp",
+  "minRate": 0.75
 }

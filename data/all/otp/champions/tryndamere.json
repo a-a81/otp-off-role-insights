@@ -3,85 +3,100 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tryndamere",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "TOP",
-  "players": 8,
-  "mainLaneGames": 262,
+  "players": 9,
+  "mainLaneGames": 290,
   "mainLaneNext": [
     {
       "champion": "DrMundo",
       "games": 4,
-      "rate": 1.5
+      "rate": 1.4
     },
     {
       "champion": "Chogath",
       "games": 3,
-      "rate": 1.1
+      "rate": 1.0
     },
     {
       "champion": "Malphite",
       "games": 3,
-      "rate": 1.1
+      "rate": 1.0
+    },
+    {
+      "champion": "Renekton",
+      "games": 3,
+      "rate": 1.0
     },
     {
       "champion": "Jax",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
+    },
+    {
+      "champion": "KogMaw",
+      "games": 2,
+      "rate": 0.7
     },
     {
       "champion": "Pantheon",
       "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Renekton",
-      "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Shen",
       "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Yone",
-      "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Aatrox",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "AurelionSol",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "Garen",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "Gnar",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
+    },
+    {
+      "champion": "Kayle",
+      "games": 1,
+      "rate": 0.3
     },
     {
       "champion": "Nasus",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
     },
     {
       "champion": "Ryze",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
+    },
+    {
+      "champion": "Singed",
+      "games": 1,
+      "rate": 0.3
     },
     {
       "champion": "Sylas",
       "games": 1,
-      "rate": 0.4
+      "rate": 0.3
+    },
+    {
+      "champion": "Yone",
+      "games": 1,
+      "rate": 0.3
     }
   ],
   "offLanes": {
@@ -106,12 +121,37 @@
       ]
     },
     "MID": {
-      "games": 20,
+      "games": 19,
       "picks": [
         {
           "champion": "Tryndamere",
-          "games": 17,
-          "rate": 85.0
+          "games": 16,
+          "rate": 84.2
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 2,
+          "rate": 10.5
+        },
+        {
+          "champion": "Kassadin",
+          "games": 1,
+          "rate": 5.3
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 20,
+      "picks": [
+        {
+          "champion": "KogMaw",
+          "games": 12,
+          "rate": 60.0
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "AurelionSol",
@@ -119,172 +159,172 @@
           "rate": 10.0
         },
         {
-          "champion": "Kassadin",
+          "champion": "Caitlyn",
+          "games": 1,
+          "rate": 5.0
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 5.0
+        },
+        {
+          "champion": "Xayah",
           "games": 1,
           "rate": 5.0
         }
       ]
     },
-    "BOTTOM": {
-      "games": 8,
-      "picks": [
-        {
-          "champion": "Tryndamere",
-          "games": 3,
-          "rate": 37.5
-        },
-        {
-          "champion": "AurelionSol",
-          "games": 2,
-          "rate": 25.0
-        },
-        {
-          "champion": "Caitlyn",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Viktor",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Xayah",
-          "games": 1,
-          "rate": 12.5
-        }
-      ]
-    },
     "UTILITY": {
-      "games": 18,
+      "games": 19,
       "picks": [
         {
           "champion": "Tryndamere",
           "games": 4,
-          "rate": 22.2
+          "rate": 21.1
         },
         {
           "champion": "Taric",
           "games": 3,
-          "rate": 16.7
+          "rate": 15.8
         },
         {
           "champion": "Alistar",
           "games": 2,
-          "rate": 11.1
+          "rate": 10.5
         },
         {
           "champion": "Bard",
           "games": 2,
-          "rate": 11.1
+          "rate": 10.5
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 2,
+          "rate": 10.5
         },
         {
           "champion": "Camille",
           "games": 2,
-          "rate": 11.1
-        },
-        {
-          "champion": "Rakan",
-          "games": 2,
-          "rate": 11.1
-        },
-        {
-          "champion": "Blitzcrank",
-          "games": 1,
-          "rate": 5.6
+          "rate": 10.5
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 5.3
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 5.3
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 8,
-      "mainLaneGames": 262,
+      "players": 9,
+      "mainLaneGames": 290,
       "mainLaneNext": [
         {
           "champion": "DrMundo",
           "games": 4,
-          "rate": 1.5
+          "rate": 1.4
         },
         {
           "champion": "Chogath",
           "games": 3,
-          "rate": 1.1
+          "rate": 1.0
         },
         {
           "champion": "Malphite",
           "games": 3,
-          "rate": 1.1
+          "rate": 1.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 3,
+          "rate": 1.0
         },
         {
           "champion": "Jax",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
+        },
+        {
+          "champion": "KogMaw",
+          "games": 2,
+          "rate": 0.7
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Renekton",
-          "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Shen",
           "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Yone",
-          "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "AurelionSol",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "Gnar",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
+        },
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 0.3
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
         },
         {
           "champion": "Ryze",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
+        },
+        {
+          "champion": "Singed",
+          "games": 1,
+          "rate": 0.3
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 0.4
+          "rate": 0.3
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 0.3
         }
       ],
       "offLanes": {
@@ -309,12 +349,37 @@
           ]
         },
         "MID": {
-          "games": 20,
+          "games": 19,
           "picks": [
             {
               "champion": "Tryndamere",
-              "games": 17,
-              "rate": 85.0
+              "games": 16,
+              "rate": 84.2
+            },
+            {
+              "champion": "AurelionSol",
+              "games": 2,
+              "rate": 10.5
+            },
+            {
+              "champion": "Kassadin",
+              "games": 1,
+              "rate": 5.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 20,
+          "picks": [
+            {
+              "champion": "KogMaw",
+              "games": 12,
+              "rate": 60.0
+            },
+            {
+              "champion": "Tryndamere",
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "AurelionSol",
@@ -322,89 +387,74 @@
               "rate": 10.0
             },
             {
-              "champion": "Kassadin",
+              "champion": "Caitlyn",
+              "games": 1,
+              "rate": 5.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 5.0
+            },
+            {
+              "champion": "Xayah",
               "games": 1,
               "rate": 5.0
             }
           ]
         },
-        "BOTTOM": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Tryndamere",
-              "games": 3,
-              "rate": 37.5
-            },
-            {
-              "champion": "AurelionSol",
-              "games": 2,
-              "rate": 25.0
-            },
-            {
-              "champion": "Caitlyn",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Xayah",
-              "games": 1,
-              "rate": 12.5
-            }
-          ]
-        },
         "UTILITY": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Tryndamere",
               "games": 4,
-              "rate": 22.2
+              "rate": 21.1
             },
             {
               "champion": "Taric",
               "games": 3,
-              "rate": 16.7
+              "rate": 15.8
             },
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 11.1
+              "rate": 10.5
             },
             {
               "champion": "Bard",
               "games": 2,
-              "rate": 11.1
+              "rate": 10.5
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 2,
+              "rate": 10.5
             },
             {
               "champion": "Camille",
               "games": 2,
-              "rate": 11.1
-            },
-            {
-              "champion": "Rakan",
-              "games": 2,
-              "rate": 11.1
-            },
-            {
-              "champion": "Blitzcrank",
-              "games": 1,
-              "rate": 5.6
+              "rate": 10.5
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
+            },
+            {
+              "champion": "Rakan",
+              "games": 1,
+              "rate": 5.3
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 5.3
             }
           ]
         }
@@ -412,17 +462,17 @@
     },
     "MID": {
       "players": 4,
-      "mainLaneGames": 85,
+      "mainLaneGames": 86,
       "mainLaneNext": [
         {
           "champion": "Cassiopeia",
           "games": 2,
-          "rate": 2.4
+          "rate": 2.3
         },
         {
           "champion": "Garen",
           "games": 2,
-          "rate": 2.4
+          "rate": 2.3
         },
         {
           "champion": "Ambessa",
@@ -437,12 +487,12 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 57,
+          "games": 56,
           "picks": [
             {
               "champion": "Tryndamere",
-              "games": 55,
-              "rate": 96.5
+              "games": 54,
+              "rate": 96.4
             },
             {
               "champion": "Renekton",

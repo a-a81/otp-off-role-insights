@@ -3,30 +3,85 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viktor",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
-  "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
+  "mainLane": "MID",
+  "players": 2,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
-      "champion": "Jinx",
-      "games": 5,
-      "rate": 16.1
+      "champion": "Kassadin",
+      "games": 4,
+      "rate": 7.0
     },
     {
-      "champion": "Yunara",
+      "champion": "Sylas",
       "games": 2,
-      "rate": 6.5
+      "rate": 3.5
+    },
+    {
+      "champion": "Ahri",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Malphite",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Nasus",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Talon",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Xerath",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Yasuo",
+      "games": 1,
+      "rate": 1.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 18,
       "picks": [
         {
-          "champion": "Garen",
+          "champion": "Jayce",
+          "games": 8,
+          "rate": 44.4
+        },
+        {
+          "champion": "Viktor",
+          "games": 4,
+          "rate": 22.2
+        },
+        {
+          "champion": "Cassiopeia",
+          "games": 3,
+          "rate": 16.7
+        },
+        {
+          "champion": "Kayle",
           "games": 1,
-          "rate": 100.0
+          "rate": 5.6
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 5.6
         }
       ]
     },
@@ -34,28 +89,155 @@
       "games": 0,
       "picks": []
     },
-    "MID": {
-      "games": 7,
+    "BOTTOM": {
+      "games": 1,
       "picks": [
         {
           "champion": "Viktor",
-          "games": 7,
+          "games": 1,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
-          "champion": "Nautilus",
+          "champion": "Elise",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Soraka",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 57,
+      "mainLaneNext": [
+        {
+          "champion": "Kassadin",
+          "games": 4,
+          "rate": 7.0
+        },
+        {
+          "champion": "Sylas",
+          "games": 2,
+          "rate": 3.5
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1,
+          "rate": 1.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 18,
+          "picks": [
+            {
+              "champion": "Jayce",
+              "games": 8,
+              "rate": 44.4
+            },
+            {
+              "champion": "Viktor",
+              "games": 4,
+              "rate": 22.2
+            },
+            {
+              "champion": "Cassiopeia",
+              "games": 3,
+              "rate": 16.7
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 5.6
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Elise",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
     "BOTTOM": {
       "players": 1,
       "mainLaneGames": 31,
@@ -101,62 +283,6 @@
           "picks": [
             {
               "champion": "Nautilus",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 25,
-      "mainLaneNext": [
-        {
-          "champion": "Kassadin",
-          "games": 4,
-          "rate": 16.0
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 14,
-          "picks": [
-            {
-              "champion": "Jayce",
-              "games": 8,
-              "rate": 57.1
-            },
-            {
-              "champion": "Cassiopeia",
-              "games": 3,
-              "rate": 21.4
-            },
-            {
-              "champion": "Viktor",
-              "games": 2,
-              "rate": 14.3
-            },
-            {
-              "champion": "Yone",
-              "games": 1,
-              "rate": 7.1
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Elise",
               "games": 1,
               "rate": 100.0
             }

@@ -3,15 +3,25 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kassadin",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 57,
+  "mainLaneGames": 55,
   "mainLaneNext": [
     {
       "champion": "TwistedFate",
-      "games": 3,
-      "rate": 5.3
+      "games": 2,
+      "rate": 3.6
+    },
+    {
+      "champion": "AurelionSol",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Malzahar",
+      "games": 1,
+      "rate": 1.8
     },
     {
       "champion": "Smolder",
@@ -21,27 +31,32 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Kassadin",
           "games": 2,
-          "rate": 40.0
+          "rate": 33.3
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
+        },
+        {
+          "champion": "Gwen",
+          "games": 1,
+          "rate": 16.7
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         }
       ]
     },
@@ -101,17 +116,17 @@
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Leona",
-          "games": 3,
-          "rate": 60.0
+          "games": 4,
+          "rate": 66.7
         },
         {
           "champion": "Fizz",
           "games": 2,
-          "rate": 40.0
+          "rate": 33.3
         }
       ]
     }
@@ -119,12 +134,22 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 57,
+      "mainLaneGames": 55,
       "mainLaneNext": [
         {
           "champion": "TwistedFate",
-          "games": 3,
-          "rate": 5.3
+          "games": 2,
+          "rate": 3.6
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 1.8
         },
         {
           "champion": "Smolder",
@@ -134,27 +159,32 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Kassadin",
               "games": 2,
-              "rate": 40.0
+              "rate": 33.3
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
+            },
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 16.7
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             }
           ]
         },
@@ -214,17 +244,17 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Leona",
-              "games": 3,
-              "rate": 60.0
+              "games": 4,
+              "rate": 66.7
             },
             {
               "champion": "Fizz",
               "games": 2,
-              "rate": 40.0
+              "rate": 33.3
             }
           ]
         }

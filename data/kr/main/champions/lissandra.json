@@ -3,25 +3,30 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lissandra",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
+  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
   "mainLane": "MID",
   "players": 5,
   "mainLaneGames": 133,
   "mainLaneNext": [
     {
-      "champion": "Galio",
+      "champion": "Hwei",
       "games": 7,
       "rate": 5.3
+    },
+    {
+      "champion": "Galio",
+      "games": 5,
+      "rate": 3.8
     },
     {
       "champion": "Taliyah",
-      "games": 7,
-      "rate": 5.3
+      "games": 4,
+      "rate": 3.0
     },
     {
-      "champion": "Hwei",
-      "games": 5,
-      "rate": 3.8
+      "champion": "Velkoz",
+      "games": 4,
+      "rate": 3.0
     },
     {
       "champion": "Syndra",
@@ -30,11 +35,6 @@
     },
     {
       "champion": "Jayce",
-      "games": 2,
-      "rate": 1.5
-    },
-    {
-      "champion": "Malzahar",
       "games": 2,
       "rate": 1.5
     },
@@ -64,6 +64,16 @@
       "rate": 0.8
     },
     {
+      "champion": "Malzahar",
+      "games": 1,
+      "rate": 0.8
+    },
+    {
+      "champion": "Nocturne",
+      "games": 1,
+      "rate": 0.8
+    },
+    {
       "champion": "Pantheon",
       "games": 1,
       "rate": 0.8
@@ -81,17 +91,17 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 23,
+      "games": 24,
       "picks": [
         {
           "champion": "Lissandra",
-          "games": 22,
-          "rate": 95.7
+          "games": 23,
+          "rate": 95.8
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 4.3
+          "rate": 4.2
         }
       ]
     },
@@ -125,11 +135,16 @@
         },
         {
           "champion": "MissFortune",
-          "games": 5,
-          "rate": 35.7
+          "games": 4,
+          "rate": 28.6
         },
         {
           "champion": "Veigar",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Velkoz",
           "games": 1,
           "rate": 7.1
         },
@@ -141,57 +156,52 @@
       ]
     },
     "UTILITY": {
-      "games": 24,
+      "games": 23,
       "picks": [
         {
           "champion": "Hwei",
           "games": 4,
-          "rate": 16.7
+          "rate": 17.4
         },
         {
           "champion": "Pantheon",
           "games": 4,
-          "rate": 16.7
+          "rate": 17.4
         },
         {
           "champion": "Thresh",
           "games": 4,
-          "rate": 16.7
+          "rate": 17.4
+        },
+        {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 13.0
         },
         {
           "champion": "Zilean",
           "games": 3,
-          "rate": 12.5
-        },
-        {
-          "champion": "Braum",
-          "games": 2,
-          "rate": 8.3
-        },
-        {
-          "champion": "Leona",
-          "games": 2,
-          "rate": 8.3
+          "rate": 13.0
         },
         {
           "champion": "Lissandra",
           "games": 2,
-          "rate": 8.3
+          "rate": 8.7
         },
         {
-          "champion": "Nautilus",
+          "champion": "Braum",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
-          "champion": "Seraphine",
+          "champion": "Leona",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         }
       ]
     }
@@ -202,19 +212,24 @@
       "mainLaneGames": 133,
       "mainLaneNext": [
         {
-          "champion": "Galio",
+          "champion": "Hwei",
           "games": 7,
           "rate": 5.3
+        },
+        {
+          "champion": "Galio",
+          "games": 5,
+          "rate": 3.8
         },
         {
           "champion": "Taliyah",
-          "games": 7,
-          "rate": 5.3
+          "games": 4,
+          "rate": 3.0
         },
         {
-          "champion": "Hwei",
-          "games": 5,
-          "rate": 3.8
+          "champion": "Velkoz",
+          "games": 4,
+          "rate": 3.0
         },
         {
           "champion": "Syndra",
@@ -223,11 +238,6 @@
         },
         {
           "champion": "Jayce",
-          "games": 2,
-          "rate": 1.5
-        },
-        {
-          "champion": "Malzahar",
           "games": 2,
           "rate": 1.5
         },
@@ -257,6 +267,16 @@
           "rate": 0.8
         },
         {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 0.8
+        },
+        {
+          "champion": "Nocturne",
+          "games": 1,
+          "rate": 0.8
+        },
+        {
           "champion": "Pantheon",
           "games": 1,
           "rate": 0.8
@@ -274,17 +294,17 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 23,
+          "games": 24,
           "picks": [
             {
               "champion": "Lissandra",
-              "games": 22,
-              "rate": 95.7
+              "games": 23,
+              "rate": 95.8
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 4.3
+              "rate": 4.2
             }
           ]
         },
@@ -318,11 +338,16 @@
             },
             {
               "champion": "MissFortune",
-              "games": 5,
-              "rate": 35.7
+              "games": 4,
+              "rate": 28.6
             },
             {
               "champion": "Veigar",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Velkoz",
               "games": 1,
               "rate": 7.1
             },
@@ -334,57 +359,52 @@
           ]
         },
         "UTILITY": {
-          "games": 24,
+          "games": 23,
           "picks": [
             {
               "champion": "Hwei",
               "games": 4,
-              "rate": 16.7
+              "rate": 17.4
             },
             {
               "champion": "Pantheon",
               "games": 4,
-              "rate": 16.7
+              "rate": 17.4
             },
             {
               "champion": "Thresh",
               "games": 4,
-              "rate": 16.7
+              "rate": 17.4
+            },
+            {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 13.0
             },
             {
               "champion": "Zilean",
               "games": 3,
-              "rate": 12.5
-            },
-            {
-              "champion": "Braum",
-              "games": 2,
-              "rate": 8.3
-            },
-            {
-              "champion": "Leona",
-              "games": 2,
-              "rate": 8.3
+              "rate": 13.0
             },
             {
               "champion": "Lissandra",
               "games": 2,
-              "rate": 8.3
+              "rate": 8.7
             },
             {
-              "champion": "Nautilus",
+              "champion": "Braum",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
-              "champion": "Seraphine",
+              "champion": "Leona",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             }
           ]
         }

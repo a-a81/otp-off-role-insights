@@ -3,88 +3,107 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Swain",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
+  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 23,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 39,
+  "mainLaneNext": [
+    {
+      "champion": "KogMaw",
+      "games": 4,
+      "rate": 10.3
+    },
+    {
+      "champion": "Corki",
+      "games": 1,
+      "rate": 2.6
+    },
+    {
+      "champion": "Yunara",
+      "games": 1,
+      "rate": 2.6
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Swain",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "KSante",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
     },
     "JUNGLE": {
       "games": 0,
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
-    },
-    "UTILITY": {
-      "games": 17,
+      "games": 14,
       "picks": [
         {
           "champion": "Swain",
-          "games": 17,
-          "rate": 100.0
+          "games": 7,
+          "rate": 50.0
+        },
+        {
+          "champion": "Vex",
+          "games": 3,
+          "rate": 21.4
+        },
+        {
+          "champion": "Ambessa",
+          "games": 2,
+          "rate": 14.3
+        },
+        {
+          "champion": "KogMaw",
+          "games": 2,
+          "rate": 14.3
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 22,
+      "picks": [
+        {
+          "champion": "Swain",
+          "games": 21,
+          "rate": 95.5
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 4.5
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 23,
-      "mainLaneNext": [],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 17,
-          "picks": [
-            {
-              "champion": "Swain",
-              "games": 17,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 21,
+      "players": 2,
+      "mainLaneGames": 39,
       "mainLaneNext": [
         {
-          "champion": "KSante",
-          "games": 3,
-          "rate": 14.3
-        },
-        {
-          "champion": "Vex",
-          "games": 3,
-          "rate": 14.3
-        },
-        {
-          "champion": "Ambessa",
-          "games": 1,
-          "rate": 4.8
-        },
-        {
           "champion": "KogMaw",
+          "games": 4,
+          "rate": 10.3
+        },
+        {
+          "champion": "Corki",
           "games": 1,
-          "rate": 4.8
+          "rate": 2.6
+        },
+        {
+          "champion": "Yunara",
+          "games": 1,
+          "rate": 2.6
         }
       ],
       "offLanes": {
@@ -97,39 +116,53 @@
               "rate": 75.0
             },
             {
-              "champion": "Ambessa",
+              "champion": "KSante",
               "games": 1,
               "rate": 25.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Ambessa",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
-        "BOTTOM": {
-          "games": 7,
+        "MID": {
+          "games": 14,
           "picks": [
             {
               "champion": "Swain",
               "games": 7,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Vex",
+              "games": 3,
+              "rate": 21.4
+            },
+            {
+              "champion": "Ambessa",
+              "games": 2,
+              "rate": 14.3
+            },
+            {
+              "champion": "KogMaw",
+              "games": 2,
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 22,
           "picks": [
             {
               "champion": "Swain",
-              "games": 6,
-              "rate": 100.0
+              "games": 21,
+              "rate": 95.5
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 4.5
             }
           ]
         }

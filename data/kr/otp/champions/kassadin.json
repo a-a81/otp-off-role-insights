@@ -3,30 +3,40 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kassadin",
-  "updatedAt": "2026-11-07T21:43:06.640207+00:00",
+  "updatedAt": "2026-11-09T10:18:45.353675+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 32,
+  "mainLaneGames": 28,
   "mainLaneNext": [
     {
       "champion": "Ryze",
       "games": 1,
-      "rate": 3.1
+      "rate": 3.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 8,
       "picks": [
         {
           "champion": "Kassadin",
-          "games": 3,
-          "rate": 75.0
+          "games": 5,
+          "rate": 62.5
+        },
+        {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 12.5
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 25.0
+          "rate": 12.5
         }
       ]
     },
@@ -68,27 +78,37 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 32,
+      "mainLaneGames": 28,
       "mainLaneNext": [
         {
           "champion": "Ryze",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Kassadin",
-              "games": 3,
-              "rate": 75.0
+              "games": 5,
+              "rate": 62.5
+            },
+            {
+              "champion": "Kennen",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 12.5
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 25.0
+              "rate": 12.5
             }
           ]
         },

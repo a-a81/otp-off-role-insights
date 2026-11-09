@@ -3,45 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Aurora",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 28,
+  "mainLaneGames": 27,
   "mainLaneNext": [
     {
       "champion": "Vex",
       "games": 6,
-      "rate": 21.4
+      "rate": 22.2
     },
     {
       "champion": "Neeko",
-      "games": 2,
-      "rate": 7.1
+      "games": 3,
+      "rate": 11.1
     },
     {
       "champion": "Taliyah",
       "games": 2,
-      "rate": 7.1
+      "rate": 7.4
     },
     {
       "champion": "Morgana",
       "games": 1,
-      "rate": 3.6
+      "rate": 3.7
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "Aurora",
           "games": 7,
-          "rate": 87.5
+          "rate": 77.8
+        },
+        {
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 11.1
         },
         {
           "champion": "Vex",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         }
       ]
     },
@@ -83,42 +88,47 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 28,
+      "mainLaneGames": 27,
       "mainLaneNext": [
         {
           "champion": "Vex",
           "games": 6,
-          "rate": 21.4
+          "rate": 22.2
         },
         {
           "champion": "Neeko",
-          "games": 2,
-          "rate": 7.1
+          "games": 3,
+          "rate": 11.1
         },
         {
           "champion": "Taliyah",
           "games": 2,
-          "rate": 7.1
+          "rate": 7.4
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Aurora",
               "games": 7,
-              "rate": 87.5
+              "rate": 77.8
+            },
+            {
+              "champion": "Leblanc",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Vex",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             }
           ]
         },
@@ -153,6 +163,58 @@
               "champion": "Milio",
               "games": 1,
               "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 26,
+      "mainLaneNext": [],
+      "offLanes": {
+        "TOP": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Aurora",
+              "games": 3,
+              "rate": 60.0
+            },
+            {
+              "champion": "Kayn",
+              "games": 2,
+              "rate": 40.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Kayn",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Aurora",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 2,
+              "rate": 100.0
             }
           ]
         }

@@ -3,45 +3,80 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sejuani",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 60,
+  "players": 3,
+  "mainLaneGames": 86,
   "mainLaneNext": [
     {
       "champion": "Zac",
       "games": 6,
-      "rate": 10.0
+      "rate": 7.0
+    },
+    {
+      "champion": "Pantheon",
+      "games": 3,
+      "rate": 3.5
     },
     {
       "champion": "Trundle",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.2
+    },
+    {
+      "champion": "XinZhao",
+      "games": 1,
+      "rate": 1.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Malphite",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 13,
       "picks": [
         {
+          "champion": "Ambessa",
+          "games": 6,
+          "rate": 46.2
+        },
+        {
+          "champion": "Aurora",
+          "games": 3,
+          "rate": 23.1
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Sejuani",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
           "champion": "Taliyah",
-          "games": 2,
-          "rate": 66.7
+          "games": 1,
+          "rate": 7.7
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 33.3
+          "rate": 7.7
         }
       ]
     },
@@ -56,65 +91,110 @@
       ]
     },
     "UTILITY": {
-      "games": 12,
+      "games": 15,
       "picks": [
         {
           "champion": "Zac",
           "games": 6,
-          "rate": 50.0
+          "rate": 40.0
         },
         {
           "champion": "Braum",
           "games": 4,
-          "rate": 33.3
+          "rate": 26.7
+        },
+        {
+          "champion": "Karma",
+          "games": 2,
+          "rate": 13.3
         },
         {
           "champion": "Sejuani",
           "games": 2,
-          "rate": 16.7
+          "rate": 13.3
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 6.7
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 60,
+      "players": 3,
+      "mainLaneGames": 86,
       "mainLaneNext": [
         {
           "champion": "Zac",
           "games": 6,
-          "rate": 10.0
+          "rate": 7.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 3,
+          "rate": 3.5
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.2
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1,
+          "rate": 1.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Ambessa",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 13,
           "picks": [
             {
+              "champion": "Ambessa",
+              "games": 6,
+              "rate": 46.2
+            },
+            {
+              "champion": "Aurora",
+              "games": 3,
+              "rate": 23.1
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Sejuani",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
               "champion": "Taliyah",
-              "games": 2,
-              "rate": 66.7
+              "games": 1,
+              "rate": 7.7
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 33.3
+              "rate": 7.7
             }
           ]
         },
@@ -129,22 +209,32 @@
           ]
         },
         "UTILITY": {
-          "games": 12,
+          "games": 15,
           "picks": [
             {
               "champion": "Zac",
               "games": 6,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Braum",
               "games": 4,
-              "rate": 33.3
+              "rate": 26.7
+            },
+            {
+              "champion": "Karma",
+              "games": 2,
+              "rate": 13.3
             },
             {
               "champion": "Sejuani",
               "games": 2,
-              "rate": 16.7
+              "rate": 13.3
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         }
@@ -181,15 +271,15 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 22,
+      "mainLaneGames": 21,
       "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 12,
           "picks": [
             {
               "champion": "Sejuani",
-              "games": 11,
+              "games": 12,
               "rate": 100.0
             }
           ]

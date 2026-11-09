@@ -3,84 +3,120 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Corki",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
-  "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 34,
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
+  "mainLane": "BOTTOM",
+  "players": 2,
+  "mainLaneGames": 61,
   "mainLaneNext": [
     {
-      "champion": "Kled",
-      "games": 3,
-      "rate": 8.8
+      "champion": "Caitlyn",
+      "games": 4,
+      "rate": 6.6
     },
     {
-      "champion": "Ornn",
-      "games": 3,
-      "rate": 8.8
+      "champion": "Jhin",
+      "games": 4,
+      "rate": 6.6
     },
     {
-      "champion": "Swain",
+      "champion": "Hwei",
       "games": 3,
-      "rate": 8.8
+      "rate": 4.9
     },
     {
-      "champion": "Yorick",
+      "champion": "Varus",
       "games": 3,
-      "rate": 8.8
+      "rate": 4.9
     },
     {
-      "champion": "Olaf",
+      "champion": "MissFortune",
       "games": 2,
-      "rate": 5.9
+      "rate": 3.3
     },
     {
-      "champion": "Sion",
-      "games": 2,
-      "rate": 5.9
-    },
-    {
-      "champion": "DrMundo",
+      "champion": "Aphelios",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.6
     },
     {
-      "champion": "Malphite",
+      "champion": "Sivir",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.6
     },
     {
-      "champion": "Rumble",
+      "champion": "Taliyah",
       "games": 1,
-      "rate": 2.9
-    },
-    {
-      "champion": "Shen",
-      "games": 1,
-      "rate": 2.9
+      "rate": 1.6
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 1,
+    "TOP": {
+      "games": 7,
       "picks": [
         {
-          "champion": "Shyvana",
+          "champion": "Corki",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Gragas",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Ornn",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Singed",
           "games": 1,
-          "rate": 100.0
+          "rate": 14.3
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "MonkeyKing",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
-      "games": 3,
+      "games": 6,
       "picks": [
         {
-          "champion": "Swain",
-          "games": 3,
-          "rate": 100.0
+          "champion": "Hwei",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Kassadin",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Orianna",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     },
@@ -88,7 +124,7 @@
       "games": 1,
       "picks": [
         {
-          "champion": "Swain",
+          "champion": "Yuumi",
           "games": 1,
           "rate": 100.0
         }
@@ -96,39 +132,162 @@
     }
   },
   "byMainLane": {
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 34,
+    "BOTTOM": {
+      "players": 2,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
-          "champion": "Kled",
-          "games": 3,
-          "rate": 8.8
+          "champion": "Caitlyn",
+          "games": 4,
+          "rate": 6.6
         },
         {
-          "champion": "Ornn",
-          "games": 3,
-          "rate": 8.8
+          "champion": "Jhin",
+          "games": 4,
+          "rate": 6.6
         },
+        {
+          "champion": "Hwei",
+          "games": 3,
+          "rate": 4.9
+        },
+        {
+          "champion": "Varus",
+          "games": 3,
+          "rate": 4.9
+        },
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 3.3
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Sivir",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 1.6
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Corki",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Gragas",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Ornn",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Singed",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Graves",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Hwei",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "AurelionSol",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Kassadin",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Orianna",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 35,
+      "mainLaneNext": [
         {
           "champion": "Swain",
-          "games": 3,
-          "rate": 8.8
+          "games": 6,
+          "rate": 17.1
+        },
+        {
+          "champion": "Kled",
+          "games": 4,
+          "rate": 11.4
         },
         {
           "champion": "Yorick",
           "games": 3,
-          "rate": 8.8
+          "rate": 8.6
         },
         {
           "champion": "Olaf",
           "games": 2,
-          "rate": 5.9
+          "rate": 5.7
         },
         {
-          "champion": "Sion",
+          "champion": "Ornn",
           "games": 2,
-          "rate": 5.9
+          "rate": 5.7
         },
         {
           "champion": "DrMundo",
@@ -173,89 +332,6 @@
               "champion": "Swain",
               "games": 3,
               "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Swain",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 33,
-      "mainLaneNext": [
-        {
-          "champion": "Caitlyn",
-          "games": 4,
-          "rate": 12.1
-        },
-        {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 3.0
-        },
-        {
-          "champion": "MissFortune",
-          "games": 1,
-          "rate": 3.0
-        },
-        {
-          "champion": "Sivir",
-          "games": 1,
-          "rate": 3.0
-        },
-        {
-          "champion": "Taliyah",
-          "games": 1,
-          "rate": 3.0
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Corki",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Gragas",
-              "games": 2,
-              "rate": 50.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Graves",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Orianna",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 50.0
             }
           ]
         },

@@ -3,28 +3,23 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Swain",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "MID",
   "players": 3,
   "mainLaneGames": 72,
   "mainLaneNext": [
     {
       "champion": "Viktor",
-      "games": 6,
-      "rate": 8.3
+      "games": 5,
+      "rate": 6.9
     },
     {
       "champion": "Smolder",
-      "games": 4,
-      "rate": 5.6
+      "games": 3,
+      "rate": 4.2
     },
     {
       "champion": "Galio",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Leblanc",
       "games": 1,
       "rate": 1.4
     },
@@ -86,12 +81,17 @@
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 4,
       "picks": [
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "Kayn",
           "games": 2,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
@@ -111,22 +111,22 @@
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 6,
       "picks": [
         {
           "champion": "Swain",
-          "games": 6,
-          "rate": 75.0
+          "games": 4,
+          "rate": 66.7
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         }
       ]
     }
@@ -138,21 +138,16 @@
       "mainLaneNext": [
         {
           "champion": "Viktor",
-          "games": 6,
-          "rate": 8.3
+          "games": 5,
+          "rate": 6.9
         },
         {
           "champion": "Smolder",
-          "games": 4,
-          "rate": 5.6
+          "games": 3,
+          "rate": 4.2
         },
         {
           "champion": "Galio",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Leblanc",
           "games": 1,
           "rate": 1.4
         },
@@ -214,12 +209,17 @@
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Kayn",
               "games": 2,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
@@ -239,22 +239,22 @@
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 6,
           "picks": [
             {
               "champion": "Swain",
-              "games": 6,
-              "rate": 75.0
+              "games": 4,
+              "rate": 66.7
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             }
           ]
         }
@@ -262,76 +262,51 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 36,
+      "mainLaneGames": 35,
       "mainLaneNext": [
         {
           "champion": "Shaco",
           "games": 6,
-          "rate": 16.7
+          "rate": 17.1
+        },
+        {
+          "champion": "Milio",
+          "games": 4,
+          "rate": 11.4
         },
         {
           "champion": "TahmKench",
           "games": 4,
-          "rate": 11.1
+          "rate": 11.4
         },
         {
-          "champion": "Milio",
-          "games": 3,
-          "rate": 8.3
-        },
-        {
-          "champion": "Thresh",
+          "champion": "Ivern",
           "games": 2,
-          "rate": 5.6
+          "rate": 5.7
+        },
+        {
+          "champion": "Nami",
+          "games": 2,
+          "rate": 5.7
         },
         {
           "champion": "Bard",
           "games": 1,
-          "rate": 2.8
+          "rate": 2.9
         },
         {
-          "champion": "Ivern",
+          "champion": "Thresh",
           "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Nami",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Senna",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 2.8
+          "rate": 2.9
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Yorick",
-              "games": 1,
+              "games": 2,
               "rate": 100.0
             }
           ]
@@ -345,12 +320,17 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Jhin",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Varus",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

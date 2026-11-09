@@ -3,65 +3,60 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nidalee",
-  "updatedAt": "2026-11-07T21:02:58.816433+00:00",
+  "updatedAt": "2026-11-09T09:33:38.116456+00:00",
   "mainLane": "JUNGLE",
-  "players": 4,
-  "mainLaneGames": 137,
+  "players": 5,
+  "mainLaneGames": 165,
   "mainLaneNext": [
     {
       "champion": "Lillia",
       "games": 8,
-      "rate": 5.8
+      "rate": 4.8
+    },
+    {
+      "champion": "LeeSin",
+      "games": 7,
+      "rate": 4.2
     },
     {
       "champion": "Graves",
       "games": 2,
-      "rate": 1.5
+      "rate": 1.2
     },
     {
       "champion": "Khazix",
       "games": 2,
-      "rate": 1.5
+      "rate": 1.2
     },
     {
       "champion": "Kindred",
       "games": 2,
-      "rate": 1.5
+      "rate": 1.2
     },
     {
       "champion": "MonkeyKing",
       "games": 2,
-      "rate": 1.5
+      "rate": 1.2
     },
     {
       "champion": "Elise",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
       "champion": "JarvanIV",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
       "champion": "Karthus",
       "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "LeeSin",
-      "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "XinZhao",
-      "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
       "champion": "Zaahen",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     }
   ],
   "offLanes": {
@@ -76,17 +71,27 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 8,
       "picks": [
         {
-          "champion": "Lux",
+          "champion": "Syndra",
+          "games": 4,
+          "rate": 50.0
+        },
+        {
+          "champion": "Viktor",
           "games": 2,
-          "rate": 66.7
+          "rate": 25.0
         },
         {
           "champion": "Leblanc",
           "games": 1,
-          "rate": 33.3
+          "rate": 12.5
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
@@ -111,105 +116,100 @@
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 16,
       "picks": [
+        {
+          "champion": "Thresh",
+          "games": 6,
+          "rate": 37.5
+        },
         {
           "champion": "Lulu",
           "games": 2,
-          "rate": 22.2
+          "rate": 12.5
+        },
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Morgana",
+          "games": 2,
+          "rate": 12.5
         },
         {
           "champion": "Pyke",
           "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Lux",
-          "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 11.1
+          "rate": 6.2
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 11.1
-        },
-        {
-          "champion": "Shen",
-          "games": 1,
-          "rate": 11.1
-        },
-        {
-          "champion": "Thresh",
-          "games": 1,
-          "rate": 11.1
+          "rate": 6.2
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 4,
-      "mainLaneGames": 137,
+      "players": 5,
+      "mainLaneGames": 165,
       "mainLaneNext": [
         {
           "champion": "Lillia",
           "games": 8,
-          "rate": 5.8
+          "rate": 4.8
+        },
+        {
+          "champion": "LeeSin",
+          "games": 7,
+          "rate": 4.2
         },
         {
           "champion": "Graves",
           "games": 2,
-          "rate": 1.5
+          "rate": 1.2
         },
         {
           "champion": "Khazix",
           "games": 2,
-          "rate": 1.5
+          "rate": 1.2
         },
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 1.5
+          "rate": 1.2
         },
         {
           "champion": "MonkeyKing",
           "games": 2,
-          "rate": 1.5
+          "rate": 1.2
         },
         {
           "champion": "Elise",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "LeeSin",
-          "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "XinZhao",
-          "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
           "champion": "Zaahen",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         }
       ],
       "offLanes": {
@@ -224,17 +224,27 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 8,
           "picks": [
             {
-              "champion": "Lux",
+              "champion": "Syndra",
+              "games": 4,
+              "rate": 50.0
+            },
+            {
+              "champion": "Viktor",
               "games": 2,
-              "rate": 66.7
+              "rate": 25.0
             },
             {
               "champion": "Leblanc",
               "games": 1,
-              "rate": 33.3
+              "rate": 12.5
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -259,42 +269,42 @@
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 16,
           "picks": [
+            {
+              "champion": "Thresh",
+              "games": 6,
+              "rate": 37.5
+            },
             {
               "champion": "Lulu",
               "games": 2,
-              "rate": 22.2
+              "rate": 12.5
+            },
+            {
+              "champion": "Lux",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Morgana",
+              "games": 2,
+              "rate": 12.5
             },
             {
               "champion": "Pyke",
               "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 11.1
+              "rate": 6.2
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Shen",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Thresh",
-              "games": 1,
-              "rate": 11.1
+              "rate": 6.2
             }
           ]
         }

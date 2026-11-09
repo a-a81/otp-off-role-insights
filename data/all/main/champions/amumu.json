@@ -3,15 +3,15 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Amumu",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 185,
+  "mainLaneGames": 184,
   "mainLaneNext": [
     {
       "champion": "Blitzcrank",
-      "games": 11,
-      "rate": 5.9
+      "games": 12,
+      "rate": 6.5
     },
     {
       "champion": "Sona",
@@ -29,14 +29,9 @@
       "rate": 4.3
     },
     {
-      "champion": "Leona",
-      "games": 7,
-      "rate": 3.8
-    },
-    {
       "champion": "Thresh",
-      "games": 5,
-      "rate": 2.7
+      "games": 6,
+      "rate": 3.3
     },
     {
       "champion": "Brand",
@@ -45,8 +40,13 @@
     },
     {
       "champion": "Braum",
-      "games": 3,
-      "rate": 1.6
+      "games": 4,
+      "rate": 2.2
+    },
+    {
+      "champion": "Leona",
+      "games": 2,
+      "rate": 1.1
     },
     {
       "champion": "Yuumi",
@@ -70,11 +70,6 @@
     },
     {
       "champion": "Nautilus",
-      "games": 1,
-      "rate": 0.5
-    },
-    {
-      "champion": "Pantheon",
       "games": 1,
       "rate": 0.5
     },
@@ -121,8 +116,14 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 5,
@@ -143,12 +144,12 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 185,
+      "mainLaneGames": 184,
       "mainLaneNext": [
         {
           "champion": "Blitzcrank",
-          "games": 11,
-          "rate": 5.9
+          "games": 12,
+          "rate": 6.5
         },
         {
           "champion": "Sona",
@@ -166,14 +167,9 @@
           "rate": 4.3
         },
         {
-          "champion": "Leona",
-          "games": 7,
-          "rate": 3.8
-        },
-        {
           "champion": "Thresh",
-          "games": 5,
-          "rate": 2.7
+          "games": 6,
+          "rate": 3.3
         },
         {
           "champion": "Brand",
@@ -182,8 +178,13 @@
         },
         {
           "champion": "Braum",
-          "games": 3,
-          "rate": 1.6
+          "games": 4,
+          "rate": 2.2
+        },
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 1.1
         },
         {
           "champion": "Yuumi",
@@ -207,11 +208,6 @@
         },
         {
           "champion": "Nautilus",
-          "games": 1,
-          "rate": 0.5
-        },
-        {
-          "champion": "Pantheon",
           "games": 1,
           "rate": 0.5
         },
@@ -258,8 +254,14 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 5,
@@ -280,17 +282,17 @@
     },
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 61,
+      "mainLaneGames": 62,
       "mainLaneNext": [
         {
           "champion": "Skarner",
           "games": 11,
-          "rate": 18.0
+          "rate": 17.7
         },
         {
           "champion": "Ivern",
           "games": 9,
-          "rate": 14.8
+          "rate": 14.5
         }
       ],
       "offLanes": {
@@ -309,17 +311,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 15,
+          "games": 14,
           "picks": [
             {
               "champion": "Ezreal",
-              "games": 11,
-              "rate": 73.3
+              "games": 10,
+              "rate": 71.4
             },
             {
               "champion": "Jinx",
               "games": 4,
-              "rate": 26.7
+              "rate": 28.6
             }
           ]
         },

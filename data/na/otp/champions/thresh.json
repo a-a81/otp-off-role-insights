@@ -3,25 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Thresh",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "UTILITY",
-  "players": 1,
-  "mainLaneGames": 24,
+  "players": 2,
+  "mainLaneGames": 63,
   "mainLaneNext": [
+    {
+      "champion": "Alistar",
+      "games": 4,
+      "rate": 6.3
+    },
     {
       "champion": "Blitzcrank",
       "games": 2,
-      "rate": 8.3
+      "rate": 3.2
+    },
+    {
+      "champion": "Braum",
+      "games": 2,
+      "rate": 3.2
     },
     {
       "champion": "Lulu",
+      "games": 2,
+      "rate": 3.2
+    },
+    {
+      "champion": "Janna",
       "games": 1,
-      "rate": 4.2
+      "rate": 1.6
+    },
+    {
+      "champion": "Nautilus",
+      "games": 1,
+      "rate": 1.6
     },
     {
       "champion": "Pyke",
       "games": 1,
-      "rate": 4.2
+      "rate": 1.6
     }
   ],
   "offLanes": {
@@ -40,8 +60,14 @@
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 14,
@@ -66,23 +92,43 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 24,
+      "players": 2,
+      "mainLaneGames": 63,
       "mainLaneNext": [
+        {
+          "champion": "Alistar",
+          "games": 4,
+          "rate": 6.3
+        },
         {
           "champion": "Blitzcrank",
           "games": 2,
-          "rate": 8.3
+          "rate": 3.2
+        },
+        {
+          "champion": "Braum",
+          "games": 2,
+          "rate": 3.2
         },
         {
           "champion": "Lulu",
+          "games": 2,
+          "rate": 3.2
+        },
+        {
+          "champion": "Janna",
           "games": 1,
-          "rate": 4.2
+          "rate": 1.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Pyke",
           "games": 1,
-          "rate": 4.2
+          "rate": 1.6
         }
       ],
       "offLanes": {
@@ -101,8 +147,14 @@
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 14,

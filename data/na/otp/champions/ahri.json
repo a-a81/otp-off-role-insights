@@ -3,60 +3,105 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ahri",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 62,
+  "players": 3,
+  "mainLaneGames": 93,
   "mainLaneNext": [
     {
       "champion": "Aurora",
-      "games": 1,
-      "rate": 1.6
+      "games": 3,
+      "rate": 3.2
+    },
+    {
+      "champion": "Galio",
+      "games": 3,
+      "rate": 3.2
     },
     {
       "champion": "Kaisa",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.1
+    },
+    {
+      "champion": "Lissandra",
+      "games": 1,
+      "rate": 1.1
+    },
+    {
+      "champion": "TwistedFate",
+      "games": 1,
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 13,
+      "games": 16,
       "picks": [
         {
           "champion": "Ahri",
           "games": 11,
-          "rate": 84.6
+          "rate": 68.8
+        },
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 12.5
         },
         {
           "champion": "Irelia",
           "games": 1,
-          "rate": 7.7
+          "rate": 6.2
         },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 7.7
+          "rate": 6.2
+        },
+        {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 6.2
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 33.3
+        },
         {
           "champion": "Zyra",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 6,
       "picks": [
+        {
+          "champion": "Hwei",
+          "games": 3,
+          "rate": 50.0
+        },
         {
           "champion": "Ahri",
           "games": 2,
-          "rate": 100.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     },
@@ -73,58 +118,103 @@
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 62,
+      "players": 3,
+      "mainLaneGames": 93,
       "mainLaneNext": [
         {
           "champion": "Aurora",
-          "games": 1,
-          "rate": 1.6
+          "games": 3,
+          "rate": 3.2
+        },
+        {
+          "champion": "Galio",
+          "games": 3,
+          "rate": 3.2
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.1
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1,
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 13,
+          "games": 16,
           "picks": [
             {
               "champion": "Ahri",
               "games": 11,
-              "rate": 84.6
+              "rate": 68.8
+            },
+            {
+              "champion": "Renekton",
+              "games": 2,
+              "rate": 12.5
             },
             {
               "champion": "Irelia",
               "games": 1,
-              "rate": 7.7
+              "rate": 6.2
             },
             {
               "champion": "Jayce",
               "games": 1,
-              "rate": 7.7
+              "rate": 6.2
+            },
+            {
+              "champion": "Shen",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 33.3
+            },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Hwei",
+              "games": 3,
+              "rate": 50.0
+            },
             {
               "champion": "Ahri",
               "games": 2,
-              "rate": 100.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 16.7
             }
           ]
         },

@@ -3,15 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Jayce",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "TOP",
   "players": 5,
   "mainLaneGames": 154,
   "mainLaneNext": [
     {
       "champion": "Gnar",
-      "games": 11,
-      "rate": 7.1
+      "games": 12,
+      "rate": 7.8
     },
     {
       "champion": "Irelia",
@@ -24,14 +24,14 @@
       "rate": 6.5
     },
     {
-      "champion": "Camille",
+      "champion": "Renekton",
       "games": 7,
       "rate": 4.5
     },
     {
-      "champion": "Renekton",
-      "games": 7,
-      "rate": 4.5
+      "champion": "Camille",
+      "games": 6,
+      "rate": 3.9
     },
     {
       "champion": "Vayne",
@@ -59,11 +59,6 @@
       "rate": 2.6
     },
     {
-      "champion": "TwistedFate",
-      "games": 4,
-      "rate": 2.6
-    },
-    {
       "champion": "Akali",
       "games": 3,
       "rate": 1.9
@@ -74,12 +69,22 @@
       "rate": 1.9
     },
     {
+      "champion": "TwistedFate",
+      "games": 3,
+      "rate": 1.9
+    },
+    {
       "champion": "Yone",
       "games": 3,
       "rate": 1.9
     },
     {
       "champion": "Aatrox",
+      "games": 2,
+      "rate": 1.3
+    },
+    {
+      "champion": "Aurora",
       "games": 2,
       "rate": 1.3
     },
@@ -100,11 +105,6 @@
     },
     {
       "champion": "Anivia",
-      "games": 1,
-      "rate": 0.6
-    },
-    {
-      "champion": "Aurora",
       "games": 1,
       "rate": 0.6
     },
@@ -273,8 +273,8 @@
       "mainLaneNext": [
         {
           "champion": "Gnar",
-          "games": 11,
-          "rate": 7.1
+          "games": 12,
+          "rate": 7.8
         },
         {
           "champion": "Irelia",
@@ -287,14 +287,14 @@
           "rate": 6.5
         },
         {
-          "champion": "Camille",
+          "champion": "Renekton",
           "games": 7,
           "rate": 4.5
         },
         {
-          "champion": "Renekton",
-          "games": 7,
-          "rate": 4.5
+          "champion": "Camille",
+          "games": 6,
+          "rate": 3.9
         },
         {
           "champion": "Vayne",
@@ -322,11 +322,6 @@
           "rate": 2.6
         },
         {
-          "champion": "TwistedFate",
-          "games": 4,
-          "rate": 2.6
-        },
-        {
           "champion": "Akali",
           "games": 3,
           "rate": 1.9
@@ -337,12 +332,22 @@
           "rate": 1.9
         },
         {
+          "champion": "TwistedFate",
+          "games": 3,
+          "rate": 1.9
+        },
+        {
           "champion": "Yone",
           "games": 3,
           "rate": 1.9
         },
         {
           "champion": "Aatrox",
+          "games": 2,
+          "rate": 1.3
+        },
+        {
+          "champion": "Aurora",
           "games": 2,
           "rate": 1.3
         },
@@ -363,11 +368,6 @@
         },
         {
           "champion": "Anivia",
-          "games": 1,
-          "rate": 0.6
-        },
-        {
-          "champion": "Aurora",
           "games": 1,
           "rate": 0.6
         },
@@ -536,13 +536,13 @@
       "mainLaneNext": [
         {
           "champion": "Viego",
-          "games": 10,
-          "rate": 15.4
+          "games": 11,
+          "rate": 16.9
         },
         {
           "champion": "Nidalee",
-          "games": 7,
-          "rate": 10.8
+          "games": 6,
+          "rate": 9.2
         },
         {
           "champion": "LeeSin",
@@ -677,6 +677,72 @@
               "champion": "Blitzcrank",
               "games": 1,
               "rate": 11.1
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 22,
+      "mainLaneNext": [
+        {
+          "champion": "Akali",
+          "games": 4,
+          "rate": 18.2
+        },
+        {
+          "champion": "Yone",
+          "games": 3,
+          "rate": 13.6
+        },
+        {
+          "champion": "Ahri",
+          "games": 2,
+          "rate": 9.1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 4.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Jayce",
+              "games": 12,
+              "rate": 85.7
+            },
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Leblanc",
+              "games": 2,
+              "rate": 100.0
             }
           ]
         }

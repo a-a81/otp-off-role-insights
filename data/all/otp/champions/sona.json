@@ -3,35 +3,45 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sona",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 125,
+  "players": 5,
+  "mainLaneGames": 165,
   "mainLaneNext": [
     {
-      "champion": "Karma",
-      "games": 3,
+      "champion": "Janna",
+      "games": 4,
       "rate": 2.4
     },
     {
-      "champion": "Janna",
-      "games": 2,
-      "rate": 1.6
+      "champion": "Karma",
+      "games": 3,
+      "rate": 1.8
     },
     {
       "champion": "Zoe",
       "games": 2,
-      "rate": 1.6
+      "rate": 1.2
+    },
+    {
+      "champion": "Annie",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "Morgana",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
     },
     {
       "champion": "Nami",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.6
+    },
+    {
+      "champion": "Thresh",
+      "games": 1,
+      "rate": 0.6
     }
   ],
   "offLanes": {
@@ -50,75 +60,90 @@
       ]
     },
     "MID": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Mel",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 30,
+      "games": 28,
       "picks": [
         {
           "champion": "Seraphine",
           "games": 14,
-          "rate": 46.7
+          "rate": 50.0
         },
         {
           "champion": "Mel",
           "games": 5,
-          "rate": 16.7
+          "rate": 17.9
         },
         {
           "champion": "Lux",
           "games": 4,
-          "rate": 13.3
+          "rate": 14.3
         },
         {
           "champion": "Syndra",
           "games": 4,
-          "rate": 13.3
+          "rate": 14.3
         },
         {
           "champion": "Sona",
-          "games": 3,
-          "rate": 10.0
+          "games": 1,
+          "rate": 3.6
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 125,
+      "players": 5,
+      "mainLaneGames": 165,
       "mainLaneNext": [
         {
-          "champion": "Karma",
-          "games": 3,
+          "champion": "Janna",
+          "games": 4,
           "rate": 2.4
         },
         {
-          "champion": "Janna",
-          "games": 2,
-          "rate": 1.6
+          "champion": "Karma",
+          "games": 3,
+          "rate": 1.8
         },
         {
           "champion": "Zoe",
           "games": 2,
-          "rate": 1.6
+          "rate": 1.2
+        },
+        {
+          "champion": "Annie",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 0.8
+          "rate": 0.6
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 0.6
         }
       ],
       "offLanes": {
@@ -137,42 +162,47 @@
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Mel",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 30,
+          "games": 28,
           "picks": [
             {
               "champion": "Seraphine",
               "games": 14,
-              "rate": 46.7
+              "rate": 50.0
             },
             {
               "champion": "Mel",
               "games": 5,
-              "rate": 16.7
+              "rate": 17.9
             },
             {
               "champion": "Lux",
               "games": 4,
-              "rate": 13.3
+              "rate": 14.3
             },
             {
               "champion": "Syndra",
               "games": 4,
-              "rate": 13.3
+              "rate": 14.3
             },
             {
               "champion": "Sona",
-              "games": 3,
-              "rate": 10.0
+              "games": 1,
+              "rate": 3.6
             }
           ]
         }

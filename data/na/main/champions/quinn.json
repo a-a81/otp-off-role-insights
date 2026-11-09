@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Quinn",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "TOP",
   "players": 2,
   "mainLaneGames": 62,
@@ -98,51 +98,72 @@
     },
     "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 35,
+      "mainLaneGames": 36,
       "mainLaneNext": [
+        {
+          "champion": "Zaahen",
+          "games": 4,
+          "rate": 11.1
+        },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 2.9
+          "rate": 2.8
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 2.8
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 2.9
+          "rate": 2.8
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 2.8
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 2.9
+          "rate": 2.8
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 2.9
+          "rate": 2.8
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 2.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
-              "champion": "Gwen",
+              "champion": "Ornn",
               "games": 1,
-              "rate": 33.3
-            },
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         },
@@ -151,11 +172,11 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Leona",
-              "games": 2,
+              "games": 1,
               "rate": 100.0
             }
           ]
@@ -167,14 +188,14 @@
       "mainLaneGames": 20,
       "mainLaneNext": [
         {
-          "champion": "Locke",
+          "champion": "Mel",
           "games": 5,
           "rate": 25.0
         },
         {
-          "champion": "Seraphine",
-          "games": 3,
-          "rate": 15.0
+          "champion": "Locke",
+          "games": 4,
+          "rate": 20.0
         },
         {
           "champion": "Aurora",
@@ -182,17 +203,12 @@
           "rate": 10.0
         },
         {
-          "champion": "Mel",
+          "champion": "Seraphine",
           "games": 2,
           "rate": 10.0
         },
         {
           "champion": "Hwei",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Sona",
           "games": 1,
           "rate": 5.0
         }
@@ -209,17 +225,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
-              "champion": "Quinn",
+              "champion": "Aurora",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
             },
             {
-              "champion": "Aurora",
+              "champion": "Quinn",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
@@ -228,11 +249,11 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 16,
+          "games": 15,
           "picks": [
             {
               "champion": "Sona",
-              "games": 16,
+              "games": 15,
               "rate": 100.0
             }
           ]

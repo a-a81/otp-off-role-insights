@@ -3,13 +3,13 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 175,
+  "mainLaneGames": 174,
   "mainLaneNext": [
     {
-      "champion": "Rakan",
+      "champion": "Leona",
       "games": 3,
       "rate": 1.7
     },
@@ -19,12 +19,12 @@
       "rate": 1.7
     },
     {
-      "champion": "Fizz",
+      "champion": "Nautilus",
       "games": 2,
       "rate": 1.1
     },
     {
-      "champion": "Nautilus",
+      "champion": "Rakan",
       "games": 2,
       "rate": 1.1
     },
@@ -39,6 +39,11 @@
       "rate": 0.6
     },
     {
+      "champion": "Fizz",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
       "champion": "Gragas",
       "games": 1,
       "rate": 0.6
@@ -49,7 +54,7 @@
       "rate": 0.6
     },
     {
-      "champion": "Leona",
+      "champion": "Lulu",
       "games": 1,
       "rate": 0.6
     },
@@ -61,52 +66,47 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 6,
       "picks": [
         {
           "champion": "Gragas",
-          "games": 4,
+          "games": 3,
           "rate": 50.0
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 14,
+      "games": 15,
       "picks": [
         {
           "champion": "Nunu",
           "games": 9,
-          "rate": 64.3
+          "rate": 60.0
         },
         {
           "champion": "Viego",
-          "games": 4,
-          "rate": 28.6
+          "games": 5,
+          "rate": 33.3
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 7.1
+          "rate": 6.7
         }
       ]
     },
@@ -121,12 +121,17 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Alistar",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     }
@@ -134,10 +139,10 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 175,
+      "mainLaneGames": 174,
       "mainLaneNext": [
         {
-          "champion": "Rakan",
+          "champion": "Leona",
           "games": 3,
           "rate": 1.7
         },
@@ -147,12 +152,12 @@
           "rate": 1.7
         },
         {
-          "champion": "Fizz",
+          "champion": "Nautilus",
           "games": 2,
           "rate": 1.1
         },
         {
-          "champion": "Nautilus",
+          "champion": "Rakan",
           "games": 2,
           "rate": 1.1
         },
@@ -167,6 +172,11 @@
           "rate": 0.6
         },
         {
+          "champion": "Fizz",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
           "champion": "Gragas",
           "games": 1,
           "rate": 0.6
@@ -177,7 +187,7 @@
           "rate": 0.6
         },
         {
-          "champion": "Leona",
+          "champion": "Lulu",
           "games": 1,
           "rate": 0.6
         },
@@ -189,52 +199,47 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 6,
           "picks": [
             {
               "champion": "Gragas",
-              "games": 4,
+              "games": 3,
               "rate": 50.0
             },
             {
               "champion": "DrMundo",
               "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 14,
+          "games": 15,
           "picks": [
             {
               "champion": "Nunu",
               "games": 9,
-              "rate": 64.3
+              "rate": 60.0
             },
             {
               "champion": "Viego",
-              "games": 4,
-              "rate": 28.6
+              "games": 5,
+              "rate": 33.3
             },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 7.1
+              "rate": 6.7
             }
           ]
         },
@@ -249,12 +254,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         }

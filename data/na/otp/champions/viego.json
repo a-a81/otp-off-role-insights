@@ -3,60 +3,90 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viego",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 57,
+  "players": 3,
+  "mainLaneGames": 88,
   "mainLaneNext": [
+    {
+      "champion": "JarvanIV",
+      "games": 5,
+      "rate": 5.7
+    },
     {
       "champion": "Belveth",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.1
+    },
+    {
+      "champion": "Diana",
+      "games": 1,
+      "rate": 1.1
+    },
+    {
+      "champion": "Khazix",
+      "games": 1,
+      "rate": 1.1
     },
     {
       "champion": "Lillia",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.1
     },
     {
       "champion": "MonkeyKing",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 5,
       "picks": [
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
+        },
+        {
+          "champion": "Jayce",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Vladimir",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         }
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 9,
       "picks": [
         {
           "champion": "Syndra",
-          "games": 3,
-          "rate": 75.0
+          "games": 6,
+          "rate": 66.7
+        },
+        {
+          "champion": "Viego",
+          "games": 2,
+          "rate": 22.2
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 25.0
+          "rate": 11.1
         }
       ]
     },
@@ -86,80 +116,115 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 40.0
+        },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         },
         {
           "champion": "Bard",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 57,
+      "players": 3,
+      "mainLaneGames": 88,
       "mainLaneNext": [
+        {
+          "champion": "JarvanIV",
+          "games": 5,
+          "rate": 5.7
+        },
         {
           "champion": "Belveth",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.1
+        },
+        {
+          "champion": "Diana",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Khazix",
+          "games": 1,
+          "rate": 1.1
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.1
         },
         {
           "champion": "MonkeyKing",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 5,
           "picks": [
             {
               "champion": "Chogath",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
+            },
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Vladimir",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             },
             {
               "champion": "Yone",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             }
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 9,
           "picks": [
             {
               "champion": "Syndra",
-              "games": 3,
-              "rate": 75.0
+              "games": 6,
+              "rate": 66.7
+            },
+            {
+              "champion": "Viego",
+              "games": 2,
+              "rate": 22.2
             },
             {
               "champion": "Yone",
               "games": 1,
-              "rate": 25.0
+              "rate": 11.1
             }
           ]
         },
@@ -189,22 +254,27 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Lux",
+              "games": 2,
+              "rate": 40.0
+            },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             },
             {
               "champion": "Bard",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             }
           ]
         }

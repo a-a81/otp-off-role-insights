@@ -3,20 +3,20 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayle",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 85,
+  "mainLaneGames": 88,
   "mainLaneNext": [
     {
       "champion": "Nasus",
-      "games": 3,
-      "rate": 3.5
+      "games": 6,
+      "rate": 6.8
     },
     {
       "champion": "Akshan",
       "games": 1,
-      "rate": 1.2
+      "rate": 1.1
     }
   ],
   "offLanes": {
@@ -36,21 +36,15 @@
       ]
     },
     "JUNGLE": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "JarvanIV",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
           "champion": "Kayle",
-          "games": 6,
+          "games": 4,
           "rate": 100.0
         }
       ]
@@ -74,17 +68,17 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 85,
+      "mainLaneGames": 88,
       "mainLaneNext": [
         {
           "champion": "Nasus",
-          "games": 3,
-          "rate": 3.5
+          "games": 6,
+          "rate": 6.8
         },
         {
           "champion": "Akshan",
           "games": 1,
-          "rate": 1.2
+          "rate": 1.1
         }
       ],
       "offLanes": {
@@ -104,21 +98,15 @@
           ]
         },
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "JarvanIV",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "Kayle",
-              "games": 6,
+              "games": 4,
               "rate": 100.0
             }
           ]
@@ -142,25 +130,25 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 31,
-      "mainLaneNext": [],
+      "mainLaneGames": 33,
+      "mainLaneNext": [
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 3.0
+        }
+      ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Quinn",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Kayle",
-              "games": 5,
+              "games": 4,
               "rate": 100.0
             }
           ]
@@ -170,12 +158,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Milio",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

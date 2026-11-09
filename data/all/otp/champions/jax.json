@@ -3,40 +3,45 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Jax",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "TOP",
-  "players": 7,
-  "mainLaneGames": 224,
+  "players": 8,
+  "mainLaneGames": 260,
   "mainLaneNext": [
     {
-      "champion": "Fiora",
+      "champion": "Mordekaiser",
       "games": 6,
-      "rate": 2.7
+      "rate": 2.3
+    },
+    {
+      "champion": "Sett",
+      "games": 5,
+      "rate": 1.9
     },
     {
       "champion": "Olaf",
       "games": 4,
-      "rate": 1.8
-    },
-    {
-      "champion": "Sett",
-      "games": 4,
-      "rate": 1.8
+      "rate": 1.5
     },
     {
       "champion": "Tryndamere",
       "games": 4,
-      "rate": 1.8
+      "rate": 1.5
     },
     {
       "champion": "Aatrox",
       "games": 2,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
       "champion": "Ambessa",
       "games": 2,
-      "rate": 0.9
+      "rate": 0.8
+    },
+    {
+      "champion": "Pantheon",
+      "games": 2,
+      "rate": 0.8
     },
     {
       "champion": "Camille",
@@ -44,7 +49,22 @@
       "rate": 0.4
     },
     {
+      "champion": "Chogath",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Fiora",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
       "champion": "Gnar",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Irelia",
       "games": 1,
       "rate": 0.4
     },
@@ -59,22 +79,12 @@
       "rate": 0.4
     },
     {
-      "champion": "Mordekaiser",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Pantheon",
+      "champion": "Nasus",
       "games": 1,
       "rate": 0.4
     },
     {
       "champion": "Renekton",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Sion",
       "games": 1,
       "rate": 0.4
     },
@@ -91,160 +101,200 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 11,
+      "games": 10,
       "picks": [
         {
           "champion": "Jax",
-          "games": 6,
-          "rate": 54.5
+          "games": 3,
+          "rate": 30.0
+        },
+        {
+          "champion": "XinZhao",
+          "games": 3,
+          "rate": 30.0
         },
         {
           "champion": "MonkeyKing",
           "games": 2,
-          "rate": 18.2
-        },
-        {
-          "champion": "XinZhao",
-          "games": 2,
-          "rate": 18.2
+          "rate": 20.0
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 9.1
+          "rate": 10.0
+        },
+        {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 10.0
         }
       ]
     },
     "MID": {
-      "games": 14,
+      "games": 20,
       "picks": [
         {
           "champion": "Aurora",
           "games": 4,
-          "rate": 28.6
-        },
-        {
-          "champion": "Jax",
-          "games": 4,
-          "rate": 28.6
+          "rate": 20.0
         },
         {
           "champion": "Tryndamere",
           "games": 4,
-          "rate": 28.6
+          "rate": 20.0
+        },
+        {
+          "champion": "Jax",
+          "games": 3,
+          "rate": 15.0
+        },
+        {
+          "champion": "Nasus",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "Vex",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 5.0
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.0
+        },
+        {
+          "champion": "Gangplank",
+          "games": 1,
+          "rate": 5.0
         },
         {
           "champion": "Kayle",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 6,
+      "games": 3,
       "picks": [
         {
           "champion": "Jax",
-          "games": 2,
+          "games": 1,
           "rate": 33.3
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Sivir",
-          "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 16.7
+          "rate": 33.3
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 16.7
+          "rate": 33.3
         }
       ]
     },
     "UTILITY": {
-      "games": 23,
+      "games": 24,
       "picks": [
         {
           "champion": "Jax",
-          "games": 14,
-          "rate": 60.9
-        },
-        {
-          "champion": "Braum",
-          "games": 3,
-          "rate": 13.0
+          "games": 13,
+          "rate": 54.2
         },
         {
           "champion": "Brand",
           "games": 2,
-          "rate": 8.7
+          "rate": 8.3
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 8.7
+          "rate": 8.3
+        },
+        {
+          "champion": "Pyke",
+          "games": 2,
+          "rate": 8.3
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 4.2
+        },
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 4.2
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 4.3
+          "rate": 4.2
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 4.2
         },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 4.3
+          "rate": 4.2
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 7,
-      "mainLaneGames": 224,
+      "players": 8,
+      "mainLaneGames": 260,
       "mainLaneNext": [
         {
-          "champion": "Fiora",
+          "champion": "Mordekaiser",
           "games": 6,
-          "rate": 2.7
+          "rate": 2.3
+        },
+        {
+          "champion": "Sett",
+          "games": 5,
+          "rate": 1.9
         },
         {
           "champion": "Olaf",
           "games": 4,
-          "rate": 1.8
-        },
-        {
-          "champion": "Sett",
-          "games": 4,
-          "rate": 1.8
+          "rate": 1.5
         },
         {
           "champion": "Tryndamere",
           "games": 4,
-          "rate": 1.8
+          "rate": 1.5
         },
         {
           "champion": "Aatrox",
           "games": 2,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
           "champion": "Ambessa",
           "games": 2,
-          "rate": 0.9
+          "rate": 0.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 2,
+          "rate": 0.8
         },
         {
           "champion": "Camille",
@@ -252,7 +302,22 @@
           "rate": 0.4
         },
         {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Fiora",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
           "champion": "Gnar",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Irelia",
           "games": 1,
           "rate": 0.4
         },
@@ -267,22 +332,12 @@
           "rate": 0.4
         },
         {
-          "champion": "Mordekaiser",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Pantheon",
+          "champion": "Nasus",
           "games": 1,
           "rate": 0.4
         },
         {
           "champion": "Renekton",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Sion",
           "games": 1,
           "rate": 0.4
         },
@@ -299,122 +354,157 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 11,
+          "games": 10,
           "picks": [
             {
               "champion": "Jax",
-              "games": 6,
-              "rate": 54.5
+              "games": 3,
+              "rate": 30.0
+            },
+            {
+              "champion": "XinZhao",
+              "games": 3,
+              "rate": 30.0
             },
             {
               "champion": "MonkeyKing",
               "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "XinZhao",
-              "games": 2,
-              "rate": 18.2
+              "rate": 20.0
             },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 9.1
+              "rate": 10.0
+            },
+            {
+              "champion": "Shyvana",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         },
         "MID": {
-          "games": 14,
+          "games": 20,
           "picks": [
             {
               "champion": "Aurora",
               "games": 4,
-              "rate": 28.6
-            },
-            {
-              "champion": "Jax",
-              "games": 4,
-              "rate": 28.6
+              "rate": 20.0
             },
             {
               "champion": "Tryndamere",
               "games": 4,
-              "rate": 28.6
+              "rate": 20.0
+            },
+            {
+              "champion": "Jax",
+              "games": 3,
+              "rate": 15.0
+            },
+            {
+              "champion": "Nasus",
+              "games": 2,
+              "rate": 10.0
+            },
+            {
+              "champion": "Vex",
+              "games": 2,
+              "rate": 10.0
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 5.0
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.0
+            },
+            {
+              "champion": "Gangplank",
+              "games": 1,
+              "rate": 5.0
             },
             {
               "champion": "Kayle",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 3,
           "picks": [
             {
               "champion": "Jax",
-              "games": 2,
+              "games": 1,
               "rate": 33.3
             },
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Sivir",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Vayne",
-              "games": 1,
-              "rate": 16.7
+              "rate": 33.3
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 16.7
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 23,
+          "games": 24,
           "picks": [
             {
               "champion": "Jax",
-              "games": 14,
-              "rate": 60.9
-            },
-            {
-              "champion": "Braum",
-              "games": 3,
-              "rate": 13.0
+              "games": 13,
+              "rate": 54.2
             },
             {
               "champion": "Brand",
               "games": 2,
-              "rate": 8.7
+              "rate": 8.3
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 8.7
+              "rate": 8.3
+            },
+            {
+              "champion": "Pyke",
+              "games": 2,
+              "rate": 8.3
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 4.2
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 4.2
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 4.3
+              "rate": 4.2
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 4.2
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 4.3
+              "rate": 4.2
             }
           ]
         }

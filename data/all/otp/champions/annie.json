@@ -3,35 +3,50 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Annie",
-  "updatedAt": "2026-11-07T21:43:08.685825+00:00",
+  "updatedAt": "2026-11-09T10:18:48.503366+00:00",
   "mainLane": "MID",
   "players": 4,
-  "mainLaneGames": 119,
+  "mainLaneGames": 114,
   "mainLaneNext": [
     {
+      "champion": "Lissandra",
+      "games": 2,
+      "rate": 1.8
+    },
+    {
       "champion": "Malzahar",
-      "games": 3,
-      "rate": 2.5
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 18,
+      "games": 24,
       "picks": [
         {
           "champion": "Annie",
-          "games": 16,
-          "rate": 88.9
+          "games": 20,
+          "rate": 83.3
         },
         {
           "champion": "Kled",
           "games": 1,
-          "rate": 5.6
+          "rate": 4.2
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 4.2
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 4.2
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 5.6
+          "rate": 4.2
         }
       ]
     },
@@ -51,52 +66,57 @@
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Annie",
-          "games": 1,
+          "games": 2,
           "rate": 50.0
         },
         {
           "champion": "Hwei",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
     "UTILITY": {
-      "games": 16,
+      "games": 13,
       "picks": [
         {
           "champion": "Annie",
-          "games": 8,
-          "rate": 50.0
-        },
-        {
-          "champion": "Alistar",
-          "games": 2,
-          "rate": 12.5
-        },
-        {
-          "champion": "Lulu",
-          "games": 2,
-          "rate": 12.5
+          "games": 7,
+          "rate": 53.8
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 12.5
+          "rate": 15.4
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 7.7
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 6.2
+          "rate": 7.7
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 7.7
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 6.2
+          "rate": 7.7
         }
       ]
     }
@@ -104,32 +124,47 @@
   "byMainLane": {
     "MID": {
       "players": 4,
-      "mainLaneGames": 119,
+      "mainLaneGames": 114,
       "mainLaneNext": [
         {
+          "champion": "Lissandra",
+          "games": 2,
+          "rate": 1.8
+        },
+        {
           "champion": "Malzahar",
-          "games": 3,
-          "rate": 2.5
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 18,
+          "games": 24,
           "picks": [
             {
               "champion": "Annie",
-              "games": 16,
-              "rate": 88.9
+              "games": 20,
+              "rate": 83.3
             },
             {
               "champion": "Kled",
               "games": 1,
-              "rate": 5.6
+              "rate": 4.2
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 4.2
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 4.2
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 5.6
+              "rate": 4.2
             }
           ]
         },
@@ -149,52 +184,57 @@
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 4,
           "picks": [
             {
               "champion": "Annie",
-              "games": 1,
+              "games": 2,
               "rate": 50.0
             },
             {
               "champion": "Hwei",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
         "UTILITY": {
-          "games": 16,
+          "games": 13,
           "picks": [
             {
               "champion": "Annie",
-              "games": 8,
-              "rate": 50.0
-            },
-            {
-              "champion": "Alistar",
-              "games": 2,
-              "rate": 12.5
-            },
-            {
-              "champion": "Lulu",
-              "games": 2,
-              "rate": 12.5
+              "games": 7,
+              "rate": 53.8
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 12.5
+              "rate": 15.4
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 7.7
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 6.2
+              "rate": 7.7
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 7.7
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 6.2
+              "rate": 7.7
             }
           ]
         }

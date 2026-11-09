@@ -3,55 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karma",
-  "updatedAt": "2026-11-07T20:01:16.891930+00:00",
+  "updatedAt": "2026-11-09T08:19:47.605750+00:00",
   "mainLane": "UTILITY",
   "players": 3,
-  "mainLaneGames": 102,
+  "mainLaneGames": 100,
   "mainLaneNext": [
     {
       "champion": "Lulu",
       "games": 10,
-      "rate": 9.8
+      "rate": 10.0
     },
     {
       "champion": "Nami",
-      "games": 10,
-      "rate": 9.8
+      "games": 9,
+      "rate": 9.0
     },
     {
       "champion": "Morgana",
       "games": 8,
-      "rate": 7.8
+      "rate": 8.0
     },
     {
       "champion": "Seraphine",
       "games": 7,
-      "rate": 6.9
+      "rate": 7.0
     },
     {
       "champion": "Janna",
       "games": 5,
-      "rate": 4.9
+      "rate": 5.0
     },
     {
       "champion": "Braum",
       "games": 4,
-      "rate": 3.9
+      "rate": 4.0
     },
     {
       "champion": "Rakan",
       "games": 3,
-      "rate": 2.9
+      "rate": 3.0
     },
     {
       "champion": "Yuumi",
       "games": 3,
-      "rate": 2.9
-    },
-    {
-      "champion": "Mel",
-      "games": 2,
-      "rate": 2.0
+      "rate": 3.0
     },
     {
       "champion": "Milio",
@@ -84,6 +79,11 @@
       "rate": 1.0
     },
     {
+      "champion": "Mel",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
       "champion": "Shen",
       "games": 1,
       "rate": 1.0
@@ -97,17 +97,18 @@
       "champion": "Trundle",
       "games": 1,
       "rate": 1.0
-    },
-    {
-      "champion": "Zilean",
-      "games": 1,
-      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
       "games": 10,
@@ -125,32 +126,32 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 7,
       "picks": [
+        {
+          "champion": "Seraphine",
+          "games": 4,
+          "rate": 57.1
+        },
         {
           "champion": "Karma",
           "games": 2,
-          "rate": 66.7
+          "rate": 28.6
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 33.3
+          "rate": 14.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 2,
       "picks": [
         {
           "champion": "Mel",
-          "games": 3,
-          "rate": 60.0
-        },
-        {
-          "champion": "Seraphine",
           "games": 2,
-          "rate": 40.0
+          "rate": 100.0
         }
       ]
     }
@@ -158,52 +159,47 @@
   "byMainLane": {
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 102,
+      "mainLaneGames": 100,
       "mainLaneNext": [
         {
           "champion": "Lulu",
           "games": 10,
-          "rate": 9.8
+          "rate": 10.0
         },
         {
           "champion": "Nami",
-          "games": 10,
-          "rate": 9.8
+          "games": 9,
+          "rate": 9.0
         },
         {
           "champion": "Morgana",
           "games": 8,
-          "rate": 7.8
+          "rate": 8.0
         },
         {
           "champion": "Seraphine",
           "games": 7,
-          "rate": 6.9
+          "rate": 7.0
         },
         {
           "champion": "Janna",
           "games": 5,
-          "rate": 4.9
+          "rate": 5.0
         },
         {
           "champion": "Braum",
           "games": 4,
-          "rate": 3.9
+          "rate": 4.0
         },
         {
           "champion": "Rakan",
           "games": 3,
-          "rate": 2.9
+          "rate": 3.0
         },
         {
           "champion": "Yuumi",
           "games": 3,
-          "rate": 2.9
-        },
-        {
-          "champion": "Mel",
-          "games": 2,
-          "rate": 2.0
+          "rate": 3.0
         },
         {
           "champion": "Milio",
@@ -236,6 +232,11 @@
           "rate": 1.0
         },
         {
+          "champion": "Mel",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
           "champion": "Shen",
           "games": 1,
           "rate": 1.0
@@ -249,17 +250,18 @@
           "champion": "Trundle",
           "games": 1,
           "rate": 1.0
-        },
-        {
-          "champion": "Zilean",
-          "games": 1,
-          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 10,
@@ -277,32 +279,32 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 4,
+              "rate": 57.1
+            },
             {
               "champion": "Karma",
               "games": 2,
-              "rate": 66.7
+              "rate": 28.6
             },
             {
               "champion": "Morgana",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 2,
           "picks": [
             {
               "champion": "Mel",
-              "games": 3,
-              "rate": 60.0
-            },
-            {
-              "champion": "Seraphine",
               "games": 2,
-              "rate": 40.0
+              "rate": 100.0
             }
           ]
         }
