@@ -3,33 +3,44 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 71,
+  "players": 3,
+  "mainLaneGames": 103,
   "mainLaneNext": [
     {
       "champion": "JarvanIV",
       "games": 2,
-      "rate": 2.8
+      "rate": 1.9
+    },
+    {
+      "champion": "Amumu",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Ivern",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 3,
+      "games": 1,
       "picks": [
         {
           "champion": "Zac",
-          "games": 3,
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 7,
+      "picks": [
+        {
+          "champion": "Zac",
+          "games": 7,
           "rate": 100.0
         }
       ]
@@ -39,43 +50,59 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 6,
+      "games": 8,
       "picks": [
         {
           "champion": "Zac",
-          "games": 6,
-          "rate": 100.0
+          "games": 7,
+          "rate": 87.5
+        },
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 71,
+      "players": 3,
+      "mainLaneGames": 103,
       "mainLaneNext": [
         {
           "champion": "JarvanIV",
           "games": 2,
-          "rate": 2.8
+          "rate": 1.9
+        },
+        {
+          "champion": "Amumu",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Ivern",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
               "champion": "Zac",
-              "games": 3,
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 7,
               "rate": 100.0
             }
           ]
@@ -85,12 +112,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 6,
+          "games": 8,
           "picks": [
             {
               "champion": "Zac",
-              "games": 6,
-              "rate": 100.0
+              "games": 7,
+              "rate": 87.5
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

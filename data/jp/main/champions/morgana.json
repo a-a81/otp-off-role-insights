@@ -3,105 +3,97 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
-  "mainLane": "JUNGLE",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
+  "mainLane": "UTILITY",
   "players": 1,
-  "mainLaneGames": 31,
+  "mainLaneGames": 32,
   "mainLaneNext": [
     {
-      "champion": "Kayn",
-      "games": 4,
-      "rate": 12.9
-    },
-    {
-      "champion": "Nocturne",
-      "games": 4,
-      "rate": 12.9
-    },
-    {
-      "champion": "Hecarim",
-      "games": 3,
-      "rate": 9.7
-    },
-    {
-      "champion": "Karthus",
-      "games": 3,
-      "rate": 9.7
-    },
-    {
-      "champion": "MasterYi",
-      "games": 2,
-      "rate": 6.5
-    },
-    {
-      "champion": "Shyvana",
-      "games": 2,
-      "rate": 6.5
-    },
-    {
       "champion": "Zyra",
-      "games": 2,
-      "rate": 6.5
+      "games": 3,
+      "rate": 9.4
     },
     {
-      "champion": "Sylas",
+      "champion": "Zilean",
+      "games": 2,
+      "rate": 6.2
+    },
+    {
+      "champion": "Velkoz",
       "games": 1,
-      "rate": 3.2
+      "rate": 3.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Kayle",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
+    },
+    "JUNGLE": {
+      "games": 0,
+      "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 8,
       "picks": [
         {
-          "champion": "Kassadin",
-          "games": 2,
+          "champion": "Morgana",
+          "games": 8,
           "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Karthus",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
+      "games": 0,
+      "picks": []
+    }
+  },
+  "byMainLane": {
     "UTILITY": {
-      "games": 5,
-      "picks": [
-        {
-          "champion": "Leona",
-          "games": 2,
-          "rate": 40.0
-        },
+      "players": 1,
+      "mainLaneGames": 32,
+      "mainLaneNext": [
         {
           "champion": "Zyra",
+          "games": 3,
+          "rate": 9.4
+        },
+        {
+          "champion": "Zilean",
           "games": 2,
-          "rate": 40.0
+          "rate": 6.2
         },
         {
           "champion": "Velkoz",
           "games": 1,
-          "rate": 20.0
+          "rate": 3.1
         }
-      ]
-    }
-  },
-  "byMainLane": {
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Morgana",
+              "games": 8,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 31,
@@ -200,48 +192,80 @@
         }
       }
     },
-    "UTILITY": {
+    "MID": {
       "players": 1,
-      "mainLaneGames": 29,
+      "mainLaneGames": 18,
       "mainLaneNext": [
         {
-          "champion": "Zyra",
-          "games": 3,
-          "rate": 10.3
+          "champion": "Lux",
+          "games": 7,
+          "rate": 38.9
         },
         {
-          "champion": "Velkoz",
+          "champion": "Mel",
           "games": 1,
-          "rate": 3.4
+          "rate": 5.6
         },
         {
-          "champion": "Zilean",
+          "champion": "Yasuo",
           "games": 1,
-          "rate": 3.4
+          "rate": 5.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,
           "picks": []
         },
-        "MID": {
-          "games": 11,
+        "BOTTOM": {
+          "games": 4,
           "picks": [
             {
-              "champion": "Morgana",
-              "games": 11,
-              "rate": 100.0
+              "champion": "Kalista",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
+        "UTILITY": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Amumu",
+              "games": 14,
+              "rate": 87.5
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "FiddleSticks",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
         }
       }
     }

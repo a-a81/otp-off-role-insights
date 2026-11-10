@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taric",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "UTILITY",
   "players": 8,
   "mainLaneGames": 287,
@@ -25,11 +25,16 @@
     },
     {
       "champion": "Braum",
-      "games": 6,
-      "rate": 2.1
+      "games": 5,
+      "rate": 1.7
     },
     {
       "champion": "Sejuani",
+      "games": 5,
+      "rate": 1.7
+    },
+    {
+      "champion": "Thresh",
       "games": 5,
       "rate": 1.7
     },
@@ -54,17 +59,7 @@
       "rate": 1.4
     },
     {
-      "champion": "Neeko",
-      "games": 4,
-      "rate": 1.4
-    },
-    {
       "champion": "Sona",
-      "games": 4,
-      "rate": 1.4
-    },
-    {
-      "champion": "Thresh",
       "games": 4,
       "rate": 1.4
     },
@@ -72,6 +67,11 @@
       "champion": "Yuumi",
       "games": 4,
       "rate": 1.4
+    },
+    {
+      "champion": "Neeko",
+      "games": 3,
+      "rate": 1.0
     },
     {
       "champion": "Pantheon",
@@ -146,24 +146,30 @@
       ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
       "games": 17,
       "picks": [
         {
           "champion": "Orianna",
-          "games": 5,
-          "rate": 29.4
-        },
-        {
-          "champion": "Ryze",
-          "games": 4,
-          "rate": 23.5
+          "games": 7,
+          "rate": 41.2
         },
         {
           "champion": "Lissandra",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Ryze",
           "games": 2,
           "rate": 11.8
         },
@@ -200,27 +206,22 @@
       ]
     },
     "BOTTOM": {
-      "games": 8,
+      "games": 7,
       "picks": [
         {
           "champion": "Kaisa",
           "games": 4,
-          "rate": 50.0
+          "rate": 57.1
         },
         {
           "champion": "Karthus",
           "games": 2,
-          "rate": 25.0
+          "rate": 28.6
         },
         {
           "champion": "Aphelios",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Ezreal",
-          "games": 1,
-          "rate": 12.5
+          "rate": 14.3
         }
       ]
     }
@@ -247,11 +248,16 @@
         },
         {
           "champion": "Braum",
-          "games": 6,
-          "rate": 2.1
+          "games": 5,
+          "rate": 1.7
         },
         {
           "champion": "Sejuani",
+          "games": 5,
+          "rate": 1.7
+        },
+        {
+          "champion": "Thresh",
           "games": 5,
           "rate": 1.7
         },
@@ -276,17 +282,7 @@
           "rate": 1.4
         },
         {
-          "champion": "Neeko",
-          "games": 4,
-          "rate": 1.4
-        },
-        {
           "champion": "Sona",
-          "games": 4,
-          "rate": 1.4
-        },
-        {
-          "champion": "Thresh",
           "games": 4,
           "rate": 1.4
         },
@@ -294,6 +290,11 @@
           "champion": "Yuumi",
           "games": 4,
           "rate": 1.4
+        },
+        {
+          "champion": "Neeko",
+          "games": 3,
+          "rate": 1.0
         },
         {
           "champion": "Pantheon",
@@ -368,24 +369,30 @@
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 17,
           "picks": [
             {
               "champion": "Orianna",
-              "games": 5,
-              "rate": 29.4
-            },
-            {
-              "champion": "Ryze",
-              "games": 4,
-              "rate": 23.5
+              "games": 7,
+              "rate": 41.2
             },
             {
               "champion": "Lissandra",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Ryze",
               "games": 2,
               "rate": 11.8
             },
@@ -422,27 +429,22 @@
           ]
         },
         "BOTTOM": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Kaisa",
               "games": 4,
-              "rate": 50.0
+              "rate": 57.1
             },
             {
               "champion": "Karthus",
               "games": 2,
-              "rate": 25.0
+              "rate": 28.6
             },
             {
               "champion": "Aphelios",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Ezreal",
-              "games": 1,
-              "rate": 12.5
+              "rate": 14.3
             }
           ]
         }

@@ -3,25 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Soraka",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "UTILITY",
   "players": 2,
-  "mainLaneGames": 58,
+  "mainLaneGames": 59,
   "mainLaneNext": [
     {
       "champion": "Nautilus",
       "games": 5,
-      "rate": 8.6
+      "rate": 8.5
     },
     {
       "champion": "Zilean",
       "games": 5,
-      "rate": 8.6
+      "rate": 8.5
     },
     {
       "champion": "Nami",
-      "games": 3,
-      "rate": 5.2
+      "games": 2,
+      "rate": 3.4
     },
     {
       "champion": "Pyke",
@@ -30,21 +30,6 @@
     },
     {
       "champion": "Braum",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Janna",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Neeko",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Yuumi",
       "games": 1,
       "rate": 1.7
     }
@@ -91,37 +76,32 @@
       ]
     },
     "BOTTOM": {
-      "games": 17,
+      "games": 16,
       "picks": [
         {
           "champion": "Yasuo",
           "games": 7,
-          "rate": 41.2
+          "rate": 43.8
         },
         {
           "champion": "Akshan",
           "games": 5,
-          "rate": 29.4
+          "rate": 31.2
         },
         {
           "champion": "Lux",
           "games": 2,
-          "rate": 11.8
+          "rate": 12.5
         },
         {
           "champion": "Hwei",
           "games": 1,
-          "rate": 5.9
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1,
-          "rate": 5.9
+          "rate": 6.2
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 5.9
+          "rate": 6.2
         }
       ]
     }
@@ -129,22 +109,22 @@
   "byMainLane": {
     "UTILITY": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 59,
       "mainLaneNext": [
         {
           "champion": "Nautilus",
           "games": 5,
-          "rate": 8.6
+          "rate": 8.5
         },
         {
           "champion": "Zilean",
           "games": 5,
-          "rate": 8.6
+          "rate": 8.5
         },
         {
           "champion": "Nami",
-          "games": 3,
-          "rate": 5.2
+          "games": 2,
+          "rate": 3.4
         },
         {
           "champion": "Pyke",
@@ -153,21 +133,6 @@
         },
         {
           "champion": "Braum",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Janna",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Neeko",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Yuumi",
           "games": 1,
           "rate": 1.7
         }
@@ -214,37 +179,149 @@
           ]
         },
         "BOTTOM": {
-          "games": 17,
+          "games": 16,
           "picks": [
             {
               "champion": "Yasuo",
               "games": 7,
-              "rate": 41.2
+              "rate": 43.8
             },
             {
               "champion": "Akshan",
               "games": 5,
-              "rate": 29.4
+              "rate": 31.2
             },
             {
               "champion": "Lux",
               "games": 2,
-              "rate": 11.8
+              "rate": 12.5
             },
             {
               "champion": "Hwei",
               "games": 1,
-              "rate": 5.9
-            },
-            {
-              "champion": "Kaisa",
-              "games": 1,
-              "rate": 5.9
+              "rate": 6.2
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 5.9
+              "rate": 6.2
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "AurelionSol",
+          "games": 4,
+          "rate": 14.8
+        },
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 7.4
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Ivern",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Janna",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 3.7
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 3.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 4,
+              "rate": 57.1
+            },
+            {
+              "champion": "Soraka",
+              "games": 3,
+              "rate": 42.9
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Darius",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Ivern",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

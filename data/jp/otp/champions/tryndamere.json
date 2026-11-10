@@ -3,18 +3,13 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tryndamere",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "TOP",
   "players": 4,
   "mainLaneGames": 120,
   "mainLaneNext": [
     {
       "champion": "Jax",
-      "games": 2,
-      "rate": 1.7
-    },
-    {
-      "champion": "KogMaw",
       "games": 2,
       "rate": 1.7
     },
@@ -56,12 +51,17 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Tryndamere",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
@@ -111,32 +111,32 @@
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 8,
       "picks": [
         {
           "champion": "Taric",
           "games": 3,
-          "rate": 33.3
+          "rate": 37.5
         },
         {
           "champion": "Camille",
           "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Tryndamere",
-          "games": 2,
-          "rate": 22.2
+          "rate": 25.0
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
@@ -148,11 +148,6 @@
       "mainLaneNext": [
         {
           "champion": "Jax",
-          "games": 2,
-          "rate": 1.7
-        },
-        {
-          "champion": "KogMaw",
           "games": 2,
           "rate": 1.7
         },
@@ -194,12 +189,17 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Tryndamere",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "XinZhao",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -249,32 +249,32 @@
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 8,
           "picks": [
             {
               "champion": "Taric",
               "games": 3,
-              "rate": 33.3
+              "rate": 37.5
             },
             {
               "champion": "Camille",
               "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Tryndamere",
-              "games": 2,
-              "rate": 22.2
+              "rate": 25.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
+            },
+            {
+              "champion": "Tryndamere",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }
@@ -282,12 +282,12 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 20,
+      "mainLaneGames": 22,
       "mainLaneNext": [
         {
           "champion": "Garen",
-          "games": 2,
-          "rate": 10.0
+          "games": 1,
+          "rate": 4.5
         }
       ],
       "offLanes": {
@@ -300,38 +300,27 @@
               "rate": 93.3
             },
             {
-              "champion": "Zac",
+              "champion": "Malzahar",
               "games": 1,
               "rate": 6.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Darius",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 0,
           "picks": []
         },
         "UTILITY": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Alistar",
               "games": 3,
-              "rate": 75.0
-            },
-            {
-              "champion": "Velkoz",
-              "games": 1,
-              "rate": 25.0
+              "rate": 100.0
             }
           ]
         }

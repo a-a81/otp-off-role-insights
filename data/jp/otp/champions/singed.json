@@ -3,40 +3,50 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Singed",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "TOP",
-  "players": 8,
-  "mainLaneGames": 258,
+  "players": 9,
+  "mainLaneGames": 284,
   "mainLaneNext": [
+    {
+      "champion": "Malphite",
+      "games": 6,
+      "rate": 2.1
+    },
     {
       "champion": "Sion",
       "games": 6,
-      "rate": 2.3
+      "rate": 2.1
     },
     {
-      "champion": "Malphite",
+      "champion": "Olaf",
       "games": 4,
-      "rate": 1.6
+      "rate": 1.4
+    },
+    {
+      "champion": "Garen",
+      "games": 2,
+      "rate": 0.7
     },
     {
       "champion": "Gnar",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Nasus",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
-      "champion": "Olaf",
+      "champion": "Ornn",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Shen",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "DrMundo",
@@ -44,157 +54,192 @@
       "rate": 0.4
     },
     {
-      "champion": "Garen",
+      "champion": "TahmKench",
       "games": 1,
       "rate": 0.4
     },
     {
-      "champion": "Ornn",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Rumble",
+      "champion": "Teemo",
       "games": 1,
       "rate": 0.4
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 14,
+      "games": 18,
       "picks": [
         {
           "champion": "Singed",
-          "games": 11,
-          "rate": 78.6
+          "games": 15,
+          "rate": 83.3
         },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         },
         {
           "champion": "Qiyana",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         },
         {
           "champion": "Rengar",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.6
         }
       ]
     },
     "MID": {
-      "games": 15,
+      "games": 20,
       "picks": [
         {
           "champion": "Singed",
           "games": 12,
-          "rate": 80.0
+          "rate": 60.0
+        },
+        {
+          "champion": "Ekko",
+          "games": 2,
+          "rate": 10.0
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 5.0
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 5.0
         },
         {
           "champion": "Fizz",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.0
         },
         {
           "champion": "Hwei",
           "games": 1,
-          "rate": 6.7
-        },
-        {
-          "champion": "Vex",
-          "games": 1,
-          "rate": 6.7
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 7,
-      "picks": [
-        {
-          "champion": "Singed",
-          "games": 5,
-          "rate": 71.4
-        },
-        {
-          "champion": "Hwei",
-          "games": 1,
-          "rate": 14.3
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 14.3
-        }
-      ]
-    },
-    "UTILITY": {
-      "games": 17,
-      "picks": [
-        {
-          "champion": "Singed",
-          "games": 8,
-          "rate": 47.1
-        },
-        {
-          "champion": "Thresh",
-          "games": 3,
-          "rate": 17.6
-        },
-        {
-          "champion": "Yuumi",
-          "games": 3,
-          "rate": 17.6
-        },
-        {
-          "champion": "Nautilus",
-          "games": 2,
-          "rate": 11.8
+          "rate": 5.0
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 5.9
+          "rate": 5.0
+        },
+        {
+          "champion": "Vex",
+          "games": 1,
+          "rate": 5.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 8,
+      "picks": [
+        {
+          "champion": "Singed",
+          "games": 6,
+          "rate": 75.0
+        },
+        {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 12.5
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 21,
+      "picks": [
+        {
+          "champion": "Singed",
+          "games": 9,
+          "rate": 42.9
+        },
+        {
+          "champion": "Thresh",
+          "games": 3,
+          "rate": 14.3
+        },
+        {
+          "champion": "Yuumi",
+          "games": 3,
+          "rate": 14.3
+        },
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Swain",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 4.8
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 8,
-      "mainLaneGames": 258,
+      "players": 9,
+      "mainLaneGames": 284,
       "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 6,
+          "rate": 2.1
+        },
         {
           "champion": "Sion",
           "games": 6,
-          "rate": 2.3
+          "rate": 2.1
         },
         {
-          "champion": "Malphite",
+          "champion": "Olaf",
           "games": 4,
-          "rate": 1.6
+          "rate": 1.4
+        },
+        {
+          "champion": "Garen",
+          "games": 2,
+          "rate": 0.7
         },
         {
           "champion": "Gnar",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Nasus",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
-          "champion": "Olaf",
+          "champion": "Ornn",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Shen",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "DrMundo",
@@ -202,119 +247,144 @@
           "rate": 0.4
         },
         {
-          "champion": "Garen",
+          "champion": "TahmKench",
           "games": 1,
           "rate": 0.4
         },
         {
-          "champion": "Ornn",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Rumble",
+          "champion": "Teemo",
           "games": 1,
           "rate": 0.4
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 14,
+          "games": 18,
           "picks": [
             {
               "champion": "Singed",
-              "games": 11,
-              "rate": 78.6
+              "games": 15,
+              "rate": 83.3
             },
             {
               "champion": "Chogath",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             },
             {
               "champion": "Qiyana",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             },
             {
               "champion": "Rengar",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.6
             }
           ]
         },
         "MID": {
-          "games": 15,
+          "games": 20,
           "picks": [
             {
               "champion": "Singed",
               "games": 12,
-              "rate": 80.0
+              "rate": 60.0
+            },
+            {
+              "champion": "Ekko",
+              "games": 2,
+              "rate": 10.0
+            },
+            {
+              "champion": "AurelionSol",
+              "games": 1,
+              "rate": 5.0
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 5.0
             },
             {
               "champion": "Fizz",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.0
             },
             {
               "champion": "Hwei",
               "games": 1,
-              "rate": 6.7
-            },
-            {
-              "champion": "Vex",
-              "games": 1,
-              "rate": 6.7
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 7,
-          "picks": [
-            {
-              "champion": "Singed",
-              "games": 5,
-              "rate": 71.4
-            },
-            {
-              "champion": "Hwei",
-              "games": 1,
-              "rate": 14.3
-            },
-            {
-              "champion": "Vayne",
-              "games": 1,
-              "rate": 14.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 17,
-          "picks": [
-            {
-              "champion": "Singed",
-              "games": 8,
-              "rate": 47.1
-            },
-            {
-              "champion": "Thresh",
-              "games": 3,
-              "rate": 17.6
-            },
-            {
-              "champion": "Yuumi",
-              "games": 3,
-              "rate": 17.6
-            },
-            {
-              "champion": "Nautilus",
-              "games": 2,
-              "rate": 11.8
+              "rate": 5.0
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 5.9
+              "rate": 5.0
+            },
+            {
+              "champion": "Vex",
+              "games": 1,
+              "rate": 5.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Singed",
+              "games": 6,
+              "rate": 75.0
+            },
+            {
+              "champion": "Hwei",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Vayne",
+              "games": 1,
+              "rate": 12.5
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 21,
+          "picks": [
+            {
+              "champion": "Singed",
+              "games": 9,
+              "rate": 42.9
+            },
+            {
+              "champion": "Thresh",
+              "games": 3,
+              "rate": 14.3
+            },
+            {
+              "champion": "Yuumi",
+              "games": 3,
+              "rate": 14.3
+            },
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Swain",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Rakan",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 4.8
             }
           ]
         }

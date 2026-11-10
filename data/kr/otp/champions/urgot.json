@@ -3,30 +3,30 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Urgot",
-  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
+  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
   "mainLane": "TOP",
-  "players": 3,
-  "mainLaneGames": 100,
+  "players": 4,
+  "mainLaneGames": 133,
   "mainLaneNext": [
     {
-      "champion": "DrMundo",
+      "champion": "Darius",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Olaf",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Tryndamere",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Vayne",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     }
   ],
   "offLanes": {
@@ -35,12 +35,17 @@
       "picks": []
     },
     "MID": {
-      "games": 6,
+      "games": 8,
       "picks": [
         {
           "champion": "Urgot",
-          "games": 6,
-          "rate": 100.0
+          "games": 7,
+          "rate": 87.5
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
@@ -55,65 +60,70 @@
       ]
     },
     "UTILITY": {
-      "games": 11,
+      "games": 16,
       "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 5,
+          "rate": 31.2
+        },
         {
           "champion": "Blitzcrank",
           "games": 3,
-          "rate": 27.3
+          "rate": 18.8
         },
         {
           "champion": "Lulu",
           "games": 3,
-          "rate": 27.3
+          "rate": 18.8
         },
         {
-          "champion": "Nautilus",
+          "champion": "Urgot",
           "games": 2,
-          "rate": 18.2
+          "rate": 12.5
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 6.2
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.2
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 9.1
-        },
-        {
-          "champion": "Urgot",
-          "games": 1,
-          "rate": 9.1
+          "rate": 6.2
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 3,
-      "mainLaneGames": 100,
+      "players": 4,
+      "mainLaneGames": 133,
       "mainLaneNext": [
         {
-          "champion": "DrMundo",
+          "champion": "Darius",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Olaf",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Tryndamere",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Vayne",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         }
       ],
       "offLanes": {
@@ -122,12 +132,17 @@
           "picks": []
         },
         "MID": {
-          "games": 6,
+          "games": 8,
           "picks": [
             {
               "champion": "Urgot",
-              "games": 6,
-              "rate": 100.0
+              "games": 7,
+              "rate": 87.5
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -142,37 +157,42 @@
           ]
         },
         "UTILITY": {
-          "games": 11,
+          "games": 16,
           "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 5,
+              "rate": 31.2
+            },
             {
               "champion": "Blitzcrank",
               "games": 3,
-              "rate": 27.3
+              "rate": 18.8
             },
             {
               "champion": "Lulu",
               "games": 3,
-              "rate": 27.3
+              "rate": 18.8
             },
             {
-              "champion": "Nautilus",
+              "champion": "Urgot",
               "games": 2,
-              "rate": 18.2
+              "rate": 12.5
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 6.2
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.2
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Urgot",
-              "games": 1,
-              "rate": 9.1
+              "rate": 6.2
             }
           ]
         }

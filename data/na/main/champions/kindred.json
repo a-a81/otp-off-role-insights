@@ -3,30 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kindred",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "JUNGLE",
   "players": 5,
-  "mainLaneGames": 162,
+  "mainLaneGames": 161,
   "mainLaneNext": [
     {
       "champion": "Graves",
       "games": 25,
-      "rate": 15.4
+      "rate": 15.5
+    },
+    {
+      "champion": "Kayn",
+      "games": 4,
+      "rate": 2.5
     },
     {
       "champion": "LeeSin",
       "games": 4,
       "rate": 2.5
-    },
-    {
-      "champion": "Naafiri",
-      "games": 4,
-      "rate": 2.5
-    },
-    {
-      "champion": "Khazix",
-      "games": 3,
-      "rate": 1.9
     },
     {
       "champion": "Lillia",
@@ -39,12 +34,22 @@
       "rate": 1.2
     },
     {
+      "champion": "Jayce",
+      "games": 2,
+      "rate": 1.2
+    },
+    {
       "champion": "Karthus",
       "games": 2,
       "rate": 1.2
     },
     {
-      "champion": "Nidalee",
+      "champion": "Khazix",
+      "games": 2,
+      "rate": 1.2
+    },
+    {
+      "champion": "Naafiri",
       "games": 2,
       "rate": 1.2
     },
@@ -64,12 +69,12 @@
       "rate": 0.6
     },
     {
-      "champion": "Kayn",
+      "champion": "MonkeyKing",
       "games": 1,
       "rate": 0.6
     },
     {
-      "champion": "MonkeyKing",
+      "champion": "Nidalee",
       "games": 1,
       "rate": 0.6
     },
@@ -84,6 +89,11 @@
       "rate": 0.6
     },
     {
+      "champion": "Rengar",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
       "champion": "Viego",
       "games": 1,
       "rate": 0.6
@@ -91,32 +101,37 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 7,
       "picks": [
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 33.3
+          "rate": 28.6
+        },
+        {
+          "champion": "Fiora",
+          "games": 1,
+          "rate": 14.3
         },
         {
           "champion": "Gnar",
           "games": 1,
-          "rate": 16.7
+          "rate": 14.3
         },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 16.7
+          "rate": 14.3
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 16.7
+          "rate": 14.3
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 16.7
+          "rate": 14.3
         }
       ]
     },
@@ -141,97 +156,92 @@
       ]
     },
     "BOTTOM": {
-      "games": 9,
+      "games": 8,
       "picks": [
         {
           "champion": "Jhin",
           "games": 2,
-          "rate": 22.2
+          "rate": 25.0
         },
         {
           "champion": "Kaisa",
           "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Aphelios",
-          "games": 1,
-          "rate": 11.1
+          "rate": 25.0
         },
         {
           "champion": "Caitlyn",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         },
         {
           "champion": "Draven",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         },
         {
           "champion": "Kindred",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 11.1
+          "rate": 12.5
         }
       ]
     },
     "UTILITY": {
-      "games": 13,
+      "games": 14,
       "picks": [
         {
           "champion": "Braum",
           "games": 2,
-          "rate": 15.4
+          "rate": 14.3
         },
         {
           "champion": "LeeSin",
           "games": 2,
-          "rate": 15.4
+          "rate": 14.3
         },
         {
           "champion": "Sona",
           "games": 2,
-          "rate": 15.4
+          "rate": 14.3
+        },
+        {
+          "champion": "Yuumi",
+          "games": 2,
+          "rate": 14.3
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "Yuumi",
-          "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         }
       ]
     }
@@ -239,27 +249,22 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 5,
-      "mainLaneGames": 162,
+      "mainLaneGames": 161,
       "mainLaneNext": [
         {
           "champion": "Graves",
           "games": 25,
-          "rate": 15.4
+          "rate": 15.5
+        },
+        {
+          "champion": "Kayn",
+          "games": 4,
+          "rate": 2.5
         },
         {
           "champion": "LeeSin",
           "games": 4,
           "rate": 2.5
-        },
-        {
-          "champion": "Naafiri",
-          "games": 4,
-          "rate": 2.5
-        },
-        {
-          "champion": "Khazix",
-          "games": 3,
-          "rate": 1.9
         },
         {
           "champion": "Lillia",
@@ -272,12 +277,22 @@
           "rate": 1.2
         },
         {
+          "champion": "Jayce",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
           "champion": "Karthus",
           "games": 2,
           "rate": 1.2
         },
         {
-          "champion": "Nidalee",
+          "champion": "Khazix",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Naafiri",
           "games": 2,
           "rate": 1.2
         },
@@ -297,12 +312,12 @@
           "rate": 0.6
         },
         {
-          "champion": "Kayn",
+          "champion": "MonkeyKing",
           "games": 1,
           "rate": 0.6
         },
         {
-          "champion": "MonkeyKing",
+          "champion": "Nidalee",
           "games": 1,
           "rate": 0.6
         },
@@ -317,6 +332,11 @@
           "rate": 0.6
         },
         {
+          "champion": "Rengar",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
           "champion": "Viego",
           "games": 1,
           "rate": 0.6
@@ -324,32 +344,37 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 7,
           "picks": [
             {
               "champion": "Kindred",
               "games": 2,
-              "rate": 33.3
+              "rate": 28.6
+            },
+            {
+              "champion": "Fiora",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Gnar",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             },
             {
               "champion": "Jayce",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             },
             {
               "champion": "Yone",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             }
           ]
         },
@@ -374,97 +399,92 @@
           ]
         },
         "BOTTOM": {
-          "games": 9,
+          "games": 8,
           "picks": [
             {
               "champion": "Jhin",
               "games": 2,
-              "rate": 22.2
+              "rate": 25.0
             },
             {
               "champion": "Kaisa",
               "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Aphelios",
-              "games": 1,
-              "rate": 11.1
+              "rate": 25.0
             },
             {
               "champion": "Caitlyn",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             },
             {
               "champion": "Draven",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             },
             {
               "champion": "Kindred",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             },
             {
               "champion": "Lucian",
               "games": 1,
-              "rate": 11.1
+              "rate": 12.5
             }
           ]
         },
         "UTILITY": {
-          "games": 13,
+          "games": 14,
           "picks": [
             {
               "champion": "Braum",
               "games": 2,
-              "rate": 15.4
+              "rate": 14.3
             },
             {
               "champion": "LeeSin",
               "games": 2,
-              "rate": 15.4
+              "rate": 14.3
             },
             {
               "champion": "Sona",
               "games": 2,
-              "rate": 15.4
+              "rate": 14.3
+            },
+            {
+              "champion": "Yuumi",
+              "games": 2,
+              "rate": 14.3
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 7.7
-            },
-            {
-              "champion": "Yuumi",
-              "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
+  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
   "mainLane": "UTILITY",
   "players": 2,
   "mainLaneGames": 75,
@@ -154,6 +154,11 @@
           "champion": "Viktor",
           "games": 1,
           "rate": 1.7
+        },
+        {
+          "champion": "Yorick",
+          "games": 1,
+          "rate": 1.7
         }
       ],
       "offLanes": {
@@ -168,12 +173,17 @@
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Lissandra",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "TahmKench",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
@@ -193,11 +203,11 @@
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "TahmKench",
-              "games": 6,
+              "games": 5,
               "rate": 100.0
             }
           ]

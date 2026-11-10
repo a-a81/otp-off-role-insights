@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MonkeyKing",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "TOP",
   "players": 1,
   "mainLaneGames": 33,
@@ -103,6 +103,63 @@
               "champion": "MonkeyKing",
               "games": 2,
               "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 25,
+      "mainLaneNext": [
+        {
+          "champion": "LeeSin",
+          "games": 4,
+          "rate": 16.0
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 8.0
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Aatrox",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 10,
+          "picks": [
+            {
+              "champion": "Rakan",
+              "games": 6,
+              "rate": 60.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 4,
+              "rate": 40.0
             }
           ]
         }

@@ -3,20 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Cassiopeia",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 57,
+  "mainLaneGames": 47,
   "mainLaneNext": [
     {
       "champion": "Gnar",
       "games": 2,
-      "rate": 3.5
+      "rate": 4.3
     },
     {
       "champion": "Mordekaiser",
       "games": 1,
-      "rate": 1.8
+      "rate": 2.1
     }
   ],
   "offLanes": {
@@ -24,7 +24,7 @@
       "games": 2,
       "picks": [
         {
-          "champion": "Chogath",
+          "champion": "JarvanIV",
           "games": 1,
           "rate": 50.0
         },
@@ -36,12 +36,17 @@
       ]
     },
     "MID": {
-      "games": 11,
+      "games": 21,
       "picks": [
         {
           "champion": "Cassiopeia",
-          "games": 11,
-          "rate": 100.0
+          "games": 20,
+          "rate": 95.2
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 4.8
         }
       ]
     },
@@ -79,17 +84,17 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 57,
+      "mainLaneGames": 47,
       "mainLaneNext": [
         {
           "champion": "Gnar",
           "games": 2,
-          "rate": 3.5
+          "rate": 4.3
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 1.8
+          "rate": 2.1
         }
       ],
       "offLanes": {
@@ -97,7 +102,7 @@
           "games": 2,
           "picks": [
             {
-              "champion": "Chogath",
+              "champion": "JarvanIV",
               "games": 1,
               "rate": 50.0
             },
@@ -109,12 +114,17 @@
           ]
         },
         "MID": {
-          "games": 11,
+          "games": 21,
           "picks": [
             {
               "champion": "Cassiopeia",
-              "games": 11,
-              "rate": 100.0
+              "games": 20,
+              "rate": 95.2
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 4.8
             }
           ]
         },
@@ -152,12 +162,12 @@
     },
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 30,
+      "mainLaneGames": 31,
       "mainLaneNext": [
         {
           "champion": "Ezreal",
           "games": 1,
-          "rate": 3.3
+          "rate": 3.2
         }
       ],
       "offLanes": {
@@ -172,36 +182,37 @@
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
             {
-              "champion": "Cassiopeia",
-              "games": 2,
-              "rate": 50.0
-            },
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
             {
               "champion": "Sylas",
               "games": 2,
-              "rate": 50.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Cassiopeia",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Maokai",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

@@ -3,52 +3,46 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Naafiri",
-  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
+  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 57,
+  "mainLaneGames": 58,
   "mainLaneNext": [
+    {
+      "champion": "Locke",
+      "games": 2,
+      "rate": 3.4
+    },
     {
       "champion": "Anivia",
       "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Sylas",
-      "games": 1,
-      "rate": 1.8
+      "rate": 1.7
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 7,
       "picks": [
         {
           "champion": "Naafiri",
           "games": 3,
-          "rate": 50.0
+          "rate": 42.9
         },
         {
           "champion": "Aurora",
           "games": 2,
-          "rate": 33.3
+          "rate": 28.6
         },
         {
           "champion": "Kled",
-          "games": 1,
-          "rate": 16.7
+          "games": 2,
+          "rate": 28.6
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Naafiri",
-          "games": 2,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
       "games": 11,
@@ -66,11 +60,11 @@
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Morgana",
-          "games": 1,
+          "games": 2,
           "rate": 100.0
         }
       ]
@@ -79,49 +73,43 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 57,
+      "mainLaneGames": 58,
       "mainLaneNext": [
+        {
+          "champion": "Locke",
+          "games": 2,
+          "rate": 3.4
+        },
         {
           "champion": "Anivia",
           "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Sylas",
-          "games": 1,
-          "rate": 1.8
+          "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 7,
           "picks": [
             {
               "champion": "Naafiri",
               "games": 3,
-              "rate": 50.0
+              "rate": 42.9
             },
             {
               "champion": "Aurora",
               "games": 2,
-              "rate": 33.3
+              "rate": 28.6
             },
             {
               "champion": "Kled",
-              "games": 1,
-              "rate": 16.7
+              "games": 2,
+              "rate": 28.6
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Naafiri",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 11,
@@ -139,12 +127,79 @@
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Morgana",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 34,
+      "mainLaneNext": [
+        {
+          "champion": "Belveth",
+          "games": 7,
+          "rate": 20.6
+        },
+        {
+          "champion": "Khazix",
+          "games": 1,
+          "rate": 2.9
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Galio",
               "games": 1,
               "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

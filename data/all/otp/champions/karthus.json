@@ -3,18 +3,23 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karthus",
-  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
+  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
   "mainLane": "BOTTOM",
   "players": 13,
-  "mainLaneGames": 381,
+  "mainLaneGames": 380,
   "mainLaneNext": [
     {
       "champion": "Viktor",
-      "games": 10,
-      "rate": 2.6
+      "games": 9,
+      "rate": 2.4
     },
     {
       "champion": "Jhin",
+      "games": 2,
+      "rate": 0.5
+    },
+    {
+      "champion": "Lux",
       "games": 2,
       "rate": 0.5
     },
@@ -29,17 +34,7 @@
       "rate": 0.5
     },
     {
-      "champion": "Ziggs",
-      "games": 2,
-      "rate": 0.5
-    },
-    {
       "champion": "Brand",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
-      "champion": "Lux",
       "games": 1,
       "rate": 0.3
     },
@@ -50,6 +45,11 @@
     },
     {
       "champion": "Syndra",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
+      "champion": "Ziggs",
       "games": 1,
       "rate": 0.3
     }
@@ -65,8 +65,8 @@
         },
         {
           "champion": "DrMundo",
-          "games": 10,
-          "rate": 19.6
+          "games": 11,
+          "rate": 21.6
         },
         {
           "champion": "Kled",
@@ -75,8 +75,8 @@
         },
         {
           "champion": "Sion",
-          "games": 5,
-          "rate": 9.8
+          "games": 4,
+          "rate": 7.8
         },
         {
           "champion": "Malphite",
@@ -106,65 +106,75 @@
       ]
     },
     "JUNGLE": {
-      "games": 25,
+      "games": 26,
       "picks": [
         {
           "champion": "Karthus",
-          "games": 25,
+          "games": 26,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 22,
+      "games": 23,
       "picks": [
         {
           "champion": "Karthus",
           "games": 17,
-          "rate": 77.3
+          "rate": 73.9
         },
         {
           "champion": "DrMundo",
           "games": 2,
-          "rate": 9.1
+          "rate": 8.7
         },
         {
           "champion": "Swain",
           "games": 2,
-          "rate": 9.1
+          "rate": 8.7
         },
         {
           "champion": "Kled",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 4.3
         }
       ]
     },
     "UTILITY": {
-      "games": 35,
+      "games": 34,
       "picks": [
         {
           "champion": "Karthus",
-          "games": 20,
-          "rate": 57.1
+          "games": 18,
+          "rate": 52.9
         },
         {
           "champion": "Velkoz",
           "games": 6,
-          "rate": 17.1
+          "rate": 17.6
         },
         {
           "champion": "Braum",
           "games": 3,
-          "rate": 8.6
+          "rate": 8.8
         },
         {
           "champion": "Nami",
           "games": 2,
-          "rate": 5.7
+          "rate": 5.9
         },
         {
           "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Brand",
           "games": 1,
           "rate": 2.9
         },
@@ -189,15 +199,20 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 13,
-      "mainLaneGames": 381,
+      "mainLaneGames": 380,
       "mainLaneNext": [
         {
           "champion": "Viktor",
-          "games": 10,
-          "rate": 2.6
+          "games": 9,
+          "rate": 2.4
         },
         {
           "champion": "Jhin",
+          "games": 2,
+          "rate": 0.5
+        },
+        {
+          "champion": "Lux",
           "games": 2,
           "rate": 0.5
         },
@@ -212,17 +227,7 @@
           "rate": 0.5
         },
         {
-          "champion": "Ziggs",
-          "games": 2,
-          "rate": 0.5
-        },
-        {
           "champion": "Brand",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
-          "champion": "Lux",
           "games": 1,
           "rate": 0.3
         },
@@ -233,6 +238,11 @@
         },
         {
           "champion": "Syndra",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
+          "champion": "Ziggs",
           "games": 1,
           "rate": 0.3
         }
@@ -248,8 +258,8 @@
             },
             {
               "champion": "DrMundo",
-              "games": 10,
-              "rate": 19.6
+              "games": 11,
+              "rate": 21.6
             },
             {
               "champion": "Kled",
@@ -258,8 +268,8 @@
             },
             {
               "champion": "Sion",
-              "games": 5,
-              "rate": 9.8
+              "games": 4,
+              "rate": 7.8
             },
             {
               "champion": "Malphite",
@@ -289,65 +299,75 @@
           ]
         },
         "JUNGLE": {
-          "games": 25,
+          "games": 26,
           "picks": [
             {
               "champion": "Karthus",
-              "games": 25,
+              "games": 26,
               "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 22,
+          "games": 23,
           "picks": [
             {
               "champion": "Karthus",
               "games": 17,
-              "rate": 77.3
+              "rate": 73.9
             },
             {
               "champion": "DrMundo",
               "games": 2,
-              "rate": 9.1
+              "rate": 8.7
             },
             {
               "champion": "Swain",
               "games": 2,
-              "rate": 9.1
+              "rate": 8.7
             },
             {
               "champion": "Kled",
               "games": 1,
-              "rate": 4.5
+              "rate": 4.3
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 4.3
             }
           ]
         },
         "UTILITY": {
-          "games": 35,
+          "games": 34,
           "picks": [
             {
               "champion": "Karthus",
-              "games": 20,
-              "rate": 57.1
+              "games": 18,
+              "rate": 52.9
             },
             {
               "champion": "Velkoz",
               "games": 6,
-              "rate": 17.1
+              "rate": 17.6
             },
             {
               "champion": "Braum",
               "games": 3,
-              "rate": 8.6
+              "rate": 8.8
             },
             {
               "champion": "Nami",
               "games": 2,
-              "rate": 5.7
+              "rate": 5.9
             },
             {
               "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 2.9
+            },
+            {
+              "champion": "Brand",
               "games": 1,
               "rate": 2.9
             },

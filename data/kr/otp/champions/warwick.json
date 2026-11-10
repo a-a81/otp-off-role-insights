@@ -3,15 +3,15 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Warwick",
-  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
+  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 35,
+  "players": 2,
+  "mainLaneGames": 67,
   "mainLaneNext": [
     {
       "champion": "Poppy",
-      "games": 3,
-      "rate": 8.6
+      "games": 11,
+      "rate": 16.4
     }
   ],
   "offLanes": {
@@ -26,44 +26,55 @@
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Ekko",
-          "games": 1,
-          "rate": 50.0
+          "games": 3,
+          "rate": 75.0
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 7,
       "picks": [
         {
           "champion": "Poppy",
-          "games": 2,
-          "rate": 100.0
+          "games": 6,
+          "rate": 85.7
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 35,
+      "players": 2,
+      "mainLaneGames": 67,
       "mainLaneNext": [
         {
           "champion": "Poppy",
-          "games": 3,
-          "rate": 8.6
+          "games": 11,
+          "rate": 16.4
         }
       ],
       "offLanes": {
@@ -78,31 +89,42 @@
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 4,
           "picks": [
             {
               "champion": "Ekko",
-              "games": 1,
-              "rate": 50.0
+              "games": 3,
+              "rate": 75.0
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 7,
           "picks": [
             {
               "champion": "Poppy",
-              "games": 2,
-              "rate": 100.0
+              "games": 6,
+              "rate": 85.7
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         }

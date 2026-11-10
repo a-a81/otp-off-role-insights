@@ -3,64 +3,80 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Jax",
-  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
+  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
   "mainLane": "TOP",
-  "players": 3,
-  "mainLaneGames": 96,
+  "players": 4,
+  "mainLaneGames": 129,
   "mainLaneNext": [
     {
+      "champion": "Gnar",
+      "games": 7,
+      "rate": 5.4
+    },
+    {
       "champion": "Tryndamere",
-      "games": 3,
-      "rate": 3.1
+      "games": 2,
+      "rate": 1.6
     },
     {
       "champion": "Aatrox",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Ambessa",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Camille",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
-      "champion": "Gnar",
+      "champion": "Vladimir",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "Aurora",
           "games": 4,
-          "rate": 50.0
+          "rate": 44.4
         },
         {
           "champion": "Tryndamere",
           "games": 2,
-          "rate": 25.0
+          "rate": 22.2
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         },
         {
           "champion": "Jax",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
@@ -75,89 +91,120 @@
       ]
     },
     "UTILITY": {
-      "games": 15,
+      "games": 20,
       "picks": [
         {
           "champion": "Jax",
-          "games": 10,
-          "rate": 66.7
+          "games": 8,
+          "rate": 40.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 5,
+          "rate": 25.0
         },
         {
           "champion": "Brand",
           "games": 2,
-          "rate": 13.3
+          "rate": 10.0
         },
         {
-          "champion": "Nautilus",
+          "champion": "Karma",
           "games": 2,
-          "rate": 13.3
+          "rate": 10.0
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 5.0
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.0
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 3,
-      "mainLaneGames": 96,
+      "players": 4,
+      "mainLaneGames": 129,
       "mainLaneNext": [
         {
+          "champion": "Gnar",
+          "games": 7,
+          "rate": 5.4
+        },
+        {
           "champion": "Tryndamere",
-          "games": 3,
-          "rate": 3.1
+          "games": 2,
+          "rate": 1.6
         },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Camille",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
-          "champion": "Gnar",
+          "champion": "Vladimir",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Aurora",
               "games": 4,
-              "rate": 50.0
+              "rate": 44.4
             },
             {
               "champion": "Tryndamere",
               "games": 2,
-              "rate": 25.0
+              "rate": 22.2
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             },
             {
               "champion": "Jax",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
+            },
+            {
+              "champion": "Ryze",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
@@ -172,27 +219,42 @@
           ]
         },
         "UTILITY": {
-          "games": 15,
+          "games": 20,
           "picks": [
             {
               "champion": "Jax",
-              "games": 10,
-              "rate": 66.7
+              "games": 8,
+              "rate": 40.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 5,
+              "rate": 25.0
             },
             {
               "champion": "Brand",
               "games": 2,
-              "rate": 13.3
+              "rate": 10.0
             },
             {
-              "champion": "Nautilus",
+              "champion": "Karma",
               "games": 2,
-              "rate": 13.3
+              "rate": 10.0
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 5.0
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.0
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         }

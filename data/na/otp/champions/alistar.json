@@ -3,25 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "UTILITY",
-  "players": 3,
-  "mainLaneGames": 102,
+  "players": 4,
+  "mainLaneGames": 140,
   "mainLaneNext": [
     {
-      "champion": "Leona",
-      "games": 2,
-      "rate": 2.0
-    },
-    {
-      "champion": "Thresh",
-      "games": 2,
-      "rate": 2.0
+      "champion": "Rakan",
+      "games": 4,
+      "rate": 2.9
     },
     {
       "champion": "Karma",
+      "games": 3,
+      "rate": 2.1
+    },
+    {
+      "champion": "Poppy",
+      "games": 2,
+      "rate": 1.4
+    },
+    {
+      "champion": "Blitzcrank",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.7
+    },
+    {
+      "champion": "Thresh",
+      "games": 1,
+      "rate": 0.7
     }
   ],
   "offLanes": {
@@ -34,13 +44,13 @@
       "picks": [
         {
           "champion": "Nunu",
-          "games": 9,
-          "rate": 60.0
+          "games": 10,
+          "rate": 66.7
         },
         {
           "champion": "Viego",
-          "games": 5,
-          "rate": 33.3
+          "games": 4,
+          "rate": 26.7
         },
         {
           "champion": "JarvanIV",
@@ -54,35 +64,50 @@
       "picks": []
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
-          "champion": "Alistar",
+          "champion": "Kaisa",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 3,
-      "mainLaneGames": 102,
+      "players": 4,
+      "mainLaneGames": 140,
       "mainLaneNext": [
         {
-          "champion": "Leona",
-          "games": 2,
-          "rate": 2.0
-        },
-        {
-          "champion": "Thresh",
-          "games": 2,
-          "rate": 2.0
+          "champion": "Rakan",
+          "games": 4,
+          "rate": 2.9
         },
         {
           "champion": "Karma",
+          "games": 3,
+          "rate": 2.1
+        },
+        {
+          "champion": "Poppy",
+          "games": 2,
+          "rate": 1.4
+        },
+        {
+          "champion": "Blitzcrank",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.7
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 0.7
         }
       ],
       "offLanes": {
@@ -95,13 +120,13 @@
           "picks": [
             {
               "champion": "Nunu",
-              "games": 9,
-              "rate": 60.0
+              "games": 10,
+              "rate": 66.7
             },
             {
               "champion": "Viego",
-              "games": 5,
-              "rate": 33.3
+              "games": 4,
+              "rate": 26.7
             },
             {
               "champion": "JarvanIV",
@@ -115,12 +140,17 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
-              "champion": "Alistar",
+              "champion": "Kaisa",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Pantheon",
-  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
+  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
   "mainLane": "TOP",
   "players": 1,
   "mainLaneGames": 35,
@@ -112,13 +112,18 @@
       "mainLaneNext": [
         {
           "champion": "Galio",
-          "games": 2,
-          "rate": 7.1
+          "games": 3,
+          "rate": 10.7
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 3.6
         },
         {
           "champion": "Yasuo",
-          "games": 2,
-          "rate": 7.1
+          "games": 1,
+          "rate": 3.6
         }
       ],
       "offLanes": {
@@ -127,23 +132,33 @@
           "picks": [
             {
               "champion": "Pantheon",
-              "games": 4,
-              "rate": 100.0
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Yasuo",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             },
             {
               "champion": "RekSai",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         },
@@ -152,27 +167,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 40.0
+              "rate": 50.0
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         }

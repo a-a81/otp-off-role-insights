@@ -3,83 +3,216 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Swain",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 46,
+  "mainLaneGames": 47,
   "mainLaneNext": [
     {
-      "champion": "Galio",
+      "champion": "Veigar",
+      "games": 3,
+      "rate": 6.4
+    },
+    {
+      "champion": "Jhin",
       "games": 1,
-      "rate": 2.2
+      "rate": 2.1
+    },
+    {
+      "champion": "Vayne",
+      "games": 1,
+      "rate": 2.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 7,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Fiora",
+          "games": 4,
+          "rate": 28.6
+        },
         {
           "champion": "Swain",
           "games": 4,
-          "rate": 57.1
+          "rate": 28.6
         },
         {
-          "champion": "Chogath",
-          "games": 1,
+          "champion": "KSante",
+          "games": 2,
           "rate": 14.3
         },
         {
-          "champion": "Malphite",
+          "champion": "Ambessa",
           "games": 1,
-          "rate": 14.3
+          "rate": 7.1
         },
         {
-          "champion": "Shen",
+          "champion": "Darius",
           "games": 1,
-          "rate": 14.3
+          "rate": 7.1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 7.1
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
-          "champion": "JarvanIV",
+          "champion": "Talon",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
-    "BOTTOM": {
-      "games": 20,
+    "MID": {
+      "games": 2,
       "picks": [
         {
-          "champion": "Swain",
-          "games": 20,
-          "rate": 100.0
+          "champion": "Akshan",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "KogMaw",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 13,
       "picks": [
         {
           "champion": "Swain",
-          "games": 3,
-          "rate": 75.0
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 25.0
+          "games": 13,
+          "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 2,
+      "mainLaneGames": 47,
+      "mainLaneNext": [
+        {
+          "champion": "Veigar",
+          "games": 3,
+          "rate": 6.4
+        },
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 2.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Fiora",
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "Swain",
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "KSante",
+              "games": 2,
+              "rate": 14.3
+            },
+            {
+              "champion": "Ambessa",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Darius",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Talon",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "XinZhao",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Akshan",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "KogMaw",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Swain",
+              "games": 13,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 2,
-      "mainLaneGames": 46,
+      "mainLaneGames": 45,
       "mainLaneNext": [
         {
           "champion": "Galio",
@@ -134,69 +267,17 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Swain",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 80.0
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 25.0
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 24,
-      "mainLaneNext": [
-        {
-          "champion": "Veigar",
-          "games": 3,
-          "rate": 12.5
-        },
-        {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 4.2
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Swain",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "XinZhao",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Swain",
-              "games": 11,
-              "rate": 100.0
+              "rate": 20.0
             }
           ]
         }

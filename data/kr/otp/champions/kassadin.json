@@ -3,52 +3,51 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kassadin",
-  "updatedAt": "2026-11-09T19:52:07.680119+00:00",
+  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 28,
+  "mainLaneGames": 31,
   "mainLaneNext": [
     {
-      "champion": "Ryze",
+      "champion": "Lissandra",
+      "games": 2,
+      "rate": 6.5
+    },
+    {
+      "champion": "Galio",
       "games": 1,
-      "rate": 3.6
+      "rate": 3.2
+    },
+    {
+      "champion": "Locke",
+      "games": 1,
+      "rate": 3.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 6,
       "picks": [
         {
           "champion": "Kassadin",
-          "games": 5,
-          "rate": 62.5
+          "games": 4,
+          "rate": 66.7
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 12.5
+          "rate": 16.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "MonkeyKing",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "BOTTOM": {
       "games": 0,
@@ -68,7 +67,7 @@
           "rate": 33.3
         },
         {
-          "champion": "Leona",
+          "champion": "Kassadin",
           "games": 1,
           "rate": 33.3
         }
@@ -78,49 +77,48 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 28,
+      "mainLaneGames": 31,
       "mainLaneNext": [
         {
-          "champion": "Ryze",
+          "champion": "Lissandra",
+          "games": 2,
+          "rate": 6.5
+        },
+        {
+          "champion": "Galio",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.2
+        },
+        {
+          "champion": "Locke",
+          "games": 1,
+          "rate": 3.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 6,
           "picks": [
             {
               "champion": "Kassadin",
-              "games": 5,
-              "rate": 62.5
+              "games": 4,
+              "rate": 66.7
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Renekton",
-              "games": 1,
-              "rate": 12.5
+              "rate": 16.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "MonkeyKing",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "BOTTOM": {
           "games": 0,
@@ -140,7 +138,7 @@
               "rate": 33.3
             },
             {
-              "champion": "Leona",
+              "champion": "Kassadin",
               "games": 1,
               "rate": 33.3
             }

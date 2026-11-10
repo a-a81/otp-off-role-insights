@@ -3,75 +3,45 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Trundle",
-  "updatedAt": "2026-11-09T19:52:09.662474+00:00",
-  "mainLane": "TOP",
+  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 25,
+  "mainLaneGames": 35,
   "mainLaneNext": [
     {
-      "champion": "Udyr",
-      "games": 5,
-      "rate": 20.0
+      "champion": "JarvanIV",
+      "games": 8,
+      "rate": 22.9
     },
     {
-      "champion": "Pantheon",
-      "games": 2,
-      "rate": 8.0
-    },
-    {
-      "champion": "Garen",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "Nasus",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "Ornn",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "Sion",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "TahmKench",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "Teemo",
-      "games": 1,
-      "rate": 4.0
-    },
-    {
-      "champion": "Yorick",
-      "games": 1,
-      "rate": 4.0
+      "champion": "RekSai",
+      "games": 6,
+      "rate": 17.1
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 7,
+    "TOP": {
+      "games": 1,
       "picks": [
         {
-          "champion": "Chogath",
-          "games": 7,
+          "champion": "Olaf",
+          "games": 1,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
-          "champion": "Sion",
-          "games": 6,
-          "rate": 100.0
+          "champion": "Annie",
+          "games": 2,
+          "rate": 50.0
+        },
+        {
+          "champion": "Corki",
+          "games": 2,
+          "rate": 50.0
         }
       ]
     },
@@ -80,22 +50,62 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Blitzcrank",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Braum",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 35,
+      "mainLaneNext": [
+        {
+          "champion": "JarvanIV",
+          "games": 8,
+          "rate": 22.9
+        },
+        {
+          "champion": "RekSai",
+          "games": 6,
+          "rate": 17.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Olaf",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Annie",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Corki",
+              "games": 2,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
     "TOP": {
       "players": 1,
       "mainLaneGames": 25,

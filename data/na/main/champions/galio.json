@@ -3,30 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Galio",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "MID",
   "players": 7,
-  "mainLaneGames": 204,
+  "mainLaneGames": 207,
   "mainLaneNext": [
+    {
+      "champion": "Zilean",
+      "games": 13,
+      "rate": 6.3
+    },
     {
       "champion": "Locke",
       "games": 9,
-      "rate": 4.4
+      "rate": 4.3
+    },
+    {
+      "champion": "Jayce",
+      "games": 5,
+      "rate": 2.4
     },
     {
       "champion": "Vladimir",
       "games": 5,
-      "rate": 2.5
-    },
-    {
-      "champion": "Zilean",
-      "games": 5,
-      "rate": 2.5
+      "rate": 2.4
     },
     {
       "champion": "Naafiri",
       "games": 4,
-      "rate": 2.0
+      "rate": 1.9
     },
     {
       "champion": "Annie",
@@ -45,11 +50,6 @@
     },
     {
       "champion": "Irelia",
-      "games": 1,
-      "rate": 0.5
-    },
-    {
-      "champion": "Kassadin",
       "games": 1,
       "rate": 0.5
     },
@@ -76,102 +76,102 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 35,
+      "games": 34,
       "picks": [
         {
           "champion": "Galio",
-          "games": 11,
-          "rate": 31.4
+          "games": 10,
+          "rate": 29.4
         },
         {
           "champion": "Nasus",
           "games": 8,
-          "rate": 22.9
+          "rate": 23.5
         },
         {
           "champion": "Jayce",
-          "games": 4,
-          "rate": 11.4
+          "games": 6,
+          "rate": 17.6
         },
         {
           "champion": "Malphite",
           "games": 3,
-          "rate": 8.6
+          "rate": 8.8
         },
         {
-          "champion": "Vladimir",
-          "games": 3,
-          "rate": 8.6
-        },
-        {
-          "champion": "DrMundo",
+          "champion": "Camille",
           "games": 2,
-          "rate": 5.7
+          "rate": 5.9
         },
         {
           "champion": "Jax",
           "games": 2,
-          "rate": 5.7
+          "rate": 5.9
         },
         {
-          "champion": "Camille",
-          "games": 1,
-          "rate": 2.9
+          "champion": "Vladimir",
+          "games": 2,
+          "rate": 5.9
         },
         {
-          "champion": "Zac",
+          "champion": "DrMundo",
           "games": 1,
           "rate": 2.9
         }
       ]
     },
     "JUNGLE": {
-      "games": 19,
+      "games": 18,
       "picks": [
         {
           "champion": "Chogath",
-          "games": 4,
-          "rate": 21.1
-        },
-        {
-          "champion": "RekSai",
-          "games": 4,
-          "rate": 21.1
+          "games": 5,
+          "rate": 27.8
         },
         {
           "champion": "Skarner",
           "games": 4,
-          "rate": 21.1
+          "rate": 22.2
         },
         {
           "champion": "Vi",
           "games": 2,
-          "rate": 10.5
+          "rate": 11.1
         },
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.6
+        },
+        {
+          "champion": "Jayce",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.6
         },
         {
           "champion": "Nunu",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.6
+        },
+        {
+          "champion": "RekSai",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.6
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.6
         }
       ]
     },
@@ -244,27 +244,32 @@
   "byMainLane": {
     "MID": {
       "players": 7,
-      "mainLaneGames": 204,
+      "mainLaneGames": 207,
       "mainLaneNext": [
+        {
+          "champion": "Zilean",
+          "games": 13,
+          "rate": 6.3
+        },
         {
           "champion": "Locke",
           "games": 9,
-          "rate": 4.4
+          "rate": 4.3
+        },
+        {
+          "champion": "Jayce",
+          "games": 5,
+          "rate": 2.4
         },
         {
           "champion": "Vladimir",
           "games": 5,
-          "rate": 2.5
-        },
-        {
-          "champion": "Zilean",
-          "games": 5,
-          "rate": 2.5
+          "rate": 2.4
         },
         {
           "champion": "Naafiri",
           "games": 4,
-          "rate": 2.0
+          "rate": 1.9
         },
         {
           "champion": "Annie",
@@ -283,11 +288,6 @@
         },
         {
           "champion": "Irelia",
-          "games": 1,
-          "rate": 0.5
-        },
-        {
-          "champion": "Kassadin",
           "games": 1,
           "rate": 0.5
         },
@@ -314,102 +314,102 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 35,
+          "games": 34,
           "picks": [
             {
               "champion": "Galio",
-              "games": 11,
-              "rate": 31.4
+              "games": 10,
+              "rate": 29.4
             },
             {
               "champion": "Nasus",
               "games": 8,
-              "rate": 22.9
+              "rate": 23.5
             },
             {
               "champion": "Jayce",
-              "games": 4,
-              "rate": 11.4
+              "games": 6,
+              "rate": 17.6
             },
             {
               "champion": "Malphite",
               "games": 3,
-              "rate": 8.6
+              "rate": 8.8
             },
             {
-              "champion": "Vladimir",
-              "games": 3,
-              "rate": 8.6
-            },
-            {
-              "champion": "DrMundo",
+              "champion": "Camille",
               "games": 2,
-              "rate": 5.7
+              "rate": 5.9
             },
             {
               "champion": "Jax",
               "games": 2,
-              "rate": 5.7
+              "rate": 5.9
             },
             {
-              "champion": "Camille",
-              "games": 1,
-              "rate": 2.9
+              "champion": "Vladimir",
+              "games": 2,
+              "rate": 5.9
             },
             {
-              "champion": "Zac",
+              "champion": "DrMundo",
               "games": 1,
               "rate": 2.9
             }
           ]
         },
         "JUNGLE": {
-          "games": 19,
+          "games": 18,
           "picks": [
             {
               "champion": "Chogath",
-              "games": 4,
-              "rate": 21.1
-            },
-            {
-              "champion": "RekSai",
-              "games": 4,
-              "rate": 21.1
+              "games": 5,
+              "rate": 27.8
             },
             {
               "champion": "Skarner",
               "games": 4,
-              "rate": 21.1
+              "rate": 22.2
             },
             {
               "champion": "Vi",
               "games": 2,
-              "rate": 10.5
+              "rate": 11.1
             },
             {
               "champion": "Amumu",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.6
+            },
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.6
             },
             {
               "champion": "Nunu",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.6
+            },
+            {
+              "champion": "RekSai",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.6
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.6
             }
           ]
         },

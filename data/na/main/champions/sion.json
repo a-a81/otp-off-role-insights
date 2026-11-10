@@ -3,10 +3,10 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sion",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 71,
+  "mainLaneGames": 72,
   "mainLaneNext": [
     {
       "champion": "KSante",
@@ -49,6 +49,11 @@
       "rate": 1.4
     },
     {
+      "champion": "Sejuani",
+      "games": 1,
+      "rate": 1.4
+    },
+    {
       "champion": "Trundle",
       "games": 1,
       "rate": 1.4
@@ -85,22 +90,22 @@
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 3,
       "picks": [
-        {
-          "champion": "Nautilus",
-          "games": 2,
-          "rate": 50.0
-        },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 25.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 33.3
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         }
       ]
     }
@@ -108,7 +113,7 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 71,
+      "mainLaneGames": 72,
       "mainLaneNext": [
         {
           "champion": "KSante",
@@ -151,6 +156,11 @@
           "rate": 1.4
         },
         {
+          "champion": "Sejuani",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
           "champion": "Trundle",
           "games": 1,
           "rate": 1.4
@@ -187,22 +197,22 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 3,
           "picks": [
-            {
-              "champion": "Nautilus",
-              "games": 2,
-              "rate": 50.0
-            },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 33.3
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         }
@@ -210,20 +220,30 @@
     },
     "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 34,
+      "mainLaneGames": 35,
       "mainLaneNext": [
         {
           "champion": "Chogath",
-          "games": 4,
-          "rate": 11.8
+          "games": 2,
+          "rate": 5.7
         },
         {
           "champion": "Diana",
           "games": 2,
-          "rate": 5.9
+          "rate": 5.7
         },
         {
           "champion": "Kindred",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Nocturne",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Sylas",
           "games": 1,
           "rate": 2.9
         }
@@ -244,11 +264,11 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Xerath",
-              "games": 4,
+              "games": 3,
               "rate": 100.0
             }
           ]

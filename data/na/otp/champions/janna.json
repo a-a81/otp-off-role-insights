@@ -3,30 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Janna",
-  "updatedAt": "2026-11-09T19:30:46.912221+00:00",
+  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
   "mainLane": "UTILITY",
   "players": 2,
-  "mainLaneGames": 75,
+  "mainLaneGames": 74,
   "mainLaneNext": [
-    {
-      "champion": "Bard",
-      "games": 3,
-      "rate": 4.0
-    },
     {
       "champion": "Nautilus",
       "games": 2,
       "rate": 2.7
     },
     {
+      "champion": "Alistar",
+      "games": 1,
+      "rate": 1.4
+    },
+    {
+      "champion": "Bard",
+      "games": 1,
+      "rate": 1.4
+    },
+    {
       "champion": "Braum",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.4
     },
     {
       "champion": "Lulu",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.4
     }
   ],
   "offLanes": {
@@ -55,8 +60,14 @@
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
@@ -66,27 +77,32 @@
   "byMainLane": {
     "UTILITY": {
       "players": 2,
-      "mainLaneGames": 75,
+      "mainLaneGames": 74,
       "mainLaneNext": [
-        {
-          "champion": "Bard",
-          "games": 3,
-          "rate": 4.0
-        },
         {
           "champion": "Nautilus",
           "games": 2,
           "rate": 2.7
         },
         {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
           "champion": "Braum",
           "games": 1,
-          "rate": 1.3
+          "rate": 1.4
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 1.3
+          "rate": 1.4
         }
       ],
       "offLanes": {
@@ -115,8 +131,14 @@
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 0,

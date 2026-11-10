@@ -3,20 +3,25 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Fiora",
-  "updatedAt": "2026-11-09T19:46:00.391381+00:00",
+  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
   "mainLane": "TOP",
   "players": 5,
-  "mainLaneGames": 171,
+  "mainLaneGames": 165,
   "mainLaneNext": [
     {
       "champion": "Jayce",
       "games": 4,
-      "rate": 2.3
+      "rate": 2.4
     },
     {
       "champion": "Nasus",
       "games": 4,
-      "rate": 2.3
+      "rate": 2.4
+    },
+    {
+      "champion": "Renekton",
+      "games": 4,
+      "rate": 2.4
     },
     {
       "champion": "Yasuo",
@@ -25,11 +30,6 @@
     },
     {
       "champion": "DrMundo",
-      "games": 2,
-      "rate": 1.2
-    },
-    {
-      "champion": "Renekton",
       "games": 2,
       "rate": 1.2
     },
@@ -61,42 +61,47 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Shyvana",
           "games": 5,
-          "rate": 100.0
-        }
-      ]
-    },
-    "MID": {
-      "games": 11,
-      "picks": [
-        {
-          "champion": "Fiora",
-          "games": 7,
-          "rate": 63.6
+          "rate": 83.3
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 9.1
+          "rate": 16.7
+        }
+      ]
+    },
+    "MID": {
+      "games": 15,
+      "picks": [
+        {
+          "champion": "Fiora",
+          "games": 11,
+          "rate": 73.3
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 6.7
         },
         {
           "champion": "Qiyana",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.7
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.7
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.7
         }
       ]
     },
@@ -124,7 +129,7 @@
           "rate": 28.6
         },
         {
-          "champion": "Fiora",
+          "champion": "Braum",
           "games": 1,
           "rate": 14.3
         },
@@ -144,17 +149,22 @@
   "byMainLane": {
     "TOP": {
       "players": 5,
-      "mainLaneGames": 171,
+      "mainLaneGames": 165,
       "mainLaneNext": [
         {
           "champion": "Jayce",
           "games": 4,
-          "rate": 2.3
+          "rate": 2.4
         },
         {
           "champion": "Nasus",
           "games": 4,
-          "rate": 2.3
+          "rate": 2.4
+        },
+        {
+          "champion": "Renekton",
+          "games": 4,
+          "rate": 2.4
         },
         {
           "champion": "Yasuo",
@@ -163,11 +173,6 @@
         },
         {
           "champion": "DrMundo",
-          "games": 2,
-          "rate": 1.2
-        },
-        {
-          "champion": "Renekton",
           "games": 2,
           "rate": 1.2
         },
@@ -199,42 +204,47 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Shyvana",
               "games": 5,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Fiora",
-              "games": 7,
-              "rate": 63.6
+              "rate": 83.3
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 9.1
+              "rate": 16.7
+            }
+          ]
+        },
+        "MID": {
+          "games": 15,
+          "picks": [
+            {
+              "champion": "Fiora",
+              "games": 11,
+              "rate": 73.3
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 6.7
             },
             {
               "champion": "Qiyana",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.7
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.7
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.7
             }
           ]
         },
@@ -262,7 +272,7 @@
               "rate": 28.6
             },
             {
-              "champion": "Fiora",
+              "champion": "Braum",
               "games": 1,
               "rate": 14.3
             },
