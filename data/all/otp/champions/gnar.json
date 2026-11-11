@@ -3,45 +3,55 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gnar",
-  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
+  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 62,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
       "champion": "Gragas",
-      "games": 1,
-      "rate": 1.6
+      "games": 2,
+      "rate": 3.5
     },
     {
       "champion": "Kennen",
       "games": 1,
-      "rate": 1.6
-    },
-    {
-      "champion": "Teemo",
-      "games": 1,
-      "rate": 1.6
+      "rate": 1.8
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Elise",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 5,
       "picks": [
         {
           "champion": "Leblanc",
-          "games": 2,
-          "rate": 100.0
+          "games": 3,
+          "rate": 60.0
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Katarina",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -50,27 +60,27 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 14,
+      "games": 16,
       "picks": [
         {
           "champion": "Bard",
-          "games": 10,
-          "rate": 71.4
+          "games": 12,
+          "rate": 75.0
         },
         {
           "champion": "Braum",
           "games": 2,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 7.1
+          "rate": 6.2
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 7.1
+          "rate": 6.2
         }
       ]
     }
@@ -78,42 +88,52 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 62,
+      "mainLaneGames": 57,
       "mainLaneNext": [
         {
           "champion": "Gragas",
-          "games": 1,
-          "rate": 1.6
+          "games": 2,
+          "rate": 3.5
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 1.6
-        },
-        {
-          "champion": "Teemo",
-          "games": 1,
-          "rate": 1.6
+          "rate": 1.8
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Elise",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 5,
           "picks": [
             {
               "champion": "Leblanc",
-              "games": 2,
-              "rate": 100.0
+              "games": 3,
+              "rate": 60.0
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Katarina",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
@@ -122,27 +142,27 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 14,
+          "games": 16,
           "picks": [
             {
               "champion": "Bard",
-              "games": 10,
-              "rate": 71.4
+              "games": 12,
+              "rate": 75.0
             },
             {
               "champion": "Braum",
               "games": 2,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "Sona",
               "games": 1,
-              "rate": 7.1
+              "rate": 6.2
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 7.1
+              "rate": 6.2
             }
           ]
         }

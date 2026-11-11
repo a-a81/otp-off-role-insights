@@ -3,25 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Riven",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 100,
+  "mainLaneGames": 99,
   "mainLaneNext": [
     {
       "champion": "Yone",
       "games": 11,
-      "rate": 11.0
+      "rate": 11.1
     },
     {
       "champion": "Gwen",
       "games": 10,
-      "rate": 10.0
+      "rate": 10.1
     },
     {
       "champion": "Ambessa",
       "games": 5,
-      "rate": 5.0
+      "rate": 5.1
     },
     {
       "champion": "Camille",
@@ -37,6 +37,11 @@
       "champion": "Vladimir",
       "games": 2,
       "rate": 2.0
+    },
+    {
+      "champion": "Darius",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Irelia",
@@ -71,17 +76,17 @@
       ]
     },
     "MID": {
-      "games": 11,
+      "games": 12,
       "picks": [
         {
           "champion": "Riven",
-          "games": 7,
-          "rate": 63.6
+          "games": 8,
+          "rate": 66.7
         },
         {
           "champion": "Gwen",
           "games": 4,
-          "rate": 36.4
+          "rate": 33.3
         }
       ]
     },
@@ -114,22 +119,22 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 100,
+      "mainLaneGames": 99,
       "mainLaneNext": [
         {
           "champion": "Yone",
           "games": 11,
-          "rate": 11.0
+          "rate": 11.1
         },
         {
           "champion": "Gwen",
           "games": 10,
-          "rate": 10.0
+          "rate": 10.1
         },
         {
           "champion": "Ambessa",
           "games": 5,
-          "rate": 5.0
+          "rate": 5.1
         },
         {
           "champion": "Camille",
@@ -145,6 +150,11 @@
           "champion": "Vladimir",
           "games": 2,
           "rate": 2.0
+        },
+        {
+          "champion": "Darius",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Irelia",
@@ -179,17 +189,17 @@
           ]
         },
         "MID": {
-          "games": 11,
+          "games": 12,
           "picks": [
             {
               "champion": "Riven",
-              "games": 7,
-              "rate": 63.6
+              "games": 8,
+              "rate": 66.7
             },
             {
               "champion": "Gwen",
               "games": 4,
-              "rate": 36.4
+              "rate": 33.3
             }
           ]
         },
@@ -220,24 +230,177 @@
         }
       }
     },
+    "MID": {
+      "players": 3,
+      "mainLaneGames": 70,
+      "mainLaneNext": [
+        {
+          "champion": "Corki",
+          "games": 4,
+          "rate": 5.7
+        },
+        {
+          "champion": "Sion",
+          "games": 4,
+          "rate": 5.7
+        },
+        {
+          "champion": "Chogath",
+          "games": 3,
+          "rate": 4.3
+        },
+        {
+          "champion": "Kayle",
+          "games": 2,
+          "rate": 2.9
+        },
+        {
+          "champion": "Akali",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Gwen",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 1.4
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 29,
+          "picks": [
+            {
+              "champion": "Riven",
+              "games": 16,
+              "rate": 55.2
+            },
+            {
+              "champion": "DrMundo",
+              "games": 6,
+              "rate": 20.7
+            },
+            {
+              "champion": "Camille",
+              "games": 3,
+              "rate": 10.3
+            },
+            {
+              "champion": "Gwen",
+              "games": 2,
+              "rate": 6.9
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 3.4
+            },
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 3.4
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Riven",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Talon",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Riven",
+              "games": 5,
+              "rate": 35.7
+            },
+            {
+              "champion": "Yunara",
+              "games": 5,
+              "rate": 35.7
+            },
+            {
+              "champion": "Smolder",
+              "games": 2,
+              "rate": 14.3
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Senna",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        }
+      }
+    },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 50,
+      "mainLaneGames": 46,
       "mainLaneNext": [
         {
           "champion": "Kalista",
           "games": 10,
-          "rate": 20.0
+          "rate": 21.7
         },
         {
           "champion": "Kaisa",
           "games": 7,
-          "rate": 14.0
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 2.0
+          "rate": 15.2
         }
       ],
       "offLanes": {
@@ -257,120 +420,52 @@
           ]
         },
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Jayce",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Nidalee",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Riven",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 19,
-          "picks": [
-            {
-              "champion": "Riven",
-              "games": 15,
-              "rate": 78.9
-            },
-            {
-              "champion": "Jayce",
-              "games": 2,
-              "rate": 10.5
-            },
-            {
-              "champion": "Camille",
-              "games": 1,
-              "rate": 5.3
-            },
-            {
-              "champion": "Kalista",
-              "games": 1,
-              "rate": 5.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Camille",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 40,
-      "mainLaneNext": [
-        {
-          "champion": "Chogath",
-          "games": 3,
-          "rate": 7.5
-        },
-        {
-          "champion": "Corki",
-          "games": 3,
-          "rate": 7.5
-        },
-        {
-          "champion": "Akali",
-          "games": 1,
-          "rate": 2.5
-        },
-        {
-          "champion": "Gwen",
-          "games": 1,
-          "rate": 2.5
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 2.5
-        }
-      ],
-      "offLanes": {
-        "TOP": {
           "games": 21,
           "picks": [
             {
               "champion": "Riven",
-              "games": 9,
-              "rate": 42.9
+              "games": 16,
+              "rate": 76.2
             },
             {
-              "champion": "DrMundo",
-              "games": 5,
-              "rate": 23.8
+              "champion": "Kalista",
+              "games": 2,
+              "rate": 9.5
+            },
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Camille",
-              "games": 2,
-              "rate": 9.5
-            },
-            {
-              "champion": "Fiora",
-              "games": 2,
-              "rate": 9.5
-            },
-            {
-              "champion": "Gwen",
-              "games": 2,
-              "rate": 9.5
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Jayce",
@@ -379,63 +474,13 @@
             }
           ]
         },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Ambessa",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Riven",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Talon",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Yunara",
-              "games": 6,
-              "rate": 54.5
-            },
-            {
-              "champion": "Riven",
-              "games": 3,
-              "rate": 27.3
-            },
-            {
-              "champion": "Corki",
-              "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Smolder",
-              "games": 1,
-              "rate": 9.1
-            }
-          ]
-        },
         "UTILITY": {
           "games": 3,
           "picks": [
             {
-              "champion": "Nautilus",
-              "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 33.3
+              "champion": "Camille",
+              "games": 3,
+              "rate": 100.0
             }
           ]
         }

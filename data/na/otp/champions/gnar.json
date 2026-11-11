@@ -3,35 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gnar",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 36,
+  "mainLaneGames": 33,
   "mainLaneNext": [
     {
       "champion": "Gragas",
-      "games": 1,
-      "rate": 2.8
+      "games": 2,
+      "rate": 6.1
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Elise",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 5,
       "picks": [
         {
           "champion": "Leblanc",
-          "games": 2,
-          "rate": 100.0
+          "games": 3,
+          "rate": 60.0
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Katarina",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -47,32 +62,47 @@
   "byMainLane": {
     "TOP": {
       "players": 1,
-      "mainLaneGames": 36,
+      "mainLaneGames": 33,
       "mainLaneNext": [
         {
           "champion": "Gragas",
-          "games": 1,
-          "rate": 2.8
+          "games": 2,
+          "rate": 6.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Elise",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 5,
           "picks": [
             {
               "champion": "Leblanc",
-              "games": 2,
-              "rate": 100.0
+              "games": 3,
+              "rate": 60.0
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Katarina",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },

@@ -3,58 +3,263 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Annie",
-  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
-  "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 68,
+  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "mainLane": "MID",
+  "players": 3,
+  "mainLaneGames": 81,
   "mainLaneNext": [
     {
-      "champion": "Veigar",
+      "champion": "Garen",
+      "games": 10,
+      "rate": 12.3
+    },
+    {
+      "champion": "Hwei",
+      "games": 3,
+      "rate": 3.7
+    },
+    {
+      "champion": "Azir",
+      "games": 2,
+      "rate": 2.5
+    },
+    {
+      "champion": "Ekko",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.2
+    },
+    {
+      "champion": "Kayle",
+      "games": 1,
+      "rate": 1.2
+    },
+    {
+      "champion": "Malzahar",
+      "games": 1,
+      "rate": 1.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 26,
       "picks": [
         {
-          "champion": "Annie",
+          "champion": "Kled",
+          "games": 9,
+          "rate": 34.6
+        },
+        {
+          "champion": "Camille",
+          "games": 6,
+          "rate": 23.1
+        },
+        {
+          "champion": "DrMundo",
           "games": 5,
-          "rate": 62.5
+          "rate": 19.2
         },
         {
-          "champion": "Malphite",
+          "champion": "Kayle",
+          "games": 3,
+          "rate": 11.5
+        },
+        {
+          "champion": "Garen",
           "games": 2,
-          "rate": 25.0
+          "rate": 7.7
         },
         {
-          "champion": "Sion",
+          "champion": "Annie",
           "games": 1,
-          "rate": 12.5
+          "rate": 3.8
         }
       ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
-          "champion": "Annie",
-          "games": 4,
-          "rate": 100.0
+          "champion": "Amumu",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Nidalee",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Yuumi",
+          "games": 3,
+          "rate": 50.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 16.7
+        }
+      ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 3,
+      "mainLaneGames": 81,
+      "mainLaneNext": [
+        {
+          "champion": "Garen",
+          "games": 10,
+          "rate": 12.3
+        },
+        {
+          "champion": "Hwei",
+          "games": 3,
+          "rate": 3.7
+        },
+        {
+          "champion": "Azir",
+          "games": 2,
+          "rate": 2.5
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 1.2
+        },
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 1.2
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 1.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 26,
+          "picks": [
+            {
+              "champion": "Kled",
+              "games": 9,
+              "rate": 34.6
+            },
+            {
+              "champion": "Camille",
+              "games": 6,
+              "rate": 23.1
+            },
+            {
+              "champion": "DrMundo",
+              "games": 5,
+              "rate": 19.2
+            },
+            {
+              "champion": "Kayle",
+              "games": 3,
+              "rate": 11.5
+            },
+            {
+              "champion": "Garen",
+              "games": 2,
+              "rate": 7.7
+            },
+            {
+              "champion": "Annie",
+              "games": 1,
+              "rate": 3.8
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Amumu",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Nidalee",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Taliyah",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Yuumi",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        }
+      }
+    },
     "UTILITY": {
       "players": 2,
       "mainLaneGames": 68,
@@ -103,89 +308,6 @@
         "BOTTOM": {
           "games": 0,
           "picks": []
-        }
-      }
-    },
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 62,
-      "mainLaneNext": [
-        {
-          "champion": "Garen",
-          "games": 10,
-          "rate": 16.1
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 1.6
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 9,
-          "picks": [
-            {
-              "champion": "DrMundo",
-              "games": 5,
-              "rate": 55.6
-            },
-            {
-              "champion": "Garen",
-              "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Annie",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Kled",
-              "games": 1,
-              "rate": 11.1
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Amumu",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "MissFortune",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Yuumi",
-              "games": 3,
-              "rate": 50.0
-            },
-            {
-              "champion": "Nautilus",
-              "games": 2,
-              "rate": 33.3
-            },
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
         }
       }
     }

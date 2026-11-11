@@ -3,55 +3,70 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TwistedFate",
-  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
+  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
   "mainLane": "MID",
-  "players": 3,
-  "mainLaneGames": 96,
+  "players": 4,
+  "mainLaneGames": 123,
   "mainLaneNext": [
     {
       "champion": "Orianna",
-      "games": 8,
-      "rate": 8.3
+      "games": 9,
+      "rate": 7.3
+    },
+    {
+      "champion": "Corki",
+      "games": 3,
+      "rate": 2.4
+    },
+    {
+      "champion": "Leblanc",
+      "games": 2,
+      "rate": 1.6
     },
     {
       "champion": "Akali",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
-      "champion": "Corki",
+      "champion": "Hwei",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Lissandra",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Tristana",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Viktor",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     },
     {
       "champion": "Zed",
       "games": 1,
-      "rate": 1.0
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
           "champion": "TwistedFate",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Vayne",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     },
@@ -76,120 +91,150 @@
       ]
     },
     "BOTTOM": {
-      "games": 9,
+      "games": 15,
       "picks": [
         {
-          "champion": "Jhin",
-          "games": 3,
+          "champion": "MissFortune",
+          "games": 5,
           "rate": 33.3
+        },
+        {
+          "champion": "Jhin",
+          "games": 4,
+          "rate": 26.7
         },
         {
           "champion": "Hwei",
           "games": 2,
-          "rate": 22.2
+          "rate": 13.3
         },
         {
           "champion": "Caitlyn",
           "games": 1,
-          "rate": 11.1
+          "rate": 6.7
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 11.1
+          "rate": 6.7
         },
         {
           "champion": "Sivir",
           "games": 1,
-          "rate": 11.1
+          "rate": 6.7
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 11.1
+          "rate": 6.7
         }
       ]
     },
     "UTILITY": {
-      "games": 11,
+      "games": 16,
       "picks": [
         {
           "champion": "Lulu",
-          "games": 7,
-          "rate": 63.6
+          "games": 9,
+          "rate": 56.2
+        },
+        {
+          "champion": "Neeko",
+          "games": 2,
+          "rate": 12.5
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.2
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.2
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 6.2
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.2
         },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 9.1
+          "rate": 6.2
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 3,
-      "mainLaneGames": 96,
+      "players": 4,
+      "mainLaneGames": 123,
       "mainLaneNext": [
         {
           "champion": "Orianna",
-          "games": 8,
-          "rate": 8.3
+          "games": 9,
+          "rate": 7.3
+        },
+        {
+          "champion": "Corki",
+          "games": 3,
+          "rate": 2.4
+        },
+        {
+          "champion": "Leblanc",
+          "games": 2,
+          "rate": 1.6
         },
         {
           "champion": "Akali",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
-          "champion": "Corki",
+          "champion": "Hwei",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Lissandra",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         },
         {
           "champion": "Zed",
           "games": 1,
-          "rate": 1.0
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
               "champion": "TwistedFate",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Vayne",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
@@ -214,67 +259,82 @@
           ]
         },
         "BOTTOM": {
-          "games": 9,
+          "games": 15,
           "picks": [
             {
-              "champion": "Jhin",
-              "games": 3,
+              "champion": "MissFortune",
+              "games": 5,
               "rate": 33.3
+            },
+            {
+              "champion": "Jhin",
+              "games": 4,
+              "rate": 26.7
             },
             {
               "champion": "Hwei",
               "games": 2,
-              "rate": 22.2
+              "rate": 13.3
             },
             {
               "champion": "Caitlyn",
               "games": 1,
-              "rate": 11.1
+              "rate": 6.7
             },
             {
               "champion": "Kaisa",
               "games": 1,
-              "rate": 11.1
+              "rate": 6.7
             },
             {
               "champion": "Sivir",
               "games": 1,
-              "rate": 11.1
+              "rate": 6.7
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 11.1
+              "rate": 6.7
             }
           ]
         },
         "UTILITY": {
-          "games": 11,
+          "games": 16,
           "picks": [
             {
               "champion": "Lulu",
-              "games": 7,
-              "rate": 63.6
+              "games": 9,
+              "rate": 56.2
+            },
+            {
+              "champion": "Neeko",
+              "games": 2,
+              "rate": 12.5
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.2
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.2
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 6.2
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.2
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 9.1
+              "rate": 6.2
             }
           ]
         }

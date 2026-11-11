@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sion",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "TOP",
   "players": 2,
   "mainLaneGames": 72,
@@ -219,43 +219,98 @@
       }
     },
     "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 35,
+      "players": 2,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
-          "champion": "Chogath",
-          "games": 2,
-          "rate": 5.7
+          "champion": "Gwen",
+          "games": 8,
+          "rate": 13.1
         },
         {
           "champion": "Diana",
-          "games": 2,
-          "rate": 5.7
+          "games": 3,
+          "rate": 4.9
         },
         {
           "champion": "Kindred",
+          "games": 2,
+          "rate": 3.3
+        },
+        {
+          "champion": "Nunu",
+          "games": 2,
+          "rate": 3.3
+        },
+        {
+          "champion": "Chogath",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.6
+        },
+        {
+          "champion": "Darius",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.6
+        },
+        {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.6
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         },
@@ -264,18 +319,39 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 3,
+          "games": 12,
           "picks": [
             {
+              "champion": "Hwei",
+              "games": 7,
+              "rate": 58.3
+            },
+            {
               "champion": "Xerath",
-              "games": 3,
-              "rate": 100.0
+              "games": 4,
+              "rate": 33.3
+            },
+            {
+              "champion": "Ezreal",
+              "games": 1,
+              "rate": 8.3
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         }
       }
     }

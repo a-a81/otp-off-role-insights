@@ -3,25 +3,30 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Shyvana",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "JUNGLE",
   "players": 3,
-  "mainLaneGames": 108,
+  "mainLaneGames": 106,
   "mainLaneNext": [
     {
       "champion": "JarvanIV",
-      "games": 16,
-      "rate": 14.8
+      "games": 15,
+      "rate": 14.2
     },
     {
       "champion": "Zac",
       "games": 12,
-      "rate": 11.1
+      "rate": 11.3
     },
     {
-      "champion": "Shen",
-      "games": 8,
-      "rate": 7.4
+      "champion": "Karthus",
+      "games": 3,
+      "rate": 2.8
+    },
+    {
+      "champion": "Malphite",
+      "games": 3,
+      "rate": 2.8
     },
     {
       "champion": "MonkeyKing",
@@ -29,12 +34,12 @@
       "rate": 2.8
     },
     {
-      "champion": "Zaahen",
-      "games": 3,
-      "rate": 2.8
+      "champion": "Pantheon",
+      "games": 2,
+      "rate": 1.9
     },
     {
-      "champion": "Karthus",
+      "champion": "Shen",
       "games": 2,
       "rate": 1.9
     },
@@ -44,64 +49,74 @@
       "rate": 0.9
     },
     {
+      "champion": "Graves",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
       "champion": "Lillia",
       "games": 1,
       "rate": 0.9
     },
     {
-      "champion": "Malphite",
+      "champion": "Sion",
       "games": 1,
       "rate": 0.9
     },
     {
-      "champion": "Pantheon",
-      "games": 1,
-      "rate": 0.9
-    },
-    {
-      "champion": "Udyr",
+      "champion": "Zaahen",
       "games": 1,
       "rate": 0.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Ambessa",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
-          "champion": "Sion",
+          "champion": "Shen",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Ahri",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
+        },
+        {
+          "champion": "Annie",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -116,22 +131,17 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     }
@@ -139,22 +149,27 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 3,
-      "mainLaneGames": 108,
+      "mainLaneGames": 106,
       "mainLaneNext": [
         {
           "champion": "JarvanIV",
-          "games": 16,
-          "rate": 14.8
+          "games": 15,
+          "rate": 14.2
         },
         {
           "champion": "Zac",
           "games": 12,
-          "rate": 11.1
+          "rate": 11.3
         },
         {
-          "champion": "Shen",
-          "games": 8,
-          "rate": 7.4
+          "champion": "Karthus",
+          "games": 3,
+          "rate": 2.8
+        },
+        {
+          "champion": "Malphite",
+          "games": 3,
+          "rate": 2.8
         },
         {
           "champion": "MonkeyKing",
@@ -162,12 +177,12 @@
           "rate": 2.8
         },
         {
-          "champion": "Zaahen",
-          "games": 3,
-          "rate": 2.8
+          "champion": "Pantheon",
+          "games": 2,
+          "rate": 1.9
         },
         {
-          "champion": "Karthus",
+          "champion": "Shen",
           "games": 2,
           "rate": 1.9
         },
@@ -177,64 +192,74 @@
           "rate": 0.9
         },
         {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
           "champion": "Lillia",
           "games": 1,
           "rate": 0.9
         },
         {
-          "champion": "Malphite",
+          "champion": "Sion",
           "games": 1,
           "rate": 0.9
         },
         {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Udyr",
+          "champion": "Zaahen",
           "games": 1,
           "rate": 0.9
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Ambessa",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
-              "champion": "Sion",
+              "champion": "Shen",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Ahri",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Annie",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -249,22 +274,17 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         }

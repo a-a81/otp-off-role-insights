@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Warwick",
-  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
+  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
   "mainLane": "TOP",
   "players": 13,
   "mainLaneGames": 413,
@@ -49,6 +49,11 @@
       "rate": 0.7
     },
     {
+      "champion": "Garen",
+      "games": 3,
+      "rate": 0.7
+    },
+    {
       "champion": "Malphite",
       "games": 3,
       "rate": 0.7
@@ -60,11 +65,6 @@
     },
     {
       "champion": "Diana",
-      "games": 2,
-      "rate": 0.5
-    },
-    {
-      "champion": "Garen",
       "games": 2,
       "rate": 0.5
     },
@@ -146,47 +146,47 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 25,
+      "games": 24,
       "picks": [
         {
           "champion": "Warwick",
           "games": 16,
-          "rate": 64.0
+          "rate": 66.7
         },
         {
           "champion": "Kayn",
           "games": 2,
-          "rate": 8.0
-        },
-        {
-          "champion": "Tryndamere",
-          "games": 2,
-          "rate": 8.0
+          "rate": 8.3
         },
         {
           "champion": "Fizz",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.2
         },
         {
           "champion": "MonkeyKing",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.2
         },
         {
           "champion": "Nunu",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.2
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.2
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.2
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 1,
+          "rate": 4.2
         }
       ]
     },
@@ -266,27 +266,32 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
+        },
+        {
+          "champion": "Warwick",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -427,6 +432,11 @@
           "rate": 0.7
         },
         {
+          "champion": "Garen",
+          "games": 3,
+          "rate": 0.7
+        },
+        {
           "champion": "Malphite",
           "games": 3,
           "rate": 0.7
@@ -438,11 +448,6 @@
         },
         {
           "champion": "Diana",
-          "games": 2,
-          "rate": 0.5
-        },
-        {
-          "champion": "Garen",
           "games": 2,
           "rate": 0.5
         },
@@ -524,47 +529,47 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 25,
+          "games": 24,
           "picks": [
             {
               "champion": "Warwick",
               "games": 16,
-              "rate": 64.0
+              "rate": 66.7
             },
             {
               "champion": "Kayn",
               "games": 2,
-              "rate": 8.0
-            },
-            {
-              "champion": "Tryndamere",
-              "games": 2,
-              "rate": 8.0
+              "rate": 8.3
             },
             {
               "champion": "Fizz",
               "games": 1,
-              "rate": 4.0
+              "rate": 4.2
             },
             {
               "champion": "MonkeyKing",
               "games": 1,
-              "rate": 4.0
+              "rate": 4.2
             },
             {
               "champion": "Nunu",
               "games": 1,
-              "rate": 4.0
+              "rate": 4.2
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 4.0
+              "rate": 4.2
             },
             {
               "champion": "Sylas",
               "games": 1,
-              "rate": 4.0
+              "rate": 4.2
+            },
+            {
+              "champion": "Tryndamere",
+              "games": 1,
+              "rate": 4.2
             }
           ]
         },
@@ -644,27 +649,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Jinx",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Warwick",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
@@ -762,27 +772,22 @@
     },
     "JUNGLE": {
       "players": 6,
-      "mainLaneGames": 191,
+      "mainLaneGames": 194,
       "mainLaneNext": [
         {
           "champion": "Olaf",
           "games": 7,
-          "rate": 3.7
+          "rate": 3.6
         },
         {
           "champion": "Brand",
-          "games": 3,
-          "rate": 1.6
+          "games": 2,
+          "rate": 1.0
         },
         {
           "champion": "Chogath",
-          "games": 2,
-          "rate": 1.0
-        },
-        {
-          "champion": "Zaahen",
-          "games": 2,
-          "rate": 1.0
+          "games": 1,
+          "rate": 0.5
         },
         {
           "champion": "FiddleSticks",
@@ -813,6 +818,11 @@
           "champion": "XinZhao",
           "games": 1,
           "rate": 0.5
+        },
+        {
+          "champion": "Zaahen",
+          "games": 1,
+          "rate": 0.5
         }
       ],
       "offLanes": {
@@ -825,17 +835,12 @@
               "rate": 15.4
             },
             {
-              "champion": "Sett",
-              "games": 2,
-              "rate": 15.4
-            },
-            {
-              "champion": "Warwick",
-              "games": 2,
-              "rate": 15.4
-            },
-            {
               "champion": "DrMundo",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Jax",
               "games": 1,
               "rate": 7.7
             },
@@ -860,12 +865,27 @@
               "rate": 7.7
             },
             {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
               "champion": "Sion",
               "games": 1,
               "rate": 7.7
             },
             {
+              "champion": "Warwick",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
               "champion": "Yone",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Zaahen",
               "games": 1,
               "rate": 7.7
             }
@@ -916,37 +936,27 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 14,
+          "games": 11,
           "picks": [
             {
               "champion": "Sona",
               "games": 6,
-              "rate": 42.9
+              "rate": 54.5
             },
             {
               "champion": "Taliyah",
-              "games": 4,
-              "rate": 28.6
-            },
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 7.1
-            },
-            {
-              "champion": "Braum",
-              "games": 1,
-              "rate": 7.1
+              "games": 3,
+              "rate": 27.3
             },
             {
               "champion": "Soraka",
               "games": 1,
-              "rate": 7.1
+              "rate": 9.1
             },
             {
               "champion": "Warwick",
               "games": 1,
-              "rate": 7.1
+              "rate": 9.1
             }
           ]
         }

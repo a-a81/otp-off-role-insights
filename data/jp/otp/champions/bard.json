@@ -3,10 +3,10 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Bard",
-  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
+  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
   "mainLane": "UTILITY",
   "players": 7,
-  "mainLaneGames": 255,
+  "mainLaneGames": 256,
   "mainLaneNext": [
     {
       "champion": "Renata",
@@ -17,11 +17,6 @@
       "champion": "Leona",
       "games": 3,
       "rate": 1.2
-    },
-    {
-      "champion": "Lulu",
-      "games": 2,
-      "rate": 0.8
     },
     {
       "champion": "Milio",
@@ -35,6 +30,11 @@
     },
     {
       "champion": "Alistar",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Lulu",
       "games": 1,
       "rate": 0.4
     },
@@ -66,22 +66,17 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Mordekaiser",
           "games": 2,
-          "rate": 50.0
+          "rate": 66.7
         },
         {
           "champion": "TahmKench",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Varus",
-          "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         }
       ]
     },
@@ -159,7 +154,7 @@
   "byMainLane": {
     "UTILITY": {
       "players": 7,
-      "mainLaneGames": 255,
+      "mainLaneGames": 256,
       "mainLaneNext": [
         {
           "champion": "Renata",
@@ -170,11 +165,6 @@
           "champion": "Leona",
           "games": 3,
           "rate": 1.2
-        },
-        {
-          "champion": "Lulu",
-          "games": 2,
-          "rate": 0.8
         },
         {
           "champion": "Milio",
@@ -188,6 +178,11 @@
         },
         {
           "champion": "Alistar",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Lulu",
           "games": 1,
           "rate": 0.4
         },
@@ -219,22 +214,17 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Mordekaiser",
               "games": 2,
-              "rate": 50.0
+              "rate": 66.7
             },
             {
               "champion": "TahmKench",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Varus",
-              "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         },

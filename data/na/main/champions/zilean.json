@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zilean",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "UTILITY",
   "players": 2,
   "mainLaneGames": 72,
@@ -107,23 +107,43 @@
       }
     },
     "MID": {
-      "players": 1,
-      "mainLaneGames": 25,
+      "players": 2,
+      "mainLaneGames": 56,
       "mainLaneNext": [
+        {
+          "champion": "Galio",
+          "games": 6,
+          "rate": 10.7
+        },
+        {
+          "champion": "Jayce",
+          "games": 4,
+          "rate": 7.1
+        },
         {
           "champion": "Zoe",
           "games": 2,
-          "rate": 8.0
+          "rate": 3.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 11,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 6,
-              "rate": 100.0
+              "games": 7,
+              "rate": 63.6
+            },
+            {
+              "champion": "Galio",
+              "games": 2,
+              "rate": 18.2
+            },
+            {
+              "champion": "Jayce",
+              "games": 2,
+              "rate": 18.2
             }
           ]
         },
@@ -132,22 +152,32 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Galio",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Zilean",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 10,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 8,
-              "rate": 100.0
+              "games": 9,
+              "rate": 90.0
+            },
+            {
+              "champion": "Pyke",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         }

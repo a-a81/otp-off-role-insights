@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Azir",
-  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
+  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
   "mainLane": "MID",
   "players": 5,
-  "mainLaneGames": 144,
+  "mainLaneGames": 143,
   "mainLaneNext": [
     {
       "champion": "Hwei",
@@ -49,6 +49,11 @@
       "rate": 0.7
     },
     {
+      "champion": "Syndra",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
       "champion": "Xerath",
       "games": 1,
       "rate": 0.7
@@ -56,72 +61,77 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 28,
+      "games": 32,
       "picks": [
         {
           "champion": "Azir",
-          "games": 18,
-          "rate": 64.3
+          "games": 20,
+          "rate": 62.5
         },
         {
           "champion": "Gragas",
           "games": 6,
-          "rate": 21.4
+          "rate": 18.8
         },
         {
           "champion": "KSante",
           "games": 2,
-          "rate": 7.1
+          "rate": 6.2
+        },
+        {
+          "champion": "Sejuani",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 3.1
         },
         {
           "champion": "Hwei",
           "games": 1,
-          "rate": 3.6
-        },
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 3.6
+          "rate": 3.1
         }
       ]
     },
     "JUNGLE": {
-      "games": 6,
+      "games": 5,
       "picks": [
         {
           "champion": "Kindred",
-          "games": 3,
-          "rate": 50.0
+          "games": 2,
+          "rate": 40.0
         },
         {
           "champion": "Taliyah",
           "games": 2,
-          "rate": 33.3
+          "rate": 40.0
         },
         {
           "champion": "Gragas",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 10,
+      "games": 9,
       "picks": [
         {
           "champion": "Azir",
-          "games": 8,
-          "rate": 80.0
+          "games": 7,
+          "rate": 77.8
         },
         {
           "champion": "Hwei",
           "games": 1,
-          "rate": 10.0
+          "rate": 11.1
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 10.0
+          "rate": 11.1
         }
       ]
     },
@@ -139,12 +149,17 @@
           "rate": 36.4
         },
         {
-          "champion": "Bard",
-          "games": 2,
-          "rate": 18.2
+          "champion": "Anivia",
+          "games": 1,
+          "rate": 9.1
         },
         {
-          "champion": "Anivia",
+          "champion": "Bard",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Pantheon",
           "games": 1,
           "rate": 9.1
         }
@@ -154,7 +169,7 @@
   "byMainLane": {
     "MID": {
       "players": 5,
-      "mainLaneGames": 144,
+      "mainLaneGames": 143,
       "mainLaneNext": [
         {
           "champion": "Hwei",
@@ -197,6 +212,11 @@
           "rate": 0.7
         },
         {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
           "champion": "Xerath",
           "games": 1,
           "rate": 0.7
@@ -204,72 +224,77 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 28,
+          "games": 32,
           "picks": [
             {
               "champion": "Azir",
-              "games": 18,
-              "rate": 64.3
+              "games": 20,
+              "rate": 62.5
             },
             {
               "champion": "Gragas",
               "games": 6,
-              "rate": 21.4
+              "rate": 18.8
             },
             {
               "champion": "KSante",
               "games": 2,
-              "rate": 7.1
+              "rate": 6.2
+            },
+            {
+              "champion": "Sejuani",
+              "games": 2,
+              "rate": 6.2
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 3.1
             },
             {
               "champion": "Hwei",
               "games": 1,
-              "rate": 3.6
-            },
-            {
-              "champion": "Sejuani",
-              "games": 1,
-              "rate": 3.6
+              "rate": 3.1
             }
           ]
         },
         "JUNGLE": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Kindred",
-              "games": 3,
-              "rate": 50.0
+              "games": 2,
+              "rate": 40.0
             },
             {
               "champion": "Taliyah",
               "games": 2,
-              "rate": 33.3
+              "rate": 40.0
             },
             {
               "champion": "Gragas",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 10,
+          "games": 9,
           "picks": [
             {
               "champion": "Azir",
-              "games": 8,
-              "rate": 80.0
+              "games": 7,
+              "rate": 77.8
             },
             {
               "champion": "Hwei",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             },
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             }
           ]
         },
@@ -287,12 +312,17 @@
               "rate": 36.4
             },
             {
-              "champion": "Bard",
-              "games": 2,
-              "rate": 18.2
+              "champion": "Anivia",
+              "games": 1,
+              "rate": 9.1
             },
             {
-              "champion": "Anivia",
+              "champion": "Bard",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Pantheon",
               "games": 1,
               "rate": 9.1
             }
@@ -302,7 +332,7 @@
     },
     "TOP": {
       "players": 4,
-      "mainLaneGames": 128,
+      "mainLaneGames": 127,
       "mainLaneNext": [
         {
           "champion": "Anivia",
@@ -327,22 +357,27 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Nunu",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Sejuani",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Taric",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },

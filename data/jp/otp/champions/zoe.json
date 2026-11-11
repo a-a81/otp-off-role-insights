@@ -3,25 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zoe",
-  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
+  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
   "mainLane": "MID",
   "players": 5,
-  "mainLaneGames": 125,
+  "mainLaneGames": 127,
   "mainLaneNext": [
     {
       "champion": "Leblanc",
       "games": 4,
-      "rate": 3.2
+      "rate": 3.1
     },
     {
-      "champion": "Xerath",
+      "champion": "Ahri",
       "games": 3,
       "rate": 2.4
     },
     {
-      "champion": "Ahri",
+      "champion": "Xerath",
       "games": 2,
       "rate": 1.6
+    },
+    {
+      "champion": "Galio",
+      "games": 1,
+      "rate": 0.8
     },
     {
       "champion": "Locke",
@@ -30,11 +35,6 @@
     },
     {
       "champion": "Sylas",
-      "games": 1,
-      "rate": 0.8
-    },
-    {
-      "champion": "Tristana",
       "games": 1,
       "rate": 0.8
     },
@@ -91,27 +91,27 @@
       ]
     },
     "JUNGLE": {
-      "games": 10,
+      "games": 8,
       "picks": [
         {
           "champion": "JarvanIV",
-          "games": 7,
-          "rate": 70.0
+          "games": 5,
+          "rate": 62.5
         },
         {
           "champion": "FiddleSticks",
           "games": 1,
-          "rate": 10.0
+          "rate": 12.5
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 10.0
+          "rate": 12.5
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 10.0
+          "rate": 12.5
         }
       ]
     },
@@ -174,17 +174,17 @@
           "rate": 12.0
         },
         {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 12.0
+        },
+        {
           "champion": "Janna",
           "games": 2,
           "rate": 8.0
         },
         {
           "champion": "Karma",
-          "games": 2,
-          "rate": 8.0
-        },
-        {
-          "champion": "Nautilus",
           "games": 2,
           "rate": 8.0
         },
@@ -209,11 +209,6 @@
           "rate": 4.0
         },
         {
-          "champion": "Thresh",
-          "games": 1,
-          "rate": 4.0
-        },
-        {
           "champion": "Xerath",
           "games": 1,
           "rate": 4.0
@@ -229,22 +224,27 @@
   "byMainLane": {
     "MID": {
       "players": 5,
-      "mainLaneGames": 125,
+      "mainLaneGames": 127,
       "mainLaneNext": [
         {
           "champion": "Leblanc",
           "games": 4,
-          "rate": 3.2
+          "rate": 3.1
         },
         {
-          "champion": "Xerath",
+          "champion": "Ahri",
           "games": 3,
           "rate": 2.4
         },
         {
-          "champion": "Ahri",
+          "champion": "Xerath",
           "games": 2,
           "rate": 1.6
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 0.8
         },
         {
           "champion": "Locke",
@@ -253,11 +253,6 @@
         },
         {
           "champion": "Sylas",
-          "games": 1,
-          "rate": 0.8
-        },
-        {
-          "champion": "Tristana",
           "games": 1,
           "rate": 0.8
         },
@@ -314,27 +309,27 @@
           ]
         },
         "JUNGLE": {
-          "games": 10,
+          "games": 8,
           "picks": [
             {
               "champion": "JarvanIV",
-              "games": 7,
-              "rate": 70.0
+              "games": 5,
+              "rate": 62.5
             },
             {
               "champion": "FiddleSticks",
               "games": 1,
-              "rate": 10.0
+              "rate": 12.5
             },
             {
               "champion": "Lillia",
               "games": 1,
-              "rate": 10.0
+              "rate": 12.5
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 10.0
+              "rate": 12.5
             }
           ]
         },
@@ -397,17 +392,17 @@
               "rate": 12.0
             },
             {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 12.0
+            },
+            {
               "champion": "Janna",
               "games": 2,
               "rate": 8.0
             },
             {
               "champion": "Karma",
-              "games": 2,
-              "rate": 8.0
-            },
-            {
-              "champion": "Nautilus",
               "games": 2,
               "rate": 8.0
             },
@@ -428,11 +423,6 @@
             },
             {
               "champion": "TahmKench",
-              "games": 1,
-              "rate": 4.0
-            },
-            {
-              "champion": "Thresh",
               "games": 1,
               "rate": 4.0
             },

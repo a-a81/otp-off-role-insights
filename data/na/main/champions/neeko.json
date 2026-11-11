@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Neeko",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "UTILITY",
   "players": 2,
   "mainLaneGames": 74,
@@ -306,8 +306,8 @@
       "mainLaneNext": [
         {
           "champion": "Vayne",
-          "games": 8,
-          "rate": 29.6
+          "games": 7,
+          "rate": 25.9
         },
         {
           "champion": "Ahri",
@@ -327,22 +327,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 3,
           "picks": [
-            {
-              "champion": "Vi",
-              "games": 2,
-              "rate": 50.0
-            },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Vayne",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -372,35 +372,42 @@
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 25,
+      "mainLaneGames": 22,
       "mainLaneNext": [
         {
-          "champion": "Ornn",
-          "games": 1,
-          "rate": 4.0
+          "champion": "Vayne",
+          "games": 2,
+          "rate": 9.1
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 4.0
-        },
-        {
-          "champion": "Vayne",
-          "games": 1,
-          "rate": 4.0
+          "rate": 4.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 2,
@@ -423,11 +430,11 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Neeko",
-              "games": 5,
+              "games": 6,
               "rate": 100.0
             }
           ]

@@ -3,243 +3,99 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Qiyana",
-  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
-  "mainLane": "MID",
-  "players": 4,
-  "mainLaneGames": 117,
+  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "mainLane": "JUNGLE",
+  "players": 3,
+  "mainLaneGames": 101,
   "mainLaneNext": [
     {
-      "champion": "Aurora",
-      "games": 13,
-      "rate": 11.1
+      "champion": "Khazix",
+      "games": 6,
+      "rate": 5.9
     },
     {
-      "champion": "Locke",
-      "games": 7,
-      "rate": 6.0
-    },
-    {
-      "champion": "Sylas",
+      "champion": "Lillia",
       "games": 3,
-      "rate": 2.6
+      "rate": 3.0
     },
     {
-      "champion": "Vex",
+      "champion": "Graves",
       "games": 1,
-      "rate": 0.9
+      "rate": 1.0
+    },
+    {
+      "champion": "Hecarim",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Maokai",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Taliyah",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Zyra",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 19,
+      "games": 2,
       "picks": [
         {
-          "champion": "Qiyana",
-          "games": 13,
-          "rate": 68.4
-        },
-        {
-          "champion": "Zaahen",
-          "games": 2,
-          "rate": 10.5
-        },
-        {
-          "champion": "Akali",
+          "champion": "Malphite",
           "games": 1,
-          "rate": 5.3
+          "rate": 50.0
         },
         {
-          "champion": "Karthus",
+          "champion": "Sion",
           "games": 1,
-          "rate": 5.3
-        },
-        {
-          "champion": "Locke",
-          "games": 1,
-          "rate": 5.3
-        },
-        {
-          "champion": "Vex",
-          "games": 1,
-          "rate": 5.3
+          "rate": 50.0
         }
       ]
     },
-    "JUNGLE": {
-      "games": 10,
+    "MID": {
+      "games": 12,
       "picks": [
         {
           "champion": "Qiyana",
-          "games": 8,
-          "rate": 80.0
+          "games": 7,
+          "rate": 58.3
         },
         {
-          "champion": "Talon",
+          "champion": "Ahri",
+          "games": 3,
+          "rate": 25.0
+        },
+        {
+          "champion": "Galio",
           "games": 2,
-          "rate": 20.0
+          "rate": 16.7
         }
       ]
     },
     "BOTTOM": {
+      "games": 0,
+      "picks": []
+    },
+    "UTILITY": {
       "games": 2,
       "picks": [
         {
-          "champion": "Yone",
+          "champion": "Rakan",
           "games": 2,
           "rate": 100.0
-        }
-      ]
-    },
-    "UTILITY": {
-      "games": 10,
-      "picks": [
-        {
-          "champion": "Qiyana",
-          "games": 4,
-          "rate": 40.0
-        },
-        {
-          "champion": "Pantheon",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
-          "champion": "Rell",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
-          "champion": "Poppy",
-          "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Thresh",
-          "games": 1,
-          "rate": 10.0
         }
       ]
     }
   },
   "byMainLane": {
-    "MID": {
-      "players": 4,
-      "mainLaneGames": 117,
-      "mainLaneNext": [
-        {
-          "champion": "Aurora",
-          "games": 13,
-          "rate": 11.1
-        },
-        {
-          "champion": "Locke",
-          "games": 7,
-          "rate": 6.0
-        },
-        {
-          "champion": "Sylas",
-          "games": 3,
-          "rate": 2.6
-        },
-        {
-          "champion": "Vex",
-          "games": 1,
-          "rate": 0.9
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 19,
-          "picks": [
-            {
-              "champion": "Qiyana",
-              "games": 13,
-              "rate": 68.4
-            },
-            {
-              "champion": "Zaahen",
-              "games": 2,
-              "rate": 10.5
-            },
-            {
-              "champion": "Akali",
-              "games": 1,
-              "rate": 5.3
-            },
-            {
-              "champion": "Karthus",
-              "games": 1,
-              "rate": 5.3
-            },
-            {
-              "champion": "Locke",
-              "games": 1,
-              "rate": 5.3
-            },
-            {
-              "champion": "Vex",
-              "games": 1,
-              "rate": 5.3
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Qiyana",
-              "games": 8,
-              "rate": 80.0
-            },
-            {
-              "champion": "Talon",
-              "games": 2,
-              "rate": 20.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Yone",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Qiyana",
-              "games": 4,
-              "rate": 40.0
-            },
-            {
-              "champion": "Pantheon",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Rell",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Thresh",
-              "games": 1,
-              "rate": 10.0
-            }
-          ]
-        }
-      }
-    },
     "JUNGLE": {
       "players": 3,
       "mainLaneGames": 101,
@@ -255,17 +111,27 @@
           "rate": 3.0
         },
         {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
           "champion": "Hecarim",
-          "games": 2,
-          "rate": 2.0
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 1.0
         },
         {
           "champion": "Taliyah",
-          "games": 2,
-          "rate": 2.0
+          "games": 1,
+          "rate": 1.0
         },
         {
-          "champion": "Graves",
+          "champion": "Zyra",
           "games": 1,
           "rate": 1.0
         }
@@ -287,22 +153,22 @@
           ]
         },
         "MID": {
-          "games": 11,
+          "games": 12,
           "picks": [
             {
               "champion": "Qiyana",
               "games": 7,
-              "rate": 63.6
+              "rate": 58.3
             },
             {
               "champion": "Ahri",
               "games": 3,
-              "rate": 27.3
+              "rate": 25.0
             },
             {
               "champion": "Galio",
-              "games": 1,
-              "rate": 9.1
+              "games": 2,
+              "rate": 16.7
             }
           ]
         },
@@ -311,17 +177,135 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Rakan",
               "games": 2,
-              "rate": 66.7
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 3,
+      "mainLaneGames": 88,
+      "mainLaneNext": [
+        {
+          "champion": "Aurora",
+          "games": 10,
+          "rate": 11.4
+        },
+        {
+          "champion": "Locke",
+          "games": 3,
+          "rate": 3.4
+        },
+        {
+          "champion": "Sylas",
+          "games": 2,
+          "rate": 2.3
+        },
+        {
+          "champion": "Vex",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 1.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 10,
+          "picks": [
+            {
+              "champion": "Qiyana",
+              "games": 6,
+              "rate": 60.0
             },
             {
-              "champion": "Leona",
+              "champion": "Akali",
               "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Karthus",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Locke",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Zaahen",
+              "games": 1,
+              "rate": 10.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Qiyana",
+              "games": 7,
+              "rate": 77.8
+            },
+            {
+              "champion": "Talon",
+              "games": 2,
+              "rate": 22.2
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Yone",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Qiyana",
+              "games": 3,
               "rate": 33.3
+            },
+            {
+              "champion": "Pantheon",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Thresh",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         }

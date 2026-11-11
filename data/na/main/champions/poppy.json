@@ -3,10 +3,10 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "UTILITY",
   "players": 3,
-  "mainLaneGames": 97,
+  "mainLaneGames": 96,
   "mainLaneNext": [
     {
       "champion": "Lulu",
@@ -14,19 +14,19 @@
       "rate": 6.2
     },
     {
-      "champion": "Twitch",
-      "games": 4,
-      "rate": 4.1
-    },
-    {
-      "champion": "Brand",
-      "games": 3,
-      "rate": 3.1
-    },
-    {
       "champion": "Karma",
       "games": 3,
       "rate": 3.1
+    },
+    {
+      "champion": "Twitch",
+      "games": 3,
+      "rate": 3.1
+    },
+    {
+      "champion": "Brand",
+      "games": 2,
+      "rate": 2.1
     },
     {
       "champion": "Braum",
@@ -100,22 +100,22 @@
       ]
     },
     "BOTTOM": {
-      "games": 14,
+      "games": 15,
       "picks": [
         {
           "champion": "Hwei",
-          "games": 7,
-          "rate": 50.0
+          "games": 8,
+          "rate": 53.3
         },
         {
           "champion": "Zyra",
           "games": 6,
-          "rate": 42.9
+          "rate": 40.0
         },
         {
           "champion": "Ashe",
           "games": 1,
-          "rate": 7.1
+          "rate": 6.7
         }
       ]
     }
@@ -123,7 +123,7 @@
   "byMainLane": {
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 97,
+      "mainLaneGames": 96,
       "mainLaneNext": [
         {
           "champion": "Lulu",
@@ -131,19 +131,19 @@
           "rate": 6.2
         },
         {
-          "champion": "Twitch",
-          "games": 4,
-          "rate": 4.1
-        },
-        {
-          "champion": "Brand",
-          "games": 3,
-          "rate": 3.1
-        },
-        {
           "champion": "Karma",
           "games": 3,
           "rate": 3.1
+        },
+        {
+          "champion": "Twitch",
+          "games": 3,
+          "rate": 3.1
+        },
+        {
+          "champion": "Brand",
+          "games": 2,
+          "rate": 2.1
         },
         {
           "champion": "Braum",
@@ -217,60 +217,115 @@
           ]
         },
         "BOTTOM": {
-          "games": 14,
+          "games": 15,
           "picks": [
             {
               "champion": "Hwei",
-              "games": 7,
-              "rate": 50.0
+              "games": 8,
+              "rate": 53.3
             },
             {
               "champion": "Zyra",
               "games": 6,
-              "rate": 42.9
+              "rate": 40.0
             },
             {
               "champion": "Ashe",
               "games": 1,
-              "rate": 7.1
+              "rate": 6.7
             }
           ]
         }
       }
     },
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 33,
+      "players": 2,
+      "mainLaneGames": 68,
       "mainLaneNext": [
+        {
+          "champion": "Chogath",
+          "games": 10,
+          "rate": 14.7
+        },
+        {
+          "champion": "Ornn",
+          "games": 3,
+          "rate": 4.4
+        },
+        {
+          "champion": "Rumble",
+          "games": 3,
+          "rate": 4.4
+        },
+        {
+          "champion": "Gangplank",
+          "games": 2,
+          "rate": 2.9
+        },
         {
           "champion": "Gragas",
           "games": 2,
-          "rate": 6.1
+          "rate": 2.9
+        },
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 2.9
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 1.5
+        },
+        {
+          "champion": "Illaoi",
+          "games": 1,
+          "rate": 1.5
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
           "games": 2,
           "picks": [
             {
-              "champion": "Gragas",
+              "champion": "Amumu",
               "games": 1,
               "rate": 50.0
             },
             {
-              "champion": "Yorick",
+              "champion": "Poppy",
               "games": 1,
               "rate": 50.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
@@ -285,8 +340,19 @@
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         }
       }
     }

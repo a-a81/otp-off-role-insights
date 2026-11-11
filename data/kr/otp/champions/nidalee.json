@@ -3,45 +3,35 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nidalee",
-  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
+  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
-  "mainLaneGames": 70,
+  "mainLaneGames": 54,
   "mainLaneNext": [
     {
-      "champion": "JarvanIV",
-      "games": 5,
-      "rate": 7.1
-    },
-    {
       "champion": "LeeSin",
-      "games": 5,
-      "rate": 7.1
-    },
-    {
-      "champion": "Pantheon",
-      "games": 2,
-      "rate": 2.9
+      "games": 6,
+      "rate": 11.1
     },
     {
       "champion": "Viego",
       "games": 2,
-      "rate": 2.9
+      "rate": 3.7
     },
     {
-      "champion": "Diana",
-      "games": 1,
-      "rate": 1.4
+      "champion": "Zyra",
+      "games": 2,
+      "rate": 3.7
     },
     {
       "champion": "Lillia",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.9
     },
     {
-      "champion": "Sylas",
+      "champion": "Rengar",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.9
     }
   ],
   "offLanes": {
@@ -56,73 +46,75 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 5,
+      "picks": [
+        {
+          "champion": "Aurora",
+          "games": 5,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 7,
+      "games": 6,
       "picks": [
         {
           "champion": "Jhin",
           "games": 4,
-          "rate": 57.1
+          "rate": 66.7
         },
         {
           "champion": "MissFortune",
           "games": 2,
-          "rate": 28.6
-        },
-        {
-          "champion": "Ziggs",
-          "games": 1,
-          "rate": 14.3
+          "rate": 33.3
         }
       ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 12,
+      "picks": [
+        {
+          "champion": "Rengar",
+          "games": 10,
+          "rate": 83.3
+        },
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 16.7
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 70,
+      "mainLaneGames": 54,
       "mainLaneNext": [
         {
-          "champion": "JarvanIV",
-          "games": 5,
-          "rate": 7.1
-        },
-        {
           "champion": "LeeSin",
-          "games": 5,
-          "rate": 7.1
-        },
-        {
-          "champion": "Pantheon",
-          "games": 2,
-          "rate": 2.9
+          "games": 6,
+          "rate": 11.1
         },
         {
           "champion": "Viego",
           "games": 2,
-          "rate": 2.9
+          "rate": 3.7
         },
         {
-          "champion": "Diana",
-          "games": 1,
-          "rate": 1.4
+          "champion": "Zyra",
+          "games": 2,
+          "rate": 3.7
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.9
         },
         {
-          "champion": "Sylas",
+          "champion": "Rengar",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.9
         }
       ],
       "offLanes": {
@@ -137,32 +129,44 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Aurora",
+              "games": 5,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 7,
+          "games": 6,
           "picks": [
             {
               "champion": "Jhin",
               "games": 4,
-              "rate": 57.1
+              "rate": 66.7
             },
             {
               "champion": "MissFortune",
               "games": 2,
-              "rate": 28.6
-            },
-            {
-              "champion": "Ziggs",
-              "games": 1,
-              "rate": 14.3
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 12,
+          "picks": [
+            {
+              "champion": "Rengar",
+              "games": 10,
+              "rate": 83.3
+            },
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 16.7
+            }
+          ]
         }
       }
     }

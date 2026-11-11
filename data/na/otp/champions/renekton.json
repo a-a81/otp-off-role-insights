@@ -3,25 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Renekton",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 72,
+  "mainLaneGames": 70,
   "mainLaneNext": [
     {
       "champion": "Annie",
       "games": 3,
-      "rate": 4.2
+      "rate": 4.3
     },
     {
       "champion": "Camille",
       "games": 2,
-      "rate": 2.8
+      "rate": 2.9
     },
     {
       "champion": "Pantheon",
       "games": 2,
-      "rate": 2.8
+      "rate": 2.9
     }
   ],
   "offLanes": {
@@ -36,17 +36,22 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Annie",
           "games": 2,
-          "rate": 66.7
+          "rate": 50.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
@@ -55,12 +60,17 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
@@ -68,22 +78,22 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 72,
+      "mainLaneGames": 70,
       "mainLaneNext": [
         {
           "champion": "Annie",
           "games": 3,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Camille",
           "games": 2,
-          "rate": 2.8
+          "rate": 2.9
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 2.8
+          "rate": 2.9
         }
       ],
       "offLanes": {
@@ -98,17 +108,22 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Annie",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
@@ -117,12 +132,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Pantheon",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

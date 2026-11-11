@@ -3,70 +3,50 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hecarim",
-  "updatedAt": "2026-11-10T21:41:37.026558+00:00",
+  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
   "mainLane": "JUNGLE",
-  "players": 3,
-  "mainLaneGames": 102,
+  "players": 2,
+  "mainLaneGames": 68,
   "mainLaneNext": [
     {
       "champion": "Chogath",
-      "games": 10,
-      "rate": 9.8
+      "games": 5,
+      "rate": 7.4
     },
     {
       "champion": "Khazix",
       "games": 3,
-      "rate": 2.9
-    },
-    {
-      "champion": "Olaf",
-      "games": 3,
-      "rate": 2.9
+      "rate": 4.4
     },
     {
       "champion": "Karthus",
       "games": 1,
-      "rate": 1.0
+      "rate": 1.5
     },
     {
       "champion": "Lillia",
       "games": 1,
-      "rate": 1.0
+      "rate": 1.5
     },
     {
       "champion": "MonkeyKing",
       "games": 1,
-      "rate": 1.0
+      "rate": 1.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 9,
+      "games": 2,
       "picks": [
-        {
-          "champion": "Olaf",
-          "games": 3,
-          "rate": 33.3
-        },
-        {
-          "champion": "Malphite",
-          "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Sion",
-          "games": 2,
-          "rate": 22.2
-        },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 11.1
+          "rate": 50.0
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 11.1
+          "rate": 50.0
         }
       ]
     },
@@ -85,74 +65,60 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 3,
-      "mainLaneGames": 102,
+      "players": 2,
+      "mainLaneGames": 68,
       "mainLaneNext": [
         {
           "champion": "Chogath",
-          "games": 10,
-          "rate": 9.8
+          "games": 5,
+          "rate": 7.4
         },
         {
           "champion": "Khazix",
           "games": 3,
-          "rate": 2.9
-        },
-        {
-          "champion": "Olaf",
-          "games": 3,
-          "rate": 2.9
+          "rate": 4.4
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 1.0
+          "rate": 1.5
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.0
+          "rate": 1.5
         },
         {
           "champion": "MonkeyKing",
           "games": 1,
-          "rate": 1.0
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 9,
+          "games": 2,
           "picks": [
-            {
-              "champion": "Olaf",
-              "games": 3,
-              "rate": 33.3
-            },
-            {
-              "champion": "Malphite",
-              "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Sion",
-              "games": 2,
-              "rate": 22.2
-            },
             {
               "champion": "Jayce",
               "games": 1,
-              "rate": 11.1
+              "rate": 50.0
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 11.1
+              "rate": 50.0
             }
           ]
         },
@@ -171,8 +137,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

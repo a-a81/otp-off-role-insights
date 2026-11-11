@@ -3,50 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gragas",
-  "updatedAt": "2026-11-10T19:42:39.547967+00:00",
+  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 43,
+  "mainLaneGames": 42,
   "mainLaneNext": [
     {
       "champion": "Pantheon",
       "games": 2,
-      "rate": 4.7
+      "rate": 4.8
     },
     {
       "champion": "Ahri",
       "games": 1,
-      "rate": 2.3
+      "rate": 2.4
     },
     {
       "champion": "Leblanc",
       "games": 1,
-      "rate": 2.3
+      "rate": 2.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 21,
+      "games": 22,
       "picks": [
         {
           "champion": "Gragas",
-          "games": 18,
-          "rate": 85.7
+          "games": 19,
+          "rate": 86.4
         },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 4.8
+          "rate": 4.5
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 4.8
+          "rate": 4.5
         },
         {
           "champion": "Rumble",
           "games": 1,
-          "rate": 4.8
+          "rate": 4.5
         }
       ]
     },
@@ -129,47 +129,47 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 43,
+      "mainLaneGames": 42,
       "mainLaneNext": [
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 4.7
+          "rate": 4.8
         },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 2.3
+          "rate": 2.4
         },
         {
           "champion": "Leblanc",
           "games": 1,
-          "rate": 2.3
+          "rate": 2.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 21,
+          "games": 22,
           "picks": [
             {
               "champion": "Gragas",
-              "games": 18,
-              "rate": 85.7
+              "games": 19,
+              "rate": 86.4
             },
             {
               "champion": "Jayce",
               "games": 1,
-              "rate": 4.8
+              "rate": 4.5
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 4.8
+              "rate": 4.5
             },
             {
               "champion": "Rumble",
               "games": 1,
-              "rate": 4.8
+              "rate": 4.5
             }
           ]
         },
@@ -252,35 +252,30 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 38,
+      "mainLaneGames": 39,
       "mainLaneNext": [
         {
-          "champion": "Ambessa",
-          "games": 6,
-          "rate": 15.8
+          "champion": "Garen",
+          "games": 5,
+          "rate": 12.8
         },
         {
-          "champion": "Garen",
+          "champion": "Ambessa",
           "games": 4,
-          "rate": 10.5
+          "rate": 10.3
         },
         {
           "champion": "Darius",
-          "games": 3,
-          "rate": 7.9
+          "games": 2,
+          "rate": 5.1
         },
         {
           "champion": "Irelia",
-          "games": 2,
-          "rate": 5.3
-        },
-        {
-          "champion": "DrMundo",
           "games": 1,
           "rate": 2.6
         },
         {
-          "champion": "Pantheon",
+          "champion": "Trundle",
           "games": 1,
           "rate": 2.6
         },
@@ -304,11 +299,88 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Senna",
-              "games": 2,
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 25,
+      "mainLaneNext": [
+        {
+          "champion": "Graves",
+          "games": 8,
+          "rate": 32.0
+        },
+        {
+          "champion": "Khazix",
+          "games": 8,
+          "rate": 32.0
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Gragas",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Rumble",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "MID": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Gragas",
+              "games": 6,
+              "rate": 75.0
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Rumble",
+              "games": 1,
+              "rate": 12.5
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Bard",
+              "games": 1,
               "rate": 100.0
             }
           ]

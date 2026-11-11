@@ -3,20 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tristana",
-  "updatedAt": "2026-11-10T20:54:41.682250+00:00",
+  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
   "mainLane": "BOTTOM",
   "players": 4,
-  "mainLaneGames": 120,
+  "mainLaneGames": 126,
   "mainLaneNext": [
     {
       "champion": "MissFortune",
-      "games": 10,
-      "rate": 8.3
+      "games": 11,
+      "rate": 8.7
     },
     {
       "champion": "Yunara",
       "games": 3,
-      "rate": 2.5
+      "rate": 2.4
+    },
+    {
+      "champion": "Zeri",
+      "games": 2,
+      "rate": 1.6
+    },
+    {
+      "champion": "Aphelios",
+      "games": 1,
+      "rate": 0.8
     },
     {
       "champion": "Jhin",
@@ -47,66 +57,51 @@
       "champion": "Xerath",
       "games": 1,
       "rate": 0.8
-    },
-    {
-      "champion": "Zeri",
-      "games": 1,
-      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 5,
       "picks": [
         {
           "champion": "Yone",
-          "games": 3,
-          "rate": 50.0
+          "games": 2,
+          "rate": 40.0
         },
         {
           "champion": "Fiora",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         },
         {
           "champion": "Gnar",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 8,
+      "games": 4,
       "picks": [
         {
           "champion": "Ekko",
-          "games": 3,
-          "rate": 37.5
+          "games": 2,
+          "rate": 50.0
         },
         {
           "champion": "LeeSin",
-          "games": 2,
+          "games": 1,
           "rate": 25.0
-        },
-        {
-          "champion": "Kayn",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Khazix",
-          "games": 1,
-          "rate": 12.5
         },
         {
           "champion": "Talon",
           "games": 1,
-          "rate": 12.5
+          "rate": 25.0
         }
       ]
     },
@@ -131,42 +126,27 @@
       ]
     },
     "UTILITY": {
-      "games": 20,
+      "games": 18,
       "picks": [
         {
           "champion": "Thresh",
-          "games": 7,
-          "rate": 35.0
+          "games": 8,
+          "rate": 44.4
         },
         {
           "champion": "Leona",
           "games": 6,
-          "rate": 30.0
+          "rate": 33.3
         },
         {
           "champion": "Lulu",
           "games": 3,
-          "rate": 15.0
-        },
-        {
-          "champion": "Blitzcrank",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Braum",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Fiora",
-          "games": 1,
-          "rate": 5.0
+          "rate": 16.7
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.6
         }
       ]
     }
@@ -174,17 +154,27 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 4,
-      "mainLaneGames": 120,
+      "mainLaneGames": 126,
       "mainLaneNext": [
         {
           "champion": "MissFortune",
-          "games": 10,
-          "rate": 8.3
+          "games": 11,
+          "rate": 8.7
         },
         {
           "champion": "Yunara",
           "games": 3,
-          "rate": 2.5
+          "rate": 2.4
+        },
+        {
+          "champion": "Zeri",
+          "games": 2,
+          "rate": 1.6
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "rate": 0.8
         },
         {
           "champion": "Jhin",
@@ -215,66 +205,51 @@
           "champion": "Xerath",
           "games": 1,
           "rate": 0.8
-        },
-        {
-          "champion": "Zeri",
-          "games": 1,
-          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Yone",
-              "games": 3,
-              "rate": 50.0
+              "games": 2,
+              "rate": 40.0
             },
             {
               "champion": "Fiora",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             },
             {
               "champion": "Gnar",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 8,
+          "games": 4,
           "picks": [
             {
               "champion": "Ekko",
-              "games": 3,
-              "rate": 37.5
+              "games": 2,
+              "rate": 50.0
             },
             {
               "champion": "LeeSin",
-              "games": 2,
+              "games": 1,
               "rate": 25.0
-            },
-            {
-              "champion": "Kayn",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Khazix",
-              "games": 1,
-              "rate": 12.5
             },
             {
               "champion": "Talon",
               "games": 1,
-              "rate": 12.5
+              "rate": 25.0
             }
           ]
         },
@@ -299,42 +274,27 @@
           ]
         },
         "UTILITY": {
-          "games": 20,
+          "games": 18,
           "picks": [
             {
               "champion": "Thresh",
-              "games": 7,
-              "rate": 35.0
+              "games": 8,
+              "rate": 44.4
             },
             {
               "champion": "Leona",
               "games": 6,
-              "rate": 30.0
+              "rate": 33.3
             },
             {
               "champion": "Lulu",
               "games": 3,
-              "rate": 15.0
-            },
-            {
-              "champion": "Blitzcrank",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Braum",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Fiora",
-              "games": 1,
-              "rate": 5.0
+              "rate": 16.7
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.6
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "RekSai",
-  "updatedAt": "2026-11-10T21:41:40.226018+00:00",
+  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
   "mainLane": "JUNGLE",
   "players": 11,
   "mainLaneGames": 364,
@@ -81,52 +81,57 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 17,
+      "games": 18,
       "picks": [
         {
           "champion": "RekSai",
           "games": 15,
-          "rate": 88.2
+          "rate": 83.3
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 5.9
+          "rate": 5.6
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 5.9
+          "rate": 5.6
         }
       ]
     },
     "MID": {
-      "games": 10,
+      "games": 9,
       "picks": [
         {
           "champion": "Sion",
-          "games": 5,
-          "rate": 50.0
+          "games": 4,
+          "rate": 44.4
         },
         {
           "champion": "Lissandra",
           "games": 2,
-          "rate": 20.0
+          "rate": 22.2
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 10.0
+          "rate": 11.1
         },
         {
           "champion": "RekSai",
           "games": 1,
-          "rate": 10.0
+          "rate": 11.1
         },
         {
           "champion": "Veigar",
           "games": 1,
-          "rate": 10.0
+          "rate": 11.1
         }
       ]
     },
@@ -294,52 +299,57 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 17,
+          "games": 18,
           "picks": [
             {
               "champion": "RekSai",
               "games": 15,
-              "rate": 88.2
+              "rate": 83.3
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 5.9
+              "rate": 5.6
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Trundle",
               "games": 1,
-              "rate": 5.9
+              "rate": 5.6
             }
           ]
         },
         "MID": {
-          "games": 10,
+          "games": 9,
           "picks": [
             {
               "champion": "Sion",
-              "games": 5,
-              "rate": 50.0
+              "games": 4,
+              "rate": 44.4
             },
             {
               "champion": "Lissandra",
               "games": 2,
-              "rate": 20.0
+              "rate": 22.2
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             },
             {
               "champion": "RekSai",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             }
           ]
         },
@@ -430,6 +440,35 @@
         }
       }
     },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 39,
+      "mainLaneNext": [
+        {
+          "champion": "Elise",
+          "games": 2,
+          "rate": 5.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
     "TOP": {
       "players": 1,
       "mainLaneGames": 38,
@@ -462,40 +501,6 @@
               "rate": 100.0
             }
           ]
-        }
-      }
-    },
-    "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 38,
-      "mainLaneNext": [
-        {
-          "champion": "Elise",
-          "games": 3,
-          "rate": 7.9
-        },
-        {
-          "champion": "Taliyah",
-          "games": 3,
-          "rate": 7.9
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
         }
       }
     }
