@@ -3,28 +3,39 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Garen",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 71,
+  "mainLaneGames": 68,
   "mainLaneNext": [
     {
       "champion": "Malphite",
       "games": 4,
-      "rate": 5.6
+      "rate": 5.9
+    },
+    {
+      "champion": "Ambessa",
+      "games": 1,
+      "rate": 1.5
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Evelynn",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 7,
+      "games": 9,
       "picks": [
         {
           "champion": "Garen",
-          "games": 7,
+          "games": 9,
           "rate": 100.0
         }
       ]
@@ -47,25 +58,36 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 71,
+      "mainLaneGames": 68,
       "mainLaneNext": [
         {
           "champion": "Malphite",
           "games": 4,
-          "rate": 5.6
+          "rate": 5.9
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Evelynn",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 7,
+          "games": 9,
           "picks": [
             {
               "champion": "Garen",
-              "games": 7,
+              "games": 9,
               "rate": 100.0
             }
           ]

@@ -3,53 +3,223 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Riven",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
-  "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 37,
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
+  "mainLane": "MID",
+  "players": 2,
+  "mainLaneGames": 48,
   "mainLaneNext": [
     {
-      "champion": "Camille",
+      "champion": "Kayle",
       "games": 2,
-      "rate": 5.4
+      "rate": 4.2
+    },
+    {
+      "champion": "Pantheon",
+      "games": 2,
+      "rate": 4.2
     },
     {
       "champion": "Sion",
+      "games": 2,
+      "rate": 4.2
+    },
+    {
+      "champion": "Yone",
       "games": 1,
-      "rate": 2.7
+      "rate": 2.1
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 2,
+    "TOP": {
+      "games": 21,
       "picks": [
         {
           "champion": "Riven",
-          "games": 2,
-          "rate": 100.0
+          "games": 18,
+          "rate": 85.7
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 4.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 4.8
         }
       ]
     },
-    "MID": {
+    "JUNGLE": {
       "games": 1,
       "picks": [
         {
-          "champion": "Riven",
+          "champion": "Shyvana",
           "games": 1,
           "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Riven",
+          "games": 3,
+          "rate": 50.0
+        },
+        {
+          "champion": "Viktor",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 16.7
+        }
+      ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Braum",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 48,
+      "mainLaneNext": [
+        {
+          "champion": "Kayle",
+          "games": 2,
+          "rate": 4.2
+        },
+        {
+          "champion": "Pantheon",
+          "games": 2,
+          "rate": 4.2
+        },
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 4.2
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 2.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 21,
+          "picks": [
+            {
+              "champion": "Riven",
+              "games": 18,
+              "rate": 85.7
+            },
+            {
+              "champion": "Ambessa",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 4.8
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 4.8
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Shyvana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Riven",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Viktor",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Senna",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        }
+      }
+    },
     "TOP": {
       "players": 1,
       "mainLaneGames": 37,
@@ -93,84 +263,6 @@
         "UTILITY": {
           "games": 0,
           "picks": []
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 21,
-      "mainLaneNext": [
-        {
-          "champion": "Akali",
-          "games": 1,
-          "rate": 4.8
-        },
-        {
-          "champion": "Gwen",
-          "games": 1,
-          "rate": 4.8
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 4.8
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Riven",
-              "games": 6,
-              "rate": 54.5
-            },
-            {
-              "champion": "Camille",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Gwen",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Jayce",
-              "games": 1,
-              "rate": 9.1
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Talon",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Yunara",
-              "games": 5,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
         }
       }
     }

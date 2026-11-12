@@ -3,20 +3,20 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gangplank",
-  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
+  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
   "mainLane": "TOP",
   "players": 5,
-  "mainLaneGames": 157,
+  "mainLaneGames": 152,
   "mainLaneNext": [
     {
       "champion": "KSante",
       "games": 5,
-      "rate": 3.2
+      "rate": 3.3
     },
     {
       "champion": "Malphite",
       "games": 3,
-      "rate": 1.9
+      "rate": 2.0
     },
     {
       "champion": "Camille",
@@ -36,62 +36,67 @@
     {
       "champion": "Jax",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.7
     },
     {
       "champion": "Jayce",
       "games": 1,
-      "rate": 0.6
-    },
-    {
-      "champion": "Renekton",
-      "games": 1,
-      "rate": 0.6
+      "rate": 0.7
     },
     {
       "champion": "Vladimir",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.7
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Pantheon",
           "games": 4,
-          "rate": 100.0
+          "rate": 80.0
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
     "MID": {
-      "games": 13,
+      "games": 14,
       "picks": [
         {
           "champion": "Gangplank",
           "games": 9,
-          "rate": 69.2
+          "rate": 64.3
+        },
+        {
+          "champion": "Anivia",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 7.1
         },
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Vladimir",
           "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "Zoe",
-          "games": 1,
-          "rate": 7.7
+          "rate": 7.1
         }
       ]
     },
@@ -111,22 +116,27 @@
       ]
     },
     "UTILITY": {
-      "games": 19,
+      "games": 23,
       "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 9,
+          "rate": 39.1
+        },
         {
           "champion": "Leona",
           "games": 7,
-          "rate": 36.8
-        },
-        {
-          "champion": "Pantheon",
-          "games": 7,
-          "rate": 36.8
+          "rate": 30.4
         },
         {
           "champion": "Nautilus",
-          "games": 5,
-          "rate": 26.3
+          "games": 6,
+          "rate": 26.1
+        },
+        {
+          "champion": "Brand",
+          "games": 1,
+          "rate": 4.3
         }
       ]
     }
@@ -134,17 +144,17 @@
   "byMainLane": {
     "TOP": {
       "players": 5,
-      "mainLaneGames": 157,
+      "mainLaneGames": 152,
       "mainLaneNext": [
         {
           "champion": "KSante",
           "games": 5,
-          "rate": 3.2
+          "rate": 3.3
         },
         {
           "champion": "Malphite",
           "games": 3,
-          "rate": 1.9
+          "rate": 2.0
         },
         {
           "champion": "Camille",
@@ -164,62 +174,67 @@
         {
           "champion": "Jax",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.7
         },
         {
           "champion": "Jayce",
           "games": 1,
-          "rate": 0.6
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 0.6
+          "rate": 0.7
         },
         {
           "champion": "Vladimir",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.7
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Pantheon",
               "games": 4,
-              "rate": 100.0
+              "rate": 80.0
+            },
+            {
+              "champion": "XinZhao",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
         "MID": {
-          "games": 13,
+          "games": 14,
           "picks": [
             {
               "champion": "Gangplank",
               "games": 9,
-              "rate": 69.2
+              "rate": 64.3
+            },
+            {
+              "champion": "Anivia",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 7.1
             },
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Vladimir",
               "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 7.7
-            },
-            {
-              "champion": "Zoe",
-              "games": 1,
-              "rate": 7.7
+              "rate": 7.1
             }
           ]
         },
@@ -239,22 +254,27 @@
           ]
         },
         "UTILITY": {
-          "games": 19,
+          "games": 23,
           "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 9,
+              "rate": 39.1
+            },
             {
               "champion": "Leona",
               "games": 7,
-              "rate": 36.8
-            },
-            {
-              "champion": "Pantheon",
-              "games": 7,
-              "rate": 36.8
+              "rate": 30.4
             },
             {
               "champion": "Nautilus",
-              "games": 5,
-              "rate": 26.3
+              "games": 6,
+              "rate": 26.1
+            },
+            {
+              "champion": "Brand",
+              "games": 1,
+              "rate": 4.3
             }
           ]
         }

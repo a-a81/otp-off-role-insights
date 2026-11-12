@@ -3,48 +3,59 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "AurelionSol",
-  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
+  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 28,
-  "mainLaneNext": [],
+  "mainLaneGames": 27,
+  "mainLaneNext": [
+    {
+      "champion": "Galio",
+      "games": 1,
+      "rate": 3.7
+    }
+  ],
   "offLanes": {
     "TOP": {
       "games": 0,
       "picks": []
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Ambessa",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "AurelionSol",
-          "games": 5,
+          "games": 6,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 4,
       "picks": [
         {
           "champion": "Lulu",
-          "games": 3,
-          "rate": 60.0
+          "games": 2,
+          "rate": 50.0
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 40.0
+          "rate": 50.0
         }
       ]
     }
@@ -52,45 +63,56 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 28,
-      "mainLaneNext": [],
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 3.7
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
           "picks": []
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Ambessa",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "AurelionSol",
-              "games": 5,
+              "games": 6,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Lulu",
-              "games": 3,
-              "rate": 60.0
+              "games": 2,
+              "rate": 50.0
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 40.0
+              "rate": 50.0
             }
           ]
         }

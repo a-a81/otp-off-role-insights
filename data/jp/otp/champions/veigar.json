@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Veigar",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 61,
@@ -150,8 +150,14 @@
     },
     "MID": {
       "players": 2,
-      "mainLaneGames": 58,
-      "mainLaneNext": [],
+      "mainLaneGames": 59,
+      "mainLaneNext": [
+        {
+          "champion": "Viktor",
+          "games": 2,
+          "rate": 3.4
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 2,
@@ -179,11 +185,11 @@
           ]
         },
         "BOTTOM": {
-          "games": 11,
+          "games": 10,
           "picks": [
             {
               "champion": "Veigar",
-              "games": 11,
+              "games": 10,
               "rate": 100.0
             }
           ]

@@ -3,95 +3,54 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Draven",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "BOTTOM",
-  "players": 2,
-  "mainLaneGames": 63,
+  "players": 1,
+  "mainLaneGames": 32,
   "mainLaneNext": [
-    {
-      "champion": "Corki",
-      "games": 5,
-      "rate": 7.9
-    },
     {
       "champion": "Twitch",
       "games": 4,
-      "rate": 6.3
-    },
-    {
-      "champion": "Ezreal",
-      "games": 2,
-      "rate": 3.2
+      "rate": 12.5
     },
     {
       "champion": "Jinx",
       "games": 1,
-      "rate": 1.6
+      "rate": 3.1
     },
     {
       "champion": "Yunara",
       "games": 1,
-      "rate": 1.6
+      "rate": 3.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 9,
+      "games": 5,
       "picks": [
         {
           "champion": "Sion",
           "games": 4,
-          "rate": 44.4
-        },
-        {
-          "champion": "Riven",
-          "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Jayce",
-          "games": 1,
-          "rate": 11.1
+          "rate": 80.0
         },
         {
           "champion": "Singed",
           "games": 1,
-          "rate": 11.1
-        },
-        {
-          "champion": "Yone",
-          "games": 1,
-          "rate": 11.1
+          "rate": 20.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Graves",
-          "games": 3,
-          "rate": 75.0
-        },
-        {
-          "champion": "Jayce",
-          "games": 1,
-          "rate": 25.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 1,
       "picks": [
-        {
-          "champion": "TwistedFate",
-          "games": 1,
-          "rate": 50.0
-        },
         {
           "champion": "Twitch",
           "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     },
@@ -108,93 +67,52 @@
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 2,
-      "mainLaneGames": 63,
+      "players": 1,
+      "mainLaneGames": 32,
       "mainLaneNext": [
-        {
-          "champion": "Corki",
-          "games": 5,
-          "rate": 7.9
-        },
         {
           "champion": "Twitch",
           "games": 4,
-          "rate": 6.3
-        },
-        {
-          "champion": "Ezreal",
-          "games": 2,
-          "rate": 3.2
+          "rate": 12.5
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 1.6
+          "rate": 3.1
         },
         {
           "champion": "Yunara",
           "games": 1,
-          "rate": 1.6
+          "rate": 3.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 9,
+          "games": 5,
           "picks": [
             {
               "champion": "Sion",
               "games": 4,
-              "rate": 44.4
-            },
-            {
-              "champion": "Riven",
-              "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Jayce",
-              "games": 1,
-              "rate": 11.1
+              "rate": 80.0
             },
             {
               "champion": "Singed",
               "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Yone",
-              "games": 1,
-              "rate": 11.1
+              "rate": 20.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Graves",
-              "games": 3,
-              "rate": 75.0
-            },
-            {
-              "champion": "Jayce",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "MID": {
-          "games": 2,
+          "games": 1,
           "picks": [
-            {
-              "champion": "TwistedFate",
-              "games": 1,
-              "rate": 50.0
-            },
             {
               "champion": "Twitch",
               "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         },

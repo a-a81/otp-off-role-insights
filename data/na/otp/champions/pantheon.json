@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Pantheon",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "MID",
   "players": 2,
   "mainLaneGames": 51,
@@ -257,18 +257,34 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 24,
+      "mainLaneGames": 21,
       "mainLaneNext": [
         {
           "champion": "Sylas",
-          "games": 6,
-          "rate": 25.0
+          "games": 5,
+          "rate": 23.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Rumble",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,

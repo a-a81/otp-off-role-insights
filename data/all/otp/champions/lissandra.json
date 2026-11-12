@@ -3,11 +3,16 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lissandra",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "MID",
   "players": 10,
-  "mainLaneGames": 246,
+  "mainLaneGames": 247,
   "mainLaneNext": [
+    {
+      "champion": "Orianna",
+      "games": 3,
+      "rate": 1.2
+    },
     {
       "champion": "Brand",
       "games": 2,
@@ -20,11 +25,6 @@
     },
     {
       "champion": "Naafiri",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Orianna",
       "games": 2,
       "rate": 0.8
     },
@@ -49,17 +49,17 @@
       "rate": 0.4
     },
     {
+      "champion": "Leblanc",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
       "champion": "Sylas",
       "games": 1,
       "rate": 0.4
     },
     {
       "champion": "Veigar",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Vladimir",
       "games": 1,
       "rate": 0.4
     },
@@ -75,8 +75,8 @@
       "picks": [
         {
           "champion": "Lissandra",
-          "games": 64,
-          "rate": 80.0
+          "games": 65,
+          "rate": 81.2
         },
         {
           "champion": "Malphite",
@@ -100,8 +100,8 @@
         },
         {
           "champion": "Nasus",
-          "games": 2,
-          "rate": 2.5
+          "games": 1,
+          "rate": 1.2
         },
         {
           "champion": "Swain",
@@ -116,77 +116,82 @@
       ]
     },
     "JUNGLE": {
-      "games": 16,
+      "games": 17,
       "picks": [
         {
           "champion": "Taliyah",
           "games": 7,
-          "rate": 43.8
+          "rate": 41.2
         },
         {
           "champion": "Khazix",
           "games": 3,
-          "rate": 18.8
+          "rate": 17.6
         },
         {
           "champion": "Karthus",
           "games": 2,
-          "rate": 12.5
+          "rate": 11.8
         },
         {
           "champion": "LeeSin",
           "games": 2,
-          "rate": 12.5
+          "rate": 11.8
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 5.9
         }
       ]
     },
     "BOTTOM": {
-      "games": 19,
+      "games": 20,
       "picks": [
         {
           "champion": "Ezreal",
           "games": 7,
-          "rate": 36.8
+          "rate": 35.0
         },
         {
           "champion": "Lissandra",
           "games": 5,
-          "rate": 26.3
+          "rate": 25.0
+        },
+        {
+          "champion": "MissFortune",
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "Kaisa",
           "games": 2,
-          "rate": 10.5
-        },
-        {
-          "champion": "MissFortune",
-          "games": 2,
-          "rate": 10.5
+          "rate": 10.0
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Veigar",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Xayah",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         }
       ]
     },
@@ -244,8 +249,13 @@
   "byMainLane": {
     "MID": {
       "players": 10,
-      "mainLaneGames": 246,
+      "mainLaneGames": 247,
       "mainLaneNext": [
+        {
+          "champion": "Orianna",
+          "games": 3,
+          "rate": 1.2
+        },
         {
           "champion": "Brand",
           "games": 2,
@@ -258,11 +268,6 @@
         },
         {
           "champion": "Naafiri",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Orianna",
           "games": 2,
           "rate": 0.8
         },
@@ -287,17 +292,17 @@
           "rate": 0.4
         },
         {
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
           "champion": "Sylas",
           "games": 1,
           "rate": 0.4
         },
         {
           "champion": "Veigar",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Vladimir",
           "games": 1,
           "rate": 0.4
         },
@@ -313,8 +318,8 @@
           "picks": [
             {
               "champion": "Lissandra",
-              "games": 64,
-              "rate": 80.0
+              "games": 65,
+              "rate": 81.2
             },
             {
               "champion": "Malphite",
@@ -338,8 +343,8 @@
             },
             {
               "champion": "Nasus",
-              "games": 2,
-              "rate": 2.5
+              "games": 1,
+              "rate": 1.2
             },
             {
               "champion": "Swain",
@@ -354,77 +359,82 @@
           ]
         },
         "JUNGLE": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "Taliyah",
               "games": 7,
-              "rate": 43.8
+              "rate": 41.2
             },
             {
               "champion": "Khazix",
               "games": 3,
-              "rate": 18.8
+              "rate": 17.6
             },
             {
               "champion": "Karthus",
               "games": 2,
-              "rate": 12.5
+              "rate": 11.8
             },
             {
               "champion": "LeeSin",
               "games": 2,
-              "rate": 12.5
+              "rate": 11.8
             },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 5.9
             }
           ]
         },
         "BOTTOM": {
-          "games": 19,
+          "games": 20,
           "picks": [
             {
               "champion": "Ezreal",
               "games": 7,
-              "rate": 36.8
+              "rate": 35.0
             },
             {
               "champion": "Lissandra",
               "games": 5,
-              "rate": 26.3
+              "rate": 25.0
+            },
+            {
+              "champion": "MissFortune",
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "Kaisa",
               "games": 2,
-              "rate": 10.5
-            },
-            {
-              "champion": "MissFortune",
-              "games": 2,
-              "rate": 10.5
+              "rate": 10.0
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Xayah",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             }
           ]
         },

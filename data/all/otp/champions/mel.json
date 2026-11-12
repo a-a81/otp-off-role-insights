@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "MID",
   "players": 2,
   "mainLaneGames": 59,
@@ -25,11 +25,6 @@
     },
     {
       "champion": "Smolder",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Swain",
       "games": 1,
       "rate": 1.7
     },
@@ -162,11 +157,6 @@
           "rate": 1.7
         },
         {
-          "champion": "Swain",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
           "champion": "Veigar",
           "games": 1,
           "rate": 1.7
@@ -271,13 +261,23 @@
       }
     },
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
+      "players": 2,
+      "mainLaneGames": 55,
       "mainLaneNext": [
+        {
+          "champion": "Syndra",
+          "games": 4,
+          "rate": 7.3
+        },
         {
           "champion": "Annie",
           "games": 3,
-          "rate": 9.7
+          "rate": 5.5
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 1.8
         }
       ],
       "offLanes": {
@@ -322,17 +322,47 @@
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 18,
           "picks": [
+            {
+              "champion": "Janna",
+              "games": 7,
+              "rate": 38.9
+            },
+            {
+              "champion": "Sona",
+              "games": 4,
+              "rate": 22.2
+            },
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 11.1
+            },
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 50.0
+              "rate": 5.6
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Renata",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 50.0
+              "rate": 5.6
             }
           ]
         }

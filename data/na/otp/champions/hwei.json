@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hwei",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
   "mainLaneGames": 30,
@@ -145,6 +145,79 @@
         "UTILITY": {
           "games": 0,
           "picks": []
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 21,
+      "mainLaneNext": [
+        {
+          "champion": "Tristana",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Vex",
+          "games": 2,
+          "rate": 9.5
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 4.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 12,
+              "rate": 85.7
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Vex",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Hwei",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

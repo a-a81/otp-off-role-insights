@@ -3,20 +3,35 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "RekSai",
-  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
+  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 74,
+  "players": 3,
+  "mainLaneGames": 110,
   "mainLaneNext": [
     {
+      "champion": "LeeSin",
+      "games": 15,
+      "rate": 13.6
+    },
+    {
       "champion": "XinZhao",
-      "games": 2,
-      "rate": 2.7
+      "games": 4,
+      "rate": 3.6
     },
     {
       "champion": "Zyra",
+      "games": 2,
+      "rate": 1.8
+    },
+    {
+      "champion": "Qiyana",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
+    },
+    {
+      "champion": "Taliyah",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -31,8 +46,14 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Taliyah",
+          "games": 3,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 3,
@@ -50,24 +71,45 @@
       ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 74,
+      "players": 3,
+      "mainLaneGames": 110,
       "mainLaneNext": [
         {
+          "champion": "LeeSin",
+          "games": 15,
+          "rate": 13.6
+        },
+        {
           "champion": "XinZhao",
-          "games": 2,
-          "rate": 2.7
+          "games": 4,
+          "rate": 3.6
         },
         {
           "champion": "Zyra",
+          "games": 2,
+          "rate": 1.8
+        },
+        {
+          "champion": "Qiyana",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -82,8 +124,14 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 3,
@@ -101,8 +149,14 @@
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

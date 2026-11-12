@@ -3,24 +3,34 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "JUNGLE",
-  "players": 4,
-  "mainLaneGames": 133,
+  "players": 3,
+  "mainLaneGames": 99,
   "mainLaneNext": [
     {
       "champion": "Khazix",
       "games": 2,
-      "rate": 1.5
+      "rate": 2.0
     },
     {
       "champion": "Nocturne",
       "games": 1,
-      "rate": 0.8
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "FiddleSticks",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
       "games": 3,
       "picks": [
         {
@@ -29,29 +39,9 @@
           "rate": 66.7
         },
         {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 33.3
-        }
-      ]
-    },
-    "MID": {
-      "games": 5,
-      "picks": [
-        {
-          "champion": "FiddleSticks",
-          "games": 3,
-          "rate": 60.0
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 20.0
-        },
-        {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 20.0
+          "rate": 33.3
         }
       ]
     },
@@ -60,39 +50,44 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 17,
+      "games": 16,
       "picks": [
         {
           "champion": "FiddleSticks",
           "games": 16,
-          "rate": 94.1
-        },
-        {
-          "champion": "Alistar",
-          "games": 1,
-          "rate": 5.9
+          "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 4,
-      "mainLaneGames": 133,
+      "players": 3,
+      "mainLaneGames": 99,
       "mainLaneNext": [
         {
           "champion": "Khazix",
           "games": 2,
-          "rate": 1.5
+          "rate": 2.0
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 0.8
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "FiddleSticks",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
           "games": 3,
           "picks": [
             {
@@ -101,29 +96,9 @@
               "rate": 66.7
             },
             {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "MID": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "FiddleSticks",
-              "games": 3,
-              "rate": 60.0
-            },
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 20.0
+              "rate": 33.3
             }
           ]
         },
@@ -132,19 +107,49 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 17,
+          "games": 16,
           "picks": [
             {
               "champion": "FiddleSticks",
               "games": 16,
-              "rate": 94.1
-            },
-            {
-              "champion": "Alistar",
-              "games": 1,
-              "rate": 5.9
+              "rate": 100.0
             }
           ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "Maokai",
+          "games": 2,
+          "rate": 7.4
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "FiddleSticks",
+              "games": 12,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
         }
       }
     }

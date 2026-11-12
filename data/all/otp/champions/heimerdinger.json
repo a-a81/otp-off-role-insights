@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "TOP",
   "players": 4,
-  "mainLaneGames": 120,
+  "mainLaneGames": 123,
   "mainLaneNext": [
     {
       "champion": "Kennen",
@@ -40,22 +40,22 @@
       "picks": []
     },
     "MID": {
-      "games": 20,
+      "games": 18,
       "picks": [
         {
           "champion": "Heimerdinger",
-          "games": 18,
-          "rate": 90.0
+          "games": 16,
+          "rate": 88.9
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.6
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.6
         }
       ]
     },
@@ -88,7 +88,7 @@
   "byMainLane": {
     "TOP": {
       "players": 4,
-      "mainLaneGames": 120,
+      "mainLaneGames": 123,
       "mainLaneNext": [
         {
           "champion": "Kennen",
@@ -122,22 +122,22 @@
           "picks": []
         },
         "MID": {
-          "games": 20,
+          "games": 18,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 18,
-              "rate": 90.0
+              "games": 16,
+              "rate": 88.9
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.6
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.6
             }
           ]
         },
@@ -170,16 +170,27 @@
     },
     "BOTTOM": {
       "players": 4,
-      "mainLaneGames": 112,
-      "mainLaneNext": [],
+      "mainLaneGames": 119,
+      "mainLaneNext": [
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 0.8
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 16,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 16,
-              "rate": 100.0
+              "games": 15,
+              "rate": 93.8
+            },
+            {
+              "champion": "Quinn",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         },
@@ -204,27 +215,12 @@
           ]
         },
         "MID": {
-          "games": 20,
+          "games": 13,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 16,
-              "rate": 80.0
-            },
-            {
-              "champion": "Zed",
-              "games": 2,
-              "rate": 10.0
-            },
-            {
-              "champion": "Kassadin",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Quinn",
-              "games": 1,
-              "rate": 5.0
+              "games": 13,
+              "rate": 100.0
             }
           ]
         },
@@ -345,8 +341,14 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 37,
-      "mainLaneNext": [],
+      "mainLaneGames": 38,
+      "mainLaneNext": [
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 2.6
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
@@ -367,17 +369,12 @@
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Velkoz",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

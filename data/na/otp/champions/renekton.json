@@ -3,10 +3,10 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Renekton",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 70,
+  "mainLaneGames": 69,
   "mainLaneNext": [
     {
       "champion": "Annie",
@@ -14,52 +14,18 @@
       "rate": 4.3
     },
     {
-      "champion": "Camille",
-      "games": 2,
-      "rate": 2.9
+      "champion": "Pantheon",
+      "games": 3,
+      "rate": 4.3
     },
     {
-      "champion": "Pantheon",
+      "champion": "Camille",
       "games": 2,
       "rate": 2.9
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
-      "picks": [
-        {
-          "champion": "Pantheon",
-          "games": 2,
-          "rate": 100.0
-        }
-      ]
-    },
-    "MID": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Annie",
-          "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 25.0
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
-    "UTILITY": {
       "games": 3,
       "picks": [
         {
@@ -68,9 +34,48 @@
           "rate": 66.7
         },
         {
-          "champion": "Lulu",
+          "champion": "Renekton",
           "games": 1,
           "rate": 33.3
+        }
+      ]
+    },
+    "MID": {
+      "games": 5,
+      "picks": [
+        {
+          "champion": "Annie",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 20.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 0,
+      "picks": []
+    },
+    "UTILITY": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     }
@@ -78,7 +83,7 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 70,
+      "mainLaneGames": 69,
       "mainLaneNext": [
         {
           "champion": "Annie",
@@ -86,52 +91,18 @@
           "rate": 4.3
         },
         {
-          "champion": "Camille",
-          "games": 2,
-          "rate": 2.9
+          "champion": "Pantheon",
+          "games": 3,
+          "rate": 4.3
         },
         {
-          "champion": "Pantheon",
+          "champion": "Camille",
           "games": 2,
           "rate": 2.9
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Pantheon",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Annie",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Renekton",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
           "games": 3,
           "picks": [
             {
@@ -140,9 +111,48 @@
               "rate": 66.7
             },
             {
-              "champion": "Lulu",
+              "champion": "Renekton",
               "games": 1,
               "rate": 33.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Annie",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

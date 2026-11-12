@@ -3,25 +3,35 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Udyr",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "TOP",
-  "players": 8,
-  "mainLaneGames": 246,
+  "players": 9,
+  "mainLaneGames": 266,
   "mainLaneNext": [
+    {
+      "champion": "Malphite",
+      "games": 8,
+      "rate": 3.0
+    },
     {
       "champion": "Urgot",
       "games": 5,
-      "rate": 2.0
+      "rate": 1.9
     },
     {
       "champion": "Shyvana",
       "games": 3,
-      "rate": 1.2
+      "rate": 1.1
+    },
+    {
+      "champion": "Skarner",
+      "games": 3,
+      "rate": 1.1
     },
     {
       "champion": "Yorick",
       "games": 3,
-      "rate": 1.2
+      "rate": 1.1
     },
     {
       "champion": "Ambessa",
@@ -34,17 +44,17 @@
       "rate": 0.8
     },
     {
-      "champion": "Malphite",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
       "champion": "Nasus",
       "games": 2,
       "rate": 0.8
     },
     {
       "champion": "Sion",
+      "games": 2,
+      "rate": 0.8
+    },
+    {
+      "champion": "Volibear",
       "games": 2,
       "rate": 0.8
     },
@@ -102,26 +112,46 @@
       "champion": "Sylas",
       "games": 1,
       "rate": 0.4
+    },
+    {
+      "champion": "Warwick",
+      "games": 1,
+      "rate": 0.4
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 16,
+      "games": 33,
       "picks": [
         {
           "champion": "Udyr",
-          "games": 11,
-          "rate": 68.8
+          "games": 19,
+          "rate": 57.6
+        },
+        {
+          "champion": "Volibear",
+          "games": 6,
+          "rate": 18.2
         },
         {
           "champion": "Zyra",
           "games": 4,
-          "rate": 25.0
+          "rate": 12.1
+        },
+        {
+          "champion": "Nunu",
+          "games": 2,
+          "rate": 6.1
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 6.2
+          "rate": 3.0
+        },
+        {
+          "champion": "Warwick",
+          "games": 1,
+          "rate": 3.0
         }
       ]
     },
@@ -176,60 +206,70 @@
       ]
     },
     "UTILITY": {
-      "games": 15,
+      "games": 18,
       "picks": [
         {
           "champion": "Nautilus",
-          "games": 5,
-          "rate": 33.3
+          "games": 7,
+          "rate": 38.9
         },
         {
           "champion": "Zyra",
           "games": 5,
-          "rate": 33.3
+          "rate": 27.8
+        },
+        {
+          "champion": "TahmKench",
+          "games": 2,
+          "rate": 11.1
         },
         {
           "champion": "Udyr",
           "games": 2,
-          "rate": 13.3
+          "rate": 11.1
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 6.7
-        },
-        {
-          "champion": "TahmKench",
-          "games": 1,
-          "rate": 6.7
+          "rate": 5.6
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 8,
-      "mainLaneGames": 246,
+      "players": 9,
+      "mainLaneGames": 266,
       "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 8,
+          "rate": 3.0
+        },
         {
           "champion": "Urgot",
           "games": 5,
-          "rate": 2.0
+          "rate": 1.9
         },
         {
           "champion": "Shyvana",
           "games": 3,
-          "rate": 1.2
+          "rate": 1.1
+        },
+        {
+          "champion": "Skarner",
+          "games": 3,
+          "rate": 1.1
         },
         {
           "champion": "Yorick",
           "games": 3,
-          "rate": 1.2
+          "rate": 1.1
         },
         {
           "champion": "Ambessa",
@@ -242,17 +282,17 @@
           "rate": 0.8
         },
         {
-          "champion": "Malphite",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
           "champion": "Nasus",
           "games": 2,
           "rate": 0.8
         },
         {
           "champion": "Sion",
+          "games": 2,
+          "rate": 0.8
+        },
+        {
+          "champion": "Volibear",
           "games": 2,
           "rate": 0.8
         },
@@ -310,26 +350,46 @@
           "champion": "Sylas",
           "games": 1,
           "rate": 0.4
+        },
+        {
+          "champion": "Warwick",
+          "games": 1,
+          "rate": 0.4
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 16,
+          "games": 33,
           "picks": [
             {
               "champion": "Udyr",
-              "games": 11,
-              "rate": 68.8
+              "games": 19,
+              "rate": 57.6
+            },
+            {
+              "champion": "Volibear",
+              "games": 6,
+              "rate": 18.2
             },
             {
               "champion": "Zyra",
               "games": 4,
-              "rate": 25.0
+              "rate": 12.1
+            },
+            {
+              "champion": "Nunu",
+              "games": 2,
+              "rate": 6.1
             },
             {
               "champion": "DrMundo",
               "games": 1,
-              "rate": 6.2
+              "rate": 3.0
+            },
+            {
+              "champion": "Warwick",
+              "games": 1,
+              "rate": 3.0
             }
           ]
         },
@@ -384,37 +444,37 @@
           ]
         },
         "UTILITY": {
-          "games": 15,
+          "games": 18,
           "picks": [
             {
               "champion": "Nautilus",
-              "games": 5,
-              "rate": 33.3
+              "games": 7,
+              "rate": 38.9
             },
             {
               "champion": "Zyra",
               "games": 5,
-              "rate": 33.3
+              "rate": 27.8
+            },
+            {
+              "champion": "TahmKench",
+              "games": 2,
+              "rate": 11.1
             },
             {
               "champion": "Udyr",
               "games": 2,
-              "rate": 13.3
+              "rate": 11.1
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 6.7
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 6.7
+              "rate": 5.6
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
             }
           ]
         }
@@ -422,12 +482,12 @@
     },
     "JUNGLE": {
       "players": 6,
-      "mainLaneGames": 173,
+      "mainLaneGames": 172,
       "mainLaneNext": [
         {
           "champion": "Sylas",
           "games": 8,
-          "rate": 4.6
+          "rate": 4.7
         },
         {
           "champion": "Graves",
@@ -512,52 +572,52 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 30,
+          "games": 31,
           "picks": [
             {
               "champion": "Udyr",
-              "games": 15,
-              "rate": 50.0
+              "games": 16,
+              "rate": 51.6
             },
             {
               "champion": "Volibear",
               "games": 5,
-              "rate": 16.7
+              "rate": 16.1
             },
             {
               "champion": "Mordekaiser",
               "games": 3,
-              "rate": 10.0
+              "rate": 9.7
             },
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 6.7
+              "rate": 6.5
             },
             {
               "champion": "Olaf",
               "games": 1,
-              "rate": 3.3
+              "rate": 3.2
             },
             {
               "champion": "Riven",
               "games": 1,
-              "rate": 3.3
+              "rate": 3.2
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 3.3
+              "rate": 3.2
             },
             {
               "champion": "Yorick",
               "games": 1,
-              "rate": 3.3
+              "rate": 3.2
             },
             {
               "champion": "Zaahen",
               "games": 1,
-              "rate": 3.3
+              "rate": 3.2
             }
           ]
         },

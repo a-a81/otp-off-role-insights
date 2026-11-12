@@ -3,28 +3,23 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Evelynn",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
-  "mainLaneGames": 70,
+  "mainLaneGames": 74,
   "mainLaneNext": [
     {
-      "champion": "Diana",
+      "champion": "Zyra",
       "games": 5,
-      "rate": 7.1
+      "rate": 6.8
     },
     {
       "champion": "XinZhao",
       "games": 2,
-      "rate": 2.9
+      "rate": 2.7
     },
     {
       "champion": "Brand",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Taliyah",
       "games": 1,
       "rate": 1.4
     }
@@ -35,68 +30,41 @@
       "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Evelynn",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Orianna",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Yunara",
-          "games": 1,
+          "games": 3,
           "rate": 100.0
         }
       ]
     },
+    "BOTTOM": {
+      "games": 0,
+      "picks": []
+    },
     "UTILITY": {
-      "games": 4,
-      "picks": [
-        {
-          "champion": "Lux",
-          "games": 2,
-          "rate": 50.0
-        },
-        {
-          "champion": "Seraphine",
-          "games": 2,
-          "rate": 50.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     }
   },
   "byMainLane": {
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 70,
+      "mainLaneGames": 74,
       "mainLaneNext": [
         {
-          "champion": "Diana",
+          "champion": "Zyra",
           "games": 5,
-          "rate": 7.1
+          "rate": 6.8
         },
         {
           "champion": "XinZhao",
           "games": 2,
-          "rate": 2.9
+          "rate": 2.7
         },
         {
           "champion": "Brand",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Taliyah",
           "games": 1,
           "rate": 1.4
         }
@@ -107,44 +75,22 @@
           "picks": []
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Evelynn",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Orianna",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Yunara",
-              "games": 1,
+              "games": 3,
               "rate": 100.0
             }
           ]
         },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
         "UTILITY": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Lux",
-              "games": 2,
-              "rate": 50.0
-            },
-            {
-              "champion": "Seraphine",
-              "games": 2,
-              "rate": 50.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         }
       }
     }

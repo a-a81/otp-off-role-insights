@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MasterYi",
-  "updatedAt": "2026-11-11T21:26:16.868046+00:00",
+  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
   "mainLaneGames": 69,
@@ -41,22 +41,22 @@
       ]
     },
     "MID": {
-      "games": 5,
+      "games": 4,
       "picks": [
-        {
-          "champion": "MasterYi",
-          "games": 2,
-          "rate": 40.0
-        },
         {
           "champion": "Taliyah",
           "games": 2,
-          "rate": 40.0
+          "rate": 50.0
+        },
+        {
+          "champion": "MasterYi",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Viego",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         }
       ]
     },
@@ -65,8 +65,14 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
@@ -107,22 +113,22 @@
           ]
         },
         "MID": {
-          "games": 5,
+          "games": 4,
           "picks": [
-            {
-              "champion": "MasterYi",
-              "games": 2,
-              "rate": 40.0
-            },
             {
               "champion": "Taliyah",
               "games": 2,
-              "rate": 40.0
+              "rate": 50.0
+            },
+            {
+              "champion": "MasterYi",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Viego",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         },
@@ -131,8 +137,14 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

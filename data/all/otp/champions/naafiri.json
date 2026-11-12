@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Naafiri",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
   "mainLaneGames": 66,
@@ -202,8 +202,13 @@
     },
     "MID": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 59,
       "mainLaneNext": [
+        {
+          "champion": "Akali",
+          "games": 2,
+          "rate": 3.4
+        },
         {
           "champion": "Locke",
           "games": 2,
@@ -217,22 +222,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 7,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Kled",
+              "games": 3,
+              "rate": 33.3
+            },
             {
               "champion": "Naafiri",
               "games": 3,
-              "rate": 42.9
+              "rate": 33.3
             },
             {
               "champion": "Aurora",
               "games": 2,
-              "rate": 28.6
+              "rate": 22.2
             },
             {
-              "champion": "Kled",
-              "games": 2,
-              "rate": 28.6
+              "champion": "Akali",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
@@ -241,26 +251,26 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 11,
+          "games": 9,
           "picks": [
             {
               "champion": "Naafiri",
-              "games": 8,
-              "rate": 72.7
+              "games": 6,
+              "rate": 66.7
             },
             {
               "champion": "Lux",
               "games": 3,
-              "rate": 27.3
+              "rate": 33.3
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Morgana",
-              "games": 2,
+              "games": 1,
               "rate": 100.0
             }
           ]

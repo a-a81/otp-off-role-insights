@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "MID",
   "players": 3,
   "mainLaneGames": 75,
@@ -212,8 +212,14 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 37,
-      "mainLaneNext": [],
+      "mainLaneGames": 38,
+      "mainLaneNext": [
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 2.6
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
@@ -234,17 +240,12 @@
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Velkoz",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

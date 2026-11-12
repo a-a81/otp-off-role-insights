@@ -3,70 +3,65 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "JUNGLE",
-  "players": 5,
-  "mainLaneGames": 163,
+  "players": 4,
+  "mainLaneGames": 127,
   "mainLaneNext": [
     {
       "champion": "Briar",
-      "games": 12,
-      "rate": 7.4
+      "games": 9,
+      "rate": 7.1
     },
     {
       "champion": "Zyra",
       "games": 3,
-      "rate": 1.8
+      "rate": 2.4
     },
     {
       "champion": "Khazix",
       "games": 2,
-      "rate": 1.2
+      "rate": 1.6
+    },
+    {
+      "champion": "Brand",
+      "games": 1,
+      "rate": 0.8
     },
     {
       "champion": "Nocturne",
       "games": 1,
-      "rate": 0.6
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 2,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 3,
-          "rate": 75.0
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 25.0
+          "games": 2,
+          "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 8,
+      "games": 4,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 5,
-          "rate": 62.5
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 12.5
+          "games": 2,
+          "rate": 50.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 12.5
+          "rate": 25.0
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 12.5
+          "rate": 25.0
         }
       ]
     },
@@ -75,90 +70,80 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 23,
+      "games": 27,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 20,
-          "rate": 87.0
+          "games": 25,
+          "rate": 92.6
         },
         {
           "champion": "Lulu",
           "games": 2,
-          "rate": 8.7
-        },
-        {
-          "champion": "Alistar",
-          "games": 1,
-          "rate": 4.3
+          "rate": 7.4
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 5,
-      "mainLaneGames": 163,
+      "players": 4,
+      "mainLaneGames": 127,
       "mainLaneNext": [
         {
           "champion": "Briar",
-          "games": 12,
-          "rate": 7.4
+          "games": 9,
+          "rate": 7.1
         },
         {
           "champion": "Zyra",
           "games": 3,
-          "rate": 1.8
+          "rate": 2.4
         },
         {
           "champion": "Khazix",
           "games": 2,
-          "rate": 1.2
+          "rate": 1.6
+        },
+        {
+          "champion": "Brand",
+          "games": 1,
+          "rate": 0.8
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 0.6
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 2,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 3,
-              "rate": 75.0
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 25.0
+              "games": 2,
+              "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 8,
+          "games": 4,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 5,
-              "rate": 62.5
-            },
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 12.5
+              "games": 2,
+              "rate": 50.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 12.5
+              "rate": 25.0
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 12.5
+              "rate": 25.0
             }
           ]
         },
@@ -167,24 +152,54 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 23,
+          "games": 27,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 20,
-              "rate": 87.0
+              "games": 25,
+              "rate": 92.6
             },
             {
               "champion": "Lulu",
               "games": 2,
-              "rate": 8.7
-            },
-            {
-              "champion": "Alistar",
-              "games": 1,
-              "rate": 4.3
+              "rate": 7.4
             }
           ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "Maokai",
+          "games": 2,
+          "rate": 7.4
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "FiddleSticks",
+              "games": 12,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
         }
       }
     }

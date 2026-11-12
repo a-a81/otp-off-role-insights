@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Hwei",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "MID",
   "players": 5,
   "mainLaneGames": 147,
@@ -395,12 +395,12 @@
       "mainLaneGames": 37,
       "mainLaneNext": [
         {
-          "champion": "Sylas",
-          "games": 2,
-          "rate": 5.4
+          "champion": "Taliyah",
+          "games": 3,
+          "rate": 8.1
         },
         {
-          "champion": "Taliyah",
+          "champion": "Sylas",
           "games": 2,
           "rate": 5.4
         },
@@ -448,12 +448,12 @@
     },
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 32,
+      "mainLaneGames": 30,
       "mainLaneNext": [
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.3
         }
       ],
       "offLanes": {
@@ -462,8 +462,14 @@
           "picks": []
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 4,
@@ -481,17 +487,22 @@
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 33.3
+            },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         }

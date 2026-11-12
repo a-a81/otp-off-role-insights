@@ -3,20 +3,20 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "TOP",
   "players": 5,
-  "mainLaneGames": 146,
+  "mainLaneGames": 145,
   "mainLaneNext": [
     {
       "champion": "Gragas",
       "games": 4,
-      "rate": 2.7
+      "rate": 2.8
     },
     {
       "champion": "KSante",
       "games": 4,
-      "rate": 2.7
+      "rate": 2.8
     },
     {
       "champion": "Gangplank",
@@ -111,47 +111,47 @@
       ]
     },
     "UTILITY": {
-      "games": 37,
+      "games": 38,
       "picks": [
         {
           "champion": "Nautilus",
-          "games": 14,
-          "rate": 37.8
+          "games": 15,
+          "rate": 39.5
         },
         {
           "champion": "Neeko",
           "games": 6,
-          "rate": 16.2
+          "rate": 15.8
         },
         {
           "champion": "Lulu",
           "games": 5,
-          "rate": 13.5
+          "rate": 13.2
         },
         {
           "champion": "Poppy",
           "games": 5,
-          "rate": 13.5
+          "rate": 13.2
         },
         {
           "champion": "Leona",
           "games": 4,
-          "rate": 10.8
+          "rate": 10.5
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.6
         },
         {
           "champion": "Milio",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.6
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.6
         }
       ]
     }
@@ -159,17 +159,17 @@
   "byMainLane": {
     "TOP": {
       "players": 5,
-      "mainLaneGames": 146,
+      "mainLaneGames": 145,
       "mainLaneNext": [
         {
           "champion": "Gragas",
           "games": 4,
-          "rate": 2.7
+          "rate": 2.8
         },
         {
           "champion": "KSante",
           "games": 4,
-          "rate": 2.7
+          "rate": 2.8
         },
         {
           "champion": "Gangplank",
@@ -264,47 +264,129 @@
           ]
         },
         "UTILITY": {
-          "games": 37,
+          "games": 38,
           "picks": [
             {
               "champion": "Nautilus",
-              "games": 14,
-              "rate": 37.8
+              "games": 15,
+              "rate": 39.5
             },
             {
               "champion": "Neeko",
               "games": 6,
-              "rate": 16.2
+              "rate": 15.8
             },
             {
               "champion": "Lulu",
               "games": 5,
-              "rate": 13.5
+              "rate": 13.2
             },
             {
               "champion": "Poppy",
               "games": 5,
-              "rate": 13.5
+              "rate": 13.2
             },
             {
               "champion": "Leona",
               "games": 4,
-              "rate": 10.8
+              "rate": 10.5
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 2.7
+              "rate": 2.6
             },
             {
               "champion": "Milio",
               "games": 1,
-              "rate": 2.7
+              "rate": 2.6
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 2.7
+              "rate": 2.6
+            }
+          ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 2,
+      "mainLaneGames": 58,
+      "mainLaneNext": [
+        {
+          "champion": "Brand",
+          "games": 2,
+          "rate": 3.4
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Twitch",
+          "games": 1,
+          "rate": 1.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Poppy",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Riven",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Hwei",
+              "games": 8,
+              "rate": 61.5
+            },
+            {
+              "champion": "Zyra",
+              "games": 4,
+              "rate": 30.8
+            },
+            {
+              "champion": "Ashe",
+              "games": 1,
+              "rate": 7.7
             }
           ]
         }
@@ -365,51 +447,6 @@
               "rate": 100.0
             }
           ]
-        }
-      }
-    },
-    "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 34,
-      "mainLaneNext": [],
-      "offLanes": {
-        "TOP": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Poppy",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Akali",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Riven",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
         }
       }
     }

@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "MID",
   "players": 1,
   "mainLaneGames": 30,
@@ -20,11 +20,6 @@
     },
     {
       "champion": "Lux",
-      "games": 1,
-      "rate": 3.3
-    },
-    {
-      "champion": "Swain",
       "games": 1,
       "rate": 3.3
     }
@@ -109,11 +104,6 @@
           "champion": "Lux",
           "games": 1,
           "rate": 3.3
-        },
-        {
-          "champion": "Swain",
-          "games": 1,
-          "rate": 3.3
         }
       ],
       "offLanes": {
@@ -173,6 +163,71 @@
               "champion": "Seraphine",
               "games": 1,
               "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 24,
+      "mainLaneNext": [
+        {
+          "champion": "Syndra",
+          "games": 4,
+          "rate": 16.7
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 4.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 7,
+              "rate": 43.8
+            },
+            {
+              "champion": "Sona",
+              "games": 4,
+              "rate": 25.0
+            },
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Renata",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         }

@@ -3,65 +3,80 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TwistedFate",
-  "updatedAt": "2026-11-11T19:42:20.172944+00:00",
+  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 48,
+  "players": 4,
+  "mainLaneGames": 96,
   "mainLaneNext": [
     {
-      "champion": "Galio",
-      "games": 2,
+      "champion": "Zed",
+      "games": 4,
       "rate": 4.2
     },
     {
-      "champion": "KogMaw",
-      "games": 1,
+      "champion": "Galio",
+      "games": 2,
       "rate": 2.1
     },
     {
-      "champion": "Pantheon",
-      "games": 1,
+      "champion": "Leblanc",
+      "games": 2,
       "rate": 2.1
     },
     {
-      "champion": "Syndra",
-      "games": 1,
+      "champion": "Xerath",
+      "games": 2,
       "rate": 2.1
     },
     {
-      "champion": "Tristana",
+      "champion": "Kassadin",
       "games": 1,
-      "rate": 2.1
+      "rate": 1.0
+    },
+    {
+      "champion": "Orianna",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 12,
+      "games": 20,
       "picks": [
         {
           "champion": "TwistedFate",
-          "games": 5,
-          "rate": 41.7
+          "games": 9,
+          "rate": 45.0
         },
         {
           "champion": "Shen",
           "games": 3,
-          "rate": 25.0
+          "rate": 15.0
+        },
+        {
+          "champion": "Singed",
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 16.7
+          "rate": 10.0
         },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 8.3
+          "rate": 5.0
         },
         {
-          "champion": "Garen",
+          "champion": "Leblanc",
           "games": 1,
-          "rate": 8.3
+          "rate": 5.0
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     },
@@ -70,116 +85,161 @@
       "picks": [
         {
           "champion": "JarvanIV",
-          "games": 2,
-          "rate": 50.0
+          "games": 3,
+          "rate": 75.0
         },
         {
           "champion": "Khazix",
-          "games": 2,
-          "rate": 50.0
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 14,
+      "games": 20,
       "picks": [
         {
           "champion": "TwistedFate",
-          "games": 8,
-          "rate": 57.1
+          "games": 9,
+          "rate": 45.0
+        },
+        {
+          "champion": "Jhin",
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "Lucian",
-          "games": 2,
-          "rate": 14.3
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "Varus",
           "games": 2,
-          "rate": 14.3
+          "rate": 10.0
         },
         {
-          "champion": "Jhin",
+          "champion": "Ezreal",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.0
         },
         {
-          "champion": "Tristana",
+          "champion": "Lux",
           "games": 1,
-          "rate": 7.1
+          "rate": 5.0
+        },
+        {
+          "champion": "Zed",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 16,
       "picks": [
+        {
+          "champion": "Yuumi",
+          "games": 10,
+          "rate": 62.5
+        },
+        {
+          "champion": "Janna",
+          "games": 2,
+          "rate": 12.5
+        },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 100.0
+          "rate": 12.5
+        },
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1,
+          "rate": 6.2
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 48,
+      "players": 4,
+      "mainLaneGames": 96,
       "mainLaneNext": [
         {
-          "champion": "Galio",
-          "games": 2,
+          "champion": "Zed",
+          "games": 4,
           "rate": 4.2
         },
         {
-          "champion": "KogMaw",
-          "games": 1,
+          "champion": "Galio",
+          "games": 2,
           "rate": 2.1
         },
         {
-          "champion": "Pantheon",
-          "games": 1,
+          "champion": "Leblanc",
+          "games": 2,
           "rate": 2.1
         },
         {
-          "champion": "Syndra",
-          "games": 1,
+          "champion": "Xerath",
+          "games": 2,
           "rate": 2.1
         },
         {
-          "champion": "Tristana",
+          "champion": "Kassadin",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.0
+        },
+        {
+          "champion": "Orianna",
+          "games": 1,
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 12,
+          "games": 20,
           "picks": [
             {
               "champion": "TwistedFate",
-              "games": 5,
-              "rate": 41.7
+              "games": 9,
+              "rate": 45.0
             },
             {
               "champion": "Shen",
               "games": 3,
-              "rate": 25.0
+              "rate": 15.0
+            },
+            {
+              "champion": "Singed",
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "Pantheon",
               "games": 2,
-              "rate": 16.7
+              "rate": 10.0
             },
             {
               "champion": "Aatrox",
               "games": 1,
-              "rate": 8.3
+              "rate": 5.0
             },
             {
-              "champion": "Garen",
+              "champion": "Leblanc",
               "games": 1,
-              "rate": 8.3
+              "rate": 5.0
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
@@ -188,53 +248,83 @@
           "picks": [
             {
               "champion": "JarvanIV",
-              "games": 2,
-              "rate": 50.0
+              "games": 3,
+              "rate": 75.0
             },
             {
               "champion": "Khazix",
-              "games": 2,
-              "rate": 50.0
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 14,
+          "games": 20,
           "picks": [
             {
               "champion": "TwistedFate",
-              "games": 8,
-              "rate": 57.1
+              "games": 9,
+              "rate": 45.0
+            },
+            {
+              "champion": "Jhin",
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "Lucian",
-              "games": 2,
-              "rate": 14.3
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "Varus",
               "games": 2,
-              "rate": 14.3
+              "rate": 10.0
             },
             {
-              "champion": "Jhin",
+              "champion": "Ezreal",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.0
             },
             {
-              "champion": "Tristana",
+              "champion": "Lux",
               "games": 1,
-              "rate": 7.1
+              "rate": 5.0
+            },
+            {
+              "champion": "Zed",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 16,
           "picks": [
+            {
+              "champion": "Yuumi",
+              "games": 10,
+              "rate": 62.5
+            },
+            {
+              "champion": "Janna",
+              "games": 2,
+              "rate": 12.5
+            },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 100.0
+              "rate": 12.5
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         }

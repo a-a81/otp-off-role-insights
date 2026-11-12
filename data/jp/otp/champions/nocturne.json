@@ -3,74 +3,100 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nocturne",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 59,
+  "players": 3,
+  "mainLaneGames": 89,
   "mainLaneNext": [
     {
       "champion": "Zyra",
-      "games": 4,
-      "rate": 6.8
+      "games": 5,
+      "rate": 5.6
+    },
+    {
+      "champion": "Udyr",
+      "games": 3,
+      "rate": 3.4
+    },
+    {
+      "champion": "Diana",
+      "games": 2,
+      "rate": 2.2
+    },
+    {
+      "champion": "JarvanIV",
+      "games": 2,
+      "rate": 2.2
     },
     {
       "champion": "Khazix",
       "games": 2,
-      "rate": 3.4
+      "rate": 2.2
     },
     {
       "champion": "Chogath",
       "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "JarvanIV",
-      "games": 1,
-      "rate": 1.7
+      "rate": 1.1
     },
     {
       "champion": "Lillia",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.1
     },
     {
       "champion": "Naafiri",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.1
+    },
+    {
+      "champion": "Zac",
+      "games": 1,
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "MID": {
-      "games": 16,
+      "games": 20,
       "picks": [
         {
           "champion": "Veigar",
           "games": 8,
-          "rate": 50.0
+          "rate": 40.0
         },
         {
           "champion": "Nocturne",
-          "games": 4,
+          "games": 5,
           "rate": 25.0
         },
         {
           "champion": "Malzahar",
-          "games": 2,
-          "rate": 12.5
+          "games": 4,
+          "rate": 20.0
         },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.0
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.0
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     },
@@ -85,89 +111,120 @@
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 8,
       "picks": [
+        {
+          "champion": "Alistar",
+          "games": 4,
+          "rate": 50.0
+        },
         {
           "champion": "Sona",
           "games": 3,
-          "rate": 75.0
+          "rate": 37.5
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 25.0
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 59,
+      "players": 3,
+      "mainLaneGames": 89,
       "mainLaneNext": [
         {
           "champion": "Zyra",
-          "games": 4,
-          "rate": 6.8
+          "games": 5,
+          "rate": 5.6
+        },
+        {
+          "champion": "Udyr",
+          "games": 3,
+          "rate": 3.4
+        },
+        {
+          "champion": "Diana",
+          "games": 2,
+          "rate": 2.2
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 2.2
         },
         {
           "champion": "Khazix",
           "games": 2,
-          "rate": 3.4
+          "rate": 2.2
         },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "JarvanIV",
-          "games": 1,
-          "rate": 1.7
+          "rate": 1.1
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.1
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.1
+        },
+        {
+          "champion": "Zac",
+          "games": 1,
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 16,
+          "games": 20,
           "picks": [
             {
               "champion": "Veigar",
               "games": 8,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Nocturne",
-              "games": 4,
+              "games": 5,
               "rate": 25.0
             },
             {
               "champion": "Malzahar",
-              "games": 2,
-              "rate": 12.5
+              "games": 4,
+              "rate": 20.0
             },
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.0
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.0
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
@@ -182,17 +239,22 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 8,
           "picks": [
+            {
+              "champion": "Alistar",
+              "games": 4,
+              "rate": 50.0
+            },
             {
               "champion": "Sona",
               "games": 3,
-              "rate": 75.0
+              "rate": 37.5
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 25.0
+              "rate": 12.5
             }
           ]
         }

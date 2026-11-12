@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akali",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
   "mainLane": "MID",
   "players": 6,
   "mainLaneGames": 176,
@@ -472,25 +472,31 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 25,
-      "mainLaneNext": [],
+      "mainLaneGames": 26,
+      "mainLaneNext": [
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 3.8
+        }
+      ],
       "offLanes": {
         "JUNGLE": {
           "games": 0,
           "picks": []
         },
         "MID": {
-          "games": 12,
+          "games": 11,
           "picks": [
             {
               "champion": "Akali",
-              "games": 10,
-              "rate": 83.3
+              "games": 9,
+              "rate": 81.8
             },
             {
               "champion": "Irelia",
               "games": 2,
-              "rate": 16.7
+              "rate": 18.2
             }
           ]
         },

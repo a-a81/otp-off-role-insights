@@ -3,59 +3,171 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MonkeyKing",
-  "updatedAt": "2026-11-11T20:47:58.889565+00:00",
-  "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 33,
+  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "mainLane": "JUNGLE",
+  "players": 2,
+  "mainLaneGames": 62,
   "mainLaneNext": [
     {
-      "champion": "Renekton",
+      "champion": "LeeSin",
+      "games": 4,
+      "rate": 6.5
+    },
+    {
+      "champion": "Amumu",
       "games": 2,
-      "rate": 6.1
+      "rate": 3.2
+    },
+    {
+      "champion": "Ekko",
+      "games": 1,
+      "rate": 1.6
+    },
+    {
+      "champion": "JarvanIV",
+      "games": 1,
+      "rate": 1.6
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
+    "TOP": {
+      "games": 9,
+      "picks": [
+        {
+          "champion": "Kled",
+          "games": 4,
+          "rate": 44.4
+        },
+        {
+          "champion": "Aatrox",
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "Camille",
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 11.1
+        }
+      ]
     },
     "MID": {
-      "games": 3,
+      "games": 1,
       "picks": [
         {
           "champion": "MonkeyKing",
-          "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Sylas",
           "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Lucian",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
-      "games": 2,
+      "games": 8,
       "picks": [
         {
-          "champion": "MonkeyKing",
-          "games": 2,
-          "rate": 100.0
+          "champion": "Rakan",
+          "games": 5,
+          "rate": 62.5
+        },
+        {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 37.5
         }
       ]
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 2,
+      "mainLaneGames": 62,
+      "mainLaneNext": [
+        {
+          "champion": "LeeSin",
+          "games": 4,
+          "rate": 6.5
+        },
+        {
+          "champion": "Amumu",
+          "games": 2,
+          "rate": 3.2
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 1.6
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Kled",
+              "games": 4,
+              "rate": 44.4
+            },
+            {
+              "champion": "Aatrox",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Camille",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Ryze",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Rakan",
+              "games": 5,
+              "rate": 62.5
+            },
+            {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 37.5
+            }
+          ]
+        }
+      }
+    },
     "TOP": {
       "players": 1,
       "mainLaneGames": 33,

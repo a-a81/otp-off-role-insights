@@ -3,70 +3,80 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kennen",
-  "updatedAt": "2026-11-11T21:26:19.463374+00:00",
+  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 63,
+  "players": 3,
+  "mainLaneGames": 95,
   "mainLaneNext": [
+    {
+      "champion": "Corki",
+      "games": 8,
+      "rate": 8.4
+    },
     {
       "champion": "Ambessa",
       "games": 4,
-      "rate": 6.3
+      "rate": 4.2
     },
     {
       "champion": "Sejuani",
       "games": 2,
-      "rate": 3.2
+      "rate": 2.1
     },
     {
       "champion": "Aatrox",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.1
     },
     {
       "champion": "Malphite",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.1
     },
     {
       "champion": "Sion",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
     "MID": {
-      "games": 5,
+      "games": 9,
       "picks": [
         {
           "champion": "Kennen",
-          "games": 4,
-          "rate": 80.0
+          "games": 8,
+          "rate": 88.9
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 20.0
+          "rate": 11.1
         }
       ]
     },
@@ -81,80 +91,100 @@
       ]
     },
     "UTILITY": {
-      "games": 6,
+      "games": 8,
       "picks": [
         {
           "champion": "Kennen",
           "games": 6,
-          "rate": 100.0
+          "rate": 75.0
+        },
+        {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 63,
+      "players": 3,
+      "mainLaneGames": 95,
       "mainLaneNext": [
+        {
+          "champion": "Corki",
+          "games": 8,
+          "rate": 8.4
+        },
         {
           "champion": "Ambessa",
           "games": 4,
-          "rate": 6.3
+          "rate": 4.2
         },
         {
           "champion": "Sejuani",
           "games": 2,
-          "rate": 3.2
+          "rate": 2.1
         },
         {
           "champion": "Aatrox",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.1
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.1
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Kindred",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Nocturne",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
         "MID": {
-          "games": 5,
+          "games": 9,
           "picks": [
             {
               "champion": "Kennen",
-              "games": 4,
-              "rate": 80.0
+              "games": 8,
+              "rate": 88.9
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 20.0
+              "rate": 11.1
             }
           ]
         },
@@ -169,12 +199,22 @@
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 8,
           "picks": [
             {
               "champion": "Kennen",
               "games": 6,
-              "rate": 100.0
+              "rate": 75.0
+            },
+            {
+              "champion": "Bard",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }
@@ -276,13 +316,8 @@
           "picks": [
             {
               "champion": "Kennen",
-              "games": 6,
-              "rate": 85.7
-            },
-            {
-              "champion": "Ahri",
-              "games": 1,
-              "rate": 14.3
+              "games": 7,
+              "rate": 100.0
             }
           ]
         },
