@@ -3,20 +3,15 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Volibear",
-  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
+  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 35,
+  "players": 2,
+  "mainLaneGames": 72,
   "mainLaneNext": [
     {
       "champion": "DrMundo",
       "games": 2,
-      "rate": 5.7
-    },
-    {
-      "champion": "Ambessa",
-      "games": 1,
-      "rate": 2.9
+      "rate": 2.8
     }
   ],
   "offLanes": {
@@ -36,11 +31,11 @@
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Volibear",
-          "games": 2,
+          "games": 3,
           "rate": 100.0
         }
       ]
@@ -50,30 +45,35 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 33.3
+        },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 35,
+      "players": 2,
+      "mainLaneGames": 72,
       "mainLaneNext": [
         {
           "champion": "DrMundo",
           "games": 2,
-          "rate": 5.7
-        },
-        {
-          "champion": "Ambessa",
-          "games": 1,
-          "rate": 2.9
+          "rate": 2.8
         }
       ],
       "offLanes": {
@@ -93,11 +93,11 @@
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Volibear",
-              "games": 2,
+              "games": 3,
               "rate": 100.0
             }
           ]
@@ -107,12 +107,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 33.3
+            },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

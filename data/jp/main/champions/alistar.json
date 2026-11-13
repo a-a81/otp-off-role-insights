@@ -3,20 +3,15 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "UTILITY",
   "players": 8,
-  "mainLaneGames": 248,
+  "mainLaneGames": 251,
   "mainLaneNext": [
     {
       "champion": "Rakan",
       "games": 17,
-      "rate": 6.9
-    },
-    {
-      "champion": "Thresh",
-      "games": 8,
-      "rate": 3.2
+      "rate": 6.8
     },
     {
       "champion": "Leona",
@@ -27,6 +22,16 @@
       "champion": "Nautilus",
       "games": 7,
       "rate": 2.8
+    },
+    {
+      "champion": "Thresh",
+      "games": 7,
+      "rate": 2.8
+    },
+    {
+      "champion": "Lulu",
+      "games": 6,
+      "rate": 2.4
     },
     {
       "champion": "Braum",
@@ -44,7 +49,7 @@
       "rate": 2.0
     },
     {
-      "champion": "Lulu",
+      "champion": "Seraphine",
       "games": 4,
       "rate": 1.6
     },
@@ -64,7 +69,7 @@
       "rate": 1.2
     },
     {
-      "champion": "Pantheon",
+      "champion": "Morgana",
       "games": 3,
       "rate": 1.2
     },
@@ -79,22 +84,7 @@
       "rate": 1.2
     },
     {
-      "champion": "Morgana",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
       "champion": "Nami",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Senna",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Seraphine",
       "games": 2,
       "rate": 0.8
     },
@@ -115,6 +105,11 @@
     },
     {
       "champion": "Anivia",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Blitzcrank",
       "games": 1,
       "rate": 0.4
     },
@@ -165,6 +160,11 @@
     },
     {
       "champion": "Pyke",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Senna",
       "games": 1,
       "rate": 0.4
     },
@@ -256,37 +256,42 @@
       ]
     },
     "JUNGLE": {
-      "games": 20,
+      "games": 17,
       "picks": [
         {
           "champion": "Hecarim",
           "games": 6,
-          "rate": 30.0
-        },
-        {
-          "champion": "LeeSin",
-          "games": 6,
-          "rate": 30.0
+          "rate": 35.3
         },
         {
           "champion": "Sylas",
           "games": 5,
-          "rate": 25.0
+          "rate": 29.4
+        },
+        {
+          "champion": "LeeSin",
+          "games": 2,
+          "rate": 11.8
         },
         {
           "champion": "Kindred",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.9
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 5.9
         },
         {
           "champion": "Shaco",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.9
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 5.0
+          "rate": 5.9
         }
       ]
     },
@@ -354,17 +359,12 @@
   "byMainLane": {
     "UTILITY": {
       "players": 8,
-      "mainLaneGames": 248,
+      "mainLaneGames": 251,
       "mainLaneNext": [
         {
           "champion": "Rakan",
           "games": 17,
-          "rate": 6.9
-        },
-        {
-          "champion": "Thresh",
-          "games": 8,
-          "rate": 3.2
+          "rate": 6.8
         },
         {
           "champion": "Leona",
@@ -375,6 +375,16 @@
           "champion": "Nautilus",
           "games": 7,
           "rate": 2.8
+        },
+        {
+          "champion": "Thresh",
+          "games": 7,
+          "rate": 2.8
+        },
+        {
+          "champion": "Lulu",
+          "games": 6,
+          "rate": 2.4
         },
         {
           "champion": "Braum",
@@ -392,7 +402,7 @@
           "rate": 2.0
         },
         {
-          "champion": "Lulu",
+          "champion": "Seraphine",
           "games": 4,
           "rate": 1.6
         },
@@ -412,7 +422,7 @@
           "rate": 1.2
         },
         {
-          "champion": "Pantheon",
+          "champion": "Morgana",
           "games": 3,
           "rate": 1.2
         },
@@ -427,22 +437,7 @@
           "rate": 1.2
         },
         {
-          "champion": "Morgana",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
           "champion": "Nami",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Senna",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Seraphine",
           "games": 2,
           "rate": 0.8
         },
@@ -463,6 +458,11 @@
         },
         {
           "champion": "Anivia",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Blitzcrank",
           "games": 1,
           "rate": 0.4
         },
@@ -513,6 +513,11 @@
         },
         {
           "champion": "Pyke",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Senna",
           "games": 1,
           "rate": 0.4
         },
@@ -604,37 +609,42 @@
           ]
         },
         "JUNGLE": {
-          "games": 20,
+          "games": 17,
           "picks": [
             {
               "champion": "Hecarim",
               "games": 6,
-              "rate": 30.0
-            },
-            {
-              "champion": "LeeSin",
-              "games": 6,
-              "rate": 30.0
+              "rate": 35.3
             },
             {
               "champion": "Sylas",
               "games": 5,
-              "rate": 25.0
+              "rate": 29.4
+            },
+            {
+              "champion": "LeeSin",
+              "games": 2,
+              "rate": 11.8
             },
             {
               "champion": "Kindred",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.9
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Shaco",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.9
             },
             {
               "champion": "Trundle",
               "games": 1,
-              "rate": 5.0
+              "rate": 5.9
             }
           ]
         },

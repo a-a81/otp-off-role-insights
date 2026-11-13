@@ -3,15 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nami",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
   "mainLane": "UTILITY",
   "players": 4,
-  "mainLaneGames": 152,
+  "mainLaneGames": 153,
   "mainLaneNext": [
     {
       "champion": "Nautilus",
-      "games": 2,
-      "rate": 1.3
+      "games": 3,
+      "rate": 2.0
     },
     {
       "champion": "Rakan",
@@ -22,37 +22,42 @@
       "champion": "Karma",
       "games": 1,
       "rate": 0.7
+    },
+    {
+      "champion": "Rell",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Sona",
+      "games": 1,
+      "rate": 0.7
     }
   ],
   "offLanes": {
     "TOP": {
+      "games": 0,
+      "picks": []
+    },
+    "JUNGLE": {
       "games": 1,
       "picks": [
         {
-          "champion": "Malphite",
+          "champion": "Zyra",
           "games": 1,
           "rate": 100.0
         }
       ]
     },
-    "JUNGLE": {
-      "games": 2,
+    "MID": {
+      "games": 1,
       "picks": [
         {
-          "champion": "Lillia",
+          "champion": "Seraphine",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
-    },
-    "MID": {
-      "games": 0,
-      "picks": []
     },
     "BOTTOM": {
       "games": 3,
@@ -68,12 +73,12 @@
   "byMainLane": {
     "UTILITY": {
       "players": 4,
-      "mainLaneGames": 152,
+      "mainLaneGames": 153,
       "mainLaneNext": [
         {
           "champion": "Nautilus",
-          "games": 2,
-          "rate": 1.3
+          "games": 3,
+          "rate": 2.0
         },
         {
           "champion": "Rakan",
@@ -84,37 +89,42 @@
           "champion": "Karma",
           "games": 1,
           "rate": 0.7
+        },
+        {
+          "champion": "Rell",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Sona",
+          "games": 1,
+          "rate": 0.7
         }
       ],
       "offLanes": {
         "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
           "games": 1,
           "picks": [
             {
-              "champion": "Malphite",
+              "champion": "Zyra",
               "games": 1,
               "rate": 100.0
             }
           ]
         },
-        "JUNGLE": {
-          "games": 2,
+        "MID": {
+          "games": 1,
           "picks": [
             {
-              "champion": "Lillia",
+              "champion": "Seraphine",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
         },
         "BOTTOM": {
           "games": 3,

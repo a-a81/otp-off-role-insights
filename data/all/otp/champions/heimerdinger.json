@@ -3,89 +3,213 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
-  "mainLane": "TOP",
-  "players": 4,
-  "mainLaneGames": 123,
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "mainLane": "BOTTOM",
+  "players": 5,
+  "mainLaneGames": 140,
   "mainLaneNext": [
     {
-      "champion": "Kennen",
-      "games": 1,
-      "rate": 0.8
+      "champion": "Ziggs",
+      "games": 2,
+      "rate": 1.4
     },
     {
-      "champion": "Pantheon",
+      "champion": "Quinn",
       "games": 1,
-      "rate": 0.8
-    },
-    {
-      "champion": "Shaco",
-      "games": 1,
-      "rate": 0.8
-    },
-    {
-      "champion": "TahmKench",
-      "games": 1,
-      "rate": 0.8
-    },
-    {
-      "champion": "Yasuo",
-      "games": 1,
-      "rate": 0.8
+      "rate": 0.7
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
+    "TOP": {
       "games": 18,
       "picks": [
         {
           "champion": "Heimerdinger",
-          "games": 16,
-          "rate": 88.9
+          "games": 17,
+          "rate": 94.4
         },
         {
-          "champion": "Lux",
-          "games": 1,
-          "rate": 5.6
-        },
-        {
-          "champion": "Xerath",
+          "champion": "Quinn",
           "games": 1,
           "rate": 5.6
         }
       ]
     },
-    "BOTTOM": {
-      "games": 6,
+    "JUNGLE": {
+      "games": 3,
       "picks": [
         {
           "champion": "Heimerdinger",
-          "games": 6,
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "LeeSin",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
+    },
+    "MID": {
+      "games": 16,
+      "picks": [
+        {
+          "champion": "Heimerdinger",
+          "games": 16,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 12,
+      "games": 22,
       "picks": [
         {
           "champion": "Heimerdinger",
-          "games": 11,
-          "rate": 91.7
+          "games": 8,
+          "rate": 36.4
         },
         {
-          "champion": "Alistar",
+          "champion": "Lulu",
+          "games": 3,
+          "rate": 13.6
+        },
+        {
+          "champion": "Nami",
+          "games": 3,
+          "rate": 13.6
+        },
+        {
+          "champion": "Seraphine",
+          "games": 3,
+          "rate": 13.6
+        },
+        {
+          "champion": "Karma",
+          "games": 2,
+          "rate": 9.1
+        },
+        {
+          "champion": "Rakan",
+          "games": 2,
+          "rate": 9.1
+        },
+        {
+          "champion": "Nautilus",
           "games": 1,
-          "rate": 8.3
+          "rate": 4.5
         }
       ]
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 5,
+      "mainLaneGames": 140,
+      "mainLaneNext": [
+        {
+          "champion": "Ziggs",
+          "games": 2,
+          "rate": 1.4
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 0.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 18,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 17,
+              "rate": 94.4
+            },
+            {
+              "champion": "Quinn",
+              "games": 1,
+              "rate": 5.6
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "LeeSin",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Quinn",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 16,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 22,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 8,
+              "rate": 36.4
+            },
+            {
+              "champion": "Lulu",
+              "games": 3,
+              "rate": 13.6
+            },
+            {
+              "champion": "Nami",
+              "games": 3,
+              "rate": 13.6
+            },
+            {
+              "champion": "Seraphine",
+              "games": 3,
+              "rate": 13.6
+            },
+            {
+              "champion": "Karma",
+              "games": 2,
+              "rate": 9.1
+            },
+            {
+              "champion": "Rakan",
+              "games": 2,
+              "rate": 9.1
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 4.5
+            }
+          ]
+        }
+      }
+    },
     "TOP": {
       "players": 4,
       "mainLaneGames": 123,
@@ -163,74 +287,6 @@
               "champion": "Alistar",
               "games": 1,
               "rate": 8.3
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 4,
-      "mainLaneGames": 119,
-      "mainLaneNext": [
-        {
-          "champion": "Quinn",
-          "games": 1,
-          "rate": 0.8
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 16,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 15,
-              "rate": 93.8
-            },
-            {
-              "champion": "Quinn",
-              "games": 1,
-              "rate": 6.2
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "LeeSin",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Quinn",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "MID": {
-          "games": 13,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 13,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 8,
-              "rate": 100.0
             }
           ]
         }

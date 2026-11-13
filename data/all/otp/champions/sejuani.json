@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sejuani",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
   "mainLane": "JUNGLE",
   "players": 4,
   "mainLaneGames": 127,
@@ -250,102 +250,9 @@
         }
       }
     },
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 44,
-      "mainLaneNext": [
-        {
-          "champion": "Viego",
-          "games": 6,
-          "rate": 13.6
-        },
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 2.3
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 20,
-          "picks": [
-            {
-              "champion": "Sejuani",
-              "games": 13,
-              "rate": 65.0
-            },
-            {
-              "champion": "Sion",
-              "games": 7,
-              "rate": 35.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Sejuani",
-              "games": 3,
-              "rate": 60.0
-            },
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Vi",
-              "games": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "KogMaw",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Varus",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 7,
-          "picks": [
-            {
-              "champion": "Renata",
-              "games": 3,
-              "rate": 42.9
-            },
-            {
-              "champion": "Camille",
-              "games": 2,
-              "rate": 28.6
-            },
-            {
-              "champion": "Braum",
-              "games": 1,
-              "rate": 14.3
-            },
-            {
-              "champion": "Leona",
-              "games": 1,
-              "rate": 14.3
-            }
-          ]
-        }
-      }
-    },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 31,
+      "mainLaneGames": 30,
       "mainLaneNext": [],
       "offLanes": {
         "JUNGLE": {
@@ -366,6 +273,58 @@
             {
               "champion": "Sejuani",
               "games": 9,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 21,
+      "mainLaneNext": [
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 4.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "Sejuani",
+              "games": 12,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Sejuani",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Renata",
+              "games": 2,
               "rate": 100.0
             }
           ]

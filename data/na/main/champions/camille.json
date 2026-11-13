@@ -3,50 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Camille",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
   "mainLane": "TOP",
   "players": 5,
-  "mainLaneGames": 178,
+  "mainLaneGames": 176,
   "mainLaneNext": [
     {
       "champion": "Gwen",
-      "games": 10,
-      "rate": 5.6
+      "games": 9,
+      "rate": 5.1
     },
     {
       "champion": "Ambessa",
-      "games": 7,
-      "rate": 3.9
-    },
-    {
-      "champion": "Zaahen",
       "games": 6,
       "rate": 3.4
     },
     {
       "champion": "Darius",
       "games": 4,
-      "rate": 2.2
+      "rate": 2.3
     },
     {
       "champion": "Fiora",
       "games": 4,
-      "rate": 2.2
+      "rate": 2.3
     },
     {
       "champion": "Garen",
       "games": 4,
-      "rate": 2.2
+      "rate": 2.3
+    },
+    {
+      "champion": "Zaahen",
+      "games": 4,
+      "rate": 2.3
     },
     {
       "champion": "MonkeyKing",
       "games": 3,
       "rate": 1.7
-    },
-    {
-      "champion": "Renekton",
-      "games": 2,
-      "rate": 1.1
     },
     {
       "champion": "Gnar",
@@ -62,16 +57,26 @@
       "champion": "Malphite",
       "games": 1,
       "rate": 0.6
+    },
+    {
+      "champion": "Renekton",
+      "games": 1,
+      "rate": 0.6
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Camille",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Gwen",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
@@ -111,8 +116,14 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 12,
@@ -133,47 +144,42 @@
   "byMainLane": {
     "TOP": {
       "players": 5,
-      "mainLaneGames": 178,
+      "mainLaneGames": 176,
       "mainLaneNext": [
         {
           "champion": "Gwen",
-          "games": 10,
-          "rate": 5.6
+          "games": 9,
+          "rate": 5.1
         },
         {
           "champion": "Ambessa",
-          "games": 7,
-          "rate": 3.9
-        },
-        {
-          "champion": "Zaahen",
           "games": 6,
           "rate": 3.4
         },
         {
           "champion": "Darius",
           "games": 4,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Fiora",
           "games": 4,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Garen",
           "games": 4,
-          "rate": 2.2
+          "rate": 2.3
+        },
+        {
+          "champion": "Zaahen",
+          "games": 4,
+          "rate": 2.3
         },
         {
           "champion": "MonkeyKing",
           "games": 3,
           "rate": 1.7
-        },
-        {
-          "champion": "Renekton",
-          "games": 2,
-          "rate": 1.1
         },
         {
           "champion": "Gnar",
@@ -189,16 +195,26 @@
           "champion": "Malphite",
           "games": 1,
           "rate": 0.6
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 0.6
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Camille",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
@@ -238,8 +254,14 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 12,

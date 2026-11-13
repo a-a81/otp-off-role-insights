@@ -3,25 +3,20 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
-  "mainLane": "UTILITY",
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 36,
+  "mainLaneGames": 27,
   "mainLaneNext": [
     {
-      "champion": "Zyra",
+      "champion": "Lux",
       "games": 4,
-      "rate": 11.1
+      "rate": 14.8
     },
     {
-      "champion": "Velkoz",
-      "games": 2,
-      "rate": 5.6
-    },
-    {
-      "champion": "Zilean",
-      "games": 2,
-      "rate": 5.6
+      "champion": "Yasuo",
+      "games": 1,
+      "rate": 3.7
     }
   ],
   "offLanes": {
@@ -33,40 +28,51 @@
       "games": 0,
       "picks": []
     },
-    "MID": {
-      "games": 4,
+    "BOTTOM": {
+      "games": 2,
       "picks": [
         {
-          "champion": "Morgana",
-          "games": 4,
-          "rate": 100.0
+          "champion": "Kalista",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Xayah",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
+    "UTILITY": {
+      "games": 10,
+      "picks": [
+        {
+          "champion": "Amumu",
+          "games": 9,
+          "rate": 90.0
+        },
+        {
+          "champion": "FiddleSticks",
+          "games": 1,
+          "rate": 10.0
+        }
+      ]
     }
   },
   "byMainLane": {
-    "UTILITY": {
+    "MID": {
       "players": 1,
-      "mainLaneGames": 36,
+      "mainLaneGames": 27,
       "mainLaneNext": [
         {
-          "champion": "Zyra",
+          "champion": "Lux",
           "games": 4,
-          "rate": 11.1
+          "rate": 14.8
         },
         {
-          "champion": "Velkoz",
-          "games": 2,
-          "rate": 5.6
-        },
-        {
-          "champion": "Zilean",
-          "games": 2,
-          "rate": 5.6
+          "champion": "Yasuo",
+          "games": 1,
+          "rate": 3.7
         }
       ],
       "offLanes": {
@@ -78,19 +84,35 @@
           "games": 0,
           "picks": []
         },
-        "MID": {
-          "games": 4,
+        "BOTTOM": {
+          "games": 2,
           "picks": [
             {
-              "champion": "Morgana",
-              "games": 4,
-              "rate": 100.0
+              "champion": "Kalista",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
+        "UTILITY": {
+          "games": 10,
+          "picks": [
+            {
+              "champion": "Amumu",
+              "games": 9,
+              "rate": 90.0
+            },
+            {
+              "champion": "FiddleSticks",
+              "games": 1,
+              "rate": 10.0
+            }
+          ]
         }
       }
     }

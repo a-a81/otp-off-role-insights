@@ -3,10 +3,10 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Syndra",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "MID",
   "players": 7,
-  "mainLaneGames": 185,
+  "mainLaneGames": 186,
   "mainLaneNext": [
     {
       "champion": "Katarina",
@@ -49,7 +49,17 @@
       "rate": 0.5
     },
     {
+      "champion": "Hwei",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
       "champion": "Locke",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Orianna",
       "games": 1,
       "rate": 0.5
     },
@@ -81,22 +91,22 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 5,
       "picks": [
-        {
-          "champion": "Ryze",
-          "games": 3,
-          "rate": 50.0
-        },
         {
           "champion": "Annie",
           "games": 2,
-          "rate": 33.3
+          "rate": 40.0
+        },
+        {
+          "champion": "Ryze",
+          "games": 2,
+          "rate": 40.0
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         }
       ]
     },
@@ -121,87 +131,82 @@
       ]
     },
     "BOTTOM": {
-      "games": 24,
+      "games": 25,
       "picks": [
         {
           "champion": "Syndra",
-          "games": 9,
-          "rate": 37.5
+          "games": 8,
+          "rate": 32.0
         },
         {
           "champion": "MissFortune",
           "games": 5,
-          "rate": 20.8
+          "rate": 20.0
+        },
+        {
+          "champion": "Veigar",
+          "games": 5,
+          "rate": 20.0
         },
         {
           "champion": "Tristana",
           "games": 3,
-          "rate": 12.5
-        },
-        {
-          "champion": "Veigar",
-          "games": 3,
-          "rate": 12.5
+          "rate": 12.0
         },
         {
           "champion": "Caitlyn",
           "games": 2,
-          "rate": 8.3
+          "rate": 8.0
         },
         {
           "champion": "Twitch",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
         }
       ]
     },
     "UTILITY": {
-      "games": 44,
+      "games": 43,
       "picks": [
         {
           "champion": "Nautilus",
           "games": 9,
-          "rate": 20.5
+          "rate": 20.9
         },
         {
           "champion": "Leona",
-          "games": 7,
-          "rate": 15.9
+          "games": 8,
+          "rate": 18.6
         },
         {
           "champion": "Syndra",
-          "games": 6,
-          "rate": 13.6
+          "games": 5,
+          "rate": 11.6
         },
         {
           "champion": "Nami",
           "games": 4,
-          "rate": 9.1
+          "rate": 9.3
         },
         {
           "champion": "Zyra",
           "games": 3,
-          "rate": 6.8
+          "rate": 7.0
         },
         {
           "champion": "Blitzcrank",
           "games": 2,
-          "rate": 4.5
-        },
-        {
-          "champion": "Milio",
-          "games": 2,
-          "rate": 4.5
+          "rate": 4.7
         },
         {
           "champion": "Rakan",
           "games": 2,
-          "rate": 4.5
+          "rate": 4.7
         },
         {
           "champion": "Alistar",
@@ -234,6 +239,11 @@
           "rate": 2.3
         },
         {
+          "champion": "Milio",
+          "games": 1,
+          "rate": 2.3
+        },
+        {
           "champion": "Morgana",
           "games": 1,
           "rate": 2.3
@@ -254,7 +264,7 @@
   "byMainLane": {
     "MID": {
       "players": 7,
-      "mainLaneGames": 185,
+      "mainLaneGames": 186,
       "mainLaneNext": [
         {
           "champion": "Katarina",
@@ -297,7 +307,17 @@
           "rate": 0.5
         },
         {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
           "champion": "Locke",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Orianna",
           "games": 1,
           "rate": 0.5
         },
@@ -329,22 +349,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 5,
           "picks": [
-            {
-              "champion": "Ryze",
-              "games": 3,
-              "rate": 50.0
-            },
             {
               "champion": "Annie",
               "games": 2,
-              "rate": 33.3
+              "rate": 40.0
+            },
+            {
+              "champion": "Ryze",
+              "games": 2,
+              "rate": 40.0
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             }
           ]
         },
@@ -369,87 +389,82 @@
           ]
         },
         "BOTTOM": {
-          "games": 24,
+          "games": 25,
           "picks": [
             {
               "champion": "Syndra",
-              "games": 9,
-              "rate": 37.5
+              "games": 8,
+              "rate": 32.0
             },
             {
               "champion": "MissFortune",
               "games": 5,
-              "rate": 20.8
+              "rate": 20.0
+            },
+            {
+              "champion": "Veigar",
+              "games": 5,
+              "rate": 20.0
             },
             {
               "champion": "Tristana",
               "games": 3,
-              "rate": 12.5
-            },
-            {
-              "champion": "Veigar",
-              "games": 3,
-              "rate": 12.5
+              "rate": 12.0
             },
             {
               "champion": "Caitlyn",
               "games": 2,
-              "rate": 8.3
+              "rate": 8.0
             },
             {
               "champion": "Twitch",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
             }
           ]
         },
         "UTILITY": {
-          "games": 44,
+          "games": 43,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 9,
-              "rate": 20.5
+              "rate": 20.9
             },
             {
               "champion": "Leona",
-              "games": 7,
-              "rate": 15.9
+              "games": 8,
+              "rate": 18.6
             },
             {
               "champion": "Syndra",
-              "games": 6,
-              "rate": 13.6
+              "games": 5,
+              "rate": 11.6
             },
             {
               "champion": "Nami",
               "games": 4,
-              "rate": 9.1
+              "rate": 9.3
             },
             {
               "champion": "Zyra",
               "games": 3,
-              "rate": 6.8
+              "rate": 7.0
             },
             {
               "champion": "Blitzcrank",
               "games": 2,
-              "rate": 4.5
-            },
-            {
-              "champion": "Milio",
-              "games": 2,
-              "rate": 4.5
+              "rate": 4.7
             },
             {
               "champion": "Rakan",
               "games": 2,
-              "rate": 4.5
+              "rate": 4.7
             },
             {
               "champion": "Alistar",
@@ -478,6 +493,11 @@
             },
             {
               "champion": "Lulu",
+              "games": 1,
+              "rate": 2.3
+            },
+            {
+              "champion": "Milio",
               "games": 1,
               "rate": 2.3
             },

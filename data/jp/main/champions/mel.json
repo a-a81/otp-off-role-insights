@@ -3,138 +3,198 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
+  "players": 2,
+  "mainLaneGames": 52,
   "mainLaneNext": [
+    {
+      "champion": "Swain",
+      "games": 9,
+      "rate": 17.3
+    },
     {
       "champion": "Annie",
       "games": 3,
-      "rate": 9.7
+      "rate": 5.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
-          "champion": "Vayne",
-          "games": 1,
+          "champion": "Swain",
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Sylas",
           "games": 2,
-          "rate": 66.7
+          "rate": 50.0
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "LeeSin",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 17,
       "picks": [
         {
+          "champion": "Swain",
+          "games": 11,
+          "rate": 64.7
+        },
+        {
           "champion": "Mel",
-          "games": 2,
-          "rate": 66.7
+          "games": 4,
+          "rate": 23.5
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 33.3
+          "rate": 5.9
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 5.9
         }
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
+      "players": 2,
+      "mainLaneGames": 52,
       "mainLaneNext": [
+        {
+          "champion": "Swain",
+          "games": 9,
+          "rate": 17.3
+        },
         {
           "champion": "Annie",
           "games": 3,
-          "rate": 9.7
+          "rate": 5.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
-              "champion": "Vayne",
-              "games": 1,
+              "champion": "Swain",
+              "games": 2,
               "rate": 100.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Sylas",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "LeeSin",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 17,
           "picks": [
             {
+              "champion": "Swain",
+              "games": 11,
+              "rate": 64.7
+            },
+            {
               "champion": "Mel",
-              "games": 2,
-              "rate": 66.7
+              "games": 4,
+              "rate": 23.5
             },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 33.3
+              "rate": 5.9
+            },
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 5.9
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 4,
           "picks": [
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         }

@@ -3,11 +3,27 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Jayce",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 32,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 65,
+  "mainLaneNext": [
+    {
+      "champion": "Camille",
+      "games": 5,
+      "rate": 7.7
+    },
+    {
+      "champion": "Zaahen",
+      "games": 2,
+      "rate": 3.1
+    },
+    {
+      "champion": "Ornn",
+      "games": 1,
+      "rate": 1.5
+    }
+  ],
   "offLanes": {
     "JUNGLE": {
       "games": 5,
@@ -20,12 +36,17 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 6,
       "picks": [
         {
           "champion": "Jayce",
-          "games": 3,
-          "rate": 100.0
+          "games": 4,
+          "rate": 66.7
+        },
+        {
+          "champion": "Aurora",
+          "games": 2,
+          "rate": 33.3
         }
       ]
     },
@@ -34,15 +55,42 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 32,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 65,
+      "mainLaneNext": [
+        {
+          "champion": "Camille",
+          "games": 5,
+          "rate": 7.7
+        },
+        {
+          "champion": "Zaahen",
+          "games": 2,
+          "rate": 3.1
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 1.5
+        }
+      ],
       "offLanes": {
         "JUNGLE": {
           "games": 5,
@@ -55,12 +103,17 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 6,
           "picks": [
             {
               "champion": "Jayce",
-              "games": 3,
-              "rate": 100.0
+              "games": 4,
+              "rate": 66.7
+            },
+            {
+              "champion": "Aurora",
+              "games": 2,
+              "rate": 33.3
             }
           ]
         },
@@ -69,8 +122,19 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         }
       }
     },

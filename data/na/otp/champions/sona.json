@@ -3,25 +3,30 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sona",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 77,
+  "players": 3,
+  "mainLaneGames": 114,
   "mainLaneNext": [
     {
       "champion": "Janna",
-      "games": 3,
-      "rate": 3.9
+      "games": 4,
+      "rate": 3.5
     },
     {
       "champion": "Annie",
       "games": 1,
-      "rate": 1.3
+      "rate": 0.9
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 1.3
+      "rate": 0.9
+    },
+    {
+      "champion": "Soraka",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -34,45 +39,60 @@
       "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Mel",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 77,
+      "players": 3,
+      "mainLaneGames": 114,
       "mainLaneNext": [
         {
           "champion": "Janna",
-          "games": 3,
-          "rate": 3.9
+          "games": 4,
+          "rate": 3.5
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 1.3
+          "rate": 0.9
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 1.3
+          "rate": 0.9
+        },
+        {
+          "champion": "Soraka",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -85,22 +105,32 @@
           "picks": []
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Mel",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Sona",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

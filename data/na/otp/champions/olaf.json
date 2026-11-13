@@ -3,43 +3,43 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Olaf",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
-  "mainLane": "TOP",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 25,
-  "mainLaneNext": [
-    {
-      "champion": "Nasus",
-      "games": 4,
-      "rate": 16.0
-    },
-    {
-      "champion": "Kayn",
-      "games": 1,
-      "rate": 4.0
-    }
-  ],
+  "mainLaneGames": 18,
+  "mainLaneNext": [],
   "offLanes": {
-    "JUNGLE": {
-      "games": 13,
+    "TOP": {
+      "games": 16,
       "picks": [
         {
           "champion": "Olaf",
-          "games": 13,
-          "rate": 100.0
+          "games": 15,
+          "rate": 93.8
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 6.2
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
       "games": 1,
       "picks": [
         {
           "champion": "Olaf",
           "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Olaf",
+          "games": 4,
           "rate": 100.0
         }
       ]
@@ -50,42 +50,42 @@
     }
   },
   "byMainLane": {
-    "TOP": {
+    "JUNGLE": {
       "players": 1,
-      "mainLaneGames": 25,
-      "mainLaneNext": [
-        {
-          "champion": "Nasus",
-          "games": 4,
-          "rate": 16.0
-        },
-        {
-          "champion": "Kayn",
-          "games": 1,
-          "rate": 4.0
-        }
-      ],
+      "mainLaneGames": 18,
+      "mainLaneNext": [],
       "offLanes": {
-        "JUNGLE": {
-          "games": 13,
+        "TOP": {
+          "games": 16,
           "picks": [
             {
               "champion": "Olaf",
-              "games": 13,
-              "rate": 100.0
+              "games": 15,
+              "rate": 93.8
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
           "games": 1,
           "picks": [
             {
               "champion": "Olaf",
               "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Olaf",
+              "games": 4,
               "rate": 100.0
             }
           ]

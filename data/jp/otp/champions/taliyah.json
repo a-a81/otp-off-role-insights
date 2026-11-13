@@ -3,35 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "MID",
-  "players": 2,
-  "mainLaneGames": 57,
+  "players": 3,
+  "mainLaneGames": 85,
   "mainLaneNext": [
     {
       "champion": "Ahri",
+      "games": 5,
+      "rate": 5.9
+    },
+    {
+      "champion": "Galio",
       "games": 4,
-      "rate": 7.0
+      "rate": 4.7
     },
     {
       "champion": "Hwei",
       "games": 4,
-      "rate": 7.0
+      "rate": 4.7
+    },
+    {
+      "champion": "Vex",
+      "games": 2,
+      "rate": 2.4
+    },
+    {
+      "champion": "Aurora",
+      "games": 1,
+      "rate": 1.2
     },
     {
       "champion": "Lissandra",
       "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     },
     {
       "champion": "Malphite",
       "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Vex",
-      "games": 1,
-      "rate": 1.8
+      "rate": 1.2
     }
   ],
   "offLanes": {
@@ -51,12 +61,17 @@
       ]
     },
     "JUNGLE": {
-      "games": 8,
+      "games": 20,
       "picks": [
         {
           "champion": "Taliyah",
-          "games": 8,
-          "rate": 100.0
+          "games": 19,
+          "rate": 95.0
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     },
@@ -65,50 +80,65 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 5,
+      "games": 4,
       "picks": [
         {
           "champion": "Neeko",
-          "games": 3,
-          "rate": 60.0
+          "games": 2,
+          "rate": 50.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Taliyah",
-          "games": 2,
-          "rate": 40.0
+          "games": 1,
+          "rate": 25.0
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 2,
-      "mainLaneGames": 57,
+      "players": 3,
+      "mainLaneGames": 85,
       "mainLaneNext": [
         {
           "champion": "Ahri",
+          "games": 5,
+          "rate": 5.9
+        },
+        {
+          "champion": "Galio",
           "games": 4,
-          "rate": 7.0
+          "rate": 4.7
         },
         {
           "champion": "Hwei",
           "games": 4,
-          "rate": 7.0
+          "rate": 4.7
+        },
+        {
+          "champion": "Vex",
+          "games": 2,
+          "rate": 2.4
+        },
+        {
+          "champion": "Aurora",
+          "games": 1,
+          "rate": 1.2
         },
         {
           "champion": "Lissandra",
           "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Vex",
-          "games": 1,
-          "rate": 1.8
+          "rate": 1.2
         }
       ],
       "offLanes": {
@@ -128,12 +158,17 @@
           ]
         },
         "JUNGLE": {
-          "games": 8,
+          "games": 20,
           "picks": [
             {
               "champion": "Taliyah",
-              "games": 8,
-              "rate": 100.0
+              "games": 19,
+              "rate": 95.0
+            },
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
@@ -142,17 +177,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Neeko",
-              "games": 3,
-              "rate": 60.0
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Taliyah",
-              "games": 2,
-              "rate": 40.0
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

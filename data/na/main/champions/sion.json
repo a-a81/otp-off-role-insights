@@ -3,35 +3,35 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sion",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 71,
+  "mainLaneGames": 70,
   "mainLaneNext": [
     {
       "champion": "KSante",
       "games": 4,
-      "rate": 5.6
+      "rate": 5.7
     },
     {
       "champion": "Singed",
       "games": 4,
-      "rate": 5.6
+      "rate": 5.7
     },
     {
       "champion": "Pantheon",
       "games": 3,
-      "rate": 4.2
+      "rate": 4.3
     },
     {
       "champion": "Ambessa",
       "games": 2,
-      "rate": 2.8
+      "rate": 2.9
     },
     {
       "champion": "Ornn",
       "games": 2,
-      "rate": 2.8
+      "rate": 2.9
     },
     {
       "champion": "Kled",
@@ -76,12 +76,17 @@
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Sion",
           "games": 4,
-          "rate": 100.0
+          "rate": 80.0
+        },
+        {
+          "champion": "Sejuani",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -119,32 +124,32 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 71,
+      "mainLaneGames": 70,
       "mainLaneNext": [
         {
           "champion": "KSante",
           "games": 4,
-          "rate": 5.6
+          "rate": 5.7
         },
         {
           "champion": "Singed",
           "games": 4,
-          "rate": 5.6
+          "rate": 5.7
         },
         {
           "champion": "Pantheon",
           "games": 3,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Ambessa",
           "games": 2,
-          "rate": 2.8
+          "rate": 2.9
         },
         {
           "champion": "Ornn",
           "games": 2,
-          "rate": 2.8
+          "rate": 2.9
         },
         {
           "champion": "Kled",
@@ -189,12 +194,17 @@
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Sion",
               "games": 4,
-              "rate": 100.0
+              "rate": 80.0
+            },
+            {
+              "champion": "Sejuani",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
@@ -232,40 +242,35 @@
     },
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 60,
+      "mainLaneGames": 58,
       "mainLaneNext": [
         {
-          "champion": "Gwen",
-          "games": 8,
-          "rate": 13.3
+          "champion": "Diana",
+          "games": 6,
+          "rate": 10.3
         },
         {
-          "champion": "Diana",
+          "champion": "Gwen",
           "games": 4,
-          "rate": 6.7
+          "rate": 6.9
         },
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 3.3
-        },
-        {
-          "champion": "Nunu",
-          "games": 2,
-          "rate": 3.3
-        },
-        {
-          "champion": "Chogath",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Darius",
-          "games": 1,
-          "rate": 1.7
+          "rate": 3.4
         },
         {
           "champion": "Lillia",
+          "games": 2,
+          "rate": 3.4
+        },
+        {
+          "champion": "Vi",
+          "games": 2,
+          "rate": 3.4
+        },
+        {
+          "champion": "Chogath",
           "games": 1,
           "rate": 1.7
         },
@@ -290,11 +295,6 @@
           "rate": 1.7
         },
         {
-          "champion": "Vi",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
           "champion": "Zyra",
           "games": 1,
           "rate": 1.7
@@ -304,6 +304,11 @@
         "TOP": {
           "games": 4,
           "picks": [
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Chogath",
               "games": 1,
@@ -318,55 +323,66 @@
               "champion": "Pantheon",
               "games": 1,
               "rate": 25.0
-            },
-            {
-              "champion": "Sion",
-              "games": 1,
-              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 13,
+          "games": 15,
           "picks": [
             {
               "champion": "Hwei",
-              "games": 7,
-              "rate": 53.8
+              "games": 6,
+              "rate": 40.0
             },
             {
               "champion": "Xerath",
               "games": 4,
-              "rate": 30.8
+              "rate": 26.7
+            },
+            {
+              "champion": "Jhin",
+              "games": 2,
+              "rate": 13.3
             },
             {
               "champion": "Ezreal",
               "games": 1,
-              "rate": 7.7
+              "rate": 6.7
+            },
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 6.7
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 7.7
+              "rate": 6.7
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Lulu",
-              "games": 1,
-              "rate": 50.0
-            },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

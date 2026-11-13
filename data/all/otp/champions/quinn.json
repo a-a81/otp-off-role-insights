@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Quinn",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
   "mainLane": "TOP",
   "players": 6,
   "mainLaneGames": 178,
@@ -24,11 +24,6 @@
       "rate": 1.1
     },
     {
-      "champion": "DrMundo",
-      "games": 1,
-      "rate": 0.6
-    },
-    {
       "champion": "Kayle",
       "games": 1,
       "rate": 0.6
@@ -41,12 +36,17 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Quinn",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
@@ -59,17 +59,17 @@
           "rate": 89.5
         },
         {
+          "champion": "Brand",
+          "games": 1,
+          "rate": 2.6
+        },
+        {
           "champion": "Fiora",
           "games": 1,
           "rate": 2.6
         },
         {
           "champion": "Lissandra",
-          "games": 1,
-          "rate": 2.6
-        },
-        {
-          "champion": "Orianna",
           "games": 1,
           "rate": 2.6
         },
@@ -81,22 +81,17 @@
       ]
     },
     "BOTTOM": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         },
         {
           "champion": "Quinn",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Ziggs",
-          "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     },
@@ -157,11 +152,6 @@
           "rate": 1.1
         },
         {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 0.6
-        },
-        {
           "champion": "Kayle",
           "games": 1,
           "rate": 0.6
@@ -174,12 +164,17 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Quinn",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Hecarim",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -192,17 +187,17 @@
               "rate": 89.5
             },
             {
+              "champion": "Brand",
+              "games": 1,
+              "rate": 2.6
+            },
+            {
               "champion": "Fiora",
               "games": 1,
               "rate": 2.6
             },
             {
               "champion": "Lissandra",
-              "games": 1,
-              "rate": 2.6
-            },
-            {
-              "champion": "Orianna",
               "games": 1,
               "rate": 2.6
             },
@@ -214,22 +209,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Jinx",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Quinn",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Ziggs",
-              "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         },

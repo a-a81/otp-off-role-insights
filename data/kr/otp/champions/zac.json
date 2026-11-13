@@ -3,36 +3,111 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
-  "mainLane": "JUNGLE",
+  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
+  "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 26,
-  "mainLaneNext": [],
+  "mainLaneGames": 32,
+  "mainLaneNext": [
+    {
+      "champion": "Gnar",
+      "games": 2,
+      "rate": 6.2
+    },
+    {
+      "champion": "Yone",
+      "games": 1,
+      "rate": 3.1
+    }
+  ],
   "offLanes": {
-    "TOP": {
-      "games": 13,
+    "JUNGLE": {
+      "games": 2,
       "picks": [
         {
           "champion": "Zac",
-          "games": 13,
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Zac",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
       "picks": []
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 5,
+      "picks": [
+        {
+          "champion": "Zac",
+          "games": 5,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 32,
+      "mainLaneNext": [
+        {
+          "champion": "Gnar",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 3.1
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Zac",
+              "games": 5,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 26,

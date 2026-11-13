@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taric",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 161,
+  "mainLaneGames": 160,
   "mainLaneNext": [
     {
       "champion": "Karthus",
@@ -15,11 +15,6 @@
     },
     {
       "champion": "Leona",
-      "games": 2,
-      "rate": 1.2
-    },
-    {
-      "champion": "Rell",
       "games": 2,
       "rate": 1.2
     },
@@ -59,6 +54,11 @@
       "rate": 0.6
     },
     {
+      "champion": "Rell",
+      "games": 1,
+      "rate": 0.6
+    },
+    {
       "champion": "Yuumi",
       "games": 1,
       "rate": 0.6
@@ -76,57 +76,57 @@
       ]
     },
     "JUNGLE": {
-      "games": 25,
+      "games": 26,
       "picks": [
         {
           "champion": "Taric",
           "games": 18,
-          "rate": 72.0
+          "rate": 69.2
         },
         {
           "champion": "Nunu",
-          "games": 6,
-          "rate": 24.0
+          "games": 7,
+          "rate": 26.9
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 4.0
+          "rate": 3.8
         }
       ]
     },
     "MID": {
-      "games": 9,
+      "games": 10,
       "picks": [
         {
           "champion": "Orianna",
           "games": 3,
-          "rate": 33.3
+          "rate": 30.0
+        },
+        {
+          "champion": "Karthus",
+          "games": 2,
+          "rate": 20.0
         },
         {
           "champion": "Katarina",
           "games": 2,
-          "rate": 22.2
-        },
-        {
-          "champion": "Karthus",
-          "games": 1,
-          "rate": 11.1
+          "rate": 20.0
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         },
         {
           "champion": "Taric",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
         }
       ]
     },
@@ -144,7 +144,7 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 161,
+      "mainLaneGames": 160,
       "mainLaneNext": [
         {
           "champion": "Karthus",
@@ -153,11 +153,6 @@
         },
         {
           "champion": "Leona",
-          "games": 2,
-          "rate": 1.2
-        },
-        {
-          "champion": "Rell",
           "games": 2,
           "rate": 1.2
         },
@@ -197,6 +192,11 @@
           "rate": 0.6
         },
         {
+          "champion": "Rell",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
           "champion": "Yuumi",
           "games": 1,
           "rate": 0.6
@@ -214,57 +214,57 @@
           ]
         },
         "JUNGLE": {
-          "games": 25,
+          "games": 26,
           "picks": [
             {
               "champion": "Taric",
               "games": 18,
-              "rate": 72.0
+              "rate": 69.2
             },
             {
               "champion": "Nunu",
-              "games": 6,
-              "rate": 24.0
+              "games": 7,
+              "rate": 26.9
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 4.0
+              "rate": 3.8
             }
           ]
         },
         "MID": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "Orianna",
               "games": 3,
-              "rate": 33.3
+              "rate": 30.0
+            },
+            {
+              "champion": "Karthus",
+              "games": 2,
+              "rate": 20.0
             },
             {
               "champion": "Katarina",
               "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Karthus",
-              "games": 1,
-              "rate": 11.1
+              "rate": 20.0
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             },
             {
               "champion": "Taric",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
             }
           ]
         },
@@ -286,8 +286,8 @@
       "mainLaneNext": [
         {
           "champion": "Darius",
-          "games": 2,
-          "rate": 5.7
+          "games": 3,
+          "rate": 8.6
         }
       ],
       "offLanes": {

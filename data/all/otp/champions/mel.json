@@ -3,276 +3,122 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 59,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
+      "champion": "Syndra",
+      "games": 4,
+      "rate": 7.0
+    },
+    {
+      "champion": "Annie",
+      "games": 3,
+      "rate": 5.3
+    },
+    {
       "champion": "Lux",
-      "games": 6,
-      "rate": 10.2
-    },
-    {
-      "champion": "Ahri",
       "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Hwei",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Smolder",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Veigar",
-      "games": 1,
-      "rate": 1.7
+      "rate": 1.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 0,
+      "picks": []
+    },
+    "JUNGLE": {
+      "games": 3,
       "picks": [
         {
-          "champion": "KSante",
+          "champion": "Sylas",
           "games": 2,
-          "rate": 33.3
+          "rate": 66.7
         },
         {
-          "champion": "Ornn",
-          "games": 2,
-          "rate": 33.3
-        },
-        {
-          "champion": "Ahri",
+          "champion": "LeeSin",
           "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Poppy",
-          "games": 1,
-          "rate": 16.7
+          "rate": 33.3
         }
       ]
     },
-    "JUNGLE": {
+    "MID": {
       "games": 1,
       "picks": [
         {
-          "champion": "Brand",
+          "champion": "Annie",
           "games": 1,
           "rate": 100.0
         }
       ]
     },
-    "BOTTOM": {
-      "games": 6,
-      "picks": [
-        {
-          "champion": "Mel",
-          "games": 3,
-          "rate": 50.0
-        },
-        {
-          "champion": "Lux",
-          "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Sivir",
-          "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Zeri",
-          "games": 1,
-          "rate": 16.7
-        }
-      ]
-    },
     "UTILITY": {
-      "games": 6,
+      "games": 18,
       "picks": [
         {
           "champion": "Janna",
+          "games": 6,
+          "rate": 33.3
+        },
+        {
+          "champion": "Sona",
+          "games": 4,
+          "rate": 22.2
+        },
+        {
+          "champion": "Seraphine",
+          "games": 2,
+          "rate": 11.1
+        },
+        {
+          "champion": "Blitzcrank",
           "games": 1,
-          "rate": 16.7
+          "rate": 5.6
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 16.7
+          "rate": 5.6
         },
         {
-          "champion": "Nami",
+          "champion": "Renata",
           "games": 1,
-          "rate": 16.7
+          "rate": 5.6
         },
         {
-          "champion": "Rell",
+          "champion": "Thresh",
           "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Seraphine",
-          "games": 1,
-          "rate": 16.7
-        },
-        {
-          "champion": "Soraka",
-          "games": 1,
-          "rate": 16.7
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 59,
-      "mainLaneNext": [
-        {
-          "champion": "Lux",
-          "games": 6,
-          "rate": 10.2
-        },
-        {
-          "champion": "Ahri",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Hwei",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Smolder",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Veigar",
-          "games": 1,
-          "rate": 1.7
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "KSante",
-              "games": 2,
-              "rate": 33.3
-            },
-            {
-              "champion": "Ornn",
-              "games": 2,
-              "rate": 33.3
-            },
-            {
-              "champion": "Ahri",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Mel",
-              "games": 3,
-              "rate": 50.0
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Sivir",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Zeri",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Janna",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Nami",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Rell",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Soraka",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
-        }
-      }
-    },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 55,
+      "mainLaneGames": 57,
       "mainLaneNext": [
         {
           "champion": "Syndra",
           "games": 4,
-          "rate": 7.3
+          "rate": 7.0
         },
         {
           "champion": "Annie",
           "games": 3,
-          "rate": 5.5
+          "rate": 5.3
         },
         {
           "champion": "Lux",
@@ -282,14 +128,8 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Vayne",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "JUNGLE": {
           "games": 3,
@@ -307,17 +147,12 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Mel",
-              "games": 2,
-              "rate": 66.7
-            },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
@@ -326,8 +161,8 @@
           "picks": [
             {
               "champion": "Janna",
-              "games": 7,
-              "rate": 38.9
+              "games": 6,
+              "rate": 33.3
             },
             {
               "champion": "Sona",
@@ -355,6 +190,11 @@
               "rate": 5.6
             },
             {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
               "champion": "Renata",
               "games": 1,
               "rate": 5.6
@@ -363,6 +203,134 @@
               "champion": "Thresh",
               "games": 1,
               "rate": 5.6
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 2,
+      "mainLaneGames": 57,
+      "mainLaneNext": [
+        {
+          "champion": "Lux",
+          "games": 6,
+          "rate": 10.5
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 1.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "KSante",
+              "games": 3,
+              "rate": 42.9
+            },
+            {
+              "champion": "Swain",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Mel",
+              "games": 3,
+              "rate": 37.5
+            },
+            {
+              "champion": "Zeri",
+              "games": 2,
+              "rate": 25.0
+            },
+            {
+              "champion": "Ashe",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 12.5
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Rell",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }

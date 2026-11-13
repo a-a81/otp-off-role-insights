@@ -3,50 +3,45 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Annie",
-  "updatedAt": "2026-11-12T21:26:27.152068+00:00",
+  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 58,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
       "champion": "Irelia",
       "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Lissandra",
-      "games": 1,
-      "rate": 1.7
+      "rate": 1.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 9,
+      "games": 10,
       "picks": [
         {
           "champion": "Annie",
           "games": 8,
-          "rate": 88.9
+          "rate": 80.0
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 11.1
+          "rate": 10.0
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 10.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 1,
       "picks": [
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 50.0
-        },
         {
           "champion": "Taliyah",
           "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     },
@@ -61,22 +56,27 @@
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "Annie",
           "games": 6,
-          "rate": 75.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 11.1
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         }
       ]
     }
@@ -84,47 +84,42 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 57,
       "mainLaneNext": [
         {
           "champion": "Irelia",
           "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "Annie",
               "games": 8,
-              "rate": 88.9
+              "rate": 80.0
             },
             {
               "champion": "Kennen",
               "games": 1,
-              "rate": 11.1
+              "rate": 10.0
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Sejuani",
-              "games": 1,
-              "rate": 50.0
-            },
             {
               "champion": "Taliyah",
               "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         },
@@ -139,22 +134,27 @@
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Annie",
               "games": 6,
-              "rate": 75.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             }
           ]
         }

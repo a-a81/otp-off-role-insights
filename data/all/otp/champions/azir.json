@@ -3,120 +3,363 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Azir",
-  "updatedAt": "2026-11-12T21:26:29.947877+00:00",
-  "mainLane": "TOP",
-  "players": 4,
-  "mainLaneGames": 125,
+  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "mainLane": "MID",
+  "players": 5,
+  "mainLaneGames": 141,
   "mainLaneNext": [
     {
-      "champion": "Anivia",
+      "champion": "Yone",
+      "games": 3,
+      "rate": 2.1
+    },
+    {
+      "champion": "Sylas",
       "games": 2,
-      "rate": 1.6
+      "rate": 1.4
     },
     {
-      "champion": "Illaoi",
+      "champion": "Gragas",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
-      "champion": "Irelia",
+      "champion": "Malphite",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
-      "champion": "Yorick",
+      "champion": "Sion",
       "games": 1,
-      "rate": 0.8
+      "rate": 0.7
+    },
+    {
+      "champion": "Syndra",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Taliyah",
+      "games": 1,
+      "rate": 0.7
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 5,
-      "picks": [
-        {
-          "champion": "Nunu",
-          "games": 2,
-          "rate": 40.0
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Sejuani",
-          "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Taric",
-          "games": 1,
-          "rate": 20.0
-        }
-      ]
-    },
-    "MID": {
-      "games": 14,
+    "TOP": {
+      "games": 36,
       "picks": [
         {
           "champion": "Azir",
-          "games": 13,
-          "rate": 92.9
+          "games": 16,
+          "rate": 44.4
         },
         {
-          "champion": "Anivia",
+          "champion": "Gragas",
+          "games": 6,
+          "rate": 16.7
+        },
+        {
+          "champion": "Jayce",
+          "games": 3,
+          "rate": 8.3
+        },
+        {
+          "champion": "Yone",
+          "games": 3,
+          "rate": 8.3
+        },
+        {
+          "champion": "KSante",
+          "games": 2,
+          "rate": 5.6
+        },
+        {
+          "champion": "Sejuani",
+          "games": 2,
+          "rate": 5.6
+        },
+        {
+          "champion": "Garen",
           "games": 1,
-          "rate": 7.1
+          "rate": 2.8
+        },
+        {
+          "champion": "Gnar",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 2.8
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Taliyah",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Kindred",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Nocturne",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Azir",
           "games": 2,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 12,
       "picks": [
         {
+          "champion": "Alistar",
+          "games": 4,
+          "rate": 33.3
+        },
+        {
+          "champion": "Gragas",
+          "games": 4,
+          "rate": 33.3
+        },
+        {
+          "champion": "Velkoz",
+          "games": 2,
+          "rate": 16.7
+        },
+        {
           "champion": "Blitzcrank",
-          "games": 2,
-          "rate": 25.0
-        },
-        {
-          "champion": "Karma",
-          "games": 2,
-          "rate": 25.0
-        },
-        {
-          "champion": "Leona",
           "games": 1,
-          "rate": 12.5
+          "rate": 8.3
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Skarner",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Taric",
-          "games": 1,
-          "rate": 12.5
+          "rate": 8.3
         }
       ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 5,
+      "mainLaneGames": 141,
+      "mainLaneNext": [
+        {
+          "champion": "Yone",
+          "games": 3,
+          "rate": 2.1
+        },
+        {
+          "champion": "Sylas",
+          "games": 2,
+          "rate": 1.4
+        },
+        {
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 0.7
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 36,
+          "picks": [
+            {
+              "champion": "Azir",
+              "games": 16,
+              "rate": 44.4
+            },
+            {
+              "champion": "Gragas",
+              "games": 6,
+              "rate": 16.7
+            },
+            {
+              "champion": "Jayce",
+              "games": 3,
+              "rate": 8.3
+            },
+            {
+              "champion": "Yone",
+              "games": 3,
+              "rate": 8.3
+            },
+            {
+              "champion": "KSante",
+              "games": 2,
+              "rate": 5.6
+            },
+            {
+              "champion": "Sejuani",
+              "games": 2,
+              "rate": 5.6
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 2.8
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 2.8
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 2.8
+            },
+            {
+              "champion": "Vayne",
+              "games": 1,
+              "rate": 2.8
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Kindred",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Nocturne",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Azir",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "Alistar",
+              "games": 4,
+              "rate": 33.3
+            },
+            {
+              "champion": "Gragas",
+              "games": 4,
+              "rate": 33.3
+            },
+            {
+              "champion": "Velkoz",
+              "games": 2,
+              "rate": 16.7
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 8.3
+            }
+          ]
+        }
+      }
+    },
     "TOP": {
       "players": 4,
       "mainLaneGames": 125,
@@ -128,8 +371,8 @@
         },
         {
           "champion": "Illaoi",
-          "games": 1,
-          "rate": 0.8
+          "games": 2,
+          "rate": 1.6
         },
         {
           "champion": "Irelia",
@@ -230,152 +473,28 @@
         }
       }
     },
-    "MID": {
-      "players": 4,
-      "mainLaneGames": 116,
-      "mainLaneNext": [
-        {
-          "champion": "Yone",
-          "games": 2,
-          "rate": 1.7
-        },
-        {
-          "champion": "Gragas",
-          "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Taliyah",
-          "games": 1,
-          "rate": 0.9
-        }
-      ],
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 16,
+      "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 25,
-          "picks": [
-            {
-              "champion": "Azir",
-              "games": 14,
-              "rate": 56.0
-            },
-            {
-              "champion": "Gragas",
-              "games": 6,
-              "rate": 24.0
-            },
-            {
-              "champion": "KSante",
-              "games": 2,
-              "rate": 8.0
-            },
-            {
-              "champion": "Sejuani",
-              "games": 2,
-              "rate": 8.0
-            },
-            {
-              "champion": "Garen",
-              "games": 1,
-              "rate": 4.0
-            }
-          ]
-        },
-        "JUNGLE": {
           "games": 5,
           "picks": [
             {
-              "champion": "Taliyah",
+              "champion": "Azir",
               "games": 2,
               "rate": 40.0
             },
             {
-              "champion": "Gragas",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "JarvanIV",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Kindred",
-              "games": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Azir",
-              "games": 4,
-              "rate": 80.0
-            },
-            {
-              "champion": "Veigar",
-              "games": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 9,
-          "picks": [
-            {
-              "champion": "Alistar",
-              "games": 4,
-              "rate": 44.4
-            },
-            {
-              "champion": "Gragas",
-              "games": 4,
-              "rate": 44.4
+              "champion": "Kassadin",
+              "games": 2,
+              "rate": 40.0
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 11.1
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 19,
-      "mainLaneNext": [
-        {
-          "champion": "Ezreal",
-          "games": 2,
-          "rate": 10.5
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Udyr",
-              "games": 5,
-              "rate": 62.5
-            },
-            {
-              "champion": "Azir",
-              "games": 3,
-              "rate": 37.5
+              "rate": 20.0
             }
           ]
         },
@@ -384,52 +503,57 @@
           "picks": []
         },
         "MID": {
-          "games": 9,
+          "games": 12,
           "picks": [
             {
+              "champion": "Kassadin",
+              "games": 10,
+              "rate": 83.3
+            },
+            {
               "champion": "Azir",
-              "games": 5,
-              "rate": 55.6
-            },
-            {
-              "champion": "Viktor",
-              "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "Udyr",
               "games": 1,
-              "rate": 11.1
+              "rate": 8.3
             },
             {
-              "champion": "Zaahen",
+              "champion": "Galio",
               "games": 1,
-              "rate": 11.1
+              "rate": 8.3
             }
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 7,
           "picks": [
+            {
+              "champion": "Lulu",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 14.3
+            },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             },
             {
-              "champion": "Lulu",
+              "champion": "Leona",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             },
             {
-              "champion": "Yuumi",
+              "champion": "Thresh",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             }
           ]
         }

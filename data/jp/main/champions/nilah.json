@@ -3,144 +3,278 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nilah",
-  "updatedAt": "2026-11-12T20:47:20.664500+00:00",
+  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 36,
+  "players": 2,
+  "mainLaneGames": 60,
   "mainLaneNext": [
     {
       "champion": "Kaisa",
       "games": 9,
-      "rate": 25.0
+      "rate": 15.0
+    },
+    {
+      "champion": "Vayne",
+      "games": 7,
+      "rate": 11.7
     },
     {
       "champion": "Caitlyn",
-      "games": 2,
-      "rate": 5.6
+      "games": 6,
+      "rate": 10.0
+    },
+    {
+      "champion": "Lucian",
+      "games": 3,
+      "rate": 5.0
     },
     {
       "champion": "Jhin",
       "games": 2,
-      "rate": 5.6
+      "rate": 3.3
+    },
+    {
+      "champion": "Tristana",
+      "games": 2,
+      "rate": 3.3
     },
     {
       "champion": "Ashe",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.7
     },
     {
       "champion": "Corki",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.7
     },
     {
       "champion": "Xayah",
       "games": 1,
-      "rate": 2.8
+      "rate": 1.7
+    },
+    {
+      "champion": "Yunara",
+      "games": 1,
+      "rate": 1.7
     }
   ],
   "offLanes": {
     "TOP": {
+      "games": 5,
+      "picks": [
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 40.0
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Heimerdinger",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Illaoi",
+          "games": 1,
+          "rate": 20.0
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 9,
+      "picks": [
+        {
+          "champion": "Briar",
+          "games": 3,
+          "rate": 33.3
+        },
+        {
+          "champion": "MasterYi",
+          "games": 3,
+          "rate": 33.3
+        },
+        {
+          "champion": "Vi",
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 11.1
+        }
+      ]
+    },
+    "MID": {
       "games": 2,
       "picks": [
         {
-          "champion": "Illaoi",
+          "champion": "Diana",
           "games": 1,
           "rate": 50.0
         },
         {
-          "champion": "Sion",
+          "champion": "Lissandra",
           "games": 1,
           "rate": 50.0
         }
       ]
     },
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 0,
-      "picks": []
-    },
     "UTILITY": {
-      "games": 1,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Thresh",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 36,
+      "players": 2,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "Kaisa",
           "games": 9,
-          "rate": 25.0
+          "rate": 15.0
+        },
+        {
+          "champion": "Vayne",
+          "games": 7,
+          "rate": 11.7
         },
         {
           "champion": "Caitlyn",
-          "games": 2,
-          "rate": 5.6
+          "games": 6,
+          "rate": 10.0
+        },
+        {
+          "champion": "Lucian",
+          "games": 3,
+          "rate": 5.0
         },
         {
           "champion": "Jhin",
           "games": 2,
-          "rate": 5.6
+          "rate": 3.3
+        },
+        {
+          "champion": "Tristana",
+          "games": 2,
+          "rate": 3.3
         },
         {
           "champion": "Ashe",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.7
         },
         {
           "champion": "Corki",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.7
         },
         {
           "champion": "Xayah",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.7
+        },
+        {
+          "champion": "Yunara",
+          "games": 1,
+          "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Heimerdinger",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Illaoi",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Briar",
+              "games": 3,
+              "rate": 33.3
+            },
+            {
+              "champion": "MasterYi",
+              "games": 3,
+              "rate": 33.3
+            },
+            {
+              "champion": "Vi",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "MID": {
           "games": 2,
           "picks": [
             {
-              "champion": "Illaoi",
+              "champion": "Diana",
               "games": 1,
               "rate": 50.0
             },
             {
-              "champion": "Sion",
+              "champion": "Lissandra",
               "games": 1,
               "rate": 50.0
             }
           ]
         },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
         "UTILITY": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         }

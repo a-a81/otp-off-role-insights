@@ -3,45 +3,29 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Corki",
-  "updatedAt": "2026-11-12T19:42:41.441474+00:00",
-  "mainLane": "BOTTOM",
+  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
+  "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 30,
-  "mainLaneNext": [
-    {
-      "champion": "Caitlyn",
-      "games": 4,
-      "rate": 13.3
-    },
-    {
-      "champion": "Jhin",
-      "games": 1,
-      "rate": 3.3
-    },
-    {
-      "champion": "Syndra",
-      "games": 1,
-      "rate": 3.3
-    }
-  ],
+  "mainLaneGames": 29,
+  "mainLaneNext": [],
   "offLanes": {
     "TOP": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
-          "champion": "Gragas",
-          "games": 3,
+          "champion": "Corki",
+          "games": 2,
           "rate": 50.0
         },
         {
-          "champion": "Ornn",
-          "games": 2,
-          "rate": 33.3
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 25.0
         },
         {
-          "champion": "Corki",
+          "champion": "Tristana",
           "games": 1,
-          "rate": 16.7
+          "rate": 25.0
         }
       ]
     },
@@ -49,115 +33,28 @@
       "games": 0,
       "picks": []
     },
-    "MID": {
-      "games": 3,
+    "BOTTOM": {
+      "games": 4,
       "picks": [
         {
-          "champion": "Ahri",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Orianna",
-          "games": 1,
-          "rate": 33.3
+          "champion": "Corki",
+          "games": 4,
+          "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
-          "champion": "Nautilus",
-          "games": 1,
+          "champion": "Nami",
+          "games": 3,
           "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 30,
-      "mainLaneNext": [
-        {
-          "champion": "Caitlyn",
-          "games": 4,
-          "rate": 13.3
-        },
-        {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 3.3
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 3.3
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 6,
-          "picks": [
-            {
-              "champion": "Gragas",
-              "games": 3,
-              "rate": 50.0
-            },
-            {
-              "champion": "Ornn",
-              "games": 2,
-              "rate": 33.3
-            },
-            {
-              "champion": "Corki",
-              "games": 1,
-              "rate": 16.7
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Ahri",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Galio",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Orianna",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "MID": {
       "players": 1,
       "mainLaneGames": 29,
@@ -206,6 +103,83 @@
               "rate": 100.0
             }
           ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 26,
+      "mainLaneNext": [
+        {
+          "champion": "Caitlyn",
+          "games": 3,
+          "rate": 11.5
+        },
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 3.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 7,
+          "picks": [
+            {
+              "champion": "Gragas",
+              "games": 4,
+              "rate": 57.1
+            },
+            {
+              "champion": "Ornn",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Gnar",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Gragas",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Ahri",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Orianna",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }
