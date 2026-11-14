@@ -3,249 +3,113 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viktor",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 59,
+  "mainLaneGames": 56,
   "mainLaneNext": [
     {
-      "champion": "Orianna",
-      "games": 4,
-      "rate": 6.8
+      "champion": "Jinx",
+      "games": 9,
+      "rate": 16.1
     },
     {
-      "champion": "Malphite",
-      "games": 3,
-      "rate": 5.1
-    },
-    {
-      "champion": "Sylas",
+      "champion": "Ezreal",
       "games": 2,
-      "rate": 3.4
+      "rate": 3.6
     },
     {
-      "champion": "Ahri",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Nasus",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Talon",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Xerath",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Yasuo",
-      "games": 1,
-      "rate": 1.7
+      "champion": "Yunara",
+      "games": 2,
+      "rate": 3.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 14,
-      "picks": [
-        {
-          "champion": "Mordekaiser",
-          "games": 10,
-          "rate": 71.4
-        },
-        {
-          "champion": "Viktor",
-          "games": 2,
-          "rate": 14.3
-        },
-        {
-          "champion": "Kayle",
-          "games": 1,
-          "rate": 7.1
-        },
-        {
-          "champion": "Nasus",
-          "games": 1,
-          "rate": 7.1
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
       "games": 1,
       "picks": [
         {
-          "champion": "Viktor",
+          "champion": "Garen",
           "games": 1,
           "rate": 100.0
         }
       ]
     },
-    "UTILITY": {
-      "games": 5,
+    "JUNGLE": {
+      "games": 7,
       "picks": [
         {
-          "champion": "Lulu",
-          "games": 1,
-          "rate": 20.0
+          "champion": "Ambessa",
+          "games": 2,
+          "rate": 28.6
         },
         {
-          "champion": "Seraphine",
-          "games": 1,
-          "rate": 20.0
+          "champion": "Talon",
+          "games": 2,
+          "rate": 28.6
         },
         {
-          "champion": "Soraka",
+          "champion": "Elise",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
         },
         {
-          "champion": "Swain",
+          "champion": "Lillia",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
         },
         {
-          "champion": "TahmKench",
+          "champion": "Sylas",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
+        }
+      ]
+    },
+    "MID": {
+      "games": 13,
+      "picks": [
+        {
+          "champion": "Viktor",
+          "games": 11,
+          "rate": 84.6
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 7.7
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Veigar",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
-    "MID": {
-      "players": 2,
-      "mainLaneGames": 59,
-      "mainLaneNext": [
-        {
-          "champion": "Orianna",
-          "games": 4,
-          "rate": 6.8
-        },
-        {
-          "champion": "Malphite",
-          "games": 3,
-          "rate": 5.1
-        },
-        {
-          "champion": "Sylas",
-          "games": 2,
-          "rate": 3.4
-        },
-        {
-          "champion": "Ahri",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Nasus",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Talon",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Xerath",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Yasuo",
-          "games": 1,
-          "rate": 1.7
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 14,
-          "picks": [
-            {
-              "champion": "Mordekaiser",
-              "games": 10,
-              "rate": 71.4
-            },
-            {
-              "champion": "Viktor",
-              "games": 2,
-              "rate": 14.3
-            },
-            {
-              "champion": "Kayle",
-              "games": 1,
-              "rate": 7.1
-            },
-            {
-              "champion": "Nasus",
-              "games": 1,
-              "rate": 7.1
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Lulu",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Soraka",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Swain",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 20.0
-            }
-          ]
-        }
-      }
-    },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 55,
+      "mainLaneGames": 56,
       "mainLaneNext": [
         {
           "champion": "Jinx",
           "games": 9,
-          "rate": 16.4
+          "rate": 16.1
         },
         {
           "champion": "Ezreal",
@@ -300,22 +164,22 @@
           ]
         },
         "MID": {
-          "games": 14,
+          "games": 13,
           "picks": [
             {
               "champion": "Viktor",
-              "games": 12,
-              "rate": 85.7
+              "games": 11,
+              "rate": 84.6
             },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 7.1
+              "rate": 7.7
             },
             {
               "champion": "Yone",
               "games": 1,
-              "rate": 7.1
+              "rate": 7.7
             }
           ]
         },
@@ -331,6 +195,98 @@
               "champion": "Nautilus",
               "games": 1,
               "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 32,
+      "mainLaneNext": [
+        {
+          "champion": "Sylas",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1,
+          "rate": 3.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Viktor",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         }

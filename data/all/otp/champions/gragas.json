@@ -3,28 +3,23 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gragas",
-  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 73,
+  "mainLaneGames": 71,
   "mainLaneNext": [
     {
       "champion": "Orianna",
       "games": 3,
-      "rate": 4.1
+      "rate": 4.2
     },
     {
       "champion": "Pantheon",
       "games": 2,
-      "rate": 2.7
+      "rate": 2.8
     },
     {
       "champion": "Ahri",
-      "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "DrMundo",
       "games": 1,
       "rate": 1.4
     },
@@ -66,17 +61,22 @@
       ]
     },
     "JUNGLE": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Gragas",
           "games": 2,
-          "rate": 66.7
+          "rate": 50.0
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Locke",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
@@ -116,37 +116,37 @@
       ]
     },
     "UTILITY": {
-      "games": 10,
+      "games": 11,
       "picks": [
         {
           "champion": "Poppy",
-          "games": 3,
-          "rate": 30.0
+          "games": 4,
+          "rate": 36.4
         },
         {
           "champion": "Gragas",
           "games": 2,
-          "rate": 20.0
+          "rate": 18.2
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 20.0
+          "rate": 18.2
         },
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 10.0
+          "rate": 9.1
         },
         {
           "champion": "Janna",
           "games": 1,
-          "rate": 10.0
+          "rate": 9.1
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 10.0
+          "rate": 9.1
         }
       ]
     }
@@ -154,25 +154,20 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 73,
+      "mainLaneGames": 71,
       "mainLaneNext": [
         {
           "champion": "Orianna",
           "games": 3,
-          "rate": 4.1
+          "rate": 4.2
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 2.7
+          "rate": 2.8
         },
         {
           "champion": "Ahri",
-          "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "DrMundo",
           "games": 1,
           "rate": 1.4
         },
@@ -214,17 +209,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Gragas",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
+            },
+            {
+              "champion": "DrMundo",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Locke",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
@@ -264,37 +264,37 @@
           ]
         },
         "UTILITY": {
-          "games": 10,
+          "games": 11,
           "picks": [
             {
               "champion": "Poppy",
-              "games": 3,
-              "rate": 30.0
+              "games": 4,
+              "rate": 36.4
             },
             {
               "champion": "Gragas",
               "games": 2,
-              "rate": 20.0
+              "rate": 18.2
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 20.0
+              "rate": 18.2
             },
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 10.0
+              "rate": 9.1
             },
             {
               "champion": "Janna",
               "games": 1,
-              "rate": 10.0
+              "rate": 9.1
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 10.0
+              "rate": 9.1
             }
           ]
         }
@@ -302,22 +302,22 @@
     },
     "TOP": {
       "players": 2,
-      "mainLaneGames": 64,
+      "mainLaneGames": 62,
       "mainLaneNext": [
-        {
-          "champion": "Olaf",
-          "games": 5,
-          "rate": 7.8
-        },
         {
           "champion": "DrMundo",
           "games": 3,
-          "rate": 4.7
+          "rate": 4.8
+        },
+        {
+          "champion": "Olaf",
+          "games": 3,
+          "rate": 4.8
         },
         {
           "champion": "Urgot",
-          "games": 2,
-          "rate": 3.1
+          "games": 3,
+          "rate": 4.8
         },
         {
           "champion": "Camille",
@@ -331,12 +331,17 @@
           "picks": []
         },
         "MID": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Gragas",
               "games": 8,
-              "rate": 100.0
+              "rate": 88.9
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
@@ -351,27 +356,27 @@
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 7,
           "picks": [
             {
               "champion": "Pyke",
-              "games": 3,
-              "rate": 50.0
+              "games": 4,
+              "rate": 57.1
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 16.7
+              "rate": 14.3
             }
           ]
         }

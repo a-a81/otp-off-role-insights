@@ -3,64 +3,283 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Anivia",
-  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
-  "mainLane": "TOP",
-  "players": 3,
-  "mainLaneGames": 85,
+  "updatedAt": "2026-11-14T21:37:18.562412+00:00",
+  "mainLane": "MID",
+  "players": 4,
+  "mainLaneGames": 92,
   "mainLaneNext": [
     {
-      "champion": "Viktor",
-      "games": 3,
-      "rate": 3.5
+      "champion": "Syndra",
+      "games": 8,
+      "rate": 8.7
     },
     {
-      "champion": "Malphite",
+      "champion": "Galio",
+      "games": 2,
+      "rate": 2.2
+    },
+    {
+      "champion": "Ahri",
       "games": 1,
-      "rate": 1.2
+      "rate": 1.1
+    },
+    {
+      "champion": "Corki",
+      "games": 1,
+      "rate": 1.1
+    },
+    {
+      "champion": "Hwei",
+      "games": 1,
+      "rate": 1.1
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 15,
+    "TOP": {
+      "games": 30,
       "picks": [
         {
           "champion": "Anivia",
-          "games": 15,
-          "rate": 100.0
+          "games": 29,
+          "rate": 96.7
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 3.3
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 9,
+      "picks": [
+        {
+          "champion": "Taliyah",
+          "games": 3,
+          "rate": 33.3
+        },
+        {
+          "champion": "Nidalee",
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "LeeSin",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Lillia",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "BOTTOM": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
+          "champion": "Draven",
+          "games": 4,
+          "rate": 44.4
+        },
+        {
           "champion": "Anivia",
-          "games": 8,
-          "rate": 100.0
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "Syndra",
+          "games": 2,
+          "rate": 22.2
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "UTILITY": {
-      "games": 11,
+      "games": 20,
       "picks": [
         {
           "champion": "Anivia",
           "games": 10,
-          "rate": 90.9
+          "rate": 50.0
         },
         {
-          "champion": "Thresh",
+          "champion": "Alistar",
+          "games": 5,
+          "rate": 25.0
+        },
+        {
+          "champion": "Rell",
+          "games": 3,
+          "rate": 15.0
+        },
+        {
+          "champion": "Braum",
           "games": 1,
-          "rate": 9.1
+          "rate": 5.0
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 5.0
         }
       ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 4,
+      "mainLaneGames": 92,
+      "mainLaneNext": [
+        {
+          "champion": "Syndra",
+          "games": 8,
+          "rate": 8.7
+        },
+        {
+          "champion": "Galio",
+          "games": 2,
+          "rate": 2.2
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Corki",
+          "games": 1,
+          "rate": 1.1
+        },
+        {
+          "champion": "Hwei",
+          "games": 1,
+          "rate": 1.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 30,
+          "picks": [
+            {
+              "champion": "Anivia",
+              "games": 29,
+              "rate": 96.7
+            },
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 3.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 3,
+              "rate": 33.3
+            },
+            {
+              "champion": "Nidalee",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "LeeSin",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Maokai",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Vi",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Draven",
+              "games": 4,
+              "rate": 44.4
+            },
+            {
+              "champion": "Anivia",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Syndra",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Aphelios",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 20,
+          "picks": [
+            {
+              "champion": "Anivia",
+              "games": 10,
+              "rate": 50.0
+            },
+            {
+              "champion": "Alistar",
+              "games": 5,
+              "rate": 25.0
+            },
+            {
+              "champion": "Rell",
+              "games": 3,
+              "rate": 15.0
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 5.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 5.0
+            }
+          ]
+        }
+      }
+    },
     "TOP": {
       "players": 3,
       "mainLaneGames": 85,
@@ -118,144 +337,6 @@
         }
       }
     },
-    "MID": {
-      "players": 3,
-      "mainLaneGames": 65,
-      "mainLaneNext": [
-        {
-          "champion": "Galio",
-          "games": 2,
-          "rate": 3.1
-        },
-        {
-          "champion": "Syndra",
-          "games": 2,
-          "rate": 3.1
-        },
-        {
-          "champion": "Ahri",
-          "games": 1,
-          "rate": 1.5
-        },
-        {
-          "champion": "Corki",
-          "games": 1,
-          "rate": 1.5
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 18,
-          "picks": [
-            {
-              "champion": "Anivia",
-              "games": 16,
-              "rate": 88.9
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 5.6
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 5.6
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 9,
-          "picks": [
-            {
-              "champion": "Taliyah",
-              "games": 3,
-              "rate": 33.3
-            },
-            {
-              "champion": "Nidalee",
-              "games": 2,
-              "rate": 22.2
-            },
-            {
-              "champion": "LeeSin",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Lillia",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Maokai",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Vi",
-              "games": 1,
-              "rate": 11.1
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Draven",
-              "games": 4,
-              "rate": 40.0
-            },
-            {
-              "champion": "Syndra",
-              "games": 3,
-              "rate": 30.0
-            },
-            {
-              "champion": "Anivia",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
-              "champion": "Aphelios",
-              "games": 1,
-              "rate": 10.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 16,
-          "picks": [
-            {
-              "champion": "Alistar",
-              "games": 6,
-              "rate": 37.5
-            },
-            {
-              "champion": "Anivia",
-              "games": 4,
-              "rate": 25.0
-            },
-            {
-              "champion": "Rell",
-              "games": 4,
-              "rate": 25.0
-            },
-            {
-              "champion": "Braum",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Nautilus",
-              "games": 1,
-              "rate": 6.2
-            }
-          ]
-        }
-      }
-    },
     "UTILITY": {
       "players": 1,
       "mainLaneGames": 20,
@@ -298,47 +379,47 @@
           ]
         },
         "MID": {
-          "games": 12,
+          "games": 13,
           "picks": [
             {
               "champion": "Anivia",
-              "games": 8,
-              "rate": 66.7
+              "games": 9,
+              "rate": 69.2
             },
             {
               "champion": "Kayle",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.7
             },
             {
               "champion": "Locke",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.7
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.7
             },
             {
               "champion": "Vex",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.7
             }
           ]
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Anivia",
-              "games": 5,
-              "rate": 83.3
+              "games": 4,
+              "rate": 80.0
             },
             {
               "champion": "AurelionSol",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             }
           ]
         }

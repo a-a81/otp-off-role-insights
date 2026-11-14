@@ -3,25 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Jayce",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 65,
+  "players": 3,
+  "mainLaneGames": 100,
   "mainLaneNext": [
     {
       "champion": "Camille",
       "games": 5,
-      "rate": 7.7
+      "rate": 5.0
     },
     {
-      "champion": "Zaahen",
+      "champion": "Yorick",
+      "games": 3,
+      "rate": 3.0
+    },
+    {
+      "champion": "Ambessa",
       "games": 2,
-      "rate": 3.1
+      "rate": 2.0
     },
     {
       "champion": "Ornn",
+      "games": 2,
+      "rate": 2.0
+    },
+    {
+      "champion": "Pantheon",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.0
+    },
+    {
+      "champion": "Renekton",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
+      "champion": "Zaahen",
+      "games": 1,
+      "rate": 1.0
     }
   ],
   "offLanes": {
@@ -36,23 +56,34 @@
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 5,
       "picks": [
         {
           "champion": "Jayce",
-          "games": 4,
-          "rate": 66.7
+          "games": 3,
+          "rate": 60.0
         },
         {
           "champion": "Aurora",
           "games": 2,
-          "rate": 33.3
+          "rate": 40.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Lucian",
+          "games": 4,
+          "rate": 66.7
+        },
+        {
+          "champion": "Ashe",
+          "games": 2,
+          "rate": 33.3
+        }
+      ]
     },
     "UTILITY": {
       "games": 3,
@@ -72,23 +103,43 @@
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 65,
+      "players": 3,
+      "mainLaneGames": 100,
       "mainLaneNext": [
         {
           "champion": "Camille",
           "games": 5,
-          "rate": 7.7
+          "rate": 5.0
         },
         {
-          "champion": "Zaahen",
+          "champion": "Yorick",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Ambessa",
           "games": 2,
-          "rate": 3.1
+          "rate": 2.0
         },
         {
           "champion": "Ornn",
+          "games": 2,
+          "rate": 2.0
+        },
+        {
+          "champion": "Pantheon",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
+          "champion": "Zaahen",
+          "games": 1,
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -103,23 +154,34 @@
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Jayce",
-              "games": 4,
-              "rate": 66.7
+              "games": 3,
+              "rate": 60.0
             },
             {
               "champion": "Aurora",
               "games": 2,
-              "rate": 33.3
+              "rate": 40.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Lucian",
+              "games": 4,
+              "rate": 66.7
+            },
+            {
+              "champion": "Ashe",
+              "games": 2,
+              "rate": 33.3
+            }
+          ]
         },
         "UTILITY": {
           "games": 3,

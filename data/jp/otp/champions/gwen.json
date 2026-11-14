@@ -3,23 +3,18 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 92,
+  "mainLaneGames": 88,
   "mainLaneNext": [
     {
       "champion": "Rumble",
       "games": 2,
-      "rate": 2.2
+      "rate": 2.3
     },
     {
       "champion": "Irelia",
-      "games": 1,
-      "rate": 1.1
-    },
-    {
-      "champion": "Ornn",
       "games": 1,
       "rate": 1.1
     }
@@ -36,22 +31,22 @@
       ]
     },
     "MID": {
-      "games": 21,
+      "games": 23,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 19,
-          "rate": 90.5
+          "games": 21,
+          "rate": 91.3
         },
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 4.8
+          "rate": 4.3
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 4.8
+          "rate": 4.3
         }
       ]
     },
@@ -71,22 +66,27 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 5,
       "picks": [
         {
           "champion": "Leona",
-          "games": 1,
-          "rate": 33.3
+          "games": 2,
+          "rate": 40.0
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
@@ -94,20 +94,15 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 92,
+      "mainLaneGames": 88,
       "mainLaneNext": [
         {
           "champion": "Rumble",
           "games": 2,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Irelia",
-          "games": 1,
-          "rate": 1.1
-        },
-        {
-          "champion": "Ornn",
           "games": 1,
           "rate": 1.1
         }
@@ -124,22 +119,22 @@
           ]
         },
         "MID": {
-          "games": 21,
+          "games": 23,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 19,
-              "rate": 90.5
+              "games": 21,
+              "rate": 91.3
             },
             {
               "champion": "Galio",
               "games": 1,
-              "rate": 4.8
+              "rate": 4.3
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 4.8
+              "rate": 4.3
             }
           ]
         },
@@ -159,22 +154,27 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 5,
           "picks": [
             {
               "champion": "Leona",
-              "games": 1,
-              "rate": 33.3
+              "games": 2,
+              "rate": 40.0
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
+            },
+            {
+              "champion": "Swain",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }
@@ -182,26 +182,16 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 30,
+      "mainLaneGames": 32,
       "mainLaneNext": [
         {
           "champion": "Yone",
           "games": 2,
-          "rate": 6.7
+          "rate": 6.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Gwen",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
           "games": 1,
           "picks": [
             {
@@ -211,28 +201,37 @@
             }
           ]
         },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
         "BOTTOM": {
-          "games": 4,
+          "games": 2,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 4,
+              "games": 2,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Leona",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

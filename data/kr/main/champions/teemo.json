@@ -3,45 +3,70 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Teemo",
-  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
+  "updatedAt": "2026-11-14T21:37:18.562412+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 69,
+  "players": 3,
+  "mainLaneGames": 99,
   "mainLaneNext": [
+    {
+      "champion": "Malphite",
+      "games": 3,
+      "rate": 3.0
+    },
+    {
+      "champion": "Trundle",
+      "games": 3,
+      "rate": 3.0
+    },
+    {
+      "champion": "Vayne",
+      "games": 3,
+      "rate": 3.0
+    },
     {
       "champion": "Maokai",
       "games": 2,
-      "rate": 2.9
+      "rate": 2.0
+    },
+    {
+      "champion": "Olaf",
+      "games": 2,
+      "rate": 2.0
     },
     {
       "champion": "Senna",
       "games": 2,
-      "rate": 2.9
+      "rate": 2.0
     },
     {
       "champion": "Kennen",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.0
     },
     {
-      "champion": "Malphite",
+      "champion": "Nasus",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 10,
       "picks": [
+        {
+          "champion": "Hecarim",
+          "games": 8,
+          "rate": 80.0
+        },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 50.0
+          "rate": 10.0
         },
         {
           "champion": "Nunu",
           "games": 1,
-          "rate": 50.0
+          "rate": 10.0
         }
       ]
     },
@@ -66,60 +91,90 @@
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 7,
       "picks": [
         {
           "champion": "Maokai",
           "games": 3,
-          "rate": 60.0
+          "rate": 42.9
+        },
+        {
+          "champion": "Alistar",
+          "games": 2,
+          "rate": 28.6
         },
         {
           "champion": "Teemo",
           "games": 2,
-          "rate": 40.0
+          "rate": 28.6
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 69,
+      "players": 3,
+      "mainLaneGames": 99,
       "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Trundle",
+          "games": 3,
+          "rate": 3.0
+        },
+        {
+          "champion": "Vayne",
+          "games": 3,
+          "rate": 3.0
+        },
         {
           "champion": "Maokai",
           "games": 2,
-          "rate": 2.9
+          "rate": 2.0
+        },
+        {
+          "champion": "Olaf",
+          "games": 2,
+          "rate": 2.0
         },
         {
           "champion": "Senna",
           "games": 2,
-          "rate": 2.9
+          "rate": 2.0
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         },
         {
-          "champion": "Malphite",
+          "champion": "Nasus",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 10,
           "picks": [
+            {
+              "champion": "Hecarim",
+              "games": 8,
+              "rate": 80.0
+            },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 50.0
+              "rate": 10.0
             },
             {
               "champion": "Nunu",
               "games": 1,
-              "rate": 50.0
+              "rate": 10.0
             }
           ]
         },
@@ -144,17 +199,22 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 7,
           "picks": [
             {
               "champion": "Maokai",
               "games": 3,
-              "rate": 60.0
+              "rate": 42.9
+            },
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 28.6
             },
             {
               "champion": "Teemo",
               "games": 2,
-              "rate": 40.0
+              "rate": 28.6
             }
           ]
         }

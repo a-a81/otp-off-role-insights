@@ -3,98 +3,281 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Syndra",
-  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
-  "mainLane": "BOTTOM",
-  "players": 2,
-  "mainLaneGames": 45,
+  "updatedAt": "2026-11-14T19:40:23.171207+00:00",
+  "mainLane": "MID",
+  "players": 3,
+  "mainLaneGames": 79,
   "mainLaneNext": [
     {
-      "champion": "Hwei",
+      "champion": "Annie",
+      "games": 4,
+      "rate": 5.1
+    },
+    {
+      "champion": "Viktor",
+      "games": 3,
+      "rate": 3.8
+    },
+    {
+      "champion": "Jayce",
       "games": 2,
-      "rate": 4.4
+      "rate": 2.5
     },
     {
-      "champion": "Kaisa",
-      "games": 1,
-      "rate": 2.2
+      "champion": "Lux",
+      "games": 2,
+      "rate": 2.5
     },
     {
-      "champion": "Lucian",
+      "champion": "Ahri",
       "games": 1,
-      "rate": 2.2
+      "rate": 1.3
+    },
+    {
+      "champion": "Ryze",
+      "games": 1,
+      "rate": 1.3
+    },
+    {
+      "champion": "Sion",
+      "games": 1,
+      "rate": 1.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 19,
       "picks": [
         {
-          "champion": "Anivia",
-          "games": 1,
-          "rate": 50.0
+          "champion": "Syndra",
+          "games": 11,
+          "rate": 57.9
         },
         {
-          "champion": "Syndra",
+          "champion": "Malphite",
+          "games": 3,
+          "rate": 15.8
+        },
+        {
+          "champion": "Annie",
+          "games": 2,
+          "rate": 10.5
+        },
+        {
+          "champion": "Jax",
           "games": 1,
-          "rate": 50.0
+          "rate": 5.3
+        },
+        {
+          "champion": "Riven",
+          "games": 1,
+          "rate": 5.3
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 5.3
         }
       ]
     },
     "JUNGLE": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
-          "champion": "Shyvana",
-          "games": 2,
-          "rate": 66.7
+          "champion": "Locke",
+          "games": 1,
+          "rate": 50.0
         },
         {
-          "champion": "Evelynn",
+          "champion": "Zed",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     },
-    "MID": {
-      "games": 9,
+    "BOTTOM": {
+      "games": 13,
       "picks": [
         {
           "champion": "Syndra",
-          "games": 9,
-          "rate": 100.0
+          "games": 12,
+          "rate": 92.3
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 7.7
         }
       ]
     },
     "UTILITY": {
-      "games": 21,
+      "games": 6,
       "picks": [
         {
-          "champion": "Sona",
-          "games": 11,
-          "rate": 52.4
-        },
-        {
           "champion": "Seraphine",
-          "games": 9,
-          "rate": 42.9
+          "games": 2,
+          "rate": 33.3
         },
         {
-          "champion": "Pyke",
+          "champion": "Sona",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Karma",
           "games": 1,
-          "rate": 4.8
+          "rate": 16.7
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     }
   },
   "byMainLane": {
+    "MID": {
+      "players": 3,
+      "mainLaneGames": 79,
+      "mainLaneNext": [
+        {
+          "champion": "Annie",
+          "games": 4,
+          "rate": 5.1
+        },
+        {
+          "champion": "Viktor",
+          "games": 3,
+          "rate": 3.8
+        },
+        {
+          "champion": "Jayce",
+          "games": 2,
+          "rate": 2.5
+        },
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 2.5
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 1.3
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "rate": 1.3
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 1.3
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 19,
+          "picks": [
+            {
+              "champion": "Syndra",
+              "games": 11,
+              "rate": 57.9
+            },
+            {
+              "champion": "Malphite",
+              "games": 3,
+              "rate": 15.8
+            },
+            {
+              "champion": "Annie",
+              "games": 2,
+              "rate": 10.5
+            },
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 5.3
+            },
+            {
+              "champion": "Riven",
+              "games": 1,
+              "rate": 5.3
+            },
+            {
+              "champion": "Ryze",
+              "games": 1,
+              "rate": 5.3
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Locke",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Zed",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Syndra",
+              "games": 12,
+              "rate": 92.3
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 7.7
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Sona",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
+        }
+      }
+    },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 45,
+      "mainLaneGames": 46,
       "mainLaneNext": [
         {
           "champion": "Hwei",
           "games": 2,
-          "rate": 4.4
+          "rate": 4.3
         },
         {
           "champion": "Kaisa",
@@ -139,11 +322,11 @@
           ]
         },
         "MID": {
-          "games": 9,
+          "games": 8,
           "picks": [
             {
               "champion": "Syndra",
-              "games": 9,
+              "games": 8,
               "rate": 100.0
             }
           ]
@@ -153,80 +336,18 @@
           "picks": [
             {
               "champion": "Sona",
-              "games": 11,
-              "rate": 52.4
+              "games": 12,
+              "rate": 57.1
             },
             {
               "champion": "Seraphine",
-              "games": 9,
-              "rate": 42.9
+              "games": 8,
+              "rate": 38.1
             },
             {
               "champion": "Pyke",
               "games": 1,
               "rate": 4.8
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 24,
-      "mainLaneNext": [
-        {
-          "champion": "Lux",
-          "games": 2,
-          "rate": 8.3
-        },
-        {
-          "champion": "Ahri",
-          "games": 1,
-          "rate": 4.2
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 7,
-          "picks": [
-            {
-              "champion": "Syndra",
-              "games": 6,
-              "rate": 85.7
-            },
-            {
-              "champion": "Irelia",
-              "games": 1,
-              "rate": 14.3
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Syndra",
-              "games": 7,
-              "rate": 87.5
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 12.5
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Nami",
-              "games": 1,
-              "rate": 100.0
             }
           ]
         }

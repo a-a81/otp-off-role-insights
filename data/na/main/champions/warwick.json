@@ -3,17 +3,11 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Warwick",
-  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
+  "updatedAt": "2026-11-14T19:40:23.171207+00:00",
   "mainLane": "TOP",
   "players": 1,
   "mainLaneGames": 35,
-  "mainLaneNext": [
-    {
-      "champion": "DrMundo",
-      "games": 1,
-      "rate": 2.9
-    }
-  ],
+  "mainLaneNext": [],
   "offLanes": {
     "JUNGLE": {
       "games": 1,
@@ -29,43 +23,32 @@
       "games": 2,
       "picks": [
         {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 50.0
-        },
-        {
           "champion": "Warwick",
-          "games": 1,
-          "rate": 50.0
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Warwick",
-          "games": 1,
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
-    "UTILITY": {
+    "BOTTOM": {
       "games": 0,
       "picks": []
+    },
+    "UTILITY": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Senna",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "TOP": {
       "players": 1,
       "mainLaneGames": 35,
-      "mainLaneNext": [
-        {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 2.9
-        }
-      ],
+      "mainLaneNext": [],
       "offLanes": {
         "JUNGLE": {
           "games": 1,
@@ -81,30 +64,25 @@
           "games": 2,
           "picks": [
             {
-              "champion": "DrMundo",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
               "champion": "Warwick",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Warwick",
-              "games": 1,
+              "games": 2,
               "rate": 100.0
             }
           ]
         },
-        "UTILITY": {
+        "BOTTOM": {
           "games": 0,
           "picks": []
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Senna",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

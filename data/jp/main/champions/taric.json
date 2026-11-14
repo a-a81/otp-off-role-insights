@@ -3,20 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taric",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "UTILITY",
   "players": 8,
-  "mainLaneGames": 289,
+  "mainLaneGames": 288,
   "mainLaneNext": [
-    {
-      "champion": "Leona",
-      "games": 13,
-      "rate": 4.5
-    },
     {
       "champion": "Nautilus",
       "games": 13,
       "rate": 4.5
+    },
+    {
+      "champion": "Leona",
+      "games": 12,
+      "rate": 4.2
     },
     {
       "champion": "Rell",
@@ -30,11 +30,6 @@
     },
     {
       "champion": "Alistar",
-      "games": 5,
-      "rate": 1.7
-    },
-    {
-      "champion": "Karthus",
       "games": 5,
       "rate": 1.7
     },
@@ -69,6 +64,11 @@
       "rate": 1.0
     },
     {
+      "champion": "Karthus",
+      "games": 3,
+      "rate": 1.0
+    },
+    {
       "champion": "Pantheon",
       "games": 3,
       "rate": 1.0
@@ -77,11 +77,6 @@
       "champion": "Pyke",
       "games": 3,
       "rate": 1.0
-    },
-    {
-      "champion": "Bard",
-      "games": 2,
-      "rate": 0.7
     },
     {
       "champion": "Lulu",
@@ -104,6 +99,11 @@
       "rate": 0.7
     },
     {
+      "champion": "Bard",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
       "champion": "Blitzcrank",
       "games": 1,
       "rate": 0.3
@@ -115,6 +115,11 @@
     },
     {
       "champion": "Sona",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
+      "champion": "Soraka",
       "games": 1,
       "rate": 0.3
     },
@@ -229,17 +234,17 @@
   "byMainLane": {
     "UTILITY": {
       "players": 8,
-      "mainLaneGames": 289,
+      "mainLaneGames": 288,
       "mainLaneNext": [
-        {
-          "champion": "Leona",
-          "games": 13,
-          "rate": 4.5
-        },
         {
           "champion": "Nautilus",
           "games": 13,
           "rate": 4.5
+        },
+        {
+          "champion": "Leona",
+          "games": 12,
+          "rate": 4.2
         },
         {
           "champion": "Rell",
@@ -253,11 +258,6 @@
         },
         {
           "champion": "Alistar",
-          "games": 5,
-          "rate": 1.7
-        },
-        {
-          "champion": "Karthus",
           "games": 5,
           "rate": 1.7
         },
@@ -292,6 +292,11 @@
           "rate": 1.0
         },
         {
+          "champion": "Karthus",
+          "games": 3,
+          "rate": 1.0
+        },
+        {
           "champion": "Pantheon",
           "games": 3,
           "rate": 1.0
@@ -300,11 +305,6 @@
           "champion": "Pyke",
           "games": 3,
           "rate": 1.0
-        },
-        {
-          "champion": "Bard",
-          "games": 2,
-          "rate": 0.7
         },
         {
           "champion": "Lulu",
@@ -327,6 +327,11 @@
           "rate": 0.7
         },
         {
+          "champion": "Bard",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
           "champion": "Blitzcrank",
           "games": 1,
           "rate": 0.3
@@ -338,6 +343,11 @@
         },
         {
           "champion": "Sona",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
+          "champion": "Soraka",
           "games": 1,
           "rate": 0.3
         },
@@ -452,12 +462,12 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 35,
+      "mainLaneGames": 36,
       "mainLaneNext": [
         {
           "champion": "Darius",
           "games": 3,
-          "rate": 8.6
+          "rate": 8.3
         }
       ],
       "offLanes": {
@@ -486,11 +496,11 @@
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Taric",
-              "games": 2,
+              "games": 1,
               "rate": 100.0
             }
           ]

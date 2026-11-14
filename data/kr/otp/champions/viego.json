@@ -3,45 +3,50 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viego",
-  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
+  "updatedAt": "2026-11-14T21:37:18.562412+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 65,
+  "players": 3,
+  "mainLaneGames": 99,
   "mainLaneNext": [
     {
       "champion": "Lillia",
-      "games": 5,
-      "rate": 7.7
+      "games": 12,
+      "rate": 12.1
     },
     {
       "champion": "Ambessa",
       "games": 2,
-      "rate": 3.1
+      "rate": 2.0
     },
     {
       "champion": "Darius",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.0
     },
     {
       "champion": "Graves",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.0
     },
     {
       "champion": "Locke",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 2,
       "picks": [
         {
           "champion": "Renekton",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 50.0
         }
       ]
     },
@@ -71,70 +76,80 @@
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 7,
       "picks": [
         {
           "champion": "Kaisa",
-          "games": 4,
-          "rate": 80.0
+          "games": 6,
+          "rate": 85.7
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 3,
       "picks": [
         {
           "champion": "Nautilus",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Braum",
           "games": 1,
-          "rate": 100.0
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 65,
+      "players": 3,
+      "mainLaneGames": 99,
       "mainLaneNext": [
         {
           "champion": "Lillia",
-          "games": 5,
-          "rate": 7.7
+          "games": 12,
+          "rate": 12.1
         },
         {
           "champion": "Ambessa",
           "games": 2,
-          "rate": 3.1
+          "rate": 2.0
         },
         {
           "champion": "Darius",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.0
         },
         {
           "champion": "Graves",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.0
         },
         {
           "champion": "Locke",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 2,
           "picks": [
             {
               "champion": "Renekton",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 50.0
             }
           ]
         },
@@ -164,27 +179,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 7,
           "picks": [
             {
               "champion": "Kaisa",
-              "games": 4,
-              "rate": 80.0
+              "games": 6,
+              "rate": 85.7
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 20.0
+              "rate": 14.3
             }
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
               "champion": "Nautilus",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Braum",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         }

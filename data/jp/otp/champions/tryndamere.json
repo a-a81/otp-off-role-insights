@@ -3,16 +3,11 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tryndamere",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "TOP",
   "players": 6,
-  "mainLaneGames": 191,
+  "mainLaneGames": 193,
   "mainLaneNext": [
-    {
-      "champion": "Malphite",
-      "games": 3,
-      "rate": 1.6
-    },
     {
       "champion": "Jax",
       "games": 2,
@@ -20,6 +15,11 @@
     },
     {
       "champion": "Kayle",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "Malphite",
       "games": 2,
       "rate": 1.0
     },
@@ -116,32 +116,32 @@
       ]
     },
     "BOTTOM": {
-      "games": 12,
+      "games": 11,
       "picks": [
         {
           "champion": "KogMaw",
-          "games": 7,
-          "rate": 58.3
+          "games": 6,
+          "rate": 54.5
         },
         {
           "champion": "AurelionSol",
           "games": 2,
-          "rate": 16.7
+          "rate": 18.2
         },
         {
           "champion": "Tryndamere",
           "games": 1,
-          "rate": 8.3
+          "rate": 9.1
         },
         {
           "champion": "Viktor",
           "games": 1,
-          "rate": 8.3
+          "rate": 9.1
         },
         {
           "champion": "Xayah",
           "games": 1,
-          "rate": 8.3
+          "rate": 9.1
         }
       ]
     },
@@ -189,13 +189,8 @@
   "byMainLane": {
     "TOP": {
       "players": 6,
-      "mainLaneGames": 191,
+      "mainLaneGames": 193,
       "mainLaneNext": [
-        {
-          "champion": "Malphite",
-          "games": 3,
-          "rate": 1.6
-        },
         {
           "champion": "Jax",
           "games": 2,
@@ -203,6 +198,11 @@
         },
         {
           "champion": "Kayle",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "Malphite",
           "games": 2,
           "rate": 1.0
         },
@@ -299,32 +299,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 12,
+          "games": 11,
           "picks": [
             {
               "champion": "KogMaw",
-              "games": 7,
-              "rate": 58.3
+              "games": 6,
+              "rate": 54.5
             },
             {
               "champion": "AurelionSol",
               "games": 2,
-              "rate": 16.7
+              "rate": 18.2
             },
             {
               "champion": "Tryndamere",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             },
             {
               "champion": "Xayah",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             }
           ]
         },
@@ -372,26 +372,37 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 27,
-      "mainLaneNext": [],
+      "mainLaneGames": 28,
+      "mainLaneNext": [
+        {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 3.6
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 12,
+          "games": 11,
           "picks": [
             {
               "champion": "Tryndamere",
-              "games": 10,
-              "rate": 83.3
+              "games": 8,
+              "rate": 72.7
+            },
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 9.1
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             }
           ]
         },

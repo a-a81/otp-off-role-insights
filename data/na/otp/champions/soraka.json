@@ -3,21 +3,27 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Soraka",
-  "updatedAt": "2026-11-13T19:39:44.683911+00:00",
+  "updatedAt": "2026-11-14T19:40:23.171207+00:00",
   "mainLane": "UTILITY",
   "players": 1,
-  "mainLaneGames": 39,
+  "mainLaneGames": 37,
   "mainLaneNext": [
     {
       "champion": "Nami",
-      "games": 1,
-      "rate": 2.6
+      "games": 2,
+      "rate": 5.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
       "games": 0,
@@ -28,12 +34,17 @@
       "picks": []
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Xayah",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     }
@@ -41,18 +52,24 @@
   "byMainLane": {
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 39,
+      "mainLaneGames": 37,
       "mainLaneNext": [
         {
           "champion": "Nami",
-          "games": 1,
-          "rate": 2.6
+          "games": 2,
+          "rate": 5.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,
@@ -63,12 +80,17 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Xayah",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         }

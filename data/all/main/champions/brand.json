@@ -3,20 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Brand",
-  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
   "mainLane": "MID",
   "players": 4,
-  "mainLaneGames": 104,
+  "mainLaneGames": 103,
   "mainLaneNext": [
     {
       "champion": "TwistedFate",
-      "games": 9,
-      "rate": 8.7
+      "games": 8,
+      "rate": 7.8
     },
     {
       "champion": "Hwei",
       "games": 4,
-      "rate": 3.8
+      "rate": 3.9
+    },
+    {
+      "champion": "Zed",
+      "games": 4,
+      "rate": 3.9
     },
     {
       "champion": "Leblanc",
@@ -24,27 +29,17 @@
       "rate": 2.9
     },
     {
-      "champion": "Viktor",
+      "champion": "Syndra",
       "games": 3,
       "rate": 2.9
     },
     {
-      "champion": "Zed",
-      "games": 3,
-      "rate": 2.9
-    },
-    {
-      "champion": "Galio",
+      "champion": "Malzahar",
       "games": 2,
       "rate": 1.9
     },
     {
       "champion": "Sylas",
-      "games": 2,
-      "rate": 1.9
-    },
-    {
-      "champion": "Syndra",
       "games": 2,
       "rate": 1.9
     },
@@ -64,17 +59,7 @@
       "rate": 1.0
     },
     {
-      "champion": "Fizz",
-      "games": 1,
-      "rate": 1.0
-    },
-    {
       "champion": "Malphite",
-      "games": 1,
-      "rate": 1.0
-    },
-    {
-      "champion": "Malzahar",
       "games": 1,
       "rate": 1.0
     },
@@ -89,6 +74,11 @@
       "rate": 1.0
     },
     {
+      "champion": "Viktor",
+      "games": 1,
+      "rate": 1.0
+    },
+    {
       "champion": "Xerath",
       "games": 1,
       "rate": 1.0
@@ -96,6 +86,96 @@
   ],
   "offLanes": {
     "TOP": {
+      "games": 16,
+      "picks": [
+        {
+          "champion": "Brand",
+          "games": 7,
+          "rate": 43.8
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 4,
+          "rate": 25.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Gangplank",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Illaoi",
+          "games": 1,
+          "rate": 6.2
+        }
+      ]
+    },
+    "JUNGLE": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 26,
+      "picks": [
+        {
+          "champion": "Brand",
+          "games": 17,
+          "rate": 65.4
+        },
+        {
+          "champion": "Ezreal",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Jhin",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Sivir",
+          "games": 2,
+          "rate": 7.7
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Nilah",
+          "games": 1,
+          "rate": 3.8
+        },
+        {
+          "champion": "Velkoz",
+          "games": 1,
+          "rate": 3.8
+        }
+      ]
+    },
+    "UTILITY": {
       "games": 12,
       "picks": [
         {
@@ -104,119 +184,29 @@
           "rate": 41.7
         },
         {
-          "champion": "Mordekaiser",
-          "games": 4,
-          "rate": 33.3
-        },
-        {
-          "champion": "Illaoi",
-          "games": 1,
-          "rate": 8.3
-        },
-        {
-          "champion": "Ornn",
-          "games": 1,
-          "rate": 8.3
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 8.3
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 3,
-      "picks": [
-        {
-          "champion": "Brand",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "LeeSin",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Talon",
-          "games": 1,
-          "rate": 33.3
-        }
-      ]
-    },
-    "BOTTOM": {
-      "games": 27,
-      "picks": [
-        {
-          "champion": "Brand",
-          "games": 18,
-          "rate": 66.7
-        },
-        {
-          "champion": "Ezreal",
-          "games": 2,
-          "rate": 7.4
-        },
-        {
-          "champion": "Kaisa",
-          "games": 2,
-          "rate": 7.4
-        },
-        {
-          "champion": "Sivir",
-          "games": 2,
-          "rate": 7.4
-        },
-        {
-          "champion": "Jhin",
-          "games": 1,
-          "rate": 3.7
-        },
-        {
-          "champion": "Nilah",
-          "games": 1,
-          "rate": 3.7
-        },
-        {
-          "champion": "Velkoz",
-          "games": 1,
-          "rate": 3.7
-        }
-      ]
-    },
-    "UTILITY": {
-      "games": 13,
-      "picks": [
-        {
-          "champion": "Brand",
-          "games": 6,
-          "rate": 46.2
-        },
-        {
           "champion": "Pyke",
           "games": 2,
-          "rate": 15.4
+          "rate": 16.7
         },
         {
           "champion": "Thresh",
           "games": 2,
-          "rate": 15.4
-        },
-        {
-          "champion": "Milio",
-          "games": 1,
-          "rate": 7.7
+          "rate": 16.7
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 7.7
+          "rate": 8.3
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 7.7
+          "rate": 8.3
+        },
+        {
+          "champion": "Yuumi",
+          "games": 1,
+          "rate": 8.3
         }
       ]
     }
@@ -224,17 +214,22 @@
   "byMainLane": {
     "MID": {
       "players": 4,
-      "mainLaneGames": 104,
+      "mainLaneGames": 103,
       "mainLaneNext": [
         {
           "champion": "TwistedFate",
-          "games": 9,
-          "rate": 8.7
+          "games": 8,
+          "rate": 7.8
         },
         {
           "champion": "Hwei",
           "games": 4,
-          "rate": 3.8
+          "rate": 3.9
+        },
+        {
+          "champion": "Zed",
+          "games": 4,
+          "rate": 3.9
         },
         {
           "champion": "Leblanc",
@@ -242,27 +237,17 @@
           "rate": 2.9
         },
         {
-          "champion": "Viktor",
+          "champion": "Syndra",
           "games": 3,
           "rate": 2.9
         },
         {
-          "champion": "Zed",
-          "games": 3,
-          "rate": 2.9
-        },
-        {
-          "champion": "Galio",
+          "champion": "Malzahar",
           "games": 2,
           "rate": 1.9
         },
         {
           "champion": "Sylas",
-          "games": 2,
-          "rate": 1.9
-        },
-        {
-          "champion": "Syndra",
           "games": 2,
           "rate": 1.9
         },
@@ -282,17 +267,7 @@
           "rate": 1.0
         },
         {
-          "champion": "Fizz",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
           "champion": "Malphite",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Malzahar",
           "games": 1,
           "rate": 1.0
         },
@@ -307,6 +282,11 @@
           "rate": 1.0
         },
         {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
           "champion": "Xerath",
           "games": 1,
           "rate": 1.0
@@ -314,6 +294,96 @@
       ],
       "offLanes": {
         "TOP": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 7,
+              "rate": 43.8
+            },
+            {
+              "champion": "Mordekaiser",
+              "games": 4,
+              "rate": 25.0
+            },
+            {
+              "champion": "Renekton",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Gangplank",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Illaoi",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Talon",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 26,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 17,
+              "rate": 65.4
+            },
+            {
+              "champion": "Ezreal",
+              "games": 2,
+              "rate": 7.7
+            },
+            {
+              "champion": "Jhin",
+              "games": 2,
+              "rate": 7.7
+            },
+            {
+              "champion": "Sivir",
+              "games": 2,
+              "rate": 7.7
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 3.8
+            },
+            {
+              "champion": "Nilah",
+              "games": 1,
+              "rate": 3.8
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 3.8
+            }
+          ]
+        },
+        "UTILITY": {
           "games": 12,
           "picks": [
             {
@@ -322,128 +392,69 @@
               "rate": 41.7
             },
             {
-              "champion": "Mordekaiser",
-              "games": 4,
-              "rate": 33.3
-            },
-            {
-              "champion": "Illaoi",
-              "games": 1,
-              "rate": 8.3
-            },
-            {
-              "champion": "Ornn",
-              "games": 1,
-              "rate": 8.3
-            },
-            {
-              "champion": "Renekton",
-              "games": 1,
-              "rate": 8.3
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "LeeSin",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Talon",
-              "games": 1,
-              "rate": 33.3
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 27,
-          "picks": [
-            {
-              "champion": "Brand",
-              "games": 18,
-              "rate": 66.7
-            },
-            {
-              "champion": "Ezreal",
-              "games": 2,
-              "rate": 7.4
-            },
-            {
-              "champion": "Kaisa",
-              "games": 2,
-              "rate": 7.4
-            },
-            {
-              "champion": "Sivir",
-              "games": 2,
-              "rate": 7.4
-            },
-            {
-              "champion": "Jhin",
-              "games": 1,
-              "rate": 3.7
-            },
-            {
-              "champion": "Nilah",
-              "games": 1,
-              "rate": 3.7
-            },
-            {
-              "champion": "Velkoz",
-              "games": 1,
-              "rate": 3.7
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 13,
-          "picks": [
-            {
-              "champion": "Brand",
-              "games": 6,
-              "rate": 46.2
-            },
-            {
               "champion": "Pyke",
               "games": 2,
-              "rate": 15.4
+              "rate": 16.7
             },
             {
               "champion": "Thresh",
               "games": 2,
-              "rate": 15.4
-            },
-            {
-              "champion": "Milio",
-              "games": 1,
-              "rate": 7.7
+              "rate": 16.7
             },
             {
               "champion": "Morgana",
               "games": 1,
-              "rate": 7.7
+              "rate": 8.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 7.7
+              "rate": 8.3
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 8.3
             }
           ]
         }
       }
     },
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 35,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 70,
+      "mainLaneNext": [
+        {
+          "champion": "Velkoz",
+          "games": 11,
+          "rate": 15.7
+        },
+        {
+          "champion": "Thresh",
+          "games": 4,
+          "rate": 5.7
+        },
+        {
+          "champion": "Leona",
+          "games": 3,
+          "rate": 4.3
+        },
+        {
+          "champion": "Pyke",
+          "games": 2,
+          "rate": 2.9
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 2.9
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 1.4
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 0,
@@ -454,12 +465,22 @@
           "picks": []
         },
         "MID": {
-          "games": 3,
+          "games": 6,
           "picks": [
             {
               "champion": "Brand",
               "games": 3,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Kennen",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Velkoz",
+              "games": 1,
+              "rate": 16.7
             }
           ]
         },

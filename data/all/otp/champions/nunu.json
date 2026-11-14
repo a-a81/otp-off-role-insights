@@ -3,16 +3,11 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nunu",
-  "updatedAt": "2026-11-13T21:22:33.389056+00:00",
+  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
   "mainLane": "JUNGLE",
   "players": 8,
-  "mainLaneGames": 259,
+  "mainLaneGames": 260,
   "mainLaneNext": [
-    {
-      "champion": "Hecarim",
-      "games": 1,
-      "rate": 0.4
-    },
     {
       "champion": "Lillia",
       "games": 1,
@@ -36,32 +31,27 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 4,
       "picks": [
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Illaoi",
-          "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Nunu",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Teemo",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         }
       ]
     },
@@ -139,13 +129,8 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 8,
-      "mainLaneGames": 259,
+      "mainLaneGames": 260,
       "mainLaneNext": [
-        {
-          "champion": "Hecarim",
-          "games": 1,
-          "rate": 0.4
-        },
         {
           "champion": "Lillia",
           "games": 1,
@@ -169,32 +154,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Galio",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Illaoi",
-              "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Nunu",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Teemo",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         },
@@ -272,8 +252,14 @@
     },
     "MID": {
       "players": 2,
-      "mainLaneGames": 58,
-      "mainLaneNext": [],
+      "mainLaneGames": 57,
+      "mainLaneNext": [
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 1.8
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 1,
@@ -306,27 +292,27 @@
           ]
         },
         "UTILITY": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Nunu",
               "games": 14,
-              "rate": 77.8
+              "rate": 73.7
             },
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 11.1
+              "rate": 10.5
             },
             {
               "champion": "Braum",
-              "games": 1,
-              "rate": 5.6
+              "games": 2,
+              "rate": 10.5
             },
             {
               "champion": "Pyke",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             }
           ]
         }

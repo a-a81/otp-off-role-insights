@@ -3,30 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sivir",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "BOTTOM",
   "players": 3,
-  "mainLaneGames": 90,
+  "mainLaneGames": 84,
   "mainLaneNext": [
     {
       "champion": "Xayah",
       "games": 5,
-      "rate": 5.6
+      "rate": 6.0
     },
     {
       "champion": "Ashe",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.2
     },
     {
       "champion": "Jinx",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.2
     },
     {
       "champion": "Lucian",
       "games": 1,
-      "rate": 1.1
+      "rate": 1.2
     }
   ],
   "offLanes": {
@@ -76,16 +76,22 @@
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 6,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 18,
       "picks": [
         {
           "champion": "Yuumi",
-          "games": 7,
-          "rate": 38.9
+          "games": 6,
+          "rate": 33.3
         },
         {
           "champion": "Swain",
@@ -108,6 +114,11 @@
           "rate": 5.6
         },
         {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
           "champion": "Soraka",
           "games": 1,
           "rate": 5.6
@@ -118,27 +129,27 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 3,
-      "mainLaneGames": 90,
+      "mainLaneGames": 84,
       "mainLaneNext": [
         {
           "champion": "Xayah",
           "games": 5,
-          "rate": 5.6
+          "rate": 6.0
         },
         {
           "champion": "Ashe",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.2
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.2
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 1.1
+          "rate": 1.2
         }
       ],
       "offLanes": {
@@ -188,16 +199,22 @@
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 6,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 18,
           "picks": [
             {
               "champion": "Yuumi",
-              "games": 7,
-              "rate": 38.9
+              "games": 6,
+              "rate": 33.3
             },
             {
               "champion": "Swain",
@@ -216,6 +233,11 @@
             },
             {
               "champion": "Ashe",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Shen",
               "games": 1,
               "rate": 5.6
             },

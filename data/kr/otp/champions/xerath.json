@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Xerath",
-  "updatedAt": "2026-11-13T21:22:30.578207+00:00",
+  "updatedAt": "2026-11-14T21:37:18.562412+00:00",
   "mainLane": "BOTTOM",
   "players": 3,
   "mainLaneGames": 82,
@@ -12,46 +12,46 @@
       "champion": "Hwei",
       "games": 1,
       "rate": 1.2
+    },
+    {
+      "champion": "Karthus",
+      "games": 1,
+      "rate": 1.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 5,
+      "games": 6,
       "picks": [
+        {
+          "champion": "Nasus",
+          "games": 3,
+          "rate": 50.0
+        },
         {
           "champion": "Malphite",
           "games": 2,
-          "rate": 40.0
-        },
-        {
-          "champion": "Nasus",
-          "games": 2,
-          "rate": 40.0
+          "rate": 33.3
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "JarvanIV",
           "games": 2,
-          "rate": 50.0
+          "rate": 66.7
         },
         {
           "champion": "LeeSin",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Vi",
-          "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         }
       ]
     },
@@ -130,46 +130,46 @@
           "champion": "Hwei",
           "games": 1,
           "rate": 1.2
+        },
+        {
+          "champion": "Karthus",
+          "games": 1,
+          "rate": 1.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 5,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Nasus",
+              "games": 3,
+              "rate": 50.0
+            },
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 40.0
-            },
-            {
-              "champion": "Nasus",
-              "games": 2,
-              "rate": 40.0
+              "rate": 33.3
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "JarvanIV",
               "games": 2,
-              "rate": 50.0
+              "rate": 66.7
             },
             {
               "champion": "LeeSin",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Vi",
-              "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         },
@@ -242,17 +242,17 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 16,
+      "mainLaneGames": 17,
       "mainLaneNext": [
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         }
       ],
       "offLanes": {
@@ -286,17 +286,17 @@
           ]
         },
         "UTILITY": {
-          "games": 6,
+          "games": 5,
           "picks": [
-            {
-              "champion": "Maokai",
-              "games": 3,
-              "rate": 50.0
-            },
             {
               "champion": "Nautilus",
               "games": 3,
-              "rate": 50.0
+              "rate": 60.0
+            },
+            {
+              "champion": "Maokai",
+              "games": 2,
+              "rate": 40.0
             }
           ]
         }

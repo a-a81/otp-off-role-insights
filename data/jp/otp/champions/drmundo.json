@@ -3,50 +3,55 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "DrMundo",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 65,
+  "mainLaneGames": 61,
   "mainLaneNext": [
     {
       "champion": "Tryndamere",
+      "games": 3,
+      "rate": 4.9
+    },
+    {
+      "champion": "Jax",
       "games": 2,
-      "rate": 3.1
+      "rate": 3.3
     },
     {
       "champion": "Darius",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.6
     },
     {
       "champion": "Garen",
       "games": 1,
-      "rate": 1.5
+      "rate": 1.6
     },
     {
-      "champion": "Jax",
+      "champion": "Nasus",
       "games": 1,
-      "rate": 1.5
-    },
-    {
-      "champion": "Kayle",
-      "games": 1,
-      "rate": 1.5
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "DrMundo",
           "games": 4,
-          "rate": 50.0
+          "rate": 44.4
         },
         {
           "champion": "Zyra",
           "games": 4,
-          "rate": 50.0
+          "rate": 44.4
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
@@ -61,8 +66,14 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 4,
@@ -88,47 +99,52 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 65,
+      "mainLaneGames": 61,
       "mainLaneNext": [
         {
           "champion": "Tryndamere",
+          "games": 3,
+          "rate": 4.9
+        },
+        {
+          "champion": "Jax",
           "games": 2,
-          "rate": 3.1
+          "rate": 3.3
         },
         {
           "champion": "Darius",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.6
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 1.5
+          "rate": 1.6
         },
         {
-          "champion": "Jax",
+          "champion": "Nasus",
           "games": 1,
-          "rate": 1.5
-        },
-        {
-          "champion": "Kayle",
-          "games": 1,
-          "rate": 1.5
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "DrMundo",
               "games": 4,
-              "rate": 50.0
+              "rate": 44.4
             },
             {
               "champion": "Zyra",
               "games": 4,
-              "rate": 50.0
+              "rate": 44.4
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
@@ -143,8 +159,14 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 4,

@@ -3,68 +3,73 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ivern",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "JUNGLE",
-  "players": 9,
-  "mainLaneGames": 253,
+  "players": 10,
+  "mainLaneGames": 284,
   "mainLaneNext": [
+    {
+      "champion": "Maokai",
+      "games": 10,
+      "rate": 3.5
+    },
     {
       "champion": "Naafiri",
       "games": 10,
-      "rate": 4.0
+      "rate": 3.5
     },
     {
       "champion": "Skarner",
       "games": 10,
-      "rate": 4.0
-    },
-    {
-      "champion": "Graves",
-      "games": 7,
-      "rate": 2.8
+      "rate": 3.5
     },
     {
       "champion": "Nocturne",
       "games": 7,
-      "rate": 2.8
+      "rate": 2.5
+    },
+    {
+      "champion": "Graves",
+      "games": 6,
+      "rate": 2.1
     },
     {
       "champion": "Sejuani",
       "games": 5,
-      "rate": 2.0
+      "rate": 1.8
     },
     {
       "champion": "Zac",
       "games": 4,
-      "rate": 1.6
+      "rate": 1.4
     },
     {
       "champion": "Lillia",
       "games": 3,
-      "rate": 1.2
+      "rate": 1.1
     },
     {
       "champion": "Shyvana",
       "games": 3,
-      "rate": 1.2
+      "rate": 1.1
     },
     {
       "champion": "Zed",
       "games": 3,
-      "rate": 1.2
+      "rate": 1.1
     },
     {
       "champion": "JarvanIV",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Zyra",
       "games": 2,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
-      "champion": "Maokai",
+      "champion": "Karthus",
       "games": 1,
       "rate": 0.4
     },
@@ -91,42 +96,47 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 24,
+      "games": 25,
       "picks": [
         {
           "champion": "Illaoi",
           "games": 10,
-          "rate": 41.7
+          "rate": 40.0
         },
         {
           "champion": "Malphite",
           "games": 8,
-          "rate": 33.3
+          "rate": 32.0
         },
         {
           "champion": "Ivern",
           "games": 2,
-          "rate": 8.3
+          "rate": 8.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
+        },
+        {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 4.0
         },
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
         },
         {
           "champion": "Shen",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
         },
         {
           "champion": "Teemo",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.0
         }
       ]
     },
@@ -137,6 +147,11 @@
           "champion": "Taliyah",
           "games": 5,
           "rate": 31.2
+        },
+        {
+          "champion": "Malzahar",
+          "games": 2,
+          "rate": 12.5
         },
         {
           "champion": "Zed",
@@ -164,22 +179,12 @@
           "rate": 6.2
         },
         {
-          "champion": "Ivern",
-          "games": 1,
-          "rate": 6.2
-        },
-        {
           "champion": "Kassadin",
           "games": 1,
           "rate": 6.2
         },
         {
           "champion": "Malphite",
-          "games": 1,
-          "rate": 6.2
-        },
-        {
-          "champion": "Malzahar",
           "games": 1,
           "rate": 6.2
         },
@@ -191,32 +196,47 @@
       ]
     },
     "BOTTOM": {
-      "games": 27,
+      "games": 35,
       "picks": [
         {
           "champion": "Lucian",
           "games": 15,
-          "rate": 55.6
+          "rate": 42.9
         },
         {
           "champion": "Jhin",
-          "games": 5,
-          "rate": 18.5
+          "games": 9,
+          "rate": 25.7
         },
         {
           "champion": "Mel",
           "games": 4,
-          "rate": 14.8
+          "rate": 11.4
         },
         {
           "champion": "Sivir",
-          "games": 2,
-          "rate": 7.4
+          "games": 3,
+          "rate": 8.6
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 2.9
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 3.7
+          "rate": 2.9
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 2.9
         }
       ]
     },
@@ -298,66 +318,71 @@
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 9,
-      "mainLaneGames": 253,
+      "players": 10,
+      "mainLaneGames": 284,
       "mainLaneNext": [
+        {
+          "champion": "Maokai",
+          "games": 10,
+          "rate": 3.5
+        },
         {
           "champion": "Naafiri",
           "games": 10,
-          "rate": 4.0
+          "rate": 3.5
         },
         {
           "champion": "Skarner",
           "games": 10,
-          "rate": 4.0
-        },
-        {
-          "champion": "Graves",
-          "games": 7,
-          "rate": 2.8
+          "rate": 3.5
         },
         {
           "champion": "Nocturne",
           "games": 7,
-          "rate": 2.8
+          "rate": 2.5
+        },
+        {
+          "champion": "Graves",
+          "games": 6,
+          "rate": 2.1
         },
         {
           "champion": "Sejuani",
           "games": 5,
-          "rate": 2.0
+          "rate": 1.8
         },
         {
           "champion": "Zac",
           "games": 4,
-          "rate": 1.6
+          "rate": 1.4
         },
         {
           "champion": "Lillia",
           "games": 3,
-          "rate": 1.2
+          "rate": 1.1
         },
         {
           "champion": "Shyvana",
           "games": 3,
-          "rate": 1.2
+          "rate": 1.1
         },
         {
           "champion": "Zed",
           "games": 3,
-          "rate": 1.2
+          "rate": 1.1
         },
         {
           "champion": "JarvanIV",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Zyra",
           "games": 2,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
-          "champion": "Maokai",
+          "champion": "Karthus",
           "games": 1,
           "rate": 0.4
         },
@@ -384,42 +409,47 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 24,
+          "games": 25,
           "picks": [
             {
               "champion": "Illaoi",
               "games": 10,
-              "rate": 41.7
+              "rate": 40.0
             },
             {
               "champion": "Malphite",
               "games": 8,
-              "rate": 33.3
+              "rate": 32.0
             },
             {
               "champion": "Ivern",
               "games": 2,
-              "rate": 8.3
+              "rate": 8.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
+            },
+            {
+              "champion": "Maokai",
+              "games": 1,
+              "rate": 4.0
             },
             {
               "champion": "Ornn",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
             },
             {
               "champion": "Shen",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
             },
             {
               "champion": "Teemo",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.0
             }
           ]
         },
@@ -430,6 +460,11 @@
               "champion": "Taliyah",
               "games": 5,
               "rate": 31.2
+            },
+            {
+              "champion": "Malzahar",
+              "games": 2,
+              "rate": 12.5
             },
             {
               "champion": "Zed",
@@ -457,22 +492,12 @@
               "rate": 6.2
             },
             {
-              "champion": "Ivern",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
               "champion": "Kassadin",
               "games": 1,
               "rate": 6.2
             },
             {
               "champion": "Malphite",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Malzahar",
               "games": 1,
               "rate": 6.2
             },
@@ -484,32 +509,47 @@
           ]
         },
         "BOTTOM": {
-          "games": 27,
+          "games": 35,
           "picks": [
             {
               "champion": "Lucian",
               "games": 15,
-              "rate": 55.6
+              "rate": 42.9
             },
             {
               "champion": "Jhin",
-              "games": 5,
-              "rate": 18.5
+              "games": 9,
+              "rate": 25.7
             },
             {
               "champion": "Mel",
               "games": 4,
-              "rate": 14.8
+              "rate": 11.4
             },
             {
               "champion": "Sivir",
-              "games": 2,
-              "rate": 7.4
+              "games": 3,
+              "rate": 8.6
+            },
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 2.9
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 3.7
+              "rate": 2.9
+            },
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 2.9
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 2.9
             }
           ]
         },

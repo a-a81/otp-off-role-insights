@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Veigar",
-  "updatedAt": "2026-11-13T20:43:03.559529+00:00",
+  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 61,
@@ -150,27 +150,22 @@
     },
     "MID": {
       "players": 2,
-      "mainLaneGames": 59,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "Viktor",
-          "games": 2,
-          "rate": 3.4
+          "games": 3,
+          "rate": 5.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Ambessa",
-              "games": 1,
-              "rate": 50.0
-            },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         },
@@ -223,28 +218,23 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 18,
+      "mainLaneGames": 15,
       "mainLaneNext": [
         {
           "champion": "Zyra",
-          "games": 2,
-          "rate": 11.1
-        },
-        {
-          "champion": "Jayce",
           "games": 1,
-          "rate": 5.6
-        },
-        {
-          "champion": "Tryndamere",
-          "games": 1,
-          "rate": 5.6
+          "rate": 6.7
         }
       ],
       "offLanes": {
         "JUNGLE": {
           "games": 4,
           "picks": [
+            {
+              "champion": "Hecarim",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "Kayn",
               "games": 1,
@@ -256,11 +246,6 @@
               "rate": 25.0
             },
             {
-              "champion": "Lillia",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
               "champion": "Zyra",
               "games": 1,
               "rate": 25.0
@@ -268,82 +253,82 @@
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 9,
           "picks": [
             {
               "champion": "Veigar",
-              "games": 3,
-              "rate": 50.0
+              "games": 6,
+              "rate": 66.7
             },
             {
               "champion": "Anivia",
               "games": 1,
-              "rate": 16.7
+              "rate": 11.1
             },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 16.7
+              "rate": 11.1
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 16.7
+              "rate": 11.1
             }
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Smolder",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 10,
+          "games": 11,
           "picks": [
-            {
-              "champion": "Lux",
-              "games": 2,
-              "rate": 20.0
-            },
             {
               "champion": "Senna",
               "games": 2,
-              "rate": 20.0
+              "rate": 18.2
+            },
+            {
+              "champion": "Thresh",
+              "games": 2,
+              "rate": 18.2
             },
             {
               "champion": "Veigar",
               "games": 2,
-              "rate": 20.0
+              "rate": 18.2
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 9.1
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 10.0
+              "rate": 9.1
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 9.1
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Thresh",
-              "games": 1,
-              "rate": 10.0
+              "rate": 9.1
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 10.0
+              "rate": 9.1
             }
           ]
         }
