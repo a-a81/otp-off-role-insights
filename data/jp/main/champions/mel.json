@@ -3,15 +3,15 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 53,
   "mainLaneNext": [
     {
       "champion": "Swain",
-      "games": 9,
-      "rate": 17.0
+      "games": 8,
+      "rate": 15.1
     },
     {
       "champion": "Annie",
@@ -108,8 +108,8 @@
       "mainLaneNext": [
         {
           "champion": "Swain",
-          "games": 9,
-          "rate": 17.0
+          "games": 8,
+          "rate": 15.1
         },
         {
           "champion": "Annie",
@@ -201,138 +201,83 @@
       }
     },
     "MID": {
-      "players": 2,
-      "mainLaneGames": 46,
+      "players": 1,
+      "mainLaneGames": 28,
       "mainLaneNext": [
         {
-          "champion": "Ahri",
-          "games": 7,
-          "rate": 15.2
-        },
-        {
           "champion": "Lux",
-          "games": 5,
-          "rate": 10.9
-        },
-        {
-          "champion": "Chogath",
-          "games": 2,
-          "rate": 4.3
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 2.2
+          "games": 6,
+          "rate": 21.4
         },
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 2.2
+          "rate": 3.6
         },
         {
           "champion": "Veigar",
           "games": 1,
-          "rate": 2.2
+          "rate": 3.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Chogath",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Mordekaiser",
-              "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
         "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Brand",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
           "games": 4,
           "picks": [
             {
-              "champion": "Chogath",
+              "champion": "Mel",
               "games": 3,
               "rate": 75.0
             },
             {
-              "champion": "Brand",
+              "champion": "Lux",
               "games": 1,
               "rate": 25.0
             }
           ]
         },
-        "BOTTOM": {
-          "games": 13,
-          "picks": [
-            {
-              "champion": "Mel",
-              "games": 7,
-              "rate": 53.8
-            },
-            {
-              "champion": "Ezreal",
-              "games": 2,
-              "rate": 15.4
-            },
-            {
-              "champion": "MissFortune",
-              "games": 2,
-              "rate": 15.4
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 7.7
-            },
-            {
-              "champion": "Samira",
-              "games": 1,
-              "rate": 7.7
-            }
-          ]
-        },
         "UTILITY": {
-          "games": 11,
+          "games": 4,
           "picks": [
-            {
-              "champion": "Morgana",
-              "games": 3,
-              "rate": 27.3
-            },
-            {
-              "champion": "Nami",
-              "games": 3,
-              "rate": 27.3
-            },
-            {
-              "champion": "Anivia",
-              "games": 2,
-              "rate": 18.2
-            },
             {
               "champion": "Janna",
               "games": 1,
-              "rate": 9.1
+              "rate": 25.0
             },
             {
-              "champion": "Lulu",
+              "champion": "Morgana",
               "games": 1,
-              "rate": 9.1
+              "rate": 25.0
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Soraka",
               "games": 1,
-              "rate": 9.1
+              "rate": 25.0
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akali",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "MID",
   "players": 5,
   "mainLaneGames": 145,
@@ -20,11 +20,6 @@
     },
     {
       "champion": "Hwei",
-      "games": 2,
-      "rate": 1.4
-    },
-    {
-      "champion": "Sylas",
       "games": 2,
       "rate": 1.4
     },
@@ -50,6 +45,11 @@
     },
     {
       "champion": "Swain",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
+      "champion": "Sylas",
       "games": 1,
       "rate": 0.7
     }
@@ -212,11 +212,6 @@
           "rate": 1.4
         },
         {
-          "champion": "Sylas",
-          "games": 2,
-          "rate": 1.4
-        },
-        {
           "champion": "Vex",
           "games": 2,
           "rate": 1.4
@@ -238,6 +233,11 @@
         },
         {
           "champion": "Swain",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
+          "champion": "Sylas",
           "games": 1,
           "rate": 0.7
         }
@@ -381,32 +381,53 @@
       }
     },
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 26,
+      "players": 2,
+      "mainLaneGames": 55,
       "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 3.6
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 1.8
+        },
         {
           "champion": "Sett",
           "games": 1,
-          "rate": 3.8
+          "rate": 1.8
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "MasterYi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 11,
+          "games": 15,
           "picks": [
             {
               "champion": "Akali",
-              "games": 9,
-              "rate": 81.8
+              "games": 12,
+              "rate": 80.0
             },
             {
               "champion": "Irelia",
               "games": 2,
-              "rate": 18.2
+              "rate": 13.3
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         },
@@ -415,12 +436,32 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 1,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 20.0
+            },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 100.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }

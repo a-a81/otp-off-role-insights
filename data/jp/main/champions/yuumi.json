@@ -3,55 +3,60 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yuumi",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "UTILITY",
-  "players": 16,
-  "mainLaneGames": 606,
+  "players": 17,
+  "mainLaneGames": 631,
   "mainLaneNext": [
     {
       "champion": "Lulu",
-      "games": 72,
-      "rate": 11.9
+      "games": 76,
+      "rate": 12.0
     },
     {
       "champion": "Soraka",
-      "games": 24,
-      "rate": 4.0
+      "games": 27,
+      "rate": 4.3
+    },
+    {
+      "champion": "Karma",
+      "games": 20,
+      "rate": 3.2
     },
     {
       "champion": "Milio",
       "games": 20,
-      "rate": 3.3
+      "rate": 3.2
     },
     {
       "champion": "Seraphine",
-      "games": 20,
-      "rate": 3.3
-    },
-    {
-      "champion": "Karma",
       "games": 19,
-      "rate": 3.1
-    },
-    {
-      "champion": "Sona",
-      "games": 17,
-      "rate": 2.8
+      "rate": 3.0
     },
     {
       "champion": "Alistar",
       "games": 16,
-      "rate": 2.6
+      "rate": 2.5
     },
     {
       "champion": "Nami",
-      "games": 14,
-      "rate": 2.3
+      "games": 16,
+      "rate": 2.5
+    },
+    {
+      "champion": "Sona",
+      "games": 16,
+      "rate": 2.5
     },
     {
       "champion": "Morgana",
       "games": 9,
-      "rate": 1.5
+      "rate": 1.4
+    },
+    {
+      "champion": "Anivia",
+      "games": 7,
+      "rate": 1.1
     },
     {
       "champion": "Janna",
@@ -60,8 +65,8 @@
     },
     {
       "champion": "Nautilus",
-      "games": 6,
-      "rate": 1.0
+      "games": 5,
+      "rate": 0.8
     },
     {
       "champion": "Rell",
@@ -71,10 +76,10 @@
     {
       "champion": "Zac",
       "games": 4,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
-      "champion": "Leona",
+      "champion": "Braum",
       "games": 3,
       "rate": 0.5
     },
@@ -89,7 +94,7 @@
       "rate": 0.5
     },
     {
-      "champion": "Braum",
+      "champion": "Leona",
       "games": 2,
       "rate": 0.3
     },
@@ -100,6 +105,11 @@
     },
     {
       "champion": "Renata",
+      "games": 2,
+      "rate": 0.3
+    },
+    {
+      "champion": "JarvanIV",
       "games": 1,
       "rate": 0.2
     },
@@ -116,36 +126,62 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
-    },
-    "JUNGLE": {
       "games": 2,
       "picks": [
         {
-          "champion": "Zac",
+          "champion": "Naafiri",
           "games": 2,
           "rate": 100.0
         }
       ]
     },
-    "MID": {
-      "games": 8,
+    "JUNGLE": {
+      "games": 4,
       "picks": [
         {
-          "champion": "Ahri",
-          "games": 4,
+          "champion": "Zac",
+          "games": 2,
           "rate": 50.0
         },
         {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 16,
+      "picks": [
+        {
+          "champion": "Anivia",
+          "games": 8,
+          "rate": 50.0
+        },
+        {
+          "champion": "Ahri",
+          "games": 4,
+          "rate": 25.0
+        },
+        {
           "champion": "Malzahar",
-          "games": 3,
-          "rate": 37.5
+          "games": 2,
+          "rate": 12.5
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1,
+          "rate": 6.2
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 12.5
+          "rate": 6.2
         }
       ]
     },
@@ -192,53 +228,58 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 16,
-      "mainLaneGames": 606,
+      "players": 17,
+      "mainLaneGames": 631,
       "mainLaneNext": [
         {
           "champion": "Lulu",
-          "games": 72,
-          "rate": 11.9
+          "games": 76,
+          "rate": 12.0
         },
         {
           "champion": "Soraka",
-          "games": 24,
-          "rate": 4.0
+          "games": 27,
+          "rate": 4.3
+        },
+        {
+          "champion": "Karma",
+          "games": 20,
+          "rate": 3.2
         },
         {
           "champion": "Milio",
           "games": 20,
-          "rate": 3.3
+          "rate": 3.2
         },
         {
           "champion": "Seraphine",
-          "games": 20,
-          "rate": 3.3
-        },
-        {
-          "champion": "Karma",
           "games": 19,
-          "rate": 3.1
-        },
-        {
-          "champion": "Sona",
-          "games": 17,
-          "rate": 2.8
+          "rate": 3.0
         },
         {
           "champion": "Alistar",
           "games": 16,
-          "rate": 2.6
+          "rate": 2.5
         },
         {
           "champion": "Nami",
-          "games": 14,
-          "rate": 2.3
+          "games": 16,
+          "rate": 2.5
+        },
+        {
+          "champion": "Sona",
+          "games": 16,
+          "rate": 2.5
         },
         {
           "champion": "Morgana",
           "games": 9,
-          "rate": 1.5
+          "rate": 1.4
+        },
+        {
+          "champion": "Anivia",
+          "games": 7,
+          "rate": 1.1
         },
         {
           "champion": "Janna",
@@ -247,8 +288,8 @@
         },
         {
           "champion": "Nautilus",
-          "games": 6,
-          "rate": 1.0
+          "games": 5,
+          "rate": 0.8
         },
         {
           "champion": "Rell",
@@ -258,10 +299,10 @@
         {
           "champion": "Zac",
           "games": 4,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
-          "champion": "Leona",
+          "champion": "Braum",
           "games": 3,
           "rate": 0.5
         },
@@ -276,7 +317,7 @@
           "rate": 0.5
         },
         {
-          "champion": "Braum",
+          "champion": "Leona",
           "games": 2,
           "rate": 0.3
         },
@@ -287,6 +328,11 @@
         },
         {
           "champion": "Renata",
+          "games": 2,
+          "rate": 0.3
+        },
+        {
+          "champion": "JarvanIV",
           "games": 1,
           "rate": 0.2
         },
@@ -303,36 +349,62 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
           "games": 2,
           "picks": [
             {
-              "champion": "Zac",
+              "champion": "Naafiri",
               "games": 2,
               "rate": 100.0
             }
           ]
         },
-        "MID": {
-          "games": 8,
+        "JUNGLE": {
+          "games": 4,
           "picks": [
             {
-              "champion": "Ahri",
-              "games": 4,
+              "champion": "Zac",
+              "games": 2,
               "rate": 50.0
             },
             {
+              "champion": "AurelionSol",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Anivia",
+              "games": 8,
+              "rate": 50.0
+            },
+            {
+              "champion": "Ahri",
+              "games": 4,
+              "rate": 25.0
+            },
+            {
               "champion": "Malzahar",
-              "games": 3,
-              "rate": 37.5
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Naafiri",
+              "games": 1,
+              "rate": 6.2
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 12.5
+              "rate": 6.2
             }
           ]
         },

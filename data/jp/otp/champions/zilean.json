@@ -3,30 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zilean",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "UTILITY",
-  "players": 6,
-  "mainLaneGames": 224,
+  "players": 7,
+  "mainLaneGames": 258,
   "mainLaneNext": [
-    {
-      "champion": "Braum",
-      "games": 4,
-      "rate": 1.8
-    },
     {
       "champion": "Leona",
       "games": 4,
-      "rate": 1.8
+      "rate": 1.6
+    },
+    {
+      "champion": "Nautilus",
+      "games": 4,
+      "rate": 1.6
+    },
+    {
+      "champion": "Braum",
+      "games": 3,
+      "rate": 1.2
+    },
+    {
+      "champion": "Soraka",
+      "games": 3,
+      "rate": 1.2
     },
     {
       "champion": "Alistar",
       "games": 2,
-      "rate": 0.9
+      "rate": 0.8
     },
     {
-      "champion": "Nautilus",
+      "champion": "Seraphine",
       "games": 2,
-      "rate": 0.9
+      "rate": 0.8
+    },
+    {
+      "champion": "Thresh",
+      "games": 2,
+      "rate": 0.8
     },
     {
       "champion": "Blitzcrank",
@@ -45,11 +60,6 @@
     },
     {
       "champion": "Rell",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Seraphine",
       "games": 1,
       "rate": 0.4
     },
@@ -81,69 +91,95 @@
       ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 4,
+      "games": 1,
       "picks": [
         {
-          "champion": "Ahri",
+          "champion": "Darius",
           "games": 1,
-          "rate": 25.0
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Vladimir",
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Zilean",
+          "games": 2,
+          "rate": 33.3
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 25.0
+          "rate": 16.7
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Zilean",
-          "games": 1,
-          "rate": 25.0
+          "rate": 16.7
         }
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Zilean",
           "games": 4,
-          "rate": 100.0
+          "rate": 80.0
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 6,
-      "mainLaneGames": 224,
+      "players": 7,
+      "mainLaneGames": 258,
       "mainLaneNext": [
-        {
-          "champion": "Braum",
-          "games": 4,
-          "rate": 1.8
-        },
         {
           "champion": "Leona",
           "games": 4,
-          "rate": 1.8
+          "rate": 1.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 4,
+          "rate": 1.6
+        },
+        {
+          "champion": "Braum",
+          "games": 3,
+          "rate": 1.2
+        },
+        {
+          "champion": "Soraka",
+          "games": 3,
+          "rate": 1.2
         },
         {
           "champion": "Alistar",
           "games": 2,
-          "rate": 0.9
+          "rate": 0.8
         },
         {
-          "champion": "Nautilus",
+          "champion": "Seraphine",
           "games": 2,
-          "rate": 0.9
+          "rate": 0.8
+        },
+        {
+          "champion": "Thresh",
+          "games": 2,
+          "rate": 0.8
         },
         {
           "champion": "Blitzcrank",
@@ -162,11 +198,6 @@
         },
         {
           "champion": "Rell",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Seraphine",
           "games": 1,
           "rate": 0.4
         },
@@ -198,41 +229,52 @@
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
             {
-              "champion": "Ahri",
+              "champion": "Darius",
               "games": 1,
-              "rate": 25.0
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Vladimir",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Zilean",
+              "games": 2,
+              "rate": 33.3
             },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 25.0
+              "rate": 16.7
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Zilean",
-              "games": 1,
-              "rate": 25.0
+              "rate": 16.7
             }
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Zilean",
               "games": 4,
-              "rate": 100.0
+              "rate": 80.0
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }

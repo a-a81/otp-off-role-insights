@@ -3,18 +3,23 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Naafiri",
-  "updatedAt": "2026-11-14T19:40:23.171207+00:00",
+  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 88,
+  "mainLaneGames": 87,
   "mainLaneNext": [
     {
       "champion": "Sylas",
       "games": 6,
-      "rate": 6.8
+      "rate": 6.9
     },
     {
       "champion": "Akali",
+      "games": 2,
+      "rate": 2.3
+    },
+    {
+      "champion": "Lissandra",
       "games": 2,
       "rate": 2.3
     },
@@ -44,21 +49,6 @@
       "rate": 1.1
     },
     {
-      "champion": "Galio",
-      "games": 1,
-      "rate": 1.1
-    },
-    {
-      "champion": "KogMaw",
-      "games": 1,
-      "rate": 1.1
-    },
-    {
-      "champion": "Lissandra",
-      "games": 1,
-      "rate": 1.1
-    },
-    {
       "champion": "Yone",
       "games": 1,
       "rate": 1.1
@@ -79,12 +69,12 @@
           "rate": 23.1
         },
         {
-          "champion": "Aurora",
-          "games": 2,
-          "rate": 15.4
+          "champion": "Naafiri",
+          "games": 3,
+          "rate": 23.1
         },
         {
-          "champion": "Naafiri",
+          "champion": "Aurora",
           "games": 2,
           "rate": 15.4
         },
@@ -92,26 +82,21 @@
           "champion": "Akali",
           "games": 1,
           "rate": 7.7
-        },
-        {
-          "champion": "Udyr",
-          "games": 1,
-          "rate": 7.7
         }
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Naafiri",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Naafiri",
-          "games": 1,
-          "rate": 50.0
+          "rate": 33.3
         }
       ]
     },
@@ -169,15 +154,20 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 88,
+      "mainLaneGames": 87,
       "mainLaneNext": [
         {
           "champion": "Sylas",
           "games": 6,
-          "rate": 6.8
+          "rate": 6.9
         },
         {
           "champion": "Akali",
+          "games": 2,
+          "rate": 2.3
+        },
+        {
+          "champion": "Lissandra",
           "games": 2,
           "rate": 2.3
         },
@@ -207,21 +197,6 @@
           "rate": 1.1
         },
         {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 1.1
-        },
-        {
-          "champion": "KogMaw",
-          "games": 1,
-          "rate": 1.1
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 1.1
-        },
-        {
           "champion": "Yone",
           "games": 1,
           "rate": 1.1
@@ -242,12 +217,12 @@
               "rate": 23.1
             },
             {
-              "champion": "Aurora",
-              "games": 2,
-              "rate": 15.4
+              "champion": "Naafiri",
+              "games": 3,
+              "rate": 23.1
             },
             {
-              "champion": "Naafiri",
+              "champion": "Aurora",
               "games": 2,
               "rate": 15.4
             },
@@ -255,26 +230,21 @@
               "champion": "Akali",
               "games": 1,
               "rate": 7.7
-            },
-            {
-              "champion": "Udyr",
-              "games": 1,
-              "rate": 7.7
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Naafiri",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Morgana",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Naafiri",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },

@@ -3,145 +3,110 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "XinZhao",
-  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
+  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
   "mainLane": "JUNGLE",
   "players": 3,
-  "mainLaneGames": 88,
+  "mainLaneGames": 90,
   "mainLaneNext": [
+    {
+      "champion": "Vi",
+      "games": 5,
+      "rate": 5.6
+    },
     {
       "champion": "Graves",
       "games": 2,
-      "rate": 2.3
+      "rate": 2.2
     },
     {
       "champion": "Naafiri",
       "games": 2,
-      "rate": 2.3
-    },
-    {
-      "champion": "Jayce",
-      "games": 1,
-      "rate": 1.1
-    },
-    {
-      "champion": "Pantheon",
-      "games": 1,
-      "rate": 1.1
+      "rate": 2.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
-      "picks": [
-        {
-          "champion": "KSante",
-          "games": 4,
-          "rate": 50.0
-        },
-        {
-          "champion": "Darius",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Volibear",
-          "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "XinZhao",
-          "games": 1,
-          "rate": 12.5
-        }
-      ]
-    },
-    "MID": {
       "games": 12,
       "picks": [
         {
+          "champion": "KSante",
+          "games": 10,
+          "rate": 83.3
+        },
+        {
           "champion": "Pantheon",
-          "games": 5,
-          "rate": 41.7
+          "games": 1,
+          "rate": 8.3
         },
         {
-          "champion": "Galio",
-          "games": 2,
-          "rate": 16.7
-        },
-        {
-          "champion": "Lucian",
-          "games": 2,
-          "rate": 16.7
-        },
-        {
-          "champion": "TwistedFate",
-          "games": 2,
-          "rate": 16.7
-        },
-        {
-          "champion": "Sylas",
+          "champion": "XinZhao",
           "games": 1,
           "rate": 8.3
         }
       ]
     },
-    "BOTTOM": {
-      "games": 4,
+    "MID": {
+      "games": 10,
       "picks": [
         {
-          "champion": "Jhin",
-          "games": 2,
+          "champion": "Pantheon",
+          "games": 5,
           "rate": 50.0
         },
         {
-          "champion": "Ezreal",
+          "champion": "Galio",
+          "games": 2,
+          "rate": 20.0
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 2,
+          "rate": 20.0
+        },
+        {
+          "champion": "Sylas",
           "games": 1,
-          "rate": 25.0
+          "rate": 10.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 50.0
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 25.0
+          "rate": 50.0
         }
       ]
     },
     "UTILITY": {
-      "games": 7,
+      "games": 5,
       "picks": [
         {
           "champion": "Thresh",
           "games": 2,
-          "rate": 28.6
-        },
-        {
-          "champion": "Bard",
-          "games": 1,
-          "rate": 14.3
+          "rate": 40.0
         },
         {
           "champion": "Janna",
           "games": 1,
-          "rate": 14.3
+          "rate": 20.0
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 14.3
+          "rate": 20.0
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 14.3
-        },
-        {
-          "champion": "TahmKench",
-          "games": 1,
-          "rate": 14.3
+          "rate": 20.0
         }
       ]
     }
@@ -149,142 +114,107 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 3,
-      "mainLaneGames": 88,
+      "mainLaneGames": 90,
       "mainLaneNext": [
+        {
+          "champion": "Vi",
+          "games": 5,
+          "rate": 5.6
+        },
         {
           "champion": "Graves",
           "games": 2,
-          "rate": 2.3
+          "rate": 2.2
         },
         {
           "champion": "Naafiri",
           "games": 2,
-          "rate": 2.3
-        },
-        {
-          "champion": "Jayce",
-          "games": 1,
-          "rate": 1.1
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 1.1
+          "rate": 2.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "KSante",
-              "games": 4,
-              "rate": 50.0
-            },
-            {
-              "champion": "Darius",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Volibear",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "XinZhao",
-              "games": 1,
-              "rate": 12.5
-            }
-          ]
-        },
-        "MID": {
           "games": 12,
           "picks": [
             {
+              "champion": "KSante",
+              "games": 10,
+              "rate": 83.3
+            },
+            {
               "champion": "Pantheon",
-              "games": 5,
-              "rate": 41.7
+              "games": 1,
+              "rate": 8.3
             },
             {
-              "champion": "Galio",
-              "games": 2,
-              "rate": 16.7
-            },
-            {
-              "champion": "Lucian",
-              "games": 2,
-              "rate": 16.7
-            },
-            {
-              "champion": "TwistedFate",
-              "games": 2,
-              "rate": 16.7
-            },
-            {
-              "champion": "Sylas",
+              "champion": "XinZhao",
               "games": 1,
               "rate": 8.3
             }
           ]
         },
-        "BOTTOM": {
-          "games": 4,
+        "MID": {
+          "games": 10,
           "picks": [
             {
-              "champion": "Jhin",
-              "games": 2,
+              "champion": "Pantheon",
+              "games": 5,
               "rate": 50.0
             },
             {
-              "champion": "Ezreal",
+              "champion": "Galio",
+              "games": 2,
+              "rate": 20.0
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 2,
+              "rate": 20.0
+            },
+            {
+              "champion": "Sylas",
               "games": 1,
-              "rate": 25.0
+              "rate": 10.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 50.0
             },
             {
               "champion": "Lucian",
               "games": 1,
-              "rate": 25.0
+              "rate": 50.0
             }
           ]
         },
         "UTILITY": {
-          "games": 7,
+          "games": 5,
           "picks": [
             {
               "champion": "Thresh",
               "games": 2,
-              "rate": 28.6
-            },
-            {
-              "champion": "Bard",
-              "games": 1,
-              "rate": 14.3
+              "rate": 40.0
             },
             {
               "champion": "Janna",
               "games": 1,
-              "rate": 14.3
+              "rate": 20.0
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 14.3
+              "rate": 20.0
             },
             {
               "champion": "Sona",
               "games": 1,
-              "rate": 14.3
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 14.3
+              "rate": 20.0
             }
           ]
         }

@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akali",
-  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
+  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
   "mainLane": "MID",
   "players": 8,
-  "mainLaneGames": 226,
+  "mainLaneGames": 227,
   "mainLaneNext": [
     {
       "champion": "Yone",
@@ -19,7 +19,7 @@
       "rate": 1.3
     },
     {
-      "champion": "Sylas",
+      "champion": "Jayce",
       "games": 3,
       "rate": 1.3
     },
@@ -39,17 +39,17 @@
       "rate": 0.9
     },
     {
-      "champion": "Jayce",
-      "games": 2,
-      "rate": 0.9
-    },
-    {
       "champion": "Kled",
       "games": 2,
       "rate": 0.9
     },
     {
       "champion": "Locke",
+      "games": 2,
+      "rate": 0.9
+    },
+    {
+      "champion": "Sylas",
       "games": 2,
       "rate": 0.9
     },
@@ -96,32 +96,32 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 48,
+      "games": 47,
       "picks": [
         {
           "champion": "Akali",
-          "games": 32,
-          "rate": 66.7
+          "games": 31,
+          "rate": 66.0
         },
         {
           "champion": "KSante",
           "games": 4,
-          "rate": 8.3
+          "rate": 8.5
         },
         {
           "champion": "Jayce",
           "games": 3,
-          "rate": 6.2
+          "rate": 6.4
         },
         {
           "champion": "Kled",
           "games": 2,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Lissandra",
           "games": 2,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Ambessa",
@@ -299,7 +299,7 @@
   "byMainLane": {
     "MID": {
       "players": 8,
-      "mainLaneGames": 226,
+      "mainLaneGames": 227,
       "mainLaneNext": [
         {
           "champion": "Yone",
@@ -312,7 +312,7 @@
           "rate": 1.3
         },
         {
-          "champion": "Sylas",
+          "champion": "Jayce",
           "games": 3,
           "rate": 1.3
         },
@@ -332,17 +332,17 @@
           "rate": 0.9
         },
         {
-          "champion": "Jayce",
-          "games": 2,
-          "rate": 0.9
-        },
-        {
           "champion": "Kled",
           "games": 2,
           "rate": 0.9
         },
         {
           "champion": "Locke",
+          "games": 2,
+          "rate": 0.9
+        },
+        {
+          "champion": "Sylas",
           "games": 2,
           "rate": 0.9
         },
@@ -389,32 +389,32 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 48,
+          "games": 47,
           "picks": [
             {
               "champion": "Akali",
-              "games": 32,
-              "rate": 66.7
+              "games": 31,
+              "rate": 66.0
             },
             {
               "champion": "KSante",
               "games": 4,
-              "rate": 8.3
+              "rate": 8.5
             },
             {
               "champion": "Jayce",
               "games": 3,
-              "rate": 6.2
+              "rate": 6.4
             },
             {
               "champion": "Kled",
               "games": 2,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
               "champion": "Lissandra",
               "games": 2,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
               "champion": "Ambessa",
@@ -591,42 +591,53 @@
       }
     },
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 48,
+      "players": 3,
+      "mainLaneGames": 77,
       "mainLaneNext": [
         {
           "champion": "Malphite",
-          "games": 5,
-          "rate": 10.4
+          "games": 7,
+          "rate": 9.1
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 1.3
         },
         {
           "champion": "Sett",
           "games": 1,
-          "rate": 2.1
+          "rate": 1.3
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "MasterYi",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
-          "games": 25,
+          "games": 29,
           "picks": [
             {
               "champion": "Akali",
-              "games": 22,
-              "rate": 88.0
+              "games": 25,
+              "rate": 86.2
             },
             {
               "champion": "Irelia",
               "games": 2,
-              "rate": 8.0
+              "rate": 6.9
             },
             {
               "champion": "Malphite",
-              "games": 1,
-              "rate": 4.0
+              "games": 2,
+              "rate": 6.9
             }
           ]
         },
@@ -635,17 +646,37 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 3,
+          "games": 7,
           "picks": [
             {
               "champion": "Akali",
               "games": 2,
-              "rate": 66.7
+              "rate": 28.6
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Thresh",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Yuumi",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         }

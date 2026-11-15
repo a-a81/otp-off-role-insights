@@ -3,40 +3,50 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Rakan",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 78,
+  "players": 3,
+  "mainLaneGames": 100,
   "mainLaneNext": [
     {
       "champion": "Milio",
       "games": 3,
-      "rate": 3.8
+      "rate": 3.0
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 2,
+      "rate": 2.0
     },
     {
       "champion": "Karma",
       "games": 2,
-      "rate": 2.6
+      "rate": 2.0
     },
     {
       "champion": "Nautilus",
       "games": 2,
-      "rate": 2.6
+      "rate": 2.0
+    },
+    {
+      "champion": "Pyke",
+      "games": 2,
+      "rate": 2.0
     },
     {
       "champion": "Lulu",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.0
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.0
     },
     {
       "champion": "Rell",
       "games": 1,
-      "rate": 1.3
+      "rate": 1.0
     }
   ],
   "offLanes": {
@@ -49,54 +59,75 @@
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 17,
+      "picks": [
+        {
+          "champion": "Ahri",
+          "games": 17,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Zyra",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 78,
+      "players": 3,
+      "mainLaneGames": 100,
       "mainLaneNext": [
         {
           "champion": "Milio",
           "games": 3,
-          "rate": 3.8
+          "rate": 3.0
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 2,
+          "rate": 2.0
         },
         {
           "champion": "Karma",
           "games": 2,
-          "rate": 2.6
+          "rate": 2.0
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 2.6
+          "rate": 2.0
+        },
+        {
+          "champion": "Pyke",
+          "games": 2,
+          "rate": 2.0
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 1.3
+          "rate": 1.0
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 1.3
+          "rate": 1.0
         },
         {
           "champion": "Rell",
           "games": 1,
-          "rate": 1.3
+          "rate": 1.0
         }
       ],
       "offLanes": {
@@ -109,16 +140,27 @@
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 17,
+          "picks": [
+            {
+              "champion": "Ahri",
+              "games": 17,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         }

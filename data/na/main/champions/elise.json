@@ -3,55 +3,30 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Elise",
-  "updatedAt": "2026-11-14T19:40:23.171207+00:00",
-  "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 60,
+  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "mainLane": "JUNGLE",
+  "players": 1,
+  "mainLaneGames": 39,
   "mainLaneNext": [
     {
-      "champion": "Bard",
-      "games": 5,
-      "rate": 8.3
+      "champion": "JarvanIV",
+      "games": 8,
+      "rate": 20.5
     },
     {
-      "champion": "Pantheon",
-      "games": 4,
-      "rate": 6.7
+      "champion": "Khazix",
+      "games": 7,
+      "rate": 17.9
     },
     {
-      "champion": "Alistar",
-      "games": 2,
-      "rate": 3.3
+      "champion": "Diana",
+      "games": 3,
+      "rate": 7.7
     },
     {
-      "champion": "Milio",
-      "games": 2,
-      "rate": 3.3
-    },
-    {
-      "champion": "Nautilus",
+      "champion": "Lillia",
       "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Neeko",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Pyke",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Rakan",
-      "games": 1,
-      "rate": 1.7
-    },
-    {
-      "champion": "Senna",
-      "games": 1,
-      "rate": 1.7
+      "rate": 2.6
     }
   ],
   "offLanes": {
@@ -59,171 +34,26 @@
       "games": 0,
       "picks": []
     },
-    "JUNGLE": {
+    "MID": {
       "games": 0,
       "picks": []
-    },
-    "MID": {
-      "games": 20,
-      "picks": [
-        {
-          "champion": "Locke",
-          "games": 9,
-          "rate": 45.0
-        },
-        {
-          "champion": "Ahri",
-          "games": 3,
-          "rate": 15.0
-        },
-        {
-          "champion": "Akshan",
-          "games": 3,
-          "rate": 15.0
-        },
-        {
-          "champion": "Camille",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 5.0
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 5.0
-        }
-      ]
     },
     "BOTTOM": {
       "games": 0,
       "picks": []
+    },
+    "UTILITY": {
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Elise",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
-    "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 60,
-      "mainLaneNext": [
-        {
-          "champion": "Bard",
-          "games": 5,
-          "rate": 8.3
-        },
-        {
-          "champion": "Pantheon",
-          "games": 4,
-          "rate": 6.7
-        },
-        {
-          "champion": "Alistar",
-          "games": 2,
-          "rate": 3.3
-        },
-        {
-          "champion": "Milio",
-          "games": 2,
-          "rate": 3.3
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Neeko",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Pyke",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Rakan",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Senna",
-          "games": 1,
-          "rate": 1.7
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 20,
-          "picks": [
-            {
-              "champion": "Locke",
-              "games": 9,
-              "rate": 45.0
-            },
-            {
-              "champion": "Ahri",
-              "games": 3,
-              "rate": 15.0
-            },
-            {
-              "champion": "Akshan",
-              "games": 3,
-              "rate": 15.0
-            },
-            {
-              "champion": "Camille",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Sion",
-              "games": 1,
-              "rate": 5.0
-            },
-            {
-              "champion": "Syndra",
-              "games": 1,
-              "rate": 5.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        }
-      }
-    },
     "JUNGLE": {
       "players": 1,
       "mainLaneGames": 39,
@@ -271,6 +101,66 @@
               "rate": 100.0
             }
           ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 36,
+      "mainLaneNext": [
+        {
+          "champion": "Milio",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 2.8
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 2.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Malzahar",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
         }
       }
     }

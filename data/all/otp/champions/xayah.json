@@ -3,11 +3,16 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Xayah",
-  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
+  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
   "mainLane": "BOTTOM",
   "players": 4,
-  "mainLaneGames": 126,
+  "mainLaneGames": 129,
   "mainLaneNext": [
+    {
+      "champion": "Caitlyn",
+      "games": 2,
+      "rate": 1.6
+    },
     {
       "champion": "Sivir",
       "games": 2,
@@ -17,11 +22,6 @@
       "champion": "Yunara",
       "games": 2,
       "rate": 1.6
-    },
-    {
-      "champion": "Caitlyn",
-      "games": 1,
-      "rate": 0.8
     },
     {
       "champion": "Ezreal",
@@ -86,47 +86,52 @@
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 5,
       "picks": [
         {
           "champion": "Viktor",
-          "games": 4,
-          "rate": 66.7
+          "games": 3,
+          "rate": 60.0
         },
         {
           "champion": "Orianna",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 16.7
+          "rate": 20.0
         }
       ]
     },
     "UTILITY": {
-      "games": 13,
+      "games": 12,
       "picks": [
         {
           "champion": "Nautilus",
-          "games": 6,
-          "rate": 46.2
+          "games": 4,
+          "rate": 33.3
         },
         {
           "champion": "Alistar",
           "games": 3,
-          "rate": 23.1
+          "rate": 25.0
         },
         {
           "champion": "Lulu",
           "games": 3,
-          "rate": 23.1
+          "rate": 25.0
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 8.3
         },
         {
           "champion": "Taric",
           "games": 1,
-          "rate": 7.7
+          "rate": 8.3
         }
       ]
     }
@@ -134,8 +139,13 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 4,
-      "mainLaneGames": 126,
+      "mainLaneGames": 129,
       "mainLaneNext": [
+        {
+          "champion": "Caitlyn",
+          "games": 2,
+          "rate": 1.6
+        },
         {
           "champion": "Sivir",
           "games": 2,
@@ -145,11 +155,6 @@
           "champion": "Yunara",
           "games": 2,
           "rate": 1.6
-        },
-        {
-          "champion": "Caitlyn",
-          "games": 1,
-          "rate": 0.8
         },
         {
           "champion": "Ezreal",
@@ -214,47 +219,52 @@
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Viktor",
-              "games": 4,
-              "rate": 66.7
+              "games": 3,
+              "rate": 60.0
             },
             {
               "champion": "Orianna",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 16.7
+              "rate": 20.0
             }
           ]
         },
         "UTILITY": {
-          "games": 13,
+          "games": 12,
           "picks": [
             {
               "champion": "Nautilus",
-              "games": 6,
-              "rate": 46.2
+              "games": 4,
+              "rate": 33.3
             },
             {
               "champion": "Alistar",
               "games": 3,
-              "rate": 23.1
+              "rate": 25.0
             },
             {
               "champion": "Lulu",
               "games": 3,
-              "rate": 23.1
+              "rate": 25.0
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 8.3
             },
             {
               "champion": "Taric",
               "games": 1,
-              "rate": 7.7
+              "rate": 8.3
             }
           ]
         }

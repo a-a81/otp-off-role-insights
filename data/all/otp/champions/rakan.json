@@ -3,25 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Rakan",
-  "updatedAt": "2026-11-14T21:37:20.712469+00:00",
+  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
   "mainLane": "UTILITY",
   "players": 8,
-  "mainLaneGames": 298,
+  "mainLaneGames": 282,
   "mainLaneNext": [
-    {
-      "champion": "Janna",
-      "games": 8,
-      "rate": 2.7
-    },
     {
       "champion": "Karma",
       "games": 3,
-      "rate": 1.0
+      "rate": 1.1
     },
     {
       "champion": "Milio",
       "games": 3,
-      "rate": 1.0
+      "rate": 1.1
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 2,
+      "rate": 0.7
     },
     {
       "champion": "Braum",
@@ -39,39 +39,39 @@
       "rate": 0.7
     },
     {
+      "champion": "Pyke",
+      "games": 2,
+      "rate": 0.7
+    },
+    {
       "champion": "Alistar",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.4
     },
     {
       "champion": "Maokai",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.4
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.4
     },
     {
       "champion": "Rell",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Yasuo",
-          "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     },
@@ -91,27 +91,37 @@
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 23,
       "picks": [
+        {
+          "champion": "Ahri",
+          "games": 17,
+          "rate": 73.9
+        },
         {
           "champion": "Galio",
           "games": 4,
-          "rate": 66.7
+          "rate": 17.4
         },
         {
           "champion": "Ekko",
           "games": 2,
-          "rate": 33.3
+          "rate": 8.7
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Zyra",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     }
@@ -119,22 +129,22 @@
   "byMainLane": {
     "UTILITY": {
       "players": 8,
-      "mainLaneGames": 298,
+      "mainLaneGames": 282,
       "mainLaneNext": [
-        {
-          "champion": "Janna",
-          "games": 8,
-          "rate": 2.7
-        },
         {
           "champion": "Karma",
           "games": 3,
-          "rate": 1.0
+          "rate": 1.1
         },
         {
           "champion": "Milio",
           "games": 3,
-          "rate": 1.0
+          "rate": 1.1
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 2,
+          "rate": 0.7
         },
         {
           "champion": "Braum",
@@ -152,39 +162,39 @@
           "rate": 0.7
         },
         {
+          "champion": "Pyke",
+          "games": 2,
+          "rate": 0.7
+        },
+        {
           "champion": "Alistar",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.4
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.4
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.4
         },
         {
           "champion": "Rell",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Yasuo",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         },
@@ -204,27 +214,37 @@
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 23,
           "picks": [
+            {
+              "champion": "Ahri",
+              "games": 17,
+              "rate": 73.9
+            },
             {
               "champion": "Galio",
               "games": 4,
-              "rate": 66.7
+              "rate": 17.4
             },
             {
               "champion": "Ekko",
               "games": 2,
-              "rate": 33.3
+              "rate": 8.7
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         }

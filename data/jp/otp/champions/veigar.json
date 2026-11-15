@@ -3,35 +3,45 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Veigar",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "BOTTOM",
-  "players": 2,
-  "mainLaneGames": 61,
+  "players": 3,
+  "mainLaneGames": 76,
   "mainLaneNext": [
+    {
+      "champion": "MissFortune",
+      "games": 2,
+      "rate": 2.6
+    },
     {
       "champion": "Jhin",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.3
     },
     {
       "champion": "Smolder",
       "games": 1,
-      "rate": 1.6
+      "rate": 1.3
+    },
+    {
+      "champion": "Viktor",
+      "games": 1,
+      "rate": 1.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Darius",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 50.0
+          "rate": 33.3
         }
       ]
     },
@@ -40,70 +50,115 @@
       "picks": []
     },
     "MID": {
-      "games": 10,
+      "games": 24,
       "picks": [
         {
           "champion": "Veigar",
-          "games": 5,
-          "rate": 50.0
+          "games": 13,
+          "rate": 54.2
         },
         {
           "champion": "Ahri",
           "games": 4,
-          "rate": 40.0
+          "rate": 16.7
+        },
+        {
+          "champion": "Yone",
+          "games": 4,
+          "rate": 16.7
         },
         {
           "champion": "Vex",
           "games": 1,
-          "rate": 10.0
+          "rate": 4.2
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 4.2
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 4.2
         }
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 15,
       "picks": [
+        {
+          "champion": "Leona",
+          "games": 7,
+          "rate": 46.7
+        },
         {
           "champion": "Yuumi",
           "games": 3,
-          "rate": 60.0
+          "rate": 20.0
         },
         {
           "champion": "Maokai",
           "games": 2,
-          "rate": 40.0
+          "rate": 13.3
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 6.7
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 6.7
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 6.7
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 2,
-      "mainLaneGames": 61,
+      "players": 3,
+      "mainLaneGames": 76,
       "mainLaneNext": [
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 2.6
+        },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.3
         },
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.3
+        },
+        {
+          "champion": "Viktor",
+          "games": 1,
+          "rate": 1.3
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Darius",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
@@ -112,37 +167,72 @@
           "picks": []
         },
         "MID": {
-          "games": 10,
+          "games": 24,
           "picks": [
             {
               "champion": "Veigar",
-              "games": 5,
-              "rate": 50.0
+              "games": 13,
+              "rate": 54.2
             },
             {
               "champion": "Ahri",
               "games": 4,
-              "rate": 40.0
+              "rate": 16.7
+            },
+            {
+              "champion": "Yone",
+              "games": 4,
+              "rate": 16.7
             },
             {
               "champion": "Vex",
               "games": 1,
-              "rate": 10.0
+              "rate": 4.2
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 4.2
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 4.2
             }
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 15,
           "picks": [
+            {
+              "champion": "Leona",
+              "games": 7,
+              "rate": 46.7
+            },
             {
               "champion": "Yuumi",
               "games": 3,
-              "rate": 60.0
+              "rate": 20.0
             },
             {
               "champion": "Maokai",
               "games": 2,
-              "rate": 40.0
+              "rate": 13.3
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 6.7
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 6.7
+            },
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 6.7
             }
           ]
         }
@@ -154,8 +244,8 @@
       "mainLaneNext": [
         {
           "champion": "Viktor",
-          "games": 3,
-          "rate": 5.0
+          "games": 4,
+          "rate": 6.7
         }
       ],
       "offLanes": {
@@ -211,124 +301,6 @@
               "champion": "Poppy",
               "games": 1,
               "rate": 14.3
-            }
-          ]
-        }
-      }
-    },
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 15,
-      "mainLaneNext": [
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 6.7
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Hecarim",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Kayn",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "LeeSin",
-              "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 25.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 9,
-          "picks": [
-            {
-              "champion": "Veigar",
-              "games": 6,
-              "rate": 66.7
-            },
-            {
-              "champion": "Anivia",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Viktor",
-              "games": 1,
-              "rate": 11.1
-            },
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 11.1
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Smolder",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Senna",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Thresh",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Veigar",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Blitzcrank",
-              "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Brand",
-              "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Lux",
-              "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 9.1
             }
           ]
         }

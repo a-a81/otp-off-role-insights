@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Brand",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "UTILITY",
   "players": 2,
   "mainLaneGames": 70,
@@ -149,22 +149,17 @@
       "mainLaneGames": 54,
       "mainLaneNext": [
         {
+          "champion": "Hwei",
+          "games": 4,
+          "rate": 7.4
+        },
+        {
           "champion": "Zed",
           "games": 4,
           "rate": 7.4
         },
         {
-          "champion": "Hwei",
-          "games": 3,
-          "rate": 5.6
-        },
-        {
           "champion": "Leblanc",
-          "games": 3,
-          "rate": 5.6
-        },
-        {
-          "champion": "Syndra",
           "games": 3,
           "rate": 5.6
         },
@@ -175,6 +170,11 @@
         },
         {
           "champion": "Sylas",
+          "games": 2,
+          "rate": 3.7
+        },
+        {
+          "champion": "Syndra",
           "games": 2,
           "rate": 3.7
         },
@@ -246,17 +246,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "LeeSin",
+              "games": 1,
+              "rate": 33.3
+            },
             {
               "champion": "MonkeyKing",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             },
             {
               "champion": "Talon",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
@@ -296,32 +301,27 @@
           ]
         },
         "UTILITY": {
-          "games": 7,
+          "games": 6,
           "picks": [
             {
               "champion": "Pyke",
               "games": 2,
-              "rate": 28.6
+              "rate": 33.3
             },
             {
               "champion": "Thresh",
               "games": 2,
-              "rate": 28.6
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 14.3
+              "rate": 33.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 14.3
+              "rate": 16.7
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 14.3
+              "rate": 16.7
             }
           ]
         }

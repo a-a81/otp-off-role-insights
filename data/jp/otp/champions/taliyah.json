@@ -3,25 +3,25 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 85,
+  "mainLaneGames": 84,
   "mainLaneNext": [
     {
       "champion": "Ahri",
-      "games": 5,
-      "rate": 5.9
+      "games": 4,
+      "rate": 4.8
     },
     {
       "champion": "Hwei",
       "games": 4,
-      "rate": 4.7
+      "rate": 4.8
     },
     {
       "champion": "Galio",
       "games": 3,
-      "rate": 3.5
+      "rate": 3.6
     },
     {
       "champion": "Vex",
@@ -61,17 +61,22 @@
       ]
     },
     "JUNGLE": {
-      "games": 20,
+      "games": 21,
       "picks": [
         {
           "champion": "Taliyah",
           "games": 19,
-          "rate": 95.0
+          "rate": 90.5
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 4.8
         },
         {
           "champion": "Vi",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         }
       ]
     },
@@ -103,22 +108,22 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 85,
+      "mainLaneGames": 84,
       "mainLaneNext": [
         {
           "champion": "Ahri",
-          "games": 5,
-          "rate": 5.9
+          "games": 4,
+          "rate": 4.8
         },
         {
           "champion": "Hwei",
           "games": 4,
-          "rate": 4.7
+          "rate": 4.8
         },
         {
           "champion": "Galio",
           "games": 3,
-          "rate": 3.5
+          "rate": 3.6
         },
         {
           "champion": "Vex",
@@ -158,17 +163,22 @@
           ]
         },
         "JUNGLE": {
-          "games": 20,
+          "games": 21,
           "picks": [
             {
               "champion": "Taliyah",
               "games": 19,
-              "rate": 95.0
+              "rate": 90.5
+            },
+            {
+              "champion": "Quinn",
+              "games": 1,
+              "rate": 4.8
             },
             {
               "champion": "Vi",
               "games": 1,
-              "rate": 5.0
+              "rate": 4.8
             }
           ]
         },
@@ -229,83 +239,6 @@
         "BOTTOM": {
           "games": 0,
           "picks": []
-        }
-      }
-    },
-    "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 23,
-      "mainLaneNext": [
-        {
-          "champion": "Shaco",
-          "games": 2,
-          "rate": 8.7
-        },
-        {
-          "champion": "Nocturne",
-          "games": 1,
-          "rate": 4.3
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 4.3
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Xerath",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 4,
-          "picks": [
-            {
-              "champion": "Jhin",
-              "games": 4,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 11,
-          "picks": [
-            {
-              "champion": "Seraphine",
-              "games": 6,
-              "rate": 54.5
-            },
-            {
-              "champion": "Rakan",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Xerath",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 9.1
-            }
-          ]
         }
       }
     }

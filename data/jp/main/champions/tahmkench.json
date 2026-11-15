@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-14T20:58:44.829951+00:00",
+  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
   "mainLane": "UTILITY",
   "players": 6,
   "mainLaneGames": 213,
@@ -34,6 +34,11 @@
       "rate": 1.9
     },
     {
+      "champion": "Pyke",
+      "games": 3,
+      "rate": 1.4
+    },
+    {
       "champion": "Sion",
       "games": 3,
       "rate": 1.4
@@ -44,17 +49,7 @@
       "rate": 1.4
     },
     {
-      "champion": "Blitzcrank",
-      "games": 2,
-      "rate": 0.9
-    },
-    {
       "champion": "Gragas",
-      "games": 2,
-      "rate": 0.9
-    },
-    {
-      "champion": "Pyke",
       "games": 2,
       "rate": 0.9
     },
@@ -70,6 +65,11 @@
     },
     {
       "champion": "Bard",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Blitzcrank",
       "games": 1,
       "rate": 0.5
     },
@@ -136,42 +136,47 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Vex",
           "games": 2,
-          "rate": 66.7
+          "rate": 50.0
+        },
+        {
+          "champion": "Katarina",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 17,
+      "games": 16,
       "picks": [
         {
           "champion": "Katarina",
-          "games": 11,
-          "rate": 64.7
+          "games": 10,
+          "rate": 62.5
         },
         {
           "champion": "TahmKench",
           "games": 4,
-          "rate": 23.5
+          "rate": 25.0
         },
         {
           "champion": "Jhin",
           "games": 1,
-          "rate": 5.9
+          "rate": 6.2
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 5.9
+          "rate": 6.2
         }
       ]
     }
@@ -207,6 +212,11 @@
           "rate": 1.9
         },
         {
+          "champion": "Pyke",
+          "games": 3,
+          "rate": 1.4
+        },
+        {
           "champion": "Sion",
           "games": 3,
           "rate": 1.4
@@ -217,17 +227,7 @@
           "rate": 1.4
         },
         {
-          "champion": "Blitzcrank",
-          "games": 2,
-          "rate": 0.9
-        },
-        {
           "champion": "Gragas",
-          "games": 2,
-          "rate": 0.9
-        },
-        {
-          "champion": "Pyke",
           "games": 2,
           "rate": 0.9
         },
@@ -243,6 +243,11 @@
         },
         {
           "champion": "Bard",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Blitzcrank",
           "games": 1,
           "rate": 0.5
         },
@@ -309,42 +314,47 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Vex",
               "games": 2,
-              "rate": 66.7
+              "rate": 50.0
+            },
+            {
+              "champion": "Katarina",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 17,
+          "games": 16,
           "picks": [
             {
               "champion": "Katarina",
-              "games": 11,
-              "rate": 64.7
+              "games": 10,
+              "rate": 62.5
             },
             {
               "champion": "TahmKench",
               "games": 4,
-              "rate": 23.5
+              "rate": 25.0
             },
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 5.9
+              "rate": 6.2
             },
             {
               "champion": "Kaisa",
               "games": 1,
-              "rate": 5.9
+              "rate": 6.2
             }
           ]
         }
