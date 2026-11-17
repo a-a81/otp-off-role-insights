@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Viktor",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
   "mainLaneGames": 56,
@@ -201,63 +201,83 @@
       }
     },
     "MID": {
-      "players": 1,
-      "mainLaneGames": 32,
+      "players": 2,
+      "mainLaneGames": 50,
       "mainLaneNext": [
         {
           "champion": "Sylas",
           "games": 2,
-          "rate": 6.2
+          "rate": 4.0
+        },
+        {
+          "champion": "Syndra",
+          "games": 2,
+          "rate": 4.0
         },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
+        },
+        {
+          "champion": "Jayce",
+          "games": 1,
+          "rate": 2.0
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
         },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 2.0
         },
         {
           "champion": "Talon",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 3.1
+          "rate": 2.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 15,
           "picks": [
             {
               "champion": "Viktor",
-              "games": 2,
-              "rate": 50.0
+              "games": 10,
+              "rate": 66.7
+            },
+            {
+              "champion": "Jayce",
+              "games": 3,
+              "rate": 20.0
             },
             {
               "champion": "Kayle",
               "games": 1,
-              "rate": 25.0
+              "rate": 6.7
             },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 25.0
+              "rate": 6.7
             }
           ]
         },
@@ -266,27 +286,57 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 10,
           "picks": [
+            {
+              "champion": "Corki",
+              "games": 4,
+              "rate": 40.0
+            },
+            {
+              "champion": "MissFortune",
+              "games": 2,
+              "rate": 20.0
+            },
+            {
+              "champion": "Caitlyn",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 10.0
+            },
             {
               "champion": "Viktor",
               "games": 1,
-              "rate": 100.0
+              "rate": 10.0
+            },
+            {
+              "champion": "Xayah",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Brand",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Soraka",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         }

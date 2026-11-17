@@ -3,55 +3,40 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ekko",
-  "updatedAt": "2026-11-17T02:53:43.543077+00:00",
+  "updatedAt": "2026-11-17T21:19:27.562234+00:00",
   "mainLane": "MID",
-  "players": 4,
-  "mainLaneGames": 126,
+  "players": 3,
+  "mainLaneGames": 93,
   "mainLaneNext": [
-    {
-      "champion": "Aurora",
-      "games": 6,
-      "rate": 4.8
-    },
     {
       "champion": "Galio",
       "games": 5,
-      "rate": 4.0
-    },
-    {
-      "champion": "Annie",
-      "games": 1,
-      "rate": 0.8
+      "rate": 5.4
     },
     {
       "champion": "Naafiri",
       "games": 1,
-      "rate": 0.8
+      "rate": 1.1
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 0.8
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 7,
+      "games": 5,
       "picks": [
         {
           "champion": "Ekko",
-          "games": 5,
-          "rate": 71.4
-        },
-        {
-          "champion": "KSante",
-          "games": 1,
-          "rate": 14.3
+          "games": 4,
+          "rate": 80.0
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 14.3
+          "rate": 20.0
         }
       ]
     },
@@ -91,95 +76,75 @@
       ]
     },
     "BOTTOM": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
           "champion": "Ekko",
-          "games": 6,
+          "games": 4,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 14,
+      "games": 11,
       "picks": [
         {
-          "champion": "Alistar",
-          "games": 4,
-          "rate": 28.6
-        },
-        {
           "champion": "Ekko",
-          "games": 4,
-          "rate": 28.6
+          "games": 5,
+          "rate": 45.5
         },
         {
           "champion": "Pantheon",
           "games": 3,
-          "rate": 21.4
+          "rate": 27.3
         },
         {
           "champion": "Braum",
           "games": 2,
-          "rate": 14.3
+          "rate": 18.2
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 7.1
+          "rate": 9.1
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 4,
-      "mainLaneGames": 126,
+      "players": 3,
+      "mainLaneGames": 93,
       "mainLaneNext": [
-        {
-          "champion": "Aurora",
-          "games": 6,
-          "rate": 4.8
-        },
         {
           "champion": "Galio",
           "games": 5,
-          "rate": 4.0
-        },
-        {
-          "champion": "Annie",
-          "games": 1,
-          "rate": 0.8
+          "rate": 5.4
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 0.8
+          "rate": 1.1
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 0.8
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 7,
+          "games": 5,
           "picks": [
             {
               "champion": "Ekko",
-              "games": 5,
-              "rate": 71.4
-            },
-            {
-              "champion": "KSante",
-              "games": 1,
-              "rate": 14.3
+              "games": 4,
+              "rate": 80.0
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 14.3
+              "rate": 20.0
             }
           ]
         },
@@ -219,44 +184,73 @@
           ]
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "Ekko",
-              "games": 6,
+              "games": 4,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 14,
+          "games": 11,
           "picks": [
             {
-              "champion": "Alistar",
-              "games": 4,
-              "rate": 28.6
-            },
-            {
               "champion": "Ekko",
-              "games": 4,
-              "rate": 28.6
+              "games": 5,
+              "rate": 45.5
             },
             {
               "champion": "Pantheon",
               "games": 3,
-              "rate": 21.4
+              "rate": 27.3
             },
             {
               "champion": "Braum",
               "games": 2,
-              "rate": 14.3
+              "rate": 18.2
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 7.1
+              "rate": 9.1
             }
           ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 37,
+      "mainLaneNext": [],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }

@@ -3,60 +3,166 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kalista",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 48,
+  "mainLaneNext": [
+    {
+      "champion": "Jinx",
+      "games": 3,
+      "rate": 6.2
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Fiora",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Kalista",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     },
     "JUNGLE": {
       "games": 0,
       "picks": []
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Akshan",
+          "games": 3,
+          "rate": 50.0
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Kalista",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Leblanc",
+          "games": 1,
+          "rate": 16.7
+        }
+      ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 11,
       "picks": [
         {
           "champion": "Taric",
           "games": 9,
-          "rate": 100.0
+          "rate": 81.8
+        },
+        {
+          "champion": "Karma",
+          "games": 1,
+          "rate": 9.1
+        },
+        {
+          "champion": "Pyke",
+          "games": 1,
+          "rate": 9.1
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 48,
+      "mainLaneNext": [
+        {
+          "champion": "Jinx",
+          "games": 3,
+          "rate": 6.2
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Fiora",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Kalista",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,
           "picks": []
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Akshan",
+              "games": 3,
+              "rate": 50.0
+            },
+            {
+              "champion": "Kaisa",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Kalista",
+              "games": 1,
+              "rate": 16.7
+            },
+            {
+              "champion": "Leblanc",
+              "games": 1,
+              "rate": 16.7
+            }
+          ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 11,
           "picks": [
             {
               "champion": "Taric",
               "games": 9,
-              "rate": 100.0
+              "rate": 81.8
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Pyke",
+              "games": 1,
+              "rate": 9.1
             }
           ]
         }

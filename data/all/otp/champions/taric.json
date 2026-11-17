@@ -3,11 +3,16 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taric",
-  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
+  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
   "mainLane": "UTILITY",
   "players": 5,
   "mainLaneGames": 162,
   "mainLaneNext": [
+    {
+      "champion": "Janna",
+      "games": 2,
+      "rate": 1.2
+    },
     {
       "champion": "Karthus",
       "games": 2,
@@ -15,6 +20,11 @@
     },
     {
       "champion": "Leona",
+      "games": 2,
+      "rate": 1.2
+    },
+    {
+      "champion": "Rakan",
       "games": 2,
       "rate": 1.2
     },
@@ -29,7 +39,7 @@
       "rate": 0.6
     },
     {
-      "champion": "Janna",
+      "champion": "Camille",
       "games": 1,
       "rate": 0.6
     },
@@ -45,11 +55,6 @@
     },
     {
       "champion": "Nautilus",
-      "games": 1,
-      "rate": 0.6
-    },
-    {
-      "champion": "Rakan",
       "games": 1,
       "rate": 0.6
     },
@@ -101,41 +106,46 @@
       ]
     },
     "MID": {
-      "games": 8,
+      "games": 9,
       "picks": [
         {
           "champion": "Orianna",
           "games": 3,
-          "rate": 37.5
+          "rate": 33.3
         },
         {
           "champion": "Katarina",
           "games": 2,
-          "rate": 25.0
+          "rate": 22.2
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
+        },
+        {
+          "champion": "Soraka",
+          "games": 1,
+          "rate": 11.1
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 12.5
+          "rate": 11.1
         }
       ]
     },
     "BOTTOM": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
           "champion": "Karthus",
-          "games": 2,
+          "games": 1,
           "rate": 100.0
         }
       ]
@@ -147,12 +157,22 @@
       "mainLaneGames": 162,
       "mainLaneNext": [
         {
+          "champion": "Janna",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
           "champion": "Karthus",
           "games": 2,
           "rate": 1.2
         },
         {
           "champion": "Leona",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Rakan",
           "games": 2,
           "rate": 1.2
         },
@@ -167,7 +187,7 @@
           "rate": 0.6
         },
         {
-          "champion": "Janna",
+          "champion": "Camille",
           "games": 1,
           "rate": 0.6
         },
@@ -183,11 +203,6 @@
         },
         {
           "champion": "Nautilus",
-          "games": 1,
-          "rate": 0.6
-        },
-        {
-          "champion": "Rakan",
           "games": 1,
           "rate": 0.6
         },
@@ -239,41 +254,46 @@
           ]
         },
         "MID": {
-          "games": 8,
+          "games": 9,
           "picks": [
             {
               "champion": "Orianna",
               "games": 3,
-              "rate": 37.5
+              "rate": 33.3
             },
             {
               "champion": "Katarina",
               "games": 2,
-              "rate": 25.0
+              "rate": 22.2
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
             }
           ]
         },
         "BOTTOM": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Karthus",
-              "games": 2,
+              "games": 1,
               "rate": 100.0
             }
           ]

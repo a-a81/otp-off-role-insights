@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Skarner",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "JUNGLE",
   "players": 8,
   "mainLaneGames": 235,
@@ -451,43 +451,13 @@
       }
     },
     "UTILITY": {
-      "players": 3,
-      "mainLaneGames": 100,
+      "players": 2,
+      "mainLaneGames": 73,
       "mainLaneNext": [
-        {
-          "champion": "Shaco",
-          "games": 9,
-          "rate": 9.0
-        },
         {
           "champion": "Poppy",
           "games": 4,
-          "rate": 4.0
-        },
-        {
-          "champion": "Karma",
-          "games": 2,
-          "rate": 2.0
-        },
-        {
-          "champion": "Lulu",
-          "games": 2,
-          "rate": 2.0
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Rakan",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Rell",
-          "games": 1,
-          "rate": 1.0
+          "rate": 5.5
         }
       ],
       "offLanes": {
@@ -507,17 +477,12 @@
           ]
         },
         "JUNGLE": {
-          "games": 13,
+          "games": 1,
           "picks": [
             {
               "champion": "Skarner",
-              "games": 11,
-              "rate": 84.6
-            },
-            {
-              "champion": "Shaco",
-              "games": 2,
-              "rate": 15.4
+              "games": 1,
+              "rate": 100.0
             }
           ]
         },
@@ -544,22 +509,27 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 31,
+      "mainLaneGames": 30,
       "mainLaneNext": [
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 3.2
+          "rate": 3.3
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 7,
+          "games": 8,
           "picks": [
             {
               "champion": "Skarner",
               "games": 7,
-              "rate": 100.0
+              "rate": 87.5
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -572,17 +542,12 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }

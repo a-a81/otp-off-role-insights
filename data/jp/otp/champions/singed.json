@@ -3,10 +3,10 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Singed",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "TOP",
   "players": 10,
-  "mainLaneGames": 317,
+  "mainLaneGames": 316,
   "mainLaneNext": [
     {
       "champion": "Sion",
@@ -20,6 +20,11 @@
     },
     {
       "champion": "Gnar",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Nasus",
       "games": 2,
       "rate": 0.6
     },
@@ -45,11 +50,6 @@
     },
     {
       "champion": "Malzahar",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
-      "champion": "Nasus",
       "games": 1,
       "rate": 0.3
     },
@@ -89,17 +89,17 @@
           "rate": 83.3
         },
         {
-          "champion": "Fizz",
-          "games": 1,
-          "rate": 3.3
-        },
-        {
           "champion": "Galio",
           "games": 1,
           "rate": 3.3
         },
         {
           "champion": "Hwei",
+          "games": 1,
+          "rate": 3.3
+        },
+        {
+          "champion": "Swain",
           "games": 1,
           "rate": 3.3
         },
@@ -151,47 +151,47 @@
       ]
     },
     "UTILITY": {
-      "games": 25,
+      "games": 26,
       "picks": [
         {
           "champion": "Singed",
-          "games": 10,
-          "rate": 40.0
+          "games": 11,
+          "rate": 42.3
         },
         {
           "champion": "Nunu",
           "games": 3,
-          "rate": 12.0
+          "rate": 11.5
         },
         {
           "champion": "Thresh",
           "games": 3,
-          "rate": 12.0
+          "rate": 11.5
         },
         {
           "champion": "Yuumi",
           "games": 3,
-          "rate": 12.0
+          "rate": 11.5
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 8.0
+          "rate": 7.7
         },
         {
           "champion": "Xerath",
           "games": 2,
-          "rate": 8.0
+          "rate": 7.7
         },
         {
           "champion": "Rakan",
           "games": 1,
-          "rate": 4.0
+          "rate": 3.8
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 4.0
+          "rate": 3.8
         }
       ]
     }
@@ -199,7 +199,7 @@
   "byMainLane": {
     "TOP": {
       "players": 10,
-      "mainLaneGames": 317,
+      "mainLaneGames": 316,
       "mainLaneNext": [
         {
           "champion": "Sion",
@@ -213,6 +213,11 @@
         },
         {
           "champion": "Gnar",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Nasus",
           "games": 2,
           "rate": 0.6
         },
@@ -238,11 +243,6 @@
         },
         {
           "champion": "Malzahar",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
-          "champion": "Nasus",
           "games": 1,
           "rate": 0.3
         },
@@ -282,17 +282,17 @@
               "rate": 83.3
             },
             {
-              "champion": "Fizz",
-              "games": 1,
-              "rate": 3.3
-            },
-            {
               "champion": "Galio",
               "games": 1,
               "rate": 3.3
             },
             {
               "champion": "Hwei",
+              "games": 1,
+              "rate": 3.3
+            },
+            {
+              "champion": "Swain",
               "games": 1,
               "rate": 3.3
             },
@@ -344,49 +344,131 @@
           ]
         },
         "UTILITY": {
-          "games": 25,
+          "games": 26,
           "picks": [
             {
               "champion": "Singed",
-              "games": 10,
-              "rate": 40.0
+              "games": 11,
+              "rate": 42.3
             },
             {
               "champion": "Nunu",
               "games": 3,
-              "rate": 12.0
+              "rate": 11.5
             },
             {
               "champion": "Thresh",
               "games": 3,
-              "rate": 12.0
+              "rate": 11.5
             },
             {
               "champion": "Yuumi",
               "games": 3,
-              "rate": 12.0
+              "rate": 11.5
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 8.0
+              "rate": 7.7
             },
             {
               "champion": "Xerath",
               "games": 2,
-              "rate": 8.0
+              "rate": 7.7
             },
             {
               "champion": "Rakan",
               "games": 1,
-              "rate": 4.0
+              "rate": 3.8
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 4.0
+              "rate": 3.8
             }
           ]
+        }
+      }
+    },
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 34,
+      "mainLaneNext": [
+        {
+          "champion": "MasterYi",
+          "games": 3,
+          "rate": 8.8
+        },
+        {
+          "champion": "Lucian",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Sivir",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 2.9
+        },
+        {
+          "champion": "Vladimir",
+          "games": 1,
+          "rate": 2.9
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Singed",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Singed",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Vladimir",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     },

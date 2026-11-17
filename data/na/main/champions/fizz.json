@@ -3,35 +3,60 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Fizz",
-  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
+  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
   "mainLane": "MID",
-  "players": 3,
-  "mainLaneGames": 71,
+  "players": 4,
+  "mainLaneGames": 95,
   "mainLaneNext": [
+    {
+      "champion": "Yasuo",
+      "games": 9,
+      "rate": 9.5
+    },
     {
       "champion": "Ahri",
       "games": 2,
-      "rate": 2.8
+      "rate": 2.1
+    },
+    {
+      "champion": "Sylas",
+      "games": 1,
+      "rate": 1.1
     },
     {
       "champion": "Vex",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 8,
+      "games": 12,
       "picks": [
         {
           "champion": "Fizz",
-          "games": 7,
-          "rate": 87.5
+          "games": 6,
+          "rate": 50.0
+        },
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 16.7
+        },
+        {
+          "champion": "Yasuo",
+          "games": 2,
+          "rate": 16.7
         },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 12.5
+          "rate": 8.3
+        },
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 8.3
         }
       ]
     },
@@ -40,13 +65,13 @@
       "picks": [
         {
           "champion": "Fizz",
-          "games": 18,
-          "rate": 85.7
+          "games": 17,
+          "rate": 81.0
         },
         {
           "champion": "Khazix",
-          "games": 2,
-          "rate": 9.5
+          "games": 3,
+          "rate": 14.3
         },
         {
           "champion": "Hecarim",
@@ -56,90 +81,130 @@
       ]
     },
     "BOTTOM": {
-      "games": 10,
+      "games": 17,
       "picks": [
         {
           "champion": "Jhin",
           "games": 5,
-          "rate": 50.0
+          "rate": 29.4
+        },
+        {
+          "champion": "Yasuo",
+          "games": 5,
+          "rate": 29.4
+        },
+        {
+          "champion": "Yunara",
+          "games": 2,
+          "rate": 11.8
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         },
         {
           "champion": "Fizz",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         },
         {
           "champion": "Veigar",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         }
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 14,
       "picks": [
         {
           "champion": "Nami",
-          "games": 7,
-          "rate": 77.8
+          "games": 10,
+          "rate": 71.4
+        },
+        {
+          "champion": "Thresh",
+          "games": 2,
+          "rate": 14.3
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 11.1
+          "rate": 7.1
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 11.1
+          "rate": 7.1
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 3,
-      "mainLaneGames": 71,
+      "players": 4,
+      "mainLaneGames": 95,
       "mainLaneNext": [
+        {
+          "champion": "Yasuo",
+          "games": 9,
+          "rate": 9.5
+        },
         {
           "champion": "Ahri",
           "games": 2,
-          "rate": 2.8
+          "rate": 2.1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 1.1
         },
         {
           "champion": "Vex",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 12,
           "picks": [
             {
               "champion": "Fizz",
-              "games": 7,
-              "rate": 87.5
+              "games": 6,
+              "rate": 50.0
+            },
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 16.7
+            },
+            {
+              "champion": "Yasuo",
+              "games": 2,
+              "rate": 16.7
             },
             {
               "champion": "Gwen",
               "games": 1,
-              "rate": 12.5
+              "rate": 8.3
+            },
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 8.3
             }
           ]
         },
@@ -148,13 +213,13 @@
           "picks": [
             {
               "champion": "Fizz",
-              "games": 18,
-              "rate": 85.7
+              "games": 17,
+              "rate": 81.0
             },
             {
               "champion": "Khazix",
-              "games": 2,
-              "rate": 9.5
+              "games": 3,
+              "rate": 14.3
             },
             {
               "champion": "Hecarim",
@@ -164,57 +229,72 @@
           ]
         },
         "BOTTOM": {
-          "games": 10,
+          "games": 17,
           "picks": [
             {
               "champion": "Jhin",
               "games": 5,
-              "rate": 50.0
+              "rate": 29.4
+            },
+            {
+              "champion": "Yasuo",
+              "games": 5,
+              "rate": 29.4
+            },
+            {
+              "champion": "Yunara",
+              "games": 2,
+              "rate": 11.8
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             },
             {
               "champion": "Fizz",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             },
             {
               "champion": "Lucian",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             }
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 14,
           "picks": [
             {
               "champion": "Nami",
-              "games": 7,
-              "rate": 77.8
+              "games": 10,
+              "rate": 71.4
+            },
+            {
+              "champion": "Thresh",
+              "games": 2,
+              "rate": 14.3
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 11.1
+              "rate": 7.1
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 11.1
+              "rate": 7.1
             }
           ]
         }

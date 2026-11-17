@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
+  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
   "mainLane": "UTILITY",
   "players": 4,
   "mainLaneGames": 148,
@@ -32,16 +32,6 @@
       "champion": "Thresh",
       "games": 2,
       "rate": 1.4
-    },
-    {
-      "champion": "Leona",
-      "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "Pantheon",
-      "games": 1,
-      "rate": 0.7
     },
     {
       "champion": "Senna",
@@ -142,16 +132,6 @@
           "rate": 1.4
         },
         {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 0.7
-        },
-        {
           "champion": "Senna",
           "games": 1,
           "rate": 0.7
@@ -221,87 +201,40 @@
       }
     },
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 60,
+      "players": 1,
+      "mainLaneGames": 35,
       "mainLaneNext": [
-        {
-          "champion": "Urgot",
-          "games": 2,
-          "rate": 3.3
-        },
-        {
-          "champion": "Garen",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 1.7
-        },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 1.7
+          "rate": 2.9
         }
       ],
       "offLanes": {
         "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
           "games": 1,
           "picks": [
             {
-              "champion": "Chogath",
+              "champion": "TahmKench",
               "games": 1,
               "rate": 100.0
             }
           ]
         },
-        "MID": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
         "BOTTOM": {
-          "games": 9,
-          "picks": [
-            {
-              "champion": "TahmKench",
-              "games": 8,
-              "rate": 88.9
-            },
-            {
-              "champion": "Jinx",
-              "games": 1,
-              "rate": 11.1
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "TahmKench",
-              "games": 6,
+              "games": 4,
               "rate": 100.0
             }
           ]

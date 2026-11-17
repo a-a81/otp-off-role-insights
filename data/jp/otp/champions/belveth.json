@@ -3,56 +3,87 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Belveth",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "JUNGLE",
-  "players": 3,
-  "mainLaneGames": 107,
+  "players": 5,
+  "mainLaneGames": 168,
   "mainLaneNext": [
     {
       "champion": "Karthus",
-      "games": 8,
-      "rate": 7.5
+      "games": 14,
+      "rate": 8.3
     },
     {
       "champion": "Kindred",
       "games": 6,
-      "rate": 5.6
+      "rate": 3.6
+    },
+    {
+      "champion": "Viego",
+      "games": 4,
+      "rate": 2.4
+    },
+    {
+      "champion": "Hecarim",
+      "games": 3,
+      "rate": 1.8
     },
     {
       "champion": "Evelynn",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.2
     },
     {
-      "champion": "Hecarim",
-      "games": 2,
-      "rate": 1.9
-    },
-    {
-      "champion": "Viego",
-      "games": 2,
-      "rate": 1.9
+      "champion": "MasterYi",
+      "games": 1,
+      "rate": 0.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 9,
       "picks": [
         {
           "champion": "Tryndamere",
-          "games": 3,
-          "rate": 75.0
+          "games": 4,
+          "rate": 44.4
+        },
+        {
+          "champion": "Yone",
+          "games": 2,
+          "rate": 22.2
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 25.0
+          "rate": 11.1
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 11.1
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 11.1
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 8,
+      "picks": [
+        {
+          "champion": "Yone",
+          "games": 6,
+          "rate": 75.0
+        },
+        {
+          "champion": "Veigar",
+          "games": 2,
+          "rate": 25.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 4,
@@ -75,76 +106,117 @@
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 5,
       "picks": [
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
+        },
+        {
+          "champion": "Sona",
+          "games": 1,
+          "rate": 20.0
+        },
+        {
+          "champion": "Taric",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 33.3
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 3,
-      "mainLaneGames": 107,
+      "players": 5,
+      "mainLaneGames": 168,
       "mainLaneNext": [
         {
           "champion": "Karthus",
-          "games": 8,
-          "rate": 7.5
+          "games": 14,
+          "rate": 8.3
         },
         {
           "champion": "Kindred",
           "games": 6,
-          "rate": 5.6
+          "rate": 3.6
+        },
+        {
+          "champion": "Viego",
+          "games": 4,
+          "rate": 2.4
+        },
+        {
+          "champion": "Hecarim",
+          "games": 3,
+          "rate": 1.8
         },
         {
           "champion": "Evelynn",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.2
         },
         {
-          "champion": "Hecarim",
-          "games": 2,
-          "rate": 1.9
-        },
-        {
-          "champion": "Viego",
-          "games": 2,
-          "rate": 1.9
+          "champion": "MasterYi",
+          "games": 1,
+          "rate": 0.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 9,
           "picks": [
             {
               "champion": "Tryndamere",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 44.4
+            },
+            {
+              "champion": "Yone",
+              "games": 2,
+              "rate": 22.2
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 25.0
+              "rate": 11.1
+            },
+            {
+              "champion": "Garen",
+              "games": 1,
+              "rate": 11.1
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 8,
+          "picks": [
+            {
+              "champion": "Yone",
+              "games": 6,
+              "rate": 75.0
+            },
+            {
+              "champion": "Veigar",
+              "games": 2,
+              "rate": 25.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 4,
@@ -167,22 +239,32 @@
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 5,
           "picks": [
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
+            },
+            {
+              "champion": "Sona",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Taric",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 33.3
+              "rate": 20.0
             }
           ]
         }

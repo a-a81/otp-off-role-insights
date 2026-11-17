@@ -3,15 +3,20 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zaahen",
-  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
+  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
   "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 34,
+  "mainLaneGames": 36,
   "mainLaneNext": [
     {
-      "champion": "Camille",
+      "champion": "Gwen",
       "games": 1,
-      "rate": 2.9
+      "rate": 2.8
+    },
+    {
+      "champion": "MonkeyKing",
+      "games": 1,
+      "rate": 2.8
     }
   ],
   "offLanes": {
@@ -20,17 +25,12 @@
       "picks": []
     },
     "MID": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "AurelionSol",
           "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Zaahen",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
@@ -39,22 +39,17 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Yuumi",
-          "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     }
@@ -62,12 +57,17 @@
   "byMainLane": {
     "TOP": {
       "players": 1,
-      "mainLaneGames": 34,
+      "mainLaneGames": 36,
       "mainLaneNext": [
         {
-          "champion": "Camille",
+          "champion": "Gwen",
           "games": 1,
-          "rate": 2.9
+          "rate": 2.8
+        },
+        {
+          "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 2.8
         }
       ],
       "offLanes": {
@@ -76,17 +76,12 @@
           "picks": []
         },
         "MID": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "AurelionSol",
               "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Zaahen",
-              "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
@@ -95,22 +90,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Yuumi",
-              "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         }

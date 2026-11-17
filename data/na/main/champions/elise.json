@@ -3,30 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Elise",
-  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
-  "mainLane": "JUNGLE",
-  "players": 1,
-  "mainLaneGames": 39,
+  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "mainLane": "UTILITY",
+  "players": 2,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
-      "champion": "JarvanIV",
-      "games": 8,
-      "rate": 20.5
-    },
-    {
-      "champion": "Khazix",
-      "games": 7,
-      "rate": 17.9
-    },
-    {
-      "champion": "Diana",
+      "champion": "Braum",
       "games": 3,
-      "rate": 7.7
+      "rate": 5.3
     },
     {
-      "champion": "Lillia",
+      "champion": "Zilean",
+      "games": 3,
+      "rate": 5.3
+    },
+    {
+      "champion": "Blitzcrank",
       "games": 1,
-      "rate": 2.6
+      "rate": 1.8
+    },
+    {
+      "champion": "Nautilus",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Pantheon",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Rakan",
+      "games": 1,
+      "rate": 1.8
+    },
+    {
+      "champion": "Taric",
+      "games": 1,
+      "rate": 1.8
     }
   ],
   "offLanes": {
@@ -34,84 +49,120 @@
       "games": 0,
       "picks": []
     },
+    "JUNGLE": {
+      "games": 0,
+      "picks": []
+    },
     "MID": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
-      "games": 0,
-      "picks": []
-    },
-    "UTILITY": {
-      "games": 1,
+      "games": 4,
       "picks": [
         {
-          "champion": "Elise",
+          "champion": "Camille",
           "games": 1,
-          "rate": 100.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 18,
+      "picks": [
+        {
+          "champion": "Jinx",
+          "games": 4,
+          "rate": 22.2
+        },
+        {
+          "champion": "Hwei",
+          "games": 3,
+          "rate": 16.7
+        },
+        {
+          "champion": "Katarina",
+          "games": 3,
+          "rate": 16.7
+        },
+        {
+          "champion": "Ezreal",
+          "games": 2,
+          "rate": 11.1
+        },
+        {
+          "champion": "Swain",
+          "games": 2,
+          "rate": 11.1
+        },
+        {
+          "champion": "Syndra",
+          "games": 2,
+          "rate": 11.1
+        },
+        {
+          "champion": "Zeri",
+          "games": 1,
+          "rate": 5.6
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 5.6
         }
       ]
     }
   },
   "byMainLane": {
-    "JUNGLE": {
-      "players": 1,
-      "mainLaneGames": 39,
-      "mainLaneNext": [
-        {
-          "champion": "JarvanIV",
-          "games": 8,
-          "rate": 20.5
-        },
-        {
-          "champion": "Khazix",
-          "games": 7,
-          "rate": 17.9
-        },
-        {
-          "champion": "Diana",
-          "games": 3,
-          "rate": 7.7
-        },
-        {
-          "champion": "Lillia",
-          "games": 1,
-          "rate": 2.6
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Elise",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "UTILITY": {
-      "players": 1,
-      "mainLaneGames": 36,
+      "players": 2,
+      "mainLaneGames": 57,
       "mainLaneNext": [
+        {
+          "champion": "Braum",
+          "games": 3,
+          "rate": 5.3
+        },
+        {
+          "champion": "Zilean",
+          "games": 3,
+          "rate": 5.3
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 1.8
+        },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 2.8
+          "rate": 1.8
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Taric",
+          "games": 1,
+          "rate": 1.8
         }
       ],
       "offLanes": {
@@ -149,8 +200,99 @@
           ]
         },
         "BOTTOM": {
+          "games": 18,
+          "picks": [
+            {
+              "champion": "Jinx",
+              "games": 4,
+              "rate": 22.2
+            },
+            {
+              "champion": "Hwei",
+              "games": 3,
+              "rate": 16.7
+            },
+            {
+              "champion": "Katarina",
+              "games": 3,
+              "rate": 16.7
+            },
+            {
+              "champion": "Ezreal",
+              "games": 2,
+              "rate": 11.1
+            },
+            {
+              "champion": "Swain",
+              "games": 2,
+              "rate": 11.1
+            },
+            {
+              "champion": "Syndra",
+              "games": 2,
+              "rate": 11.1
+            },
+            {
+              "champion": "Zeri",
+              "games": 1,
+              "rate": 5.6
+            },
+            {
+              "champion": "Zilean",
+              "games": 1,
+              "rate": 5.6
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 39,
+      "mainLaneNext": [
+        {
+          "champion": "Khazix",
+          "games": 7,
+          "rate": 17.9
+        },
+        {
+          "champion": "Diana",
+          "games": 4,
+          "rate": 10.3
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 4,
+          "rate": 10.3
+        },
+        {
+          "champion": "Lillia",
+          "games": 2,
+          "rate": 5.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
           "games": 0,
           "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Elise",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

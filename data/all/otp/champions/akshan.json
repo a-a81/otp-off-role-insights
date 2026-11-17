@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Akshan",
-  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
+  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
   "mainLane": "MID",
   "players": 14,
   "mainLaneGames": 403,
@@ -27,11 +27,6 @@
       "champion": "Galio",
       "games": 3,
       "rate": 0.7
-    },
-    {
-      "champion": "Mel",
-      "games": 2,
-      "rate": 0.5
     },
     {
       "champion": "Annie",
@@ -59,6 +54,11 @@
       "rate": 0.2
     },
     {
+      "champion": "Mel",
+      "games": 1,
+      "rate": 0.2
+    },
+    {
       "champion": "Quinn",
       "games": 1,
       "rate": 0.2
@@ -76,17 +76,22 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 51,
+      "games": 50,
       "picks": [
         {
           "champion": "Akshan",
-          "games": 40,
-          "rate": 78.4
+          "games": 38,
+          "rate": 76.0
         },
         {
           "champion": "Quinn",
           "games": 5,
-          "rate": 9.8
+          "rate": 10.0
+        },
+        {
+          "champion": "Fiora",
+          "games": 2,
+          "rate": 4.0
         },
         {
           "champion": "Heimerdinger",
@@ -104,11 +109,6 @@
           "rate": 2.0
         },
         {
-          "champion": "Ornn",
-          "games": 1,
-          "rate": 2.0
-        },
-        {
           "champion": "Sion",
           "games": 1,
           "rate": 2.0
@@ -121,52 +121,52 @@
       ]
     },
     "JUNGLE": {
-      "games": 19,
+      "games": 20,
       "picks": [
         {
           "champion": "Akshan",
           "games": 5,
-          "rate": 26.3
+          "rate": 25.0
         },
         {
           "champion": "Kindred",
           "games": 4,
-          "rate": 21.1
+          "rate": 20.0
+        },
+        {
+          "champion": "Taliyah",
+          "games": 3,
+          "rate": 15.0
         },
         {
           "champion": "Camille",
           "games": 2,
-          "rate": 10.5
+          "rate": 10.0
         },
         {
           "champion": "Rengar",
           "games": 2,
-          "rate": 10.5
-        },
-        {
-          "champion": "Taliyah",
-          "games": 2,
-          "rate": 10.5
+          "rate": 10.0
         },
         {
           "champion": "Belveth",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Quinn",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 5.3
+          "rate": 5.0
         }
       ]
     },
@@ -182,6 +182,11 @@
           "champion": "Mel",
           "games": 4,
           "rate": 11.1
+        },
+        {
+          "champion": "Kaisa",
+          "games": 2,
+          "rate": 5.6
         },
         {
           "champion": "Corki",
@@ -200,16 +205,6 @@
         },
         {
           "champion": "Jhin",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1,
-          "rate": 2.8
-        },
-        {
-          "champion": "Nilah",
           "games": 1,
           "rate": 2.8
         },
@@ -249,7 +244,7 @@
           "rate": 12.2
         },
         {
-          "champion": "Pantheon",
+          "champion": "Leona",
           "games": 4,
           "rate": 9.8
         },
@@ -269,7 +264,7 @@
           "rate": 7.3
         },
         {
-          "champion": "Leona",
+          "champion": "Pantheon",
           "games": 3,
           "rate": 7.3
         },
@@ -357,11 +352,6 @@
           "rate": 0.7
         },
         {
-          "champion": "Mel",
-          "games": 2,
-          "rate": 0.5
-        },
-        {
           "champion": "Annie",
           "games": 1,
           "rate": 0.2
@@ -387,6 +377,11 @@
           "rate": 0.2
         },
         {
+          "champion": "Mel",
+          "games": 1,
+          "rate": 0.2
+        },
+        {
           "champion": "Quinn",
           "games": 1,
           "rate": 0.2
@@ -404,17 +399,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 51,
+          "games": 50,
           "picks": [
             {
               "champion": "Akshan",
-              "games": 40,
-              "rate": 78.4
+              "games": 38,
+              "rate": 76.0
             },
             {
               "champion": "Quinn",
               "games": 5,
-              "rate": 9.8
+              "rate": 10.0
+            },
+            {
+              "champion": "Fiora",
+              "games": 2,
+              "rate": 4.0
             },
             {
               "champion": "Heimerdinger",
@@ -432,11 +432,6 @@
               "rate": 2.0
             },
             {
-              "champion": "Ornn",
-              "games": 1,
-              "rate": 2.0
-            },
-            {
               "champion": "Sion",
               "games": 1,
               "rate": 2.0
@@ -449,52 +444,52 @@
           ]
         },
         "JUNGLE": {
-          "games": 19,
+          "games": 20,
           "picks": [
             {
               "champion": "Akshan",
               "games": 5,
-              "rate": 26.3
+              "rate": 25.0
             },
             {
               "champion": "Kindred",
               "games": 4,
-              "rate": 21.1
+              "rate": 20.0
+            },
+            {
+              "champion": "Taliyah",
+              "games": 3,
+              "rate": 15.0
             },
             {
               "champion": "Camille",
               "games": 2,
-              "rate": 10.5
+              "rate": 10.0
             },
             {
               "champion": "Rengar",
               "games": 2,
-              "rate": 10.5
-            },
-            {
-              "champion": "Taliyah",
-              "games": 2,
-              "rate": 10.5
+              "rate": 10.0
             },
             {
               "champion": "Belveth",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Diana",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Quinn",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 5.3
+              "rate": 5.0
             }
           ]
         },
@@ -510,6 +505,11 @@
               "champion": "Mel",
               "games": 4,
               "rate": 11.1
+            },
+            {
+              "champion": "Kaisa",
+              "games": 2,
+              "rate": 5.6
             },
             {
               "champion": "Corki",
@@ -528,16 +528,6 @@
             },
             {
               "champion": "Jhin",
-              "games": 1,
-              "rate": 2.8
-            },
-            {
-              "champion": "Kaisa",
-              "games": 1,
-              "rate": 2.8
-            },
-            {
-              "champion": "Nilah",
               "games": 1,
               "rate": 2.8
             },
@@ -577,7 +567,7 @@
               "rate": 12.2
             },
             {
-              "champion": "Pantheon",
+              "champion": "Leona",
               "games": 4,
               "rate": 9.8
             },
@@ -597,7 +587,7 @@
               "rate": 7.3
             },
             {
-              "champion": "Leona",
+              "champion": "Pantheon",
               "games": 3,
               "rate": 7.3
             },

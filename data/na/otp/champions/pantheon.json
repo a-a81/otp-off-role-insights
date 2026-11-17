@@ -3,171 +3,115 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Pantheon",
-  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
-  "mainLane": "TOP",
+  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 57,
+  "mainLaneGames": 53,
   "mainLaneNext": [
+    {
+      "champion": "Viego",
+      "games": 4,
+      "rate": 7.5
+    },
+    {
+      "champion": "Galio",
+      "games": 2,
+      "rate": 3.8
+    },
+    {
+      "champion": "Ahri",
+      "games": 1,
+      "rate": 1.9
+    },
     {
       "champion": "Draven",
       "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Gnar",
-      "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Jax",
-      "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Mordekaiser",
-      "games": 1,
-      "rate": 1.8
-    },
-    {
-      "champion": "Renekton",
-      "games": 1,
-      "rate": 1.8
+      "rate": 1.9
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 5,
+    "TOP": {
+      "games": 3,
       "picks": [
         {
-          "champion": "Pantheon",
-          "games": 3,
-          "rate": 60.0
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 33.3
         },
         {
-          "champion": "DrMundo",
-          "games": 2,
-          "rate": 40.0
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Vayne",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
-    "MID": {
-      "games": 0,
-      "picks": []
+    "JUNGLE": {
+      "games": 17,
+      "picks": [
+        {
+          "champion": "LeeSin",
+          "games": 9,
+          "rate": 52.9
+        },
+        {
+          "champion": "Pantheon",
+          "games": 6,
+          "rate": 35.3
+        },
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 11.8
+        }
+      ]
     },
     "BOTTOM": {
-      "games": 10,
+      "games": 1,
       "picks": [
         {
           "champion": "Pantheon",
-          "games": 8,
-          "rate": 80.0
-        },
-        {
-          "champion": "Draven",
           "games": 1,
-          "rate": 10.0
-        },
-        {
-          "champion": "Lucian",
-          "games": 1,
-          "rate": 10.0
+          "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 6,
       "picks": [
         {
           "champion": "Pantheon",
-          "games": 8,
-          "rate": 100.0
+          "games": 2,
+          "rate": 33.3
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Rakan",
+          "games": 1,
+          "rate": 16.7
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 16.7
         }
       ]
     }
   },
   "byMainLane": {
-    "TOP": {
-      "players": 2,
-      "mainLaneGames": 57,
-      "mainLaneNext": [
-        {
-          "champion": "Draven",
-          "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Gnar",
-          "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Jax",
-          "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Mordekaiser",
-          "games": 1,
-          "rate": 1.8
-        },
-        {
-          "champion": "Renekton",
-          "games": 1,
-          "rate": 1.8
-        }
-      ],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Pantheon",
-              "games": 3,
-              "rate": 60.0
-            },
-            {
-              "champion": "DrMundo",
-              "games": 2,
-              "rate": 40.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 10,
-          "picks": [
-            {
-              "champion": "Pantheon",
-              "games": 8,
-              "rate": 80.0
-            },
-            {
-              "champion": "Draven",
-              "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Lucian",
-              "games": 1,
-              "rate": 10.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 8,
-          "picks": [
-            {
-              "champion": "Pantheon",
-              "games": 8,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "MID": {
       "players": 2,
       "mainLaneGames": 53,
@@ -271,6 +215,94 @@
               "champion": "Seraphine",
               "games": 1,
               "rate": 16.7
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 2,
+      "mainLaneGames": 51,
+      "mainLaneNext": [
+        {
+          "champion": "Draven",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Gnar",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 2.0
+        },
+        {
+          "champion": "Renekton",
+          "games": 1,
+          "rate": 2.0
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 3,
+              "rate": 60.0
+            },
+            {
+              "champion": "DrMundo",
+              "games": 2,
+              "rate": 40.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Diana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 11,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 9,
+              "rate": 81.8
+            },
+            {
+              "champion": "Draven",
+              "games": 1,
+              "rate": 9.1
+            },
+            {
+              "champion": "Lucian",
+              "games": 1,
+              "rate": 9.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 11,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 11,
+              "rate": 100.0
             }
           ]
         }

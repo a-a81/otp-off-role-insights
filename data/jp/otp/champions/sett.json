@@ -3,11 +3,16 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sett",
-  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
+  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 92,
+  "mainLaneGames": 93,
   "mainLaneNext": [
+    {
+      "champion": "KSante",
+      "games": 2,
+      "rate": 2.2
+    },
     {
       "champion": "Malphite",
       "games": 1,
@@ -17,36 +22,31 @@
       "champion": "Riven",
       "games": 1,
       "rate": 1.1
-    },
-    {
-      "champion": "TahmKench",
-      "games": 1,
-      "rate": 1.1
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Sett",
-          "games": 3,
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Sett",
-          "games": 3,
-          "rate": 75.0
+          "games": 4,
+          "rate": 80.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -55,32 +55,32 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 18,
+      "games": 17,
       "picks": [
         {
           "champion": "Thresh",
           "games": 12,
-          "rate": 66.7
+          "rate": 70.6
         },
         {
           "champion": "Nautilus",
-          "games": 3,
-          "rate": 16.7
+          "games": 2,
+          "rate": 11.8
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.9
         },
         {
           "champion": "Sett",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.9
         },
         {
           "champion": "TahmKench",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.9
         }
       ]
     }
@@ -88,8 +88,13 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 92,
+      "mainLaneGames": 93,
       "mainLaneNext": [
+        {
+          "champion": "KSante",
+          "games": 2,
+          "rate": 2.2
+        },
         {
           "champion": "Malphite",
           "games": 1,
@@ -99,36 +104,31 @@
           "champion": "Riven",
           "games": 1,
           "rate": 1.1
-        },
-        {
-          "champion": "TahmKench",
-          "games": 1,
-          "rate": 1.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Sett",
-              "games": 3,
+              "games": 2,
               "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Sett",
-              "games": 3,
-              "rate": 75.0
+              "games": 4,
+              "rate": 80.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -137,32 +137,32 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 18,
+          "games": 17,
           "picks": [
             {
               "champion": "Thresh",
               "games": 12,
-              "rate": 66.7
+              "rate": 70.6
             },
             {
               "champion": "Nautilus",
-              "games": 3,
-              "rate": 16.7
+              "games": 2,
+              "rate": 11.8
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.9
             },
             {
               "champion": "Sett",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.9
             },
             {
               "champion": "TahmKench",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.9
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Skarner",
-  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
+  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
   "mainLane": "UTILITY",
   "players": 6,
   "mainLaneGames": 226,
@@ -36,11 +36,11 @@
       ]
     },
     "JUNGLE": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Skarner",
-          "games": 4,
+          "games": 3,
           "rate": 100.0
         }
       ]
@@ -103,11 +103,11 @@
           ]
         },
         "JUNGLE": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Skarner",
-              "games": 4,
+              "games": 3,
               "rate": 100.0
             }
           ]
@@ -303,22 +303,27 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 31,
+      "mainLaneGames": 30,
       "mainLaneNext": [
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 3.2
+          "rate": 3.3
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 7,
+          "games": 8,
           "picks": [
             {
               "champion": "Skarner",
               "games": 7,
-              "rate": 100.0
+              "rate": 87.5
+            },
+            {
+              "champion": "Lillia",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -331,17 +336,12 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "TahmKench",
-              "games": 1,
-              "rate": 50.0
+              "rate": 100.0
             }
           ]
         }
