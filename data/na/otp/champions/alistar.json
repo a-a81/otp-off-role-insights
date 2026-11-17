@@ -3,15 +3,20 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "UTILITY",
   "players": 4,
-  "mainLaneGames": 141,
+  "mainLaneGames": 138,
   "mainLaneNext": [
     {
       "champion": "Karma",
       "games": 3,
-      "rate": 2.1
+      "rate": 2.2
+    },
+    {
+      "champion": "Rakan",
+      "games": 3,
+      "rate": 2.2
     },
     {
       "champion": "Blitzcrank",
@@ -19,12 +24,7 @@
       "rate": 1.4
     },
     {
-      "champion": "Poppy",
-      "games": 2,
-      "rate": 1.4
-    },
-    {
-      "champion": "Rakan",
+      "champion": "Pantheon",
       "games": 2,
       "rate": 1.4
     },
@@ -34,17 +34,12 @@
       "rate": 0.7
     },
     {
+      "champion": "Leona",
+      "games": 1,
+      "rate": 0.7
+    },
+    {
       "champion": "Nautilus",
-      "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "Pantheon",
-      "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "Thresh",
       "games": 1,
       "rate": 0.7
     }
@@ -55,22 +50,22 @@
       "picks": []
     },
     "JUNGLE": {
-      "games": 12,
+      "games": 14,
       "picks": [
         {
           "champion": "Nunu",
-          "games": 6,
-          "rate": 50.0
+          "games": 8,
+          "rate": 57.1
         },
         {
           "champion": "Viego",
           "games": 5,
-          "rate": 41.7
+          "rate": 35.7
         },
         {
           "champion": "Rammus",
           "games": 1,
-          "rate": 8.3
+          "rate": 7.1
         }
       ]
     },
@@ -103,12 +98,17 @@
   "byMainLane": {
     "UTILITY": {
       "players": 4,
-      "mainLaneGames": 141,
+      "mainLaneGames": 138,
       "mainLaneNext": [
         {
           "champion": "Karma",
           "games": 3,
-          "rate": 2.1
+          "rate": 2.2
+        },
+        {
+          "champion": "Rakan",
+          "games": 3,
+          "rate": 2.2
         },
         {
           "champion": "Blitzcrank",
@@ -116,12 +116,7 @@
           "rate": 1.4
         },
         {
-          "champion": "Poppy",
-          "games": 2,
-          "rate": 1.4
-        },
-        {
-          "champion": "Rakan",
+          "champion": "Pantheon",
           "games": 2,
           "rate": 1.4
         },
@@ -131,17 +126,12 @@
           "rate": 0.7
         },
         {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 0.7
+        },
+        {
           "champion": "Nautilus",
-          "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "Pantheon",
-          "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "Thresh",
           "games": 1,
           "rate": 0.7
         }
@@ -152,22 +142,22 @@
           "picks": []
         },
         "JUNGLE": {
-          "games": 12,
+          "games": 14,
           "picks": [
             {
               "champion": "Nunu",
-              "games": 6,
-              "rate": 50.0
+              "games": 8,
+              "rate": 57.1
             },
             {
               "champion": "Viego",
               "games": 5,
-              "rate": 41.7
+              "rate": 35.7
             },
             {
               "champion": "Rammus",
               "games": 1,
-              "rate": 8.3
+              "rate": 7.1
             }
           ]
         },

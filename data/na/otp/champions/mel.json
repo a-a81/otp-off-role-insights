@@ -3,74 +3,147 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
+  "mainLane": "BOTTOM",
   "players": 1,
   "mainLaneGames": 26,
   "mainLaneNext": [
     {
-      "champion": "Ahri",
-      "games": 1,
-      "rate": 3.8
+      "champion": "Syndra",
+      "games": 3,
+      "rate": 11.5
     },
     {
-      "champion": "Hwei",
-      "games": 1,
-      "rate": 3.8
+      "champion": "Zyra",
+      "games": 3,
+      "rate": 11.5
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 10,
-      "picks": [
-        {
-          "champion": "KSante",
-          "games": 8,
-          "rate": 80.0
-        },
-        {
-          "champion": "Swain",
-          "games": 2,
-          "rate": 20.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "JUNGLE": {
       "games": 0,
       "picks": []
     },
-    "BOTTOM": {
-      "games": 3,
-      "picks": [
-        {
-          "champion": "Ashe",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Xayah",
-          "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Zeri",
-          "games": 1,
-          "rate": 33.3
-        }
-      ]
+    "MID": {
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
-      "games": 1,
+      "games": 13,
       "picks": [
         {
-          "champion": "Nautilus",
+          "champion": "Seraphine",
+          "games": 5,
+          "rate": 38.5
+        },
+        {
+          "champion": "Janna",
+          "games": 2,
+          "rate": 15.4
+        },
+        {
+          "champion": "Sona",
+          "games": 2,
+          "rate": 15.4
+        },
+        {
+          "champion": "Lulu",
           "games": 1,
-          "rate": 100.0
+          "rate": 7.7
+        },
+        {
+          "champion": "Morgana",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 7.7
+        },
+        {
+          "champion": "Renata",
+          "games": 1,
+          "rate": 7.7
         }
       ]
     }
   },
   "byMainLane": {
+    "BOTTOM": {
+      "players": 1,
+      "mainLaneGames": 26,
+      "mainLaneNext": [
+        {
+          "champion": "Syndra",
+          "games": 3,
+          "rate": 11.5
+        },
+        {
+          "champion": "Zyra",
+          "games": 3,
+          "rate": 11.5
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Seraphine",
+              "games": 5,
+              "rate": 38.5
+            },
+            {
+              "champion": "Janna",
+              "games": 2,
+              "rate": 15.4
+            },
+            {
+              "champion": "Sona",
+              "games": 2,
+              "rate": 15.4
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Renata",
+              "games": 1,
+              "rate": 7.7
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 26,
@@ -133,76 +206,6 @@
               "champion": "Nautilus",
               "games": 1,
               "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
-    "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 24,
-      "mainLaneNext": [
-        {
-          "champion": "Syndra",
-          "games": 5,
-          "rate": 20.8
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 4.2
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 16,
-          "picks": [
-            {
-              "champion": "Seraphine",
-              "games": 5,
-              "rate": 31.2
-            },
-            {
-              "champion": "Sona",
-              "games": 5,
-              "rate": 31.2
-            },
-            {
-              "champion": "Lulu",
-              "games": 2,
-              "rate": 12.5
-            },
-            {
-              "champion": "Karma",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Nami",
-              "games": 1,
-              "rate": 6.2
-            },
-            {
-              "champion": "Renata",
-              "games": 1,
-              "rate": 6.2
             }
           ]
         }

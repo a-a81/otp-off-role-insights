@@ -3,25 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kennen",
-  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
+  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 65,
+  "mainLaneGames": 66,
   "mainLaneNext": [
     {
       "champion": "Ambessa",
       "games": 4,
-      "rate": 6.2
+      "rate": 6.1
     },
     {
       "champion": "Aatrox",
       "games": 2,
-      "rate": 3.1
+      "rate": 3.0
     },
     {
       "champion": "Sejuani",
       "games": 2,
-      "rate": 3.1
+      "rate": 3.0
     },
     {
       "champion": "Akali",
@@ -41,27 +41,22 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 5,
+      "games": 4,
       "picks": [
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 40.0
+          "rate": 50.0
         },
         {
           "champion": "JarvanIV",
           "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Nocturne",
-          "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "XinZhao",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         }
       ]
     },
@@ -104,22 +99,22 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 65,
+      "mainLaneGames": 66,
       "mainLaneNext": [
         {
           "champion": "Ambessa",
           "games": 4,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Aatrox",
           "games": 2,
-          "rate": 3.1
+          "rate": 3.0
         },
         {
           "champion": "Sejuani",
           "games": 2,
-          "rate": 3.1
+          "rate": 3.0
         },
         {
           "champion": "Akali",
@@ -139,27 +134,22 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Kindred",
               "games": 2,
-              "rate": 40.0
+              "rate": 50.0
             },
             {
               "champion": "JarvanIV",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Nocturne",
-              "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "XinZhao",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         },
@@ -201,32 +191,48 @@
       }
     },
     "MID": {
-      "players": 1,
-      "mainLaneGames": 24,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 53,
+      "mainLaneNext": [
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 1.9
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 12,
+          "games": 20,
           "picks": [
             {
               "champion": "Kennen",
-              "games": 11,
-              "rate": 91.7
+              "games": 18,
+              "rate": 90.0
             },
             {
               "champion": "Gnar",
               "games": 1,
-              "rate": 8.3
+              "rate": 5.0
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 5.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Amumu",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Taliyah",
               "games": 1,
-              "rate": 100.0
+              "rate": 33.3
             }
           ]
         },
@@ -235,17 +241,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
-              "champion": "Kennen",
-              "games": 1,
-              "rate": 50.0
+              "champion": "Zilean",
+              "games": 2,
+              "rate": 66.7
             },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         }
@@ -253,37 +259,32 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 20,
+      "mainLaneGames": 21,
       "mainLaneNext": [
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 5.0
+          "rate": 4.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 9,
           "picks": [
             {
               "champion": "Kennen",
-              "games": 8,
-              "rate": 72.7
+              "games": 7,
+              "rate": 77.8
             },
             {
               "champion": "Camille",
               "games": 1,
-              "rate": 9.1
+              "rate": 11.1
             },
             {
               "champion": "Ornn",
               "games": 1,
-              "rate": 9.1
-            },
-            {
-              "champion": "Renekton",
-              "games": 1,
-              "rate": 9.1
+              "rate": 11.1
             }
           ]
         },
@@ -292,11 +293,11 @@
           "picks": []
         },
         "MID": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "Kennen",
-              "games": 9,
+              "games": 10,
               "rate": 100.0
             }
           ]

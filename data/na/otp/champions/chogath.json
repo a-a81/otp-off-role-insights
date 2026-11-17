@@ -3,84 +3,113 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Chogath",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 23,
+  "mainLaneGames": 33,
   "mainLaneNext": [
     {
-      "champion": "Quinn",
-      "games": 2,
-      "rate": 8.7
-    },
-    {
-      "champion": "Brand",
-      "games": 1,
-      "rate": 4.3
-    },
-    {
-      "champion": "Illaoi",
-      "games": 1,
-      "rate": 4.3
+      "champion": "Shyvana",
+      "games": 4,
+      "rate": 12.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
-          "champion": "Brand",
+          "champion": "Chogath",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     },
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
-      "games": 12,
+    "MID": {
+      "games": 3,
       "picks": [
         {
-          "champion": "Brand",
-          "games": 10,
-          "rate": 83.3
-        },
+          "champion": "Chogath",
+          "games": 3,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 1,
+      "picks": [
         {
-          "champion": "Annie",
+          "champion": "Smolder",
           "games": 1,
-          "rate": 8.3
-        },
-        {
-          "champion": "Draven",
-          "games": 1,
-          "rate": 8.3
+          "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 33,
+      "mainLaneNext": [
+        {
+          "champion": "Shyvana",
+          "games": 4,
+          "rate": 12.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 23,

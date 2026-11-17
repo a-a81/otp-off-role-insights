@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nidalee",
-  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
+  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
   "mainLane": "JUNGLE",
   "players": 8,
   "mainLaneGames": 246,
@@ -20,16 +20,11 @@
     },
     {
       "champion": "JarvanIV",
-      "games": 4,
-      "rate": 1.6
+      "games": 6,
+      "rate": 2.4
     },
     {
       "champion": "Diana",
-      "games": 2,
-      "rate": 0.8
-    },
-    {
-      "champion": "Graves",
       "games": 2,
       "rate": 0.8
     },
@@ -44,12 +39,22 @@
       "rate": 0.8
     },
     {
+      "champion": "Graves",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
       "champion": "Karthus",
       "games": 1,
       "rate": 0.4
     },
     {
       "champion": "Khazix",
+      "games": 1,
+      "rate": 0.4
+    },
+    {
+      "champion": "Kindred",
       "games": 1,
       "rate": 0.4
     },
@@ -70,11 +75,6 @@
     },
     {
       "champion": "Rengar",
-      "games": 1,
-      "rate": 0.4
-    },
-    {
-      "champion": "Sylas",
       "games": 1,
       "rate": 0.4
     }
@@ -101,37 +101,37 @@
       ]
     },
     "MID": {
-      "games": 15,
+      "games": 14,
       "picks": [
         {
           "champion": "Aurora",
           "games": 5,
-          "rate": 33.3
+          "rate": 35.7
         },
         {
           "champion": "Syndra",
           "games": 4,
-          "rate": 26.7
-        },
-        {
-          "champion": "Ahri",
-          "games": 2,
-          "rate": 13.3
+          "rate": 28.6
         },
         {
           "champion": "Viktor",
           "games": 2,
-          "rate": 13.3
+          "rate": 14.3
+        },
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 7.1
         },
         {
           "champion": "Leblanc",
           "games": 1,
-          "rate": 6.7
+          "rate": 7.1
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 6.7
+          "rate": 7.1
         }
       ]
     },
@@ -176,67 +176,72 @@
       ]
     },
     "UTILITY": {
-      "games": 32,
+      "games": 33,
       "picks": [
         {
           "champion": "Rengar",
           "games": 10,
-          "rate": 31.2
+          "rate": 30.3
         },
         {
           "champion": "Thresh",
           "games": 5,
-          "rate": 15.6
+          "rate": 15.2
         },
         {
           "champion": "Lulu",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Lux",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Morgana",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Pyke",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Shen",
           "games": 2,
-          "rate": 6.2
+          "rate": 6.1
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.0
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.0
+        },
+        {
+          "champion": "TahmKench",
+          "games": 1,
+          "rate": 3.0
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.0
         }
       ]
     }
@@ -258,16 +263,11 @@
         },
         {
           "champion": "JarvanIV",
-          "games": 4,
-          "rate": 1.6
+          "games": 6,
+          "rate": 2.4
         },
         {
           "champion": "Diana",
-          "games": 2,
-          "rate": 0.8
-        },
-        {
-          "champion": "Graves",
           "games": 2,
           "rate": 0.8
         },
@@ -282,12 +282,22 @@
           "rate": 0.8
         },
         {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
           "champion": "Karthus",
           "games": 1,
           "rate": 0.4
         },
         {
           "champion": "Khazix",
+          "games": 1,
+          "rate": 0.4
+        },
+        {
+          "champion": "Kindred",
           "games": 1,
           "rate": 0.4
         },
@@ -308,11 +318,6 @@
         },
         {
           "champion": "Rengar",
-          "games": 1,
-          "rate": 0.4
-        },
-        {
-          "champion": "Sylas",
           "games": 1,
           "rate": 0.4
         }
@@ -339,37 +344,37 @@
           ]
         },
         "MID": {
-          "games": 15,
+          "games": 14,
           "picks": [
             {
               "champion": "Aurora",
               "games": 5,
-              "rate": 33.3
+              "rate": 35.7
             },
             {
               "champion": "Syndra",
               "games": 4,
-              "rate": 26.7
-            },
-            {
-              "champion": "Ahri",
-              "games": 2,
-              "rate": 13.3
+              "rate": 28.6
             },
             {
               "champion": "Viktor",
               "games": 2,
-              "rate": 13.3
+              "rate": 14.3
+            },
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 7.1
             },
             {
               "champion": "Leblanc",
               "games": 1,
-              "rate": 6.7
+              "rate": 7.1
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 6.7
+              "rate": 7.1
             }
           ]
         },
@@ -414,67 +419,72 @@
           ]
         },
         "UTILITY": {
-          "games": 32,
+          "games": 33,
           "picks": [
             {
               "champion": "Rengar",
               "games": 10,
-              "rate": 31.2
+              "rate": 30.3
             },
             {
               "champion": "Thresh",
               "games": 5,
-              "rate": 15.6
+              "rate": 15.2
             },
             {
               "champion": "Lulu",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Lux",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Morgana",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Pantheon",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Pyke",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Shen",
               "games": 2,
-              "rate": 6.2
+              "rate": 6.1
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 3.1
+              "rate": 3.0
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 3.1
+              "rate": 3.0
+            },
+            {
+              "champion": "TahmKench",
+              "games": 1,
+              "rate": 3.0
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 3.1
+              "rate": 3.0
             }
           ]
         }

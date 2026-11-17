@@ -3,20 +3,20 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Camille",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 108,
+  "mainLaneGames": 106,
   "mainLaneNext": [
+    {
+      "champion": "Darius",
+      "games": 6,
+      "rate": 5.7
+    },
     {
       "champion": "Ambessa",
       "games": 5,
-      "rate": 4.6
-    },
-    {
-      "champion": "Darius",
-      "games": 5,
-      "rate": 4.6
+      "rate": 4.7
     },
     {
       "champion": "Gnar",
@@ -25,6 +25,11 @@
     },
     {
       "champion": "Malphite",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Sion",
       "games": 1,
       "rate": 0.9
     }
@@ -41,17 +46,22 @@
       ]
     },
     "MID": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Camille",
           "games": 3,
-          "rate": 75.0
+          "rate": 60.0
+        },
+        {
+          "champion": "Akali",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Talon",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -71,11 +81,11 @@
       ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Camille",
-          "games": 4,
+          "games": 5,
           "rate": 100.0
         }
       ]
@@ -84,17 +94,17 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 108,
+      "mainLaneGames": 106,
       "mainLaneNext": [
+        {
+          "champion": "Darius",
+          "games": 6,
+          "rate": 5.7
+        },
         {
           "champion": "Ambessa",
           "games": 5,
-          "rate": 4.6
-        },
-        {
-          "champion": "Darius",
-          "games": 5,
-          "rate": 4.6
+          "rate": 4.7
         },
         {
           "champion": "Gnar",
@@ -103,6 +113,11 @@
         },
         {
           "champion": "Malphite",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Sion",
           "games": 1,
           "rate": 0.9
         }
@@ -119,17 +134,22 @@
           ]
         },
         "MID": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Camille",
               "games": 3,
-              "rate": 75.0
+              "rate": 60.0
+            },
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Talon",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -149,11 +169,11 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Camille",
-              "games": 4,
+              "games": 5,
               "rate": 100.0
             }
           ]

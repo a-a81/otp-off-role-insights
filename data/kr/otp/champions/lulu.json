@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lulu",
-  "updatedAt": "2026-11-15T21:28:06.120844+00:00",
+  "updatedAt": "2026-11-17T02:53:43.543077+00:00",
   "mainLane": "UTILITY",
   "players": 3,
   "mainLaneGames": 113,
@@ -25,8 +25,8 @@
     },
     {
       "champion": "Nami",
-      "games": 2,
-      "rate": 1.8
+      "games": 3,
+      "rate": 2.7
     }
   ],
   "offLanes": {
@@ -90,8 +90,8 @@
         },
         {
           "champion": "Nami",
-          "games": 2,
-          "rate": 1.8
+          "games": 3,
+          "rate": 2.7
         }
       ],
       "offLanes": {
@@ -129,6 +129,73 @@
               "champion": "Kaisa",
               "games": 1,
               "rate": 14.3
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 32,
+      "mainLaneNext": [
+        {
+          "champion": "Vayne",
+          "games": 5,
+          "rate": 15.6
+        },
+        {
+          "champion": "Corki",
+          "games": 3,
+          "rate": 9.4
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Corki",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Corki",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Lulu",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Karma",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

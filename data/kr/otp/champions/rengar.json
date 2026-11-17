@@ -3,51 +3,77 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Rengar",
-  "updatedAt": "2026-11-15T21:28:06.120844+00:00",
-  "mainLane": "TOP",
-  "players": 1,
-  "mainLaneGames": 34,
+  "updatedAt": "2026-11-17T02:53:43.543077+00:00",
+  "mainLane": "JUNGLE",
+  "players": 2,
+  "mainLaneGames": 73,
   "mainLaneNext": [
     {
-      "champion": "Renekton",
+      "champion": "JarvanIV",
+      "games": 5,
+      "rate": 6.8
+    },
+    {
+      "champion": "Viego",
+      "games": 4,
+      "rate": 5.5
+    },
+    {
+      "champion": "Chogath",
+      "games": 3,
+      "rate": 4.1
+    },
+    {
+      "champion": "Vi",
       "games": 2,
-      "rate": 5.9
+      "rate": 2.7
     },
     {
-      "champion": "Irelia",
+      "champion": "Amumu",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.4
     },
     {
-      "champion": "Varus",
+      "champion": "Diana",
       "games": 1,
-      "rate": 2.9
+      "rate": 1.4
+    },
+    {
+      "champion": "Hecarim",
+      "games": 1,
+      "rate": 1.4
+    },
+    {
+      "champion": "Talon",
+      "games": 1,
+      "rate": 1.4
     }
   ],
   "offLanes": {
-    "JUNGLE": {
-      "games": 6,
+    "TOP": {
+      "games": 2,
       "picks": [
         {
           "champion": "Rengar",
-          "games": 3,
-          "rate": 50.0
-        },
-        {
-          "champion": "Hecarim",
           "games": 2,
-          "rate": 33.3
-        },
-        {
-          "champion": "Vi",
-          "games": 1,
-          "rate": 16.7
+          "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Lissandra",
+          "games": 3,
+          "rate": 75.0
+        },
+        {
+          "champion": "Galio",
+          "games": 1,
+          "rate": 25.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
@@ -59,6 +85,87 @@
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 2,
+      "mainLaneGames": 73,
+      "mainLaneNext": [
+        {
+          "champion": "JarvanIV",
+          "games": 5,
+          "rate": 6.8
+        },
+        {
+          "champion": "Viego",
+          "games": 4,
+          "rate": 5.5
+        },
+        {
+          "champion": "Chogath",
+          "games": 3,
+          "rate": 4.1
+        },
+        {
+          "champion": "Vi",
+          "games": 2,
+          "rate": 2.7
+        },
+        {
+          "champion": "Amumu",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Diana",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 1.4
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 1.4
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Rengar",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Lissandra",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
+        }
+      }
+    },
     "TOP": {
       "players": 1,
       "mainLaneGames": 34,

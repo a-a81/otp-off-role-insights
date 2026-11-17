@@ -3,55 +3,70 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Karma",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "UTILITY",
   "players": 3,
-  "mainLaneGames": 108,
+  "mainLaneGames": 109,
   "mainLaneNext": [
-    {
-      "champion": "Lulu",
-      "games": 16,
-      "rate": 14.8
-    },
     {
       "champion": "Pyke",
       "games": 13,
-      "rate": 12.0
+      "rate": 11.9
     },
     {
-      "champion": "Nami",
+      "champion": "Lulu",
       "games": 9,
       "rate": 8.3
     },
     {
-      "champion": "Milio",
+      "champion": "Sona",
       "games": 8,
-      "rate": 7.4
+      "rate": 7.3
+    },
+    {
+      "champion": "Milio",
+      "games": 7,
+      "rate": 6.4
     },
     {
       "champion": "Seraphine",
+      "games": 6,
+      "rate": 5.5
+    },
+    {
+      "champion": "Senna",
       "games": 4,
       "rate": 3.7
     },
     {
-      "champion": "Yuumi",
+      "champion": "Nami",
       "games": 3,
       "rate": 2.8
     },
     {
-      "champion": "Pantheon",
+      "champion": "Leona",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.8
     },
     {
-      "champion": "Sona",
+      "champion": "Pantheon",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.8
+    },
+    {
+      "champion": "Rakan",
+      "games": 2,
+      "rate": 1.8
+    },
+    {
+      "champion": "Rell",
+      "games": 2,
+      "rate": 1.8
     },
     {
       "champion": "Thresh",
       "games": 2,
-      "rate": 1.9
+      "rate": 1.8
     },
     {
       "champion": "Janna",
@@ -59,7 +74,12 @@
       "rate": 0.9
     },
     {
-      "champion": "Leona",
+      "champion": "Mel",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Nautilus",
       "games": 1,
       "rate": 0.9
     },
@@ -85,32 +105,27 @@
       "picks": []
     },
     "MID": {
-      "games": 8,
+      "games": 7,
       "picks": [
         {
           "champion": "Ziggs",
           "games": 3,
-          "rate": 37.5
+          "rate": 42.9
         },
         {
           "champion": "Hwei",
           "games": 2,
-          "rate": 25.0
+          "rate": 28.6
         },
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 12.5
-        },
-        {
-          "champion": "Karma",
-          "games": 1,
-          "rate": 12.5
+          "rate": 14.3
         },
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 12.5
+          "rate": 14.3
         }
       ]
     },
@@ -118,12 +133,12 @@
       "games": 2,
       "picks": [
         {
-          "champion": "Mel",
+          "champion": "Morgana",
           "games": 1,
           "rate": 50.0
         },
         {
-          "champion": "Morgana",
+          "champion": "Seraphine",
           "games": 1,
           "rate": 50.0
         }
@@ -133,52 +148,67 @@
   "byMainLane": {
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 108,
+      "mainLaneGames": 109,
       "mainLaneNext": [
-        {
-          "champion": "Lulu",
-          "games": 16,
-          "rate": 14.8
-        },
         {
           "champion": "Pyke",
           "games": 13,
-          "rate": 12.0
+          "rate": 11.9
         },
         {
-          "champion": "Nami",
+          "champion": "Lulu",
           "games": 9,
           "rate": 8.3
         },
         {
-          "champion": "Milio",
+          "champion": "Sona",
           "games": 8,
-          "rate": 7.4
+          "rate": 7.3
+        },
+        {
+          "champion": "Milio",
+          "games": 7,
+          "rate": 6.4
         },
         {
           "champion": "Seraphine",
+          "games": 6,
+          "rate": 5.5
+        },
+        {
+          "champion": "Senna",
           "games": 4,
           "rate": 3.7
         },
         {
-          "champion": "Yuumi",
+          "champion": "Nami",
           "games": 3,
           "rate": 2.8
         },
         {
-          "champion": "Pantheon",
+          "champion": "Leona",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.8
         },
         {
-          "champion": "Sona",
+          "champion": "Pantheon",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.8
+        },
+        {
+          "champion": "Rakan",
+          "games": 2,
+          "rate": 1.8
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 1.8
         },
         {
           "champion": "Thresh",
           "games": 2,
-          "rate": 1.9
+          "rate": 1.8
         },
         {
           "champion": "Janna",
@@ -186,7 +216,12 @@
           "rate": 0.9
         },
         {
-          "champion": "Leona",
+          "champion": "Mel",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Nautilus",
           "games": 1,
           "rate": 0.9
         },
@@ -212,32 +247,27 @@
           "picks": []
         },
         "MID": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Ziggs",
               "games": 3,
-              "rate": 37.5
+              "rate": 42.9
             },
             {
               "champion": "Hwei",
               "games": 2,
-              "rate": 25.0
+              "rate": 28.6
             },
             {
               "champion": "Annie",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Karma",
-              "games": 1,
-              "rate": 12.5
+              "rate": 14.3
             },
             {
               "champion": "Smolder",
               "games": 1,
-              "rate": 12.5
+              "rate": 14.3
             }
           ]
         },
@@ -245,12 +275,12 @@
           "games": 2,
           "picks": [
             {
-              "champion": "Mel",
+              "champion": "Morgana",
               "games": 1,
               "rate": 50.0
             },
             {
-              "champion": "Morgana",
+              "champion": "Seraphine",
               "games": 1,
               "rate": 50.0
             }

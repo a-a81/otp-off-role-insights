@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Vayne",
-  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
+  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
   "mainLane": "BOTTOM",
   "players": 4,
   "mainLaneGames": 131,
@@ -505,11 +505,6 @@
           "rate": 1.7
         },
         {
-          "champion": "KSante",
-          "games": 1,
-          "rate": 1.7
-        },
-        {
           "champion": "Leblanc",
           "games": 1,
           "rate": 1.7
@@ -597,47 +592,52 @@
           ]
         },
         "BOTTOM": {
-          "games": 10,
+          "games": 6,
           "picks": [
-            {
-              "champion": "Caitlyn",
-              "games": 4,
-              "rate": 40.0
-            },
             {
               "champion": "Ezreal",
               "games": 2,
-              "rate": 20.0
+              "rate": 33.3
             },
             {
               "champion": "Kaisa",
               "games": 2,
-              "rate": 20.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Caitlyn",
+              "games": 1,
+              "rate": 16.7
             },
             {
               "champion": "Jhin",
               "games": 1,
-              "rate": 10.0
-            },
-            {
-              "champion": "Samira",
-              "games": 1,
-              "rate": 10.0
+              "rate": 16.7
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 6,
           "picks": [
+            {
+              "champion": "Ekko",
+              "games": 2,
+              "rate": 33.3
+            },
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 33.3
+            },
             {
               "champion": "KSante",
               "games": 1,
-              "rate": 50.0
+              "rate": 16.7
             },
             {
               "champion": "Zoe",
               "games": 1,
-              "rate": 50.0
+              "rate": 16.7
             }
           ]
         }

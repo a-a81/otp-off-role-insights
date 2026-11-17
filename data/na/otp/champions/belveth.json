@@ -3,10 +3,10 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Belveth",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "JUNGLE",
   "players": 4,
-  "mainLaneGames": 116,
+  "mainLaneGames": 117,
   "mainLaneNext": [
     {
       "champion": "Talon",
@@ -44,6 +44,11 @@
       "rate": 0.9
     },
     {
+      "champion": "Riven",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
       "champion": "Shyvana",
       "games": 1,
       "rate": 0.9
@@ -59,14 +64,9 @@
       "games": 10,
       "picks": [
         {
-          "champion": "Camille",
-          "games": 2,
-          "rate": 20.0
-        },
-        {
           "champion": "Jax",
-          "games": 2,
-          "rate": 20.0
+          "games": 3,
+          "rate": 30.0
         },
         {
           "champion": "Kayle",
@@ -75,6 +75,11 @@
         },
         {
           "champion": "Aatrox",
+          "games": 1,
+          "rate": 10.0
+        },
+        {
+          "champion": "Camille",
           "games": 1,
           "rate": 10.0
         },
@@ -156,47 +161,47 @@
       ]
     },
     "BOTTOM": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
           "champion": "Twitch",
           "games": 2,
-          "rate": 33.3
-        },
-        {
-          "champion": "Zyra",
-          "games": 2,
-          "rate": 33.3
+          "rate": 50.0
         },
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 16.7
+          "rate": 25.0
         },
         {
           "champion": "Zeri",
           "games": 1,
-          "rate": 16.7
+          "rate": 25.0
         }
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 10,
       "picks": [
         {
           "champion": "Senna",
           "games": 5,
-          "rate": 55.6
+          "rate": 50.0
         },
         {
           "champion": "Alistar",
           "games": 2,
-          "rate": 22.2
+          "rate": 20.0
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 22.2
+          "rate": 20.0
+        },
+        {
+          "champion": "Janna",
+          "games": 1,
+          "rate": 10.0
         }
       ]
     }
@@ -204,7 +209,7 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 4,
-      "mainLaneGames": 116,
+      "mainLaneGames": 117,
       "mainLaneNext": [
         {
           "champion": "Talon",
@@ -242,6 +247,11 @@
           "rate": 0.9
         },
         {
+          "champion": "Riven",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
           "champion": "Shyvana",
           "games": 1,
           "rate": 0.9
@@ -257,14 +267,9 @@
           "games": 10,
           "picks": [
             {
-              "champion": "Camille",
-              "games": 2,
-              "rate": 20.0
-            },
-            {
               "champion": "Jax",
-              "games": 2,
-              "rate": 20.0
+              "games": 3,
+              "rate": 30.0
             },
             {
               "champion": "Kayle",
@@ -273,6 +278,11 @@
             },
             {
               "champion": "Aatrox",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Camille",
               "games": 1,
               "rate": 10.0
             },
@@ -354,47 +364,47 @@
           ]
         },
         "BOTTOM": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "Twitch",
               "games": 2,
-              "rate": 33.3
-            },
-            {
-              "champion": "Zyra",
-              "games": 2,
-              "rate": 33.3
+              "rate": 50.0
             },
             {
               "champion": "Smolder",
               "games": 1,
-              "rate": 16.7
+              "rate": 25.0
             },
             {
               "champion": "Zeri",
               "games": 1,
-              "rate": 16.7
+              "rate": 25.0
             }
           ]
         },
         "UTILITY": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "Senna",
               "games": 5,
-              "rate": 55.6
+              "rate": 50.0
             },
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 22.2
+              "rate": 20.0
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 22.2
+              "rate": 20.0
+            },
+            {
+              "champion": "Janna",
+              "games": 1,
+              "rate": 10.0
             }
           ]
         }

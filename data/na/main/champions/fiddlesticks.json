@@ -3,25 +3,25 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "JUNGLE",
   "players": 4,
-  "mainLaneGames": 128,
+  "mainLaneGames": 126,
   "mainLaneNext": [
     {
-      "champion": "Zyra",
+      "champion": "Briar",
       "games": 5,
-      "rate": 3.9
+      "rate": 4.0
     },
     {
-      "champion": "Briar",
+      "champion": "Zyra",
       "games": 4,
-      "rate": 3.1
+      "rate": 3.2
     },
     {
       "champion": "MonkeyKing",
       "games": 3,
-      "rate": 2.3
+      "rate": 2.4
     },
     {
       "champion": "Khazix",
@@ -46,12 +46,17 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 5,
       "picks": [
         {
           "champion": "FiddleSticks",
+          "games": 4,
+          "rate": 80.0
+        },
+        {
+          "champion": "Malphite",
           "games": 1,
-          "rate": 100.0
+          "rate": 20.0
         }
       ]
     },
@@ -60,13 +65,13 @@
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 2,
-          "rate": 40.0
+          "games": 3,
+          "rate": 60.0
         },
         {
           "champion": "Malzahar",
-          "games": 2,
-          "rate": 40.0
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Pantheon",
@@ -80,27 +85,22 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 26,
+      "games": 23,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 23,
-          "rate": 88.5
+          "games": 21,
+          "rate": 91.3
         },
         {
           "champion": "Briar",
           "games": 1,
-          "rate": 3.8
-        },
-        {
-          "champion": "Lulu",
-          "games": 1,
-          "rate": 3.8
+          "rate": 4.3
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 3.8
+          "rate": 4.3
         }
       ]
     }
@@ -108,22 +108,22 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 4,
-      "mainLaneGames": 128,
+      "mainLaneGames": 126,
       "mainLaneNext": [
         {
-          "champion": "Zyra",
+          "champion": "Briar",
           "games": 5,
-          "rate": 3.9
+          "rate": 4.0
         },
         {
-          "champion": "Briar",
+          "champion": "Zyra",
           "games": 4,
-          "rate": 3.1
+          "rate": 3.2
         },
         {
           "champion": "MonkeyKing",
           "games": 3,
-          "rate": 2.3
+          "rate": 2.4
         },
         {
           "champion": "Khazix",
@@ -148,12 +148,17 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 5,
           "picks": [
             {
               "champion": "FiddleSticks",
+              "games": 4,
+              "rate": 80.0
+            },
+            {
+              "champion": "Malphite",
               "games": 1,
-              "rate": 100.0
+              "rate": 20.0
             }
           ]
         },
@@ -162,13 +167,13 @@
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 2,
-              "rate": 40.0
+              "games": 3,
+              "rate": 60.0
             },
             {
               "champion": "Malzahar",
-              "games": 2,
-              "rate": 40.0
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Pantheon",
@@ -182,27 +187,22 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 26,
+          "games": 23,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 23,
-              "rate": 88.5
+              "games": 21,
+              "rate": 91.3
             },
             {
               "champion": "Briar",
               "games": 1,
-              "rate": 3.8
-            },
-            {
-              "champion": "Lulu",
-              "games": 1,
-              "rate": 3.8
+              "rate": 4.3
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 3.8
+              "rate": 4.3
             }
           ]
         }

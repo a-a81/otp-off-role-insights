@@ -3,15 +3,15 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "XinZhao",
-  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
+  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
   "mainLane": "JUNGLE",
   "players": 3,
-  "mainLaneGames": 90,
+  "mainLaneGames": 91,
   "mainLaneNext": [
     {
       "champion": "Vi",
       "games": 5,
-      "rate": 5.6
+      "rate": 5.5
     },
     {
       "champion": "Graves",
@@ -22,6 +22,11 @@
       "champion": "Naafiri",
       "games": 2,
       "rate": 2.2
+    },
+    {
+      "champion": "LeeSin",
+      "games": 1,
+      "rate": 1.1
     }
   ],
   "offLanes": {
@@ -54,14 +59,19 @@
           "rate": 50.0
         },
         {
-          "champion": "Galio",
+          "champion": "TwistedFate",
           "games": 2,
           "rate": 20.0
         },
         {
-          "champion": "TwistedFate",
-          "games": 2,
-          "rate": 20.0
+          "champion": "Galio",
+          "games": 1,
+          "rate": 10.0
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 10.0
         },
         {
           "champion": "Sylas",
@@ -86,27 +96,27 @@
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 4,
       "picks": [
-        {
-          "champion": "Thresh",
-          "games": 2,
-          "rate": 40.0
-        },
         {
           "champion": "Janna",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     }
@@ -114,12 +124,12 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 3,
-      "mainLaneGames": 90,
+      "mainLaneGames": 91,
       "mainLaneNext": [
         {
           "champion": "Vi",
           "games": 5,
-          "rate": 5.6
+          "rate": 5.5
         },
         {
           "champion": "Graves",
@@ -130,6 +140,11 @@
           "champion": "Naafiri",
           "games": 2,
           "rate": 2.2
+        },
+        {
+          "champion": "LeeSin",
+          "games": 1,
+          "rate": 1.1
         }
       ],
       "offLanes": {
@@ -162,14 +177,19 @@
               "rate": 50.0
             },
             {
-              "champion": "Galio",
+              "champion": "TwistedFate",
               "games": 2,
               "rate": 20.0
             },
             {
-              "champion": "TwistedFate",
-              "games": 2,
-              "rate": 20.0
+              "champion": "Galio",
+              "games": 1,
+              "rate": 10.0
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 10.0
             },
             {
               "champion": "Sylas",
@@ -194,27 +214,27 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 4,
           "picks": [
-            {
-              "champion": "Thresh",
-              "games": 2,
-              "rate": 40.0
-            },
             {
               "champion": "Janna",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Nami",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Sona",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Thresh",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

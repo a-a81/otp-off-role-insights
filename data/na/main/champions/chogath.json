@@ -3,40 +3,40 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Chogath",
-  "updatedAt": "2026-11-15T19:34:07.241935+00:00",
+  "updatedAt": "2026-11-16T19:39:12.602632+00:00",
   "mainLane": "JUNGLE",
   "players": 2,
-  "mainLaneGames": 58,
+  "mainLaneGames": 55,
   "mainLaneNext": [
-    {
-      "champion": "Shyvana",
-      "games": 11,
-      "rate": 19.0
-    },
     {
       "champion": "Naafiri",
       "games": 6,
-      "rate": 10.3
+      "rate": 10.9
+    },
+    {
+      "champion": "Shyvana",
+      "games": 4,
+      "rate": 7.3
     },
     {
       "champion": "Belveth",
       "games": 3,
-      "rate": 5.2
+      "rate": 5.5
     },
     {
       "champion": "Khazix",
       "games": 2,
-      "rate": 3.4
+      "rate": 3.6
     },
     {
       "champion": "DrMundo",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.8
     },
     {
       "champion": "Lillia",
       "games": 1,
-      "rate": 1.7
+      "rate": 1.8
     }
   ],
   "offLanes": {
@@ -76,48 +76,60 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Smolder",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
       "players": 2,
-      "mainLaneGames": 58,
+      "mainLaneGames": 55,
       "mainLaneNext": [
-        {
-          "champion": "Shyvana",
-          "games": 11,
-          "rate": 19.0
-        },
         {
           "champion": "Naafiri",
           "games": 6,
-          "rate": 10.3
+          "rate": 10.9
+        },
+        {
+          "champion": "Shyvana",
+          "games": 4,
+          "rate": 7.3
         },
         {
           "champion": "Belveth",
           "games": 3,
-          "rate": 5.2
+          "rate": 5.5
         },
         {
           "champion": "Khazix",
           "games": 2,
-          "rate": 3.4
+          "rate": 3.6
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 1.7
+          "rate": 1.8
         }
       ],
       "offLanes": {
@@ -152,6 +164,89 @@
             {
               "champion": "Chogath",
               "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Smolder",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 37,
+      "mainLaneNext": [
+        {
+          "champion": "Kled",
+          "games": 11,
+          "rate": 29.7
+        },
+        {
+          "champion": "Urgot",
+          "games": 5,
+          "rate": 13.5
+        },
+        {
+          "champion": "Malphite",
+          "games": 4,
+          "rate": 10.8
+        },
+        {
+          "champion": "Singed",
+          "games": 2,
+          "rate": 5.4
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Shen",
+          "games": 1,
+          "rate": 2.7
+        },
+        {
+          "champion": "Trundle",
+          "games": 1,
+          "rate": 2.7
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "FiddleSticks",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "TwistedFate",
+              "games": 1,
               "rate": 100.0
             }
           ]

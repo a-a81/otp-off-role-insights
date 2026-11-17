@@ -3,25 +3,25 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Illaoi",
-  "updatedAt": "2026-11-15T20:51:19.301601+00:00",
+  "updatedAt": "2026-11-16T20:45:19.764074+00:00",
   "mainLane": "TOP",
   "players": 8,
-  "mainLaneGames": 266,
+  "mainLaneGames": 264,
   "mainLaneNext": [
     {
       "champion": "Malphite",
-      "games": 5,
-      "rate": 1.9
+      "games": 4,
+      "rate": 1.5
+    },
+    {
+      "champion": "Mordekaiser",
+      "games": 4,
+      "rate": 1.5
     },
     {
       "champion": "Yorick",
       "games": 4,
       "rate": 1.5
-    },
-    {
-      "champion": "Yone",
-      "games": 3,
-      "rate": 1.1
     },
     {
       "champion": "Aatrox",
@@ -34,12 +34,12 @@
       "rate": 0.8
     },
     {
-      "champion": "Mordekaiser",
+      "champion": "Ornn",
       "games": 2,
       "rate": 0.8
     },
     {
-      "champion": "Ornn",
+      "champion": "Yone",
       "games": 2,
       "rate": 0.8
     },
@@ -81,72 +81,67 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 15,
+      "games": 12,
       "picks": [
         {
           "champion": "Darius",
           "games": 6,
-          "rate": 40.0
-        },
-        {
-          "champion": "MasterYi",
-          "games": 2,
-          "rate": 13.3
-        },
-        {
-          "champion": "Mordekaiser",
-          "games": 2,
-          "rate": 13.3
+          "rate": 50.0
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 6.7
+          "rate": 8.3
         },
         {
           "champion": "Illaoi",
           "games": 1,
-          "rate": 6.7
+          "rate": 8.3
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 6.7
+          "rate": 8.3
+        },
+        {
+          "champion": "MasterYi",
+          "games": 1,
+          "rate": 8.3
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 8.3
         },
         {
           "champion": "Shaco",
           "games": 1,
-          "rate": 6.7
-        },
-        {
-          "champion": "Udyr",
-          "games": 1,
-          "rate": 6.7
+          "rate": 8.3
         }
       ]
     },
     "MID": {
-      "games": 14,
+      "games": 16,
       "picks": [
         {
           "champion": "Illaoi",
-          "games": 7,
-          "rate": 50.0
+          "games": 10,
+          "rate": 62.5
         },
         {
           "champion": "Swain",
-          "games": 4,
-          "rate": 28.6
+          "games": 3,
+          "rate": 18.8
         },
         {
           "champion": "Brand",
           "games": 2,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "DrMundo",
           "games": 1,
-          "rate": 7.1
+          "rate": 6.2
         }
       ]
     },
@@ -166,47 +161,57 @@
       ]
     },
     "UTILITY": {
-      "games": 15,
+      "games": 18,
       "picks": [
         {
           "champion": "Blitzcrank",
           "games": 6,
-          "rate": 40.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Yuumi",
+          "games": 3,
+          "rate": 16.7
         },
         {
           "champion": "Karthus",
           "games": 2,
-          "rate": 13.3
-        },
-        {
-          "champion": "Leona",
-          "games": 2,
-          "rate": 13.3
+          "rate": 11.1
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
+        },
+        {
+          "champion": "Leona",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
         },
         {
           "champion": "Morgana",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 1,
+          "rate": 5.6
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 6.7
+          "rate": 5.6
         }
       ]
     }
@@ -214,22 +219,22 @@
   "byMainLane": {
     "TOP": {
       "players": 8,
-      "mainLaneGames": 266,
+      "mainLaneGames": 264,
       "mainLaneNext": [
         {
           "champion": "Malphite",
-          "games": 5,
-          "rate": 1.9
+          "games": 4,
+          "rate": 1.5
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 4,
+          "rate": 1.5
         },
         {
           "champion": "Yorick",
           "games": 4,
           "rate": 1.5
-        },
-        {
-          "champion": "Yone",
-          "games": 3,
-          "rate": 1.1
         },
         {
           "champion": "Aatrox",
@@ -242,12 +247,12 @@
           "rate": 0.8
         },
         {
-          "champion": "Mordekaiser",
+          "champion": "Ornn",
           "games": 2,
           "rate": 0.8
         },
         {
-          "champion": "Ornn",
+          "champion": "Yone",
           "games": 2,
           "rate": 0.8
         },
@@ -289,72 +294,67 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 15,
+          "games": 12,
           "picks": [
             {
               "champion": "Darius",
               "games": 6,
-              "rate": 40.0
-            },
-            {
-              "champion": "MasterYi",
-              "games": 2,
-              "rate": 13.3
-            },
-            {
-              "champion": "Mordekaiser",
-              "games": 2,
-              "rate": 13.3
+              "rate": 50.0
             },
             {
               "champion": "Diana",
               "games": 1,
-              "rate": 6.7
+              "rate": 8.3
             },
             {
               "champion": "Illaoi",
               "games": 1,
-              "rate": 6.7
+              "rate": 8.3
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 6.7
+              "rate": 8.3
+            },
+            {
+              "champion": "MasterYi",
+              "games": 1,
+              "rate": 8.3
+            },
+            {
+              "champion": "Mordekaiser",
+              "games": 1,
+              "rate": 8.3
             },
             {
               "champion": "Shaco",
               "games": 1,
-              "rate": 6.7
-            },
-            {
-              "champion": "Udyr",
-              "games": 1,
-              "rate": 6.7
+              "rate": 8.3
             }
           ]
         },
         "MID": {
-          "games": 14,
+          "games": 16,
           "picks": [
             {
               "champion": "Illaoi",
-              "games": 7,
-              "rate": 50.0
+              "games": 10,
+              "rate": 62.5
             },
             {
               "champion": "Swain",
-              "games": 4,
-              "rate": 28.6
+              "games": 3,
+              "rate": 18.8
             },
             {
               "champion": "Brand",
               "games": 2,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "DrMundo",
               "games": 1,
-              "rate": 7.1
+              "rate": 6.2
             }
           ]
         },
@@ -374,47 +374,57 @@
           ]
         },
         "UTILITY": {
-          "games": 15,
+          "games": 18,
           "picks": [
             {
               "champion": "Blitzcrank",
               "games": 6,
-              "rate": 40.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Yuumi",
+              "games": 3,
+              "rate": 16.7
             },
             {
               "champion": "Karthus",
               "games": 2,
-              "rate": 13.3
-            },
-            {
-              "champion": "Leona",
-              "games": 2,
-              "rate": 13.3
+              "rate": 11.1
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
             },
             {
               "champion": "Morgana",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 5.6
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
             },
             {
               "champion": "Xerath",
               "games": 1,
-              "rate": 6.7
+              "rate": 5.6
             }
           ]
         }

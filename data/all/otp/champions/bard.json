@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Bard",
-  "updatedAt": "2026-11-15T21:28:08.907968+00:00",
+  "updatedAt": "2026-11-17T02:53:46.683129+00:00",
   "mainLane": "UTILITY",
   "players": 9,
-  "mainLaneGames": 327,
+  "mainLaneGames": 326,
   "mainLaneNext": [
     {
       "champion": "Renata",
@@ -15,11 +15,6 @@
     },
     {
       "champion": "Blitzcrank",
-      "games": 2,
-      "rate": 0.6
-    },
-    {
-      "champion": "Lulu",
       "games": 2,
       "rate": 0.6
     },
@@ -45,6 +40,11 @@
     },
     {
       "champion": "Leona",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
+      "champion": "Lulu",
       "games": 1,
       "rate": 0.3
     },
@@ -151,17 +151,22 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Jhin",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
         },
         {
           "champion": "Swain",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
@@ -169,7 +174,7 @@
   "byMainLane": {
     "UTILITY": {
       "players": 9,
-      "mainLaneGames": 327,
+      "mainLaneGames": 326,
       "mainLaneNext": [
         {
           "champion": "Renata",
@@ -178,11 +183,6 @@
         },
         {
           "champion": "Blitzcrank",
-          "games": 2,
-          "rate": 0.6
-        },
-        {
-          "champion": "Lulu",
           "games": 2,
           "rate": 0.6
         },
@@ -208,6 +208,11 @@
         },
         {
           "champion": "Leona",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
+          "champion": "Lulu",
           "games": 1,
           "rate": 0.3
         },
@@ -314,17 +319,22 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Jhin",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Swain",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }
