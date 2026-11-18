@@ -3,13 +3,18 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Taliyah",
-  "updatedAt": "2026-11-17T20:43:43.914785+00:00",
+  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
   "mainLane": "MID",
   "players": 3,
-  "mainLaneGames": 82,
+  "mainLaneGames": 81,
   "mainLaneNext": [
     {
       "champion": "Ahri",
+      "games": 4,
+      "rate": 4.9
+    },
+    {
+      "champion": "Galio",
       "games": 4,
       "rate": 4.9
     },
@@ -19,14 +24,9 @@
       "rate": 4.9
     },
     {
-      "champion": "Galio",
-      "games": 3,
-      "rate": 3.7
-    },
-    {
       "champion": "Vex",
       "games": 2,
-      "rate": 2.4
+      "rate": 2.5
     },
     {
       "champion": "Aurora",
@@ -85,27 +85,27 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Neeko",
           "games": 2,
-          "rate": 40.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Taliyah",
+          "games": 2,
+          "rate": 33.3
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 20.0
-        },
-        {
-          "champion": "Taliyah",
-          "games": 1,
-          "rate": 20.0
+          "rate": 16.7
         }
       ]
     }
@@ -113,10 +113,15 @@
   "byMainLane": {
     "MID": {
       "players": 3,
-      "mainLaneGames": 82,
+      "mainLaneGames": 81,
       "mainLaneNext": [
         {
           "champion": "Ahri",
+          "games": 4,
+          "rate": 4.9
+        },
+        {
+          "champion": "Galio",
           "games": 4,
           "rate": 4.9
         },
@@ -126,14 +131,9 @@
           "rate": 4.9
         },
         {
-          "champion": "Galio",
-          "games": 3,
-          "rate": 3.7
-        },
-        {
           "champion": "Vex",
           "games": 2,
-          "rate": 2.4
+          "rate": 2.5
         },
         {
           "champion": "Aurora",
@@ -192,27 +192,27 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Neeko",
               "games": 2,
-              "rate": 40.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 33.3
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 20.0
-            },
-            {
-              "champion": "Taliyah",
-              "games": 1,
-              "rate": 20.0
+              "rate": 16.7
             }
           ]
         }
@@ -220,22 +220,17 @@
     },
     "UTILITY": {
       "players": 1,
-      "mainLaneGames": 40,
+      "mainLaneGames": 39,
       "mainLaneNext": [
         {
           "champion": "Sylas",
           "games": 3,
-          "rate": 7.5
+          "rate": 7.7
         },
         {
           "champion": "Janna",
           "games": 1,
-          "rate": 2.5
-        },
-        {
-          "champion": "Shen",
-          "games": 1,
-          "rate": 2.5
+          "rate": 2.6
         }
       ],
       "offLanes": {

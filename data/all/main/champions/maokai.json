@@ -3,13 +3,18 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Maokai",
-  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
+  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
   "mainLane": "UTILITY",
   "players": 8,
-  "mainLaneGames": 276,
+  "mainLaneGames": 275,
   "mainLaneNext": [
     {
       "champion": "Leona",
+      "games": 3,
+      "rate": 1.1
+    },
+    {
+      "champion": "Lulu",
       "games": 3,
       "rate": 1.1
     },
@@ -24,11 +29,6 @@
       "rate": 1.1
     },
     {
-      "champion": "Lulu",
-      "games": 2,
-      "rate": 0.7
-    },
-    {
       "champion": "Rakan",
       "games": 2,
       "rate": 0.7
@@ -40,11 +40,6 @@
     },
     {
       "champion": "Swain",
-      "games": 2,
-      "rate": 0.7
-    },
-    {
-      "champion": "Thresh",
       "games": 2,
       "rate": 0.7
     },
@@ -72,31 +67,36 @@
       "champion": "Senna",
       "games": 1,
       "rate": 0.4
+    },
+    {
+      "champion": "Thresh",
+      "games": 1,
+      "rate": 0.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 18,
+      "games": 19,
       "picks": [
         {
           "champion": "Malphite",
           "games": 9,
-          "rate": 50.0
+          "rate": 47.4
         },
         {
           "champion": "Maokai",
           "games": 4,
-          "rate": 22.2
+          "rate": 21.1
         },
         {
           "champion": "Rumble",
-          "games": 3,
-          "rate": 16.7
+          "games": 4,
+          "rate": 21.1
         },
         {
           "champion": "Shen",
           "games": 2,
-          "rate": 11.1
+          "rate": 10.5
         }
       ]
     },
@@ -169,10 +169,15 @@
   "byMainLane": {
     "UTILITY": {
       "players": 8,
-      "mainLaneGames": 276,
+      "mainLaneGames": 275,
       "mainLaneNext": [
         {
           "champion": "Leona",
+          "games": 3,
+          "rate": 1.1
+        },
+        {
+          "champion": "Lulu",
           "games": 3,
           "rate": 1.1
         },
@@ -187,11 +192,6 @@
           "rate": 1.1
         },
         {
-          "champion": "Lulu",
-          "games": 2,
-          "rate": 0.7
-        },
-        {
           "champion": "Rakan",
           "games": 2,
           "rate": 0.7
@@ -203,11 +203,6 @@
         },
         {
           "champion": "Swain",
-          "games": 2,
-          "rate": 0.7
-        },
-        {
-          "champion": "Thresh",
           "games": 2,
           "rate": 0.7
         },
@@ -235,31 +230,36 @@
           "champion": "Senna",
           "games": 1,
           "rate": 0.4
+        },
+        {
+          "champion": "Thresh",
+          "games": 1,
+          "rate": 0.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Malphite",
               "games": 9,
-              "rate": 50.0
+              "rate": 47.4
             },
             {
               "champion": "Maokai",
               "games": 4,
-              "rate": 22.2
+              "rate": 21.1
             },
             {
               "champion": "Rumble",
-              "games": 3,
-              "rate": 16.7
+              "games": 4,
+              "rate": 21.1
             },
             {
               "champion": "Shen",
               "games": 2,
-              "rate": 11.1
+              "rate": 10.5
             }
           ]
         },

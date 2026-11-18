@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
+  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
   "mainLane": "UTILITY",
   "players": 4,
   "mainLaneGames": 148,
@@ -24,14 +24,14 @@
       "rate": 2.0
     },
     {
-      "champion": "Gragas",
+      "champion": "Thresh",
       "games": 2,
       "rate": 1.4
     },
     {
-      "champion": "Thresh",
-      "games": 2,
-      "rate": 1.4
+      "champion": "Gragas",
+      "games": 1,
+      "rate": 0.7
     },
     {
       "champion": "Senna",
@@ -122,14 +122,14 @@
           "rate": 2.0
         },
         {
-          "champion": "Gragas",
+          "champion": "Thresh",
           "games": 2,
           "rate": 1.4
         },
         {
-          "champion": "Thresh",
-          "games": 2,
-          "rate": 1.4
+          "champion": "Gragas",
+          "games": 1,
+          "rate": 0.7
         },
         {
           "champion": "Senna",
@@ -201,19 +201,50 @@
       }
     },
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 35,
+      "players": 2,
+      "mainLaneGames": 62,
       "mainLaneNext": [
+        {
+          "champion": "Renekton",
+          "games": 2,
+          "rate": 3.2
+        },
+        {
+          "champion": "Urgot",
+          "games": 2,
+          "rate": 3.2
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 1.6
+        },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 2.9
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "MID": {
           "games": 1,
@@ -226,16 +257,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
-        },
-        "UTILITY": {
-          "games": 4,
+          "games": 7,
           "picks": [
             {
               "champion": "TahmKench",
-              "games": 4,
-              "rate": 100.0
+              "games": 6,
+              "rate": 85.7
+            },
+            {
+              "champion": "Jinx",
+              "games": 1,
+              "rate": 14.3
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 8,
+          "picks": [
+            {
+              "champion": "TahmKench",
+              "games": 7,
+              "rate": 87.5
+            },
+            {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

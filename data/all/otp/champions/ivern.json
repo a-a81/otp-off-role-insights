@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ivern",
-  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
+  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
   "mainLane": "JUNGLE",
   "players": 12,
-  "mainLaneGames": 349,
+  "mainLaneGames": 350,
   "mainLaneNext": [
     {
       "champion": "Lillia",
@@ -22,6 +22,11 @@
       "champion": "Nocturne",
       "games": 3,
       "rate": 0.9
+    },
+    {
+      "champion": "Graves",
+      "games": 2,
+      "rate": 0.6
     },
     {
       "champion": "JarvanIV",
@@ -40,11 +45,6 @@
     },
     {
       "champion": "Chogath",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
-      "champion": "Graves",
       "games": 1,
       "rate": 0.3
     },
@@ -71,42 +71,42 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 49,
+      "games": 48,
       "picks": [
         {
           "champion": "Ivern",
-          "games": 31,
-          "rate": 63.3
+          "games": 30,
+          "rate": 62.5
         },
         {
           "champion": "Illaoi",
           "games": 10,
-          "rate": 20.4
+          "rate": 20.8
         },
         {
           "champion": "Malphite",
           "games": 4,
-          "rate": 8.2
+          "rate": 8.3
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 2.0
+          "rate": 2.1
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 2.0
+          "rate": 2.1
         },
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 2.0
+          "rate": 2.1
         },
         {
           "champion": "Teemo",
           "games": 1,
-          "rate": 2.0
+          "rate": 2.1
         }
       ]
     },
@@ -254,7 +254,7 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 12,
-      "mainLaneGames": 349,
+      "mainLaneGames": 350,
       "mainLaneNext": [
         {
           "champion": "Lillia",
@@ -270,6 +270,11 @@
           "champion": "Nocturne",
           "games": 3,
           "rate": 0.9
+        },
+        {
+          "champion": "Graves",
+          "games": 2,
+          "rate": 0.6
         },
         {
           "champion": "JarvanIV",
@@ -288,11 +293,6 @@
         },
         {
           "champion": "Chogath",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
-          "champion": "Graves",
           "games": 1,
           "rate": 0.3
         },
@@ -319,42 +319,42 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 49,
+          "games": 48,
           "picks": [
             {
               "champion": "Ivern",
-              "games": 31,
-              "rate": 63.3
+              "games": 30,
+              "rate": 62.5
             },
             {
               "champion": "Illaoi",
               "games": 10,
-              "rate": 20.4
+              "rate": 20.8
             },
             {
               "champion": "Malphite",
               "games": 4,
-              "rate": 8.2
+              "rate": 8.3
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 2.0
+              "rate": 2.1
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 2.0
+              "rate": 2.1
             },
             {
               "champion": "Ornn",
               "games": 1,
-              "rate": 2.0
+              "rate": 2.1
             },
             {
               "champion": "Teemo",
               "games": 1,
-              "rate": 2.0
+              "rate": 2.1
             }
           ]
         },
@@ -506,11 +506,11 @@
       "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "KSante",
-              "games": 3,
+              "games": 2,
               "rate": 100.0
             }
           ]
@@ -530,8 +530,14 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

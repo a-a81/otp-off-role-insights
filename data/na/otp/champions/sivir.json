@@ -3,116 +3,318 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sivir",
-  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 30,
-  "mainLaneNext": [],
+  "players": 2,
+  "mainLaneGames": 47,
+  "mainLaneNext": [
+    {
+      "champion": "Ezreal",
+      "games": 1,
+      "rate": 2.1
+    },
+    {
+      "champion": "Lucian",
+      "games": 1,
+      "rate": 2.1
+    },
+    {
+      "champion": "Xayah",
+      "games": 1,
+      "rate": 2.1
+    },
+    {
+      "champion": "Ziggs",
+      "games": 1,
+      "rate": 2.1
+    }
+  ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 8,
       "picks": [
         {
           "champion": "Shen",
           "games": 4,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 12.5
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
     "JUNGLE": {
-      "games": 1,
+      "games": 4,
       "picks": [
+        {
+          "champion": "JarvanIV",
+          "games": 2,
+          "rate": 50.0
+        },
+        {
+          "champion": "Diana",
+          "games": 1,
+          "rate": 25.0
+        },
         {
           "champion": "LeeSin",
           "games": 1,
-          "rate": 100.0
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 17,
       "picks": [
         {
+          "champion": "Sylas",
+          "games": 3,
+          "rate": 17.6
+        },
+        {
+          "champion": "Leblanc",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Lissandra",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Malzahar",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
           "champion": "Orianna",
+          "games": 2,
+          "rate": 11.8
+        },
+        {
+          "champion": "Ahri",
           "games": 1,
-          "rate": 50.0
+          "rate": 5.9
+        },
+        {
+          "champion": "Ezreal",
+          "games": 1,
+          "rate": 5.9
+        },
+        {
+          "champion": "Heimerdinger",
+          "games": 1,
+          "rate": 5.9
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 5.9
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 5.9
         },
         {
           "champion": "Yasuo",
           "games": 1,
-          "rate": 50.0
+          "rate": 5.9
         }
       ]
     },
     "UTILITY": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 50.0
+          "rate": 33.3
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 50.0
+          "rate": 33.3
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 30,
-      "mainLaneNext": [],
+      "players": 2,
+      "mainLaneGames": 47,
+      "mainLaneNext": [
+        {
+          "champion": "Ezreal",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
+          "champion": "Lucian",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
+          "champion": "Xayah",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 2.1
+        }
+      ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Shen",
               "games": 4,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Ornn",
+              "games": 1,
+              "rate": 12.5
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 4,
           "picks": [
+            {
+              "champion": "JarvanIV",
+              "games": 2,
+              "rate": 50.0
+            },
+            {
+              "champion": "Diana",
+              "games": 1,
+              "rate": 25.0
+            },
             {
               "champion": "LeeSin",
               "games": 1,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 17,
           "picks": [
             {
+              "champion": "Sylas",
+              "games": 3,
+              "rate": 17.6
+            },
+            {
+              "champion": "Leblanc",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Lissandra",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Malzahar",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
               "champion": "Orianna",
+              "games": 2,
+              "rate": 11.8
+            },
+            {
+              "champion": "Ahri",
               "games": 1,
-              "rate": 50.0
+              "rate": 5.9
+            },
+            {
+              "champion": "Ezreal",
+              "games": 1,
+              "rate": 5.9
+            },
+            {
+              "champion": "Heimerdinger",
+              "games": 1,
+              "rate": 5.9
+            },
+            {
+              "champion": "Taliyah",
+              "games": 1,
+              "rate": 5.9
+            },
+            {
+              "champion": "Talon",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Yasuo",
               "games": 1,
-              "rate": 50.0
+              "rate": 5.9
             }
           ]
         },
         "UTILITY": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 50.0
+              "rate": 33.3
+            },
+            {
+              "champion": "Seraphine",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

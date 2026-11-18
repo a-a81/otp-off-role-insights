@@ -3,44 +3,24 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 26,
+  "mainLaneGames": 28,
   "mainLaneNext": [
     {
       "champion": "Annie",
       "games": 1,
-      "rate": 3.8
-    },
-    {
-      "champion": "DrMundo",
-      "games": 1,
-      "rate": 3.8
+      "rate": 3.6
     },
     {
       "champion": "Mordekaiser",
       "games": 1,
-      "rate": 3.8
-    },
-    {
-      "champion": "Yone",
-      "games": 1,
-      "rate": 3.8
+      "rate": 3.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
-      "picks": [
-        {
-          "champion": "Gwen",
-          "games": 3,
-          "rate": 100.0
-        }
-      ]
-    },
-    "JUNGLE": {
       "games": 2,
       "picks": [
         {
@@ -50,22 +30,37 @@
         }
       ]
     },
-    "BOTTOM": {
-      "games": 5,
+    "JUNGLE": {
+      "games": 3,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 5,
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 4,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 3,
+          "games": 2,
           "rate": 100.0
         }
       ]
@@ -74,41 +69,21 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 26,
+      "mainLaneGames": 28,
       "mainLaneNext": [
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 3.8
-        },
-        {
-          "champion": "DrMundo",
-          "games": 1,
-          "rate": 3.8
+          "rate": 3.6
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 3.8
-        },
-        {
-          "champion": "Yone",
-          "games": 1,
-          "rate": 3.8
+          "rate": 3.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Gwen",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
           "games": 2,
           "picks": [
             {
@@ -118,22 +93,37 @@
             }
           ]
         },
-        "BOTTOM": {
-          "games": 5,
+        "JUNGLE": {
+          "games": 3,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 5,
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Hecarim",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 4,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 3,
+              "games": 2,
               "rate": 100.0
             }
           ]

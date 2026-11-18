@@ -3,29 +3,29 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Darius",
-  "updatedAt": "2026-11-17T21:19:27.562234+00:00",
+  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 68,
+  "mainLaneGames": 69,
   "mainLaneNext": [
     {
       "champion": "Olaf",
       "games": 3,
-      "rate": 4.4
+      "rate": 4.3
     },
     {
       "champion": "DrMundo",
-      "games": 1,
-      "rate": 1.5
+      "games": 2,
+      "rate": 2.9
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Darius",
-          "games": 4,
+          "games": 3,
           "rate": 100.0
         }
       ]
@@ -63,26 +63,26 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 68,
+      "mainLaneGames": 69,
       "mainLaneNext": [
         {
           "champion": "Olaf",
           "games": 3,
-          "rate": 4.4
+          "rate": 4.3
         },
         {
           "champion": "DrMundo",
-          "games": 1,
-          "rate": 1.5
+          "games": 2,
+          "rate": 2.9
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Darius",
-              "games": 4,
+              "games": 3,
               "rate": 100.0
             }
           ]
@@ -115,6 +115,51 @@
               "rate": 100.0
             }
           ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 23,
+      "mainLaneNext": [],
+      "offLanes": {
+        "TOP": {
+          "games": 15,
+          "picks": [
+            {
+              "champion": "Darius",
+              "games": 13,
+              "rate": 86.7
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 6.7
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 6.7
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }

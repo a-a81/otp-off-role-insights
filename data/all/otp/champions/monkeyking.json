@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "MonkeyKing",
-  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
+  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
   "mainLane": "TOP",
   "players": 3,
   "mainLaneGames": 99,
@@ -12,6 +12,11 @@
       "champion": "Renekton",
       "games": 2,
       "rate": 2.0
+    },
+    {
+      "champion": "Aatrox",
+      "games": 1,
+      "rate": 1.0
     },
     {
       "champion": "Irelia",
@@ -26,51 +31,57 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 4,
+      "games": 1,
       "picks": [
         {
           "champion": "MonkeyKing",
-          "games": 3,
-          "rate": 75.0
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 3,
+      "picks": [
+        {
+          "champion": "MonkeyKing",
+          "games": 2,
+          "rate": 66.7
         },
         {
           "champion": "Sylas",
           "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "MonkeyKing",
           "games": 3,
-          "rate": 75.0
+          "rate": 60.0
         },
         {
           "champion": "Lucian",
-          "games": 1,
-          "rate": 25.0
+          "games": 2,
+          "rate": 40.0
         }
       ]
     },
     "UTILITY": {
-      "games": 12,
+      "games": 11,
       "picks": [
         {
           "champion": "MonkeyKing",
-          "games": 11,
-          "rate": 91.7
+          "games": 10,
+          "rate": 90.9
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 8.3
+          "rate": 9.1
         }
       ]
     }
@@ -86,6 +97,11 @@
           "rate": 2.0
         },
         {
+          "champion": "Aatrox",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
           "champion": "Irelia",
           "games": 1,
           "rate": 1.0
@@ -98,51 +114,57 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
             {
               "champion": "MonkeyKing",
-              "games": 3,
-              "rate": 75.0
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "MonkeyKing",
+              "games": 2,
+              "rate": 66.7
             },
             {
               "champion": "Sylas",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "MonkeyKing",
               "games": 3,
-              "rate": 75.0
+              "rate": 60.0
             },
             {
               "champion": "Lucian",
-              "games": 1,
-              "rate": 25.0
+              "games": 2,
+              "rate": 40.0
             }
           ]
         },
         "UTILITY": {
-          "games": 12,
+          "games": 11,
           "picks": [
             {
               "champion": "MonkeyKing",
-              "games": 11,
-              "rate": 91.7
+              "games": 10,
+              "rate": 90.9
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 8.3
+              "rate": 9.1
             }
           ]
         }
@@ -153,22 +175,22 @@
       "mainLaneGames": 91,
       "mainLaneNext": [
         {
-          "champion": "LeeSin",
-          "games": 4,
-          "rate": 4.4
-        },
-        {
           "champion": "Amumu",
           "games": 2,
           "rate": 2.2
         },
         {
-          "champion": "Diana",
-          "games": 1,
-          "rate": 1.1
+          "champion": "Ekko",
+          "games": 2,
+          "rate": 2.2
         },
         {
-          "champion": "Ekko",
+          "champion": "LeeSin",
+          "games": 2,
+          "rate": 2.2
+        },
+        {
+          "champion": "Diana",
           "games": 1,
           "rate": 1.1
         },
@@ -180,32 +202,32 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 10,
+          "games": 9,
           "picks": [
             {
               "champion": "Kled",
               "games": 4,
-              "rate": 40.0
-            },
-            {
-              "champion": "Aatrox",
-              "games": 2,
-              "rate": 20.0
+              "rate": 44.4
             },
             {
               "champion": "Camille",
               "games": 2,
-              "rate": 20.0
+              "rate": 22.2
+            },
+            {
+              "champion": "Aatrox",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Ornn",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             },
             {
               "champion": "Ryze",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             }
           ]
         },
@@ -229,32 +251,37 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 15,
+          "games": 16,
           "picks": [
             {
               "champion": "MonkeyKing",
               "games": 8,
-              "rate": 53.3
+              "rate": 50.0
             },
             {
               "champion": "Nautilus",
-              "games": 3,
-              "rate": 20.0
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Poppy",
+              "games": 2,
+              "rate": 12.5
             },
             {
               "champion": "Rakan",
               "games": 2,
-              "rate": 13.3
+              "rate": 12.5
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 6.2
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 6.7
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 6.7
+              "rate": 6.2
             }
           ]
         }

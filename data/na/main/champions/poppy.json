@@ -3,10 +3,10 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
   "mainLane": "TOP",
   "players": 3,
-  "mainLaneGames": 109,
+  "mainLaneGames": 110,
   "mainLaneNext": [
     {
       "champion": "Chogath",
@@ -16,17 +16,17 @@
     {
       "champion": "Gangplank",
       "games": 4,
-      "rate": 3.7
+      "rate": 3.6
     },
     {
       "champion": "Ornn",
       "games": 3,
-      "rate": 2.8
+      "rate": 2.7
     },
     {
       "champion": "Rumble",
       "games": 3,
-      "rate": 2.8
+      "rate": 2.7
     },
     {
       "champion": "Gragas",
@@ -44,17 +44,17 @@
       "rate": 1.8
     },
     {
+      "champion": "Yorick",
+      "games": 2,
+      "rate": 1.8
+    },
+    {
       "champion": "Galio",
       "games": 1,
       "rate": 0.9
     },
     {
       "champion": "Nasus",
-      "games": 1,
-      "rate": 0.9
-    },
-    {
-      "champion": "Yorick",
       "games": 1,
       "rate": 0.9
     }
@@ -128,7 +128,7 @@
   "byMainLane": {
     "TOP": {
       "players": 3,
-      "mainLaneGames": 109,
+      "mainLaneGames": 110,
       "mainLaneNext": [
         {
           "champion": "Chogath",
@@ -138,17 +138,17 @@
         {
           "champion": "Gangplank",
           "games": 4,
-          "rate": 3.7
+          "rate": 3.6
         },
         {
           "champion": "Ornn",
           "games": 3,
-          "rate": 2.8
+          "rate": 2.7
         },
         {
           "champion": "Rumble",
           "games": 3,
-          "rate": 2.8
+          "rate": 2.7
         },
         {
           "champion": "Gragas",
@@ -166,17 +166,17 @@
           "rate": 1.8
         },
         {
+          "champion": "Yorick",
+          "games": 2,
+          "rate": 1.8
+        },
+        {
           "champion": "Galio",
           "games": 1,
           "rate": 0.9
         },
         {
           "champion": "Nasus",
-          "games": 1,
-          "rate": 0.9
-        },
-        {
-          "champion": "Yorick",
           "games": 1,
           "rate": 0.9
         }
@@ -250,17 +250,22 @@
     },
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 103,
+      "mainLaneGames": 104,
       "mainLaneNext": [
         {
-          "champion": "Lulu",
+          "champion": "Karma",
           "games": 7,
-          "rate": 6.8
+          "rate": 6.7
         },
         {
-          "champion": "Karma",
+          "champion": "Lulu",
           "games": 5,
-          "rate": 4.9
+          "rate": 4.8
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 1.9
         },
         {
           "champion": "Yuumi",
@@ -283,22 +288,17 @@
           "rate": 1.0
         },
         {
+          "champion": "Maokai",
+          "games": 1,
+          "rate": 1.0
+        },
+        {
           "champion": "Milio",
           "games": 1,
           "rate": 1.0
         },
         {
-          "champion": "Nami",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
           "champion": "Rakan",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Rell",
           "games": 1,
           "rate": 1.0
         },
@@ -337,34 +337,29 @@
           "games": 3,
           "picks": [
             {
-              "champion": "Akali",
-              "games": 1,
-              "rate": 33.3
-            },
-            {
               "champion": "Poppy",
-              "games": 1,
-              "rate": 33.3
+              "games": 2,
+              "rate": 66.7
             },
             {
-              "champion": "Riven",
+              "champion": "Akali",
               "games": 1,
               "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 11,
+          "games": 10,
           "picks": [
             {
               "champion": "Hwei",
               "games": 9,
-              "rate": 81.8
+              "rate": 90.0
             },
             {
               "champion": "Zyra",
-              "games": 2,
-              "rate": 18.2
+              "games": 1,
+              "rate": 10.0
             }
           ]
         }

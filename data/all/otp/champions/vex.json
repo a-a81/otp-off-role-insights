@@ -3,26 +3,57 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Vex",
-  "updatedAt": "2026-11-17T21:19:30.571105+00:00",
+  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
   "mainLane": "MID",
-  "players": 1,
-  "mainLaneGames": 25,
+  "players": 2,
+  "mainLaneGames": 58,
   "mainLaneNext": [
+    {
+      "champion": "Katarina",
+      "games": 3,
+      "rate": 5.2
+    },
+    {
+      "champion": "Locke",
+      "games": 2,
+      "rate": 3.4
+    },
     {
       "champion": "Ahri",
       "games": 1,
-      "rate": 4.0
+      "rate": 1.7
+    },
+    {
+      "champion": "Mel",
+      "games": 1,
+      "rate": 1.7
+    },
+    {
+      "champion": "Sylas",
+      "games": 1,
+      "rate": 1.7
+    },
+    {
+      "champion": "Tristana",
+      "games": 1,
+      "rate": 1.7
     },
     {
       "champion": "Xerath",
       "games": 1,
-      "rate": 4.0
+      "rate": 1.7
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Chogath",
+          "games": 3,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
       "games": 10,
@@ -35,45 +66,92 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
-      "games": 4,
+      "games": 7,
       "picks": [
         {
           "champion": "Braum",
           "games": 3,
-          "rate": 75.0
+          "rate": 42.9
+        },
+        {
+          "champion": "Leona",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 14.3
         },
         {
           "champion": "Elise",
           "games": 1,
-          "rate": 25.0
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 1,
-      "mainLaneGames": 25,
+      "players": 2,
+      "mainLaneGames": 58,
       "mainLaneNext": [
+        {
+          "champion": "Katarina",
+          "games": 3,
+          "rate": 5.2
+        },
+        {
+          "champion": "Locke",
+          "games": 2,
+          "rate": 3.4
+        },
         {
           "champion": "Ahri",
           "games": 1,
-          "rate": 4.0
+          "rate": 1.7
+        },
+        {
+          "champion": "Mel",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Sylas",
+          "games": 1,
+          "rate": 1.7
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 1.7
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 4.0
+          "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Chogath",
+              "games": 3,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 10,
@@ -86,21 +164,37 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 7,
           "picks": [
             {
               "champion": "Braum",
               "games": 3,
-              "rate": 75.0
+              "rate": 42.9
+            },
+            {
+              "champion": "Leona",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Chogath",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Elise",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             }
           ]
         }

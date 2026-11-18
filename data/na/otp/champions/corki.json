@@ -3,24 +3,24 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Corki",
-  "updatedAt": "2026-11-17T19:38:59.020921+00:00",
+  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
   "mainLane": "MID",
   "players": 1,
-  "mainLaneGames": 29,
+  "mainLaneGames": 31,
   "mainLaneNext": [],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Corki",
-          "games": 2,
-          "rate": 66.7
+          "games": 1,
+          "rate": 50.0
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 33.3
+          "rate": 50.0
         }
       ]
     },
@@ -29,11 +29,11 @@
       "picks": []
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Corki",
-          "games": 4,
+          "games": 3,
           "rate": 100.0
         }
       ]
@@ -57,21 +57,21 @@
   "byMainLane": {
     "MID": {
       "players": 1,
-      "mainLaneGames": 29,
+      "mainLaneGames": 31,
       "mainLaneNext": [],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Corki",
-              "games": 2,
-              "rate": 66.7
+              "games": 1,
+              "rate": 50.0
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 33.3
+              "rate": 50.0
             }
           ]
         },
@@ -80,11 +80,11 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Corki",
-              "games": 4,
+              "games": 3,
               "rate": 100.0
             }
           ]
@@ -108,68 +108,99 @@
     },
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 26,
+      "mainLaneGames": 25,
       "mainLaneNext": [
         {
           "champion": "Caitlyn",
+          "games": 3,
+          "rate": 12.0
+        },
+        {
+          "champion": "Sivir",
           "games": 1,
-          "rate": 3.8
+          "rate": 4.0
+        },
+        {
+          "champion": "Taliyah",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
+          "champion": "Yunara",
+          "games": 1,
+          "rate": 4.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "Gragas",
-              "games": 4,
-              "rate": 66.7
+              "games": 3,
+              "rate": 75.0
             },
             {
-              "champion": "Gnar",
+              "champion": "Corki",
               "games": 1,
-              "rate": 16.7
-            },
-            {
-              "champion": "Ornn",
-              "games": 1,
-              "rate": 16.7
+              "rate": 25.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Graves",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Gragas",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Graves",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 5,
           "picks": [
             {
               "champion": "Ahri",
-              "games": 3,
-              "rate": 50.0
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Corki",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Galio",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Taliyah",
-              "games": 3,
-              "rate": 50.0
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
         "UTILITY": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         }
       }
     }

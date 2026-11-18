@@ -3,11 +3,16 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "TahmKench",
-  "updatedAt": "2026-11-17T21:19:27.562234+00:00",
+  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
   "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 35,
+  "mainLaneGames": 34,
   "mainLaneNext": [
+    {
+      "champion": "Kennen",
+      "games": 1,
+      "rate": 2.9
+    },
     {
       "champion": "Yorick",
       "games": 1,
@@ -34,12 +39,17 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "TahmKench",
           "games": 4,
-          "rate": 100.0
+          "rate": 80.0
+        },
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
@@ -47,8 +57,13 @@
   "byMainLane": {
     "TOP": {
       "players": 1,
-      "mainLaneGames": 35,
+      "mainLaneGames": 34,
       "mainLaneNext": [
+        {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 2.9
+        },
         {
           "champion": "Yorick",
           "games": 1,
@@ -75,12 +90,17 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "TahmKench",
               "games": 4,
-              "rate": 100.0
+              "rate": 80.0
+            },
+            {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }
