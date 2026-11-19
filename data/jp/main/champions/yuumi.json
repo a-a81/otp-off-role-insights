@@ -3,30 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yuumi",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "UTILITY",
-  "players": 16,
-  "mainLaneGames": 592,
+  "players": 17,
+  "mainLaneGames": 606,
   "mainLaneNext": [
     {
       "champion": "Lulu",
-      "games": 76,
-      "rate": 12.8
+      "games": 77,
+      "rate": 12.7
     },
     {
       "champion": "Soraka",
-      "games": 24,
+      "games": 25,
       "rate": 4.1
     },
     {
       "champion": "Alistar",
-      "games": 20,
-      "rate": 3.4
+      "games": 21,
+      "rate": 3.5
     },
     {
       "champion": "Milio",
       "games": 19,
-      "rate": 3.2
+      "rate": 3.1
     },
     {
       "champion": "Seraphine",
@@ -36,12 +36,12 @@
     {
       "champion": "Nami",
       "games": 17,
-      "rate": 2.9
+      "rate": 2.8
     },
     {
       "champion": "Sona",
-      "games": 16,
-      "rate": 2.7
+      "games": 15,
+      "rate": 2.5
     },
     {
       "champion": "Karma",
@@ -51,7 +51,7 @@
     {
       "champion": "Morgana",
       "games": 8,
-      "rate": 1.4
+      "rate": 1.3
     },
     {
       "champion": "Anivia",
@@ -72,6 +72,11 @@
       "champion": "Rell",
       "games": 5,
       "rate": 0.8
+    },
+    {
+      "champion": "Pantheon",
+      "games": 4,
+      "rate": 0.7
     },
     {
       "champion": "Zac",
@@ -109,12 +114,12 @@
       "rate": 0.2
     },
     {
-      "champion": "Pantheon",
+      "champion": "Pyke",
       "games": 1,
       "rate": 0.2
     },
     {
-      "champion": "Pyke",
+      "champion": "Shen",
       "games": 1,
       "rate": 0.2
     },
@@ -126,12 +131,17 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "Naafiri",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
@@ -161,95 +171,110 @@
       ]
     },
     "MID": {
-      "games": 15,
+      "games": 29,
       "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 13,
+          "rate": 44.8
+        },
         {
           "champion": "Anivia",
           "games": 8,
-          "rate": 53.3
+          "rate": 27.6
         },
         {
           "champion": "Ahri",
           "games": 3,
-          "rate": 20.0
+          "rate": 10.3
         },
         {
           "champion": "Malzahar",
           "games": 2,
-          "rate": 13.3
+          "rate": 6.9
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1,
+          "rate": 3.4
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 6.7
+          "rate": 3.4
         },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 6.7
+          "rate": 3.4
         }
       ]
     },
     "BOTTOM": {
-      "games": 13,
+      "games": 22,
       "picks": [
+        {
+          "champion": "Sivir",
+          "games": 9,
+          "rate": 40.9
+        },
         {
           "champion": "Jhin",
           "games": 3,
-          "rate": 23.1
+          "rate": 13.6
         },
         {
           "champion": "Kaisa",
           "games": 3,
-          "rate": 23.1
+          "rate": 13.6
         },
         {
           "champion": "Lucian",
           "games": 3,
-          "rate": 23.1
+          "rate": 13.6
         },
         {
           "champion": "Xayah",
           "games": 2,
-          "rate": 15.4
+          "rate": 9.1
         },
         {
           "champion": "MissFortune",
           "games": 1,
-          "rate": 7.7
+          "rate": 4.5
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 7.7
+          "rate": 4.5
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 16,
-      "mainLaneGames": 592,
+      "players": 17,
+      "mainLaneGames": 606,
       "mainLaneNext": [
         {
           "champion": "Lulu",
-          "games": 76,
-          "rate": 12.8
+          "games": 77,
+          "rate": 12.7
         },
         {
           "champion": "Soraka",
-          "games": 24,
+          "games": 25,
           "rate": 4.1
         },
         {
           "champion": "Alistar",
-          "games": 20,
-          "rate": 3.4
+          "games": 21,
+          "rate": 3.5
         },
         {
           "champion": "Milio",
           "games": 19,
-          "rate": 3.2
+          "rate": 3.1
         },
         {
           "champion": "Seraphine",
@@ -259,12 +284,12 @@
         {
           "champion": "Nami",
           "games": 17,
-          "rate": 2.9
+          "rate": 2.8
         },
         {
           "champion": "Sona",
-          "games": 16,
-          "rate": 2.7
+          "games": 15,
+          "rate": 2.5
         },
         {
           "champion": "Karma",
@@ -274,7 +299,7 @@
         {
           "champion": "Morgana",
           "games": 8,
-          "rate": 1.4
+          "rate": 1.3
         },
         {
           "champion": "Anivia",
@@ -295,6 +320,11 @@
           "champion": "Rell",
           "games": 5,
           "rate": 0.8
+        },
+        {
+          "champion": "Pantheon",
+          "games": 4,
+          "rate": 0.7
         },
         {
           "champion": "Zac",
@@ -332,12 +362,12 @@
           "rate": 0.2
         },
         {
-          "champion": "Pantheon",
+          "champion": "Pyke",
           "games": 1,
           "rate": 0.2
         },
         {
-          "champion": "Pyke",
+          "champion": "Shen",
           "games": 1,
           "rate": 0.2
         },
@@ -349,12 +379,17 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Naafiri",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -384,67 +419,82 @@
           ]
         },
         "MID": {
-          "games": 15,
+          "games": 29,
           "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 13,
+              "rate": 44.8
+            },
             {
               "champion": "Anivia",
               "games": 8,
-              "rate": 53.3
+              "rate": 27.6
             },
             {
               "champion": "Ahri",
               "games": 3,
-              "rate": 20.0
+              "rate": 10.3
             },
             {
               "champion": "Malzahar",
               "games": 2,
-              "rate": 13.3
+              "rate": 6.9
+            },
+            {
+              "champion": "AurelionSol",
+              "games": 1,
+              "rate": 3.4
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.4
             },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.4
             }
           ]
         },
         "BOTTOM": {
-          "games": 13,
+          "games": 22,
           "picks": [
+            {
+              "champion": "Sivir",
+              "games": 9,
+              "rate": 40.9
+            },
             {
               "champion": "Jhin",
               "games": 3,
-              "rate": 23.1
+              "rate": 13.6
             },
             {
               "champion": "Kaisa",
               "games": 3,
-              "rate": 23.1
+              "rate": 13.6
             },
             {
               "champion": "Lucian",
               "games": 3,
-              "rate": 23.1
+              "rate": 13.6
             },
             {
               "champion": "Xayah",
               "games": 2,
-              "rate": 15.4
+              "rate": 9.1
             },
             {
               "champion": "MissFortune",
               "games": 1,
-              "rate": 7.7
+              "rate": 4.5
             },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 7.7
+              "rate": 4.5
             }
           ]
         }

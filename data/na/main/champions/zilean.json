@@ -3,37 +3,73 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zilean",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 71,
+  "players": 3,
+  "mainLaneGames": 106,
   "mainLaneNext": [
     {
-      "champion": "Nautilus",
-      "games": 3,
-      "rate": 4.2
+      "champion": "Karma",
+      "games": 8,
+      "rate": 7.5
     },
     {
       "champion": "Leona",
+      "games": 7,
+      "rate": 6.6
+    },
+    {
+      "champion": "Nautilus",
+      "games": 4,
+      "rate": 3.8
+    },
+    {
+      "champion": "Taric",
+      "games": 4,
+      "rate": 3.8
+    },
+    {
+      "champion": "Braum",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
+    },
+    {
+      "champion": "Morgana",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Senna",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Seraphine",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Illaoi",
+          "games": 2,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
       "games": 0,
       "picks": []
     },
     "MID": {
-      "games": 5,
+      "games": 6,
       "picks": [
         {
           "champion": "Zilean",
-          "games": 5,
+          "games": 6,
           "rate": 100.0
         }
       ]
@@ -51,35 +87,71 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 71,
+      "players": 3,
+      "mainLaneGames": 106,
       "mainLaneNext": [
         {
-          "champion": "Nautilus",
-          "games": 3,
-          "rate": 4.2
+          "champion": "Karma",
+          "games": 8,
+          "rate": 7.5
         },
         {
           "champion": "Leona",
+          "games": 7,
+          "rate": 6.6
+        },
+        {
+          "champion": "Nautilus",
+          "games": 4,
+          "rate": 3.8
+        },
+        {
+          "champion": "Taric",
+          "games": 4,
+          "rate": 3.8
+        },
+        {
+          "champion": "Braum",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
+        },
+        {
+          "champion": "Morgana",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Illaoi",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
           "games": 0,
           "picks": []
         },
         "MID": {
-          "games": 5,
+          "games": 6,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 5,
+              "games": 6,
               "rate": 100.0
             }
           ]
@@ -97,43 +169,23 @@
       }
     },
     "MID": {
-      "players": 2,
-      "mainLaneGames": 56,
+      "players": 1,
+      "mainLaneGames": 25,
       "mainLaneNext": [
-        {
-          "champion": "Galio",
-          "games": 6,
-          "rate": 10.7
-        },
-        {
-          "champion": "Jayce",
-          "games": 4,
-          "rate": 7.1
-        },
         {
           "champion": "Zoe",
           "games": 2,
-          "rate": 3.6
+          "rate": 8.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 6,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 7,
-              "rate": 63.6
-            },
-            {
-              "champion": "Galio",
-              "games": 2,
-              "rate": 18.2
-            },
-            {
-              "champion": "Jayce",
-              "games": 2,
-              "rate": 18.2
+              "games": 6,
+              "rate": 100.0
             }
           ]
         },
@@ -142,32 +194,22 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 3,
+          "games": 1,
           "picks": [
-            {
-              "champion": "Galio",
-              "games": 2,
-              "rate": 66.7
-            },
             {
               "champion": "Zilean",
               "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 10,
+          "games": 8,
           "picks": [
             {
               "champion": "Zilean",
-              "games": 9,
-              "rate": 90.0
-            },
-            {
-              "champion": "Pyke",
-              "games": 1,
-              "rate": 10.0
+              "games": 8,
+              "rate": 100.0
             }
           ]
         }

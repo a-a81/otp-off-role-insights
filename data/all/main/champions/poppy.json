@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
+  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
   "mainLane": "TOP",
   "players": 11,
   "mainLaneGames": 329,
@@ -29,22 +29,22 @@
       "rate": 1.8
     },
     {
-      "champion": "FiddleSticks",
-      "games": 5,
-      "rate": 1.5
-    },
-    {
       "champion": "KSante",
       "games": 5,
       "rate": 1.5
     },
     {
-      "champion": "Malphite",
+      "champion": "Sion",
+      "games": 5,
+      "rate": 1.5
+    },
+    {
+      "champion": "FiddleSticks",
       "games": 4,
       "rate": 1.2
     },
     {
-      "champion": "Sion",
+      "champion": "Malphite",
       "games": 4,
       "rate": 1.2
     },
@@ -55,11 +55,6 @@
     },
     {
       "champion": "Illaoi",
-      "games": 3,
-      "rate": 0.9
-    },
-    {
-      "champion": "Ornn",
       "games": 3,
       "rate": 0.9
     },
@@ -89,6 +84,16 @@
       "rate": 0.6
     },
     {
+      "champion": "Gwen",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
+      "champion": "Ornn",
+      "games": 2,
+      "rate": 0.6
+    },
+    {
       "champion": "Sylas",
       "games": 2,
       "rate": 0.6
@@ -114,17 +119,7 @@
       "rate": 0.3
     },
     {
-      "champion": "Galio",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
       "champion": "Garen",
-      "games": 1,
-      "rate": 0.3
-    },
-    {
-      "champion": "Gwen",
       "games": 1,
       "rate": 0.3
     },
@@ -176,37 +171,37 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 24,
+      "games": 23,
       "picks": [
         {
           "champion": "Kayn",
           "games": 11,
-          "rate": 45.8
+          "rate": 47.8
         },
         {
           "champion": "Poppy",
-          "games": 8,
-          "rate": 33.3
+          "games": 7,
+          "rate": 30.4
         },
         {
           "champion": "Vi",
           "games": 2,
-          "rate": 8.3
+          "rate": 8.7
         },
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 4.2
+          "rate": 4.3
         }
       ]
     },
@@ -271,27 +266,32 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Ashe",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
+        },
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 20.0
         },
         {
           "champion": "Sivir",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
@@ -417,22 +417,22 @@
           "rate": 1.8
         },
         {
-          "champion": "FiddleSticks",
-          "games": 5,
-          "rate": 1.5
-        },
-        {
           "champion": "KSante",
           "games": 5,
           "rate": 1.5
         },
         {
-          "champion": "Malphite",
+          "champion": "Sion",
+          "games": 5,
+          "rate": 1.5
+        },
+        {
+          "champion": "FiddleSticks",
           "games": 4,
           "rate": 1.2
         },
         {
-          "champion": "Sion",
+          "champion": "Malphite",
           "games": 4,
           "rate": 1.2
         },
@@ -443,11 +443,6 @@
         },
         {
           "champion": "Illaoi",
-          "games": 3,
-          "rate": 0.9
-        },
-        {
-          "champion": "Ornn",
           "games": 3,
           "rate": 0.9
         },
@@ -477,6 +472,16 @@
           "rate": 0.6
         },
         {
+          "champion": "Gwen",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
+          "champion": "Ornn",
+          "games": 2,
+          "rate": 0.6
+        },
+        {
           "champion": "Sylas",
           "games": 2,
           "rate": 0.6
@@ -502,17 +507,7 @@
           "rate": 0.3
         },
         {
-          "champion": "Galio",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
           "champion": "Garen",
-          "games": 1,
-          "rate": 0.3
-        },
-        {
-          "champion": "Gwen",
           "games": 1,
           "rate": 0.3
         },
@@ -564,37 +559,37 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 24,
+          "games": 23,
           "picks": [
             {
               "champion": "Kayn",
               "games": 11,
-              "rate": 45.8
+              "rate": 47.8
             },
             {
               "champion": "Poppy",
-              "games": 8,
-              "rate": 33.3
+              "games": 7,
+              "rate": 30.4
             },
             {
               "champion": "Vi",
               "games": 2,
-              "rate": 8.3
+              "rate": 8.7
             },
             {
               "champion": "Amumu",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
               "champion": "Chogath",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             },
             {
               "champion": "Gwen",
               "games": 1,
-              "rate": 4.2
+              "rate": 4.3
             }
           ]
         },
@@ -659,27 +654,32 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Ashe",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Jinx",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 20.0
             },
             {
               "champion": "Sivir",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Ziggs",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
@@ -782,50 +782,60 @@
     },
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 173,
+      "mainLaneGames": 170,
       "mainLaneNext": [
         {
-          "champion": "Lulu",
-          "games": 10,
-          "rate": 5.8
-        },
-        {
-          "champion": "Nautilus",
-          "games": 10,
-          "rate": 5.8
-        },
-        {
           "champion": "Karma",
+          "games": 10,
+          "rate": 5.9
+        },
+        {
+          "champion": "Lulu",
           "games": 9,
-          "rate": 5.2
+          "rate": 5.3
         },
         {
           "champion": "Milio",
-          "games": 8,
-          "rate": 4.6
+          "games": 9,
+          "rate": 5.3
         },
         {
           "champion": "Skarner",
-          "games": 5,
-          "rate": 2.9
+          "games": 7,
+          "rate": 4.1
+        },
+        {
+          "champion": "Nautilus",
+          "games": 6,
+          "rate": 3.5
         },
         {
           "champion": "Blitzcrank",
-          "games": 4,
-          "rate": 2.3
-        },
-        {
-          "champion": "Rell",
           "games": 3,
-          "rate": 1.7
-        },
-        {
-          "champion": "Yuumi",
-          "games": 3,
-          "rate": 1.7
+          "rate": 1.8
         },
         {
           "champion": "FiddleSticks",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Lux",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Renata",
+          "games": 2,
+          "rate": 1.2
+        },
+        {
+          "champion": "Yuumi",
           "games": 2,
           "rate": 1.2
         },
@@ -840,17 +850,17 @@
           "rate": 0.6
         },
         {
+          "champion": "Elise",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
           "champion": "Galio",
           "games": 1,
           "rate": 0.6
         },
         {
           "champion": "Leona",
-          "games": 1,
-          "rate": 0.6
-        },
-        {
-          "champion": "Lux",
           "games": 1,
           "rate": 0.6
         },
@@ -866,6 +876,11 @@
         },
         {
           "champion": "Morgana",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Nami",
           "games": 1,
           "rate": 0.6
         },
@@ -942,32 +957,37 @@
           ]
         },
         "BOTTOM": {
-          "games": 13,
+          "games": 17,
           "picks": [
             {
               "champion": "Hwei",
-              "games": 9,
-              "rate": 69.2
+              "games": 12,
+              "rate": 70.6
+            },
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 5.9
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 7.7
+              "rate": 5.9
             },
             {
               "champion": "Xayah",
               "games": 1,
-              "rate": 7.7
+              "rate": 5.9
             },
             {
               "champion": "Ziggs",
               "games": 1,
-              "rate": 7.7
+              "rate": 5.9
             },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 7.7
+              "rate": 5.9
             }
           ]
         }

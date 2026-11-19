@@ -3,55 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kindred",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "JUNGLE",
-  "players": 2,
-  "mainLaneGames": 68,
+  "players": 1,
+  "mainLaneGames": 32,
   "mainLaneNext": [
-    {
-      "champion": "Kayn",
-      "games": 9,
-      "rate": 13.2
-    },
     {
       "champion": "Graves",
       "games": 3,
-      "rate": 4.4
+      "rate": 9.4
     },
     {
       "champion": "Viego",
       "games": 1,
-      "rate": 1.5
+      "rate": 3.1
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Kindred",
           "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Fiora",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 6,
+      "games": 4,
       "picks": [
         {
           "champion": "Kindred",
-          "games": 5,
-          "rate": 83.3
+          "games": 3,
+          "rate": 75.0
         },
         {
           "champion": "Vex",
           "games": 1,
-          "rate": 16.7
+          "rate": 25.0
         }
       ]
     },
@@ -60,70 +50,55 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Yuumi",
-          "games": 1,
-          "rate": 50.0
+          "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 2,
-      "mainLaneGames": 68,
+      "players": 1,
+      "mainLaneGames": 32,
       "mainLaneNext": [
-        {
-          "champion": "Kayn",
-          "games": 9,
-          "rate": 13.2
-        },
         {
           "champion": "Graves",
           "games": 3,
-          "rate": 4.4
+          "rate": 9.4
         },
         {
           "champion": "Viego",
           "games": 1,
-          "rate": 1.5
+          "rate": 3.1
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Kindred",
               "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Fiora",
-              "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 6,
+          "games": 4,
           "picks": [
             {
               "champion": "Kindred",
-              "games": 5,
-              "rate": 83.3
+              "games": 3,
+              "rate": 75.0
             },
             {
               "champion": "Vex",
               "games": 1,
-              "rate": 16.7
+              "rate": 25.0
             }
           ]
         },
@@ -132,19 +107,96 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Braum",
               "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 15,
+      "mainLaneNext": [
+        {
+          "champion": "Irelia",
+          "games": 2,
+          "rate": 13.3
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 9,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 6,
+              "rate": 66.7
+            },
+            {
+              "champion": "Kindred",
+              "games": 2,
+              "rate": 22.2
+            },
+            {
+              "champion": "Khazix",
+              "games": 1,
+              "rate": 11.1
+            }
+          ]
+        },
+        "MID": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Katarina",
+              "games": 6,
+              "rate": 46.2
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 3,
+              "rate": 23.1
+            },
+            {
+              "champion": "Irelia",
+              "games": 2,
+              "rate": 15.4
+            },
+            {
+              "champion": "Kassadin",
+              "games": 1,
+              "rate": 7.7
+            },
+            {
+              "champion": "Kindred",
+              "games": 1,
+              "rate": 7.7
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Ezreal",
+              "games": 1,
               "rate": 50.0
             },
             {
-              "champion": "Yuumi",
+              "champion": "Katarina",
               "games": 1,
               "rate": 50.0
             }
           ]
+        },
+        "UTILITY": {
+          "games": 0,
+          "picks": []
         }
       }
     }

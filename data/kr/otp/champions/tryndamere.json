@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Tryndamere",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "MID",
   "players": 3,
   "mainLaneGames": 62,
@@ -160,17 +160,17 @@
           "rate": 3.1
         },
         {
-          "champion": "Yone",
-          "games": 2,
-          "rate": 3.1
-        },
-        {
           "champion": "Fiora",
           "games": 1,
           "rate": 1.6
         },
         {
           "champion": "Malphite",
+          "games": 1,
+          "rate": 1.6
+        },
+        {
+          "champion": "Yone",
           "games": 1,
           "rate": 1.6
         }
@@ -207,42 +207,41 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Caitlyn",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
-          "games": 8,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Zac",
+              "games": 3,
+              "rate": 33.3
+            },
             {
               "champion": "Alistar",
               "games": 2,
-              "rate": 25.0
-            },
-            {
-              "champion": "Blitzcrank",
-              "games": 2,
-              "rate": 25.0
-            },
-            {
-              "champion": "Zac",
-              "games": 2,
-              "rate": 25.0
+              "rate": 22.2
             },
             {
               "champion": "Bard",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
+            },
+            {
+              "champion": "Blitzcrank",
+              "games": 1,
+              "rate": 11.1
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 12.5
+              "rate": 11.1
+            },
+            {
+              "champion": "Sylas",
+              "games": 1,
+              "rate": 11.1
             }
           ]
         }

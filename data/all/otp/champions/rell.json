@@ -3,30 +3,40 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Rell",
-  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
+  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
   "mainLane": "UTILITY",
-  "players": 11,
-  "mainLaneGames": 391,
+  "players": 12,
+  "mainLaneGames": 428,
   "mainLaneNext": [
+    {
+      "champion": "Braum",
+      "games": 6,
+      "rate": 1.4
+    },
     {
       "champion": "Poppy",
       "games": 5,
-      "rate": 1.3
-    },
-    {
-      "champion": "Braum",
-      "games": 4,
-      "rate": 1.0
+      "rate": 1.2
     },
     {
       "champion": "Nautilus",
+      "games": 4,
+      "rate": 0.9
+    },
+    {
+      "champion": "Leona",
       "games": 3,
-      "rate": 0.8
+      "rate": 0.7
+    },
+    {
+      "champion": "Lulu",
+      "games": 3,
+      "rate": 0.7
     },
     {
       "champion": "Swain",
       "games": 3,
-      "rate": 0.8
+      "rate": 0.7
     },
     {
       "champion": "Alistar",
@@ -39,12 +49,7 @@
       "rate": 0.5
     },
     {
-      "champion": "Leona",
-      "games": 2,
-      "rate": 0.5
-    },
-    {
-      "champion": "Lulu",
+      "champion": "Karma",
       "games": 2,
       "rate": 0.5
     },
@@ -61,72 +66,67 @@
     {
       "champion": "Annie",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.2
     },
     {
       "champion": "Blitzcrank",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.2
     },
     {
-      "champion": "Karma",
+      "champion": "Seraphine",
       "games": 1,
-      "rate": 0.3
+      "rate": 0.2
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 18,
+      "games": 17,
       "picks": [
         {
           "champion": "Malphite",
           "games": 8,
-          "rate": 44.4
+          "rate": 47.1
         },
         {
           "champion": "Yorick",
           "games": 3,
-          "rate": 16.7
+          "rate": 17.6
         },
         {
           "champion": "Gwen",
           "games": 2,
-          "rate": 11.1
+          "rate": 11.8
         },
         {
           "champion": "Ornn",
           "games": 2,
-          "rate": 11.1
+          "rate": 11.8
         },
         {
           "champion": "Rell",
           "games": 2,
-          "rate": 11.1
-        },
-        {
-          "champion": "Mordekaiser",
-          "games": 1,
-          "rate": 5.6
+          "rate": 11.8
         }
       ]
     },
     "JUNGLE": {
-      "games": 16,
+      "games": 17,
       "picks": [
         {
           "champion": "Rammus",
           "games": 14,
-          "rate": 87.5
+          "rate": 82.4
         },
         {
           "champion": "JarvanIV",
-          "games": 1,
-          "rate": 6.2
+          "games": 2,
+          "rate": 11.8
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         }
       ]
     },
@@ -139,11 +139,6 @@
           "rate": 40.0
         },
         {
-          "champion": "KSante",
-          "games": 1,
-          "rate": 20.0
-        },
-        {
           "champion": "Pantheon",
           "games": 1,
           "rate": 20.0
@@ -152,54 +147,79 @@
           "champion": "Viktor",
           "games": 1,
           "rate": 20.0
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 7,
       "picks": [
         {
           "champion": "Kaisa",
           "games": 2,
-          "rate": 50.0
+          "rate": 28.6
+        },
+        {
+          "champion": "MissFortune",
+          "games": 2,
+          "rate": 28.6
+        },
+        {
+          "champion": "Corki",
+          "games": 1,
+          "rate": 14.3
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 25.0
+          "rate": 14.3
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 25.0
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 11,
-      "mainLaneGames": 391,
+      "players": 12,
+      "mainLaneGames": 428,
       "mainLaneNext": [
+        {
+          "champion": "Braum",
+          "games": 6,
+          "rate": 1.4
+        },
         {
           "champion": "Poppy",
           "games": 5,
-          "rate": 1.3
-        },
-        {
-          "champion": "Braum",
-          "games": 4,
-          "rate": 1.0
+          "rate": 1.2
         },
         {
           "champion": "Nautilus",
+          "games": 4,
+          "rate": 0.9
+        },
+        {
+          "champion": "Leona",
           "games": 3,
-          "rate": 0.8
+          "rate": 0.7
+        },
+        {
+          "champion": "Lulu",
+          "games": 3,
+          "rate": 0.7
         },
         {
           "champion": "Swain",
           "games": 3,
-          "rate": 0.8
+          "rate": 0.7
         },
         {
           "champion": "Alistar",
@@ -212,12 +232,7 @@
           "rate": 0.5
         },
         {
-          "champion": "Leona",
-          "games": 2,
-          "rate": 0.5
-        },
-        {
-          "champion": "Lulu",
+          "champion": "Karma",
           "games": 2,
           "rate": 0.5
         },
@@ -234,72 +249,67 @@
         {
           "champion": "Annie",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.2
         },
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.2
         },
         {
-          "champion": "Karma",
+          "champion": "Seraphine",
           "games": 1,
-          "rate": 0.3
+          "rate": 0.2
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 18,
+          "games": 17,
           "picks": [
             {
               "champion": "Malphite",
               "games": 8,
-              "rate": 44.4
+              "rate": 47.1
             },
             {
               "champion": "Yorick",
               "games": 3,
-              "rate": 16.7
+              "rate": 17.6
             },
             {
               "champion": "Gwen",
               "games": 2,
-              "rate": 11.1
+              "rate": 11.8
             },
             {
               "champion": "Ornn",
               "games": 2,
-              "rate": 11.1
+              "rate": 11.8
             },
             {
               "champion": "Rell",
               "games": 2,
-              "rate": 11.1
-            },
-            {
-              "champion": "Mordekaiser",
-              "games": 1,
-              "rate": 5.6
+              "rate": 11.8
             }
           ]
         },
         "JUNGLE": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "Rammus",
               "games": 14,
-              "rate": 87.5
+              "rate": 82.4
             },
             {
               "champion": "JarvanIV",
-              "games": 1,
-              "rate": 6.2
+              "games": 2,
+              "rate": 11.8
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             }
           ]
         },
@@ -312,11 +322,6 @@
               "rate": 40.0
             },
             {
-              "champion": "KSante",
-              "games": 1,
-              "rate": 20.0
-            },
-            {
               "champion": "Pantheon",
               "games": 1,
               "rate": 20.0
@@ -325,26 +330,41 @@
               "champion": "Viktor",
               "games": 1,
               "rate": 20.0
+            },
+            {
+              "champion": "Xerath",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 7,
           "picks": [
             {
               "champion": "Kaisa",
               "games": 2,
-              "rate": 50.0
+              "rate": 28.6
+            },
+            {
+              "champion": "MissFortune",
+              "games": 2,
+              "rate": 28.6
+            },
+            {
+              "champion": "Corki",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             },
             {
               "champion": "Ziggs",
               "games": 1,
-              "rate": 25.0
+              "rate": 14.3
             }
           ]
         }

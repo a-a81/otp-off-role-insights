@@ -3,30 +3,45 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Janna",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "UTILITY",
-  "players": 2,
-  "mainLaneGames": 69,
+  "players": 3,
+  "mainLaneGames": 106,
   "mainLaneNext": [
     {
       "champion": "Nautilus",
       "games": 7,
-      "rate": 10.1
+      "rate": 6.6
+    },
+    {
+      "champion": "Sona",
+      "games": 7,
+      "rate": 6.6
     },
     {
       "champion": "Bard",
       "games": 4,
-      "rate": 5.8
+      "rate": 3.8
     },
     {
       "champion": "Alistar",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
     },
     {
       "champion": "Braum",
       "games": 1,
-      "rate": 1.4
+      "rate": 0.9
+    },
+    {
+      "champion": "Soraka",
+      "games": 1,
+      "rate": 0.9
+    },
+    {
+      "champion": "Syndra",
+      "games": 1,
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -65,40 +80,60 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Ekko",
           "games": 4,
-          "rate": 100.0
+          "rate": 80.0
+        },
+        {
+          "champion": "Lux",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 69,
+      "players": 3,
+      "mainLaneGames": 106,
       "mainLaneNext": [
         {
           "champion": "Nautilus",
           "games": 7,
-          "rate": 10.1
+          "rate": 6.6
+        },
+        {
+          "champion": "Sona",
+          "games": 7,
+          "rate": 6.6
         },
         {
           "champion": "Bard",
           "games": 4,
-          "rate": 5.8
+          "rate": 3.8
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 1.4
+          "rate": 0.9
+        },
+        {
+          "champion": "Soraka",
+          "games": 1,
+          "rate": 0.9
+        },
+        {
+          "champion": "Syndra",
+          "games": 1,
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -137,12 +172,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Ekko",
               "games": 4,
-              "rate": 100.0
+              "rate": 80.0
+            },
+            {
+              "champion": "Lux",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }

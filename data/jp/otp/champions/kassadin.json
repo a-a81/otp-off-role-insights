@@ -3,94 +3,110 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kassadin",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 53,
+  "mainLaneGames": 51,
   "mainLaneNext": [
     {
       "champion": "Smolder",
       "games": 1,
-      "rate": 1.9
-    },
-    {
-      "champion": "Sylas",
-      "games": 1,
-      "rate": 1.9
+      "rate": 2.0
     },
     {
       "champion": "Tristana",
       "games": 1,
-      "rate": 1.9
+      "rate": 2.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Kayle",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
     "JUNGLE": {
-      "games": 22,
+      "games": 19,
       "picks": [
         {
           "champion": "Zyra",
-          "games": 15,
-          "rate": 68.2
+          "games": 13,
+          "rate": 68.4
         },
         {
           "champion": "Fizz",
           "games": 2,
-          "rate": 9.1
+          "rate": 10.5
         },
         {
           "champion": "Jayce",
           "games": 2,
-          "rate": 9.1
+          "rate": 10.5
         },
         {
           "champion": "Graves",
           "games": 1,
-          "rate": 4.5
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1,
-          "rate": 4.5
+          "rate": 5.3
         },
         {
           "champion": "Kindred",
           "games": 1,
-          "rate": 4.5
+          "rate": 5.3
         }
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Twitch",
+          "games": 1,
+          "rate": 33.3
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     },
     "UTILITY": {
-      "games": 3,
+      "games": 4,
       "picks": [
         {
           "champion": "Blitzcrank",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Fizz",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     }
@@ -98,91 +114,107 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 53,
+      "mainLaneGames": 51,
       "mainLaneNext": [
         {
           "champion": "Smolder",
           "games": 1,
-          "rate": 1.9
-        },
-        {
-          "champion": "Sylas",
-          "games": 1,
-          "rate": 1.9
+          "rate": 2.0
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 1.9
+          "rate": 2.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Kayle",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 22,
+          "games": 19,
           "picks": [
             {
               "champion": "Zyra",
-              "games": 15,
-              "rate": 68.2
+              "games": 13,
+              "rate": 68.4
             },
             {
               "champion": "Fizz",
               "games": 2,
-              "rate": 9.1
+              "rate": 10.5
             },
             {
               "champion": "Jayce",
               "games": 2,
-              "rate": 9.1
+              "rate": 10.5
             },
             {
               "champion": "Graves",
               "games": 1,
-              "rate": 4.5
-            },
-            {
-              "champion": "Kaisa",
-              "games": 1,
-              "rate": 4.5
+              "rate": 5.3
             },
             {
               "champion": "Kindred",
               "games": 1,
-              "rate": 4.5
+              "rate": 5.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Aphelios",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Twitch",
+              "games": 1,
+              "rate": 33.3
+            },
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 4,
           "picks": [
             {
               "champion": "Blitzcrank",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Fizz",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
+            },
+            {
+              "champion": "Senna",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         }

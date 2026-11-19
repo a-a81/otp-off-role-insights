@@ -3,28 +3,23 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sett",
-  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
+  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
   "mainLane": "TOP",
   "players": 6,
-  "mainLaneGames": 185,
+  "mainLaneGames": 187,
   "mainLaneNext": [
-    {
-      "champion": "KSante",
-      "games": 5,
-      "rate": 2.7
-    },
     {
       "champion": "Mordekaiser",
       "games": 5,
       "rate": 2.7
     },
     {
-      "champion": "Jax",
-      "games": 2,
-      "rate": 1.1
+      "champion": "KSante",
+      "games": 4,
+      "rate": 2.1
     },
     {
-      "champion": "Malphite",
+      "champion": "Jax",
       "games": 2,
       "rate": 1.1
     },
@@ -34,7 +29,17 @@
       "rate": 1.1
     },
     {
+      "champion": "Malphite",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
       "champion": "Riven",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
+      "champion": "Rumble",
       "games": 1,
       "rate": 0.5
     },
@@ -47,31 +52,26 @@
       "champion": "Urgot",
       "games": 1,
       "rate": 0.5
-    },
-    {
-      "champion": "Yorick",
-      "games": 1,
-      "rate": 0.5
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 10,
+      "games": 8,
       "picks": [
         {
           "champion": "LeeSin",
-          "games": 7,
-          "rate": 70.0
+          "games": 5,
+          "rate": 62.5
         },
         {
           "champion": "Sett",
           "games": 2,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Nocturne",
           "games": 1,
-          "rate": 10.0
+          "rate": 12.5
         }
       ]
     },
@@ -101,22 +101,27 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "Yasuo",
           "games": 2,
-          "rate": 50.0
+          "rate": 40.0
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
+        },
+        {
+          "champion": "Ziggs",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -189,25 +194,20 @@
   "byMainLane": {
     "TOP": {
       "players": 6,
-      "mainLaneGames": 185,
+      "mainLaneGames": 187,
       "mainLaneNext": [
-        {
-          "champion": "KSante",
-          "games": 5,
-          "rate": 2.7
-        },
         {
           "champion": "Mordekaiser",
           "games": 5,
           "rate": 2.7
         },
         {
-          "champion": "Jax",
-          "games": 2,
-          "rate": 1.1
+          "champion": "KSante",
+          "games": 4,
+          "rate": 2.1
         },
         {
-          "champion": "Malphite",
+          "champion": "Jax",
           "games": 2,
           "rate": 1.1
         },
@@ -217,7 +217,17 @@
           "rate": 1.1
         },
         {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
           "champion": "Riven",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
+          "champion": "Rumble",
           "games": 1,
           "rate": 0.5
         },
@@ -230,31 +240,26 @@
           "champion": "Urgot",
           "games": 1,
           "rate": 0.5
-        },
-        {
-          "champion": "Yorick",
-          "games": 1,
-          "rate": 0.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 10,
+          "games": 8,
           "picks": [
             {
               "champion": "LeeSin",
-              "games": 7,
-              "rate": 70.0
+              "games": 5,
+              "rate": 62.5
             },
             {
               "champion": "Sett",
               "games": 2,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Nocturne",
               "games": 1,
-              "rate": 10.0
+              "rate": 12.5
             }
           ]
         },
@@ -284,22 +289,27 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Yasuo",
               "games": 2,
-              "rate": 50.0
+              "rate": 40.0
             },
             {
               "champion": "Kaisa",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "Lucian",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Ziggs",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },

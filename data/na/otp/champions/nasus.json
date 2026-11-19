@@ -3,126 +3,178 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Nasus",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "MID",
-  "players": 1,
-  "mainLaneGames": 28,
+  "players": 2,
+  "mainLaneGames": 49,
   "mainLaneNext": [
+    {
+      "champion": "Viktor",
+      "games": 5,
+      "rate": 10.2
+    },
     {
       "champion": "Veigar",
       "games": 3,
-      "rate": 10.7
+      "rate": 6.1
     },
     {
       "champion": "Xerath",
       "games": 1,
-      "rate": 3.6
+      "rate": 2.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 9,
+      "games": 21,
       "picks": [
         {
           "champion": "Nasus",
-          "games": 8,
-          "rate": 88.9
+          "games": 13,
+          "rate": 61.9
+        },
+        {
+          "champion": "Jax",
+          "games": 7,
+          "rate": 33.3
         },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 11.1
+          "rate": 4.8
         }
       ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
-      "games": 2,
+      "games": 1,
       "picks": [
         {
           "champion": "Nasus",
           "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 4,
+      "picks": [
+        {
+          "champion": "Nasus",
+          "games": 2,
           "rate": 50.0
+        },
+        {
+          "champion": "Jax",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Veigar",
           "games": 1,
-          "rate": 50.0
+          "rate": 25.0
         }
       ]
     },
     "UTILITY": {
-      "games": 1,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Thresh",
+          "games": 4,
+          "rate": 80.0
+        },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 100.0
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 1,
-      "mainLaneGames": 28,
+      "players": 2,
+      "mainLaneGames": 49,
       "mainLaneNext": [
+        {
+          "champion": "Viktor",
+          "games": 5,
+          "rate": 10.2
+        },
         {
           "champion": "Veigar",
           "games": 3,
-          "rate": 10.7
+          "rate": 6.1
         },
         {
           "champion": "Xerath",
           "games": 1,
-          "rate": 3.6
+          "rate": 2.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 9,
+          "games": 21,
           "picks": [
             {
               "champion": "Nasus",
-              "games": 8,
-              "rate": 88.9
+              "games": 13,
+              "rate": 61.9
+            },
+            {
+              "champion": "Jax",
+              "games": 7,
+              "rate": 33.3
             },
             {
               "champion": "Malphite",
               "games": 1,
-              "rate": 11.1
+              "rate": 4.8
             }
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "BOTTOM": {
-          "games": 2,
+          "games": 1,
           "picks": [
             {
               "champion": "Nasus",
               "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Nasus",
+              "games": 2,
               "rate": 50.0
+            },
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Veigar",
               "games": 1,
-              "rate": 50.0
+              "rate": 25.0
             }
           ]
         },
         "UTILITY": {
-          "games": 1,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Thresh",
+              "games": 4,
+              "rate": 80.0
+            },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 100.0
+              "rate": 20.0
             }
           ]
         }

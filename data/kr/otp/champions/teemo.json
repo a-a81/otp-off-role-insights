@@ -3,45 +3,45 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Teemo",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "TOP",
-  "players": 2,
-  "mainLaneGames": 69,
+  "players": 3,
+  "mainLaneGames": 103,
   "mainLaneNext": [
     {
       "champion": "Maokai",
+      "games": 4,
+      "rate": 3.9
+    },
+    {
+      "champion": "Malphite",
       "games": 2,
-      "rate": 2.9
+      "rate": 1.9
     },
     {
       "champion": "Senna",
       "games": 2,
-      "rate": 2.9
+      "rate": 1.9
     },
     {
       "champion": "Kennen",
       "games": 1,
-      "rate": 1.4
-    },
-    {
-      "champion": "Malphite",
-      "games": 1,
-      "rate": 1.4
+      "rate": 1.0
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
+        {
+          "champion": "Nunu",
+          "games": 2,
+          "rate": 66.7
+        },
         {
           "champion": "Nasus",
           "games": 1,
-          "rate": 50.0
-        },
-        {
-          "champion": "Nunu",
-          "games": 1,
-          "rate": 50.0
+          "rate": 33.3
         }
       ]
     },
@@ -66,60 +66,60 @@
       ]
     },
     "UTILITY": {
-      "games": 5,
+      "games": 10,
       "picks": [
         {
           "champion": "Maokai",
-          "games": 3,
-          "rate": 60.0
+          "games": 8,
+          "rate": 80.0
         },
         {
           "champion": "Teemo",
           "games": 2,
-          "rate": 40.0
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "TOP": {
-      "players": 2,
-      "mainLaneGames": 69,
+      "players": 3,
+      "mainLaneGames": 103,
       "mainLaneNext": [
         {
           "champion": "Maokai",
+          "games": 4,
+          "rate": 3.9
+        },
+        {
+          "champion": "Malphite",
           "games": 2,
-          "rate": 2.9
+          "rate": 1.9
         },
         {
           "champion": "Senna",
           "games": 2,
-          "rate": 2.9
+          "rate": 1.9
         },
         {
           "champion": "Kennen",
           "games": 1,
-          "rate": 1.4
-        },
-        {
-          "champion": "Malphite",
-          "games": 1,
-          "rate": 1.4
+          "rate": 1.0
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Nunu",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Nasus",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Nunu",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
@@ -144,17 +144,17 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 10,
           "picks": [
             {
               "champion": "Maokai",
-              "games": 3,
-              "rate": 60.0
+              "games": 8,
+              "rate": 80.0
             },
             {
               "champion": "Teemo",
               "games": 2,
-              "rate": 40.0
+              "rate": 20.0
             }
           ]
         }

@@ -3,18 +3,13 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zac",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "JUNGLE",
   "players": 3,
-  "mainLaneGames": 82,
+  "mainLaneGames": 85,
   "mainLaneNext": [
     {
       "champion": "Ambessa",
-      "games": 3,
-      "rate": 3.7
-    },
-    {
-      "champion": "Chogath",
       "games": 2,
       "rate": 2.4
     },
@@ -29,6 +24,11 @@
       "rate": 2.4
     },
     {
+      "champion": "Shyvana",
+      "games": 1,
+      "rate": 1.2
+    },
+    {
       "champion": "Skarner",
       "games": 1,
       "rate": 1.2
@@ -41,38 +41,39 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 32,
+      "games": 29,
       "picks": [
         {
           "champion": "Zac",
-          "games": 22,
-          "rate": 68.8
+          "games": 24,
+          "rate": 82.8
         },
         {
           "champion": "Nasus",
-          "games": 7,
-          "rate": 21.9
+          "games": 3,
+          "rate": 10.3
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 3.1
-        },
-        {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 3.1
+          "rate": 3.4
         },
         {
           "champion": "Trundle",
           "games": 1,
-          "rate": 3.1
+          "rate": 3.4
         }
       ]
     },
     "MID": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "BOTTOM": {
       "games": 0,
@@ -97,15 +98,10 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 3,
-      "mainLaneGames": 82,
+      "mainLaneGames": 85,
       "mainLaneNext": [
         {
           "champion": "Ambessa",
-          "games": 3,
-          "rate": 3.7
-        },
-        {
-          "champion": "Chogath",
           "games": 2,
           "rate": 2.4
         },
@@ -120,6 +116,11 @@
           "rate": 2.4
         },
         {
+          "champion": "Shyvana",
+          "games": 1,
+          "rate": 1.2
+        },
+        {
           "champion": "Skarner",
           "games": 1,
           "rate": 1.2
@@ -132,38 +133,39 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 32,
+          "games": 29,
           "picks": [
             {
               "champion": "Zac",
-              "games": 22,
-              "rate": 68.8
+              "games": 24,
+              "rate": 82.8
             },
             {
               "champion": "Nasus",
-              "games": 7,
-              "rate": 21.9
+              "games": 3,
+              "rate": 10.3
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 3.1
-            },
-            {
-              "champion": "Sion",
-              "games": 1,
-              "rate": 3.1
+              "rate": 3.4
             },
             {
               "champion": "Trundle",
               "games": 1,
-              "rate": 3.1
+              "rate": 3.4
             }
           ]
         },
         "MID": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 0,
@@ -188,17 +190,17 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 34,
+      "mainLaneGames": 32,
       "mainLaneNext": [
         {
           "champion": "Gnar",
-          "games": 3,
-          "rate": 8.8
+          "games": 2,
+          "rate": 6.2
         },
         {
           "champion": "Yone",
           "games": 1,
-          "rate": 2.9
+          "rate": 3.1
         }
       ],
       "offLanes": {
@@ -207,11 +209,11 @@
           "picks": []
         },
         "MID": {
-          "games": 1,
+          "games": 3,
           "picks": [
             {
               "champion": "Zac",
-              "games": 1,
+              "games": 3,
               "rate": 100.0
             }
           ]

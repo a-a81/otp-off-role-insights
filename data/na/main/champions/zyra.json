@@ -3,23 +3,28 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zyra",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "BOTTOM",
   "players": 2,
-  "mainLaneGames": 46,
+  "mainLaneGames": 45,
   "mainLaneNext": [
     {
       "champion": "Caitlyn",
       "games": 5,
-      "rate": 10.9
+      "rate": 11.1
     },
     {
       "champion": "Jhin",
       "games": 2,
-      "rate": 4.3
+      "rate": 4.4
     },
     {
       "champion": "Senna",
+      "games": 1,
+      "rate": 2.2
+    },
+    {
+      "champion": "Varus",
       "games": 1,
       "rate": 2.2
     },
@@ -61,12 +66,17 @@
       ]
     },
     "JUNGLE": {
-      "games": 2,
+      "games": 3,
       "picks": [
         {
           "champion": "JarvanIV",
           "games": 2,
-          "rate": 100.0
+          "rate": 66.7
+        },
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
@@ -124,20 +134,25 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 46,
+      "mainLaneGames": 45,
       "mainLaneNext": [
         {
           "champion": "Caitlyn",
           "games": 5,
-          "rate": 10.9
+          "rate": 11.1
         },
         {
           "champion": "Jhin",
           "games": 2,
-          "rate": 4.3
+          "rate": 4.4
         },
         {
           "champion": "Senna",
+          "games": 1,
+          "rate": 2.2
+        },
+        {
+          "champion": "Varus",
           "games": 1,
           "rate": 2.2
         },
@@ -179,12 +194,17 @@
           ]
         },
         "JUNGLE": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "JarvanIV",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Malphite",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -246,16 +266,16 @@
       "mainLaneNext": [
         {
           "champion": "Belveth",
-          "games": 8,
-          "rate": 29.6
-        },
-        {
-          "champion": "Diana",
-          "games": 1,
-          "rate": 3.7
+          "games": 5,
+          "rate": 18.5
         },
         {
           "champion": "Graves",
+          "games": 2,
+          "rate": 7.4
+        },
+        {
+          "champion": "Diana",
           "games": 1,
           "rate": 3.7
         }
@@ -272,36 +292,36 @@
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 3,
           "picks": [
+            {
+              "champion": "Talon",
+              "games": 2,
+              "rate": 66.7
+            },
             {
               "champion": "Cassiopeia",
               "games": 1,
-              "rate": 50.0
-            },
-            {
-              "champion": "Talon",
-              "games": 1,
-              "rate": 50.0
+              "rate": 33.3
             }
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "Zyra",
-              "games": 4,
+              "games": 5,
               "rate": 100.0
             }
           ]
         },
         "UTILITY": {
-          "games": 3,
+          "games": 1,
           "picks": [
             {
               "champion": "Karma",
-              "games": 3,
+              "games": 1,
               "rate": 100.0
             }
           ]

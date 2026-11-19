@@ -3,35 +3,50 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Draven",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "BOTTOM",
-  "players": 1,
-  "mainLaneGames": 31,
+  "players": 2,
+  "mainLaneGames": 63,
   "mainLaneNext": [
+    {
+      "champion": "Karthus",
+      "games": 7,
+      "rate": 11.1
+    },
     {
       "champion": "Twitch",
       "games": 4,
-      "rate": 12.9
+      "rate": 6.3
+    },
+    {
+      "champion": "Ezreal",
+      "games": 1,
+      "rate": 1.6
     },
     {
       "champion": "Jinx",
       "games": 1,
-      "rate": 3.2
+      "rate": 1.6
     },
     {
       "champion": "Yunara",
       "games": 1,
-      "rate": 3.2
+      "rate": 1.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 9,
       "picks": [
+        {
+          "champion": "Draven",
+          "games": 5,
+          "rate": 55.6
+        },
         {
           "champion": "Sion",
           "games": 4,
-          "rate": 100.0
+          "rate": 44.4
         }
       ]
     },
@@ -40,12 +55,22 @@
       "picks": []
     },
     "MID": {
-      "games": 2,
+      "games": 4,
       "picks": [
         {
           "champion": "Twitch",
           "games": 2,
-          "rate": 100.0
+          "rate": 50.0
+        },
+        {
+          "champion": "Draven",
+          "games": 1,
+          "rate": 25.0
+        },
+        {
+          "champion": "Karthus",
+          "games": 1,
+          "rate": 25.0
         }
       ]
     },
@@ -67,33 +92,48 @@
   },
   "byMainLane": {
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 31,
+      "players": 2,
+      "mainLaneGames": 63,
       "mainLaneNext": [
+        {
+          "champion": "Karthus",
+          "games": 7,
+          "rate": 11.1
+        },
         {
           "champion": "Twitch",
           "games": 4,
-          "rate": 12.9
+          "rate": 6.3
+        },
+        {
+          "champion": "Ezreal",
+          "games": 1,
+          "rate": 1.6
         },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 3.2
+          "rate": 1.6
         },
         {
           "champion": "Yunara",
           "games": 1,
-          "rate": 3.2
+          "rate": 1.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 9,
           "picks": [
+            {
+              "champion": "Draven",
+              "games": 5,
+              "rate": 55.6
+            },
             {
               "champion": "Sion",
               "games": 4,
-              "rate": 100.0
+              "rate": 44.4
             }
           ]
         },
@@ -102,12 +142,22 @@
           "picks": []
         },
         "MID": {
-          "games": 2,
+          "games": 4,
           "picks": [
             {
               "champion": "Twitch",
               "games": 2,
-              "rate": 100.0
+              "rate": 50.0
+            },
+            {
+              "champion": "Draven",
+              "games": 1,
+              "rate": 25.0
+            },
+            {
+              "champion": "Karthus",
+              "games": 1,
+              "rate": 25.0
             }
           ]
         },

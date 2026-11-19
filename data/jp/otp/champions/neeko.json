@@ -3,25 +3,30 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Neeko",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 168,
+  "mainLaneGames": 174,
   "mainLaneNext": [
     {
       "champion": "Thresh",
       "games": 5,
-      "rate": 3.0
+      "rate": 2.9
     },
     {
       "champion": "Rell",
       "games": 3,
-      "rate": 1.8
+      "rate": 1.7
     },
     {
       "champion": "Anivia",
       "games": 2,
-      "rate": 1.2
+      "rate": 1.1
+    },
+    {
+      "champion": "Nautilus",
+      "games": 2,
+      "rate": 1.1
     },
     {
       "champion": "Karma",
@@ -30,11 +35,6 @@
     },
     {
       "champion": "Morgana",
-      "games": 1,
-      "rate": 0.6
-    },
-    {
-      "champion": "Nautilus",
       "games": 1,
       "rate": 0.6
     },
@@ -70,22 +70,22 @@
       "picks": []
     },
     "MID": {
-      "games": 18,
+      "games": 19,
       "picks": [
         {
           "champion": "Neeko",
-          "games": 14,
-          "rate": 77.8
+          "games": 15,
+          "rate": 78.9
         },
         {
           "champion": "Syndra",
           "games": 3,
-          "rate": 16.7
+          "rate": 15.8
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         }
       ]
     },
@@ -113,22 +113,27 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 168,
+      "mainLaneGames": 174,
       "mainLaneNext": [
         {
           "champion": "Thresh",
           "games": 5,
-          "rate": 3.0
+          "rate": 2.9
         },
         {
           "champion": "Rell",
           "games": 3,
-          "rate": 1.8
+          "rate": 1.7
         },
         {
           "champion": "Anivia",
           "games": 2,
-          "rate": 1.2
+          "rate": 1.1
+        },
+        {
+          "champion": "Nautilus",
+          "games": 2,
+          "rate": 1.1
         },
         {
           "champion": "Karma",
@@ -137,11 +142,6 @@
         },
         {
           "champion": "Morgana",
-          "games": 1,
-          "rate": 0.6
-        },
-        {
-          "champion": "Nautilus",
           "games": 1,
           "rate": 0.6
         },
@@ -177,22 +177,22 @@
           "picks": []
         },
         "MID": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Neeko",
-              "games": 14,
-              "rate": 77.8
+              "games": 15,
+              "rate": 78.9
             },
             {
               "champion": "Syndra",
               "games": 3,
-              "rate": 16.7
+              "rate": 15.8
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             }
           ]
         },
@@ -220,27 +220,27 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 28,
+      "mainLaneGames": 27,
       "mainLaneNext": [
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.7
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.7
+        },
+        {
+          "champion": "KSante",
+          "games": 1,
+          "rate": 3.7
         },
         {
           "champion": "Mordekaiser",
           "games": 1,
-          "rate": 3.6
-        },
-        {
-          "champion": "Syndra",
-          "games": 1,
-          "rate": 3.6
+          "rate": 3.7
         }
       ],
       "offLanes": {
@@ -270,8 +270,14 @@
           ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 0,

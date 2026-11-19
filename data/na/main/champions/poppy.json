@@ -3,7 +3,7 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "TOP",
   "players": 3,
   "mainLaneGames": 110,
@@ -17,11 +17,6 @@
       "champion": "Gangplank",
       "games": 4,
       "rate": 3.6
-    },
-    {
-      "champion": "Ornn",
-      "games": 3,
-      "rate": 2.7
     },
     {
       "champion": "Rumble",
@@ -44,44 +39,44 @@
       "rate": 1.8
     },
     {
+      "champion": "Ornn",
+      "games": 2,
+      "rate": 1.8
+    },
+    {
       "champion": "Yorick",
       "games": 2,
       "rate": 1.8
     },
     {
-      "champion": "Galio",
+      "champion": "Nasus",
       "games": 1,
       "rate": 0.9
     },
     {
-      "champion": "Nasus",
+      "champion": "Sion",
       "games": 1,
       "rate": 0.9
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 4,
+      "games": 3,
       "picks": [
         {
           "champion": "Amumu",
           "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         },
         {
           "champion": "Chogath",
           "games": 1,
-          "rate": 25.0
-        },
-        {
-          "champion": "Poppy",
-          "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         },
         {
           "champion": "Vi",
           "games": 1,
-          "rate": 25.0
+          "rate": 33.3
         }
       ]
     },
@@ -106,8 +101,14 @@
       ]
     },
     "BOTTOM": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Poppy",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "UTILITY": {
       "games": 2,
@@ -141,11 +142,6 @@
           "rate": 3.6
         },
         {
-          "champion": "Ornn",
-          "games": 3,
-          "rate": 2.7
-        },
-        {
           "champion": "Rumble",
           "games": 3,
           "rate": 2.7
@@ -166,44 +162,44 @@
           "rate": 1.8
         },
         {
+          "champion": "Ornn",
+          "games": 2,
+          "rate": 1.8
+        },
+        {
           "champion": "Yorick",
           "games": 2,
           "rate": 1.8
         },
         {
-          "champion": "Galio",
+          "champion": "Nasus",
           "games": 1,
           "rate": 0.9
         },
         {
-          "champion": "Nasus",
+          "champion": "Sion",
           "games": 1,
           "rate": 0.9
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Amumu",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Chogath",
               "games": 1,
-              "rate": 25.0
-            },
-            {
-              "champion": "Poppy",
-              "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Vi",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             }
           ]
         },
@@ -228,8 +224,14 @@
           ]
         },
         "BOTTOM": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Poppy",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "UTILITY": {
           "games": 2,
@@ -250,27 +252,32 @@
     },
     "UTILITY": {
       "players": 3,
-      "mainLaneGames": 104,
+      "mainLaneGames": 101,
       "mainLaneNext": [
         {
           "champion": "Karma",
           "games": 7,
-          "rate": 6.7
+          "rate": 6.9
         },
         {
           "champion": "Lulu",
           "games": 5,
-          "rate": 4.8
+          "rate": 5.0
+        },
+        {
+          "champion": "Milio",
+          "games": 2,
+          "rate": 2.0
         },
         {
           "champion": "Rell",
           "games": 2,
-          "rate": 1.9
+          "rate": 2.0
         },
         {
           "champion": "Yuumi",
           "games": 2,
-          "rate": 1.9
+          "rate": 2.0
         },
         {
           "champion": "Brand",
@@ -289,11 +296,6 @@
         },
         {
           "champion": "Maokai",
-          "games": 1,
-          "rate": 1.0
-        },
-        {
-          "champion": "Milio",
           "games": 1,
           "rate": 1.0
         },
@@ -349,17 +351,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 10,
+          "games": 13,
           "picks": [
             {
               "champion": "Hwei",
-              "games": 9,
-              "rate": 90.0
+              "games": 12,
+              "rate": 92.3
             },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 10.0
+              "rate": 7.7
             }
           ]
         }

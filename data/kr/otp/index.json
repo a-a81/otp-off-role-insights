@@ -3,11 +3,11 @@
   "platform": "KR",
   "profile": "otp",
   "queue": "RANKED_SOLO_5x5",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "matchesPerPlayer": 40,
   "minMainGames": 15,
   "minRate": 0.75,
-  "qualifiedPlayers": 300,
+  "qualifiedPlayers": 299,
   "champions": [
     {
       "champion": "Cassiopeia",
@@ -28,22 +28,22 @@
       "file": "champions/zoe.json"
     },
     {
-      "champion": "Talon",
-      "mainLane": "MID",
-      "players": 7,
-      "file": "champions/talon.json"
-    },
-    {
       "champion": "Zed",
       "mainLane": "MID",
       "players": 7,
       "file": "champions/zed.json"
     },
     {
-      "champion": "Taliyah",
-      "mainLane": "JUNGLE",
+      "champion": "Talon",
+      "mainLane": "MID",
       "players": 6,
-      "file": "champions/taliyah.json"
+      "file": "champions/talon.json"
+    },
+    {
+      "champion": "Fiora",
+      "mainLane": "TOP",
+      "players": 5,
+      "file": "champions/fiora.json"
     },
     {
       "champion": "Gangplank",
@@ -52,22 +52,28 @@
       "file": "champions/gangplank.json"
     },
     {
-      "champion": "KSante",
+      "champion": "Jax",
       "mainLane": "TOP",
       "players": 5,
-      "file": "champions/ksante.json"
+      "file": "champions/jax.json"
+    },
+    {
+      "champion": "Kindred",
+      "mainLane": "JUNGLE",
+      "players": 5,
+      "file": "champions/kindred.json"
+    },
+    {
+      "champion": "Taliyah",
+      "mainLane": "JUNGLE",
+      "players": 5,
+      "file": "champions/taliyah.json"
     },
     {
       "champion": "Anivia",
-      "mainLane": "TOP",
+      "mainLane": "MID",
       "players": 4,
       "file": "champions/anivia.json"
-    },
-    {
-      "champion": "Fiora",
-      "mainLane": "TOP",
-      "players": 4,
-      "file": "champions/fiora.json"
     },
     {
       "champion": "Fizz",
@@ -76,16 +82,16 @@
       "file": "champions/fizz.json"
     },
     {
-      "champion": "Jax",
-      "mainLane": "TOP",
+      "champion": "Galio",
+      "mainLane": "MID",
       "players": 4,
-      "file": "champions/jax.json"
+      "file": "champions/galio.json"
     },
     {
-      "champion": "Kindred",
-      "mainLane": "JUNGLE",
+      "champion": "KSante",
+      "mainLane": "TOP",
       "players": 4,
-      "file": "champions/kindred.json"
+      "file": "champions/ksante.json"
     },
     {
       "champion": "Maokai",
@@ -142,12 +148,6 @@
       "file": "champions/camille.json"
     },
     {
-      "champion": "Corki",
-      "mainLane": "BOTTOM",
-      "players": 3,
-      "file": "champions/corki.json"
-    },
-    {
       "champion": "DrMundo",
       "mainLane": "TOP",
       "players": 3,
@@ -164,12 +164,6 @@
       "mainLane": "JUNGLE",
       "players": 3,
       "file": "champions/fiddlesticks.json"
-    },
-    {
-      "champion": "Galio",
-      "mainLane": "MID",
-      "players": 3,
-      "file": "champions/galio.json"
     },
     {
       "champion": "Hecarim",
@@ -226,6 +220,12 @@
       "file": "champions/syndra.json"
     },
     {
+      "champion": "Teemo",
+      "mainLane": "TOP",
+      "players": 3,
+      "file": "champions/teemo.json"
+    },
+    {
       "champion": "Thresh",
       "mainLane": "UTILITY",
       "players": 3,
@@ -260,18 +260,6 @@
       "mainLane": "TOP",
       "players": 3,
       "file": "champions/volibear.json"
-    },
-    {
-      "champion": "Warwick",
-      "mainLane": "TOP",
-      "players": 3,
-      "file": "champions/warwick.json"
-    },
-    {
-      "champion": "Zyra",
-      "mainLane": "JUNGLE",
-      "players": 3,
-      "file": "champions/zyra.json"
     },
     {
       "champion": "Aatrox",
@@ -310,6 +298,12 @@
       "file": "champions/aurelionsol.json"
     },
     {
+      "champion": "Corki",
+      "mainLane": "BOTTOM",
+      "players": 2,
+      "file": "champions/corki.json"
+    },
+    {
       "champion": "Darius",
       "mainLane": "TOP",
       "players": 2,
@@ -332,6 +326,12 @@
       "mainLane": "BOTTOM",
       "players": 2,
       "file": "champions/karthus.json"
+    },
+    {
+      "champion": "Kassadin",
+      "mainLane": "MID",
+      "players": 2,
+      "file": "champions/kassadin.json"
     },
     {
       "champion": "Kled",
@@ -412,12 +412,6 @@
       "file": "champions/swain.json"
     },
     {
-      "champion": "Teemo",
-      "mainLane": "TOP",
-      "players": 2,
-      "file": "champions/teemo.json"
-    },
-    {
       "champion": "Udyr",
       "mainLane": "TOP",
       "players": 2,
@@ -428,6 +422,12 @@
       "mainLane": "TOP",
       "players": 2,
       "file": "champions/varus.json"
+    },
+    {
+      "champion": "Warwick",
+      "mainLane": "TOP",
+      "players": 2,
+      "file": "champions/warwick.json"
     },
     {
       "champion": "Xayah",
@@ -448,10 +448,10 @@
       "file": "champions/zac.json"
     },
     {
-      "champion": "Alistar",
-      "mainLane": "UTILITY",
-      "players": 1,
-      "file": "champions/alistar.json"
+      "champion": "Zyra",
+      "mainLane": "JUNGLE",
+      "players": 2,
+      "file": "champions/zyra.json"
     },
     {
       "champion": "Ambessa",
@@ -496,12 +496,6 @@
       "file": "champions/elise.json"
     },
     {
-      "champion": "Ezreal",
-      "mainLane": "BOTTOM",
-      "players": 1,
-      "file": "champions/ezreal.json"
-    },
-    {
       "champion": "Garen",
       "mainLane": "TOP",
       "players": 1,
@@ -536,12 +530,6 @@
       "mainLane": "JUNGLE",
       "players": 1,
       "file": "champions/jayce.json"
-    },
-    {
-      "champion": "Kassadin",
-      "mainLane": "MID",
-      "players": 1,
-      "file": "champions/kassadin.json"
     },
     {
       "champion": "Kayle",
@@ -614,12 +602,6 @@
       "mainLane": "TOP",
       "players": 1,
       "file": "champions/poppy.json"
-    },
-    {
-      "champion": "Qiyana",
-      "mainLane": "MID",
-      "players": 1,
-      "file": "champions/qiyana.json"
     },
     {
       "champion": "Rakan",

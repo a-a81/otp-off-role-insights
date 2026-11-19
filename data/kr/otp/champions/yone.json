@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yone",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "MID",
   "players": 2,
   "mainLaneGames": 57,
@@ -19,11 +19,6 @@
       "rate": 1.8
     },
     {
-      "champion": "Sion",
-      "games": 1,
-      "rate": 1.8
-    },
-    {
       "champion": "Yasuo",
       "games": 1,
       "rate": 1.8
@@ -31,22 +26,22 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 11,
+      "games": 12,
       "picks": [
         {
           "champion": "Yone",
-          "games": 9,
-          "rate": 81.8
+          "games": 10,
+          "rate": 83.3
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 9.1
+          "rate": 8.3
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 9.1
+          "rate": 8.3
         }
       ]
     },
@@ -65,17 +60,17 @@
       ]
     },
     "UTILITY": {
-      "games": 8,
+      "games": 7,
       "picks": [
         {
           "champion": "Hwei",
           "games": 4,
-          "rate": 50.0
+          "rate": 57.1
         },
         {
           "champion": "Leona",
-          "games": 4,
-          "rate": 50.0
+          "games": 3,
+          "rate": 42.9
         }
       ]
     }
@@ -96,11 +91,6 @@
           "rate": 1.8
         },
         {
-          "champion": "Sion",
-          "games": 1,
-          "rate": 1.8
-        },
-        {
           "champion": "Yasuo",
           "games": 1,
           "rate": 1.8
@@ -108,22 +98,22 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 11,
+          "games": 12,
           "picks": [
             {
               "champion": "Yone",
-              "games": 9,
-              "rate": 81.8
+              "games": 10,
+              "rate": 83.3
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 9.1
+              "rate": 8.3
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 9.1
+              "rate": 8.3
             }
           ]
         },
@@ -142,49 +132,65 @@
           ]
         },
         "UTILITY": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Hwei",
               "games": 4,
-              "rate": 50.0
+              "rate": 57.1
             },
             {
               "champion": "Leona",
-              "games": 4,
-              "rate": 50.0
+              "games": 3,
+              "rate": 42.9
             }
           ]
         }
       }
     },
     "TOP": {
-      "players": 1,
-      "mainLaneGames": 28,
+      "players": 2,
+      "mainLaneGames": 47,
       "mainLaneNext": [
         {
           "champion": "Yasuo",
-          "games": 3,
-          "rate": 10.7
+          "games": 6,
+          "rate": 12.8
+        },
+        {
+          "champion": "Darius",
+          "games": 1,
+          "rate": 2.1
         },
         {
           "champion": "Irelia",
           "games": 1,
-          "rate": 3.6
+          "rate": 2.1
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 5,
+          "games": 1,
           "picks": [
             {
               "champion": "Yone",
-              "games": 5,
+              "games": 1,
               "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 20,
+          "picks": [
+            {
+              "champion": "Yone",
+              "games": 15,
+              "rate": 75.0
+            },
+            {
+              "champion": "Yasuo",
+              "games": 5,
+              "rate": 25.0
             }
           ]
         },
@@ -199,12 +205,17 @@
           ]
         },
         "UTILITY": {
-          "games": 5,
+          "games": 10,
           "picks": [
+            {
+              "champion": "Nautilus",
+              "games": 5,
+              "rate": 50.0
+            },
             {
               "champion": "Rakan",
               "games": 5,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         }

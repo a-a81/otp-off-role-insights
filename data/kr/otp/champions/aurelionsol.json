@@ -3,10 +3,10 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "AurelionSol",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "MID",
   "players": 2,
-  "mainLaneGames": 60,
+  "mainLaneGames": 59,
   "mainLaneNext": [
     {
       "champion": "Galio",
@@ -41,11 +41,11 @@
       ]
     },
     "BOTTOM": {
-      "games": 9,
+      "games": 10,
       "picks": [
         {
           "champion": "AurelionSol",
-          "games": 9,
+          "games": 10,
           "rate": 100.0
         }
       ]
@@ -69,7 +69,7 @@
   "byMainLane": {
     "MID": {
       "players": 2,
-      "mainLaneGames": 60,
+      "mainLaneGames": 59,
       "mainLaneNext": [
         {
           "champion": "Galio",
@@ -104,11 +104,11 @@
           ]
         },
         "BOTTOM": {
-          "games": 9,
+          "games": 10,
           "picks": [
             {
               "champion": "AurelionSol",
-              "games": 9,
+              "games": 10,
               "rate": 100.0
             }
           ]
@@ -131,73 +131,123 @@
       }
     },
     "BOTTOM": {
-      "players": 1,
-      "mainLaneGames": 18,
+      "players": 2,
+      "mainLaneGames": 37,
       "mainLaneNext": [
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 5.6
+          "rate": 2.7
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 2.7
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 5.6
+          "rate": 2.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 5,
           "picks": [
+            {
+              "champion": "AurelionSol",
+              "games": 2,
+              "rate": 40.0
+            },
             {
               "champion": "Malphite",
               "games": 2,
-              "rate": 100.0
+              "rate": 40.0
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },
         "JUNGLE": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Graves",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "MID": {
-          "games": 15,
+          "games": 28,
           "picks": [
             {
               "champion": "AurelionSol",
-              "games": 13,
-              "rate": 86.7
+              "games": 16,
+              "rate": 57.1
+            },
+            {
+              "champion": "Corki",
+              "games": 3,
+              "rate": 10.7
+            },
+            {
+              "champion": "Galio",
+              "games": 3,
+              "rate": 10.7
+            },
+            {
+              "champion": "Viktor",
+              "games": 2,
+              "rate": 7.1
+            },
+            {
+              "champion": "Kassadin",
+              "games": 1,
+              "rate": 3.6
+            },
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 3.6
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.6
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 6.7
+              "rate": 3.6
             }
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Alistar",
-              "games": 2,
+              "games": 4,
               "rate": 50.0
             },
             {
               "champion": "Nautilus",
-              "games": 2,
-              "rate": 50.0
+              "games": 3,
+              "rate": 37.5
+            },
+            {
+              "champion": "Bard",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         }

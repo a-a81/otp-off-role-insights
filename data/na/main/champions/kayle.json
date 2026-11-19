@@ -3,59 +3,223 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Kayle",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
+  "mainLane": "JUNGLE",
   "players": 1,
-  "mainLaneGames": 20,
+  "mainLaneGames": 23,
   "mainLaneNext": [
     {
-      "champion": "Nasus",
-      "games": 3,
-      "rate": 15.0
+      "champion": "Sylas",
+      "games": 6,
+      "rate": 26.1
+    },
+    {
+      "champion": "Gwen",
+      "games": 2,
+      "rate": 8.7
+    },
+    {
+      "champion": "Lillia",
+      "games": 2,
+      "rate": 8.7
+    },
+    {
+      "champion": "Jayce",
+      "games": 1,
+      "rate": 4.3
+    },
+    {
+      "champion": "KogMaw",
+      "games": 1,
+      "rate": 4.3
+    },
+    {
+      "champion": "Nidalee",
+      "games": 1,
+      "rate": 4.3
+    },
+    {
+      "champion": "Qiyana",
+      "games": 1,
+      "rate": 4.3
+    },
+    {
+      "champion": "Quinn",
+      "games": 1,
+      "rate": 4.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 17,
-      "picks": [
-        {
-          "champion": "Kayle",
-          "games": 16,
-          "rate": 94.1
-        },
-        {
-          "champion": "Nasus",
-          "games": 1,
-          "rate": 5.9
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "BOTTOM": {
       "games": 1,
       "picks": [
         {
-          "champion": "Kayle",
+          "champion": "Jayce",
           "games": 1,
           "rate": 100.0
         }
       ]
     },
-    "UTILITY": {
-      "games": 2,
+    "MID": {
+      "games": 1,
       "picks": [
         {
-          "champion": "Yuumi",
-          "games": 2,
+          "champion": "Yone",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "BOTTOM": {
+      "games": 14,
+      "picks": [
+        {
+          "champion": "Yunara",
+          "games": 7,
+          "rate": 50.0
+        },
+        {
+          "champion": "Ezreal",
+          "games": 4,
+          "rate": 28.6
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Draven",
+          "games": 1,
+          "rate": 7.1
+        },
+        {
+          "champion": "Tristana",
+          "games": 1,
+          "rate": 7.1
+        }
+      ]
+    },
+    "UTILITY": {
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Bard",
+          "games": 1,
           "rate": 100.0
         }
       ]
     }
   },
   "byMainLane": {
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 23,
+      "mainLaneNext": [
+        {
+          "champion": "Sylas",
+          "games": 6,
+          "rate": 26.1
+        },
+        {
+          "champion": "Gwen",
+          "games": 2,
+          "rate": 8.7
+        },
+        {
+          "champion": "Lillia",
+          "games": 2,
+          "rate": 8.7
+        },
+        {
+          "champion": "Jayce",
+          "games": 1,
+          "rate": 4.3
+        },
+        {
+          "champion": "KogMaw",
+          "games": 1,
+          "rate": 4.3
+        },
+        {
+          "champion": "Nidalee",
+          "games": 1,
+          "rate": 4.3
+        },
+        {
+          "champion": "Qiyana",
+          "games": 1,
+          "rate": 4.3
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 4.3
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jayce",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 14,
+          "picks": [
+            {
+              "champion": "Yunara",
+              "games": 7,
+              "rate": 50.0
+            },
+            {
+              "champion": "Ezreal",
+              "games": 4,
+              "rate": 28.6
+            },
+            {
+              "champion": "Aphelios",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Draven",
+              "games": 1,
+              "rate": 7.1
+            },
+            {
+              "champion": "Tristana",
+              "games": 1,
+              "rate": 7.1
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Bard",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 1,
       "mainLaneGames": 20,

@@ -3,46 +3,56 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Gwen",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 69,
+  "mainLaneGames": 66,
   "mainLaneNext": [
+    {
+      "champion": "Darius",
+      "games": 1,
+      "rate": 1.5
+    },
+    {
+      "champion": "DrMundo",
+      "games": 1,
+      "rate": 1.5
+    },
     {
       "champion": "Malphite",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.5
     },
     {
       "champion": "Ornn",
       "games": 1,
-      "rate": 1.4
+      "rate": 1.5
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
-      "games": 4,
+      "games": 1,
       "picks": [
         {
           "champion": "Gwen",
-          "games": 4,
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 6,
+      "picks": [
+        {
+          "champion": "Gwen",
+          "games": 6,
           "rate": 100.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Corki",
-          "games": 1,
-          "rate": 100.0
-        }
-      ]
+      "games": 0,
+      "picks": []
     },
     "UTILITY": {
       "games": 4,
@@ -63,43 +73,53 @@
   "byMainLane": {
     "TOP": {
       "players": 2,
-      "mainLaneGames": 69,
+      "mainLaneGames": 66,
       "mainLaneNext": [
+        {
+          "champion": "Darius",
+          "games": 1,
+          "rate": 1.5
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1,
+          "rate": 1.5
+        },
         {
           "champion": "Malphite",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.5
         },
         {
           "champion": "Ornn",
           "games": 1,
-          "rate": 1.4
+          "rate": 1.5
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 4,
+          "games": 1,
           "picks": [
             {
               "champion": "Gwen",
-              "games": 4,
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 6,
+          "picks": [
+            {
+              "champion": "Gwen",
+              "games": 6,
               "rate": 100.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Corki",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
           "games": 4,
@@ -135,27 +155,27 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 29,
+          "games": 30,
           "picks": [
             {
               "champion": "Gwen",
               "games": 24,
-              "rate": 82.8
+              "rate": 80.0
             },
             {
               "champion": "Ambessa",
-              "games": 3,
-              "rate": 10.3
+              "games": 4,
+              "rate": 13.3
             },
             {
               "champion": "Ahri",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
             },
             {
               "champion": "Irelia",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
             }
           ]
         },
@@ -174,22 +194,104 @@
           ]
         },
         "UTILITY": {
-          "games": 4,
+          "games": 3,
           "picks": [
             {
               "champion": "Leona",
-              "games": 2,
-              "rate": 50.0
+              "games": 1,
+              "rate": 33.3
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 25.0
+              "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 32,
+      "mainLaneNext": [
+        {
+          "champion": "Sylas",
+          "games": 3,
+          "rate": 9.4
+        },
+        {
+          "champion": "LeeSin",
+          "games": 2,
+          "rate": 6.2
+        },
+        {
+          "champion": "Graves",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Talon",
+          "games": 1,
+          "rate": 3.1
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 3.1
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Caitlyn",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Ezreal",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Jinx",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Thresh",
+              "games": 1,
+              "rate": 100.0
             }
           ]
         }

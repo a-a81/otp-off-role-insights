@@ -3,84 +3,90 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Yuumi",
-  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
+  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
   "mainLane": "UTILITY",
   "players": 4,
-  "mainLaneGames": 152,
+  "mainLaneGames": 129,
   "mainLaneNext": [
-    {
-      "champion": "Alistar",
-      "games": 7,
-      "rate": 4.6
-    },
     {
       "champion": "Lulu",
       "games": 6,
-      "rate": 3.9
+      "rate": 4.7
     },
     {
       "champion": "Zac",
       "games": 4,
-      "rate": 2.6
+      "rate": 3.1
     },
     {
       "champion": "Pantheon",
-      "games": 1,
-      "rate": 0.7
+      "games": 2,
+      "rate": 1.6
     },
     {
-      "champion": "Pyke",
+      "champion": "Shen",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.8
     },
     {
       "champion": "Sona",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.8
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 1,
+      "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 1,
+          "rate": 100.0
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 3,
+      "games": 2,
       "picks": [
         {
           "champion": "Zac",
           "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Lillia",
-          "games": 1,
-          "rate": 33.3
+          "rate": 100.0
         }
       ]
     },
     "MID": {
-      "games": 1,
+      "games": 14,
       "picks": [
+        {
+          "champion": "Pantheon",
+          "games": 13,
+          "rate": 92.9
+        },
         {
           "champion": "Zac",
           "games": 1,
-          "rate": 100.0
+          "rate": 7.1
         }
       ]
     },
     "BOTTOM": {
-      "games": 3,
+      "games": 12,
       "picks": [
+        {
+          "champion": "Sivir",
+          "games": 9,
+          "rate": 75.0
+        },
         {
           "champion": "Caitlyn",
           "games": 3,
-          "rate": 100.0
+          "rate": 25.0
         }
       ]
     }
@@ -88,81 +94,87 @@
   "byMainLane": {
     "UTILITY": {
       "players": 4,
-      "mainLaneGames": 152,
+      "mainLaneGames": 129,
       "mainLaneNext": [
-        {
-          "champion": "Alistar",
-          "games": 7,
-          "rate": 4.6
-        },
         {
           "champion": "Lulu",
           "games": 6,
-          "rate": 3.9
+          "rate": 4.7
         },
         {
           "champion": "Zac",
           "games": 4,
-          "rate": 2.6
+          "rate": 3.1
         },
         {
           "champion": "Pantheon",
-          "games": 1,
-          "rate": 0.7
+          "games": 2,
+          "rate": 1.6
         },
         {
-          "champion": "Pyke",
+          "champion": "Shen",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.8
         },
         {
           "champion": "Sona",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.8
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 3,
+          "games": 2,
           "picks": [
             {
               "champion": "Zac",
               "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Lillia",
-              "games": 1,
-              "rate": 33.3
+              "rate": 100.0
             }
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 14,
           "picks": [
+            {
+              "champion": "Pantheon",
+              "games": 13,
+              "rate": 92.9
+            },
             {
               "champion": "Zac",
               "games": 1,
-              "rate": 100.0
+              "rate": 7.1
             }
           ]
         },
         "BOTTOM": {
-          "games": 3,
+          "games": 12,
           "picks": [
+            {
+              "champion": "Sivir",
+              "games": 9,
+              "rate": 75.0
+            },
             {
               "champion": "Caitlyn",
               "games": 3,
-              "rate": 100.0
+              "rate": 25.0
             }
           ]
         }

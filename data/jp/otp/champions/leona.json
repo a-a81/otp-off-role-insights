@@ -3,100 +3,120 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Leona",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "UTILITY",
-  "players": 6,
-  "mainLaneGames": 188,
+  "players": 8,
+  "mainLaneGames": 247,
   "mainLaneNext": [
     {
       "champion": "Nautilus",
-      "games": 8,
-      "rate": 4.3
+      "games": 10,
+      "rate": 4.0
+    },
+    {
+      "champion": "Rell",
+      "games": 6,
+      "rate": 2.4
     },
     {
       "champion": "Alistar",
       "games": 5,
-      "rate": 2.7
+      "rate": 2.0
     },
     {
       "champion": "Blitzcrank",
-      "games": 3,
+      "games": 4,
       "rate": 1.6
     },
     {
       "champion": "Braum",
       "games": 3,
-      "rate": 1.6
+      "rate": 1.2
     },
     {
-      "champion": "Rell",
+      "champion": "Lux",
       "games": 2,
-      "rate": 1.1
+      "rate": 0.8
     },
     {
       "champion": "Galio",
       "games": 1,
-      "rate": 0.5
+      "rate": 0.4
+    },
+    {
+      "champion": "Lulu",
+      "games": 1,
+      "rate": 0.4
     },
     {
       "champion": "Maokai",
       "games": 1,
-      "rate": 0.5
+      "rate": 0.4
     },
     {
       "champion": "Nami",
       "games": 1,
-      "rate": 0.5
+      "rate": 0.4
     },
     {
       "champion": "Seraphine",
       "games": 1,
-      "rate": 0.5
+      "rate": 0.4
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 0.5
+      "rate": 0.4
+    },
+    {
+      "champion": "Yuumi",
+      "games": 1,
+      "rate": 0.4
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 13,
+      "games": 30,
       "picks": [
+        {
+          "champion": "Fiora",
+          "games": 17,
+          "rate": 56.7
+        },
         {
           "champion": "Jax",
           "games": 3,
-          "rate": 23.1
+          "rate": 10.0
         },
         {
           "champion": "Malphite",
           "games": 3,
-          "rate": 23.1
+          "rate": 10.0
         },
         {
           "champion": "Renekton",
           "games": 3,
-          "rate": 23.1
+          "rate": 10.0
         },
         {
           "champion": "Ambessa",
           "games": 1,
-          "rate": 7.7
+          "rate": 3.3
         },
         {
           "champion": "Garen",
           "games": 1,
-          "rate": 7.7
+          "rate": 3.3
         },
         {
           "champion": "KSante",
           "games": 1,
-          "rate": 7.7
+          "rate": 3.3
         },
         {
           "champion": "Yorick",
           "games": 1,
-          "rate": 7.7
+          "rate": 3.3
         }
       ]
     },
@@ -136,17 +156,27 @@
       ]
     },
     "MID": {
-      "games": 2,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Fiora",
+          "games": 2,
+          "rate": 40.0
+        },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 50.0
+          "rate": 20.0
         },
         {
           "champion": "Malzahar",
           "games": 1,
-          "rate": 50.0
+          "rate": 20.0
+        },
+        {
+          "champion": "Sett",
+          "games": 1,
+          "rate": 20.0
         }
       ]
     },
@@ -173,98 +203,118 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 6,
-      "mainLaneGames": 188,
+      "players": 8,
+      "mainLaneGames": 247,
       "mainLaneNext": [
         {
           "champion": "Nautilus",
-          "games": 8,
-          "rate": 4.3
+          "games": 10,
+          "rate": 4.0
+        },
+        {
+          "champion": "Rell",
+          "games": 6,
+          "rate": 2.4
         },
         {
           "champion": "Alistar",
           "games": 5,
-          "rate": 2.7
+          "rate": 2.0
         },
         {
           "champion": "Blitzcrank",
-          "games": 3,
+          "games": 4,
           "rate": 1.6
         },
         {
           "champion": "Braum",
           "games": 3,
-          "rate": 1.6
+          "rate": 1.2
         },
         {
-          "champion": "Rell",
+          "champion": "Lux",
           "games": 2,
-          "rate": 1.1
+          "rate": 0.8
         },
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 0.5
+          "rate": 0.4
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 0.4
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 0.5
+          "rate": 0.4
         },
         {
           "champion": "Nami",
           "games": 1,
-          "rate": 0.5
+          "rate": 0.4
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 0.5
+          "rate": 0.4
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 0.5
+          "rate": 0.4
+        },
+        {
+          "champion": "Yuumi",
+          "games": 1,
+          "rate": 0.4
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 13,
+          "games": 30,
           "picks": [
+            {
+              "champion": "Fiora",
+              "games": 17,
+              "rate": 56.7
+            },
             {
               "champion": "Jax",
               "games": 3,
-              "rate": 23.1
+              "rate": 10.0
             },
             {
               "champion": "Malphite",
               "games": 3,
-              "rate": 23.1
+              "rate": 10.0
             },
             {
               "champion": "Renekton",
               "games": 3,
-              "rate": 23.1
+              "rate": 10.0
             },
             {
               "champion": "Ambessa",
               "games": 1,
-              "rate": 7.7
+              "rate": 3.3
             },
             {
               "champion": "Garen",
               "games": 1,
-              "rate": 7.7
+              "rate": 3.3
             },
             {
               "champion": "KSante",
               "games": 1,
-              "rate": 7.7
+              "rate": 3.3
             },
             {
               "champion": "Yorick",
               "games": 1,
-              "rate": 7.7
+              "rate": 3.3
             }
           ]
         },
@@ -304,17 +354,27 @@
           ]
         },
         "MID": {
-          "games": 2,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Fiora",
+              "games": 2,
+              "rate": 40.0
+            },
             {
               "champion": "Gwen",
               "games": 1,
-              "rate": 50.0
+              "rate": 20.0
             },
             {
               "champion": "Malzahar",
               "games": 1,
-              "rate": 50.0
+              "rate": 20.0
+            },
+            {
+              "champion": "Sett",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         },

@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Pantheon",
-  "updatedAt": "2026-11-18T21:31:20.960371+00:00",
+  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
   "mainLane": "TOP",
   "players": 1,
   "mainLaneGames": 36,
@@ -88,47 +88,52 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 28,
+      "mainLaneGames": 25,
       "mainLaneNext": [
         {
           "champion": "Galio",
           "games": 3,
-          "rate": 10.7
+          "rate": 12.0
         },
         {
           "champion": "Diana",
           "games": 1,
-          "rate": 3.6
+          "rate": 4.0
+        },
+        {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 4.0
         },
         {
           "champion": "Lucian",
           "games": 1,
-          "rate": 3.6
+          "rate": 4.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 8,
+          "games": 13,
           "picks": [
             {
               "champion": "Pantheon",
-              "games": 5,
-              "rate": 62.5
+              "games": 8,
+              "rate": 61.5
+            },
+            {
+              "champion": "Garen",
+              "games": 2,
+              "rate": 15.4
+            },
+            {
+              "champion": "Malphite",
+              "games": 2,
+              "rate": 15.4
             },
             {
               "champion": "Galio",
               "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Garen",
-              "games": 1,
-              "rate": 12.5
-            },
-            {
-              "champion": "Malphite",
-              "games": 1,
-              "rate": 12.5
+              "rate": 7.7
             }
           ]
         },
@@ -141,11 +146,11 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 4,
+          "games": 2,
           "picks": [
             {
               "champion": "Pantheon",
-              "games": 4,
+              "games": 2,
               "rate": 100.0
             }
           ]

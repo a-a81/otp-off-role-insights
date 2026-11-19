@@ -3,10 +3,10 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Zoe",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "MID",
   "players": 17,
-  "mainLaneGames": 446,
+  "mainLaneGames": 447,
   "mainLaneNext": [
     {
       "champion": "Leblanc",
@@ -59,17 +59,7 @@
       "rate": 1.1
     },
     {
-      "champion": "Orianna",
-      "games": 5,
-      "rate": 1.1
-    },
-    {
       "champion": "Sylas",
-      "games": 5,
-      "rate": 1.1
-    },
-    {
-      "champion": "Vex",
       "games": 5,
       "rate": 1.1
     },
@@ -82,6 +72,16 @@
       "champion": "Xerath",
       "games": 5,
       "rate": 1.1
+    },
+    {
+      "champion": "Orianna",
+      "games": 4,
+      "rate": 0.9
+    },
+    {
+      "champion": "Vex",
+      "games": 4,
+      "rate": 0.9
     },
     {
       "champion": "Locke",
@@ -120,6 +120,11 @@
     },
     {
       "champion": "Lissandra",
+      "games": 2,
+      "rate": 0.4
+    },
+    {
+      "champion": "Zed",
       "games": 2,
       "rate": 0.4
     },
@@ -190,11 +195,6 @@
     },
     {
       "champion": "Zac",
-      "games": 1,
-      "rate": 0.2
-    },
-    {
-      "champion": "Zed",
       "games": 1,
       "rate": 0.2
     }
@@ -326,140 +326,135 @@
       ]
     },
     "JUNGLE": {
-      "games": 28,
+      "games": 29,
       "picks": [
         {
           "champion": "Khazix",
           "games": 9,
-          "rate": 32.1
+          "rate": 31.0
         },
         {
           "champion": "JarvanIV",
           "games": 4,
-          "rate": 14.3
+          "rate": 13.8
         },
         {
           "champion": "Zac",
           "games": 3,
-          "rate": 10.7
+          "rate": 10.3
         },
         {
           "champion": "Evelynn",
           "games": 2,
-          "rate": 7.1
+          "rate": 6.9
         },
         {
           "champion": "Taliyah",
           "games": 2,
-          "rate": 7.1
+          "rate": 6.9
         },
         {
           "champion": "Viego",
           "games": 2,
-          "rate": 7.1
+          "rate": 6.9
+        },
+        {
+          "champion": "Zyra",
+          "games": 2,
+          "rate": 6.9
         },
         {
           "champion": "FiddleSticks",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.4
         },
         {
           "champion": "Gwen",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.4
         },
         {
           "champion": "Karthus",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.4
         },
         {
           "champion": "Lillia",
           "games": 1,
-          "rate": 3.6
+          "rate": 3.4
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 3.6
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 3.6
+          "rate": 3.4
         }
       ]
     },
     "BOTTOM": {
-      "games": 83,
+      "games": 82,
       "picks": [
         {
           "champion": "MissFortune",
+          "games": 10,
+          "rate": 12.2
+        },
+        {
+          "champion": "Yunara",
           "games": 9,
-          "rate": 10.8
+          "rate": 11.0
         },
         {
           "champion": "Kaisa",
           "games": 8,
-          "rate": 9.6
+          "rate": 9.8
         },
         {
           "champion": "Lux",
           "games": 8,
-          "rate": 9.6
-        },
-        {
-          "champion": "Yunara",
-          "games": 8,
-          "rate": 9.6
+          "rate": 9.8
         },
         {
           "champion": "Ezreal",
           "games": 7,
-          "rate": 8.4
+          "rate": 8.5
         },
         {
           "champion": "Jhin",
           "games": 6,
-          "rate": 7.2
+          "rate": 7.3
         },
         {
           "champion": "Xayah",
-          "games": 5,
-          "rate": 6.0
+          "games": 4,
+          "rate": 4.9
         },
         {
           "champion": "Zoe",
           "games": 4,
-          "rate": 4.8
-        },
-        {
-          "champion": "Ashe",
-          "games": 3,
-          "rate": 3.6
+          "rate": 4.9
         },
         {
           "champion": "Tristana",
           "games": 3,
-          "rate": 3.6
+          "rate": 3.7
         },
         {
           "champion": "Xerath",
           "games": 3,
-          "rate": 3.6
+          "rate": 3.7
         },
         {
           "champion": "Yasuo",
           "games": 3,
-          "rate": 3.6
+          "rate": 3.7
         },
         {
-          "champion": "Hwei",
+          "champion": "Ashe",
           "games": 2,
           "rate": 2.4
         },
         {
-          "champion": "Jinx",
+          "champion": "Hwei",
           "games": 2,
           "rate": 2.4
         },
@@ -494,6 +489,11 @@
           "rate": 1.2
         },
         {
+          "champion": "Jinx",
+          "games": 1,
+          "rate": 1.2
+        },
+        {
           "champion": "Mel",
           "games": 1,
           "rate": 1.2
@@ -501,97 +501,92 @@
       ]
     },
     "UTILITY": {
-      "games": 45,
+      "games": 44,
       "picks": [
         {
           "champion": "Renata",
           "games": 5,
-          "rate": 11.1
+          "rate": 11.4
         },
         {
           "champion": "Xerath",
           "games": 5,
-          "rate": 11.1
+          "rate": 11.4
         },
         {
           "champion": "Lulu",
           "games": 4,
-          "rate": 8.9
+          "rate": 9.1
         },
         {
           "champion": "Zoe",
           "games": 4,
-          "rate": 8.9
+          "rate": 9.1
         },
         {
           "champion": "Alistar",
           "games": 3,
-          "rate": 6.7
+          "rate": 6.8
         },
         {
           "champion": "Karma",
           "games": 3,
-          "rate": 6.7
+          "rate": 6.8
         },
         {
           "champion": "Leona",
           "games": 3,
-          "rate": 6.7
+          "rate": 6.8
         },
         {
           "champion": "Nautilus",
           "games": 3,
-          "rate": 6.7
+          "rate": 6.8
         },
         {
           "champion": "Neeko",
           "games": 3,
-          "rate": 6.7
+          "rate": 6.8
         },
         {
           "champion": "Lux",
           "games": 2,
-          "rate": 4.4
+          "rate": 4.5
         },
         {
           "champion": "Morgana",
           "games": 2,
-          "rate": 4.4
+          "rate": 4.5
         },
         {
           "champion": "Soraka",
           "games": 2,
-          "rate": 4.4
+          "rate": 4.5
         },
         {
           "champion": "Bard",
           "games": 1,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Janna",
           "games": 1,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Seraphine",
-          "games": 1,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "TahmKench",
           "games": 1,
-          "rate": 2.2
+          "rate": 2.3
         },
         {
           "champion": "Zyra",
           "games": 1,
-          "rate": 2.2
+          "rate": 2.3
         }
       ]
     }
@@ -599,7 +594,7 @@
   "byMainLane": {
     "MID": {
       "players": 17,
-      "mainLaneGames": 446,
+      "mainLaneGames": 447,
       "mainLaneNext": [
         {
           "champion": "Leblanc",
@@ -652,17 +647,7 @@
           "rate": 1.1
         },
         {
-          "champion": "Orianna",
-          "games": 5,
-          "rate": 1.1
-        },
-        {
           "champion": "Sylas",
-          "games": 5,
-          "rate": 1.1
-        },
-        {
-          "champion": "Vex",
           "games": 5,
           "rate": 1.1
         },
@@ -675,6 +660,16 @@
           "champion": "Xerath",
           "games": 5,
           "rate": 1.1
+        },
+        {
+          "champion": "Orianna",
+          "games": 4,
+          "rate": 0.9
+        },
+        {
+          "champion": "Vex",
+          "games": 4,
+          "rate": 0.9
         },
         {
           "champion": "Locke",
@@ -713,6 +708,11 @@
         },
         {
           "champion": "Lissandra",
+          "games": 2,
+          "rate": 0.4
+        },
+        {
+          "champion": "Zed",
           "games": 2,
           "rate": 0.4
         },
@@ -783,11 +783,6 @@
         },
         {
           "champion": "Zac",
-          "games": 1,
-          "rate": 0.2
-        },
-        {
-          "champion": "Zed",
           "games": 1,
           "rate": 0.2
         }
@@ -919,140 +914,135 @@
           ]
         },
         "JUNGLE": {
-          "games": 28,
+          "games": 29,
           "picks": [
             {
               "champion": "Khazix",
               "games": 9,
-              "rate": 32.1
+              "rate": 31.0
             },
             {
               "champion": "JarvanIV",
               "games": 4,
-              "rate": 14.3
+              "rate": 13.8
             },
             {
               "champion": "Zac",
               "games": 3,
-              "rate": 10.7
+              "rate": 10.3
             },
             {
               "champion": "Evelynn",
               "games": 2,
-              "rate": 7.1
+              "rate": 6.9
             },
             {
               "champion": "Taliyah",
               "games": 2,
-              "rate": 7.1
+              "rate": 6.9
             },
             {
               "champion": "Viego",
               "games": 2,
-              "rate": 7.1
+              "rate": 6.9
+            },
+            {
+              "champion": "Zyra",
+              "games": 2,
+              "rate": 6.9
             },
             {
               "champion": "FiddleSticks",
               "games": 1,
-              "rate": 3.6
+              "rate": 3.4
             },
             {
               "champion": "Gwen",
               "games": 1,
-              "rate": 3.6
+              "rate": 3.4
             },
             {
               "champion": "Karthus",
               "games": 1,
-              "rate": 3.6
+              "rate": 3.4
             },
             {
               "champion": "Lillia",
               "games": 1,
-              "rate": 3.6
+              "rate": 3.4
             },
             {
               "champion": "Naafiri",
               "games": 1,
-              "rate": 3.6
-            },
-            {
-              "champion": "Zyra",
-              "games": 1,
-              "rate": 3.6
+              "rate": 3.4
             }
           ]
         },
         "BOTTOM": {
-          "games": 83,
+          "games": 82,
           "picks": [
             {
               "champion": "MissFortune",
+              "games": 10,
+              "rate": 12.2
+            },
+            {
+              "champion": "Yunara",
               "games": 9,
-              "rate": 10.8
+              "rate": 11.0
             },
             {
               "champion": "Kaisa",
               "games": 8,
-              "rate": 9.6
+              "rate": 9.8
             },
             {
               "champion": "Lux",
               "games": 8,
-              "rate": 9.6
-            },
-            {
-              "champion": "Yunara",
-              "games": 8,
-              "rate": 9.6
+              "rate": 9.8
             },
             {
               "champion": "Ezreal",
               "games": 7,
-              "rate": 8.4
+              "rate": 8.5
             },
             {
               "champion": "Jhin",
               "games": 6,
-              "rate": 7.2
+              "rate": 7.3
             },
             {
               "champion": "Xayah",
-              "games": 5,
-              "rate": 6.0
+              "games": 4,
+              "rate": 4.9
             },
             {
               "champion": "Zoe",
               "games": 4,
-              "rate": 4.8
-            },
-            {
-              "champion": "Ashe",
-              "games": 3,
-              "rate": 3.6
+              "rate": 4.9
             },
             {
               "champion": "Tristana",
               "games": 3,
-              "rate": 3.6
+              "rate": 3.7
             },
             {
               "champion": "Xerath",
               "games": 3,
-              "rate": 3.6
+              "rate": 3.7
             },
             {
               "champion": "Yasuo",
               "games": 3,
-              "rate": 3.6
+              "rate": 3.7
             },
             {
-              "champion": "Hwei",
+              "champion": "Ashe",
               "games": 2,
               "rate": 2.4
             },
             {
-              "champion": "Jinx",
+              "champion": "Hwei",
               "games": 2,
               "rate": 2.4
             },
@@ -1087,6 +1077,11 @@
               "rate": 1.2
             },
             {
+              "champion": "Jinx",
+              "games": 1,
+              "rate": 1.2
+            },
+            {
               "champion": "Mel",
               "games": 1,
               "rate": 1.2
@@ -1094,97 +1089,92 @@
           ]
         },
         "UTILITY": {
-          "games": 45,
+          "games": 44,
           "picks": [
             {
               "champion": "Renata",
               "games": 5,
-              "rate": 11.1
+              "rate": 11.4
             },
             {
               "champion": "Xerath",
               "games": 5,
-              "rate": 11.1
+              "rate": 11.4
             },
             {
               "champion": "Lulu",
               "games": 4,
-              "rate": 8.9
+              "rate": 9.1
             },
             {
               "champion": "Zoe",
               "games": 4,
-              "rate": 8.9
+              "rate": 9.1
             },
             {
               "champion": "Alistar",
               "games": 3,
-              "rate": 6.7
+              "rate": 6.8
             },
             {
               "champion": "Karma",
               "games": 3,
-              "rate": 6.7
+              "rate": 6.8
             },
             {
               "champion": "Leona",
               "games": 3,
-              "rate": 6.7
+              "rate": 6.8
             },
             {
               "champion": "Nautilus",
               "games": 3,
-              "rate": 6.7
+              "rate": 6.8
             },
             {
               "champion": "Neeko",
               "games": 3,
-              "rate": 6.7
+              "rate": 6.8
             },
             {
               "champion": "Lux",
               "games": 2,
-              "rate": 4.4
+              "rate": 4.5
             },
             {
               "champion": "Morgana",
               "games": 2,
-              "rate": 4.4
+              "rate": 4.5
             },
             {
               "champion": "Soraka",
               "games": 2,
-              "rate": 4.4
+              "rate": 4.5
             },
             {
               "champion": "Bard",
               "games": 1,
-              "rate": 2.2
+              "rate": 2.3
             },
             {
               "champion": "Janna",
               "games": 1,
-              "rate": 2.2
+              "rate": 2.3
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 2.2
-            },
-            {
-              "champion": "Seraphine",
-              "games": 1,
-              "rate": 2.2
+              "rate": 2.3
             },
             {
               "champion": "TahmKench",
               "games": 1,
-              "rate": 2.2
+              "rate": 2.3
             },
             {
               "champion": "Zyra",
               "games": 1,
-              "rate": 2.2
+              "rate": 2.3
             }
           ]
         }

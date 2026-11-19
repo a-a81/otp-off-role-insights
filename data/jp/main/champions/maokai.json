@@ -3,35 +3,40 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Maokai",
-  "updatedAt": "2026-11-18T20:50:32.609209+00:00",
+  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
   "mainLane": "UTILITY",
-  "players": 3,
-  "mainLaneGames": 90,
+  "players": 4,
+  "mainLaneGames": 110,
   "mainLaneNext": [
     {
       "champion": "Leona",
       "games": 3,
-      "rate": 3.3
+      "rate": 2.7
+    },
+    {
+      "champion": "Yuumi",
+      "games": 3,
+      "rate": 2.7
     },
     {
       "champion": "Milio",
       "games": 2,
-      "rate": 2.2
+      "rate": 1.8
     },
     {
       "champion": "Swain",
       "games": 2,
-      "rate": 2.2
+      "rate": 1.8
     },
     {
       "champion": "Galio",
       "games": 1,
-      "rate": 1.1
+      "rate": 0.9
     },
     {
       "champion": "Senna",
       "games": 1,
-      "rate": 1.1
+      "rate": 0.9
     }
   ],
   "offLanes": {
@@ -51,27 +56,32 @@
       ]
     },
     "JUNGLE": {
-      "games": 17,
+      "games": 33,
       "picks": [
         {
+          "champion": "Zac",
+          "games": 14,
+          "rate": 42.4
+        },
+        {
           "champion": "Hecarim",
-          "games": 11,
-          "rate": 64.7
+          "games": 13,
+          "rate": 39.4
         },
         {
           "champion": "Chogath",
           "games": 4,
-          "rate": 23.5
+          "rate": 12.1
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 5.9
+          "rate": 3.0
         },
         {
           "champion": "Vi",
           "games": 1,
-          "rate": 5.9
+          "rate": 3.0
         }
       ]
     },
@@ -101,45 +111,55 @@
       ]
     },
     "BOTTOM": {
-      "games": 1,
+      "games": 5,
       "picks": [
+        {
+          "champion": "Samira",
+          "games": 4,
+          "rate": 80.0
+        },
         {
           "champion": "KogMaw",
           "games": 1,
-          "rate": 100.0
+          "rate": 20.0
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 3,
-      "mainLaneGames": 90,
+      "players": 4,
+      "mainLaneGames": 110,
       "mainLaneNext": [
         {
           "champion": "Leona",
           "games": 3,
-          "rate": 3.3
+          "rate": 2.7
+        },
+        {
+          "champion": "Yuumi",
+          "games": 3,
+          "rate": 2.7
         },
         {
           "champion": "Milio",
           "games": 2,
-          "rate": 2.2
+          "rate": 1.8
         },
         {
           "champion": "Swain",
           "games": 2,
-          "rate": 2.2
+          "rate": 1.8
         },
         {
           "champion": "Galio",
           "games": 1,
-          "rate": 1.1
+          "rate": 0.9
         },
         {
           "champion": "Senna",
           "games": 1,
-          "rate": 1.1
+          "rate": 0.9
         }
       ],
       "offLanes": {
@@ -159,27 +179,32 @@
           ]
         },
         "JUNGLE": {
-          "games": 17,
+          "games": 33,
           "picks": [
             {
+              "champion": "Zac",
+              "games": 14,
+              "rate": 42.4
+            },
+            {
               "champion": "Hecarim",
-              "games": 11,
-              "rate": 64.7
+              "games": 13,
+              "rate": 39.4
             },
             {
               "champion": "Chogath",
               "games": 4,
-              "rate": 23.5
+              "rate": 12.1
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 5.9
+              "rate": 3.0
             },
             {
               "champion": "Vi",
               "games": 1,
-              "rate": 5.9
+              "rate": 3.0
             }
           ]
         },
@@ -209,12 +234,17 @@
           ]
         },
         "BOTTOM": {
-          "games": 1,
+          "games": 5,
           "picks": [
+            {
+              "champion": "Samira",
+              "games": 4,
+              "rate": 80.0
+            },
             {
               "champion": "KogMaw",
               "games": 1,
-              "rate": 100.0
+              "rate": 20.0
             }
           ]
         }
@@ -358,7 +388,17 @@
           "rate": 4.3
         },
         {
+          "champion": "Garen",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
           "champion": "Jayce",
+          "games": 1,
+          "rate": 2.1
+        },
+        {
+          "champion": "Kalista",
           "games": 1,
           "rate": 2.1
         },

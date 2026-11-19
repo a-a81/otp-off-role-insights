@@ -3,63 +3,58 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Morgana",
-  "updatedAt": "2026-11-18T21:31:23.161610+00:00",
+  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
   "mainLane": "UTILITY",
   "players": 4,
-  "mainLaneGames": 128,
+  "mainLaneGames": 126,
   "mainLaneNext": [
     {
       "champion": "Rell",
       "games": 7,
-      "rate": 5.5
+      "rate": 5.6
     },
     {
       "champion": "Blitzcrank",
-      "games": 6,
-      "rate": 4.7
+      "games": 4,
+      "rate": 3.2
+    },
+    {
+      "champion": "Braum",
+      "games": 4,
+      "rate": 3.2
     },
     {
       "champion": "Lulu",
       "games": 4,
-      "rate": 3.1
+      "rate": 3.2
     },
     {
       "champion": "Nami",
       "games": 4,
-      "rate": 3.1
-    },
-    {
-      "champion": "Alistar",
-      "games": 3,
-      "rate": 2.3
-    },
-    {
-      "champion": "Braum",
-      "games": 3,
-      "rate": 2.3
+      "rate": 3.2
     },
     {
       "champion": "Leona",
       "games": 3,
-      "rate": 2.3
+      "rate": 2.4
+    },
+    {
+      "champion": "Pantheon",
+      "games": 3,
+      "rate": 2.4
     },
     {
       "champion": "Soraka",
       "games": 3,
-      "rate": 2.3
-    },
-    {
-      "champion": "Yuumi",
-      "games": 3,
-      "rate": 2.3
+      "rate": 2.4
     },
     {
       "champion": "Zyra",
       "games": 3,
-      "rate": 2.3
+      "rate": 2.4
     },
     {
-      "champion": "Lux",
+      "champion": "Alistar",
       "games": 2,
       "rate": 1.6
     },
@@ -74,7 +69,7 @@
       "rate": 1.6
     },
     {
-      "champion": "Pantheon",
+      "champion": "Yuumi",
       "games": 2,
       "rate": 1.6
     },
@@ -85,6 +80,11 @@
     },
     {
       "champion": "Karma",
+      "games": 1,
+      "rate": 0.8
+    },
+    {
+      "champion": "Lux",
       "games": 1,
       "rate": 0.8
     },
@@ -146,47 +146,47 @@
       ]
     },
     "MID": {
-      "games": 3,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Morgana",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "Corki",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Ekko",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Morgana",
-          "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 18,
+      "games": 19,
       "picks": [
         {
           "champion": "Heimerdinger",
-          "games": 15,
-          "rate": 83.3
+          "games": 16,
+          "rate": 84.2
         },
         {
           "champion": "Ezreal",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         },
         {
           "champion": "Mel",
           "games": 1,
-          "rate": 5.6
+          "rate": 5.3
         }
       ]
     }
@@ -194,60 +194,55 @@
   "byMainLane": {
     "UTILITY": {
       "players": 4,
-      "mainLaneGames": 128,
+      "mainLaneGames": 126,
       "mainLaneNext": [
         {
           "champion": "Rell",
           "games": 7,
-          "rate": 5.5
+          "rate": 5.6
         },
         {
           "champion": "Blitzcrank",
-          "games": 6,
-          "rate": 4.7
+          "games": 4,
+          "rate": 3.2
+        },
+        {
+          "champion": "Braum",
+          "games": 4,
+          "rate": 3.2
         },
         {
           "champion": "Lulu",
           "games": 4,
-          "rate": 3.1
+          "rate": 3.2
         },
         {
           "champion": "Nami",
           "games": 4,
-          "rate": 3.1
-        },
-        {
-          "champion": "Alistar",
-          "games": 3,
-          "rate": 2.3
-        },
-        {
-          "champion": "Braum",
-          "games": 3,
-          "rate": 2.3
+          "rate": 3.2
         },
         {
           "champion": "Leona",
           "games": 3,
-          "rate": 2.3
+          "rate": 2.4
+        },
+        {
+          "champion": "Pantheon",
+          "games": 3,
+          "rate": 2.4
         },
         {
           "champion": "Soraka",
           "games": 3,
-          "rate": 2.3
-        },
-        {
-          "champion": "Yuumi",
-          "games": 3,
-          "rate": 2.3
+          "rate": 2.4
         },
         {
           "champion": "Zyra",
           "games": 3,
-          "rate": 2.3
+          "rate": 2.4
         },
         {
-          "champion": "Lux",
+          "champion": "Alistar",
           "games": 2,
           "rate": 1.6
         },
@@ -262,7 +257,7 @@
           "rate": 1.6
         },
         {
-          "champion": "Pantheon",
+          "champion": "Yuumi",
           "games": 2,
           "rate": 1.6
         },
@@ -273,6 +268,11 @@
         },
         {
           "champion": "Karma",
+          "games": 1,
+          "rate": 0.8
+        },
+        {
+          "champion": "Lux",
           "games": 1,
           "rate": 0.8
         },
@@ -334,47 +334,47 @@
           ]
         },
         "MID": {
-          "games": 3,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Morgana",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Corki",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Ekko",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Morgana",
-              "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 18,
+          "games": 19,
           "picks": [
             {
               "champion": "Heimerdinger",
-              "games": 15,
-              "rate": 83.3
+              "games": 16,
+              "rate": 84.2
             },
             {
               "champion": "Ezreal",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             },
             {
               "champion": "Mel",
               "games": 1,
-              "rate": 5.6
+              "rate": 5.3
             }
           ]
         }
@@ -480,27 +480,27 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 25,
+      "mainLaneGames": 23,
       "mainLaneNext": [
         {
           "champion": "Lux",
           "games": 2,
-          "rate": 8.0
+          "rate": 8.7
         },
         {
           "champion": "Orianna",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.3
         },
         {
           "champion": "Velkoz",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.3
         },
         {
           "champion": "Zed",
           "games": 1,
-          "rate": 4.0
+          "rate": 4.3
         }
       ],
       "offLanes": {
@@ -513,22 +513,21 @@
           "picks": []
         },
         "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Kalista",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
+          "games": 0,
+          "picks": []
         },
         "UTILITY": {
-          "games": 12,
+          "games": 16,
           "picks": [
             {
               "champion": "Amumu",
-              "games": 12,
-              "rate": 100.0
+              "games": 15,
+              "rate": 93.8
+            },
+            {
+              "champion": "Sejuani",
+              "games": 1,
+              "rate": 6.2
             }
           ]
         }

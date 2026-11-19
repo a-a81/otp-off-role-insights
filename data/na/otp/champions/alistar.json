@@ -3,84 +3,85 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Alistar",
-  "updatedAt": "2026-11-18T19:41:12.074788+00:00",
+  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
   "mainLane": "UTILITY",
   "players": 4,
-  "mainLaneGames": 135,
+  "mainLaneGames": 127,
   "mainLaneNext": [
     {
       "champion": "Karma",
       "games": 3,
-      "rate": 2.2
+      "rate": 2.4
     },
     {
       "champion": "Rakan",
       "games": 3,
-      "rate": 2.2
+      "rate": 2.4
     },
     {
       "champion": "Blitzcrank",
       "games": 2,
-      "rate": 1.5
+      "rate": 1.6
     },
     {
       "champion": "Pantheon",
       "games": 2,
-      "rate": 1.5
-    },
-    {
-      "champion": "Amumu",
-      "games": 1,
-      "rate": 0.7
+      "rate": 1.6
     },
     {
       "champion": "Leona",
       "games": 1,
-      "rate": 0.7
-    },
-    {
-      "champion": "Nautilus",
-      "games": 1,
-      "rate": 0.7
+      "rate": 0.8
     },
     {
       "champion": "Rell",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Yone",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Sion",
+          "games": 1,
+          "rate": 33.3
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 17,
+      "games": 18,
       "picks": [
+        {
+          "champion": "Viego",
+          "games": 10,
+          "rate": 55.6
+        },
         {
           "champion": "Nunu",
           "games": 8,
-          "rate": 47.1
-        },
-        {
-          "champion": "Viego",
-          "games": 8,
-          "rate": 47.1
-        },
-        {
-          "champion": "Rammus",
-          "games": 1,
-          "rate": 5.9
+          "rate": 44.4
         }
       ]
     },
     "MID": {
-      "games": 1,
+      "games": 5,
       "picks": [
         {
+          "champion": "Akshan",
+          "games": 3,
+          "rate": 60.0
+        },
+        {
           "champion": "Yone",
-          "games": 1,
-          "rate": 100.0
+          "games": 2,
+          "rate": 40.0
         }
       ]
     },
@@ -103,81 +104,82 @@
   "byMainLane": {
     "UTILITY": {
       "players": 4,
-      "mainLaneGames": 135,
+      "mainLaneGames": 127,
       "mainLaneNext": [
         {
           "champion": "Karma",
           "games": 3,
-          "rate": 2.2
+          "rate": 2.4
         },
         {
           "champion": "Rakan",
           "games": 3,
-          "rate": 2.2
+          "rate": 2.4
         },
         {
           "champion": "Blitzcrank",
           "games": 2,
-          "rate": 1.5
+          "rate": 1.6
         },
         {
           "champion": "Pantheon",
           "games": 2,
-          "rate": 1.5
-        },
-        {
-          "champion": "Amumu",
-          "games": 1,
-          "rate": 0.7
+          "rate": 1.6
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 0.7
-        },
-        {
-          "champion": "Nautilus",
-          "games": 1,
-          "rate": 0.7
+          "rate": 0.8
         },
         {
           "champion": "Rell",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Yone",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Sion",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 17,
+          "games": 18,
           "picks": [
+            {
+              "champion": "Viego",
+              "games": 10,
+              "rate": 55.6
+            },
             {
               "champion": "Nunu",
               "games": 8,
-              "rate": 47.1
-            },
-            {
-              "champion": "Viego",
-              "games": 8,
-              "rate": 47.1
-            },
-            {
-              "champion": "Rammus",
-              "games": 1,
-              "rate": 5.9
+              "rate": 44.4
             }
           ]
         },
         "MID": {
-          "games": 1,
+          "games": 5,
           "picks": [
             {
+              "champion": "Akshan",
+              "games": 3,
+              "rate": 60.0
+            },
+            {
               "champion": "Yone",
-              "games": 1,
-              "rate": 100.0
+              "games": 2,
+              "rate": 40.0
             }
           ]
         },
