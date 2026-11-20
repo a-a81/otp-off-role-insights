@@ -369,9 +369,10 @@ index.html（選択） --検索--> result.html?region=JP&lane=MID&type=main&cham
 
 1. Healthchecks.io に開始の合図（`/start`）を送る。
 2. `update_champion_names.py`（新チャンピオン対応）。
-3. リージョンごとに `collect_otp.py --region <R> --tiers ... --refresh --max-age-hours 20` を実行する。JP → KR は順番（どちらも `asia`）、NA は並行（`americas`）。
-4. `gitPush` が true なら、`data/champion_names.json` と各リージョンの `main/`・`otp/` を commit して push する。変更がなければ何もしない。
-5. Healthchecks.io に成功（URL そのまま）か失敗（`/fail`）を送る。本文に、問題の内容・各ステップのログの最後の数行・リージョンごとのチャンピオン数を入れる（メールに載る）。
+3. リージョンごとに `collect_otp.py --region <R> --tiers ...` と `collectArgs`（`--refresh --max-age-hours 20` など）を実行する。JP → KR は順番（どちらも `asia`）、NA は並行（`americas`）。
+4. `collect_otp.py --combine` で JP+KR+NA 合計（`data/all/`）を作る。
+5. `gitPush` が true なら、`data/champion_names.json` と各リージョンの `main/`・`otp/`（合計含む）を commit して push する。変更がなければ何もしない。
+6. Healthchecks.io に成功（URL そのまま）か失敗（`/fail`）を送る。本文に、問題の内容・各ステップのログの最後の数行・リージョンごとのチャンピオン数を入れる（メールに載る）。
 
 対象ランク（決定）:
 
