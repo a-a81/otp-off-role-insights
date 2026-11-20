@@ -89,19 +89,8 @@ python collect_otp.py --rebuild-only --otp-rate 0.7
 python collect_otp.py --combine
 ```
 
-主なオプション:
-
-| オプション | 既定 | 内容 |
-|---|---|---|
-| `--region` | JP | JP / KR / NA |
-| `--tiers` | 全部 | CHALLENGER / GRANDMASTER / MASTER |
-| `--matches` | 40 | 1 人あたりの直近試合数 |
-| `--limit` | 全員 | 今回試合を取る人数 |
-| `--main-rate` / `--otp-rate` | 0.3 / 0.75 | 集計の使用率しきい値 |
-| `--refresh` | - | 取得から一定時間たったプレイヤーも取り直す |
-| `--max-age-hours` | 24 | `--refresh` 時に「古い」とみなす時間（時間） |
-| `--rebuild-only` | - | API を叩かず JSON を作り直す |
-| `--combine` | - | リージョン合計を作る |
+よく使う指定: `--region` / `--limit` / `--main-rate` / `--otp-rate` / `--rebuild-only` / `--combine`。  
+全部のオプションと、毎日の更新（`--refresh` / `--max-age-hours`）の意味は [SPEC.md](SPEC.md) を見てください。
 
 JP と KR は試合 API がどちらも `asia` なので、同時に動かさず順番に実行してください。NA（`americas`）は並行して構いません。
 
