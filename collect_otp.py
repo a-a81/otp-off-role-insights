@@ -16,20 +16,16 @@
 - main: メイン（--main-rate、既定 30%）→ data/<region>/main/
 - otp:  OTP（--otp-rate、既定 75%）→ data/<region>/otp/
 
-全員の試合を取ると時間がかかるので、先にチャンピオン熟練度（1 リクエスト / 人）で
-候補を絞る。熟練度 1 位が 2 位の --mastery-ratio 倍以上の人だけ試合を取る。0 で無効。
-
 プレイヤーごとの試合（レーンとチャンピオン）は data/<region>/players に保存し、判定は
 JSON を作るたびにやり直す。しきい値を変えたら --rebuild-only で API なしに作り直せる。
 
 開発用キーの制限（2 分 100 リクエスト）に合わせて、リクエスト間隔は既定 1.26 秒。
-中断してもプレイヤー単位で再開する。全員の更新は --refresh（試合は --max-age-hours、
-熟練度は --mastery-max-age-hours より古いものを取り直す）。
+中断してもプレイヤー単位で再開する。全員の更新は --refresh（試合は --max-age-hours
+より古いものを取り直す）。
 
 例:
   python collect_otp.py --limit 20
   python collect_otp.py --region KR --tiers CHALLENGER GRANDMASTER
-  python collect_otp.py --screen-only
   python collect_otp.py --rebuild-only --otp-rate 0.7
   python collect_otp.py --combine
   python collect_otp.py
@@ -76,7 +72,6 @@ ROLE_TO_UI = {
 UI_LANES = ("TOP", "JUNGLE", "MID", "BOTTOM", "UTILITY")
 MIN_DURATION_SECONDS = 300
 USER_AGENT = "otp-off-role-insights/0.1"
-SCREEN_RATIOS = (1.0, 1.25, 1.5, 2.0, 3.0)
 
 
 class RiotError(Exception):
@@ -583,89 +578,6 @@ def should_skip(path, refresh, max_age_hours, matches):
     return is_fresh(record.get("fetchedAt"), refresh, max_age_hours)
 
 
-class MasteryStore:
-    """PUUID ごとの熟練度上位 2 体を mastery.json にまとめて保存する。"""
-
-    def __init__(self, path):
-        self.path = path
-        self.entries = {}
-        self.unsaved = 0
-        if path.exists():
-            try:
-                self.entries = read_json(path)
-            except (OSError, json.JSONDecodeError):
-                print("mastery.json を読めないので作り直します", flush=True)
-
-    def get(self, puuid, refresh, max_age_hours):
-        entry = self.entries.get(puuid)
-        if entry and is_fresh(entry.get("fetchedAt"), refresh, max_age_hours):
-            return entry
-        return None
-
-    def put(self, puuid, top):
-        entry = {"fetchedAt": datetime.now(timezone.utc).isoformat(), "top": top}
-        self.entries[puuid] = entry
-        self.unsaved += 1
-        if self.unsaved >= 50:
-            self.save()
-        return entry
-
-    def save(self):
-        if self.unsaved:
-            write_json(self.path, self.entries)
-            self.unsaved = 0
-
-
-def fetch_mastery(region, puuid, api_key, limiter):
-    url = "{}/lol/champion-mastery/v4/champion-masteries/by-puuid/{}/top?count=2".format(
-        region.platform_host, urllib.parse.quote(puuid)
-    )
-    try:
-        rows = riot_get(url, api_key, limiter)
-    except RiotError as error:
-        if error.code == 404:
-            return []
-        raise
-    return [
-        {"championId": row.get("championId"), "points": row.get("championPoints") or 0}
-        for row in rows or []
-    ]
-
-
-def ensure_mastery(region, store, puuid, refresh, max_age_hours, api_key, limiter):
-    entry = store.get(puuid, refresh, max_age_hours)
-    if entry is None:
-        entry = store.put(puuid, fetch_mastery(region, puuid, api_key, limiter))
-    return entry
-
-
-def mastery_ratio(top):
-    if not top:
-        return 0.0
-    if len(top) == 1:
-        return float("inf")
-    return top[0]["points"] / max(top[1]["points"], 1)
-
-
-def screen_ladder(region, ladder, store, args, api_key, limiter):
-    missing = [
-        player
-        for player in ladder
-        if store.get(player["puuid"], args.refresh, args.mastery_max_age_hours) is None
-    ]
-    print(
-        "熟練度の取得: {} 人（約 {:.1f} 時間）".format(
-            len(missing), len(missing) * args.min_interval / 3600
-        ),
-        flush=True,
-    )
-    for index, player in enumerate(missing, start=1):
-        store.put(player["puuid"], fetch_mastery(region, player["puuid"], api_key, limiter))
-        if index % 100 == 0:
-            print("{}/{}".format(index, len(missing)), flush=True)
-    store.save()
-
-
 def profile_rates(args):
     return {"main": args.main_rate, "otp": args.otp_rate}
 
@@ -688,52 +600,6 @@ def print_counts(counts, output_dir):
         ),
         flush=True,
     )
-
-
-def report_screening(ladder, store, player_dir, args):
-    ratios = {}
-    for player in ladder:
-        entry = store.entries.get(player["puuid"])
-        if entry is not None:
-            ratios[player["puuid"]] = mastery_ratio(entry["top"])
-
-    rates = profile_rates(args)
-    qualified = {profile: [] for profile in rates}
-    for puuid, ratio in ratios.items():
-        record = load_player_record(player_dir / (puuid + ".json"))
-        if not record:
-            continue
-        for profile, min_rate in rates.items():
-            if classify_player(record, args.min_main_games, min_rate)["qualified"]:
-                qualified[profile].append(ratio)
-
-    print("", flush=True)
-    print(
-        "熟練度 1位/2位 の比ごとの候補人数。収集済みで条件を満たした人"
-        "（メイン {} 人 / OTP {} 人）のうち、ふるいに残る人数".format(
-            len(qualified["main"]), len(qualified["otp"])
-        ),
-        flush=True,
-    )
-    for threshold in SCREEN_RATIOS:
-        candidates = sum(1 for ratio in ratios.values() if ratio >= threshold)
-        hours = candidates * (1 + args.matches) * args.min_interval / 3600
-        kept = {
-            profile: sum(1 for ratio in values if ratio >= threshold)
-            for profile, values in qualified.items()
-        }
-        print(
-            "  {:>4} 倍以上: {:>5} 人  試合取得 最大 {:>5.1f} 時間  残るメイン {}/{}  残る OTP {}/{}".format(
-                threshold,
-                candidates,
-                hours,
-                kept["main"],
-                len(qualified["main"]),
-                kept["otp"],
-                len(qualified["otp"]),
-            ),
-            flush=True,
-        )
 
 
 def collect_player(region, player, matches, cache_dir, api_key, limiter):
@@ -837,10 +703,6 @@ def run_self_test():
     assert champion_filename("Kaisa") == "kaisa"
     assert champion_filename("Nunu & Willump") == "nunuwillump"
 
-    assert mastery_ratio([]) == 0.0
-    assert mastery_ratio([{"points": 100}]) == float("inf")
-    assert mastery_ratio([{"points": 300}, {"points": 100}]) == 3.0
-
     with tempfile.TemporaryDirectory() as tmp:
         tmp_dir = Path(tmp)
         legacy = tmp_dir / "legacy.json"
@@ -901,17 +763,6 @@ def main():
     parser.add_argument("--matches", type=int, default=40, help="プレイヤーあたりの直近ランクソロ試合数（最大 200）")
     parser.add_argument("--limit", type=int, default=0, help="今回試合を取る人数。0 は未処理の全員")
     parser.add_argument(
-        "--mastery-ratio",
-        type=float,
-        default=1.5,
-        help="熟練度 1 位が 2 位の何倍以上なら試合を取るか。0 で絞り込みなし",
-    )
-    parser.add_argument(
-        "--screen-only",
-        action="store_true",
-        help="熟練度だけ取り、しきい値ごとの候補人数を表示する",
-    )
-    parser.add_argument(
         "--tiers",
         nargs="+",
         choices=TIERS,
@@ -922,12 +773,6 @@ def main():
     parser.add_argument("--main-rate", type=float, default=0.3, help="メイン集計のしきい値（メインレーンでの使用率）")
     parser.add_argument("--otp-rate", type=float, default=0.75, help="OTP 集計のしきい値（メインレーンでの使用率）")
     parser.add_argument("--max-age-hours", type=float, default=24, help="--refresh 時に試合を取り直すまでの時間")
-    parser.add_argument(
-        "--mastery-max-age-hours",
-        type=float,
-        default=168,
-        help="--refresh 時に熟練度を取り直すまでの時間（熟練度はゆっくり変わるので既定 7 日）",
-    )
     parser.add_argument("--min-interval", type=float, default=1.26, help="API リクエストの最短間隔（秒）")
     parser.add_argument("--refresh", action="store_true", help="既存のプレイヤーも期限が切れていれば取り直す")
     parser.add_argument("--rebuild-only", action="store_true", help="API を叩かず JSON を作り直す")
@@ -951,9 +796,6 @@ def main():
             print("{} は 0 より大きく 1 以下です。".format(option), file=sys.stderr)
             sys.exit(1)
     rates = profile_rates(args)
-    if args.mastery_ratio < 0:
-        print("--mastery-ratio は 0 以上です。", file=sys.stderr)
-        sys.exit(1)
 
     region = REGIONS[args.region]
     root = Path(__file__).resolve().parent
@@ -982,18 +824,12 @@ def main():
 
     keep_awake()
     limiter = RateLimiter(args.min_interval)
-    mastery = MasteryStore(output_dir / "mastery.json")
     exit_code = 0
     try:
         print("リージョン: {}".format(region.code), flush=True)
         ladder = fetch_ladder(
             region, [tier for tier in TIERS if tier in args.tiers], api_key, limiter
         )
-
-        if args.screen_only:
-            screen_ladder(region, ladder, mastery, args, api_key, limiter)
-            report_screening(ladder, mastery, player_dir, args)
-            return
 
         pending = [
             player
@@ -1011,35 +847,11 @@ def main():
             ),
             flush=True,
         )
-        if args.mastery_ratio > 0:
-            print(
-                "熟練度 1 位が 2 位の {} 倍以上の人だけ試合を取ります".format(args.mastery_ratio),
-                flush=True,
-            )
 
         collected = 0
-        screened_out = 0
         for index, player in enumerate(pending, start=1):
             if args.limit and collected >= args.limit:
                 break
-            if args.mastery_ratio > 0:
-                entry = ensure_mastery(
-                    region,
-                    mastery,
-                    player["puuid"],
-                    args.refresh,
-                    args.mastery_max_age_hours,
-                    api_key,
-                    limiter,
-                )
-                if mastery_ratio(entry["top"]) < args.mastery_ratio:
-                    screened_out += 1
-                    if screened_out % 100 == 0:
-                        print(
-                            "{}/{} 熟練度で除外 {} 人".format(index, len(pending), screened_out),
-                            flush=True,
-                        )
-                    continue
 
             record = collect_player(region, player, args.matches, cache_dir, api_key, limiter)
             write_json(player_dir / (player["puuid"] + ".json"), record)
@@ -1071,22 +883,17 @@ def main():
                     )
                 except OSError as error:
                     print("途中経過の書き出しに失敗しました（続けます）: {}".format(error), flush=True)
-        print(
-            "試合を取った人 {} 人 / 熟練度で除外 {} 人".format(collected, screened_out),
-            flush=True,
-        )
+        print("試合を取った人 {} 人".format(collected), flush=True)
     except KeyboardInterrupt:
         print("中断しました。ここまでの JSON を書き出します。", flush=True)
     except RiotError as error:
         print(str(error), file=sys.stderr)
         exit_code = 1
     finally:
-        mastery.save()
-        if not args.screen_only:
-            counts = rebuild_champion_files(
-                region, player_dir, output_dir, args.matches, args.min_main_games, rates
-            )
-            print_counts(counts, output_dir)
+        counts = rebuild_champion_files(
+            region, player_dir, output_dir, args.matches, args.min_main_games, rates
+        )
+        print_counts(counts, output_dir)
     if exit_code:
         sys.exit(exit_code)
 
