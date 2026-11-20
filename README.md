@@ -96,7 +96,7 @@ JP と KR は試合 API がどちらも `asia` なので、同時に動かさず
 
 ### 夜間バッチ
 
-毎日まとめて回すときは `run_nightly.py` を使います。
+毎日まとめて回すときは `run_nightly.py` を使います。チャンピオン名の更新 → リージョンごとの収集 → `--combine` →（任意で）GitHub への push までまとめて行います。
 
 1. `nightly.example.json` を `nightly.local.json` にコピーする（Git 管理外）
 2. `riotApiKey` などを書く
@@ -122,6 +122,8 @@ Windows のタスクスケジューラ登録例:
 collect_otp.py              収集・判定・集計
 run_nightly.py              夜間処理のオーケストレーション
 update_champion_names.py    Data Dragon からチャンピオン名を更新
+nightly.example.json        夜間設定の見本（これをコピーして使う）
+register_nightly_task.ps1   Windows タスクスケジューラ登録
 index.html / result.html    検索画面・結果画面
 i18n.js / champions.js      文言・表示ヘルパー
 style.css
