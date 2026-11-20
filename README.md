@@ -38,7 +38,7 @@ flowchart LR
     result --> user["閲覧者"]
 ```
 
-夜間にマスター以上のソロキュー（JP / KR / NA）を集め、集計 JSON だけを公開します。画面は静的ファイルのみで、閲覧時に Riot API は叩きません。
+夜間に上位ソロキュー（JP はマスター以上、KR / NA はグランドマスター以上）を集め、集計 JSON だけを公開します。画面は静的ファイルのみで、閲覧時に Riot API は叩きません。
 
 1. `collect_otp.py` がレート帯のプレイヤー一覧と試合を取り、プレイヤーごとにメインレーンとメインチャンピオンを判定する
 2. メインレーン以外の試合を「他レーン」として集計し、`data/<region>/main|otp/champions/<id>.json` に書く
@@ -137,4 +137,4 @@ SPEC.md                     仕様書
 
 OTP Off-Role Insights isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
-API の利用は [Riot Developer の規約](https://developer.riotgames.com/policies/general)に従ってください。開発用キーはレート制限が厳しいので、本番キーを取るまでは `--limit` や `--tiers` で範囲を絞ることを推奨します。
+API の利用は [Riot Developer の規約](https://developer.riotgames.com/policies/general)に従ってください。開発用・個人用キーはレート制限が厳しいので、本番キー（Production Key）を取るまでは `--limit` や `--tiers` で範囲を絞ることを推奨します。本番キーが取れたら上限に合わせて間隔を短くし、KR / NA もマスターまで広げる想定です。
