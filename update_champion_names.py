@@ -34,7 +34,7 @@ def fetch_champions():
         for champion_id, row in payload["data"].items():
             entry = champions.setdefault(
                 champion_id,
-                {"id": champion_id, "key": row["key"], "image": row["image"]["full"], "names": {}},
+                {"id": champion_id, "image": row["image"]["full"], "names": {}},
             )
             entry["names"][lang] = row["name"]
     return version, sorted(champions.values(), key=lambda row: row["id"])
