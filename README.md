@@ -2,13 +2,9 @@
 
 [デモ（GitHub Pages）](https://a-a81.github.io/otp-off-role-insights/)
 
-高ランク帯で 1 体を主に使うプレイヤー（OTP / メイン）が、**メイン以外のレーン**に回ったとき、どのチャンピオンを使っているかを統計として見せる Web アプリです。
+ゲームを始めてメインのチャンピオン（キャラクター）が決まった初心者が、他のレーン（ポジション）をプレイするときに参考にするための Web アプリです。上位帯でそのチャンピオンを主に使っているプレイヤーが、他のレーンではどんなチャンピオンを使っているかを統計として見せます。
 
-例: 「MID の Yasuo OTP は、TOP に回ると Sett をよく使う」
-
-- マスター以上のソロキュー（JP / KR / NA）を夜間に集め、集計 JSON だけを公開します
-- 画面は静的ファイルのみ。閲覧時に Riot API は叩きません
-- 日本語・英語・韓国語に対応しています
+例: 「Support の Blitzcrank を主に使う上位プレイヤーは、MID に配属されたとき Lissandra をよく使う」
 
 詳しい仕様は [SPEC.md](SPEC.md) にあります。
 
@@ -17,9 +13,8 @@
 ## 使い方（閲覧）
 
 1. [デモサイト](https://a-a81.github.io/otp-off-role-insights/) を開く
-2. リージョン・メインレーン・チャンピオンを選ぶ
-3. 「メイン」（使用率 30% 以上）か「OTP」（75% 以上）で集計対象を切り替える
-4. その他のレーンでのピック率を見る
+2. リージョン・メインレーン・集計対象（メイン / OTP）・チャンピオンを選んで検索する
+3. 結果ページで、その他のレーンでのピック率を見る（集計対象は結果ページでも切り替えられる）
 
 手元で見る場合は、このフォルダで静的サーバーを立ててください（`file://` だと JSON が読めないことがあります）。
 
@@ -35,23 +30,28 @@ python -m http.server 8000
 
 ```mermaid
 flowchart LR
-    riot["Riot API"] --> collect["夜間バッチ<br>collect_otp.py"]
-    collect --> json["data/.../*.json"]
-    json --> pages["index.html / result.html<br>GitHub Pages"]
-    pages --> user["閲覧者"]
+    riot["Riot API"] --> nightly["夜間バッチ<br>run_nightly.py"]
+    nightly --> collect["collect_otp.py<br>収集・判定・集計"]
+    collect --> json["data/.../main|otp/..."]
+    index["index.html<br>条件を選ぶ"] --> result["result.html"]
+    json --> result
+    result --> user["閲覧者"]
 ```
 
-| 層 | 役割 |
-|---|---|
-| 夜間バッチ | リーグ・熟練度・試合を取り、プレイヤー判定と集計 JSON を書く |
-| 静的フロント | 選んだ条件の JSON を直接読んで表示する |
+夜間にマスター以上のソロキュー（JP / KR / NA）を集め、集計 JSON だけを公開します。画面は静的ファイルのみで、閲覧時に Riot API は叩きません。
 
-しきい値は 2 種類あり、別々に集計します。
+1. `collect_otp.py` がリーグ・熟練度・試合を取り、プレイヤーごとにメインレーンとメインチャンピオンを判定する
+2. メインレーン以外の試合を「他レーン」として集計し、`data/<region>/main|otp/champions/<id>.json` に書く
+3. 検索画面で選んだ条件で結果ページが、その JSON の `byMainLane` を読んで表示する（例: Support Blitzcrank → MID のピック）
 
-| 集計 | メインレーンでの使用率 | 出力 |
-|---|---|---|
-| メイン | 30% 以上 | `data/<region>/main/` |
-| OTP | 75% 以上 | `data/<region>/otp/` |
+集計対象は 2 種類あり、別々のフォルダに出します。
+
+| 集計 | 意味 | メインレーンでの使用率 | 出力 |
+|---|---|---|---|
+| メイン | そのチャンピオンをよく使う人 | 30% 以上 | `data/<region>/main/` |
+| OTP | ほぼそのチャンピオンしか使わない人 | 75% 以上 | `data/<region>/otp/` |
+
+「JP+KR+NA 合計」は各リージョンの保存データから `--combine` で作ります（API は追加で叩きません）。
 
 ---
 
