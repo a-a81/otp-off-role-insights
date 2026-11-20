@@ -3,44 +3,55 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Malphite",
-  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
+  "updatedAt": "2026-11-20T21:26:55.432379+00:00",
   "mainLane": "TOP",
   "players": 1,
-  "mainLaneGames": 36,
+  "mainLaneGames": 31,
   "mainLaneNext": [
     {
       "champion": "Nasus",
-      "games": 14,
-      "rate": 38.9
+      "games": 10,
+      "rate": 32.3
     },
     {
       "champion": "Udyr",
-      "games": 3,
-      "rate": 8.3
+      "games": 5,
+      "rate": 16.1
     },
     {
       "champion": "Sion",
-      "games": 1,
-      "rate": 2.8
+      "games": 2,
+      "rate": 6.5
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 2.8
+      "rate": 3.2
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 0,
-      "picks": []
-    },
-    "MID": {
       "games": 1,
       "picks": [
         {
-          "champion": "Sion",
+          "champion": "Udyr",
           "games": 1,
           "rate": 100.0
+        }
+      ]
+    },
+    "MID": {
+      "games": 3,
+      "picks": [
+        {
+          "champion": "Sion",
+          "games": 2,
+          "rate": 66.7
+        },
+        {
+          "champion": "Nasus",
+          "games": 1,
+          "rate": 33.3
         }
       ]
     },
@@ -49,17 +60,12 @@
       "picks": []
     },
     "UTILITY": {
-      "games": 3,
+      "games": 5,
       "picks": [
         {
           "champion": "Soraka",
-          "games": 2,
-          "rate": 66.7
-        },
-        {
-          "champion": "Leona",
-          "games": 1,
-          "rate": 33.3
+          "games": 5,
+          "rate": 100.0
         }
       ]
     }
@@ -67,41 +73,52 @@
   "byMainLane": {
     "TOP": {
       "players": 1,
-      "mainLaneGames": 36,
+      "mainLaneGames": 31,
       "mainLaneNext": [
         {
           "champion": "Nasus",
-          "games": 14,
-          "rate": 38.9
+          "games": 10,
+          "rate": 32.3
         },
         {
           "champion": "Udyr",
-          "games": 3,
-          "rate": 8.3
+          "games": 5,
+          "rate": 16.1
         },
         {
           "champion": "Sion",
-          "games": 1,
-          "rate": 2.8
+          "games": 2,
+          "rate": 6.5
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 2.8
+          "rate": 3.2
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
           "games": 1,
           "picks": [
             {
-              "champion": "Sion",
+              "champion": "Udyr",
               "games": 1,
               "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Sion",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Nasus",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -110,17 +127,12 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 3,
+          "games": 5,
           "picks": [
             {
               "champion": "Soraka",
-              "games": 2,
-              "rate": 66.7
-            },
-            {
-              "champion": "Leona",
-              "games": 1,
-              "rate": 33.3
+              "games": 5,
+              "rate": 100.0
             }
           ]
         }

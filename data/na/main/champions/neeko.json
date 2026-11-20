@@ -3,15 +3,15 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Neeko",
-  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
+  "updatedAt": "2026-11-20T19:43:11.913056+00:00",
   "mainLane": "UTILITY",
   "players": 5,
-  "mainLaneGames": 189,
+  "mainLaneGames": 190,
   "mainLaneNext": [
     {
       "champion": "Leona",
       "games": 16,
-      "rate": 8.5
+      "rate": 8.4
     },
     {
       "champion": "Rell",
@@ -20,11 +20,16 @@
     },
     {
       "champion": "Camille",
+      "games": 7,
+      "rate": 3.7
+    },
+    {
+      "champion": "Lulu",
       "games": 5,
       "rate": 2.6
     },
     {
-      "champion": "Lulu",
+      "champion": "Senna",
       "games": 5,
       "rate": 2.6
     },
@@ -40,11 +45,6 @@
     },
     {
       "champion": "Blitzcrank",
-      "games": 4,
-      "rate": 2.1
-    },
-    {
-      "champion": "Senna",
       "games": 4,
       "rate": 2.1
     },
@@ -171,27 +171,27 @@
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 4,
       "picks": [
-        {
-          "champion": "Senna",
-          "games": 2,
-          "rate": 40.0
-        },
         {
           "champion": "Neeko",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
+        },
+        {
+          "champion": "Senna",
+          "games": 1,
+          "rate": 25.0
         },
         {
           "champion": "Swain",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 20.0
+          "rate": 25.0
         }
       ]
     }
@@ -199,12 +199,12 @@
   "byMainLane": {
     "UTILITY": {
       "players": 5,
-      "mainLaneGames": 189,
+      "mainLaneGames": 190,
       "mainLaneNext": [
         {
           "champion": "Leona",
           "games": 16,
-          "rate": 8.5
+          "rate": 8.4
         },
         {
           "champion": "Rell",
@@ -213,11 +213,16 @@
         },
         {
           "champion": "Camille",
+          "games": 7,
+          "rate": 3.7
+        },
+        {
+          "champion": "Lulu",
           "games": 5,
           "rate": 2.6
         },
         {
-          "champion": "Lulu",
+          "champion": "Senna",
           "games": 5,
           "rate": 2.6
         },
@@ -233,11 +238,6 @@
         },
         {
           "champion": "Blitzcrank",
-          "games": 4,
-          "rate": 2.1
-        },
-        {
-          "champion": "Senna",
           "games": 4,
           "rate": 2.1
         },
@@ -364,27 +364,27 @@
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 4,
           "picks": [
-            {
-              "champion": "Senna",
-              "games": 2,
-              "rate": 40.0
-            },
             {
               "champion": "Neeko",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
+            },
+            {
+              "champion": "Senna",
+              "games": 1,
+              "rate": 25.0
             },
             {
               "champion": "Swain",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 20.0
+              "rate": 25.0
             }
           ]
         }
@@ -392,17 +392,17 @@
     },
     "MID": {
       "players": 1,
-      "mainLaneGames": 22,
+      "mainLaneGames": 23,
       "mainLaneNext": [
         {
           "champion": "Vayne",
-          "games": 7,
-          "rate": 31.8
+          "games": 8,
+          "rate": 34.8
         },
         {
           "champion": "TwistedFate",
           "games": 1,
-          "rate": 4.5
+          "rate": 4.3
         }
       ],
       "offLanes": {
@@ -432,26 +432,84 @@
           ]
         },
         "BOTTOM": {
-          "games": 10,
+          "games": 9,
           "picks": [
             {
               "champion": "Vayne",
-              "games": 9,
-              "rate": 90.0
+              "games": 8,
+              "rate": 88.9
             },
             {
               "champion": "Ezreal",
               "games": 1,
-              "rate": 10.0
+              "rate": 11.1
             }
           ]
         },
         "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 4,
+              "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "TOP": {
+      "players": 1,
+      "mainLaneGames": 19,
+      "mainLaneNext": [
+        {
+          "champion": "Malphite",
+          "games": 1,
+          "rate": 5.3
+        },
+        {
+          "champion": "Ornn",
+          "games": 1,
+          "rate": 5.3
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jax",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
           "games": 3,
           "picks": [
             {
               "champion": "Neeko",
               "games": 3,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 13,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 13,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Neeko",
+              "games": 4,
               "rate": 100.0
             }
           ]

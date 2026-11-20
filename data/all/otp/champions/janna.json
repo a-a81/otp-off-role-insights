@@ -3,65 +3,95 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Janna",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "UTILITY",
-  "players": 4,
-  "mainLaneGames": 141,
+  "players": 5,
+  "mainLaneGames": 177,
   "mainLaneNext": [
     {
       "champion": "Nautilus",
       "games": 7,
-      "rate": 5.0
+      "rate": 4.0
     },
     {
       "champion": "Sona",
-      "games": 7,
-      "rate": 5.0
+      "games": 6,
+      "rate": 3.4
     },
     {
       "champion": "Bard",
       "games": 4,
-      "rate": 2.8
+      "rate": 2.3
+    },
+    {
+      "champion": "Nami",
+      "games": 3,
+      "rate": 1.7
+    },
+    {
+      "champion": "Rell",
+      "games": 2,
+      "rate": 1.1
+    },
+    {
+      "champion": "Seraphine",
+      "games": 2,
+      "rate": 1.1
     },
     {
       "champion": "Alistar",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
       "champion": "Braum",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
+    },
+    {
+      "champion": "Lulu",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "Soraka",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
     },
     {
       "champion": "Syndra",
       "games": 1,
-      "rate": 0.7
+      "rate": 0.6
+    },
+    {
+      "champion": "Yuumi",
+      "games": 1,
+      "rate": 0.6
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 7,
+      "games": 8,
       "picks": [
         {
           "champion": "Malphite",
           "games": 4,
-          "rate": 57.1
+          "rate": 50.0
         },
         {
           "champion": "Gragas",
           "games": 2,
-          "rate": 28.6
+          "rate": 25.0
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 12.5
         },
         {
           "champion": "Sion",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         }
       ]
     },
@@ -70,90 +100,135 @@
       "picks": []
     },
     "MID": {
-      "games": 1,
+      "games": 2,
       "picks": [
+        {
+          "champion": "Ahri",
+          "games": 1,
+          "rate": 50.0
+        },
         {
           "champion": "Ekko",
           "games": 1,
-          "rate": 100.0
+          "rate": 50.0
         }
       ]
     },
     "BOTTOM": {
-      "games": 5,
+      "games": 7,
       "picks": [
         {
           "champion": "Ekko",
           "games": 4,
-          "rate": 80.0
+          "rate": 57.1
         },
         {
           "champion": "Lux",
           "games": 1,
-          "rate": 20.0
+          "rate": 14.3
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1,
+          "rate": 14.3
+        },
+        {
+          "champion": "Zyra",
+          "games": 1,
+          "rate": 14.3
         }
       ]
     }
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 4,
-      "mainLaneGames": 141,
+      "players": 5,
+      "mainLaneGames": 177,
       "mainLaneNext": [
         {
           "champion": "Nautilus",
           "games": 7,
-          "rate": 5.0
+          "rate": 4.0
         },
         {
           "champion": "Sona",
-          "games": 7,
-          "rate": 5.0
+          "games": 6,
+          "rate": 3.4
         },
         {
           "champion": "Bard",
           "games": 4,
-          "rate": 2.8
+          "rate": 2.3
+        },
+        {
+          "champion": "Nami",
+          "games": 3,
+          "rate": 1.7
+        },
+        {
+          "champion": "Rell",
+          "games": 2,
+          "rate": 1.1
+        },
+        {
+          "champion": "Seraphine",
+          "games": 2,
+          "rate": 1.1
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
+        },
+        {
+          "champion": "Lulu",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "Soraka",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
         },
         {
           "champion": "Syndra",
           "games": 1,
-          "rate": 0.7
+          "rate": 0.6
+        },
+        {
+          "champion": "Yuumi",
+          "games": 1,
+          "rate": 0.6
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 7,
+          "games": 8,
           "picks": [
             {
               "champion": "Malphite",
               "games": 4,
-              "rate": 57.1
+              "rate": 50.0
             },
             {
               "champion": "Gragas",
               "games": 2,
-              "rate": 28.6
+              "rate": 25.0
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 12.5
             },
             {
               "champion": "Sion",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             }
           ]
         },
@@ -162,27 +237,42 @@
           "picks": []
         },
         "MID": {
-          "games": 1,
+          "games": 2,
           "picks": [
+            {
+              "champion": "Ahri",
+              "games": 1,
+              "rate": 50.0
+            },
             {
               "champion": "Ekko",
               "games": 1,
-              "rate": 100.0
+              "rate": 50.0
             }
           ]
         },
         "BOTTOM": {
-          "games": 5,
+          "games": 7,
           "picks": [
             {
               "champion": "Ekko",
               "games": 4,
-              "rate": 80.0
+              "rate": 57.1
             },
             {
               "champion": "Lux",
               "games": 1,
-              "rate": 20.0
+              "rate": 14.3
+            },
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Zyra",
+              "games": 1,
+              "rate": 14.3
             }
           ]
         }

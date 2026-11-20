@@ -3,75 +3,95 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ekko",
-  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
+  "updatedAt": "2026-11-20T21:26:55.432379+00:00",
   "mainLane": "MID",
-  "players": 3,
-  "mainLaneGames": 94,
+  "players": 4,
+  "mainLaneGames": 122,
   "mainLaneNext": [
+    {
+      "champion": "Akali",
+      "games": 6,
+      "rate": 4.9
+    },
     {
       "champion": "Galio",
       "games": 5,
-      "rate": 5.3
+      "rate": 4.1
     },
     {
       "champion": "Naafiri",
       "games": 1,
-      "rate": 1.1
+      "rate": 0.8
     },
     {
       "champion": "Pantheon",
       "games": 1,
-      "rate": 1.1
+      "rate": 0.8
+    },
+    {
+      "champion": "Yone",
+      "games": 1,
+      "rate": 0.8
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 4,
+      "games": 8,
       "picks": [
         {
           "champion": "Ekko",
+          "games": 4,
+          "rate": 50.0
+        },
+        {
+          "champion": "Camille",
           "games": 3,
-          "rate": 75.0
+          "rate": 37.5
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 25.0
+          "rate": 12.5
         }
       ]
     },
     "JUNGLE": {
-      "games": 7,
+      "games": 8,
       "picks": [
         {
           "champion": "Ekko",
           "games": 2,
-          "rate": 28.6
+          "rate": 25.0
         },
         {
           "champion": "Kindred",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "LeeSin",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "MonkeyKing",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "Nidalee",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         },
         {
           "champion": "Qiyana",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
+        },
+        {
+          "champion": "Viego",
+          "games": 1,
+          "rate": 12.5
         }
       ]
     },
@@ -86,100 +106,130 @@
       ]
     },
     "UTILITY": {
-      "games": 10,
+      "games": 17,
       "picks": [
         {
           "champion": "Ekko",
           "games": 5,
-          "rate": 50.0
+          "rate": 29.4
+        },
+        {
+          "champion": "Camille",
+          "games": 4,
+          "rate": 23.5
+        },
+        {
+          "champion": "Nautilus",
+          "games": 3,
+          "rate": 17.6
         },
         {
           "champion": "Pantheon",
           "games": 3,
-          "rate": 30.0
+          "rate": 17.6
         },
         {
           "champion": "Braum",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 10.0
+          "rate": 5.9
         }
       ]
     }
   },
   "byMainLane": {
     "MID": {
-      "players": 3,
-      "mainLaneGames": 94,
+      "players": 4,
+      "mainLaneGames": 122,
       "mainLaneNext": [
+        {
+          "champion": "Akali",
+          "games": 6,
+          "rate": 4.9
+        },
         {
           "champion": "Galio",
           "games": 5,
-          "rate": 5.3
+          "rate": 4.1
         },
         {
           "champion": "Naafiri",
           "games": 1,
-          "rate": 1.1
+          "rate": 0.8
         },
         {
           "champion": "Pantheon",
           "games": 1,
-          "rate": 1.1
+          "rate": 0.8
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "rate": 0.8
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 4,
+          "games": 8,
           "picks": [
             {
               "champion": "Ekko",
+              "games": 4,
+              "rate": 50.0
+            },
+            {
+              "champion": "Camille",
               "games": 3,
-              "rate": 75.0
+              "rate": 37.5
             },
             {
               "champion": "Pantheon",
               "games": 1,
-              "rate": 25.0
+              "rate": 12.5
             }
           ]
         },
         "JUNGLE": {
-          "games": 7,
+          "games": 8,
           "picks": [
             {
               "champion": "Ekko",
               "games": 2,
-              "rate": 28.6
+              "rate": 25.0
             },
             {
               "champion": "Kindred",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "LeeSin",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "MonkeyKing",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "Nidalee",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             },
             {
               "champion": "Qiyana",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
+            },
+            {
+              "champion": "Viego",
+              "games": 1,
+              "rate": 12.5
             }
           ]
         },
@@ -194,27 +244,37 @@
           ]
         },
         "UTILITY": {
-          "games": 10,
+          "games": 17,
           "picks": [
             {
               "champion": "Ekko",
               "games": 5,
-              "rate": 50.0
+              "rate": 29.4
+            },
+            {
+              "champion": "Camille",
+              "games": 4,
+              "rate": 23.5
+            },
+            {
+              "champion": "Nautilus",
+              "games": 3,
+              "rate": 17.6
             },
             {
               "champion": "Pantheon",
               "games": 3,
-              "rate": 30.0
+              "rate": 17.6
             },
             {
               "champion": "Braum",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 10.0
+              "rate": 5.9
             }
           ]
         }

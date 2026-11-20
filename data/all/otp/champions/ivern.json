@@ -3,25 +3,30 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Ivern",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "JUNGLE",
-  "players": 12,
-  "mainLaneGames": 351,
+  "players": 11,
+  "mainLaneGames": 338,
   "mainLaneNext": [
     {
       "champion": "Lillia",
       "games": 4,
-      "rate": 1.1
+      "rate": 1.2
     },
     {
       "champion": "Sejuani",
       "games": 4,
-      "rate": 1.1
+      "rate": 1.2
     },
     {
       "champion": "Nocturne",
       "games": 3,
       "rate": 0.9
+    },
+    {
+      "champion": "Gragas",
+      "games": 2,
+      "rate": 0.6
     },
     {
       "champion": "Graves",
@@ -39,17 +44,17 @@
       "rate": 0.6
     },
     {
-      "champion": "Rammus",
-      "games": 2,
-      "rate": 0.6
-    },
-    {
       "champion": "Chogath",
       "games": 1,
       "rate": 0.3
     },
     {
       "champion": "MonkeyKing",
+      "games": 1,
+      "rate": 0.3
+    },
+    {
+      "champion": "Rammus",
       "games": 1,
       "rate": 0.3
     },
@@ -62,91 +67,61 @@
       "champion": "Zac",
       "games": 1,
       "rate": 0.3
-    },
-    {
-      "champion": "Zyra",
-      "games": 1,
-      "rate": 0.3
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 45,
+      "games": 31,
       "picks": [
         {
           "champion": "Ivern",
-          "games": 28,
-          "rate": 62.2
-        },
-        {
-          "champion": "Illaoi",
-          "games": 10,
-          "rate": 22.2
+          "games": 26,
+          "rate": 83.9
         },
         {
           "champion": "Malphite",
-          "games": 4,
-          "rate": 8.9
+          "games": 3,
+          "rate": 9.7
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 2.2
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 2.2
+          "rate": 3.2
         },
         {
           "champion": "Teemo",
           "games": 1,
-          "rate": 2.2
+          "rate": 3.2
         }
       ]
     },
     "MID": {
-      "games": 13,
+      "games": 9,
       "picks": [
         {
           "champion": "Ivern",
           "games": 3,
-          "rate": 23.1
-        },
-        {
-          "champion": "Malphite",
-          "games": 2,
-          "rate": 15.4
+          "rate": 33.3
         },
         {
           "champion": "Ryze",
           "games": 2,
-          "rate": 15.4
+          "rate": 22.2
         },
         {
           "champion": "TwistedFate",
           "games": 2,
-          "rate": 15.4
+          "rate": 22.2
         },
         {
-          "champion": "Illaoi",
+          "champion": "Malphite",
           "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "Lissandra",
-          "games": 1,
-          "rate": 7.7
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1,
-          "rate": 7.7
+          "rate": 11.1
         },
         {
           "champion": "Orianna",
           "games": 1,
-          "rate": 7.7
+          "rate": 11.1
         }
       ]
     },
@@ -155,8 +130,8 @@
       "picks": [
         {
           "champion": "Lucian",
-          "games": 15,
-          "rate": 57.7
+          "games": 14,
+          "rate": 53.8
         },
         {
           "champion": "Jhin",
@@ -170,8 +145,8 @@
         },
         {
           "champion": "Ezreal",
-          "games": 2,
-          "rate": 7.7
+          "games": 3,
+          "rate": 11.5
         },
         {
           "champion": "Kaisa",
@@ -181,90 +156,75 @@
       ]
     },
     "UTILITY": {
-      "games": 37,
+      "games": 30,
       "picks": [
         {
           "champion": "Ivern",
-          "games": 12,
-          "rate": 32.4
+          "games": 13,
+          "rate": 43.3
         },
         {
           "champion": "Leona",
           "games": 6,
-          "rate": 16.2
+          "rate": 20.0
         },
         {
           "champion": "Karma",
           "games": 4,
-          "rate": 10.8
-        },
-        {
-          "champion": "Nami",
-          "games": 4,
-          "rate": 10.8
+          "rate": 13.3
         },
         {
           "champion": "Bard",
           "games": 2,
-          "rate": 5.4
-        },
-        {
-          "champion": "Milio",
-          "games": 2,
-          "rate": 5.4
+          "rate": 6.7
         },
         {
           "champion": "Nautilus",
           "games": 2,
-          "rate": 5.4
+          "rate": 6.7
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 2.7
+          "rate": 3.3
         },
         {
           "champion": "Lulu",
           "games": 1,
-          "rate": 2.7
+          "rate": 3.3
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 2.7
-        },
-        {
-          "champion": "Neeko",
-          "games": 1,
-          "rate": 2.7
-        },
-        {
-          "champion": "Sona",
-          "games": 1,
-          "rate": 2.7
+          "rate": 3.3
         }
       ]
     }
   },
   "byMainLane": {
     "JUNGLE": {
-      "players": 12,
-      "mainLaneGames": 351,
+      "players": 11,
+      "mainLaneGames": 338,
       "mainLaneNext": [
         {
           "champion": "Lillia",
           "games": 4,
-          "rate": 1.1
+          "rate": 1.2
         },
         {
           "champion": "Sejuani",
           "games": 4,
-          "rate": 1.1
+          "rate": 1.2
         },
         {
           "champion": "Nocturne",
           "games": 3,
           "rate": 0.9
+        },
+        {
+          "champion": "Gragas",
+          "games": 2,
+          "rate": 0.6
         },
         {
           "champion": "Graves",
@@ -282,17 +242,17 @@
           "rate": 0.6
         },
         {
-          "champion": "Rammus",
-          "games": 2,
-          "rate": 0.6
-        },
-        {
           "champion": "Chogath",
           "games": 1,
           "rate": 0.3
         },
         {
           "champion": "MonkeyKing",
+          "games": 1,
+          "rate": 0.3
+        },
+        {
+          "champion": "Rammus",
           "games": 1,
           "rate": 0.3
         },
@@ -305,91 +265,61 @@
           "champion": "Zac",
           "games": 1,
           "rate": 0.3
-        },
-        {
-          "champion": "Zyra",
-          "games": 1,
-          "rate": 0.3
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 45,
+          "games": 31,
           "picks": [
             {
               "champion": "Ivern",
-              "games": 28,
-              "rate": 62.2
-            },
-            {
-              "champion": "Illaoi",
-              "games": 10,
-              "rate": 22.2
+              "games": 26,
+              "rate": 83.9
             },
             {
               "champion": "Malphite",
-              "games": 4,
-              "rate": 8.9
+              "games": 3,
+              "rate": 9.7
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 2.2
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 2.2
+              "rate": 3.2
             },
             {
               "champion": "Teemo",
               "games": 1,
-              "rate": 2.2
+              "rate": 3.2
             }
           ]
         },
         "MID": {
-          "games": 13,
+          "games": 9,
           "picks": [
             {
               "champion": "Ivern",
               "games": 3,
-              "rate": 23.1
-            },
-            {
-              "champion": "Malphite",
-              "games": 2,
-              "rate": 15.4
+              "rate": 33.3
             },
             {
               "champion": "Ryze",
               "games": 2,
-              "rate": 15.4
+              "rate": 22.2
             },
             {
               "champion": "TwistedFate",
               "games": 2,
-              "rate": 15.4
+              "rate": 22.2
             },
             {
-              "champion": "Illaoi",
+              "champion": "Malphite",
               "games": 1,
-              "rate": 7.7
-            },
-            {
-              "champion": "Lissandra",
-              "games": 1,
-              "rate": 7.7
-            },
-            {
-              "champion": "Malzahar",
-              "games": 1,
-              "rate": 7.7
+              "rate": 11.1
             },
             {
               "champion": "Orianna",
               "games": 1,
-              "rate": 7.7
+              "rate": 11.1
             }
           ]
         },
@@ -398,8 +328,8 @@
           "picks": [
             {
               "champion": "Lucian",
-              "games": 15,
-              "rate": 57.7
+              "games": 14,
+              "rate": 53.8
             },
             {
               "champion": "Jhin",
@@ -413,8 +343,8 @@
             },
             {
               "champion": "Ezreal",
-              "games": 2,
-              "rate": 7.7
+              "games": 3,
+              "rate": 11.5
             },
             {
               "champion": "Kaisa",
@@ -424,67 +354,47 @@
           ]
         },
         "UTILITY": {
-          "games": 37,
+          "games": 30,
           "picks": [
             {
               "champion": "Ivern",
-              "games": 12,
-              "rate": 32.4
+              "games": 13,
+              "rate": 43.3
             },
             {
               "champion": "Leona",
               "games": 6,
-              "rate": 16.2
+              "rate": 20.0
             },
             {
               "champion": "Karma",
               "games": 4,
-              "rate": 10.8
-            },
-            {
-              "champion": "Nami",
-              "games": 4,
-              "rate": 10.8
+              "rate": 13.3
             },
             {
               "champion": "Bard",
               "games": 2,
-              "rate": 5.4
-            },
-            {
-              "champion": "Milio",
-              "games": 2,
-              "rate": 5.4
+              "rate": 6.7
             },
             {
               "champion": "Nautilus",
               "games": 2,
-              "rate": 5.4
+              "rate": 6.7
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 2.7
+              "rate": 3.3
             },
             {
               "champion": "Lulu",
               "games": 1,
-              "rate": 2.7
+              "rate": 3.3
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 2.7
-            },
-            {
-              "champion": "Neeko",
-              "games": 1,
-              "rate": 2.7
-            },
-            {
-              "champion": "Sona",
-              "games": 1,
-              "rate": 2.7
+              "rate": 3.3
             }
           ]
         }

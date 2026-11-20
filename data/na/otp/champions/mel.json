@@ -3,60 +3,57 @@
   "platform": "NA1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Mel",
-  "updatedAt": "2026-11-19T19:44:34.952540+00:00",
+  "updatedAt": "2026-11-20T19:43:11.913056+00:00",
   "mainLane": "BOTTOM",
   "players": 1,
-  "mainLaneGames": 33,
+  "mainLaneGames": 32,
   "mainLaneNext": [
     {
       "champion": "Hwei",
       "games": 8,
-      "rate": 24.2
+      "rate": 25.0
     }
   ],
   "offLanes": {
     "TOP": {
-      "games": 2,
+      "games": 0,
+      "picks": []
+    },
+    "JUNGLE": {
+      "games": 0,
+      "picks": []
+    },
+    "MID": {
+      "games": 0,
+      "picks": []
+    },
+    "UTILITY": {
+      "games": 8,
       "picks": [
         {
-          "champion": "Kayle",
-          "games": 1,
+          "champion": "Sona",
+          "games": 4,
           "rate": 50.0
         },
         {
-          "champion": "Mel",
+          "champion": "Karma",
           "games": 1,
-          "rate": 50.0
-        }
-      ]
-    },
-    "JUNGLE": {
-      "games": 3,
-      "picks": [
+          "rate": 12.5
+        },
         {
-          "champion": "Chogath",
-          "games": 3,
-          "rate": 100.0
-        }
-      ]
-    },
-    "MID": {
-      "games": 1,
-      "picks": [
-        {
-          "champion": "Hwei",
+          "champion": "Milio",
           "games": 1,
-          "rate": 100.0
-        }
-      ]
-    },
-    "UTILITY": {
-      "games": 1,
-      "picks": [
+          "rate": 12.5
+        },
+        {
+          "champion": "Nami",
+          "games": 1,
+          "rate": 12.5
+        },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 100.0
+          "rate": 12.5
         }
       ]
     }
@@ -64,57 +61,54 @@
   "byMainLane": {
     "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 33,
+      "mainLaneGames": 32,
       "mainLaneNext": [
         {
           "champion": "Hwei",
           "games": 8,
-          "rate": 24.2
+          "rate": 25.0
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "UTILITY": {
+          "games": 8,
           "picks": [
             {
-              "champion": "Kayle",
-              "games": 1,
+              "champion": "Sona",
+              "games": 4,
               "rate": 50.0
             },
             {
-              "champion": "Mel",
+              "champion": "Karma",
               "games": 1,
-              "rate": 50.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
+              "rate": 12.5
+            },
             {
-              "champion": "Chogath",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Hwei",
+              "champion": "Milio",
               "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 1,
-          "picks": [
+              "rate": 12.5
+            },
+            {
+              "champion": "Nami",
+              "games": 1,
+              "rate": 12.5
+            },
             {
               "champion": "Seraphine",
               "games": 1,
-              "rate": 100.0
+              "rate": 12.5
             }
           ]
         }

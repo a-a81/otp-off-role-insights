@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "AurelionSol",
-  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
+  "updatedAt": "2026-11-20T21:26:55.432379+00:00",
   "mainLane": "MID",
   "players": 2,
   "mainLaneGames": 59,
@@ -132,22 +132,32 @@
     },
     "BOTTOM": {
       "players": 2,
-      "mainLaneGames": 37,
+      "mainLaneGames": 43,
       "mainLaneNext": [
+        {
+          "champion": "Corki",
+          "games": 1,
+          "rate": 2.3
+        },
         {
           "champion": "Jinx",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.3
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "rate": 2.3
         },
         {
           "champion": "Tristana",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.3
         },
         {
           "champion": "Ziggs",
           "games": 1,
-          "rate": 2.7
+          "rate": 2.3
         }
       ],
       "offLanes": {
@@ -155,19 +165,14 @@
           "games": 5,
           "picks": [
             {
-              "champion": "AurelionSol",
-              "games": 2,
-              "rate": 40.0
+              "champion": "Pantheon",
+              "games": 3,
+              "rate": 60.0
             },
             {
               "champion": "Malphite",
               "games": 2,
               "rate": 40.0
-            },
-            {
-              "champion": "Pantheon",
-              "games": 1,
-              "rate": 20.0
             }
           ]
         },
@@ -187,47 +192,42 @@
           ]
         },
         "MID": {
-          "games": 28,
+          "games": 22,
           "picks": [
             {
               "champion": "AurelionSol",
               "games": 16,
-              "rate": 57.1
-            },
-            {
-              "champion": "Corki",
-              "games": 3,
-              "rate": 10.7
+              "rate": 72.7
             },
             {
               "champion": "Galio",
-              "games": 3,
-              "rate": 10.7
-            },
-            {
-              "champion": "Viktor",
-              "games": 2,
-              "rate": 7.1
+              "games": 1,
+              "rate": 4.5
             },
             {
               "champion": "Kassadin",
               "games": 1,
-              "rate": 3.6
+              "rate": 4.5
             },
             {
-              "champion": "Pantheon",
+              "champion": "Sion",
               "games": 1,
-              "rate": 3.6
+              "rate": 4.5
             },
             {
               "champion": "Syndra",
               "games": 1,
-              "rate": 3.6
+              "rate": 4.5
             },
             {
               "champion": "Tristana",
               "games": 1,
-              "rate": 3.6
+              "rate": 4.5
+            },
+            {
+              "champion": "Viktor",
+              "games": 1,
+              "rate": 4.5
             }
           ]
         },
@@ -236,13 +236,13 @@
           "picks": [
             {
               "champion": "Alistar",
-              "games": 4,
-              "rate": 50.0
+              "games": 5,
+              "rate": 62.5
             },
             {
               "champion": "Nautilus",
-              "games": 3,
-              "rate": 37.5
+              "games": 2,
+              "rate": 25.0
             },
             {
               "champion": "Bard",

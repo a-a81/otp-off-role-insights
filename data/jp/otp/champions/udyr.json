@@ -3,15 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Udyr",
-  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
+  "updatedAt": "2026-11-20T20:46:43.159760+00:00",
   "mainLane": "TOP",
   "players": 5,
-  "mainLaneGames": 168,
+  "mainLaneGames": 169,
   "mainLaneNext": [
     {
       "champion": "Malphite",
       "games": 2,
       "rate": 1.2
+    },
+    {
+      "champion": "Chogath",
+      "games": 1,
+      "rate": 0.6
     },
     {
       "champion": "DrMundo",
@@ -51,11 +56,11 @@
       ]
     },
     "MID": {
-      "games": 8,
+      "games": 7,
       "picks": [
         {
           "champion": "Udyr",
-          "games": 8,
+          "games": 7,
           "rate": 100.0
         }
       ]
@@ -109,12 +114,17 @@
   "byMainLane": {
     "TOP": {
       "players": 5,
-      "mainLaneGames": 168,
+      "mainLaneGames": 169,
       "mainLaneNext": [
         {
           "champion": "Malphite",
           "games": 2,
           "rate": 1.2
+        },
+        {
+          "champion": "Chogath",
+          "games": 1,
+          "rate": 0.6
         },
         {
           "champion": "DrMundo",
@@ -154,11 +164,11 @@
           ]
         },
         "MID": {
-          "games": 8,
+          "games": 7,
           "picks": [
             {
               "champion": "Udyr",
-              "games": 8,
+              "games": 7,
               "rate": 100.0
             }
           ]
@@ -226,6 +236,16 @@
         },
         {
           "champion": "Shyvana",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Singed",
+          "games": 1,
+          "rate": 0.6
+        },
+        {
+          "champion": "Warwick",
           "games": 1,
           "rate": 0.6
         }
@@ -323,53 +343,6 @@
               "champion": "Rell",
               "games": 1,
               "rate": 12.5
-            }
-          ]
-        }
-      }
-    },
-    "MID": {
-      "players": 1,
-      "mainLaneGames": 17,
-      "mainLaneNext": [],
-      "offLanes": {
-        "TOP": {
-          "games": 12,
-          "picks": [
-            {
-              "champion": "Udyr",
-              "games": 12,
-              "rate": 100.0
-            }
-          ]
-        },
-        "JUNGLE": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Udyr",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Udyr",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 5,
-          "picks": [
-            {
-              "champion": "Ashe",
-              "games": 5,
-              "rate": 100.0
             }
           ]
         }

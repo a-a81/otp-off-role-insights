@@ -3,15 +3,20 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sett",
-  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
+  "updatedAt": "2026-11-20T20:46:43.159760+00:00",
   "mainLane": "TOP",
   "players": 4,
-  "mainLaneGames": 118,
+  "mainLaneGames": 119,
   "mainLaneNext": [
     {
       "champion": "KSante",
-      "games": 4,
-      "rate": 3.4
+      "games": 5,
+      "rate": 4.2
+    },
+    {
+      "champion": "Skarner",
+      "games": 2,
+      "rate": 1.7
     },
     {
       "champion": "Malphite",
@@ -27,31 +32,26 @@
       "champion": "Rumble",
       "games": 1,
       "rate": 0.8
-    },
-    {
-      "champion": "Skarner",
-      "games": 1,
-      "rate": 0.8
     }
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 7,
+      "games": 6,
       "picks": [
         {
           "champion": "LeeSin",
-          "games": 4,
-          "rate": 57.1
+          "games": 3,
+          "rate": 50.0
         },
         {
           "champion": "Sett",
           "games": 2,
-          "rate": 28.6
+          "rate": 33.3
         },
         {
-          "champion": "Nocturne",
+          "champion": "JarvanIV",
           "games": 1,
-          "rate": 14.3
+          "rate": 16.7
         }
       ]
     },
@@ -119,6 +119,11 @@
           "rate": 4.0
         },
         {
+          "champion": "Milio",
+          "games": 1,
+          "rate": 4.0
+        },
+        {
           "champion": "Nami",
           "games": 1,
           "rate": 4.0
@@ -142,11 +147,6 @@
           "champion": "TahmKench",
           "games": 1,
           "rate": 4.0
-        },
-        {
-          "champion": "Yuumi",
-          "games": 1,
-          "rate": 4.0
         }
       ]
     }
@@ -154,12 +154,17 @@
   "byMainLane": {
     "TOP": {
       "players": 4,
-      "mainLaneGames": 118,
+      "mainLaneGames": 119,
       "mainLaneNext": [
         {
           "champion": "KSante",
-          "games": 4,
-          "rate": 3.4
+          "games": 5,
+          "rate": 4.2
+        },
+        {
+          "champion": "Skarner",
+          "games": 2,
+          "rate": 1.7
         },
         {
           "champion": "Malphite",
@@ -175,31 +180,26 @@
           "champion": "Rumble",
           "games": 1,
           "rate": 0.8
-        },
-        {
-          "champion": "Skarner",
-          "games": 1,
-          "rate": 0.8
         }
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 7,
+          "games": 6,
           "picks": [
             {
               "champion": "LeeSin",
-              "games": 4,
-              "rate": 57.1
+              "games": 3,
+              "rate": 50.0
             },
             {
               "champion": "Sett",
               "games": 2,
-              "rate": 28.6
+              "rate": 33.3
             },
             {
-              "champion": "Nocturne",
+              "champion": "JarvanIV",
               "games": 1,
-              "rate": 14.3
+              "rate": 16.7
             }
           ]
         },
@@ -267,6 +267,11 @@
               "rate": 4.0
             },
             {
+              "champion": "Milio",
+              "games": 1,
+              "rate": 4.0
+            },
+            {
               "champion": "Nami",
               "games": 1,
               "rate": 4.0
@@ -288,11 +293,6 @@
             },
             {
               "champion": "TahmKench",
-              "games": 1,
-              "rate": 4.0
-            },
-            {
-              "champion": "Yuumi",
               "games": 1,
               "rate": 4.0
             }

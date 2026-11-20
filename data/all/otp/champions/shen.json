@@ -3,10 +3,10 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Shen",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "TOP",
   "players": 9,
-  "mainLaneGames": 289,
+  "mainLaneGames": 287,
   "mainLaneNext": [
     {
       "champion": "KSante",
@@ -20,8 +20,8 @@
     },
     {
       "champion": "Mordekaiser",
-      "games": 2,
-      "rate": 0.7
+      "games": 3,
+      "rate": 1.0
     },
     {
       "champion": "Ornn",
@@ -131,67 +131,67 @@
       ]
     },
     "UTILITY": {
-      "games": 29,
+      "games": 30,
       "picks": [
         {
           "champion": "Shen",
           "games": 8,
-          "rate": 27.6
+          "rate": 26.7
         },
         {
           "champion": "Nautilus",
           "games": 5,
-          "rate": 17.2
+          "rate": 16.7
         },
         {
           "champion": "Braum",
           "games": 3,
-          "rate": 10.3
+          "rate": 10.0
         },
         {
-          "champion": "Alistar",
-          "games": 2,
-          "rate": 6.9
+          "champion": "Thresh",
+          "games": 3,
+          "rate": 10.0
         },
         {
           "champion": "Nami",
           "games": 2,
-          "rate": 6.9
+          "rate": 6.7
         },
         {
           "champion": "Rakan",
           "games": 2,
-          "rate": 6.9
+          "rate": 6.7
         },
         {
-          "champion": "Thresh",
+          "champion": "Swain",
           "games": 2,
-          "rate": 6.9
+          "rate": 6.7
+        },
+        {
+          "champion": "Alistar",
+          "games": 1,
+          "rate": 3.3
         },
         {
           "champion": "Karma",
           "games": 1,
-          "rate": 3.4
+          "rate": 3.3
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 3.4
+          "rate": 3.3
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 3.4
+          "rate": 3.3
         },
         {
           "champion": "Poppy",
           "games": 1,
-          "rate": 3.4
-        },
-        {
-          "champion": "Swain",
-          "games": 1,
-          "rate": 3.4
+          "rate": 3.3
         }
       ]
     }
@@ -199,7 +199,7 @@
   "byMainLane": {
     "TOP": {
       "players": 9,
-      "mainLaneGames": 289,
+      "mainLaneGames": 287,
       "mainLaneNext": [
         {
           "champion": "KSante",
@@ -213,8 +213,8 @@
         },
         {
           "champion": "Mordekaiser",
-          "games": 2,
-          "rate": 0.7
+          "games": 3,
+          "rate": 1.0
         },
         {
           "champion": "Ornn",
@@ -324,67 +324,129 @@
           ]
         },
         "UTILITY": {
-          "games": 29,
+          "games": 30,
           "picks": [
             {
               "champion": "Shen",
               "games": 8,
-              "rate": 27.6
+              "rate": 26.7
             },
             {
               "champion": "Nautilus",
               "games": 5,
-              "rate": 17.2
+              "rate": 16.7
             },
             {
               "champion": "Braum",
               "games": 3,
-              "rate": 10.3
+              "rate": 10.0
             },
             {
-              "champion": "Alistar",
-              "games": 2,
-              "rate": 6.9
+              "champion": "Thresh",
+              "games": 3,
+              "rate": 10.0
             },
             {
               "champion": "Nami",
               "games": 2,
-              "rate": 6.9
+              "rate": 6.7
             },
             {
               "champion": "Rakan",
               "games": 2,
-              "rate": 6.9
+              "rate": 6.7
             },
             {
-              "champion": "Thresh",
+              "champion": "Swain",
               "games": 2,
-              "rate": 6.9
+              "rate": 6.7
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 3.3
             },
             {
               "champion": "Karma",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
             },
             {
               "champion": "Poppy",
               "games": 1,
-              "rate": 3.4
+              "rate": 3.3
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 24,
+      "mainLaneNext": [
+        {
+          "champion": "Kayn",
+          "games": 2,
+          "rate": 8.3
+        },
+        {
+          "champion": "Vi",
+          "games": 1,
+          "rate": 4.2
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 12,
+          "picks": [
+            {
+              "champion": "Shen",
+              "games": 11,
+              "rate": 91.7
             },
             {
-              "champion": "Swain",
+              "champion": "Kled",
               "games": 1,
-              "rate": 3.4
+              "rate": 8.3
+            }
+          ]
+        },
+        "MID": {
+          "games": 0,
+          "picks": []
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Sivir",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Morgana",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Braum",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Heimerdinger",
-  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
+  "updatedAt": "2026-11-20T20:46:43.159760+00:00",
   "mainLane": "MID",
   "players": 3,
   "mainLaneGames": 75,
@@ -210,57 +210,6 @@
         }
       }
     },
-    "UTILITY": {
-      "players": 2,
-      "mainLaneGames": 75,
-      "mainLaneNext": [
-        {
-          "champion": "Amumu",
-          "games": 8,
-          "rate": 10.7
-        },
-        {
-          "champion": "Lulu",
-          "games": 1,
-          "rate": 1.3
-        },
-        {
-          "champion": "Zilean",
-          "games": 1,
-          "rate": 1.3
-        }
-      ],
-      "offLanes": {
-        "TOP": {
-          "games": 0,
-          "picks": []
-        },
-        "JUNGLE": {
-          "games": 0,
-          "picks": []
-        },
-        "MID": {
-          "games": 3,
-          "picks": [
-            {
-              "champion": "Heimerdinger",
-              "games": 3,
-              "rate": 100.0
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Jhin",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        }
-      }
-    },
     "BOTTOM": {
       "players": 2,
       "mainLaneGames": 57,
@@ -318,6 +267,47 @@
               "champion": "Seraphine",
               "games": 1,
               "rate": 16.7
+            }
+          ]
+        }
+      }
+    },
+    "UTILITY": {
+      "players": 1,
+      "mainLaneGames": 38,
+      "mainLaneNext": [
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 2.6
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 0,
+          "picks": []
+        },
+        "JUNGLE": {
+          "games": 0,
+          "picks": []
+        },
+        "MID": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Heimerdinger",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Jhin",
+              "games": 1,
+              "rate": 100.0
             }
           ]
         }

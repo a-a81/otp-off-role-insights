@@ -3,25 +3,25 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Sona",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "UTILITY",
-  "players": 5,
-  "mainLaneGames": 193,
+  "players": 6,
+  "mainLaneGames": 216,
   "mainLaneNext": [
     {
       "champion": "Janna",
       "games": 4,
-      "rate": 2.1
+      "rate": 1.9
     },
     {
       "champion": "Seraphine",
       "games": 2,
-      "rate": 1.0
+      "rate": 0.9
     },
     {
       "champion": "Soraka",
       "games": 2,
-      "rate": 1.0
+      "rate": 0.9
     },
     {
       "champion": "Annie",
@@ -41,25 +41,57 @@
   ],
   "offLanes": {
     "TOP": {
-      "games": 0,
-      "picks": []
+      "games": 2,
+      "picks": [
+        {
+          "champion": "Akali",
+          "games": 1,
+          "rate": 50.0
+        },
+        {
+          "champion": "Mordekaiser",
+          "games": 1,
+          "rate": 50.0
+        }
+      ]
     },
     "JUNGLE": {
-      "games": 0,
-      "picks": []
+      "games": 10,
+      "picks": [
+        {
+          "champion": "Evelynn",
+          "games": 9,
+          "rate": 90.0
+        },
+        {
+          "champion": "Morgana",
+          "games": 1,
+          "rate": 10.0
+        }
+      ]
     },
     "MID": {
-      "games": 3,
+      "games": 7,
       "picks": [
         {
           "champion": "Mel",
-          "games": 2,
-          "rate": 66.7
+          "games": 4,
+          "rate": 57.1
+        },
+        {
+          "champion": "Akali",
+          "games": 1,
+          "rate": 14.3
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1,
+          "rate": 14.3
         },
         {
           "champion": "TwistedFate",
           "games": 1,
-          "rate": 33.3
+          "rate": 14.3
         }
       ]
     },
@@ -81,23 +113,23 @@
   },
   "byMainLane": {
     "UTILITY": {
-      "players": 5,
-      "mainLaneGames": 193,
+      "players": 6,
+      "mainLaneGames": 216,
       "mainLaneNext": [
         {
           "champion": "Janna",
           "games": 4,
-          "rate": 2.1
+          "rate": 1.9
         },
         {
           "champion": "Seraphine",
           "games": 2,
-          "rate": 1.0
+          "rate": 0.9
         },
         {
           "champion": "Soraka",
           "games": 2,
-          "rate": 1.0
+          "rate": 0.9
         },
         {
           "champion": "Annie",
@@ -117,25 +149,57 @@
       ],
       "offLanes": {
         "TOP": {
-          "games": 0,
-          "picks": []
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 50.0
+            },
+            {
+              "champion": "Mordekaiser",
+              "games": 1,
+              "rate": 50.0
+            }
+          ]
         },
         "JUNGLE": {
-          "games": 0,
-          "picks": []
+          "games": 10,
+          "picks": [
+            {
+              "champion": "Evelynn",
+              "games": 9,
+              "rate": 90.0
+            },
+            {
+              "champion": "Morgana",
+              "games": 1,
+              "rate": 10.0
+            }
+          ]
         },
         "MID": {
-          "games": 3,
+          "games": 7,
           "picks": [
             {
               "champion": "Mel",
-              "games": 2,
-              "rate": 66.7
+              "games": 4,
+              "rate": 57.1
+            },
+            {
+              "champion": "Akali",
+              "games": 1,
+              "rate": 14.3
+            },
+            {
+              "champion": "Lissandra",
+              "games": 1,
+              "rate": 14.3
             },
             {
               "champion": "TwistedFate",
               "games": 1,
-              "rate": 33.3
+              "rate": 14.3
             }
           ]
         },

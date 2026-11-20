@@ -3,20 +3,20 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Poppy",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "TOP",
   "players": 7,
-  "mainLaneGames": 217,
+  "mainLaneGames": 215,
   "mainLaneNext": [
     {
       "champion": "Gragas",
       "games": 7,
-      "rate": 3.2
+      "rate": 3.3
     },
     {
       "champion": "KSante",
       "games": 4,
-      "rate": 1.8
+      "rate": 1.9
     },
     {
       "champion": "Gangplank",
@@ -66,17 +66,22 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 7,
+      "games": 8,
       "picks": [
         {
           "champion": "Poppy",
           "games": 6,
-          "rate": 85.7
+          "rate": 75.0
+        },
+        {
+          "champion": "Ivern",
+          "games": 1,
+          "rate": 12.5
         },
         {
           "champion": "Vi",
           "games": 1,
-          "rate": 14.3
+          "rate": 12.5
         }
       ]
     },
@@ -184,17 +189,17 @@
   "byMainLane": {
     "TOP": {
       "players": 7,
-      "mainLaneGames": 217,
+      "mainLaneGames": 215,
       "mainLaneNext": [
         {
           "champion": "Gragas",
           "games": 7,
-          "rate": 3.2
+          "rate": 3.3
         },
         {
           "champion": "KSante",
           "games": 4,
-          "rate": 1.8
+          "rate": 1.9
         },
         {
           "champion": "Gangplank",
@@ -244,17 +249,22 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 7,
+          "games": 8,
           "picks": [
             {
               "champion": "Poppy",
               "games": 6,
-              "rate": 85.7
+              "rate": 75.0
+            },
+            {
+              "champion": "Ivern",
+              "games": 1,
+              "rate": 12.5
             },
             {
               "champion": "Vi",
               "games": 1,
-              "rate": 14.3
+              "rate": 12.5
             }
           ]
         },
@@ -362,47 +372,47 @@
     },
     "UTILITY": {
       "players": 2,
-      "mainLaneGames": 62,
+      "mainLaneGames": 60,
       "mainLaneNext": [
         {
           "champion": "Yuumi",
-          "games": 2,
-          "rate": 3.2
+          "games": 3,
+          "rate": 5.0
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 1.6
-        },
-        {
-          "champion": "Rakan",
-          "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         },
         {
           "champion": "Senna",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         },
         {
           "champion": "Seraphine",
           "games": 1,
-          "rate": 1.6
+          "rate": 1.7
         }
       ],
       "offLanes": {
         "TOP": {
-          "games": 2,
+          "games": 3,
           "picks": [
             {
               "champion": "Poppy",
               "games": 2,
-              "rate": 100.0
+              "rate": 66.7
+            },
+            {
+              "champion": "Hwei",
+              "games": 1,
+              "rate": 33.3
             }
           ]
         },
@@ -426,11 +436,11 @@
           ]
         },
         "BOTTOM": {
-          "games": 12,
+          "games": 14,
           "picks": [
             {
               "champion": "Hwei",
-              "games": 12,
+              "games": 14,
               "rate": 100.0
             }
           ]

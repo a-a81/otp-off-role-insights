@@ -3,7 +3,7 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Shen",
-  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
+  "updatedAt": "2026-11-20T21:26:55.432379+00:00",
   "mainLane": "UTILITY",
   "players": 1,
   "mainLaneGames": 37,
@@ -156,27 +156,27 @@
     },
     "TOP": {
       "players": 1,
-      "mainLaneGames": 33,
+      "mainLaneGames": 34,
       "mainLaneNext": [
         {
           "champion": "Aatrox",
-          "games": 10,
-          "rate": 30.3
-        },
-        {
-          "champion": "Malphite",
-          "games": 3,
-          "rate": 9.1
+          "games": 9,
+          "rate": 26.5
         },
         {
           "champion": "Warwick",
           "games": 3,
-          "rate": 9.1
+          "rate": 8.8
+        },
+        {
+          "champion": "Malphite",
+          "games": 2,
+          "rate": 5.9
         },
         {
           "champion": "Maokai",
           "games": 2,
-          "rate": 6.1
+          "rate": 5.9
         }
       ],
       "offLanes": {
@@ -205,12 +205,115 @@
           "picks": []
         },
         "UTILITY": {
-          "games": 5,
+          "games": 4,
           "picks": [
             {
               "champion": "Shen",
-              "games": 5,
+              "games": 4,
               "rate": 100.0
+            }
+          ]
+        }
+      }
+    },
+    "JUNGLE": {
+      "players": 1,
+      "mainLaneGames": 17,
+      "mainLaneNext": [
+        {
+          "champion": "Sejuani",
+          "games": 4,
+          "rate": 23.5
+        },
+        {
+          "champion": "Ekko",
+          "games": 1,
+          "rate": 5.9
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Irelia",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Ekko",
+              "games": 8,
+              "rate": 50.0
+            },
+            {
+              "champion": "Taliyah",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 2,
+              "rate": 12.5
+            },
+            {
+              "champion": "Annie",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Syndra",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Yone",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "MissFortune",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Alistar",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Camille",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Leona",
+              "games": 1,
+              "rate": 20.0
+            },
+            {
+              "champion": "Nautilus",
+              "games": 1,
+              "rate": 20.0
             }
           ]
         }

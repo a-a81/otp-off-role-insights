@@ -3,15 +3,15 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Quinn",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "TOP",
   "players": 6,
-  "mainLaneGames": 184,
+  "mainLaneGames": 189,
   "mainLaneNext": [
     {
       "champion": "Warwick",
-      "games": 5,
-      "rate": 2.7
+      "games": 6,
+      "rate": 3.2
     },
     {
       "champion": "Fiora",
@@ -20,8 +20,8 @@
     },
     {
       "champion": "Teemo",
-      "games": 3,
-      "rate": 1.6
+      "games": 2,
+      "rate": 1.1
     },
     {
       "champion": "Darius",
@@ -39,6 +39,11 @@
       "rate": 0.5
     },
     {
+      "champion": "Kennen",
+      "games": 1,
+      "rate": 0.5
+    },
+    {
       "champion": "Nasus",
       "games": 1,
       "rate": 0.5
@@ -51,52 +56,52 @@
   ],
   "offLanes": {
     "JUNGLE": {
-      "games": 3,
+      "games": 4,
       "picks": [
+        {
+          "champion": "Quinn",
+          "games": 2,
+          "rate": 50.0
+        },
         {
           "champion": "Hecarim",
           "games": 1,
-          "rate": 33.3
-        },
-        {
-          "champion": "Quinn",
-          "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         },
         {
           "champion": "Warwick",
           "games": 1,
-          "rate": 33.3
+          "rate": 25.0
         }
       ]
     },
     "MID": {
-      "games": 30,
+      "games": 25,
       "picks": [
         {
           "champion": "Quinn",
-          "games": 26,
-          "rate": 86.7
+          "games": 21,
+          "rate": 84.0
         },
         {
           "champion": "Azir",
           "games": 1,
-          "rate": 3.3
+          "rate": 4.0
         },
         {
           "champion": "Brand",
           "games": 1,
-          "rate": 3.3
+          "rate": 4.0
         },
         {
           "champion": "Fiora",
           "games": 1,
-          "rate": 3.3
+          "rate": 4.0
         },
         {
-          "champion": "Zilean",
+          "champion": "Teemo",
           "games": 1,
-          "rate": 3.3
+          "rate": 4.0
         }
       ]
     },
@@ -126,37 +131,37 @@
       ]
     },
     "UTILITY": {
-      "games": 15,
+      "games": 13,
       "picks": [
         {
           "champion": "Karma",
-          "games": 6,
-          "rate": 40.0
+          "games": 5,
+          "rate": 38.5
         },
         {
           "champion": "Rell",
           "games": 3,
-          "rate": 20.0
+          "rate": 23.1
         },
         {
           "champion": "Quinn",
           "games": 2,
-          "rate": 13.3
-        },
-        {
-          "champion": "Soraka",
-          "games": 2,
-          "rate": 13.3
+          "rate": 15.4
         },
         {
           "champion": "Maokai",
           "games": 1,
-          "rate": 6.7
+          "rate": 7.7
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 6.7
+          "rate": 7.7
+        },
+        {
+          "champion": "Soraka",
+          "games": 1,
+          "rate": 7.7
         }
       ]
     }
@@ -164,12 +169,12 @@
   "byMainLane": {
     "TOP": {
       "players": 6,
-      "mainLaneGames": 184,
+      "mainLaneGames": 189,
       "mainLaneNext": [
         {
           "champion": "Warwick",
-          "games": 5,
-          "rate": 2.7
+          "games": 6,
+          "rate": 3.2
         },
         {
           "champion": "Fiora",
@@ -178,8 +183,8 @@
         },
         {
           "champion": "Teemo",
-          "games": 3,
-          "rate": 1.6
+          "games": 2,
+          "rate": 1.1
         },
         {
           "champion": "Darius",
@@ -197,6 +202,11 @@
           "rate": 0.5
         },
         {
+          "champion": "Kennen",
+          "games": 1,
+          "rate": 0.5
+        },
+        {
           "champion": "Nasus",
           "games": 1,
           "rate": 0.5
@@ -209,52 +219,52 @@
       ],
       "offLanes": {
         "JUNGLE": {
-          "games": 3,
+          "games": 4,
           "picks": [
+            {
+              "champion": "Quinn",
+              "games": 2,
+              "rate": 50.0
+            },
             {
               "champion": "Hecarim",
               "games": 1,
-              "rate": 33.3
-            },
-            {
-              "champion": "Quinn",
-              "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             },
             {
               "champion": "Warwick",
               "games": 1,
-              "rate": 33.3
+              "rate": 25.0
             }
           ]
         },
         "MID": {
-          "games": 30,
+          "games": 25,
           "picks": [
             {
               "champion": "Quinn",
-              "games": 26,
-              "rate": 86.7
+              "games": 21,
+              "rate": 84.0
             },
             {
               "champion": "Azir",
               "games": 1,
-              "rate": 3.3
+              "rate": 4.0
             },
             {
               "champion": "Brand",
               "games": 1,
-              "rate": 3.3
+              "rate": 4.0
             },
             {
               "champion": "Fiora",
               "games": 1,
-              "rate": 3.3
+              "rate": 4.0
             },
             {
-              "champion": "Zilean",
+              "champion": "Teemo",
               "games": 1,
-              "rate": 3.3
+              "rate": 4.0
             }
           ]
         },
@@ -284,37 +294,37 @@
           ]
         },
         "UTILITY": {
-          "games": 15,
+          "games": 13,
           "picks": [
             {
               "champion": "Karma",
-              "games": 6,
-              "rate": 40.0
+              "games": 5,
+              "rate": 38.5
             },
             {
               "champion": "Rell",
               "games": 3,
-              "rate": 20.0
+              "rate": 23.1
             },
             {
               "champion": "Quinn",
               "games": 2,
-              "rate": 13.3
-            },
-            {
-              "champion": "Soraka",
-              "games": 2,
-              "rate": 13.3
+              "rate": 15.4
             },
             {
               "champion": "Maokai",
               "games": 1,
-              "rate": 6.7
+              "rate": 7.7
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 6.7
+              "rate": 7.7
+            },
+            {
+              "champion": "Soraka",
+              "games": 1,
+              "rate": 7.7
             }
           ]
         }

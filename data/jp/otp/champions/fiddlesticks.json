@@ -3,18 +3,23 @@
   "platform": "JP1",
   "queue": "RANKED_SOLO_5x5",
   "champion": "FiddleSticks",
-  "updatedAt": "2026-11-19T20:46:34.204700+00:00",
+  "updatedAt": "2026-11-20T20:46:43.159760+00:00",
   "mainLane": "JUNGLE",
   "players": 7,
-  "mainLaneGames": 206,
+  "mainLaneGames": 204,
   "mainLaneNext": [
     {
       "champion": "Nasus",
       "games": 5,
-      "rate": 2.4
+      "rate": 2.5
     },
     {
       "champion": "Graves",
+      "games": 2,
+      "rate": 1.0
+    },
+    {
+      "champion": "Lillia",
       "games": 2,
       "rate": 1.0
     },
@@ -35,11 +40,6 @@
     },
     {
       "champion": "Karthus",
-      "games": 1,
-      "rate": 0.5
-    },
-    {
-      "champion": "Lillia",
       "games": 1,
       "rate": 0.5
     },
@@ -136,52 +136,52 @@
       ]
     },
     "BOTTOM": {
-      "games": 4,
+      "games": 5,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 2,
-          "rate": 50.0
+          "games": 3,
+          "rate": 60.0
         },
         {
           "champion": "Kaisa",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         },
         {
           "champion": "KogMaw",
           "games": 1,
-          "rate": 25.0
+          "rate": 20.0
         }
       ]
     },
     "UTILITY": {
-      "games": 16,
+      "games": 17,
       "picks": [
         {
           "champion": "FiddleSticks",
-          "games": 12,
-          "rate": 75.0
+          "games": 13,
+          "rate": 76.5
         },
         {
           "champion": "Alistar",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Leona",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Nautilus",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         },
         {
           "champion": "Yuumi",
           "games": 1,
-          "rate": 6.2
+          "rate": 5.9
         }
       ]
     }
@@ -189,15 +189,20 @@
   "byMainLane": {
     "JUNGLE": {
       "players": 7,
-      "mainLaneGames": 206,
+      "mainLaneGames": 204,
       "mainLaneNext": [
         {
           "champion": "Nasus",
           "games": 5,
-          "rate": 2.4
+          "rate": 2.5
         },
         {
           "champion": "Graves",
+          "games": 2,
+          "rate": 1.0
+        },
+        {
+          "champion": "Lillia",
           "games": 2,
           "rate": 1.0
         },
@@ -218,11 +223,6 @@
         },
         {
           "champion": "Karthus",
-          "games": 1,
-          "rate": 0.5
-        },
-        {
-          "champion": "Lillia",
           "games": 1,
           "rate": 0.5
         },
@@ -319,52 +319,52 @@
           ]
         },
         "BOTTOM": {
-          "games": 4,
+          "games": 5,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 2,
-              "rate": 50.0
+              "games": 3,
+              "rate": 60.0
             },
             {
               "champion": "Kaisa",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             },
             {
               "champion": "KogMaw",
               "games": 1,
-              "rate": 25.0
+              "rate": 20.0
             }
           ]
         },
         "UTILITY": {
-          "games": 16,
+          "games": 17,
           "picks": [
             {
               "champion": "FiddleSticks",
-              "games": 12,
-              "rate": 75.0
+              "games": 13,
+              "rate": 76.5
             },
             {
               "champion": "Alistar",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Leona",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Nautilus",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             },
             {
               "champion": "Yuumi",
               "games": 1,
-              "rate": 6.2
+              "rate": 5.9
             }
           ]
         }

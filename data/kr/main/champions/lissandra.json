@@ -3,85 +3,203 @@
   "platform": "KR",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Lissandra",
-  "updatedAt": "2026-11-19T21:25:21.873758+00:00",
-  "mainLane": "MID",
+  "updatedAt": "2026-11-20T21:26:55.432379+00:00",
+  "mainLane": "TOP",
   "players": 2,
-  "mainLaneGames": 55,
+  "mainLaneGames": 57,
   "mainLaneNext": [
     {
-      "champion": "Orianna",
-      "games": 2,
-      "rate": 3.6
+      "champion": "Gnar",
+      "games": 11,
+      "rate": 19.3
     },
     {
-      "champion": "Locke",
+      "champion": "Camille",
+      "games": 2,
+      "rate": 3.5
+    },
+    {
+      "champion": "Jayce",
+      "games": 2,
+      "rate": 3.5
+    },
+    {
+      "champion": "Vayne",
+      "games": 2,
+      "rate": 3.5
+    },
+    {
+      "champion": "Quinn",
       "games": 1,
       "rate": 1.8
     },
     {
-      "champion": "Syndra",
+      "champion": "Teemo",
       "games": 1,
       "rate": 1.8
     }
   ],
   "offLanes": {
-    "TOP": {
-      "games": 10,
+    "JUNGLE": {
+      "games": 2,
       "picks": [
         {
-          "champion": "Lissandra",
-          "games": 10,
+          "champion": "Karthus",
+          "games": 2,
           "rate": 100.0
         }
       ]
     },
-    "JUNGLE": {
-      "games": 3,
+    "MID": {
+      "games": 16,
       "picks": [
         {
-          "champion": "Pantheon",
-          "games": 2,
-          "rate": 66.7
+          "champion": "Lissandra",
+          "games": 13,
+          "rate": 81.2
         },
         {
-          "champion": "LeeSin",
+          "champion": "TwistedFate",
           "games": 1,
-          "rate": 33.3
+          "rate": 6.2
+        },
+        {
+          "champion": "Veigar",
+          "games": 1,
+          "rate": 6.2
+        },
+        {
+          "champion": "Zilean",
+          "games": 1,
+          "rate": 6.2
         }
       ]
     },
     "BOTTOM": {
-      "games": 3,
+      "games": 1,
       "picks": [
         {
-          "champion": "MissFortune",
-          "games": 3,
+          "champion": "Veigar",
+          "games": 1,
           "rate": 100.0
         }
       ]
     },
     "UTILITY": {
-      "games": 9,
+      "games": 3,
       "picks": [
         {
-          "champion": "Pantheon",
-          "games": 4,
-          "rate": 44.4
+          "champion": "Zilean",
+          "games": 2,
+          "rate": 66.7
         },
         {
-          "champion": "Thresh",
-          "games": 4,
-          "rate": 44.4
-        },
-        {
-          "champion": "Braum",
+          "champion": "Alistar",
           "games": 1,
-          "rate": 11.1
+          "rate": 33.3
         }
       ]
     }
   },
   "byMainLane": {
+    "TOP": {
+      "players": 2,
+      "mainLaneGames": 57,
+      "mainLaneNext": [
+        {
+          "champion": "Gnar",
+          "games": 11,
+          "rate": 19.3
+        },
+        {
+          "champion": "Camille",
+          "games": 2,
+          "rate": 3.5
+        },
+        {
+          "champion": "Jayce",
+          "games": 2,
+          "rate": 3.5
+        },
+        {
+          "champion": "Vayne",
+          "games": 2,
+          "rate": 3.5
+        },
+        {
+          "champion": "Quinn",
+          "games": 1,
+          "rate": 1.8
+        },
+        {
+          "champion": "Teemo",
+          "games": 1,
+          "rate": 1.8
+        }
+      ],
+      "offLanes": {
+        "JUNGLE": {
+          "games": 2,
+          "picks": [
+            {
+              "champion": "Karthus",
+              "games": 2,
+              "rate": 100.0
+            }
+          ]
+        },
+        "MID": {
+          "games": 16,
+          "picks": [
+            {
+              "champion": "Lissandra",
+              "games": 13,
+              "rate": 81.2
+            },
+            {
+              "champion": "TwistedFate",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 6.2
+            },
+            {
+              "champion": "Zilean",
+              "games": 1,
+              "rate": 6.2
+            }
+          ]
+        },
+        "BOTTOM": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Veigar",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 3,
+          "picks": [
+            {
+              "champion": "Zilean",
+              "games": 2,
+              "rate": 66.7
+            },
+            {
+              "champion": "Alistar",
+              "games": 1,
+              "rate": 33.3
+            }
+          ]
+        }
+      }
+    },
     "MID": {
       "players": 2,
       "mainLaneGames": 55,
@@ -155,63 +273,6 @@
               "champion": "Braum",
               "games": 1,
               "rate": 11.1
-            }
-          ]
-        }
-      }
-    },
-    "TOP": {
-      "players": 1,
-      "mainLaneGames": 20,
-      "mainLaneNext": [],
-      "offLanes": {
-        "JUNGLE": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Karthus",
-              "games": 2,
-              "rate": 100.0
-            }
-          ]
-        },
-        "MID": {
-          "games": 15,
-          "picks": [
-            {
-              "champion": "Lissandra",
-              "games": 13,
-              "rate": 86.7
-            },
-            {
-              "champion": "Veigar",
-              "games": 1,
-              "rate": 6.7
-            },
-            {
-              "champion": "Zilean",
-              "games": 1,
-              "rate": 6.7
-            }
-          ]
-        },
-        "BOTTOM": {
-          "games": 1,
-          "picks": [
-            {
-              "champion": "Veigar",
-              "games": 1,
-              "rate": 100.0
-            }
-          ]
-        },
-        "UTILITY": {
-          "games": 2,
-          "picks": [
-            {
-              "champion": "Zilean",
-              "games": 2,
-              "rate": 100.0
             }
           ]
         }

@@ -3,7 +3,7 @@
   "platform": "ALL",
   "queue": "RANKED_SOLO_5x5",
   "champion": "Varus",
-  "updatedAt": "2026-11-19T21:25:24.099564+00:00",
+  "updatedAt": "2026-11-20T21:26:58.653927+00:00",
   "mainLane": "TOP",
   "players": 2,
   "mainLaneGames": 57,
@@ -180,16 +180,22 @@
         }
       }
     },
-    "MID": {
+    "BOTTOM": {
       "players": 1,
-      "mainLaneGames": 28,
-      "mainLaneNext": [],
+      "mainLaneGames": 27,
+      "mainLaneNext": [
+        {
+          "champion": "Jhin",
+          "games": 1,
+          "rate": 3.7
+        }
+      ],
       "offLanes": {
         "TOP": {
           "games": 4,
           "picks": [
             {
-              "champion": "Varus",
+              "champion": "Kennen",
               "games": 4,
               "rate": 100.0
             }
@@ -198,6 +204,74 @@
         "JUNGLE": {
           "games": 0,
           "picks": []
+        },
+        "MID": {
+          "games": 4,
+          "picks": [
+            {
+              "champion": "Varus",
+              "games": 3,
+              "rate": 75.0
+            },
+            {
+              "champion": "Leblanc",
+              "games": 1,
+              "rate": 25.0
+            }
+          ]
+        },
+        "UTILITY": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Janna",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Karma",
+              "games": 2,
+              "rate": 40.0
+            },
+            {
+              "champion": "Lulu",
+              "games": 1,
+              "rate": 20.0
+            }
+          ]
+        }
+      }
+    },
+    "MID": {
+      "players": 1,
+      "mainLaneGames": 26,
+      "mainLaneNext": [
+        {
+          "champion": "Yorick",
+          "games": 1,
+          "rate": 3.8
+        }
+      ],
+      "offLanes": {
+        "TOP": {
+          "games": 5,
+          "picks": [
+            {
+              "champion": "Varus",
+              "games": 5,
+              "rate": 100.0
+            }
+          ]
+        },
+        "JUNGLE": {
+          "games": 1,
+          "picks": [
+            {
+              "champion": "Quinn",
+              "games": 1,
+              "rate": 100.0
+            }
+          ]
         },
         "BOTTOM": {
           "games": 6,
